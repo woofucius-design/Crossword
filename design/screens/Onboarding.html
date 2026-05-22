@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexicon – Onboarding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #07080f; display: flex; align-items: center; justify-content: center; font-family: 'Nunito', sans-serif; overflow: hidden; }
+    ::-webkit-scrollbar { width: 0; }
+
+    @keyframes floatIn {
+      0%   { opacity: 0; transform: translateY(40px) scale(0.85); }
+      100% { opacity: 1; transform: translateY(0)    scale(1); }
+    }
+    @keyframes floatOut {
+      0%   { opacity: 1; transform: translateY(0)     scale(1); }
+      100% { opacity: 0; transform: translateY(-40px) scale(0.85); }
+    }
+    @keyframes wordDrift {
+      0%   { opacity: 0; transform: translateY(8px)  scale(0.96); }
+      20%  { opacity: var(--pk); }
+      80%  { opacity: var(--pk); }
+      100% { opacity: 0; transform: translateY(-10px) scale(1.03); }
+    }
+    @keyframes cardFlyIn {
+      0%   { opacity: 0; transform: translate(var(--fx), var(--fy)) scale(0.6) rotate(var(--fr)); }
+      60%  { transform: translate(0, 0) scale(1.06) rotate(0deg); }
+      100% { opacity: 1; transform: translate(0, 0) scale(1) rotate(0deg); }
+    }
+    @keyframes cardLand {
+      0%   { transform: scale(1.06); }
+      50%  { transform: scale(0.96); }
+      100% { transform: scale(1); }
+    }
+    @keyframes starBurst {
+      0%   { transform: scale(0) rotate(-30deg); opacity: 0; }
+      60%  { transform: scale(1.4) rotate(5deg);  opacity: 1; }
+      100% { transform: scale(1)   rotate(0deg);  opacity: 1; }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position:  200% center; }
+    }
+    @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.5} }
+    @keyframes slideUp { from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1} }
+    @keyframes fadeIn  { from{opacity:0} to{opacity:1} }
+    @keyframes correctFlash { 0%,100%{background:rgba(52,211,153,0.12)} 50%{background:rgba(52,211,153,0.28)} }
+    @keyframes wrongShake {
+      0%,100%{transform:translateX(0)}
+      20%{transform:translateX(-8px)}
+      40%{transform:translateX(8px)}
+      60%{transform:translateX(-5px)}
+      80%{transform:translateX(5px)}
+    }
+    @keyframes countUp { from{transform:translateY(8px);opacity:0} to{transform:translateY(0);opacity:1} }
+
+    input {
+      background: transparent; border: none; outline: none;
+      font-family: 'Space Grotesk', sans-serif; font-weight: 700;
+      font-size: 24px; color: #fff; text-align: center; width: 100%;
+      caret-color: #FFE566;
+    }
+    input::placeholder { color: rgba(255,255,255,0.2); }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+const C = {
+  bg:'#0D1B2A', surface:'#132236', card:'#16293D',
+  border:'rgba(255,255,255,0.07)', text:'#FFFFFF',
+  muted:'rgba(255,255,255,0.45)', dim:'rgba(255,255,255,0.2)',
+  yellow:'#FFE566', orange:'#FF6B35', mint:'#34D399',
+};
+
+// ── Background floating words ──────────────────────────────────
+const BG_WORDS = [
+  {w:'EPHEMERAL', x:7,  y:10, fs:13, pk:0.07, dur:11, del:0   },
+  {w:'LUCID',     x:78, y:7,  fs:22, pk:0.10, dur:9,  del:2.5 },
+  {w:'STOIC',     x:55, y:18, fs:11, pk:0.06, dur:13, del:1   },
+  {w:'OPULENT',   x:20, y:28, fs:17, pk:0.09, dur:10, del:3.8 },
+  {w:'PRAGMATIC', x:70, y:35, fs:12, pk:0.07, dur:14, del:0.5 },
+  {w:'RHETORIC',  x:5,  y:50, fs:20, pk:0.08, dur:12, del:4.5 },
+  {w:'VERBOSE',   x:83, y:45, fs:14, pk:0.07, dur:10, del:6   },
+  {w:'CANDOR',    x:42, y:58, fs:16, pk:0.09, dur:11, del:1.5 },
+  {w:'BANAL',     x:14, y:68, fs:11, pk:0.05, dur:15, del:7   },
+  {w:'TENACIOUS', x:60, y:74, fs:12, pk:0.06, dur:13, del:5   },
+  {w:'DILIGENT',  x:82, y:80, fs:15, pk:0.08, dur:10, del:3   },
+  {w:'ASTUTE',    x:35, y:86, fs:21, pk:0.09, dur:11, del:1.2 },
+  {w:'FERVENT',   x:22, y:4,  fs:16, pk:0.08, dur:13, del:9   },
+  {w:'NUANCE',    x:48, y:40, fs:14, pk:0.07, dur:12, del:7.5 },
+  {w:'WANE',      x:50, y:72, fs:24, pk:0.10, dur:10, del:4.8 },
+];
+
+function BackgroundWords({ opacity = 1 }) {
+  return (
+    <div style={{ position:'absolute', inset:0, overflow:'hidden', pointerEvents:'none', opacity, transition:'opacity 1s' }}>
+      {BG_WORDS.map((v,i) => (
+        <div key={i} style={{
+          position:'absolute', left:`${v.x}%`, top:`${v.y}%`,
+          fontFamily:'Space Grotesk, sans-serif', fontWeight:700,
+          fontSize:v.fs, color:`rgba(255,255,255,${v.pk})`,
+          letterSpacing: v.fs>16 ? -0.5 : 0.5,
+          whiteSpace:'nowrap', userSelect:'none',
+          '--pk': v.pk,
+          animation:`wordDrift ${v.dur}s ease-in-out ${v.del}s infinite`,
+        }}>{v.w}</div>
+      ))}
+    </div>
+  );
+}
+
+function MeshBg() {
+  return (
+    <div style={{ position:'absolute', inset:0, pointerEvents:'none' }}>
+      <div style={{ position:'absolute', inset:0, background:'#0D1B2A' }} />
+      <div style={{ position:'absolute', top:'-10%', left:'-20%', width:'70%', height:'60%', borderRadius:'50%', background:'radial-gradient(ellipse, rgba(99,102,241,0.14) 0%, transparent 70%)' }} />
+      <div style={{ position:'absolute', bottom:'-5%', right:'-15%', width:'60%', height:'55%', borderRadius:'50%', background:'radial-gradient(ellipse, rgba(52,211,153,0.08) 0%, transparent 70%)' }} />
+    </div>
+  );
+}
+
+function StatusBar() {
+  return (
+    <div style={{ height:54, display:'flex', alignItems:'flex-end', justifyContent:'space-between', padding:'0 22px 10px', position:'relative', zIndex:20, flexShrink:0 }}>
+      <span style={{ fontWeight:600, fontSize:15, color:'#fff', fontFamily:'-apple-system, system-ui' }}>9:41</span>
+      <div style={{ width:126, height:34, borderRadius:20, background:'#000', position:'absolute', top:10, left:'50%', transform:'translateX(-50%)', zIndex:30 }} />
+      <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="white" strokeOpacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="1.5" fill="white"/></svg>
+    </div>
+  );
+}
+
+function SkipBtn({ onSkip }) {
+  return (
+    <div onClick={onSkip} style={{ position:'absolute', top:70, right:18, zIndex:60, fontFamily:'Nunito', fontWeight:700, fontSize:13, color:C.muted, cursor:'pointer', padding:'4px 8px' }}>
+      Skip
+    </div>
+  );
+}
+
+function ProgressDots({ total, current }) {
+  return (
+    <div style={{ display:'flex', gap:6, justifyContent:'center', marginBottom:24 }}>
+      {Array.from({length:total}).map((_,i) => (
+        <div key={i} style={{
+          width: i===current ? 20 : 6, height:6, borderRadius:3,
+          background: i===current ? C.yellow : i<current ? 'rgba(255,229,102,0.4)' : 'rgba(255,255,255,0.15)',
+          transition:'all 0.3s cubic-bezier(0.22,1,0.36,1)',
+        }} />
+      ))}
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// STEP 0: SPLASH
+// ══════════════════════════════════════════════════════════════
+function Splash({ onNext, onSkip }) {
+  const [phase, setPhase] = useState(0);
+  // 0=logo in, 1=tagline, 2=word flyins, 3=cta
+
+  useEffect(() => {
+    const t1 = setTimeout(() => setPhase(1), 600);
+    const t2 = setTimeout(() => setPhase(2), 1200);
+    const t3 = setTimeout(() => setPhase(3), 2400);
+    return () => [t1,t2,t3].forEach(clearTimeout);
+  }, []);
+
+  const flyWords = ['LUCID','TENACIOUS','EPHEMERAL','OPULENT','CANDOR'];
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'0 28px', gap:0, position:'relative' }}>
+      <SkipBtn onSkip={onSkip} />
+
+      {/* Logo */}
+      <div style={{
+        opacity: phase >= 0 ? 1 : 0,
+        animation: 'floatIn 0.7s cubic-bezier(0.22,1,0.36,1) both',
+        marginBottom: 12, textAlign:'center',
+      }}>
+        <div style={{
+          fontFamily:'Space Grotesk', fontWeight:700, fontSize:48,
+          letterSpacing:-2, lineHeight:1,
+          background:'linear-gradient(135deg, #fff 30%, rgba(255,229,102,0.85) 100%)',
+          WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
+        }}>LEXICON</div>
+        <div style={{
+          width:48, height:3, borderRadius:2,
+          background:'linear-gradient(90deg, #FFE566, #F5A623)',
+          margin:'8px auto 0',
+        }} />
+      </div>
+
+      {/* Tagline */}
+      <div style={{
+        fontFamily:'Nunito', fontSize:18, fontWeight:700,
+        color:'rgba(255,255,255,0.7)', textAlign:'center', lineHeight:1.5,
+        marginBottom:32,
+        opacity: phase >= 1 ? 1 : 0,
+        transform: phase >= 1 ? 'translateY(0)' : 'translateY(10px)',
+        transition:'all 0.5s ease',
+      }}>
+        Collect words.<br/>Beat the SAT.
+      </div>
+
+      {/* Flying word cards */}
+      <div style={{
+        display:'flex', gap:8, flexWrap:'wrap', justifyContent:'center',
+        marginBottom:36, minHeight:80,
+        opacity: phase >= 2 ? 1 : 0,
+        transition:'opacity 0.3s',
+      }}>
+        {flyWords.map((w,i) => (
+          <div key={w} style={{
+            background:'rgba(255,255,255,0.06)',
+            border:'1px solid rgba(255,229,102,0.25)',
+            borderRadius:10, padding:'6px 12px',
+            fontFamily:'Space Grotesk', fontWeight:700, fontSize:13,
+            color:'rgba(255,229,102,0.85)',
+            '--fx': `${(i-2)*60}px`,
+            '--fy': `${40+i*10}px`,
+            '--fr': `${(i-2)*8}deg`,
+            animation: phase>=2 ? `cardFlyIn 0.5s cubic-bezier(0.22,1,0.36,1) ${i*0.12}s both` : 'none',
+          }}>
+            <span style={{fontSize:10, marginRight:4, color:C.mint}}>⭐</span>{w}
+          </div>
+        ))}
+      </div>
+
+      {/* CTA */}
+      <div style={{
+        opacity: phase >= 3 ? 1 : 0,
+        transform: phase >= 3 ? 'translateY(0)' : 'translateY(12px)',
+        transition:'all 0.4s ease', width:'100%',
+      }}>
+        <button onClick={onNext} style={{
+          width:'100%', height:54, borderRadius:16,
+          background:'linear-gradient(135deg, #FFE566, #F5A623)',
+          border:'none', cursor:'pointer',
+          fontFamily:'Nunito', fontWeight:900, fontSize:18, color:'#3D2800',
+          boxShadow:'0 6px 24px rgba(245,166,35,0.4)',
+          display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+        }}>
+          Start Collecting →
+        </button>
+        <div style={{ textAlign:'center', marginTop:12, fontFamily:'Nunito', fontSize:12, color:C.dim }}>
+          Free · No account needed to start
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// STEP 1: COLLECTION HOOK — words fly in & collect
+// ══════════════════════════════════════════════════════════════
+const HOOK_WORDS = [
+  { word:'EPHEMERAL', def:'lasting for a very short time',       color:'#F97316' },
+  { word:'LUCID',     def:'clearly expressed; easy to understand', color:'#60A5FA' },
+  { word:'CANDOR',    def:'the quality of being open and honest', color:'#34D399' },
+  { word:'STOIC',     def:'enduring pain without showing feelings', color:'#EAB308' },
+  { word:'OPULENT',   def:'ostentatiously rich and luxurious',    color:'#A855F7' },
+];
+
+function CollectionHook({ onNext, onSkip }) {
+  const [collected, setCollected] = useState([]);
+  const [active, setActive] = useState(null);
+  const [done, setDone] = useState(false);
+  const [starPos, setStarPos] = useState([]);
+  const idxRef = useRef(0);
+
+  const collectNext = useCallback(() => {
+    if (idxRef.current >= HOOK_WORDS.length) { setDone(true); return; }
+    const w = HOOK_WORDS[idxRef.current];
+    setActive(w);
+    // spawn stars
+    setStarPos(Array.from({length:6}, (_,i) => ({ id:i, x:Math.random()*200-100, y:Math.random()*-120-20, delay:i*0.06 })));
+    setTimeout(() => {
+      setCollected(c => [...c, w]);
+      setActive(null);
+      idxRef.current++;
+      if (idxRef.current < HOOK_WORDS.length) {
+        setTimeout(collectNext, 300);
+      } else {
+        setDone(true);
+      }
+    }, 900);
+  }, []);
+
+  useEffect(() => {
+    const t = setTimeout(collectNext, 600);
+    return () => clearTimeout(t);
+  }, []);
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', padding:'0 20px 24px' }}>
+      <SkipBtn onSkip={onSkip} />
+
+      <div style={{ textAlign:'center', marginBottom:20, animation:'fadeIn 0.5s ease' }}>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:24, color:'#fff', letterSpacing:-0.5, marginBottom:4 }}>
+          Your collection grows<br/>with every puzzle
+        </div>
+        <div style={{ fontFamily:'Nunito', fontSize:13, color:C.muted }}>
+          Every word you solve gets added to your library
+        </div>
+      </div>
+
+      {/* Collection grid — fills as words arrive */}
+      <div style={{ flex:1, display:'flex', flexDirection:'column', gap:8, justifyContent:'center', position:'relative' }}>
+
+        {/* Stars */}
+        {starPos.map(s => (
+          <div key={s.id} style={{
+            position:'absolute', left:`calc(50% + ${s.x}px)`, top:'50%',
+            fontSize:14, pointerEvents:'none', zIndex:10,
+            animation:`cardFlyIn 0.6s ease ${s.delay}s both`,
+          }}>⭐</div>
+        ))}
+
+        {/* Active word — big reveal */}
+        {active && (
+          <div style={{
+            position:'absolute', inset:0, zIndex:20,
+            display:'flex', alignItems:'center', justifyContent:'center',
+            pointerEvents:'none',
+          }}>
+            <div style={{
+              background:'linear-gradient(145deg, #1e1535, #2a1e45)',
+              border:`2px solid ${active.color}60`,
+              borderRadius:20, padding:'20px 28px', textAlign:'center',
+              boxShadow:`0 8px 40px ${active.color}35`,
+              animation:'starBurst 0.5s cubic-bezier(0.22,1,0.36,1) both',
+            }}>
+              <div style={{ fontFamily:'Nunito', fontWeight:900, fontSize:10, color:active.color, letterSpacing:1.5, textTransform:'uppercase', marginBottom:6 }}>✦ Word Unlocked</div>
+              <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:30, color:'#fff', letterSpacing:-0.8, marginBottom:6 }}>{active.word}</div>
+              <div style={{ fontFamily:'Lora', fontSize:13, color:'rgba(255,255,255,0.65)', fontStyle:'italic', lineHeight:1.5 }}>{active.def}</div>
+            </div>
+          </div>
+        )}
+
+        {/* Collected cards */}
+        {HOOK_WORDS.map((w, i) => {
+          const isCollected = collected.some(c => c.word === w.word);
+          return (
+            <div key={w.word} style={{
+              background: isCollected ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.02)',
+              border: `1.5px solid ${isCollected ? w.color+'50' : 'rgba(255,255,255,0.06)'}`,
+              borderRadius:13, padding:'10px 14px',
+              display:'flex', alignItems:'center', gap:10,
+              opacity: isCollected ? 1 : 0.25,
+              transform: isCollected ? 'scale(1)' : 'scale(0.97)',
+              transition:'all 0.4s cubic-bezier(0.22,1,0.36,1)',
+              boxShadow: isCollected ? `0 2px 16px ${w.color}20` : 'none',
+            }}>
+              <div style={{
+                width:32, height:32, borderRadius:9,
+                background: isCollected ? `${w.color}20` : 'rgba(255,255,255,0.05)',
+                border:`1px solid ${isCollected ? w.color+'40' : 'rgba(255,255,255,0.06)'}`,
+                display:'flex', alignItems:'center', justifyContent:'center',
+                fontSize:14, flexShrink:0, transition:'all 0.3s',
+              }}>{isCollected ? '⭐' : '○'}</div>
+              <div style={{ flex:1, minWidth:0 }}>
+                <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:15, color: isCollected ? '#fff' : C.dim, letterSpacing:-0.2 }}>{w.word}</div>
+                <div style={{ fontFamily:'Nunito', fontSize:11, color: isCollected ? C.muted : 'rgba(255,255,255,0.15)', lineHeight:1.3, marginTop:1,
+                  overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{w.def}</div>
+              </div>
+              {isCollected && (
+                <div style={{
+                  background:`${w.color}20`, border:`1px solid ${w.color}40`,
+                  borderRadius:6, padding:'2px 7px',
+                  fontFamily:'Nunito', fontWeight:800, fontSize:9, color:w.color,
+                  textTransform:'uppercase', letterSpacing:0.5,
+                }}>New</div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* CTA */}
+      <div style={{ marginTop:16 }}>
+        {done ? (
+          <button onClick={onNext} style={{
+            width:'100%', height:50, borderRadius:15,
+            background:'linear-gradient(135deg, #FFE566, #F5A623)',
+            border:'none', cursor:'pointer',
+            fontFamily:'Nunito', fontWeight:900, fontSize:16, color:'#3D2800',
+            animation:'floatIn 0.4s ease',
+            boxShadow:'0 4px 20px rgba(245,166,35,0.35)',
+          }}>Let's set up your profile →</button>
+        ) : (
+          <div style={{
+            height:50, borderRadius:15,
+            background:'rgba(255,255,255,0.04)',
+            border:'1px solid rgba(255,255,255,0.07)',
+            display:'flex', alignItems:'center', justifyContent:'center',
+            fontFamily:'Nunito', fontWeight:700, fontSize:14, color:C.dim,
+          }}>
+            <span style={{ animation:'pulse 1s ease infinite' }}>Collecting words…</span>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// STEP 2: USERNAME + AVATAR
+// ══════════════════════════════════════════════════════════════
+const AVATARS = [
+  { id:'owl',   emoji:'🦉', color:'#6366F1', label:'Owl' },
+  { id:'fox',   emoji:'🦊', color:'#F97316', label:'Fox' },
+  { id:'lion',  emoji:'🦁', color:'#EAB308', label:'Lion' },
+  { id:'shark', emoji:'🦈', color:'#0EA5E9', label:'Shark' },
+  { id:'wolf',  emoji:'🐺', color:'#8B5CF6', label:'Wolf' },
+  { id:'eagle', emoji:'🦅', color:'#34D399', label:'Eagle' },
+];
+
+function ProfileSetup({ onNext, onSkip }) {
+  const [username, setUsername] = useState('');
+  const [avatar, setAvatar] = useState('owl');
+  const sel = AVATARS.find(a => a.id === avatar);
+  const canContinue = username.trim().length >= 2;
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', padding:'0 20px 24px' }}>
+      <SkipBtn onSkip={onSkip} />
+
+      <div style={{ textAlign:'center', marginBottom:24, animation:'slideUp 0.4s ease' }}>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:24, color:'#fff', letterSpacing:-0.5, marginBottom:4 }}>Who's collecting?</div>
+        <div style={{ fontFamily:'Nunito', fontSize:13, color:C.muted }}>Pick your look and set a name</div>
+      </div>
+
+      {/* Selected avatar big display */}
+      <div style={{ textAlign:'center', marginBottom:20, animation:'slideUp 0.4s ease 0.05s both' }}>
+        <div style={{
+          width:80, height:80, borderRadius:22, margin:'0 auto',
+          background:`linear-gradient(135deg, ${sel.color}30, ${sel.color}15)`,
+          border:`2px solid ${sel.color}50`,
+          display:'flex', alignItems:'center', justifyContent:'center',
+          fontSize:44,
+          boxShadow:`0 8px 28px ${sel.color}30`,
+          transition:'all 0.3s cubic-bezier(0.22,1,0.36,1)',
+        }}>{sel.emoji}</div>
+      </div>
+
+      {/* Avatar grid */}
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(6,1fr)', gap:8, marginBottom:24, animation:'slideUp 0.4s ease 0.1s both' }}>
+        {AVATARS.map(a => (
+          <div key={a.id} onClick={() => setAvatar(a.id)} style={{
+            height:52, borderRadius:13, cursor:'pointer',
+            background: avatar===a.id ? `${a.color}20` : 'rgba(255,255,255,0.04)',
+            border:`2px solid ${avatar===a.id ? a.color : 'rgba(255,255,255,0.08)'}`,
+            display:'flex', alignItems:'center', justifyContent:'center',
+            fontSize:22,
+            transition:'all 0.2s',
+            transform: avatar===a.id ? 'scale(1.08)' : 'scale(1)',
+          }}>{a.emoji}</div>
+        ))}
+      </div>
+
+      {/* Username input */}
+      <div style={{
+        background:'rgba(255,255,255,0.05)', borderRadius:14,
+        border:`1.5px solid ${username.length>0 ? 'rgba(255,229,102,0.35)' : 'rgba(255,255,255,0.1)'}`,
+        padding:'14px 18px', marginBottom:12,
+        transition:'border-color 0.2s',
+        animation:'slideUp 0.4s ease 0.15s both',
+      }}>
+        <div style={{ fontFamily:'Nunito', fontWeight:700, fontSize:10, color:C.muted, textTransform:'uppercase', letterSpacing:1, marginBottom:6 }}>Your name or nickname</div>
+        <input
+          value={username}
+          onChange={e => setUsername(e.target.value)}
+          placeholder="e.g. WordHunter99"
+          maxLength={20}
+          autoFocus
+        />
+      </div>
+
+      <div style={{ fontFamily:'Nunito', fontSize:11, color:C.dim, textAlign:'center', marginBottom:20, animation:'slideUp 0.4s ease 0.2s both' }}>
+        Only your first name or a nickname — no account needed
+      </div>
+
+      <button onClick={() => canContinue && onNext({ username, avatar })} style={{
+        width:'100%', height:50, borderRadius:15, marginTop:'auto',
+        background: canContinue ? 'linear-gradient(135deg, #FFE566, #F5A623)' : 'rgba(255,255,255,0.06)',
+        border:'none', cursor: canContinue ? 'pointer' : 'default',
+        fontFamily:'Nunito', fontWeight:900, fontSize:16,
+        color: canContinue ? '#3D2800' : C.dim,
+        transition:'all 0.3s',
+        boxShadow: canContinue ? '0 4px 20px rgba(245,166,35,0.3)' : 'none',
+        animation:'slideUp 0.4s ease 0.25s both',
+      }}>
+        {canContinue ? `Let's go, ${username.trim()} →` : 'Enter a nickname to continue'}
+      </button>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// STEP 3: SAT GOAL
+// ══════════════════════════════════════════════════════════════
+const SCORE_GOALS = [
+  { label:'1200+', sub:'Getting started',      color:'#60A5FA', pct:0.55 },
+  { label:'1400+', sub:'College-ready',         color:'#34D399', pct:0.72 },
+  { label:'1500+', sub:'Competitive schools',   color:'#FFE566', pct:0.82 },
+  { label:'1600',  sub:'Perfect score',         color:'#A855F7', pct:1.0  },
+];
+const DATE_OPTS = ['1 month','3 months','6 months','1+ year','Not sure yet'];
+
+function GoalSetup({ onNext, onSkip }) {
+  const [goal, setGoal] = useState('1400+');
+  const [date, setDate] = useState('3 months');
+  const sel = SCORE_GOALS.find(g => g.label === goal);
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', padding:'0 20px 24px', overflowY:'auto' }}>
+      <SkipBtn onSkip={onSkip} />
+
+      <div style={{ textAlign:'center', marginBottom:22, animation:'slideUp 0.4s ease' }}>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:24, color:'#fff', letterSpacing:-0.5, marginBottom:4 }}>Set your target</div>
+        <div style={{ fontFamily:'Nunito', fontSize:13, color:C.muted }}>We'll tailor your word difficulty and pacing</div>
+      </div>
+
+      {/* Score goal */}
+      <div style={{ fontFamily:'Nunito', fontWeight:800, fontSize:10, color:C.muted, textTransform:'uppercase', letterSpacing:1, marginBottom:10, animation:'slideUp 0.4s ease 0.05s both' }}>
+        Target SAT Score
+      </div>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:20, animation:'slideUp 0.4s ease 0.08s both' }}>
+        {SCORE_GOALS.map(g => (
+          <div key={g.label} onClick={() => setGoal(g.label)} style={{
+            borderRadius:13, padding:'12px 14px', cursor:'pointer',
+            background: goal===g.label ? `${g.color}15` : 'rgba(255,255,255,0.04)',
+            border:`1.5px solid ${goal===g.label ? g.color+'55' : 'rgba(255,255,255,0.08)'}`,
+            transition:'all 0.2s',
+            position:'relative', overflow:'hidden',
+          }}>
+            {/* bar */}
+            <div style={{
+              position:'absolute', bottom:0, left:0,
+              height:2, background:g.color, opacity:0.4,
+              width: goal===g.label ? `${g.pct*100}%` : '0%',
+              transition:'width 0.4s ease',
+              borderRadius:'0 0 0 13px',
+            }} />
+            <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:20, color: goal===g.label ? g.color : '#fff', lineHeight:1, marginBottom:3 }}>{g.label}</div>
+            <div style={{ fontFamily:'Nunito', fontSize:11, color:C.muted }}>{g.sub}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Test date */}
+      <div style={{ fontFamily:'Nunito', fontWeight:800, fontSize:10, color:C.muted, textTransform:'uppercase', letterSpacing:1, marginBottom:10, animation:'slideUp 0.4s ease 0.14s both' }}>
+        When's your test?
+      </div>
+      <div style={{ display:'flex', flexWrap:'wrap', gap:7, marginBottom:24, animation:'slideUp 0.4s ease 0.17s both' }}>
+        {DATE_OPTS.map(d => (
+          <div key={d} onClick={() => setDate(d)} style={{
+            borderRadius:10, padding:'7px 13px', cursor:'pointer',
+            background: date===d ? `${sel.color}15` : 'rgba(255,255,255,0.04)',
+            border:`1.5px solid ${date===d ? sel.color+'50' : 'rgba(255,255,255,0.08)'}`,
+            fontFamily:'Nunito', fontWeight:date===d?800:600, fontSize:13,
+            color: date===d ? sel.color : C.muted,
+            transition:'all 0.2s',
+          }}>{d}</div>
+        ))}
+      </div>
+
+      {/* Tailored message */}
+      <div style={{
+        background:`${sel.color}10`, borderRadius:12,
+        border:`1px solid ${sel.color}25`,
+        padding:'10px 13px', marginBottom:20,
+        animation:'slideUp 0.4s ease 0.22s both',
+      }}>
+        <div style={{ fontFamily:'Nunito', fontSize:12, color:'rgba(255,255,255,0.75)', lineHeight:1.5 }}>
+          🎯 For <span style={{ color:sel.color, fontWeight:800 }}>{goal}</span> in <span style={{ color:sel.color, fontWeight:800 }}>{date}</span>, we'll aim for about <span style={{ color:'#fff', fontWeight:800 }}>{date==='1 month'?'8':date==='3 months'?'4':date==='6 months'?'3':'2'} new words/day</span> and prioritize high-frequency SAT vocabulary.
+        </div>
+      </div>
+
+      <button onClick={() => onNext({ goal, date })} style={{
+        width:'100%', height:50, borderRadius:15, marginTop:'auto',
+        background:`linear-gradient(135deg, ${sel.color}, ${sel.color}cc)`,
+        border:'none', cursor:'pointer',
+        fontFamily:'Nunito', fontWeight:900, fontSize:16,
+        color: goal==='1600' ? '#fff' : '#0D1B2A',
+        boxShadow:`0 4px 20px ${sel.color}30`,
+        animation:'slideUp 0.4s ease 0.26s both',
+      }}>
+        Set My Goal →
+      </button>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// STEP 4: VOCAB LEVEL CHECK
+// ══════════════════════════════════════════════════════════════
+const LEVEL_WORDS = [
+  { word:'VERBOSE',   def:'using or containing more words than needed',         options:['using too many words','extremely brave','open and honest','having bad luck'],      correct:0 },
+  { word:'EPHEMERAL', def:'lasting for a very short time',                       options:['very wealthy','lasting a short time','overly cautious','deeply truthful'],        correct:1 },
+  { word:'PRAGMATIC', def:'dealing with things sensibly and realistically',      options:['dealing with dreams only','dealing with things realistically','easily angered','secretly afraid'], correct:1 },
+  { word:'STOIC',     def:'enduring pain without showing feelings',              options:['enduring pain without showing it','extremely talkative','very clumsy','loudly emotional'], correct:0 },
+  { word:'CANDOR',    def:'the quality of being open and honest',                options:['great wealth','total confusion','open honesty','stubborn silence'],               correct:2 },
+];
+
+function LevelCheck({ username, onNext, onSkip }) {
+  const [idx, setIdx] = useState(0);
+  const [chosen, setChosen] = useState(null);
+  const [score, setScore] = useState(0);
+  const [done, setDone] = useState(false);
+  const [shake, setShake] = useState(false);
+
+  const q = LEVEL_WORDS[idx];
+
+  const pick = (optIdx) => {
+    if (chosen !== null) return;
+    setChosen(optIdx);
+    const correct = optIdx === q.correct;
+    if (correct) setScore(s => s+1);
+    else { setShake(true); setTimeout(()=>setShake(false),500); }
+    setTimeout(() => {
+      if (idx < LEVEL_WORDS.length-1) { setIdx(i=>i+1); setChosen(null); }
+      else setDone(true);
+    }, 900);
+  };
+
+  const level = score <= 1 ? { label:'Beginner',     color:'#60A5FA', desc:'Great starting point! We\'ll build from the basics.' }
+    : score <= 2 ? { label:'Developing',   color:'#34D399', desc:'Solid base — you know your fundamentals.' }
+    : score <= 3 ? { label:'Intermediate', color:'#FFE566', desc:'Nice! You already know many SAT words.' }
+    :              { label:'Advanced',     color:'#A855F7', desc:'Impressive! We\'ll challenge you with tough vocabulary.' };
+
+  if (done) return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'0 24px', gap:16 }}>
+      <div style={{ fontSize:48, animation:'starBurst 0.5s ease' }}>{score>=4?'🏆':score>=3?'⭐':'📚'}</div>
+      <div style={{ textAlign:'center' }}>
+        <div style={{ fontFamily:'Nunito', fontWeight:700, fontSize:12, color:level.color, textTransform:'uppercase', letterSpacing:1.5, marginBottom:6 }}>Starting Level</div>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:32, color:'#fff', letterSpacing:-0.8, lineHeight:1 }}>{level.label}</div>
+        <div style={{ fontFamily:'Nunito', fontSize:13, color:C.muted, marginTop:6, lineHeight:1.5 }}>{score}/{LEVEL_WORDS.length} correct</div>
+      </div>
+
+      <div style={{
+        background:`${level.color}12`, borderRadius:14,
+        border:`1px solid ${level.color}30`,
+        padding:'12px 16px', width:'100%', textAlign:'center',
+      }}>
+        <div style={{ fontFamily:'Nunito', fontSize:14, color:'rgba(255,255,255,0.8)', lineHeight:1.5 }}>{level.desc}</div>
+      </div>
+
+      <button onClick={() => onNext({ level: level.label, levelScore: score })} style={{
+        width:'100%', height:50, borderRadius:15,
+        background:`linear-gradient(135deg, #FFE566, #F5A623)`,
+        border:'none', cursor:'pointer',
+        fontFamily:'Nunito', fontWeight:900, fontSize:16, color:'#3D2800',
+        boxShadow:'0 4px 20px rgba(245,166,35,0.3)',
+        animation:'floatIn 0.4s ease',
+      }}>
+        Start Playing →
+      </button>
+    </div>
+  );
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', padding:'0 20px 24px' }}>
+      <SkipBtn onSkip={onSkip} />
+
+      <div style={{ textAlign:'center', marginBottom:18, animation:'slideUp 0.4s ease' }}>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:22, color:'#fff', letterSpacing:-0.3, marginBottom:4 }}>Quick level check</div>
+        <div style={{ fontFamily:'Nunito', fontSize:12, color:C.muted }}>{LEVEL_WORDS.length} words · takes 30 seconds</div>
+      </div>
+
+      {/* Progress */}
+      <div style={{ display:'flex', gap:4, marginBottom:20 }}>
+        {LEVEL_WORDS.map((_,i) => (
+          <div key={i} style={{ flex:1, height:3, borderRadius:2, background: i<idx ? C.mint : i===idx ? C.yellow : 'rgba(255,255,255,0.1)', transition:'background 0.3s' }} />
+        ))}
+      </div>
+
+      {/* Word */}
+      <div style={{
+        background:C.surface, borderRadius:16,
+        border:'1px solid rgba(255,255,255,0.08)',
+        padding:'18px 18px 14px', marginBottom:14,
+        textAlign:'center', animation:'slideUp 0.3s ease',
+        animation: shake ? 'wrongShake 0.4s ease' : 'slideUp 0.3s ease',
+      }}>
+        <div style={{ fontFamily:'Nunito', fontWeight:700, fontSize:10, color:C.muted, textTransform:'uppercase', letterSpacing:1, marginBottom:8 }}>What does this SAT word mean?</div>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:28, color:C.yellow, letterSpacing:-0.5 }}>{q.word}</div>
+      </div>
+
+      {/* Options */}
+      <div style={{ display:'flex', flexDirection:'column', gap:8, flex:1 }}>
+        {q.options.map((opt, i) => {
+          let bg = 'rgba(255,255,255,0.05)';
+          let border = 'rgba(255,255,255,0.09)';
+          let color = '#fff';
+          if (chosen !== null) {
+            if (i === q.correct) { bg='rgba(52,211,153,0.12)'; border='rgba(52,211,153,0.4)'; color=C.mint; }
+            else if (i===chosen && i!==q.correct) { bg='rgba(239,68,68,0.1)'; border='rgba(239,68,68,0.35)'; color='#FCA5A5'; }
+            else { color=C.dim; }
+          }
+          return (
+            <div key={i} onClick={() => pick(i)} style={{
+              background:bg, border:`1.5px solid ${border}`,
+              borderRadius:12, padding:'12px 14px',
+              display:'flex', alignItems:'center', gap:10,
+              cursor: chosen===null ? 'pointer' : 'default',
+              transition:'all 0.2s',
+            }}>
+              <div style={{
+                width:26, height:26, borderRadius:8, flexShrink:0,
+                background: chosen!==null && i===q.correct ? 'rgba(52,211,153,0.2)' : chosen!==null && i===chosen && i!==q.correct ? 'rgba(239,68,68,0.15)' : 'rgba(255,255,255,0.07)',
+                display:'flex', alignItems:'center', justifyContent:'center',
+                fontFamily:'Space Grotesk', fontWeight:700, fontSize:12, color,
+              }}>{chosen!==null && i===q.correct ? '✓' : chosen!==null && i===chosen && i!==q.correct ? '✗' : String.fromCharCode(65+i)}</div>
+              <div style={{ fontFamily:'Nunito', fontSize:13, color, lineHeight:1.4 }}>{opt}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// DONE: Welcome screen before home
+// ══════════════════════════════════════════════════════════════
+function Welcome({ data, onDone }) {
+  const avatarData = AVATARS.find(a => a.id === data.avatar) || AVATARS[0];
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    const t = setInterval(() => setCounter(c => {
+      if (c >= 5) { clearInterval(t); return c; }
+      return c+1;
+    }), 150);
+    return () => clearInterval(t);
+  }, []);
+
+  return (
+    <div style={{ flex:1, display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'0 24px', gap:20 }}>
+      {/* Avatar */}
+      <div style={{
+        width:90, height:90, borderRadius:24, margin:'0 auto',
+        background:`linear-gradient(135deg, ${avatarData.color}30, ${avatarData.color}15)`,
+        border:`2px solid ${avatarData.color}60`,
+        display:'flex', alignItems:'center', justifyContent:'center',
+        fontSize:50,
+        boxShadow:`0 12px 40px ${avatarData.color}35`,
+        animation:'starBurst 0.5s cubic-bezier(0.22,1,0.36,1)',
+      }}>{avatarData.emoji}</div>
+
+      <div style={{ textAlign:'center' }}>
+        <div style={{ fontFamily:'Space Grotesk', fontWeight:700, fontSize:28, color:'#fff', letterSpacing:-0.8, lineHeight:1, marginBottom:6 }}>
+          Ready, {data.username}!
+        </div>
+        <div style={{ fontFamily:'Nunito', fontSize:14, color:C.muted, lineHeight:1.6 }}>
+          {data.goal} target · {data.level} level<br/>Your collection awaits
+        </div>
+      </div>
+
+      {/* Starter collection */}
+      <div style={{
+        background:C.surface, borderRadius:16,
+        border:'1px solid rgba(255,255,255,0.08)',
+        padding:'14px 16px', width:'100%',
+        animation:'slideUp 0.4s ease 0.2s both',
+      }}>
+        <div style={{ fontFamily:'Nunito', fontWeight:800, fontSize:10, color:C.muted, textTransform:'uppercase', letterSpacing:1, marginBottom:10 }}>
+          🎁 Starter Pack — {counter} words added
+        </div>
+        <div style={{ display:'flex', flexWrap:'wrap', gap:5 }}>
+          {HOOK_WORDS.slice(0, counter).map(w => (
+            <div key={w.word} style={{
+              background:`${w.color}15`, border:`1px solid ${w.color}40`,
+              borderRadius:7, padding:'3px 9px',
+              fontFamily:'Space Grotesk', fontWeight:700, fontSize:11, color:w.color,
+              animation:'countUp 0.25s ease',
+            }}>{w.word}</div>
+          ))}
+        </div>
+      </div>
+
+      <button onClick={onDone} style={{
+        width:'100%', height:52, borderRadius:15,
+        background:'linear-gradient(135deg, #FFE566, #F5A623)',
+        border:'none', cursor:'pointer',
+        fontFamily:'Nunito', fontWeight:900, fontSize:17, color:'#3D2800',
+        boxShadow:'0 6px 24px rgba(245,166,35,0.4)',
+        animation:'slideUp 0.4s ease 0.35s both',
+        display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+      }}>
+        <svg width="18" height="18" viewBox="0 0 18 18"><polygon points="5,3 15,9 5,15" fill="#3D2800"/></svg>
+        Play First Puzzle
+      </button>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// ORCHESTRATOR
+// ══════════════════════════════════════════════════════════════
+const TOTAL_STEPS = 4;
+
+function OnboardingApp() {
+  const [step, setStep] = useState(0);
+  const [data, setData] = useState({ username:'', avatar:'owl', goal:'1400+', date:'3 months', level:'Beginner', levelScore:0 });
+  const [leaving, setLeaving] = useState(false);
+
+  const goNext = (patch = {}) => {
+    setLeaving(true);
+    setTimeout(() => {
+      setData(d => ({...d, ...patch}));
+      setStep(s => s+1);
+      setLeaving(false);
+    }, 260);
+  };
+
+  const skip = () => goNext();
+
+  const stepContent = () => {
+    switch(step) {
+      case 0: return <Splash      onNext={goNext} onSkip={skip} />;
+      case 1: return <CollectionHook onNext={goNext} onSkip={skip} />;
+      case 2: return <ProfileSetup  onNext={goNext} onSkip={skip} />;
+      case 3: return <GoalSetup     onNext={goNext} onSkip={skip} />;
+      case 4: return <LevelCheck    username={data.username} onNext={goNext} onSkip={skip} />;
+      case 5: return <Welcome       data={data} onDone={() => setStep(0)} />;
+      default: return <Splash onNext={goNext} onSkip={skip} />;
+    }
+  };
+
+  return (
+    <div style={{ height:'100%', background:C.bg, display:'flex', flexDirection:'column', position:'relative', overflow:'hidden' }}>
+      <MeshBg />
+      <BackgroundWords opacity={step <= 1 ? 1 : 0.3} />
+
+      <div style={{ position:'relative', zIndex:10, display:'flex', flexDirection:'column', height:'100%' }}>
+        <StatusBar />
+
+        {/* Progress dots (steps 2–4) */}
+        {step >= 2 && step <= 4 && (
+          <div style={{ padding:'0 20px 4px' }}>
+            <ProgressDots total={3} current={step-2} />
+          </div>
+        )}
+
+        {/* Content */}
+        <div style={{
+          flex:1, display:'flex', flexDirection:'column',
+          opacity: leaving ? 0 : 1,
+          transform: leaving ? 'translateY(8px)' : 'translateY(0)',
+          transition:'opacity 0.25s ease, transform 0.25s ease',
+          overflowY:'auto', overflowX:'hidden',
+        }}>
+          {stepContent()}
+        </div>
+      </div>
+
+      {/* home indicator */}
+      <div style={{ position:'absolute', bottom:8, left:'50%', transform:'translateX(-50%)', width:134, height:5, borderRadius:3, background:'rgba(255,255,255,0.3)', pointerEvents:'none', zIndex:50 }} />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div style={{
+      display:'flex', alignItems:'center', justifyContent:'center',
+      minHeight:'100vh',
+      background:'radial-gradient(ellipse at 40% 50%, #1a1a2e 0%, #07080f 60%)',
+    }}>
+      <div style={{ position:'absolute', top:20, left:0, right:0, textAlign:'center' }}>
+        <div style={{ fontFamily:'Nunito', fontWeight:900, fontSize:12, color:'rgba(255,255,255,0.25)', letterSpacing:3, textTransform:'uppercase' }}>
+          LEXICON · Onboarding Flow
+        </div>
+      </div>
+      <div style={{
+        width:402, height:874, borderRadius:48, overflow:'hidden',
+        background:C.bg,
+        boxShadow:'0 40px 100px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)',
+        position:'relative',
+      }}>
+        <div style={{ position:'absolute', top:12, left:'50%', transform:'translateX(-50%)', width:126, height:36, borderRadius:20, background:'#000', zIndex:50, pointerEvents:'none' }} />
+        <OnboardingApp />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

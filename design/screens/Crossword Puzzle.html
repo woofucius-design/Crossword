@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexicon – Crossword Puzzle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #0a0a12; display: flex; align-items: center; justify-content: center; font-family: 'Nunito', sans-serif; overflow: hidden; }
+
+    /* ── Letter animations ────────────────────────────── */
+    @keyframes letterPop {
+      0%   { transform: scale(0.4); opacity: 0.5; }
+      55%  { transform: scale(1.18); }
+      80%  { transform: scale(0.96); }
+      100% { transform: scale(1);   opacity: 1; }
+    }
+    @keyframes wordRipple {
+      0%,100% { background-color: var(--cell-bg); }
+      40%     { background-color: #C8F5E1; }
+    }
+    @keyframes wordRippleVocab {
+      0%,100% { background-color: var(--cell-bg); }
+      40%     { background-color: #FFE566; }
+    }
+    @keyframes slideUp   { from{transform:translateY(20px);opacity:0} to{transform:translateY(0);opacity:1} }
+    @keyframes slideDown { from{transform:translateY(0);opacity:1}  to{transform:translateY(120%);opacity:0} }
+    @keyframes fadeIn    { from{opacity:0} to{opacity:1} }
+    @keyframes toastPop  {
+      0%  {transform:translateY(100%);opacity:0}
+      60% {transform:translateY(-4px);opacity:1}
+      100%{transform:translateY(0);opacity:1}
+    }
+    @keyframes floatStar { 0%{transform:translateY(0) scale(1);opacity:1} 100%{transform:translateY(-50px) scale(0.5);opacity:0} }
+    @keyframes shimmer   { 0%{background-position:-200% center} 100%{background-position:200% center} }
+    @keyframes toastProgress { from{width:100%} to{width:0%} }
+    ::-webkit-scrollbar { width: 0; }
+
+    .cell-letter {
+      animation: letterPop 0.28s cubic-bezier(0.22,1,0.36,1) both;
+    }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+// ══════════════════════════════════════════════════════════════
+// PUZZLE DATA
+// ══════════════════════════════════════════════════════════════
+// 10×10 NYT-style grid. # = black square.
+// SAT vocab words: LUCID (1A), CANDOR (2D), OPULENT (4A), STOIC (7A), VERBOSE (12A), TERSE (13A)
+const SOLUTION = [
+  ['#','#','#','#','L','U','C','I','D','#'],
+  ['#','#','#','#','#','#','A','R','E','#'],
+  ['#','O','P','U','L','E','N','T','#','#'],
+  ['#','#','#','B','O','N','D','#','#','D'],
+  ['S','T','O','I','C','#','O','D','E','A'],
+  ['#','#','N','#','#','#','R','A','N','T'],
+  ['#','#','C','O','T','#','#','#','#','E'],
+  ['#','V','E','R','B','O','S','E','#','S'],
+  ['#','#','#','#','T','E','R','S','E','#'],
+  ['#','#','#','#','#','#','#','#','#','#'],
+];
+const ROWS = 10, COLS = 10;
+
+// Cell numbers (top-left of each word's first cell)
+const CELL_NUMS = {
+  '0,4':1, '0,6':2,
+  '1,6':3,
+  '2,1':4,
+  '3,3':5, '3,9':6,
+  '4,0':7, '4,2':8, '4,6':9,
+  '5,6':10,
+  '6,2':11,
+  '7,1':12,
+  '8,4':13,
+};
+
+// SAT vocabulary words — these get gold animation
+const SAT_WORDS = new Set(['LUCID','CANDOR','OPULENT','STOIC','VERBOSE','TERSE']);
+
+const WORDS = [
+  // ── SAT VOCAB ──────────────────────────────────────
+  { id:'1A',  num:1,  dir:'across', r:0, c:4, len:5, word:'LUCID',
+    clue:'"Clearly expressed; easy to understand"',
+    def:'adjective — clear, coherent; easy to understand; mentally sound' },
+  { id:'2D',  num:2,  dir:'down',   r:0, c:6, len:6, word:'CANDOR',
+    clue:'"Frankness and honesty in expression"',
+    def:'noun — the quality of being open, honest, and direct' },
+  { id:'4A',  num:4,  dir:'across', r:2, c:1, len:7, word:'OPULENT',
+    clue:'"Ostentatiously rich and luxurious"',
+    def:'adjective — showing great wealth; lavish; exhibiting luxury' },
+  { id:'7A',  num:7,  dir:'across', r:4, c:0, len:5, word:'STOIC',
+    clue:'"Enduring hardship without showing feelings"',
+    def:'adjective — enduring pain or difficulty without complaint or emotion' },
+  { id:'12A', num:12, dir:'across', r:7, c:1, len:7, word:'VERBOSE',
+    clue:'"Using more words than needed"',
+    def:'adjective — using or expressed in more words than are needed; wordy' },
+  { id:'13A', num:13, dir:'across', r:8, c:4, len:5, word:'TERSE',
+    clue:'"Sparing in words; brief to the point of rudeness"',
+    def:'adjective — briefly and cleanly expressed; curt' },
+  // ── FILLER ─────────────────────────────────────────
+  { id:'3A',  num:3,  dir:'across', r:1, c:6, len:3, word:'ARE',   clue:'"To exist (plural present tense)"', def:'' },
+  { id:'5A',  num:5,  dir:'across', r:3, c:3, len:4, word:'BOND',  clue:'"A tie or connection"', def:'' },
+  { id:'9A',  num:9,  dir:'across', r:4, c:6, len:4, word:'ODEA',  clue:'"Small ancient theater for music"', def:'' },
+  { id:'10A', num:10, dir:'across', r:5, c:6, len:4, word:'RANT',  clue:'"To speak or shout at length in anger"', def:'' },
+  { id:'11A', num:11, dir:'across', r:6, c:2, len:3, word:'COT',   clue:'"A small, narrow bed"', def:'' },
+  { id:'6D',  num:6,  dir:'down',   r:3, c:9, len:5, word:'DATES', clue:'"Calendar days; romantic outings"', def:'' },
+  { id:'8D',  num:8,  dir:'down',   r:4, c:2, len:4, word:'ONCE',  clue:'"One single time"', def:'' },
+];
+
+function getCells(word) {
+  return Array.from({ length: word.len }, (_, i) =>
+    word.dir === 'across'
+      ? { r: word.r, c: word.c + i }
+      : { r: word.r + i, c: word.c }
+  );
+}
+
+function getWordForCell(r, c, dir) {
+  return WORDS.find(w => {
+    if (w.dir !== dir) return false;
+    return getCells(w).some(cl => cl.r === r && cl.c === c);
+  });
+}
+
+// Pre-filled cells (simulate in-progress puzzle)
+const PRE_FILLED = (() => {
+  const f = {};
+  // OPULENT almost done — missing last 2
+  ['O','P','U','L','E'].forEach((l, i) => { f[`2,${1+i}`] = l; });
+  // VERBOSE — first 4 filled
+  ['V','E','R','B'].forEach((l, i) => { f[`7,${1+i}`] = l; });
+  // CANDOR — top 3
+  ['C','A','N'].forEach((l, i) => { f[`${i},6`] = l; });
+  // BOND complete
+  ['B','O','N','D'].forEach((l, i) => { f[`3,${3+i}`] = l; });
+  // ONCE partial
+  f['4,2'] = 'O'; f['5,2'] = 'N';
+  return f;
+})();
+
+// ══════════════════════════════════════════════════════════════
+// STATUS BAR
+// ══════════════════════════════════════════════════════════════
+function StatusBar() {
+  return (
+    <div style={{ height:54, display:'flex', alignItems:'flex-end', justifyContent:'space-between', padding:'0 22px 10px', position:'relative', zIndex:20, flexShrink:0 }}>
+      <span style={{ fontWeight:600, fontSize:15, color:'#fff', fontFamily:'-apple-system,system-ui' }}>9:41</span>
+      <div style={{ width:126, height:34, borderRadius:20, background:'#000', position:'absolute', top:10, left:'50%', transform:'translateX(-50%)', zIndex:30 }} />
+      <div style={{ display:'flex', gap:5, alignItems:'center' }}>
+        <svg width="17" height="12" viewBox="0 0 17 12"><path d="M8.5 3.2C10.8 3.2 12.9 4.1 14.4 5.6L15.5 4.5C13.7 2.7 11.2 1.5 8.5 1.5 5.8 1.5 3.3 2.7 1.5 4.5L2.6 5.6C4.1 4.1 6.2 3.2 8.5 3.2Z" fill="white"/><path d="M8.5 6.8C9.9 6.8 11.1 7.3 12 8.2L13.1 7.1C11.8 5.9 10.2 5.1 8.5 5.1 6.8 5.1 5.2 5.9 3.9 7.1L5 8.2C5.9 7.3 7.1 6.8 8.5 6.8Z" fill="white"/><circle cx="8.5" cy="10.5" r="1.5" fill="white"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="white" strokeOpacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="1.5" fill="white"/><path d="M23 4v4c.8-.3 1.5-1.1 1.5-2s-.7-1.7-1.5-2z" fill="white" fillOpacity="0.4"/></svg>
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// GRID CELL
+// ══════════════════════════════════════════════════════════════
+function Cell({ r, c, letter, isSelected, isWordHL, isVocabWord, isCompleted, animKey, num, onClick }) {
+  const sol = SOLUTION[r][c];
+  if (sol === '#') {
+    return <div style={{ width:'100%', aspectRatio:'1', background:'#1a1a1a', borderRadius:2 }} />;
+  }
+
+  // Color states (NYT-inspired)
+  let bg = '#F8F5EE';
+  if (isWordHL)  bg = '#C9E8FF';
+  if (isSelected) bg = '#FFD84C';
+  const borderColor = isSelected ? '#E8A800' : isWordHL ? '#8DC8E8' : '#BBBBBB';
+
+  return (
+    <div
+      onClick={() => onClick(r, c)}
+      style={{
+        width:'100%', aspectRatio:'1',
+        background: bg,
+        border: `1.5px solid ${borderColor}`,
+        borderRadius: 2,
+        position:'relative',
+        display:'flex', alignItems:'center', justifyContent:'center',
+        cursor:'pointer',
+        transition:'background 0.12s, border-color 0.12s',
+        '--cell-bg': bg,
+        animation: isCompleted
+          ? `${isVocabWord ? 'wordRippleVocab' : 'wordRipple'} 0.5s ease var(--ripple-delay, 0s) 1`
+          : undefined,
+      }}
+    >
+      {num && (
+        <span style={{
+          position:'absolute', top:1.5, left:2.5,
+          fontFamily:'Space Grotesk,sans-serif', fontWeight:700,
+          fontSize:7, color: isSelected ? '#7A5C00' : '#777',
+          lineHeight:1, userSelect:'none',
+        }}>{num}</span>
+      )}
+      {letter && (
+        <span
+          key={animKey}
+          className={animKey ? 'cell-letter' : undefined}
+          style={{
+            fontFamily:'Space Grotesk,sans-serif', fontWeight:700,
+            fontSize:14, color:'#111',
+            lineHeight:1, userSelect:'none',
+          }}
+        >{letter}</span>
+      )}
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// CLUE BAR
+// ══════════════════════════════════════════════════════════════
+function ClueBar({ word, completedSet, onToggleDir }) {
+  if (!word) return (
+    <div style={{ margin:'0 14px', height:40, background:'rgba(255,255,255,0.04)', borderRadius:10, border:'1px solid rgba(255,255,255,0.07)' }} />
+  );
+  const isVocab = SAT_WORDS.has(word.word);
+  const isDone = completedSet.has(word.id);
+  return (
+    <div style={{
+      margin:'0 14px',
+      background: isVocab ? 'rgba(255,229,102,0.08)' : 'rgba(255,255,255,0.05)',
+      border:`1px solid ${isVocab ? 'rgba(255,229,102,0.2)' : 'rgba(255,255,255,0.08)'}`,
+      borderRadius:11, padding:'8px 12px',
+      display:'flex', alignItems:'center', gap:10,
+    }}>
+      <div style={{
+        minWidth:30, height:30, borderRadius:8, flexShrink:0,
+        background: isVocab ? 'rgba(255,229,102,0.18)' : 'rgba(255,255,255,0.08)',
+        display:'flex', alignItems:'center', justifyContent:'center',
+        fontFamily:'Space Grotesk,sans-serif', fontWeight:700, fontSize:11,
+        color: isVocab ? '#FFE566' : 'rgba(255,255,255,0.5)',
+      }}>{word.num}{word.dir==='across'?'A':'D'}</div>
+      <div style={{ flex:1, minWidth:0 }}>
+        <div style={{
+          fontFamily:'Nunito,sans-serif', fontWeight:600, fontSize:12,
+          color:'rgba(255,255,255,0.85)', lineHeight:1.35,
+          textDecoration: isDone ? 'line-through' : 'none',
+          opacity: isDone ? 0.5 : 1,
+          overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap',
+        }}>{word.clue}</div>
+        {isVocab && !isDone && (
+          <div style={{ fontFamily:'Nunito,sans-serif', fontSize:9, color:'rgba(255,229,102,0.6)', marginTop:1, textTransform:'uppercase', letterSpacing:0.5 }}>SAT VOCABULARY</div>
+        )}
+      </div>
+      <div onClick={onToggleDir} style={{
+        width:28, height:28, borderRadius:7, flexShrink:0,
+        background:'rgba(255,255,255,0.07)',
+        display:'flex', alignItems:'center', justifyContent:'center',
+        cursor:'pointer', color:'rgba(255,255,255,0.4)', fontSize:13,
+      }}>{word.dir==='across'?'↔':'↕'}</div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// KEYBOARD
+// ══════════════════════════════════════════════════════════════
+const KB_ROWS = [
+  ['Q','W','E','R','T','Y','U','I','O','P'],
+  ['A','S','D','F','G','H','J','K','L'],
+  ['⌫','Z','X','C','V','B','N','M','↵'],
+];
+
+function Keyboard({ onKey }) {
+  return (
+    <div style={{ padding:'6px 4px 4px', display:'flex', flexDirection:'column', gap:5 }}>
+      {KB_ROWS.map((row, ri) => (
+        <div key={ri} style={{ display:'flex', gap:4, justifyContent:'center' }}>
+          {row.map(k => {
+            const special = k==='⌫'||k==='↵';
+            return (
+              <div key={k} onClick={() => onKey(k)} style={{
+                flex: special ? 1.5 : 1,
+                height:38, borderRadius:7,
+                background: special ? 'rgba(255,255,255,0.07)' : 'rgba(255,255,255,0.12)',
+                border:'1px solid rgba(255,255,255,0.06)',
+                display:'flex', alignItems:'center', justifyContent:'center',
+                cursor:'pointer', userSelect:'none',
+                fontFamily:'Space Grotesk,sans-serif', fontWeight:600,
+                fontSize: k==='⌫' ? 14 : 13, color: special ? 'rgba(255,255,255,0.5)' : '#fff',
+                transition:'background 0.1s',
+                WebkitTapHighlightColor:'transparent',
+              }}
+              onMouseDown={e => e.currentTarget.style.background='rgba(255,229,102,0.25)'}
+              onMouseUp={e => e.currentTarget.style.background=special?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.12)'}
+              onMouseLeave={e => e.currentTarget.style.background=special?'rgba(255,255,255,0.07)':'rgba(255,255,255,0.12)'}
+              >{k}</div>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// COLLECTION TOAST — auto-collected, no friction
+// ══════════════════════════════════════════════════════════════
+function CollectionToast({ word, onDismiss }) {
+  const [leaving, setLeaving] = useState(false);
+  const [stars] = useState(() =>
+    Array.from({length:7}, (_,i) => ({
+      id:i, x:(Math.random()-0.5)*200, y:-(40+Math.random()*60), delay:i*0.07,
+    }))
+  );
+
+  // Auto-dismiss after 2.6s
+  useEffect(() => {
+    const t = setTimeout(() => { setLeaving(true); setTimeout(onDismiss, 350); }, 2600);
+    return () => clearTimeout(t);
+  }, []);
+
+  const dismiss = () => { setLeaving(true); setTimeout(onDismiss, 350); };
+
+  return (
+    <div style={{
+      position:'absolute', bottom:0, left:0, right:0, zIndex:100,
+      padding:'0 12px 50px',
+      animation: leaving ? 'slideDown 0.35s ease forwards' : 'toastPop 0.45s cubic-bezier(0.22,1,0.36,1) forwards',
+      pointerEvents: leaving ? 'none' : 'auto',
+    }}>
+      {/* scrim */}
+      <div style={{ position:'absolute', inset:0, background:'linear-gradient(to top, rgba(13,27,42,0.95) 50%, transparent)', pointerEvents:'none' }} />
+
+      {/* floating stars */}
+      {stars.map(s => (
+        <div key={s.id} style={{
+          position:'absolute', bottom:160, left:`calc(50% + ${s.x}px)`,
+          fontSize:15, pointerEvents:'none', zIndex:101,
+          animation:`floatStar 1s ease ${s.delay}s both`,
+        }}>⭐</div>
+      ))}
+
+      <div style={{
+        position:'relative', zIndex:101,
+        background:'linear-gradient(140deg,#132236 0%,#1a3050 100%)',
+        borderRadius:20, padding:'14px 18px 16px',
+        border:'1px solid rgba(255,229,102,0.35)',
+        boxShadow:'0 -4px 40px rgba(255,229,102,0.14), 0 8px 32px rgba(0,0,0,0.4)',
+      }}>
+        {/* header */}
+        <div style={{ display:'flex', alignItems:'center', gap:8, marginBottom:10 }}>
+          <div style={{
+            background:'linear-gradient(135deg,#FFE566,#F5A623)',
+            borderRadius:7, padding:'2px 9px',
+            fontFamily:'Nunito,sans-serif', fontWeight:900,
+            fontSize:9, color:'#3D2800', letterSpacing:1, textTransform:'uppercase',
+          }}>⭐ Added to Collection!</div>
+          <div style={{flex:1}} />
+          <div onClick={dismiss} style={{ color:'rgba(255,255,255,0.25)', cursor:'pointer', fontSize:18, lineHeight:1, padding:'0 2px' }}>×</div>
+        </div>
+
+        {/* word */}
+        <div style={{
+          fontFamily:'Space Grotesk,sans-serif', fontWeight:700,
+          fontSize:30, color:'#FFE566', letterSpacing:-0.5, lineHeight:1, marginBottom:5,
+        }}>{word.word}</div>
+
+        {/* definition */}
+        <div style={{
+          fontFamily:'Nunito,sans-serif', fontSize:13,
+          color:'rgba(255,255,255,0.75)', lineHeight:1.55,
+        }}>{word.def}</div>
+
+        {/* auto-dismiss progress bar */}
+        <div style={{
+          marginTop:12, height:2, background:'rgba(255,255,255,0.1)', borderRadius:1, overflow:'hidden',
+        }}>
+          <div style={{
+            height:'100%', background:'rgba(255,229,102,0.5)', borderRadius:1,
+            animation:'toastProgress 2.6s linear forwards',
+          }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// PROGRESS BAR
+// ══════════════════════════════════════════════════════════════
+function ProgressBar({ done, total }) {
+  const pct = (done / total) * 100;
+  const satDone = WORDS.filter(w => SAT_WORDS.has(w.word) && false).length; // placeholder
+  return (
+    <div style={{ padding:'0 14px 8px' }}>
+      <div style={{ height:3, background:'rgba(255,255,255,0.08)', borderRadius:2, overflow:'hidden' }}>
+        <div style={{
+          height:'100%', width:`${pct}%`,
+          background:'linear-gradient(90deg,#34D399,#10B981)',
+          borderRadius:2, transition:'width 0.6s cubic-bezier(0.22,1,0.36,1)',
+        }} />
+      </div>
+      <div style={{ display:'flex', justifyContent:'space-between', marginTop:3 }}>
+        <span style={{ fontFamily:'Nunito,sans-serif', fontSize:9, color:'rgba(255,255,255,0.3)', textTransform:'uppercase', letterSpacing:0.5 }}>
+          {done}/{total} words
+        </span>
+        <span style={{ fontFamily:'Nunito,sans-serif', fontSize:9, color:'#34D399', fontWeight:700 }}>{Math.round(pct)}%</span>
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// MAIN PUZZLE APP
+// ══════════════════════════════════════════════════════════════
+function CrosswordApp() {
+  const initGrid = () => {
+    const g = {};
+    for (let r=0;r<ROWS;r++) for (let c=0;c<COLS;c++) g[`${r},${c}`] = PRE_FILLED[`${r},${c}`] || '';
+    return g;
+  };
+
+  const [grid, setGrid] = useState(initGrid);
+  const [animKeys, setAnimKeys] = useState({});
+  const [rippleCells, setRippleCells] = useState({}); // key → delay string
+  const [sel, setSel] = useState({ r:4, c:0 });
+  const [dir, setDir] = useState('across');
+  const [completedWords, setCompletedWords] = useState(new Set());
+  const [collectedWords, setCollectedWords] = useState(new Set());
+  const [toastWord, setToastWord] = useState(null);
+  const [timer, setTimer] = useState(127);
+
+  useEffect(() => {
+    const t = setInterval(() => setTimer(n=>n+1), 1000);
+    return () => clearInterval(t);
+  }, []);
+
+  const timeStr = `${String(Math.floor(timer/60)).padStart(2,'0')}:${String(timer%60).padStart(2,'0')}`;
+
+  const activeWord = getWordForCell(sel.r, sel.c, dir)
+    || getWordForCell(sel.r, sel.c, dir==='across'?'down':'across');
+
+  const activeWordCells = activeWord ? new Set(getCells(activeWord).map(cl=>`${cl.r},${cl.c}`)) : new Set();
+
+  const checkWord = useCallback((g, w) =>
+    getCells(w).every(({r,c}) => g[`${r},${c}`] === SOLUTION[r][c]), []);
+
+  const advanceCursor = (r, c, d) => {
+    const w = getWordForCell(r, c, d);
+    if (!w) return;
+    const cells = getCells(w);
+    const idx = cells.findIndex(cl=>cl.r===r&&cl.c===c);
+    if (idx < cells.length-1) setSel(cells[idx+1]);
+  };
+  const retreatCursor = (r, c, d) => {
+    const w = getWordForCell(r, c, d);
+    if (!w) return;
+    const cells = getCells(w);
+    const idx = cells.findIndex(cl=>cl.r===r&&cl.c===c);
+    if (idx > 0) setSel(cells[idx-1]);
+  };
+
+  const handleCellClick = (r, c) => {
+    if (SOLUTION[r][c]==='#') return;
+    if (sel.r===r && sel.c===c) {
+      const nd = dir==='across'?'down':'across';
+      if (getWordForCell(r,c,nd)) setDir(nd);
+    } else {
+      setSel({r,c});
+      const ha = getWordForCell(r,c,'across');
+      const hd = getWordForCell(r,c,'down');
+      if (ha && !hd) setDir('across');
+      else if (hd && !ha) setDir('down');
+    }
+  };
+
+  const handleKey = useCallback((k) => {
+    if (k==='⌫'||k==='DEL'||k==='Backspace') {
+      setGrid(g => ({...g, [`${sel.r},${sel.c}`]:''}));
+      retreatCursor(sel.r, sel.c, dir);
+      return;
+    }
+    if (k==='↵'||k==='Enter') return;
+    const letter = k.toUpperCase();
+    if (!/^[A-Z]$/.test(letter)) return;
+
+    const key = `${sel.r},${sel.c}`;
+    const newGrid = {...grid, [key]: letter};
+    setGrid(newGrid);
+
+    // Animate the letter
+    setAnimKeys(prev => ({...prev, [key]: Date.now()}));
+
+    // Check all words for completion
+    const newlyDone = [];
+    WORDS.forEach(w => {
+      if (!completedWords.has(w.id) && checkWord(newGrid, w)) {
+        newlyDone.push(w);
+      }
+    });
+
+    if (newlyDone.length > 0) {
+      const newCompleted = new Set([...completedWords, ...newlyDone.map(w=>w.id)]);
+      setCompletedWords(newCompleted);
+
+      // Ripple animation across completed word cells
+      newlyDone.forEach(w => {
+        const cells = getCells(w);
+        const updates = {};
+        cells.forEach((cl, i) => {
+          updates[`${cl.r},${cl.c}`] = `${i * 0.05}s`;
+        });
+        setRippleCells(prev => ({...prev, ...updates}));
+        setTimeout(() => {
+          setRippleCells(prev => {
+            const next = {...prev};
+            cells.forEach(cl => delete next[`${cl.r},${cl.c}`]);
+            return next;
+          });
+        }, cells.length * 50 + 600);
+      });
+
+      // Auto-collect SAT vocab words immediately
+      const vocabDone = newlyDone.find(w => SAT_WORDS.has(w.word) && !collectedWords.has(w.id));
+      if (vocabDone) {
+        setCollectedWords(s => new Set([...s, vocabDone.id]));
+        setTimeout(() => setToastWord(vocabDone), 350);
+      }
+    }
+
+    advanceCursor(sel.r, sel.c, dir);
+  }, [sel, dir, grid, completedWords, collectedWords, checkWord]);
+
+  // Physical keyboard
+  useEffect(() => {
+    const handler = e => handleKey(e.key==='Backspace'?'⌫':e.key);
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [handleKey]);
+
+  // ── Render ─────────────────────────────────────────
+  const CELL_SIZE = 33;
+  const GAP = 2;
+
+  return (
+    <div style={{
+      height:'100%', display:'flex', flexDirection:'column',
+      background:'#0D1B2A', position:'relative', overflow:'hidden',
+      paddingTop:62,
+    }}>
+      <StatusBar />
+
+      {/* Header */}
+      <div style={{ padding:'2px 14px 6px', display:'flex', alignItems:'center', gap:8, flexShrink:0 }}>
+        <div style={{ color:'rgba(255,255,255,0.4)', fontSize:22 }}>‹</div>
+        <div style={{ flex:1 }}>
+          <div style={{ fontFamily:'Nunito,sans-serif', fontWeight:900, fontSize:16, color:'#fff', letterSpacing:-0.2 }}>Daily Mini #48</div>
+          <div style={{ fontFamily:'Nunito,sans-serif', fontSize:10, color:'rgba(255,255,255,0.4)' }}>SAT Vocabulary · April 27</div>
+        </div>
+        <div style={{ display:'flex', alignItems:'center', gap:5, background:'rgba(255,107,53,0.12)', borderRadius:9, padding:'3px 8px' }}>
+          <span style={{fontSize:12}}>🔥</span>
+          <span style={{ fontFamily:'Nunito,sans-serif', fontWeight:800, fontSize:13, color:'#FF6B35' }}>7</span>
+        </div>
+        <div style={{ background:'rgba(255,255,255,0.06)', borderRadius:9, padding:'3px 9px' }}>
+          <span style={{ fontFamily:'Space Grotesk,sans-serif', fontWeight:600, fontSize:13, color:'#fff', letterSpacing:1 }}>{timeStr}</span>
+        </div>
+      </div>
+
+      <ProgressBar done={completedWords.size} total={WORDS.length} />
+
+      {/* Grid */}
+      <div style={{ display:'flex', justifyContent:'center', padding:'4px 0 8px', flexShrink:0 }}>
+        <div style={{
+          display:'grid',
+          gridTemplateColumns:`repeat(${COLS},${CELL_SIZE}px)`,
+          gridTemplateRows:`repeat(${ROWS},${CELL_SIZE}px)`,
+          gap:GAP,
+          background:'rgba(255,255,255,0.03)',
+          border:'1px solid rgba(255,255,255,0.08)',
+          borderRadius:10, padding:5,
+        }}>
+          {Array.from({length:ROWS},(_,r) => Array.from({length:COLS},(_,c) => {
+            const key = `${r},${c}`;
+            const sol = SOLUTION[r][c];
+            const letter = grid[key];
+            const isVocabCell = WORDS.some(w =>
+              SAT_WORDS.has(w.word) && getCells(w).some(cl=>cl.r===r&&cl.c===c)
+            );
+            const completedWordForCell = WORDS.find(w =>
+              completedWords.has(w.id) && getCells(w).some(cl=>cl.r===r&&cl.c===c)
+            );
+            const rippleDelay = rippleCells[key];
+            return (
+              <div key={key}
+                style={rippleDelay ? { '--ripple-delay': rippleDelay } : undefined}
+              >
+                <Cell
+                  r={r} c={c}
+                  letter={letter}
+                  isSelected={sel.r===r && sel.c===c}
+                  isWordHL={activeWordCells.has(key) && !(sel.r===r && sel.c===c)}
+                  isVocabWord={isVocabCell}
+                  isCompleted={!!rippleDelay}
+                  animKey={animKeys[key]}
+                  num={CELL_NUMS[key]}
+                  onClick={handleCellClick}
+                />
+              </div>
+            );
+          }))}
+        </div>
+      </div>
+
+      {/* Clue bar */}
+      <ClueBar
+        word={activeWord}
+        completedSet={completedWords}
+        onToggleDir={() => {
+          const nd = dir==='across'?'down':'across';
+          if (getWordForCell(sel.r,sel.c,nd)) setDir(nd);
+        }}
+      />
+
+      {/* Compact clue list */}
+      <div style={{ padding:'8px 14px 0', flex:1, overflow:'hidden', minHeight:0 }}>
+        <div style={{ display:'flex', gap:8, height:'100%', overflow:'hidden' }}>
+          {['across','down'].map(d => (
+            <div key={d} style={{ flex:1, overflowY:'auto' }}>
+              <div style={{ fontFamily:'Nunito,sans-serif', fontWeight:800, fontSize:9, color:'rgba(255,255,255,0.3)', textTransform:'uppercase', letterSpacing:1, marginBottom:4 }}>
+                {d}
+              </div>
+              {WORDS.filter(w=>w.dir===d).map(w => {
+                const isVocab = SAT_WORDS.has(w.word);
+                const isDone = completedWords.has(w.id);
+                const isActive = activeWord?.id === w.id;
+                return (
+                  <div key={w.id} onClick={() => { setSel({r:w.r,c:w.c}); setDir(w.dir); }} style={{
+                    padding:'4px 7px', borderRadius:7, marginBottom:2, cursor:'pointer',
+                    background: isActive ? 'rgba(255,229,102,0.1)' : 'transparent',
+                    border:`1px solid ${isActive?'rgba(255,229,102,0.2)':'transparent'}`,
+                    display:'flex', gap:5, alignItems:'flex-start',
+                  }}>
+                    <span style={{
+                      fontFamily:'Space Grotesk,sans-serif', fontWeight:700, fontSize:9,
+                      color: isDone ? 'rgba(255,255,255,0.2)' : isVocab ? '#FFE566' : 'rgba(255,255,255,0.35)',
+                      minWidth:14, lineHeight:1.5, flexShrink:0,
+                      textDecoration: isDone ? 'line-through' : 'none',
+                    }}>{w.num}</span>
+                    <span style={{
+                      fontFamily:'Nunito,sans-serif', fontSize:10,
+                      color: isDone ? 'rgba(255,255,255,0.2)' : isVocab ? 'rgba(255,255,255,0.75)' : 'rgba(255,255,255,0.4)',
+                      lineHeight:1.35,
+                      textDecoration: isDone ? 'line-through' : 'none',
+                    }}>{w.clue.replace(/^"|"$/g,'')}</span>
+                  </div>
+                );
+              })}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Keyboard */}
+      <div style={{ flexShrink:0, paddingBottom:2 }}>
+        <Keyboard onKey={handleKey} />
+      </div>
+
+      {/* Collection toast */}
+      {toastWord && (
+        <CollectionToast
+          word={toastWord}
+          onDismiss={() => setToastWord(null)}
+        />
+      )}
+
+      {/* Home indicator */}
+      <div style={{ position:'absolute', bottom:6, left:'50%', transform:'translateX(-50%)', width:134, height:5, borderRadius:3, background:'rgba(255,255,255,0.3)', pointerEvents:'none', zIndex:50 }} />
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// ROOT
+// ══════════════════════════════════════════════════════════════
+function App() {
+  return (
+    <div style={{
+      display:'flex', alignItems:'center', justifyContent:'center',
+      minHeight:'100vh',
+      background:'radial-gradient(ellipse at 40% 50%, #1a1a2e 0%, #0a0a12 60%)',
+    }}>
+      <div style={{ position:'absolute', top:20, left:0, right:0, textAlign:'center' }}>
+        <div style={{ fontFamily:'Nunito,sans-serif', fontWeight:900, fontSize:12, color:'rgba(255,255,255,0.25)', letterSpacing:3, textTransform:'uppercase' }}>
+          LEXICON · Crossword Puzzle Screen
+        </div>
+      </div>
+      <div style={{
+        width:402, height:874, borderRadius:48, overflow:'hidden',
+        background:'#0D1B2A',
+        boxShadow:'0 40px 100px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)',
+        position:'relative',
+      }}>
+        <div style={{ position:'absolute', top:12, left:'50%', transform:'translateX(-50%)', width:126, height:36, borderRadius:20, background:'#000', zIndex:50, pointerEvents:'none' }} />
+        <CrosswordApp />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

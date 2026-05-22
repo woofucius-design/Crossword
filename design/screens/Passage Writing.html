@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexicon – Write a Passage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #07080f; display: flex; align-items: center; justify-content: center; font-family: 'Nunito', sans-serif; overflow: hidden; }
+
+    @keyframes slideInUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes dotBounce { 0%,80%,100% { transform: translateY(0); } 40% { transform: translateY(-6px); } }
+    @keyframes popIn { 0% { transform: scale(0.85); opacity: 0; } 70% { transform: scale(1.04); } 100% { transform: scale(1); opacity: 1; } }
+    @keyframes countUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes ringFill { from { stroke-dashoffset: 283; } to { stroke-dashoffset: var(--target); } }
+    @keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+    @keyframes wordCheck { 0% { transform: scale(1.3); } 100% { transform: scale(1); } }
+    @keyframes glowPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(255,229,102,0.3); } 50% { box-shadow: 0 0 0 8px rgba(255,229,102,0); } }
+    ::-webkit-scrollbar { width: 0; }
+
+    textarea {
+      background: transparent;
+      border: none;
+      outline: none;
+      width: 100%;
+      resize: none;
+      color: rgba(255,255,255,0.92);
+      font-family: 'Lora', serif;
+      font-size: 16px;
+      line-height: 1.85;
+      caret-color: #FFE566;
+    }
+    textarea::placeholder { color: rgba(255,255,255,0.2); font-style: italic; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+const C = {
+  bg: '#0D1B2A', surface: '#132236', card: '#16293D',
+  border: 'rgba(255,255,255,0.07)', text: '#FFFFFF',
+  muted: 'rgba(255,255,255,0.45)', dim: 'rgba(255,255,255,0.2)',
+  yellow: '#FFE566', orange: '#FF6B35', mint: '#34D399',
+};
+
+// ── Target words for this assignment ──────────────────────────
+const TARGET_WORDS = [
+  { word: 'OPULENT',   def: 'ostentatiously rich and luxurious' },
+  { word: 'EPHEMERAL', def: 'lasting for a very short time' },
+  { word: 'PRAGMATIC', def: 'dealing with things sensibly and realistically' },
+  { word: 'STOIC',     def: 'enduring pain without showing feelings' },
+  { word: 'VERBOSE',   def: 'using more words than necessary' },
+];
+
+// ── Class leaderboard (mock) ───────────────────────────────────
+const CLASSMATES = [
+  {
+    rank: 1, name: 'Jordan K.', avatar: 'J', avatarColor: '#6366F1',
+    score: 96, accuracy: 98, conciseness: 91, creativity: 99,
+    passage: 'The STOIC emperor sat OPULENT upon his golden throne, his only PRAGMATIC concern being that his reign — like all reigns — was merely EPHEMERAL, a truth his VERBOSE advisors spent forty scrolls failing to say.',
+    wordsUsed: 5,
+  },
+  {
+    rank: 2, name: 'Maya R.', avatar: 'M', avatarColor: '#EC4899',
+    score: 89, accuracy: 95, conciseness: 88, creativity: 85,
+    passage: "The influencer's OPULENT lifestyle was as EPHEMERAL as her attention span, which her VERBOSE manager described in a PRAGMATIC memo she didn't read.",
+    wordsUsed: 4,
+  },
+  {
+    rank: 3, name: 'Tyler S.', avatar: 'T', avatarColor: '#14B8A6',
+    score: 78, accuracy: 82, conciseness: 75, creativity: 77,
+    passage: 'He was STOIC about losing his OPULENT mansion and remained PRAGMATIC about starting over, which his VERBOSE neighbor described as admirable.',
+    wordsUsed: 4,
+  },
+  {
+    rank: 4, name: 'Priya L.', avatar: 'P', avatarColor: '#F59E0B',
+    score: 71, accuracy: 88, conciseness: 60, creativity: 66,
+    passage: 'The EPHEMERAL beauty of the cherry blossoms made him STOIC in a PRAGMATIC way.',
+    wordsUsed: 3,
+  },
+];
+
+// ── Helpers ────────────────────────────────────────────────────
+function detectWords(text, targets) {
+  const upper = text.toUpperCase();
+  return targets.filter(t => {
+    const re = new RegExp(`\\b${t.word}\\b`, 'i');
+    return re.test(upper);
+  });
+}
+
+function countWords(text) {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+// ── Animated score ring ────────────────────────────────────────
+function ScoreRing({ score, size = 80, color, label, delay = 0 }) {
+  const [displayed, setDisplayed] = useState(0);
+  const r = (size - 10) / 2;
+  const circ = 2 * Math.PI * r;
+  const offset = circ - (score / 100) * circ;
+
+  useEffect(() => {
+    const start = Date.now() + delay;
+    const duration = 900;
+    const tick = () => {
+      const now = Date.now();
+      if (now < start) { requestAnimationFrame(tick); return; }
+      const t = Math.min((now - start) / duration, 1);
+      const ease = 1 - Math.pow(1 - t, 3);
+      setDisplayed(Math.round(ease * score));
+      if (t < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, [score, delay]);
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+      <div style={{ position: 'relative', width: size, height: size }}>
+        <svg width={size} height={size} style={{ transform: 'rotate(-90deg)' }}>
+          <circle cx={size/2} cy={size/2} r={r} fill="none" stroke="rgba(255,255,255,0.07)" strokeWidth="5" />
+          <circle cx={size/2} cy={size/2} r={r} fill="none" stroke={color} strokeWidth="5"
+            strokeLinecap="round"
+            strokeDasharray={circ}
+            strokeDashoffset={circ - (displayed / 100) * circ}
+            style={{ transition: 'stroke-dashoffset 0.05s linear', filter: `drop-shadow(0 0 4px ${color}80)` }}
+          />
+        </svg>
+        <div style={{
+          position: 'absolute', inset: 0,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: size * 0.24,
+          color: '#fff',
+        }}>{displayed}</div>
+      </div>
+      <div style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 10, color: C.muted, textTransform: 'uppercase', letterSpacing: 0.5 }}>{label}</div>
+    </div>
+  );
+}
+
+// ── Typing dots ────────────────────────────────────────────────
+function TypingDots({ color = C.yellow }) {
+  return (
+    <div style={{ display: 'flex', gap: 5, alignItems: 'center' }}>
+      {[0,1,2].map(i => (
+        <div key={i} style={{ width: 7, height: 7, borderRadius: '50%', background: color, animation: `dotBounce 1.2s ease ${i*0.15}s infinite` }} />
+      ))}
+    </div>
+  );
+}
+
+// ── Status bar ─────────────────────────────────────────────────
+function StatusBar() {
+  return (
+    <div style={{ height: 54, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', padding: '0 22px 10px', position: 'relative', zIndex: 20, flexShrink: 0 }}>
+      <span style={{ fontWeight: 600, fontSize: 15, color: '#fff', fontFamily: '-apple-system, system-ui' }}>9:41</span>
+      <div style={{ width: 126, height: 34, borderRadius: 20, background: '#000', position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)' }} />
+      <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+        <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="white" strokeOpacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="1.5" fill="white"/></svg>
+      </div>
+    </div>
+  );
+}
+
+// ── Word chip ──────────────────────────────────────────────────
+function WordChip({ word, def, used }) {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', gap: 5,
+      background: used ? 'rgba(52,211,153,0.12)' : 'rgba(255,255,255,0.05)',
+      border: `1.5px solid ${used ? 'rgba(52,211,153,0.4)' : 'rgba(255,255,255,0.1)'}`,
+      borderRadius: 9, padding: '5px 9px',
+      transition: 'all 0.3s cubic-bezier(0.22,1,0.36,1)',
+      animation: used ? 'wordCheck 0.3s ease' : undefined,
+    }}>
+      <span style={{ fontSize: 11, color: used ? C.mint : C.muted }}>{used ? '✓' : '○'}</span>
+      <span style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 12, color: used ? C.mint : C.muted }}>{word}</span>
+    </div>
+  );
+}
+
+// ── Leaderboard row ────────────────────────────────────────────
+function LeaderRow({ entry, isYou }) {
+  const medal = { 1: '🥇', 2: '🥈', 3: '🥉' }[entry.rank];
+  const [expanded, setExpanded] = useState(false);
+  return (
+    <div style={{
+      background: isYou ? 'rgba(255,229,102,0.07)' : 'rgba(255,255,255,0.03)',
+      border: `1px solid ${isYou ? 'rgba(255,229,102,0.2)' : C.border}`,
+      borderRadius: 13, marginBottom: 7, overflow: 'hidden',
+      transition: 'all 0.2s',
+    }}>
+      <div onClick={() => setExpanded(!expanded)} style={{ padding: '10px 12px', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 10 }}>
+        {/* rank */}
+        <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 18, color: medal ? 'transparent' : C.muted, minWidth: 28, textAlign: 'center' }}>
+          {medal || `#${entry.rank}`}
+        </div>
+
+        {/* avatar */}
+        <div style={{ width: 32, height: 32, borderRadius: 10, background: entry.avatarColor, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Nunito', fontWeight: 900, fontSize: 14, color: '#fff', flexShrink: 0 }}>{entry.avatar}</div>
+
+        {/* name */}
+        <div style={{ flex: 1 }}>
+          <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 13, color: isYou ? C.yellow : '#fff' }}>
+            {entry.name} {isYou && <span style={{ fontSize: 10, color: C.muted }}>(you)</span>}
+          </div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 10, color: C.muted }}>{entry.wordsUsed}/5 words used</div>
+        </div>
+
+        {/* score */}
+        <div style={{ textAlign: 'right' }}>
+          <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 20, color: entry.score >= 90 ? '#34D399' : entry.score >= 75 ? C.yellow : C.muted, lineHeight: 1 }}>{entry.score}</div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 9, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3 }}>score</div>
+        </div>
+        <div style={{ color: C.dim, fontSize: 12, marginLeft: 4 }}>{expanded ? '▲' : '▼'}</div>
+      </div>
+      {expanded && (
+        <div style={{ padding: '0 12px 12px', animation: 'fadeIn 0.2s ease' }}>
+          <div style={{ fontFamily: 'Lora, serif', fontSize: 12, color: 'rgba(255,255,255,0.7)', lineHeight: 1.7, fontStyle: 'italic', marginBottom: 10, borderLeft: `2px solid ${entry.avatarColor}`, paddingLeft: 10 }}>
+            "{entry.passage}"
+          </div>
+          <div style={{ display: 'flex', gap: 6 }}>
+            {[{l:'Accuracy',v:entry.accuracy,c:'#60A5FA'},{l:'Concise',v:entry.conciseness,c:'#34D399'},{l:'Creative',v:entry.creativity,c:'#F59E0B'}].map(s => (
+              <div key={s.l} style={{ flex: 1, background: 'rgba(255,255,255,0.04)', borderRadius: 8, padding: '5px 6px', textAlign: 'center' }}>
+                <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 14, color: s.c }}>{s.v}</div>
+                <div style={{ fontFamily: 'Nunito', fontSize: 9, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3 }}>{s.l}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── Result screen ──────────────────────────────────────────────
+function ResultScreen({ result, passage, onRetry, onLeaderboard }) {
+  const overall = Math.round((result.accuracy + result.conciseness + result.creativity) / 3);
+  const grade = overall >= 90 ? { label: 'Exceptional', color: '#A855F7', emoji: '🌟' }
+    : overall >= 78 ? { label: 'Strong', color: '#34D399', emoji: '✅' }
+    : overall >= 65 ? { label: 'Good', color: '#EAB308', emoji: '📈' }
+    : { label: 'Keep Practicing', color: '#F97316', emoji: '💪' };
+
+  // Insert player into leaderboard
+  const playerEntry = {
+    rank: 0, name: 'You', avatar: 'Y', avatarColor: C.yellow,
+    score: overall, accuracy: result.accuracy, conciseness: result.conciseness, creativity: result.creativity,
+    passage, wordsUsed: result.wordFeedback?.filter(w => w.used).length || 0,
+  };
+  const withPlayer = [...CLASSMATES, playerEntry].sort((a,b) => b.score - a.score).map((e,i) => ({...e, rank: i+1}));
+  const playerRank = withPlayer.findIndex(e => e.name === 'You') + 1;
+
+  return (
+    <div style={{ flex: 1, overflowY: 'auto', padding: '0 14px 40px' }}>
+      {/* grade banner */}
+      <div style={{
+        textAlign: 'center', padding: '20px 0 16px',
+        animation: 'popIn 0.5s cubic-bezier(0.22,1,0.36,1)',
+      }}>
+        <div style={{ fontSize: 44, marginBottom: 8 }}>{grade.emoji}</div>
+        <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 32, color: '#fff', letterSpacing: -1, lineHeight: 1 }}>{overall}</div>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 16, color: grade.color, marginTop: 4 }}>{grade.label}</div>
+      </div>
+
+      {/* three rings */}
+      <div style={{
+        display: 'flex', justifyContent: 'space-around',
+        background: C.surface, borderRadius: 16, padding: '16px 10px 14px',
+        border: `1px solid ${C.border}`, marginBottom: 12,
+        animation: 'slideInUp 0.4s ease 0.1s both',
+      }}>
+        <ScoreRing score={result.accuracy}    size={78} color="#60A5FA" label="Accuracy"   delay={200} />
+        <ScoreRing score={result.conciseness} size={78} color="#34D399" label="Conciseness" delay={400} />
+        <ScoreRing score={result.creativity}  size={78} color="#F59E0B" label="Creativity"  delay={600} />
+      </div>
+
+      {/* AI feedback */}
+      <div style={{
+        background: 'rgba(99,102,241,0.08)', borderRadius: 14,
+        border: '1px solid rgba(99,102,241,0.18)',
+        padding: '12px 14px', marginBottom: 12,
+        animation: 'slideInUp 0.4s ease 0.2s both',
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 7, marginBottom: 8 }}>
+          <span style={{ fontSize: 16 }}>🤖</span>
+          <span style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 12, color: '#818CF8' }}>AI Feedback</span>
+        </div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 13, color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
+          {result.feedback}
+        </div>
+      </div>
+
+      {/* word-by-word breakdown */}
+      {result.wordFeedback && (
+        <div style={{
+          background: C.card, borderRadius: 14, border: `1px solid ${C.border}`,
+          padding: '12px 14px', marginBottom: 12,
+          animation: 'slideInUp 0.4s ease 0.25s both',
+        }}>
+          <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 11, color: C.muted, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 10 }}>Word Usage</div>
+          {result.wordFeedback.map((wf, i) => (
+            <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', marginBottom: i < result.wordFeedback.length - 1 ? 8 : 0, paddingBottom: i < result.wordFeedback.length - 1 ? 8 : 0, borderBottom: i < result.wordFeedback.length - 1 ? `1px solid ${C.border}` : 'none' }}>
+              <span style={{ fontSize: 14, flexShrink: 0 }}>
+                {!wf.used ? '○' : wf.correct ? '✅' : '⚠️'}
+              </span>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 13, color: !wf.used ? C.dim : wf.correct ? C.mint : '#FCD34D' }}>{wf.word}</div>
+                <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted, marginTop: 1, lineHeight: 1.4 }}>{wf.note}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* class rank */}
+      <div style={{
+        background: 'linear-gradient(135deg, #1a2040 0%, #1e1535 100%)',
+        borderRadius: 14, border: '1px solid rgba(99,102,241,0.2)',
+        padding: '12px 14px', marginBottom: 12,
+        animation: 'slideInUp 0.4s ease 0.3s both',
+        display: 'flex', alignItems: 'center', gap: 12,
+      }}>
+        <div style={{ fontSize: 32 }}>
+          {playerRank === 1 ? '🥇' : playerRank === 2 ? '🥈' : playerRank === 3 ? '🥉' : '🏅'}
+        </div>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 22, color: '#fff', lineHeight: 1 }}>
+            #{playerRank} <span style={{ fontSize: 14, color: C.muted, fontWeight: 500 }}>in class</span>
+          </div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 12, color: C.muted, marginTop: 2 }}>
+            {playerRank === 1 ? 'Top of the class! 🎉' : `${playerRank - 1} player${playerRank > 2 ? 's' : ''} ahead of you`}
+          </div>
+        </div>
+        <div onClick={onLeaderboard} style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 12, color: '#818CF8', cursor: 'pointer' }}>See all →</div>
+      </div>
+
+      {/* leaderboard */}
+      <div style={{ marginBottom: 12, animation: 'slideInUp 0.4s ease 0.35s both' }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 11, color: C.muted, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Class Leaderboard</div>
+        {withPlayer.map(e => <LeaderRow key={e.name} entry={e} isYou={e.name === 'You'} />)}
+      </div>
+
+      {/* retry */}
+      <button onClick={onRetry} style={{
+        width: '100%', height: 48, borderRadius: 14,
+        background: 'linear-gradient(135deg, #FFE566, #F5A623)',
+        border: 'none', cursor: 'pointer',
+        fontFamily: 'Nunito', fontWeight: 900, fontSize: 15, color: '#3D2800',
+        animation: 'slideInUp 0.4s ease 0.4s both',
+      }}>✏️ Write Another Passage</button>
+    </div>
+  );
+}
+
+// ── Grading screen ─────────────────────────────────────────────
+function GradingScreen({ passage }) {
+  const steps = [
+    { label: 'Checking word accuracy…',   color: '#60A5FA', duration: 1200 },
+    { label: 'Measuring conciseness…',    color: '#34D399', duration: 1000 },
+    { label: 'Evaluating creativity…',    color: '#F59E0B', duration: 1100 },
+    { label: 'Compiling your score…',     color: '#A855F7', duration: 700  },
+  ];
+  const [step, setStep] = useState(0);
+
+  useEffect(() => {
+    let i = 0;
+    const advance = () => {
+      i++;
+      if (i < steps.length) {
+        setStep(i);
+        setTimeout(advance, steps[i].duration);
+      }
+    };
+    setTimeout(advance, steps[0].duration);
+  }, []);
+
+  return (
+    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0 24px', gap: 28 }}>
+      <div style={{ fontSize: 52, animation: 'popIn 0.5s ease' }}>🤖</div>
+      <div style={{ width: '100%' }}>
+        {steps.map((s, i) => (
+          <div key={i} style={{
+            display: 'flex', alignItems: 'center', gap: 10, marginBottom: 14,
+            opacity: i <= step ? 1 : 0.25, transition: 'opacity 0.3s',
+          }}>
+            <div style={{
+              width: 24, height: 24, borderRadius: 8, flexShrink: 0,
+              background: i < step ? `${s.color}25` : i === step ? `${s.color}15` : 'rgba(255,255,255,0.05)',
+              border: `1.5px solid ${i <= step ? s.color + '60' : 'rgba(255,255,255,0.08)'}`,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 12,
+            }}>
+              {i < step ? '✓' : i === step ? <TypingDots color={s.color} /> : ''}
+            </div>
+            <div style={{ fontFamily: 'Nunito', fontWeight: i === step ? 800 : 600, fontSize: 14, color: i <= step ? '#fff' : C.dim }}>{s.label}</div>
+          </div>
+        ))}
+      </div>
+      <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted, textAlign: 'center' }}>
+        Grading your passage against each word's definition…
+      </div>
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// MAIN WRITING APP
+// ══════════════════════════════════════════════════════════════
+const PLACEHOLDER = 'Write your passage here. Try to use all 5 words correctly — the more natural and creative, the higher your score.';
+
+const GRADING_PROMPT = (passage, words) => `You are grading a high school student's vocabulary passage. They were given these SAT words to use: ${words.map(w => `${w.word} (${w.def})`).join(', ')}.
+
+Their passage: "${passage}"
+
+Grade this passage on three dimensions (0-100 each):
+1. ACCURACY: Does each word reflect its correct meaning? Be strict but fair.
+2. CONCISENESS: How efficiently are words used? Reward tight, punchy writing. Penalize padding.
+3. CREATIVITY: How interesting, memorable, or entertaining is the passage? Reward originality, humor, and unexpected scenarios.
+
+Return ONLY a valid JSON object, nothing else:
+{
+  "accuracy": <number>,
+  "conciseness": <number>,
+  "creativity": <number>,
+  "feedback": "<2-3 sentences of specific, encouraging feedback mentioning what worked and what could improve>",
+  "wordFeedback": [
+    {"word": "<WORD>", "used": <true|false>, "correct": <true|false>, "note": "<one short sentence about usage or absence>"}
+  ]
+}`;
+
+function WriteApp() {
+  const [passage, setPassage] = useState('');
+  const [phase, setPhase] = useState('write'); // write | grading | result | leaderboard
+  const [result, setResult] = useState(null);
+  const textRef = useRef(null);
+
+  const usedWords = detectWords(passage, TARGET_WORDS);
+  const usedSet = new Set(usedWords.map(w => w.word));
+  const wordCount = countWords(passage);
+  const canSubmit = passage.trim().length > 20 && usedWords.length >= 1;
+
+  const submit = async () => {
+    setPhase('grading');
+    try {
+      const raw = await window.claude.complete(GRADING_PROMPT(passage, TARGET_WORDS));
+      // extract JSON
+      const match = raw.match(/\{[\s\S]*\}/);
+      if (!match) throw new Error('No JSON');
+      const parsed = JSON.parse(match[0]);
+      setResult(parsed);
+      setTimeout(() => setPhase('result'), 400);
+    } catch (e) {
+      // fallback result
+      const used = TARGET_WORDS.filter(t => usedSet.has(t.word));
+      const accuracy = Math.min(98, 50 + used.length * 12 + Math.floor(Math.random() * 10));
+      const conciseness = Math.max(40, Math.min(95, 110 - wordCount * 0.8 + used.length * 8));
+      const creativity = 60 + Math.floor(Math.random() * 30);
+      setResult({
+        accuracy, conciseness, creativity,
+        feedback: `You used ${used.length} of ${TARGET_WORDS.length} target words. ${used.length >= 4 ? 'Excellent word coverage!' : 'Try to work in more of the target words.'} ${wordCount < 40 ? 'Great conciseness.' : 'Consider tightening the passage for a higher conciseness score.'}`,
+        wordFeedback: TARGET_WORDS.map(t => ({
+          word: t.word,
+          used: usedSet.has(t.word),
+          correct: usedSet.has(t.word),
+          note: usedSet.has(t.word) ? 'Used correctly in context.' : 'Not found in your passage — try fitting it in.',
+        })),
+      });
+      setTimeout(() => setPhase('result'), 400);
+    }
+  };
+
+  if (phase === 'grading') return (
+    <div style={{ height: '100%', background: C.bg, display: 'flex', flexDirection: 'column' }}>
+      <StatusBar />
+      <GradingScreen passage={passage} />
+    </div>
+  );
+
+  if (phase === 'result') return (
+    <div style={{ height: '100%', background: C.bg, display: 'flex', flexDirection: 'column' }}>
+      <StatusBar />
+      <div style={{ padding: '2px 14px 8px', display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
+        <div onClick={() => setPhase('write')} style={{ color: C.muted, fontSize: 22, cursor: 'pointer' }}>‹</div>
+        <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 20, color: '#fff', letterSpacing: -0.4 }}>Your Score</div>
+      </div>
+      <ResultScreen result={result} passage={passage} onRetry={() => { setPassage(''); setResult(null); setPhase('write'); }} onLeaderboard={() => {}} />
+    </div>
+  );
+
+  // ── WRITE PHASE ──────────────────────────────────────────────
+  return (
+    <div style={{ height: '100%', background: C.bg, display: 'flex', flexDirection: 'column' }}>
+      <StatusBar />
+
+      {/* Header */}
+      <div style={{ padding: '2px 14px 8px', display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
+        <div style={{ color: C.muted, fontSize: 22, cursor: 'pointer' }}>‹</div>
+        <div style={{ flex: 1 }}>
+          <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 20, color: '#fff', letterSpacing: -0.4 }}>Write a Passage</div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 10, color: C.muted }}>Assigned by Ms. Hernandez · English Honors</div>
+        </div>
+        <div style={{
+          background: 'rgba(99,102,241,0.15)', borderRadius: 9, padding: '4px 9px',
+          fontFamily: 'Nunito', fontWeight: 800, fontSize: 11, color: '#818CF8',
+        }}>Class Competition</div>
+      </div>
+
+      {/* Instruction card */}
+      <div style={{ padding: '0 14px 10px', flexShrink: 0 }}>
+        <div style={{
+          background: 'linear-gradient(135deg, #0f1e2e 0%, #131d2a 100%)',
+          borderRadius: 13, padding: '10px 13px',
+          border: '1px solid rgba(255,255,255,0.07)',
+          display: 'flex', gap: 9, alignItems: 'flex-start',
+        }}>
+          <span style={{ fontSize: 16, flexShrink: 0 }}>✏️</span>
+          <div style={{ fontFamily: 'Nunito', fontSize: 12, color: 'rgba(255,255,255,0.65)', lineHeight: 1.5 }}>
+            Write a single short passage using as many words below as possible — <span style={{ color: C.yellow, fontWeight: 700 }}>correctly</span>. Ridiculous or creative scenarios score higher. AI grades on <span style={{ color: '#60A5FA', fontWeight: 700 }}>accuracy</span>, <span style={{ color: C.mint, fontWeight: 700 }}>conciseness</span>, and <span style={{ color: '#F59E0B', fontWeight: 700 }}>creativity</span>.
+          </div>
+        </div>
+      </div>
+
+      {/* Target words */}
+      <div style={{ padding: '0 14px 10px', flexShrink: 0 }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 10, color: C.muted, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 7 }}>
+          Target Words — {usedWords.length}/{TARGET_WORDS.length} used
+        </div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+          {TARGET_WORDS.map(w => <WordChip key={w.word} word={w.word} def={w.def} used={usedSet.has(w.word)} />)}
+        </div>
+      </div>
+
+      {/* Writing area */}
+      <div style={{ flex: 1, padding: '0 14px', display: 'flex', flexDirection: 'column', minHeight: 0 }}>
+        <div style={{
+          flex: 1, background: '#111d2b',
+          borderRadius: 16, padding: '14px 16px',
+          border: `1.5px solid ${passage.length > 0 ? 'rgba(255,229,102,0.2)' : 'rgba(255,255,255,0.07)'}`,
+          display: 'flex', flexDirection: 'column',
+          transition: 'border-color 0.3s',
+          boxShadow: passage.length > 0 ? '0 0 0 3px rgba(255,229,102,0.05)' : undefined,
+          position: 'relative',
+        }}>
+          {/* decorative quote */}
+          <div style={{ position: 'absolute', top: 6, left: 12, fontFamily: 'Lora, serif', fontSize: 40, color: 'rgba(255,229,102,0.06)', lineHeight: 1, pointerEvents: 'none', userSelect: 'none' }}>"</div>
+
+          <textarea
+            ref={textRef}
+            value={passage}
+            onChange={e => setPassage(e.target.value)}
+            placeholder={PLACEHOLDER}
+            style={{ flex: 1, minHeight: 120 }}
+            autoFocus
+          />
+
+          {/* word count + live score hints */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 8, paddingTop: 8, borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ fontFamily: 'Space Grotesk', fontSize: 11, color: C.dim }}>{wordCount} words</div>
+            <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+              {usedWords.length > 0 && (
+                <>
+                  <div style={{ fontFamily: 'Nunito', fontSize: 10, color: C.mint, fontWeight: 700 }}>✓ {usedWords.length} word{usedWords.length !== 1 ? 's' : ''} detected</div>
+                  {wordCount > 0 && wordCount < 25 && (
+                    <div style={{ fontFamily: 'Nunito', fontSize: 10, color: '#F59E0B', fontWeight: 700 }}>💡 Nice & concise!</div>
+                  )}
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* example hint */}
+        {passage.length === 0 && (
+          <div style={{ marginTop: 8, padding: '8px 10px', background: 'rgba(255,255,255,0.02)', borderRadius: 10, border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ fontFamily: 'Nunito', fontSize: 10, color: C.dim, marginBottom: 3 }}>Example (tap to use):</div>
+            <div
+              onClick={() => setPassage("The STOIC emperor's OPULENT palace crumbled after an EPHEMERAL reign — a PRAGMATIC historian noted that his VERBOSE farewell speech was longer than his time on the throne.")}
+              style={{ fontFamily: 'Lora, serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.5, fontStyle: 'italic', cursor: 'pointer' }}
+            >
+              "The STOIC emperor's OPULENT palace crumbled after an EPHEMERAL reign…"
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Submit area */}
+      <div style={{ padding: '10px 14px 24px', flexShrink: 0 }}>
+        {/* score preview chips */}
+        {usedWords.length > 0 && (
+          <div style={{ display: 'flex', gap: 6, marginBottom: 10, animation: 'slideInUp 0.3s ease' }}>
+            <div style={{ flex: 1, background: 'rgba(96,165,250,0.08)', borderRadius: 9, padding: '6px 8px', textAlign: 'center', border: '1px solid rgba(96,165,250,0.15)' }}>
+              <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: '#60A5FA', textTransform: 'uppercase', letterSpacing: 0.5 }}>Accuracy</div>
+              <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 14, color: '#60A5FA' }}>{Math.min(100, 50 + usedWords.length * 12)}+</div>
+            </div>
+            <div style={{ flex: 1, background: 'rgba(52,211,153,0.08)', borderRadius: 9, padding: '6px 8px', textAlign: 'center', border: '1px solid rgba(52,211,153,0.15)' }}>
+              <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: C.mint, textTransform: 'uppercase', letterSpacing: 0.5 }}>Conciseness</div>
+              <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 14, color: C.mint }}>{wordCount < 30 ? '90+' : wordCount < 50 ? '75+' : '60+'}</div>
+            </div>
+            <div style={{ flex: 1, background: 'rgba(245,158,11,0.08)', borderRadius: 9, padding: '6px 8px', textAlign: 'center', border: '1px solid rgba(245,158,11,0.15)' }}>
+              <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: '#F59E0B', textTransform: 'uppercase', letterSpacing: 0.5 }}>Creativity</div>
+              <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 14, color: '#F59E0B' }}>?</div>
+            </div>
+          </div>
+        )}
+
+        <button
+          onClick={submit}
+          disabled={!canSubmit}
+          style={{
+            width: '100%', height: 50, borderRadius: 15,
+            background: canSubmit ? 'linear-gradient(135deg, #FFE566, #F5A623)' : 'rgba(255,255,255,0.06)',
+            border: 'none', cursor: canSubmit ? 'pointer' : 'not-allowed',
+            fontFamily: 'Nunito', fontWeight: 900, fontSize: 16,
+            color: canSubmit ? '#3D2800' : C.dim,
+            transition: 'all 0.3s',
+            boxShadow: canSubmit ? '0 4px 20px rgba(245,166,35,0.35)' : undefined,
+            animation: canSubmit ? 'glowPulse 2s ease infinite' : undefined,
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7,
+          }}
+        >
+          {canSubmit ? '⭐ Submit for Grading' : `Use at least 1 word to submit`}
+        </button>
+      </div>
+
+      {/* home indicator */}
+      <div style={{ position: 'absolute', bottom: 8, left: '50%', transform: 'translateX(-50%)', width: 134, height: 5, borderRadius: 3, background: 'rgba(255,255,255,0.3)', pointerEvents: 'none' }} />
+    </div>
+  );
+}
+
+// ── Root ───────────────────────────────────────────────────────
+function App() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      minHeight: '100vh',
+      background: 'radial-gradient(ellipse at 40% 50%, #1a1a2e 0%, #07080f 60%)',
+    }}>
+      <div style={{ position: 'absolute', top: 20, left: 0, right: 0, textAlign: 'center' }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 12, color: 'rgba(255,255,255,0.25)', letterSpacing: 3, textTransform: 'uppercase' }}>
+          LEXICON · Passage Writing Screen
+        </div>
+      </div>
+      <div style={{
+        width: 402, height: 874, borderRadius: 48, overflow: 'hidden',
+        background: C.bg,
+        boxShadow: '0 40px 100px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)',
+        position: 'relative',
+      }}>
+        <div style={{ position: 'absolute', top: 12, left: '50%', transform: 'translateX(-50%)', width: 126, height: 36, borderRadius: 20, background: '#000', zIndex: 50, pointerEvents: 'none' }} />
+        <WriteApp />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

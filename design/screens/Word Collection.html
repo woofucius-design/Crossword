@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexicon – Word Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #07080f; display: flex; align-items: center; justify-content: center; font-family: 'Nunito', sans-serif; overflow: hidden; }
+
+    @keyframes shimmer {
+      0% { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(168,85,247,0.4); }
+      50% { box-shadow: 0 0 0 6px rgba(168,85,247,0); }
+    }
+    @keyframes fadeSlip {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+    @keyframes slideInUp {
+      from { transform: translateY(16px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes newCardPop {
+      0% { transform: scale(0.9); opacity: 0; }
+      70% { transform: scale(1.03); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    @keyframes retentionPulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    ::-webkit-scrollbar { width: 0; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+const { useState, useRef, useEffect } = React;
+
+// ── Palette ────────────────────────────────────────────────────
+const C = {
+  bg: '#0D1B2A',
+  surface: '#132236',
+  card: '#16293D',
+  border: 'rgba(255,255,255,0.07)',
+  text: '#FFFFFF',
+  muted: 'rgba(255,255,255,0.45)',
+  dim: 'rgba(255,255,255,0.25)',
+  yellow: '#FFE566',
+  orange: '#FF6B35',
+  mint: '#34D399',
+};
+
+const MASTERY = {
+  new:      { label: 'New',      color: '#60A5FA', bg: 'rgba(96,165,250,0.12)',  icon: '✦' },
+  learning: { label: 'Learning', color: '#F97316', bg: 'rgba(249,115,22,0.12)',  icon: '◈' },
+  familiar: { label: 'Familiar', color: '#EAB308', bg: 'rgba(234,179,8,0.12)',   icon: '◉' },
+  strong:   { label: 'Strong',   color: '#22C55E', bg: 'rgba(34,197,94,0.12)',   icon: '★' },
+  mastered: { label: 'Mastered', color: '#A855F7', bg: 'rgba(168,85,247,0.12)',  icon: '⬟' },
+};
+
+// ── Word Data ──────────────────────────────────────────────────
+const ALL_WORDS = [
+  { id:1,  word:'LUCID',      def:'clearly expressed; easy to understand',         mastery:'new',      collected:'2h ago',  lastReview:null,     retention:100, reviews:0,  daysAgo:0,  puzzle:'Daily Mini #47', isNew:true },
+  { id:2,  word:'TERSE',      def:'brief and abrupt; sparing in words',             mastery:'new',      collected:'2h ago',  lastReview:null,     retention:100, reviews:0,  daysAgo:0,  puzzle:'Daily Mini #47', isNew:true },
+  { id:3,  word:'OPULENT',    def:'ostentatiously rich and luxurious',              mastery:'familiar', collected:'11d ago', lastReview:'7d ago', retention:36,  reviews:5,  daysAgo:7,  slipping:true },
+  { id:4,  word:'EPHEMERAL',  def:'lasting for a very short time',                  mastery:'familiar', collected:'10d ago', lastReview:'6d ago', retention:41,  reviews:5,  daysAgo:6,  slipping:true },
+  { id:5,  word:'VERBOSE',    def:'using more words than necessary',                mastery:'familiar', collected:'8d ago',  lastReview:'5d ago', retention:49,  reviews:4,  daysAgo:5,  slipping:true },
+  { id:6,  word:'PRAGMATIC',  def:'dealing with things sensibly and realistically', mastery:'familiar', collected:'9d ago',  lastReview:'3d ago', retention:61,  reviews:4,  daysAgo:3 },
+  { id:7,  word:'CANDOR',     def:'the quality of being open and honest',           mastery:'learning', collected:'3d ago',  lastReview:'1d ago', retention:78,  reviews:2,  daysAgo:1 },
+  { id:8,  word:'BANAL',      def:'so lacking originality as to be boring',         mastery:'learning', collected:'4d ago',  lastReview:'2d ago', retention:65,  reviews:3,  daysAgo:2 },
+  { id:9,  word:'RHETORIC',   def:'persuasive language; grand but empty speech',    mastery:'learning', collected:'5d ago',  lastReview:'1d ago', retention:72,  reviews:2,  daysAgo:1 },
+  { id:10, word:'INSOLENT',   def:'rude and disrespectful; boldly insulting',       mastery:'learning', collected:'6d ago',  lastReview:'2d ago', retention:70,  reviews:3,  daysAgo:2 },
+  { id:11, word:'STOIC',      def:'enduring pain without showing feelings',         mastery:'familiar', collected:'12d ago', lastReview:'4d ago', retention:55,  reviews:5,  daysAgo:4 },
+  { id:12, word:'AMBIGUOUS',  def:'open to more than one interpretation',           mastery:'strong',   collected:'15d ago', lastReview:'2d ago', retention:88,  reviews:7,  daysAgo:2 },
+  { id:13, word:'DILIGENT',   def:'having or showing care and effort in work',      mastery:'strong',   collected:'18d ago', lastReview:'3d ago', retention:82,  reviews:8,  daysAgo:3 },
+  { id:14, word:'CONCISE',    def:'giving information clearly in few words',        mastery:'strong',   collected:'14d ago', lastReview:'1d ago', retention:91,  reviews:7,  daysAgo:1 },
+  { id:15, word:'TENACIOUS',  def:'holding firmly; persistent despite difficulty',  mastery:'strong',   collected:'20d ago', lastReview:'2d ago', retention:85,  reviews:9,  daysAgo:2 },
+  { id:16, word:'BENEVOLENT', def:'well-meaning and kindly; charitable',            mastery:'mastered', collected:'30d ago', lastReview:'5d ago', retention:96,  reviews:12, daysAgo:5 },
+  { id:17, word:'PERSEVERE',  def:'continue in spite of difficulty or opposition',  mastery:'mastered', collected:'25d ago', lastReview:'7d ago', retention:93,  reviews:11, daysAgo:7 },
+  { id:18, word:'METICULOUS', def:'showing great attention to detail; precise',     mastery:'mastered', collected:'28d ago', lastReview:'4d ago', retention:97,  reviews:13, daysAgo:4 },
+  { id:19, word:'ARDUOUS',    def:'involving great effort and endurance',           mastery:'mastered', collected:'22d ago', lastReview:'6d ago', retention:94,  reviews:10, daysAgo:6 },
+  { id:20, word:'VACUOUS',    def:'lacking thought or intelligence; empty',         mastery:'learning', collected:'2d ago',  lastReview:'today',  retention:85,  reviews:1,  daysAgo:0 },
+];
+
+// AI surfaces: slipping + scheduled, sorted by urgency
+const FOCUS_QUEUE = ALL_WORDS
+  .filter(w => w.mastery !== 'new')
+  .sort((a, b) => {
+    const urgencyScore = w => {
+      const retDecay = (100 - w.retention) * 1.5;
+      const dayPenalty = w.daysAgo * 8;
+      const tierBonus = { learning: 10, familiar: 20, strong: 5, mastered: -10 }[w.mastery] || 0;
+      return retDecay + dayPenalty + tierBonus;
+    };
+    return urgencyScore(b) - urgencyScore(a);
+  })
+  .slice(0, 5);
+
+function focusReason(w) {
+  if (w.retention < 45) return { label: 'About to forget', color: '#EF4444', icon: '⚠' };
+  if (w.retention < 60) return { label: 'Slipping fast', color: '#F97316', icon: '↘' };
+  if (w.daysAgo >= 5)   return { label: 'Long overdue', color: '#EAB308', icon: '⏰' };
+  if (w.mastery === 'learning' && w.daysAgo >= 2) return { label: 'Reinforce now', color: '#60A5FA', icon: '↑' };
+  return { label: 'Good time to review', color: '#34D399', icon: '✓' };
+}
+
+// ── Retention Arc ──────────────────────────────────────────────
+function RetentionArc({ pct, size = 36, color }) {
+  const r = (size - 6) / 2;
+  const circ = 2 * Math.PI * r;
+  const dash = (pct / 100) * circ;
+  return (
+    <svg width={size} height={size} style={{ transform: 'rotate(-90deg)', flexShrink: 0 }}>
+      <circle cx={size/2} cy={size/2} r={r} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="3.5" />
+      <circle cx={size/2} cy={size/2} r={r} fill="none" stroke={color} strokeWidth="3.5"
+        strokeDasharray={`${dash} ${circ}`} strokeLinecap="round"
+        style={{ transition: 'stroke-dasharray 0.5s ease' }} />
+    </svg>
+  );
+}
+
+// ── Mini Sparkline ─────────────────────────────────────────────
+function Sparkline({ retention, days }) {
+  // Simulate decay curve going back N days
+  const points = Array.from({ length: 8 }, (_, i) => {
+    const t = (i / 7);
+    const decayFactor = Math.pow(0.85, (7 - i * (days / 7)));
+    return retention * (0.5 + 0.5 * (t + decayFactor * 0.5));
+  });
+  const max = Math.max(...points), min = Math.min(...points);
+  const norm = points.map(p => 1 - (p - min) / (max - min + 0.001));
+  const w = 48, h = 18;
+  const pts = norm.map((y, i) => `${(i / 7) * w},${y * h}`).join(' ');
+  return (
+    <svg width={w} height={h} style={{ overflow: 'visible' }}>
+      <polyline points={pts} fill="none" stroke="rgba(255,255,255,0.25)" strokeWidth="1.5" strokeLinejoin="round" />
+      <circle cx={(7/7)*w} cy={norm[7]*h} r="2.5" fill="#EF4444" />
+    </svg>
+  );
+}
+
+// ── Focus Card (horizontal scroll) ────────────────────────────
+function FocusCard({ word, onTap }) {
+  const m = MASTERY[word.mastery];
+  const reason = focusReason(word);
+  const isUrgent = word.retention < 50;
+  return (
+    <div
+      onClick={() => onTap(word)}
+      style={{
+        width: 176, flexShrink: 0,
+        background: isUrgent
+          ? 'linear-gradient(135deg, #1f1015 0%, #2a1520 100%)'
+          : 'linear-gradient(135deg, #132236 0%, #1a2e42 100%)',
+        borderRadius: 16,
+        border: `1px solid ${isUrgent ? 'rgba(239,68,68,0.25)' : 'rgba(255,255,255,0.08)'}`,
+        padding: '12px 14px',
+        cursor: 'pointer',
+        position: 'relative',
+        overflow: 'hidden',
+        animation: 'slideInUp 0.3s ease',
+      }}
+    >
+      {/* urgency glow */}
+      {isUrgent && (
+        <div style={{
+          position: 'absolute', inset: 0, borderRadius: 16,
+          background: 'radial-gradient(ellipse at 50% 0%, rgba(239,68,68,0.12) 0%, transparent 70%)',
+          pointerEvents: 'none',
+        }} />
+      )}
+
+      {/* reason badge */}
+      <div style={{
+        display: 'inline-flex', alignItems: 'center', gap: 3,
+        background: `${reason.color}20`,
+        border: `1px solid ${reason.color}40`,
+        borderRadius: 6, padding: '2px 6px', marginBottom: 8,
+      }}>
+        <span style={{ fontSize: 9, color: reason.color }}>{reason.icon}</span>
+        <span style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: reason.color, letterSpacing: 0.5, textTransform: 'uppercase' }}>{reason.label}</span>
+      </div>
+
+      {/* word */}
+      <div style={{
+        fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 18,
+        color: isUrgent ? '#FCA5A5' : '#fff',
+        letterSpacing: -0.3, lineHeight: 1, marginBottom: 4,
+      }}>{word.word}</div>
+
+      {/* def */}
+      <div style={{
+        fontFamily: 'Nunito', fontSize: 11, color: C.muted,
+        lineHeight: 1.4, marginBottom: 10,
+        display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+      }}>{word.def}</div>
+
+      {/* bottom row */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          <RetentionArc pct={word.retention} size={28} color={word.retention < 50 ? '#EF4444' : word.retention < 70 ? '#F97316' : '#22C55E'} />
+          <div>
+            <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 11, color: word.retention < 50 ? '#EF4444' : C.text }}>{word.retention}%</div>
+            <div style={{ fontFamily: 'Nunito', fontSize: 9, color: C.dim }}>retention</div>
+          </div>
+        </div>
+        <div style={{
+          background: 'linear-gradient(135deg, #FFE566, #F5A623)',
+          borderRadius: 8, padding: '5px 10px',
+          fontFamily: 'Nunito', fontWeight: 900, fontSize: 11, color: '#3D2800',
+        }}>Review</div>
+      </div>
+    </div>
+  );
+}
+
+// ── Word Card (grid) ───────────────────────────────────────────
+function WordCard({ word, onTap, animDelay = 0 }) {
+  const m = MASTERY[word.mastery];
+  const isMastered = word.mastery === 'mastered';
+  const isNew = word.isNew;
+  const isSlipping = word.slipping;
+
+  return (
+    <div
+      onClick={() => onTap(word)}
+      style={{
+        background: isMastered
+          ? 'linear-gradient(135deg, #1a1030 0%, #1e1535 100%)'
+          : C.card,
+        borderRadius: 14,
+        border: isNew
+          ? '1.5px solid rgba(255,229,102,0.4)'
+          : isSlipping
+          ? '1.5px solid rgba(239,68,68,0.3)'
+          : `1px solid ${C.border}`,
+        padding: '11px 12px 10px',
+        cursor: 'pointer',
+        position: 'relative', overflow: 'hidden',
+        animation: `slideInUp 0.35s ease ${animDelay}ms both`,
+        boxShadow: isMastered ? '0 0 0 1px rgba(168,85,247,0.15), 0 4px 16px rgba(168,85,247,0.08)' : undefined,
+      }}
+    >
+      {/* mastered shimmer */}
+      {isMastered && (
+        <div style={{
+          position: 'absolute', inset: 0,
+          background: 'linear-gradient(105deg, transparent 30%, rgba(168,85,247,0.08) 50%, transparent 70%)',
+          backgroundSize: '200% 100%',
+          animation: 'shimmer 3s linear infinite',
+          pointerEvents: 'none',
+          borderRadius: 14,
+        }} />
+      )}
+
+      {/* NEW badge */}
+      {isNew && (
+        <div style={{
+          position: 'absolute', top: 8, right: 8,
+          background: 'linear-gradient(135deg, #FFE566, #F5A623)',
+          borderRadius: 5, padding: '1px 5px',
+          fontFamily: 'Nunito', fontWeight: 900, fontSize: 8,
+          color: '#3D2800', letterSpacing: 0.5, textTransform: 'uppercase',
+        }}>NEW</div>
+      )}
+
+      {/* top row: tier + word number */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 5 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+          <span style={{ fontSize: 10, color: m.color }}>{m.icon}</span>
+          <span style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: m.color, letterSpacing: 0.5, textTransform: 'uppercase' }}>{m.label}</span>
+        </div>
+        <span style={{ fontFamily: 'Space Grotesk', fontWeight: 600, fontSize: 9, color: C.dim }}>#{String(word.id).padStart(3,'0')}</span>
+      </div>
+
+      {/* word */}
+      <div style={{
+        fontFamily: 'Space Grotesk', fontWeight: 700,
+        fontSize: 16, color: isMastered ? '#D8B4FE' : isSlipping ? '#FCA5A5' : '#fff',
+        letterSpacing: -0.2, lineHeight: 1, marginBottom: 4,
+      }}>{word.word}</div>
+
+      {/* def */}
+      <div style={{
+        fontFamily: 'Nunito', fontSize: 10.5, color: C.muted,
+        lineHeight: 1.4, marginBottom: 8,
+        display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+        minHeight: 28,
+      }}>{word.def}</div>
+
+      {/* retention bar */}
+      <div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 3 }}>
+          <span style={{ fontFamily: 'Nunito', fontSize: 9, color: C.dim }}>
+            {word.lastReview ? `Last: ${word.lastReview}` : `Collected ${word.collected}`}
+          </span>
+          {!isNew && (
+            <span style={{
+              fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 9,
+              color: word.retention < 50 ? '#EF4444' : word.retention < 70 ? '#F97316' : '#22C55E',
+              animation: isSlipping ? 'retentionPulse 1.8s ease infinite' : undefined,
+            }}>{word.retention}%</span>
+          )}
+        </div>
+        {!isNew && (
+          <div style={{ height: 3, background: 'rgba(255,255,255,0.07)', borderRadius: 2, overflow: 'hidden' }}>
+            <div style={{
+              height: '100%',
+              width: `${word.retention}%`,
+              background: word.retention < 50
+                ? 'linear-gradient(90deg, #EF4444, #F87171)'
+                : word.retention < 70
+                ? 'linear-gradient(90deg, #F97316, #FB923C)'
+                : word.retention < 85
+                ? 'linear-gradient(90deg, #EAB308, #FDE047)'
+                : isMastered
+                ? 'linear-gradient(90deg, #A855F7, #C084FC)'
+                : 'linear-gradient(90deg, #22C55E, #4ADE80)',
+              borderRadius: 2,
+              transition: 'width 0.5s ease',
+            }} />
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ── Word Detail Modal ──────────────────────────────────────────
+function WordDetail({ word, onClose }) {
+  if (!word) return null;
+  const m = MASTERY[word.mastery];
+  const reason = word.mastery !== 'new' ? focusReason(word) : null;
+
+  return (
+    <div style={{
+      position: 'absolute', inset: 0, zIndex: 300,
+      background: 'rgba(7,8,15,0.85)',
+      backdropFilter: 'blur(8px)',
+      display: 'flex', alignItems: 'flex-end',
+    }} onClick={onClose}>
+      <div
+        onClick={e => e.stopPropagation()}
+        style={{
+          width: '100%',
+          background: 'linear-gradient(170deg, #16293D 0%, #0D1B2A 100%)',
+          borderRadius: '20px 20px 0 0',
+          border: '1px solid rgba(255,255,255,0.1)',
+          borderBottom: 'none',
+          padding: '20px 20px 48px',
+          animation: 'slideInUp 0.3s cubic-bezier(0.22,1,0.36,1)',
+        }}
+      >
+        {/* handle */}
+        <div style={{ width: 36, height: 4, background: 'rgba(255,255,255,0.2)', borderRadius: 2, margin: '0 auto 16px' }} />
+
+        {/* header */}
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12, marginBottom: 16 }}>
+          <div style={{
+            width: 48, height: 48, borderRadius: 12,
+            background: m.bg, border: `1px solid ${m.color}40`,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 22, color: m.color,
+          }}>{m.icon}</div>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 24, color: '#fff', letterSpacing: -0.5, lineHeight: 1 }}>{word.word}</div>
+            <div style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 12, color: m.color, marginTop: 3 }}>{m.label} · {word.reviews} reviews</div>
+          </div>
+          {!word.isNew && (
+            <RetentionArc pct={word.retention} size={44} color={word.retention < 50 ? '#EF4444' : word.retention < 70 ? '#F97316' : m.color} />
+          )}
+        </div>
+
+        {/* definition */}
+        <div style={{
+          background: 'rgba(255,255,255,0.04)', borderRadius: 12,
+          border: '1px solid rgba(255,255,255,0.07)',
+          padding: '12px 14px', marginBottom: 12,
+        }}>
+          <div style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 10, color: C.muted, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 5 }}>Definition</div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 15, color: '#fff', lineHeight: 1.5 }}>{word.def}</div>
+        </div>
+
+        {/* AI insight */}
+        {reason && (
+          <div style={{
+            background: `${reason.color}10`, borderRadius: 12,
+            border: `1px solid ${reason.color}25`,
+            padding: '10px 14px', marginBottom: 14,
+            display: 'flex', gap: 8, alignItems: 'center',
+          }}>
+            <span style={{ fontSize: 16 }}>🤖</span>
+            <div>
+              <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 11, color: reason.color }}>AI Suggests: {reason.label}</div>
+              <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted, marginTop: 1 }}>
+                {word.retention < 50
+                  ? `Retention at ${word.retention}% — you're near the forgetting threshold. Review now to reset the clock.`
+                  : word.daysAgo >= 4
+                  ? `${word.daysAgo} days without practice. Memory decays without reinforcement.`
+                  : `Retention is ${word.retention}%. A quick review now will lock this in longer.`}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* stats row */}
+        <div style={{ display: 'flex', gap: 8, marginBottom: 14 }}>
+          {[
+            { label: 'Collected', value: word.collected },
+            { label: 'Reviews', value: word.reviews },
+            { label: 'Last seen', value: word.lastReview || 'Never' },
+          ].map(s => (
+            <div key={s.label} style={{
+              flex: 1, background: 'rgba(255,255,255,0.04)', borderRadius: 10,
+              padding: '8px 10px', textAlign: 'center',
+            }}>
+              <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 13, color: '#fff' }}>{s.value}</div>
+              <div style={{ fontFamily: 'Nunito', fontSize: 9, color: C.muted, marginTop: 1, textTransform: 'uppercase', letterSpacing: 0.5 }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* actions */}
+        <div style={{ display: 'flex', gap: 8 }}>
+          <button style={{
+            flex: 1, height: 46, borderRadius: 13,
+            background: 'linear-gradient(135deg, #FFE566, #F5A623)',
+            border: 'none', cursor: 'pointer',
+            fontFamily: 'Nunito', fontWeight: 900, fontSize: 14, color: '#3D2800',
+          }}>Practice Now</button>
+          <button style={{
+            width: 46, height: 46, borderRadius: 13,
+            background: 'rgba(255,255,255,0.07)',
+            border: '1px solid rgba(255,255,255,0.1)',
+            cursor: 'pointer', fontSize: 18,
+          }}>📤</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Status Bar ─────────────────────────────────────────────────
+function StatusBar() {
+  return (
+    <div style={{
+      height: 54, display: 'flex', alignItems: 'flex-end',
+      justifyContent: 'space-between', padding: '0 22px 10px',
+      fontFamily: '-apple-system, system-ui', position: 'relative', zIndex: 20,
+    }}>
+      <span style={{ fontWeight: 600, fontSize: 15, color: '#fff' }}>9:41</span>
+      <div style={{ width: 126, height: 34, borderRadius: 20, background: '#000', position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)' }} />
+      <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+        <svg width="17" height="12" viewBox="0 0 17 12"><path d="M8.5 3.2C10.8 3.2 12.9 4.1 14.4 5.6L15.5 4.5C13.7 2.7 11.2 1.5 8.5 1.5C5.8 1.5 3.3 2.7 1.5 4.5L2.6 5.6C4.1 4.1 6.2 3.2 8.5 3.2Z" fill="white"/><path d="M8.5 6.8C9.9 6.8 11.1 7.3 12 8.2L13.1 7.1C11.8 5.9 10.2 5.1 8.5 5.1C6.8 5.1 5.2 5.9 3.9 7.1L5 8.2C5.9 7.3 7.1 6.8 8.5 6.8Z" fill="white"/><circle cx="8.5" cy="10.5" r="1.5" fill="white"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="white" strokeOpacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="1.5" fill="white"/><path d="M23 4v4c.8-.3 1.5-1.1 1.5-2s-.7-1.7-1.5-2z" fill="white" fillOpacity="0.4"/></svg>
+      </div>
+    </div>
+  );
+}
+
+// ── Collection Stats Strip ─────────────────────────────────────
+function StatsStrip({ total, mastered, dueToday, streak }) {
+  return (
+    <div style={{ padding: '0 14px 12px', display: 'flex', gap: 8 }}>
+      {/* total — big hero number */}
+      <div style={{
+        flex: 2,
+        background: 'linear-gradient(135deg, #132236 0%, #1a3050 100%)',
+        borderRadius: 14, padding: '12px 14px',
+        border: '1px solid rgba(255,229,102,0.15)',
+        position: 'relative', overflow: 'hidden',
+      }}>
+        <div style={{ position: 'absolute', right: 10, top: '50%', transform: 'translateY(-50%)', fontSize: 36, opacity: 0.15 }}>📚</div>
+        <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 30, color: '#FFE566', lineHeight: 1 }}>{total}</div>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 10, color: C.muted, marginTop: 2, textTransform: 'uppercase', letterSpacing: 0.5 }}>Words Collected</div>
+      </div>
+
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 8 }}>
+        {/* mastered */}
+        <div style={{
+          flex: 1, background: C.surface, borderRadius: 11, padding: '8px 10px',
+          border: '1px solid rgba(168,85,247,0.2)',
+          display: 'flex', alignItems: 'center', gap: 6,
+        }}>
+          <span style={{ fontSize: 14 }}>⬟</span>
+          <div>
+            <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 16, color: '#D8B4FE', lineHeight: 1 }}>{mastered}</div>
+            <div style={{ fontFamily: 'Nunito', fontSize: 8, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3 }}>Mastered</div>
+          </div>
+        </div>
+        {/* due */}
+        <div style={{
+          flex: 1, background: C.surface, borderRadius: 11, padding: '8px 10px',
+          border: `1px solid ${dueToday > 0 ? 'rgba(239,68,68,0.2)' : C.border}`,
+          display: 'flex', alignItems: 'center', gap: 6,
+        }}>
+          <span style={{ fontSize: 14 }}>{dueToday > 0 ? '🔴' : '✅'}</span>
+          <div>
+            <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 16, color: dueToday > 0 ? '#FCA5A5' : '#4ADE80', lineHeight: 1 }}>{dueToday}</div>
+            <div style={{ fontFamily: 'Nunito', fontSize: 8, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3 }}>Due Today</div>
+          </div>
+        </div>
+      </div>
+
+      {/* streak */}
+      <div style={{
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+        background: 'rgba(255,107,53,0.1)', borderRadius: 14, padding: '10px 10px',
+        border: '1px solid rgba(255,107,53,0.2)', minWidth: 58,
+      }}>
+        <span style={{ fontSize: 22 }}>🔥</span>
+        <div style={{ fontFamily: 'Space Grotesk', fontWeight: 800, fontSize: 18, color: '#FF6B35', lineHeight: 1 }}>{streak}</div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 8, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3, marginTop: 1 }}>Streak</div>
+      </div>
+    </div>
+  );
+}
+
+// ── Class Ranking Banner ───────────────────────────────────────
+function RankBanner() {
+  return (
+    <div style={{
+      margin: '0 14px 10px',
+      background: 'linear-gradient(135deg, #1a2040 0%, #1e1535 100%)',
+      borderRadius: 12, padding: '9px 12px',
+      border: '1px solid rgba(99,102,241,0.25)',
+      display: 'flex', alignItems: 'center', gap: 10,
+    }}>
+      <div style={{
+        width: 32, height: 32, borderRadius: 10,
+        background: 'linear-gradient(135deg, #6366F1, #818CF8)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        fontSize: 16, flexShrink: 0,
+      }}>🏆</div>
+      <div style={{ flex: 1 }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 12, color: '#fff' }}>
+          #3 in English Honors — Period 2
+        </div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted }}>
+          Collect 3 more words to reach <span style={{ color: '#818CF8', fontWeight: 700 }}>#2</span>
+        </div>
+      </div>
+      <div style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 10, color: '#818CF8' }}>View →</div>
+    </div>
+  );
+}
+
+// ── Tab Bar ────────────────────────────────────────────────────
+function TabBar({ active, onChange, counts }) {
+  const tabs = [
+    { id: 'all', label: 'All', count: counts.all },
+    { id: 'review', label: 'Review', count: counts.review, urgent: true },
+    { id: 'mastered', label: 'Mastered', count: counts.mastered },
+  ];
+  return (
+    <div style={{ padding: '0 14px 10px', display: 'flex', gap: 6 }}>
+      {tabs.map(t => (
+        <div
+          key={t.id}
+          onClick={() => onChange(t.id)}
+          style={{
+            flex: 1, height: 36, borderRadius: 10,
+            background: active === t.id ? (t.urgent ? 'rgba(239,68,68,0.15)' : 'rgba(255,229,102,0.1)') : 'rgba(255,255,255,0.05)',
+            border: active === t.id ? `1px solid ${t.urgent ? 'rgba(239,68,68,0.3)' : 'rgba(255,229,102,0.25)'}` : '1px solid transparent',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5,
+            cursor: 'pointer',
+          }}
+        >
+          <span style={{
+            fontFamily: 'Nunito', fontWeight: 800, fontSize: 12,
+            color: active === t.id ? (t.urgent ? '#FCA5A5' : '#FFE566') : C.muted,
+          }}>{t.label}</span>
+          <div style={{
+            background: active === t.id ? (t.urgent ? 'rgba(239,68,68,0.3)' : 'rgba(255,229,102,0.2)') : 'rgba(255,255,255,0.08)',
+            borderRadius: 5, padding: '1px 5px',
+            fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 10,
+            color: active === t.id ? (t.urgent ? '#FCA5A5' : '#FFE566') : C.dim,
+          }}>{t.count}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Main App ───────────────────────────────────────────────────
+function CollectionApp() {
+  const [tab, setTab] = useState('all');
+  const [detail, setDetail] = useState(null);
+  const scrollRef = useRef(null);
+
+  const newWords = ALL_WORDS.filter(w => w.isNew);
+  const reviewWords = ALL_WORDS.filter(w => !w.isNew && (w.slipping || (w.mastery === 'learning' && w.daysAgo >= 1)));
+  const masteredWords = ALL_WORDS.filter(w => w.mastery === 'mastered');
+
+  const displayed = tab === 'all'
+    ? ALL_WORDS
+    : tab === 'review'
+    ? [...ALL_WORDS.filter(w => w.slipping || (w.mastery === 'learning' && w.daysAgo >= 1)), ...ALL_WORDS.filter(w => !w.slipping && w.mastery === 'familiar')]
+    : masteredWords;
+
+  return (
+    <div style={{
+      height: '100%', background: C.bg,
+      display: 'flex', flexDirection: 'column',
+      position: 'relative', overflow: 'hidden',
+      fontFamily: 'Nunito, sans-serif',
+    }}>
+      <StatusBar />
+
+      {/* Scrollable content */}
+      <div ref={scrollRef} style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden' }}>
+
+        {/* Header */}
+        <div style={{ padding: '2px 14px 10px', display: 'flex', alignItems: 'center', gap: 10 }}>
+          <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 24, color: '#fff', letterSpacing: -0.5, flex: 1 }}>
+            My Collection
+          </div>
+          <div style={{
+            background: 'rgba(255,255,255,0.07)', borderRadius: 10,
+            width: 34, height: 34, display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontSize: 16, cursor: 'pointer',
+          }}>⚙</div>
+        </div>
+
+        <StatsStrip total={ALL_WORDS.length} mastered={masteredWords.length} dueToday={reviewWords.length} streak={7} />
+        <RankBanner />
+
+        {/* Newly collected section */}
+        {newWords.length > 0 && (
+          <div style={{ marginBottom: 12 }}>
+            <div style={{ padding: '0 14px 8px', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <div style={{
+                width: 8, height: 8, borderRadius: '50%',
+                background: '#FFE566',
+                boxShadow: '0 0 6px #FFE566',
+                animation: 'retentionPulse 1.2s ease infinite',
+              }} />
+              <span style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 11, color: '#FFE566', textTransform: 'uppercase', letterSpacing: 1 }}>Just Collected · Daily Mini #47</span>
+            </div>
+            <div style={{ display: 'flex', gap: 10, padding: '0 14px', overflowX: 'auto', paddingBottom: 4 }}>
+              {newWords.map(w => (
+                <div key={w.id} onClick={() => setDetail(w)} style={{
+                  width: 160, flexShrink: 0,
+                  background: 'linear-gradient(135deg, #1e1e08 0%, #2a2800 100%)',
+                  borderRadius: 14,
+                  border: '1.5px solid rgba(255,229,102,0.35)',
+                  padding: '12px 14px',
+                  cursor: 'pointer',
+                  boxShadow: '0 0 20px rgba(255,229,102,0.1)',
+                  animation: 'newCardPop 0.4s ease both',
+                }}>
+                  <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 9, color: '#FFE566', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>✦ New Word</div>
+                  <div style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 20, color: '#fff', letterSpacing: -0.3, marginBottom: 4 }}>{w.word}</div>
+                  <div style={{ fontFamily: 'Nunito', fontSize: 11, color: 'rgba(255,255,255,0.6)', lineHeight: 1.4, marginBottom: 10,
+                    display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{w.def}</div>
+                  <div style={{
+                    fontFamily: 'Nunito', fontWeight: 800, fontSize: 10, color: '#FFE566',
+                    background: 'rgba(255,229,102,0.1)', borderRadius: 6, padding: '3px 8px', display: 'inline-block',
+                  }}>First review due tomorrow →</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* AI Focus Queue */}
+        <div style={{ marginBottom: 12 }}>
+          <div style={{ padding: '0 14px 8px', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ fontSize: 14 }}>🤖</span>
+            <span style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 11, color: C.muted, textTransform: 'uppercase', letterSpacing: 1 }}>AI Focus Queue</span>
+            <div style={{ flex: 1 }} />
+            <span style={{ fontFamily: 'Nunito', fontWeight: 700, fontSize: 11, color: '#EF4444' }}>3 slipping ↘</span>
+          </div>
+          <div style={{ display: 'flex', gap: 10, padding: '0 14px', overflowX: 'auto', paddingBottom: 4 }}>
+            {FOCUS_QUEUE.map(w => <FocusCard key={w.id} word={w} onTap={setDetail} />)}
+          </div>
+        </div>
+
+        {/* Tabs + Grid */}
+        <TabBar
+          active={tab} onChange={setTab}
+          counts={{ all: ALL_WORDS.length, review: reviewWords.length, mastered: masteredWords.length }}
+        />
+
+        {/* Sort hint */}
+        <div style={{ padding: '0 14px 8px', display: 'flex', alignItems: 'center', gap: 6 }}>
+          <span style={{ fontFamily: 'Nunito', fontSize: 10, color: C.dim }}>
+            {tab === 'all' ? 'Sorted by urgency — most at-risk first' :
+             tab === 'review' ? 'Sorted by forgetting curve · tap any card to practice' :
+             'Your permanently locked words'}
+          </span>
+        </div>
+
+        {/* Grid */}
+        <div style={{
+          display: 'grid', gridTemplateColumns: '1fr 1fr',
+          gap: 8, padding: '0 14px 32px',
+        }}>
+          {displayed.map((w, i) => (
+            <WordCard key={w.id} word={w} onTap={setDetail} animDelay={i * 30} />
+          ))}
+        </div>
+      </div>
+
+      {/* Detail modal */}
+      {detail && <WordDetail word={detail} onClose={() => setDetail(null)} />}
+
+      {/* Home indicator */}
+      <div style={{
+        position: 'absolute', bottom: 8, left: '50%', transform: 'translateX(-50%)',
+        width: 134, height: 5, borderRadius: 3, background: 'rgba(255,255,255,0.3)',
+        pointerEvents: 'none',
+      }} />
+    </div>
+  );
+}
+
+// ── Root ───────────────────────────────────────────────────────
+function App() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      minHeight: '100vh',
+      background: 'radial-gradient(ellipse at 40% 50%, #1a1a2e 0%, #07080f 60%)',
+    }}>
+      <div style={{ position: 'absolute', top: 20, left: 0, right: 0, textAlign: 'center' }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 12, color: 'rgba(255,255,255,0.25)', letterSpacing: 3, textTransform: 'uppercase' }}>
+          LEXICON · Word Collection Screen
+        </div>
+      </div>
+
+      {/* Phone shell */}
+      <div style={{
+        width: 402, height: 874,
+        borderRadius: 48, overflow: 'hidden',
+        background: '#0D1B2A',
+        boxShadow: '0 40px 100px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)',
+        position: 'relative',
+      }}>
+        {/* Dynamic island */}
+        <div style={{
+          position: 'absolute', top: 12, left: '50%', transform: 'translateX(-50%)',
+          width: 126, height: 36, borderRadius: 20, background: '#000', zIndex: 50,
+          pointerEvents: 'none',
+        }} />
+        <CollectionApp />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

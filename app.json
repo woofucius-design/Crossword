@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LEXICON",
+    "slug": "lexicon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lexicon",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B2A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.lexicon.vocab"
+    },
+    "android": {
+      "package": "app.lexicon.vocab",
+      "adaptiveIcon": {
+        "backgroundColor": "#0D1B2A"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

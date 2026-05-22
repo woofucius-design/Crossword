@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lexicon – Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      background: #07080f;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Nunito', sans-serif;
+      overflow: hidden;
+    }
+    ::-webkit-scrollbar { width: 0; }
+
+    @keyframes wordFloat {
+      0%   { opacity: 0; transform: translateY(6px) scale(0.97); }
+      18%  { opacity: var(--peak); }
+      82%  { opacity: var(--peak); }
+      100% { opacity: 0; transform: translateY(-8px) scale(1.02); }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(24px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; } 50% { opacity: 0.55; }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position:  200% center; }
+    }
+    @keyframes streakBounce {
+      0%,100% { transform: scale(1); }
+      50%      { transform: scale(1.18); }
+    }
+    @keyframes glowRing {
+      0%,100% { box-shadow: 0 0 0 0 rgba(255,229,102,0.25); }
+      50%      { box-shadow: 0 0 0 8px rgba(255,229,102,0); }
+    }
+    @keyframes rotateSlow {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useMemo } = React;
+
+// ── Palette ────────────────────────────────────────────────────
+const C = {
+  bg: '#0D1B2A', surface: '#132236', card: '#16293D',
+  border: 'rgba(255,255,255,0.07)',
+  text: '#FFFFFF', muted: 'rgba(255,255,255,0.45)', dim: 'rgba(255,255,255,0.2)',
+  yellow: '#FFE566', orange: '#FF6B35', mint: '#34D399',
+};
+
+// ── Floating word data ─────────────────────────────────────────
+const VOCAB_WORDS = [
+  // word, x%, y%, fontSize, peakOpacity, duration(s), delay(s), color-tint
+  { w:'EPHEMERAL',  x:8,   y:12,  fs:13, pk:0.07, dur:11, del:0,    hue:'yellow' },
+  { w:'LUCID',      x:78,  y:8,   fs:22, pk:0.10, dur:9,  del:2.5,  hue:'blue'   },
+  { w:'STOIC',      x:55,  y:18,  fs:11, pk:0.06, dur:13, del:1,    hue:'white'  },
+  { w:'OPULENT',    x:20,  y:30,  fs:17, pk:0.09, dur:10, del:3.8,  hue:'yellow' },
+  { w:'PRAGMATIC',  x:70,  y:28,  fs:12, pk:0.07, dur:14, del:0.5,  hue:'mint'   },
+  { w:'RHETORIC',   x:5,   y:48,  fs:20, pk:0.08, dur:12, del:4.5,  hue:'blue'   },
+  { w:'VERBOSE',    x:82,  y:42,  fs:14, pk:0.07, dur:10, del:6,    hue:'white'  },
+  { w:'CANDOR',     x:40,  y:55,  fs:16, pk:0.09, dur:11, del:1.5,  hue:'yellow' },
+  { w:'BANAL',      x:15,  y:65,  fs:11, pk:0.05, dur:15, del:7,    hue:'white'  },
+  { w:'AMBIGUOUS',  x:60,  y:60,  fs:19, pk:0.08, dur:9,  del:2,    hue:'blue'   },
+  { w:'TENACIOUS',  x:30,  y:78,  fs:12, pk:0.06, dur:13, del:5,    hue:'mint'   },
+  { w:'DILIGENT',   x:80,  y:72,  fs:15, pk:0.08, dur:10, del:3,    hue:'yellow' },
+  { w:'METICULOUS', x:8,   y:84,  fs:11, pk:0.05, dur:14, del:8,    hue:'white'  },
+  { w:'BENEVOLENT', x:55,  y:82,  fs:13, pk:0.07, dur:11, del:0.8,  hue:'mint'   },
+  { w:'ARDUOUS',    x:40,  y:92,  fs:18, pk:0.09, dur:12, del:4,    hue:'blue'   },
+  { w:'CONCISE',    x:75,  y:88,  fs:13, pk:0.06, dur:10, del:6.5,  hue:'yellow' },
+  { w:'FERVENT',    x:22,  y:5,   fs:16, pk:0.08, dur:13, del:9,    hue:'mint'   },
+  { w:'ELOQUENT',   x:88,  y:55,  fs:11, pk:0.05, dur:15, del:3.5,  hue:'white'  },
+  { w:'NUANCE',     x:48,  y:38,  fs:14, pk:0.07, dur:12, del:7.5,  hue:'blue'   },
+  { w:'INNATE',     x:3,   y:72,  fs:19, pk:0.08, dur:9,  del:2.2,  hue:'yellow' },
+  { w:'PERVASIVE',  x:65,  y:3,   fs:12, pk:0.06, dur:14, del:5.5,  hue:'white'  },
+  { w:'ASTUTE',     x:34,  y:20,  fs:21, pk:0.09, dur:11, del:1.2,  hue:'mint'   },
+  { w:'INSOLENT',   x:90,  y:22,  fs:13, pk:0.06, dur:13, del:8.5,  hue:'blue'   },
+  { w:'PERSEVERE',  x:18,  y:95,  fs:11, pk:0.05, dur:12, del:0.3,  hue:'white'  },
+  { w:'WANE',       x:50,  y:70,  fs:24, pk:0.10, dur:10, del:4.8,  hue:'yellow' },
+  { w:'PONDER',     x:72,  y:15,  fs:15, pk:0.07, dur:11, del:6.2,  hue:'mint'   },
+  { w:'VACUOUS',    x:12,  y:55,  fs:13, pk:0.06, dur:14, del:9.5,  hue:'blue'   },
+  { w:'SERENE',     x:85,  y:92,  fs:17, pk:0.08, dur:10, del:2.8,  hue:'white'  },
+];
+
+const HUE_COLOR = {
+  yellow: 'rgba(255,229,102,VAR)',
+  blue:   'rgba(96,165,250,VAR)',
+  mint:   'rgba(52,211,153,VAR)',
+  white:  'rgba(255,255,255,VAR)',
+};
+
+// ── Floating background words ──────────────────────────────────
+function BackgroundWords() {
+  return (
+    <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
+      {VOCAB_WORDS.map((v, i) => {
+        const baseColor = HUE_COLOR[v.hue].replace('VAR', v.pk);
+        return (
+          <div
+            key={i}
+            style={{
+              position: 'absolute',
+              left: `${v.x}%`,
+              top: `${v.y}%`,
+              fontFamily: 'Space Grotesk, sans-serif',
+              fontWeight: 700,
+              fontSize: v.fs,
+              color: baseColor,
+              letterSpacing: v.fs > 16 ? -0.5 : 0.5,
+              whiteSpace: 'nowrap',
+              '--peak': v.pk,
+              animation: `wordFloat ${v.dur}s ease-in-out ${v.del}s infinite`,
+              userSelect: 'none',
+              textTransform: 'uppercase',
+            }}
+          >{v.w}</div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ── Mesh gradient bg ───────────────────────────────────────────
+function MeshBg() {
+  return (
+    <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+      {/* base */}
+      <div style={{ position: 'absolute', inset: 0, background: '#0D1B2A' }} />
+      {/* radial blobs */}
+      <div style={{ position: 'absolute', top: '-10%', left: '-20%', width: '70%', height: '60%', borderRadius: '50%', background: 'radial-gradient(ellipse, rgba(99,102,241,0.12) 0%, transparent 70%)' }} />
+      <div style={{ position: 'absolute', bottom: '-5%', right: '-15%', width: '60%', height: '55%', borderRadius: '50%', background: 'radial-gradient(ellipse, rgba(52,211,153,0.07) 0%, transparent 70%)' }} />
+      <div style={{ position: 'absolute', top: '35%', left: '20%', width: '55%', height: '40%', borderRadius: '50%', background: 'radial-gradient(ellipse, rgba(255,229,102,0.05) 0%, transparent 70%)' }} />
+    </div>
+  );
+}
+
+// ── Status bar ─────────────────────────────────────────────────
+function StatusBar() {
+  return (
+    <div style={{ height: 54, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', padding: '0 22px 10px', position: 'relative', zIndex: 20, flexShrink: 0 }}>
+      <span style={{ fontWeight: 600, fontSize: 15, color: '#fff', fontFamily: '-apple-system, system-ui' }}>9:41</span>
+      <div style={{ width: 126, height: 34, borderRadius: 20, background: '#000', position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)', zIndex: 30 }} />
+      <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+        <svg width="17" height="12" viewBox="0 0 17 12"><path d="M8.5 3.2C10.8 3.2 12.9 4.1 14.4 5.6L15.5 4.5C13.7 2.7 11.2 1.5 8.5 1.5C5.8 1.5 3.3 2.7 1.5 4.5L2.6 5.6C4.1 4.1 6.2 3.2 8.5 3.2Z" fill="white"/><path d="M8.5 6.8C9.9 6.8 11.1 7.3 12 8.2L13.1 7.1C11.8 5.9 10.2 5.1 8.5 5.1C6.8 5.1 5.2 5.9 3.9 7.1L5 8.2C5.9 7.3 7.1 6.8 8.5 6.8Z" fill="white"/><circle cx="8.5" cy="10.5" r="1.5" fill="white"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12"><rect x="0.5" y="0.5" width="21" height="11" rx="3" stroke="white" strokeOpacity="0.35" fill="none"/><rect x="2" y="2" width="18" height="8" rx="1.5" fill="white"/><path d="M23 4v4c.8-.3 1.5-1.1 1.5-2s-.7-1.7-1.5-2z" fill="white" fillOpacity="0.4"/></svg>
+      </div>
+    </div>
+  );
+}
+
+// ── App logo ───────────────────────────────────────────────────
+function Logo() {
+  return (
+    <div style={{ padding: '4px 18px 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexShrink: 0 }}>
+      <div>
+        <div style={{
+          fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 28,
+          color: '#fff', letterSpacing: -1, lineHeight: 1,
+          background: 'linear-gradient(135deg, #fff 30%, rgba(255,229,102,0.8) 100%)',
+          WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+        }}>LEXICON</div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted, letterSpacing: 0.3, marginTop: 1 }}>SAT Vocabulary · April 18</div>
+      </div>
+      {/* avatar */}
+      <div style={{ position: 'relative' }}>
+        <div style={{
+          width: 38, height: 38, borderRadius: 12,
+          background: 'linear-gradient(135deg, #6366F1, #8B5CF6)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          fontFamily: 'Nunito', fontWeight: 900, fontSize: 16, color: '#fff',
+          boxShadow: '0 2px 12px rgba(99,102,241,0.35)',
+        }}>A</div>
+        <div style={{
+          position: 'absolute', top: -3, right: -3, width: 14, height: 14,
+          background: '#FF6B35', borderRadius: '50%',
+          border: '2px solid #0D1B2A',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          fontFamily: 'Nunito', fontWeight: 900, fontSize: 7, color: '#fff',
+        }}>3</div>
+      </div>
+    </div>
+  );
+}
+
+// ── Stats row ──────────────────────────────────────────────────
+function StatsRow() {
+  const stats = [
+    { icon: '🔥', value: '7', label: 'Day Streak', color: '#FF6B35', bg: 'rgba(255,107,53,0.1)', border: 'rgba(255,107,53,0.2)', anim: 'streakBounce 2s ease infinite' },
+    { icon: '📚', value: '20', label: 'Collected', color: C.yellow, bg: 'rgba(255,229,102,0.08)', border: 'rgba(255,229,102,0.18)' },
+    { icon: '⬟',  value: '4',  label: 'Mastered',  color: '#D8B4FE', bg: 'rgba(168,85,247,0.08)', border: 'rgba(168,85,247,0.18)' },
+    { icon: '🏆', value: '#3', label: 'Class Rank', color: '#818CF8', bg: 'rgba(99,102,241,0.08)', border: 'rgba(99,102,241,0.2)' },
+  ];
+  return (
+    <div style={{ padding: '10px 14px 0', display: 'flex', gap: 7, flexShrink: 0 }}>
+      {stats.map((s, i) => (
+        <div key={i} style={{
+          flex: 1, background: s.bg, border: `1px solid ${s.border}`,
+          borderRadius: 11, padding: '8px 0',
+          display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 1,
+          animation: `slideUp 0.4s ease ${i * 0.07}s both`,
+        }}>
+          <span style={{ fontSize: 14, display: 'block', animation: s.anim }}>{s.icon}</span>
+          <span style={{ fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 15, color: s.color, lineHeight: 1 }}>{s.value}</span>
+          <span style={{ fontFamily: 'Nunito', fontSize: 8, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.3 }}>{s.label}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Daily puzzle card ──────────────────────────────────────────
+function DailyCard({ onPlay }) {
+  const [hover, setHover] = useState(false);
+  return (
+    <div
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      onClick={onPlay}
+      style={{
+        margin: '12px 14px 0',
+        background: 'linear-gradient(140deg, #1a2e46 0%, #132236 60%, #1a2a20 100%)',
+        borderRadius: 20,
+        border: '1.5px solid rgba(255,229,102,0.2)',
+        padding: '18px 18px 16px',
+        cursor: 'pointer',
+        position: 'relative', overflow: 'hidden',
+        boxShadow: hover
+          ? '0 8px 40px rgba(255,229,102,0.15), 0 2px 8px rgba(0,0,0,0.3)'
+          : '0 4px 20px rgba(0,0,0,0.25)',
+        transition: 'box-shadow 0.3s, transform 0.2s',
+        transform: hover ? 'translateY(-1px)' : 'none',
+        animation: 'slideUp 0.5s ease 0.1s both',
+        flexShrink: 0,
+      }}
+    >
+      {/* shimmer overlay */}
+      <div style={{
+        position: 'absolute', inset: 0,
+        background: 'linear-gradient(105deg, transparent 35%, rgba(255,229,102,0.04) 50%, transparent 65%)',
+        backgroundSize: '200% 100%',
+        animation: 'shimmer 4s linear infinite',
+        pointerEvents: 'none',
+        borderRadius: 20,
+      }} />
+
+      {/* top row */}
+      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 12 }}>
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 4 }}>
+            <div style={{
+              background: 'linear-gradient(135deg, #FFE566, #F5A623)',
+              borderRadius: 7, padding: '2px 8px',
+              fontFamily: 'Nunito', fontWeight: 900, fontSize: 9,
+              color: '#3D2800', letterSpacing: 1, textTransform: 'uppercase',
+            }}>Daily Mini</div>
+            <div style={{
+              background: 'rgba(52,211,153,0.15)', border: '1px solid rgba(52,211,153,0.3)',
+              borderRadius: 7, padding: '2px 7px',
+              fontFamily: 'Nunito', fontWeight: 800, fontSize: 9, color: C.mint,
+            }}>New Today</div>
+          </div>
+          <div style={{
+            fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 22,
+            color: '#fff', letterSpacing: -0.5, lineHeight: 1.1,
+          }}>Puzzle #48</div>
+          <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted, marginTop: 3 }}>7 SAT words · ~5 min</div>
+        </div>
+
+        {/* mini crossword preview */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 10px)', gap: 2, marginTop: 4 }}>
+          {[0,1,1,1,1, 0,0,0,1,0, 1,1,1,1,1, 0,0,0,1,0, 1,1,1,1,0].map((v, i) => (
+            <div key={i} style={{
+              width: 10, height: 10, borderRadius: 2,
+              background: v ? 'rgba(255,229,102,0.25)' : 'rgba(13,27,42,0.8)',
+              border: v ? '1px solid rgba(255,229,102,0.15)' : 'none',
+            }} />
+          ))}
+        </div>
+      </div>
+
+      {/* word preview */}
+      <div style={{
+        background: 'rgba(0,0,0,0.2)', borderRadius: 10, padding: '8px 10px',
+        marginBottom: 14, border: '1px solid rgba(255,255,255,0.06)',
+      }}>
+        <div style={{ fontFamily: 'Nunito', fontSize: 9, color: C.dim, textTransform: 'uppercase', letterSpacing: 0.8, marginBottom: 5 }}>Today's featured words include</div>
+        <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
+          {['TERSE','LUCID','CANDOR','ASTUTE','???'].map((w, i) => (
+            <div key={i} style={{
+              fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 11,
+              color: w === '???' ? C.dim : 'rgba(255,255,255,0.7)',
+              background: w === '???' ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.07)',
+              borderRadius: 5, padding: '2px 7px',
+              fontStyle: w === '???' ? 'italic' : 'normal',
+            }}>{w}</div>
+          ))}
+        </div>
+      </div>
+
+      {/* play button */}
+      <div style={{
+        height: 46, borderRadius: 13,
+        background: 'linear-gradient(135deg, #FFE566 0%, #F5A623 100%)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+        boxShadow: '0 4px 18px rgba(245,162,35,0.35)',
+        animation: 'glowRing 2.5s ease infinite',
+      }}>
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <polygon points="5,3 15,9 5,15" fill="#3D2800"/>
+        </svg>
+        <span style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 15, color: '#3D2800' }}>Play Today's Puzzle</span>
+      </div>
+    </div>
+  );
+}
+
+// ── AI insight banner ──────────────────────────────────────────
+function AIInsight() {
+  return (
+    <div style={{
+      margin: '10px 14px 0',
+      background: 'rgba(239,68,68,0.07)',
+      border: '1px solid rgba(239,68,68,0.18)',
+      borderRadius: 13, padding: '9px 13px',
+      display: 'flex', gap: 9, alignItems: 'center',
+      animation: 'slideUp 0.4s ease 0.25s both',
+      flexShrink: 0,
+    }}>
+      <span style={{ fontSize: 16, flexShrink: 0 }}>🤖</span>
+      <div style={{ flex: 1 }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 12, color: '#FCA5A5', marginBottom: 2 }}>
+          AI Notice: 3 words slipping
+        </div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 11, color: 'rgba(255,255,255,0.6)', lineHeight: 1.4 }}>
+          <span style={{ color: '#fff', fontWeight: 700 }}>OPULENT</span>, <span style={{ color: '#fff', fontWeight: 700 }}>EPHEMERAL</span> & <span style={{ color: '#fff', fontWeight: 700 }}>VERBOSE</span> are near the forgetting threshold.
+        </div>
+      </div>
+      <div style={{
+        background: 'rgba(239,68,68,0.15)', border: '1px solid rgba(239,68,68,0.3)',
+        borderRadius: 8, padding: '5px 9px',
+        fontFamily: 'Nunito', fontWeight: 800, fontSize: 11, color: '#FCA5A5',
+        cursor: 'pointer', flexShrink: 0,
+      }}>Review →</div>
+    </div>
+  );
+}
+
+// ── Quick action tiles ─────────────────────────────────────────
+function QuickActions({ active, onSelect }) {
+  const actions = [
+    {
+      id: 'collection',
+      icon: '⭐',
+      label: 'Collection',
+      sub: '20 words',
+      color: '#FFE566',
+      bg: 'rgba(255,229,102,0.08)',
+      border: 'rgba(255,229,102,0.2)',
+    },
+    {
+      id: 'review',
+      icon: '🔄',
+      label: 'Review',
+      sub: '3 due',
+      color: '#34D399',
+      bg: 'rgba(52,211,153,0.08)',
+      border: 'rgba(52,211,153,0.2)',
+      badge: '3',
+    },
+    {
+      id: 'write',
+      icon: '✏️',
+      label: 'Write',
+      sub: 'Passage mode',
+      color: '#818CF8',
+      bg: 'rgba(99,102,241,0.08)',
+      border: 'rgba(99,102,241,0.2)',
+    },
+    {
+      id: 'leaderboard',
+      icon: '🏆',
+      label: 'Rankings',
+      sub: 'You\'re #3',
+      color: '#FB923C',
+      bg: 'rgba(251,146,60,0.08)',
+      border: 'rgba(251,146,60,0.2)',
+    },
+  ];
+
+  return (
+    <div style={{ padding: '10px 14px 0', flexShrink: 0 }}>
+      <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 10, color: C.muted, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Quick Access</div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+        {actions.map((a, i) => (
+          <div
+            key={a.id}
+            onClick={() => onSelect(a.id)}
+            style={{
+              background: active === a.id ? a.bg : 'rgba(255,255,255,0.03)',
+              border: `1px solid ${active === a.id ? a.border : C.border}`,
+              borderRadius: 14, padding: '11px 12px',
+              cursor: 'pointer',
+              display: 'flex', alignItems: 'center', gap: 10,
+              transition: 'all 0.2s',
+              animation: `slideUp 0.4s ease ${0.3 + i * 0.06}s both`,
+              position: 'relative',
+            }}
+          >
+            {a.badge && (
+              <div style={{
+                position: 'absolute', top: 8, right: 10,
+                background: '#EF4444', borderRadius: '50%',
+                width: 16, height: 16,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontFamily: 'Nunito', fontWeight: 900, fontSize: 9, color: '#fff',
+              }}>{a.badge}</div>
+            )}
+            <div style={{
+              width: 36, height: 36, borderRadius: 10, background: `${a.color}18`,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 18, flexShrink: 0,
+            }}>{a.icon}</div>
+            <div>
+              <div style={{ fontFamily: 'Nunito', fontWeight: 800, fontSize: 13, color: active === a.id ? a.color : '#fff' }}>{a.label}</div>
+              <div style={{ fontFamily: 'Nunito', fontSize: 10, color: C.muted }}>{a.sub}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── Class challenge card ───────────────────────────────────────
+function ClassChallenge() {
+  return (
+    <div style={{
+      margin: '10px 14px 0',
+      background: 'linear-gradient(135deg, #1a2040 0%, #1e1535 100%)',
+      borderRadius: 16, padding: '12px 14px',
+      border: '1px solid rgba(99,102,241,0.25)',
+      display: 'flex', gap: 12, alignItems: 'center',
+      animation: 'slideUp 0.4s ease 0.45s both',
+      flexShrink: 0,
+    }}>
+      <div style={{
+        width: 44, height: 44, borderRadius: 12, flexShrink: 0,
+        background: 'linear-gradient(135deg, #4F46E5, #7C3AED)',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        fontSize: 22,
+        boxShadow: '0 4px 14px rgba(79,70,229,0.4)',
+      }}>✏️</div>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5, marginBottom: 2 }}>
+          <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 13, color: '#fff' }}>Class Writing Challenge</div>
+          <div style={{ background: 'rgba(239,68,68,0.2)', border: '1px solid rgba(239,68,68,0.35)', borderRadius: 5, padding: '1px 5px', fontFamily: 'Nunito', fontWeight: 800, fontSize: 8, color: '#FCA5A5', animation: 'pulse 1.5s ease infinite' }}>LIVE</div>
+        </div>
+        <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted }}>Ms. Hernandez · 14 students submitted · Due 3pm</div>
+      </div>
+      <div style={{
+        background: 'linear-gradient(135deg, #6366F1, #818CF8)',
+        borderRadius: 9, padding: '6px 11px', flexShrink: 0,
+        fontFamily: 'Nunito', fontWeight: 900, fontSize: 11, color: '#fff',
+        cursor: 'pointer',
+        boxShadow: '0 2px 10px rgba(99,102,241,0.35)',
+      }}>Join</div>
+    </div>
+  );
+}
+
+// ── Recent words ticker ────────────────────────────────────────
+function RecentTicker() {
+  const words = ['LUCID', 'TERSE', 'HUMOR', 'CROSS', 'CANDOR', 'BANAL'];
+  const [idx, setIdx] = useState(0);
+
+  useEffect(() => {
+    const t = setInterval(() => setIdx(i => (i + 1) % words.length), 2200);
+    return () => clearInterval(t);
+  }, []);
+
+  return (
+    <div style={{
+      margin: '8px 14px 0',
+      background: 'rgba(255,255,255,0.03)',
+      borderRadius: 11, padding: '7px 12px',
+      border: `1px solid ${C.border}`,
+      display: 'flex', alignItems: 'center', gap: 8,
+      animation: 'slideUp 0.4s ease 0.5s both',
+      flexShrink: 0,
+    }}>
+      <div style={{ width: 6, height: 6, borderRadius: '50%', background: C.mint, animation: 'pulse 1.5s ease infinite', flexShrink: 0 }} />
+      <div style={{ fontFamily: 'Nunito', fontSize: 11, color: C.muted }}>Your class just collected</div>
+      <div key={idx} style={{
+        fontFamily: 'Space Grotesk', fontWeight: 700, fontSize: 12, color: C.yellow,
+        animation: 'fadeIn 0.4s ease',
+      }}>{words[idx]}</div>
+    </div>
+  );
+}
+
+// ── Bottom nav ─────────────────────────────────────────────────
+function BottomNav({ active, onSelect }) {
+  const items = [
+    { id: 'home',     icon: '⊞',  label: 'Home'       },
+    { id: 'puzzle',   icon: '✦',  label: 'Puzzles'    },
+    { id: 'collection', icon: '⭐', label: 'Collection' },
+    { id: 'review',   icon: '↺',  label: 'Review'     },
+    { id: 'profile',  icon: '○',  label: 'Profile'    },
+  ];
+  return (
+    <div style={{
+      position: 'absolute', bottom: 0, left: 0, right: 0,
+      background: 'rgba(10,16,26,0.95)',
+      backdropFilter: 'blur(20px)',
+      borderTop: '1px solid rgba(255,255,255,0.07)',
+      padding: '8px 0 28px',
+      display: 'flex',
+      zIndex: 40,
+    }}>
+      {items.map(item => {
+        const isActive = active === item.id;
+        return (
+          <div
+            key={item.id}
+            onClick={() => onSelect(item.id)}
+            style={{
+              flex: 1,
+              display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3,
+              cursor: 'pointer',
+            }}
+          >
+            <div style={{
+              width: 32, height: 32, borderRadius: 10,
+              background: isActive ? 'rgba(255,229,102,0.12)' : 'transparent',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 18,
+              color: isActive ? C.yellow : C.muted,
+              transition: 'all 0.2s',
+            }}>{item.icon}</div>
+            <span style={{
+              fontFamily: 'Nunito', fontWeight: isActive ? 800 : 600,
+              fontSize: 9, color: isActive ? C.yellow : C.dim,
+              textTransform: 'uppercase', letterSpacing: 0.4,
+            }}>{item.label}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ══════════════════════════════════════════════════════════════
+// MAIN
+// ══════════════════════════════════════════════════════════════
+function HomeApp() {
+  const [navActive, setNavActive] = useState('home');
+  const [quickActive, setQuickActive] = useState(null);
+
+  return (
+    <div style={{
+      height: '100%', position: 'relative', overflow: 'hidden',
+      display: 'flex', flexDirection: 'column',
+    }}>
+      <MeshBg />
+      <BackgroundWords />
+
+      {/* foreground */}
+      <div style={{ position: 'relative', zIndex: 10, display: 'flex', flexDirection: 'column', height: '100%' }}>
+        <StatusBar />
+
+        <div style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', paddingBottom: 80 }}>
+          <Logo />
+          <StatsRow />
+          <DailyCard onPlay={() => {}} />
+          <AIInsight />
+          <QuickActions active={quickActive} onSelect={setQuickActive} />
+          <ClassChallenge />
+          <RecentTicker />
+
+          {/* bottom spacer */}
+          <div style={{ height: 12 }} />
+        </div>
+
+        <BottomNav active={navActive} onSelect={setNavActive} />
+      </div>
+
+      {/* home indicator */}
+      <div style={{
+        position: 'absolute', bottom: 8, left: '50%', transform: 'translateX(-50%)',
+        width: 134, height: 5, borderRadius: 3, background: 'rgba(255,255,255,0.3)',
+        pointerEvents: 'none', zIndex: 50,
+      }} />
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      minHeight: '100vh',
+      background: 'radial-gradient(ellipse at 40% 50%, #1a1a2e 0%, #07080f 60%)',
+    }}>
+      <div style={{ position: 'absolute', top: 20, left: 0, right: 0, textAlign: 'center' }}>
+        <div style={{ fontFamily: 'Nunito', fontWeight: 900, fontSize: 12, color: 'rgba(255,255,255,0.25)', letterSpacing: 3, textTransform: 'uppercase' }}>
+          LEXICON · Home Screen
+        </div>
+      </div>
+      <div style={{
+        width: 402, height: 874, borderRadius: 48, overflow: 'hidden',
+        background: C.bg,
+        boxShadow: '0 40px 100px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.08)',
+        position: 'relative',
+      }}>
+        <div style={{ position: 'absolute', top: 12, left: '50%', transform: 'translateX(-50%)', width: 126, height: 36, borderRadius: 20, background: '#000', zIndex: 50, pointerEvents: 'none' }} />
+        <HomeApp />
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
