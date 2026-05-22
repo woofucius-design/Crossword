@@ -1,15 +1,14 @@
 import type { Puzzle } from '@/types/models';
 
 /**
- * Daily Mini #48 — produced by the offline puzzle pipeline
- * (puzzle-pipeline/generator.py, seed 19) and verified by
- * puzzle-pipeline/validate.py.
+ * Daily Mini #48 — a freeform interlocking layout (loose crossings) featuring
+ * 6 SAT vocabulary words plus common-word fill. Every entry is either SAT
+ * vocabulary or a common dictionary word — no proper nouns, brands, titles, or
+ * crosswordese.
  *
- * Every entry is either an SAT vocabulary word or a common dictionary word.
- * There are no proper nouns, brand names, titles, or crosswordese — the whole
- * grid is buildable without any pop-culture vocabulary. The pipeline draws fill
- * words from a 20k-word list that is the intersection of a standard English
- * dictionary (no proper nouns) and a frequency floor (no obscure words).
+ * See puzzle-pipeline/README.md for the grid-size feasibility study: a fully
+ * checked (every-row-and-column) grid is reliable only at 5×5 / 6×6 and
+ * features just 2-3 SAT words, so this freeform layout is used to feature 6.
  */
 const SOLUTION: string[][] = [
   ['#', '#', '#', '#', 'N', 'U', 'A', 'N', 'C', 'E'],

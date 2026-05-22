@@ -1,28 +1,27 @@
 """
-LEXICON puzzle generator.
+LEXICON puzzle generator — fully-checked (proper interlocking) crosswords.
 
-Proves a complete, valid daily crossword can be built from SAT vocabulary plus
-a clean common-word fill, with NO pop-culture words — no proper nouns, brands,
-titles, or crosswordese (the design's own sample leans on "ODEA", exactly the
-kind of word this avoids).
-
-The layout is freeform interlocking (the style of the design handoff's puzzle,
-not a fully-checked American grid): theme answers and fill words are woven
-together so every word crosses at least one other and the whole puzzle is one
-connected component inside a 10x10 box.
+Every white cell belongs to BOTH an across word and a down word, so every row
+and column is packed with real words. The grid is 180°-rotationally symmetric
+(NYT convention) and every entry is >= 3 letters.
 
 Pipeline:
-  1. word_selector — SAT theme words + the clean fill list (build_fill_list.py).
-  2. layout        — backtracking-with-restarts placement of words so each new
-                     entry crosses the existing structure with no illegal
-                     adjacencies.
-  3. serialize     — emit the app's Puzzle JSON.
+  1. build_grid    — backtracking search for a symmetric black-square pattern.
+  2. extract_slots — across/down entries and their crossings.
+  3. Filler        — constraint solver (maintained domains + forward checking +
+                     MRV) that fills the grid; theme slots are restricted to
+                     SAT vocabulary so the puzzle features it.
 
-Run:  python3 generator.py [--date YYYY-MM-DD] [--number N] [--seed S]
+Words come from the full ~270k English dictionary (clean_fill.json) — lowercase
+common words only, so proper nouns / pop-culture words cannot appear. The list
+is frequency-ordered, so the solver prefers familiar words.
+
+Run:  python3 generator.py --size 9 [--number N] [--date YYYY-MM-DD] [--seed S]
 """
 from __future__ import annotations
 
 import argparse
+import functools
 import json
 import random
 import sys
@@ -30,295 +29,429 @@ from collections import defaultdict
 from pathlib import Path
 
 HERE = Path(__file__).parent
-SIZE = 10
-THEME_TARGET = 6      # SAT words featured in the puzzle
-MIN_WORDS = 14        # total entries (theme + fill)
-MAX_WORDS = 18
-FILL_POOL = 7000      # most-common fill words considered
-# Fill stays >= 4 letters: it skips weak 3-letter crosswordese (PRE, ODEA-style
-# entries) and keeps every answer a word a student would actually clue.
-MIN_FILL_LEN = 4
-MAX_FILL_LEN = 7
+MIN_RUN = 3
+NODE_LIMIT = 25_000     # backtracking nodes per restart
+RESTARTS = 10           # randomized restarts — escape bad subtrees
+EMPTY: frozenset[int] = frozenset()
 
 
-# ── 1. word selection ────────────────────────────────────────────────────────
-def load_words() -> tuple[list[dict], list[str]]:
-    sat = json.loads((HERE / "data" / "sat_words.json").read_text())
-    fill = json.loads((HERE / "data" / "clean_fill.json").read_text())
-    fill = [
-        w for w in fill[:FILL_POOL] if MIN_FILL_LEN <= len(w) <= MAX_FILL_LEN
-    ]
-    return sat, fill
+# ── word lists ───────────────────────────────────────────────────────────────
+@functools.lru_cache(maxsize=1)
+def load_fill() -> list[str]:
+    return json.loads((HERE / "data" / "clean_fill.json").read_text())
 
 
-# ── 2. freeform layout ───────────────────────────────────────────────────────
-class Placed:
-    __slots__ = ("word", "row", "col", "horiz", "is_sat")
-
-    def __init__(self, word: str, row: int, col: int, horiz: bool, is_sat: bool):
-        self.word = word
-        self.row = row
-        self.col = col
-        self.horiz = horiz
-        self.is_sat = is_sat
-
-    def cells(self) -> list[tuple[int, int]]:
-        if self.horiz:
-            return [(self.row, self.col + i) for i in range(len(self.word))]
-        return [(self.row + i, self.col) for i in range(len(self.word))]
+@functools.lru_cache(maxsize=1)
+def load_sat() -> list[dict]:
+    return json.loads((HERE / "data" / "sat_words.json").read_text())
 
 
-Grid = dict[tuple[int, int], str]
-
-
-def fits(word: str, row: int, col: int, horiz: bool, grid: Grid) -> int | None:
-    """
-    Returns the number of crossings if `word` can be legally placed, else None.
-    Legal means: inside the box, the cell before/after the word is empty, every
-    new (non-crossing) letter has empty perpendicular neighbours, and the word
-    crosses the existing structure at least once.
-    """
-    length = len(word)
-    if horiz:
-        if col < 0 or col + length > SIZE or not (0 <= row < SIZE):
-            return None
-        before, after = (row, col - 1), (row, col + length)
-    else:
-        if row < 0 or row + length > SIZE or not (0 <= col < SIZE):
-            return None
-        before, after = (row - 1, col), (row + length, col)
-    if before in grid or after in grid:
-        return None
-
-    crossings = 0
-    new_letters = 0
-    for i in range(length):
-        cell = (row, col + i) if horiz else (row + i, col)
-        existing = grid.get(cell)
-        if existing is not None:
-            if existing != word[i]:
-                return None
-            crossings += 1
-        else:
-            new_letters += 1
-            r, c = cell
-            perp = [(r - 1, c), (r + 1, c)] if horiz else [(r, c - 1), (r, c + 1)]
-            if any(p in grid for p in perp):
-                return None
-    if new_letters == 0:
-        return None  # would duplicate an existing word
-    return crossings
-
-
-def all_placements(word: str, grid: Grid) -> list[tuple[int, int, bool, int]]:
-    """Every legal (row, col, horiz, crossings) for `word` against the grid."""
-    out: list[tuple[int, int, bool, int]] = []
-    for (r, c), ch in grid.items():
-        for j, wch in enumerate(word):
-            if wch != ch:
-                continue
-            for horiz in (True, False):
-                row, col = (r, c - j) if horiz else (r - j, c)
-                cross = fits(word, row, col, horiz, grid)
-                if cross:
-                    out.append((row, col, horiz, cross))
-    return out
-
-
-def commit(word: str, row: int, col: int, horiz: bool, is_sat: bool,
-           grid: Grid, placed: list[Placed]) -> None:
-    p = Placed(word, row, col, horiz, is_sat)
-    for i, cell in enumerate(p.cells()):
-        grid[cell] = word[i]
-    placed.append(p)
-
-
-def attempt(
-    sat_list: list[str],
-    fill_index: dict[tuple[int, int, str], list[str]],
-    rng: random.Random,
-) -> list[Placed] | None:
-    grid: Grid = {}
-    placed: list[Placed] = []
-    used: set[str] = set()
-
-    theme = rng.sample(sat_list, len(sat_list))
-    first = theme.pop(0)
-    commit(first, 4, (SIZE - len(first)) // 2, True, True, grid, placed)
-    used.add(first)
-    remaining_theme = theme[: THEME_TARGET - 1]
-
-    stalls = 0
-    while True:
-        if not remaining_theme and len(placed) >= MIN_WORDS:
-            return placed
-        if len(placed) >= MAX_WORDS:
-            return placed if not remaining_theme else None
-
-        progress = False
-
-        # 1. seat a theme word if one fits now (prefer the most interlocked spot)
-        for sw in list(remaining_theme):
-            spots = all_placements(sw, grid)
-            if spots:
-                spots.sort(key=lambda s: s[3], reverse=True)
-                top = [s for s in spots if s[3] == spots[0][3]]
-                row, col, horiz, _ = rng.choice(top)
-                commit(sw, row, col, horiz, True, grid, placed)
-                used.add(sw)
-                remaining_theme.remove(sw)
-                progress = True
-                break
-
-        # 2. otherwise weave in a fill word (also opens crossings for theme)
-        if not progress and place_fill(grid, placed, used, fill_index, rng):
-            progress = True
-
-        if not progress:
-            stalls += 1
-            if stalls > 1:
-                return None
-
-
-def place_fill(
-    grid: Grid,
-    placed: list[Placed],
-    used: set[str],
-    fill_index: dict[tuple[int, int, str], list[str]],
-    rng: random.Random,
-) -> bool:
-    cells = list(grid.items())
-    rng.shuffle(cells)
-    for (r, c), ch in cells:
-        for horiz in rng.sample([True, False], 2):
-            # longer fill first — denser interlock, fewer choppy short entries
-            for length in range(MAX_FILL_LEN, MIN_FILL_LEN - 1, -1):
-                for j in range(length):
-                    cands = fill_index.get((length, j, ch))
-                    if not cands:
-                        continue
-                    for word in rng.sample(cands, min(len(cands), 24)):
-                        if word in used:
-                            continue
-                        row, col = (r, c - j) if horiz else (r - j, c)
-                        if fits(word, row, col, horiz, grid):
-                            commit(word, row, col, horiz, False, grid, placed)
-                            used.add(word)
-                            return True
-    return False
-
-
-# ── 3. serialization ─────────────────────────────────────────────────────────
-def load_fill_clues() -> dict[str, str]:
-    """
-    Clues for fill words. In production this step is `clue_writer.py`, which
-    asks Claude for clues (see the handoff); for this offline feasibility run a
-    curated local dictionary is used. Unknown words are left to be clued later.
-    """
+@functools.lru_cache(maxsize=1)
+def load_fill_clues() -> dict:
     path = HERE / "data" / "fill_clues.json"
     return json.loads(path.read_text()) if path.exists() else {}
 
 
-def to_puzzle(placed: list[Placed], sat_lookup: dict[str, dict],
-              date: str, number: int) -> dict:
-    fill_clues = load_fill_clues()
-    cells_used = {cell for p in placed for cell in p.cells()}
-    min_r = min(r for r, _ in cells_used)
-    max_r = max(r for r, _ in cells_used)
-    min_c = min(c for _, c in cells_used)
-    max_c = max(c for _, c in cells_used)
-    off_r = (SIZE - (max_r - min_r + 1)) // 2 - min_r
-    off_c = (SIZE - (max_c - min_c + 1)) // 2 - min_c
+# ── 1. grid construction ─────────────────────────────────────────────────────
+def _runs_ok(line: tuple[str, ...]) -> bool:
+    run = 0
+    for ch in line:
+        if ch == "#":
+            if 0 < run < MIN_RUN:
+                return False
+            run = 0
+        else:
+            run += 1
+    return not 0 < run < MIN_RUN
 
-    grid: list[list[str]] = [["#"] * SIZE for _ in range(SIZE)]
-    for p in placed:
-        for i, (r, c) in enumerate(p.cells()):
-            grid[r + off_r][c + off_c] = p.word[i]
 
-    # standard crossword numbering
+@functools.lru_cache(maxsize=None)
+def gap_rows(size: int) -> tuple[tuple[str, ...], ...]:
+    """Every row whose white runs are each 0 or >= MIN_RUN."""
+    out = []
+    for mask in range(1 << size):
+        line = tuple("#" if mask & (1 << c) else "." for c in range(size))
+        if _runs_ok(line):
+            out.append(line)
+    return tuple(out)
+
+
+def _connected(grid: list[list[str]], size: int) -> bool:
+    whites = [(r, c) for r in range(size) for c in range(size) if grid[r][c] != "#"]
+    if not whites:
+        return False
+    seen = {whites[0]}
+    stack = [whites[0]]
+    while stack:
+        r, c = stack.pop()
+        for dr, dc in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            nr, nc = r + dr, c + dc
+            if (
+                0 <= nr < size
+                and 0 <= nc < size
+                and grid[nr][nc] != "#"
+                and (nr, nc) not in seen
+            ):
+                seen.add((nr, nc))
+                stack.append((nr, nc))
+    return len(seen) == len(whites)
+
+
+def build_grid(
+    size: int,
+    rng: random.Random,
+    min_black_ratio: float = 0.12,
+    max_black_ratio: float = 0.30,
+) -> list[list[str]] | None:
+    """
+    A symmetric, fully-checked, connected black-square pattern, or None.
+    The row search is biased toward black-heavy rows, which yields choppier
+    grids (shorter words) — far easier and cleaner to fill.
+    """
+    half = size // 2
+    odd = size % 2 == 1
+    rows: list[tuple[str, ...] | None] = [None] * size
+    order = list(gap_rows(size))
+    palindromes = [r for r in order if r == r[::-1]]
+    budget = [40_000]
+
+    def cols_partial_ok(upto: int) -> bool:
+        for c in range(size):
+            run = 0
+            for r in range(upto + 1):  # known top block
+                if rows[r][c] == "#":  # type: ignore[index]
+                    if 0 < run < MIN_RUN:
+                        return False
+                    run = 0
+                else:
+                    run += 1
+            run = 0
+            for r in range(size - 1, size - 2 - upto, -1):  # known bottom block
+                if rows[r][c] == "#":  # type: ignore[index]
+                    if 0 < run < MIN_RUN:
+                        return False
+                    run = 0
+                else:
+                    run += 1
+        return True
+
+    def finalize() -> list[list[str]] | None:
+        grid = [list(rows[r]) for r in range(size)]  # type: ignore[arg-type]
+        for c in range(size):
+            if not _runs_ok(tuple(grid[r][c] for r in range(size))):
+                return None
+        black = sum(row.count("#") for row in grid)
+        cells = size * size
+        if not (min_black_ratio * cells <= black <= max_black_ratio * cells):
+            return None
+        if not _connected(grid, size):
+            return None
+        return grid
+
+    def place(r: int) -> list[list[str]] | None:
+        budget[0] -= 1
+        if budget[0] <= 0:
+            return None
+        if r == half:
+            if odd:
+                for mid in palindromes:
+                    rows[half] = mid
+                    grid = finalize()
+                    if grid is not None:
+                        return grid
+                rows[half] = None
+                return None
+            return finalize()
+        # prefer black-heavy rows (choppier grid = easier, cleaner fill)
+        local = sorted(order, key=lambda row: -row.count("#") - rng.random() * 2.5)
+        for row in local:
+            rows[r] = row
+            rows[size - 1 - r] = row[::-1]
+            if cols_partial_ok(r):
+                grid = place(r + 1)
+                if grid is not None:
+                    return grid
+        rows[r] = None
+        rows[size - 1 - r] = None
+        return None
+
+    return place(0)
+
+
+# ── 2. slots ─────────────────────────────────────────────────────────────────
+class Slot:
+    __slots__ = ("cells", "direction", "length", "crossings")
+
+    def __init__(self, cells: list[tuple[int, int]], direction: str):
+        self.cells = cells
+        self.direction = direction
+        self.length = len(cells)
+        self.crossings: list[tuple[int, int, int]] = []  # (idx here, slot, idx there)
+
+
+def extract_slots(grid: list[list[str]]) -> list[Slot]:
+    size = len(grid)
+    slots: list[Slot] = []
+    for r in range(size):
+        c = 0
+        while c < size:
+            if grid[r][c] != "#":
+                start = c
+                while c < size and grid[r][c] != "#":
+                    c += 1
+                if c - start >= MIN_RUN:
+                    slots.append(Slot([(r, x) for x in range(start, c)], "across"))
+            else:
+                c += 1
+    for c in range(size):
+        r = 0
+        while r < size:
+            if grid[r][c] != "#":
+                start = r
+                while r < size and grid[r][c] != "#":
+                    r += 1
+                if r - start >= MIN_RUN:
+                    slots.append(Slot([(x, c) for x in range(start, r)], "down"))
+            else:
+                r += 1
+
+    owner: dict[tuple[int, int], list[tuple[int, int]]] = defaultdict(list)
+    for i, slot in enumerate(slots):
+        for idx, cell in enumerate(slot.cells):
+            owner[cell].append((i, idx))
+    for i, slot in enumerate(slots):
+        for idx, cell in enumerate(slot.cells):
+            for j, jdx in owner[cell]:
+                if j != i:
+                    slot.crossings.append((idx, j, jdx))
+    return slots
+
+
+# ── 3. constraint solver ─────────────────────────────────────────────────────
+class Filler:
+    """Maintained-domain forward checking with MRV ordering."""
+
+    def __init__(self, slots: list[Slot], pool: list[str], theme_count: int):
+        self.slots = slots
+        self.pool = pool
+        length_ids: dict[int, set[int]] = defaultdict(set)
+        self.pos_index: dict[tuple[int, int, str], set[int]] = defaultdict(set)
+        for i, word in enumerate(pool):
+            L = len(word)
+            length_ids[L].add(i)
+            for pos, ch in enumerate(word):
+                self.pos_index[(L, pos, ch)].add(i)
+        self.length_ids = length_ids
+        self.sat_ids = frozenset(range(theme_count))
+        self.theme_slots: set[int] = set()
+        self.nodes = 0
+
+    def solve(self, rng: random.Random | None = None,
+              restarts: int = RESTARTS) -> list[str] | None:
+        rng = rng or random.Random(0)
+        base: list[set[int]] = []
+        for si, slot in enumerate(self.slots):
+            dom = set(self.length_ids.get(slot.length, ()))
+            if si in self.theme_slots:
+                dom &= self.sat_ids
+            if not dom:
+                return None
+            base.append(dom)
+
+        self.nodes = 0
+        for attempt in range(restarts):
+            domains = [set(d) for d in base]
+            assign: list[int | None] = [None] * len(self.slots)
+            self.nodes = 0
+            # restart 0 = pure frequency order (cleanest fill); later restarts
+            # randomize value order to break out of unsolvable subtrees.
+            if self._bt(domains, assign, rng, noisy=attempt > 0):
+                return [self.pool[w] for w in assign]  # type: ignore[index]
+        return None
+
+    def _bt(self, domains: list[set[int]], assign: list[int | None],
+            rng: random.Random, noisy: bool) -> bool:
+        target, best = -1, 1 << 30
+        for si in range(len(self.slots)):
+            if assign[si] is None and len(domains[si]) < best:
+                best, target = len(domains[si]), si
+        if target == -1:
+            return True
+
+        cands = list(domains[target])
+        if noisy:
+            rng.shuffle(cands)
+        else:
+            cands.sort()  # pool id == frequency order
+        for wid in cands:
+            self.nodes += 1
+            if self.nodes > NODE_LIMIT:
+                return False
+            assign[target] = wid
+            word = self.pool[wid]
+            saved: list[tuple[int, set[int]]] = []
+            ok = True
+            for idx_i, sj, idx_j in self.slots[target].crossings:
+                if assign[sj] is not None:
+                    continue
+                allowed = self.pos_index.get(
+                    (self.slots[sj].length, idx_j, word[idx_i]), EMPTY
+                )
+                pruned = domains[sj] & allowed
+                if len(pruned) != len(domains[sj]):
+                    saved.append((sj, domains[sj]))
+                    domains[sj] = pruned
+                if not pruned:
+                    ok = False
+                    break
+            if ok:
+                for sj in range(len(self.slots)):
+                    if assign[sj] is None and sj != target and wid in domains[sj]:
+                        saved.append((sj, domains[sj]))
+                        domains[sj] = domains[sj] - {wid}
+                        if not domains[sj]:
+                            ok = False
+                            break
+            if ok and self._bt(domains, assign, rng, noisy):
+                return True
+            for sj, dom in reversed(saved):  # undo (a slot may prune twice)
+                domains[sj] = dom
+            assign[target] = None
+        return False
+
+
+def choose_theme_slots(
+    slots: list[Slot], sat_by_len: dict[int, int], target: int, rng: random.Random
+) -> set[int]:
+    """Pick up to `target` mutually non-crossing slots whose length has SAT words."""
+    cross = [{sj for _i, sj, _j in s.crossings} for s in slots]
+    eligible = [i for i, s in enumerate(slots) if sat_by_len.get(s.length)]
+    rng.shuffle(eligible)
+    chosen: list[int] = []
+    per_len: dict[int, int] = defaultdict(int)
+    for si in eligible:
+        if len(chosen) >= target:
+            break
+        L = slots[si].length
+        if per_len[L] >= sat_by_len[L]:
+            continue
+        if any(cj in cross[si] for cj in chosen):
+            continue
+        chosen.append(si)
+        per_len[L] += 1
+    return set(chosen)
+
+
+# ── serialization ────────────────────────────────────────────────────────────
+def number_grid(grid: list[list[str]]) -> dict[tuple[int, int], int]:
+    size = len(grid)
     numbers: dict[tuple[int, int], int] = {}
     n = 0
-    for r in range(SIZE):
-        for c in range(SIZE):
+    for r in range(size):
+        for c in range(size):
             if grid[r][c] == "#":
                 continue
-            starts_across = (c == 0 or grid[r][c - 1] == "#") and (
-                c + 1 < SIZE and grid[r][c + 1] != "#"
+            sa = (c == 0 or grid[r][c - 1] == "#") and (
+                c + 1 < size and grid[r][c + 1] != "#"
             )
-            starts_down = (r == 0 or grid[r - 1][c] == "#") and (
-                r + 1 < SIZE and grid[r + 1][c] != "#"
+            sd = (r == 0 or grid[r - 1][c] == "#") and (
+                r + 1 < size and grid[r + 1][c] != "#"
             )
-            if starts_across or starts_down:
+            if sa or sd:
                 n += 1
                 numbers[(r, c)] = n
+    return numbers
 
+
+def to_puzzle(grid, slots, assign, sat_lookup, date, number):
+    size = len(grid)
+    numbers = number_grid(grid)
+    solution = [
+        [grid[r][c] if grid[r][c] == "#" else "" for c in range(size)]
+        for r in range(size)
+    ]
+    fill_clues = load_fill_clues()
     words = []
-    for p in placed:
-        r, c = p.row + off_r, p.col + off_c
-        sat = sat_lookup.get(p.word)
+    for si, slot in enumerate(slots):
+        answer = assign[si]
+        for idx, (r, c) in enumerate(slot.cells):
+            solution[r][c] = answer[idx]
+        r0, c0 = slot.cells[0]
+        sat = sat_lookup.get(answer)
         words.append(
             {
-                "id": f"{numbers[(r, c)]}{'A' if p.horiz else 'D'}",
-                "number": numbers[(r, c)],
-                "direction": "across" if p.horiz else "down",
-                "row": r,
-                "col": c,
-                "length": len(p.word),
-                "answer": p.word,
-                "clue": sat["clue"] if sat else fill_clues.get(p.word, ""),
+                "id": f"{numbers[(r0, c0)]}{'A' if slot.direction == 'across' else 'D'}",
+                "number": numbers[(r0, c0)],
+                "direction": slot.direction,
+                "row": r0,
+                "col": c0,
+                "length": slot.length,
+                "answer": answer,
+                "clue": sat["clue"] if sat else fill_clues.get(answer, ""),
                 "isSATVocab": bool(sat),
                 **({"definition": sat["definition"]} if sat else {}),
             }
         )
     words.sort(key=lambda w: (w["number"], w["direction"]))
-
     return {
         "date": date,
         "number": number,
-        "size": {"rows": SIZE, "cols": SIZE},
-        "solution": grid,
+        "size": {"rows": size, "cols": size},
+        "solution": solution,
         "cells": {f"{r},{c}": {"number": numbers[(r, c)]} for (r, c) in numbers},
         "words": words,
     }
 
 
 # ── orchestration ────────────────────────────────────────────────────────────
-def generate(date: str, number: int, seed: int) -> dict:
-    sat, fill = load_words()
+def generate(
+    size: int, date: str, number: int, seed: int, theme_target: int
+) -> dict:
+    sat = load_sat()
     sat_lookup = {w["word"]: w for w in sat}
-    sat_list = [w["word"] for w in sat]
+    sat_list = [w["word"] for w in sat if len(w["word"]) <= size]
+    sat_by_len: dict[int, int] = defaultdict(int)
+    for w in sat_list:
+        sat_by_len[len(w)] += 1
+    fill = load_fill()
+    pool = sat_list + [w for w in fill if w not in sat_lookup]
     rng = random.Random(seed)
 
-    fill_index: dict[tuple[int, int, str], list[str]] = defaultdict(list)
-    for word in fill:
-        for j, ch in enumerate(word):
-            fill_index[(len(word), j, ch)].append(word)
-
-    for restart in range(1, 30001):
-        placed = attempt(sat_list, fill_index, rng)
-        if placed is None:
+    for attempt in range(1, 4001):
+        grid = build_grid(size, rng)
+        if grid is None:
             continue
-        theme = sum(1 for p in placed if p.is_sat)
-        if theme >= THEME_TARGET and MIN_WORDS <= len(placed) <= MAX_WORDS:
-            print(
-                f"built on restart {restart}: {len(placed)} entries, "
-                f"{theme} SAT words, "
-                f"{sum(len(p.word) for p in placed)} letters placed",
-                file=sys.stderr,
+        slots = extract_slots(grid)
+        filler = Filler(slots, pool, len(sat_list))
+        for _try in range(8):
+            filler.theme_slots = choose_theme_slots(
+                slots, sat_by_len, theme_target, rng
             )
-            return to_puzzle(placed, sat_lookup, date, number)
-
+            if len(filler.theme_slots) < theme_target:
+                break
+            assign = filler.solve(rng)
+            if assign is not None:
+                theme = sum(1 for w in assign if w in sat_lookup)
+                print(
+                    f"solved: {size}x{size}, grid attempt {attempt}, "
+                    f"{len(slots)} entries, {theme} SAT words, "
+                    f"{filler.nodes} nodes",
+                    file=sys.stderr,
+                )
+                return to_puzzle(grid, slots, assign, sat_lookup, date, number)
     raise SystemExit("no puzzle found — loosen constraints")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--size", type=int, default=9)
     ap.add_argument("--date", default="2026-05-22")
     ap.add_argument("--number", type=int, default=48)
     ap.add_argument("--seed", type=int, default=7)
+    ap.add_argument("--theme", type=int, default=5)
     args = ap.parse_args()
 
-    puzzle = generate(args.date, args.number, args.seed)
+    puzzle = generate(args.size, args.date, args.number, args.seed, args.theme)
     out = HERE / "output" / f"{args.date}.json"
     out.write_text(json.dumps(puzzle, indent=2))
 
