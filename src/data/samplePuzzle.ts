@@ -1,63 +1,49 @@
 import type { Puzzle } from '@/types/models';
 
-// 10x10 NYT-style daily mini. '#' = black square.
-// Mirrors design/screens/Crossword Puzzle.html — the implementation reference.
+/**
+ * Daily Mini #48 — produced by the offline puzzle pipeline
+ * (puzzle-pipeline/generator.py, seed 19) and verified by
+ * puzzle-pipeline/validate.py.
+ *
+ * Every entry is either an SAT vocabulary word or a common dictionary word.
+ * There are no proper nouns, brand names, titles, or crosswordese — the whole
+ * grid is buildable without any pop-culture vocabulary. The pipeline draws fill
+ * words from a 20k-word list that is the intersection of a standard English
+ * dictionary (no proper nouns) and a frequency floor (no obscure words).
+ */
 const SOLUTION: string[][] = [
-  ['#', '#', '#', '#', 'L', 'U', 'C', 'I', 'D', '#'],
-  ['#', '#', '#', '#', '#', '#', 'A', 'R', 'E', '#'],
-  ['#', 'O', 'P', 'U', 'L', 'E', 'N', 'T', '#', '#'],
-  ['#', '#', '#', 'B', 'O', 'N', 'D', '#', '#', 'D'],
-  ['S', 'T', 'O', 'I', 'C', '#', 'O', 'D', 'E', 'A'],
-  ['#', '#', 'N', '#', '#', '#', 'R', 'A', 'N', 'T'],
-  ['#', '#', 'C', 'O', 'T', '#', '#', '#', '#', 'E'],
-  ['#', 'V', 'E', 'R', 'B', 'O', 'S', 'E', '#', 'S'],
-  ['#', '#', '#', '#', 'T', 'E', 'R', 'S', 'E', '#'],
-  ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'],
+  ['#', '#', '#', '#', 'N', 'U', 'A', 'N', 'C', 'E'],
+  ['O', '#', '#', '#', '#', '#', 'S', '#', '#', '#'],
+  ['B', '#', '#', 'A', 'U', 'S', 'T', 'E', 'R', 'E'],
+  ['S', '#', '#', '#', 'S', '#', 'U', '#', 'U', '#'],
+  ['T', '#', '#', 'D', 'E', 'F', 'T', '#', 'S', '#'],
+  ['I', '#', 'F', '#', 'L', '#', 'E', 'C', 'H', 'O'],
+  ['N', 'O', 'I', 'S', 'E', '#', '#', 'R', '#', '#'],
+  ['A', '#', 'R', '#', 'S', 'T', 'O', 'I', 'C', '#'],
+  ['T', 'I', 'M', 'E', 'S', '#', '#', 'E', '#', '#'],
+  ['E', '#', 'S', '#', '#', 'R', 'O', 'S', 'E', 'S'],
 ];
 
 const CELL_NUMS: Record<string, number> = {
   '0,4': 1,
   '0,6': 2,
-  '1,6': 3,
-  '2,1': 4,
-  '3,3': 5,
-  '3,9': 6,
-  '4,0': 7,
-  '4,2': 8,
-  '4,6': 9,
-  '5,6': 10,
-  '6,2': 11,
-  '7,1': 12,
-  '8,4': 13,
+  '1,0': 3,
+  '2,3': 4,
+  '2,4': 5,
+  '2,8': 6,
+  '4,3': 7,
+  '5,2': 8,
+  '5,6': 9,
+  '5,7': 10,
+  '6,0': 11,
+  '7,4': 12,
+  '8,0': 13,
+  '9,5': 14,
 };
 
-// Pre-filled cells simulate an in-progress puzzle (matches the prototype).
-const PRE_FILLED: Record<string, string> = {};
-['O', 'P', 'U', 'L', 'E'].forEach((l, i) => {
-  PRE_FILLED[`2,${1 + i}`] = l;
-});
-['V', 'E', 'R', 'B'].forEach((l, i) => {
-  PRE_FILLED[`7,${1 + i}`] = l;
-});
-['C', 'A', 'N'].forEach((l, i) => {
-  PRE_FILLED[`${i},6`] = l;
-});
-['B', 'O', 'N', 'D'].forEach((l, i) => {
-  PRE_FILLED[`3,${3 + i}`] = l;
-});
-PRE_FILLED['4,2'] = 'O';
-PRE_FILLED['5,2'] = 'N';
-
 const cells: Puzzle['cells'] = {};
-for (let r = 0; r < 10; r++) {
-  for (let c = 0; c < 10; c++) {
-    const key = `${r},${c}`;
-    const number = CELL_NUMS[key];
-    const preFilled = PRE_FILLED[key];
-    if (number !== undefined || preFilled !== undefined) {
-      cells[key] = { number, preFilled };
-    }
-  }
+for (const [key, number] of Object.entries(CELL_NUMS)) {
+  cells[key] = { number };
 }
 
 export const samplePuzzle: Puzzle = {
@@ -73,11 +59,11 @@ export const samplePuzzle: Puzzle = {
       direction: 'across',
       row: 0,
       col: 4,
-      length: 5,
-      answer: 'LUCID',
-      clue: 'Clearly expressed; easy to understand',
+      length: 6,
+      answer: 'NUANCE',
+      clue: 'A subtle shade of meaning',
       isSATVocab: true,
-      definition: 'adjective — clear, coherent; easy to understand; mentally sound',
+      definition: 'noun — a subtle difference in meaning or expression',
     },
     {
       id: '2D',
@@ -86,101 +72,100 @@ export const samplePuzzle: Puzzle = {
       row: 0,
       col: 6,
       length: 6,
-      answer: 'CANDOR',
-      clue: 'Frankness and honesty in expression',
+      answer: 'ASTUTE',
+      clue: 'Shrewd and perceptive',
       isSATVocab: true,
-      definition: 'noun — the quality of being open, honest, and direct',
+      definition: 'adjective — having sharp judgment; shrewd and perceptive',
+    },
+    {
+      id: '3D',
+      number: 3,
+      direction: 'down',
+      row: 1,
+      col: 0,
+      length: 9,
+      answer: 'OBSTINATE',
+      clue: "Stubbornly set in one's ways",
+      isSATVocab: true,
+      definition: "adjective — stubbornly refusing to change one's opinion",
     },
     {
       id: '4A',
       number: 4,
       direction: 'across',
       row: 2,
-      col: 1,
+      col: 3,
       length: 7,
-      answer: 'OPULENT',
-      clue: 'Ostentatiously rich and luxurious',
+      answer: 'AUSTERE',
+      clue: 'Severe, strict, and unadorned',
       isSATVocab: true,
-      definition: 'adjective — showing great wealth; lavish; exhibiting luxury',
+      definition: 'adjective — severe or strict in manner; plain and unadorned',
+    },
+    {
+      id: '5D',
+      number: 5,
+      direction: 'down',
+      row: 2,
+      col: 4,
+      length: 7,
+      answer: 'USELESS',
+      clue: 'Of no practical use at all',
+      isSATVocab: false,
+    },
+    {
+      id: '6D',
+      number: 6,
+      direction: 'down',
+      row: 2,
+      col: 8,
+      length: 4,
+      answer: 'RUSH',
+      clue: 'Move with urgent haste',
+      isSATVocab: false,
     },
     {
       id: '7A',
       number: 7,
       direction: 'across',
       row: 4,
-      col: 0,
-      length: 5,
-      answer: 'STOIC',
-      clue: 'Enduring hardship without showing feelings',
-      isSATVocab: true,
-      definition: 'adjective — enduring pain or difficulty without complaint or emotion',
-    },
-    {
-      id: '12A',
-      number: 12,
-      direction: 'across',
-      row: 7,
-      col: 1,
-      length: 7,
-      answer: 'VERBOSE',
-      clue: 'Using more words than needed',
-      isSATVocab: true,
-      definition: 'adjective — using or expressed in more words than are needed; wordy',
-    },
-    {
-      id: '13A',
-      number: 13,
-      direction: 'across',
-      row: 8,
-      col: 4,
-      length: 5,
-      answer: 'TERSE',
-      clue: 'Sparing in words; brief to the point of rudeness',
-      isSATVocab: true,
-      definition: 'adjective — briefly and cleanly expressed; curt',
-    },
-    {
-      id: '3A',
-      number: 3,
-      direction: 'across',
-      row: 1,
-      col: 6,
-      length: 3,
-      answer: 'ARE',
-      clue: 'To exist (plural present tense)',
-      isSATVocab: false,
-    },
-    {
-      id: '5A',
-      number: 5,
-      direction: 'across',
-      row: 3,
       col: 3,
       length: 4,
-      answer: 'BOND',
-      clue: 'A tie or connection',
+      answer: 'DEFT',
+      clue: 'Quick and neatly skillful',
+      isSATVocab: true,
+      definition: 'adjective — neatly skillful and quick in movement',
+    },
+    {
+      id: '8D',
+      number: 8,
+      direction: 'down',
+      row: 5,
+      col: 2,
+      length: 5,
+      answer: 'FIRMS',
+      clue: 'Business companies',
       isSATVocab: false,
     },
     {
       id: '9A',
       number: 9,
       direction: 'across',
-      row: 4,
-      col: 6,
-      length: 4,
-      answer: 'ODEA',
-      clue: 'Small ancient theaters for music',
-      isSATVocab: false,
-    },
-    {
-      id: '10A',
-      number: 10,
-      direction: 'across',
       row: 5,
       col: 6,
       length: 4,
-      answer: 'RANT',
-      clue: 'To speak or shout at length in anger',
+      answer: 'ECHO',
+      clue: 'Sound reflected back to you',
+      isSATVocab: false,
+    },
+    {
+      id: '10D',
+      number: 10,
+      direction: 'down',
+      row: 5,
+      col: 7,
+      length: 5,
+      answer: 'CRIES',
+      clue: 'Weeps, or calls out loudly',
       isSATVocab: false,
     },
     {
@@ -188,32 +173,44 @@ export const samplePuzzle: Puzzle = {
       number: 11,
       direction: 'across',
       row: 6,
-      col: 2,
-      length: 3,
-      answer: 'COT',
-      clue: 'A small, narrow bed',
-      isSATVocab: false,
-    },
-    {
-      id: '6D',
-      number: 6,
-      direction: 'down',
-      row: 3,
-      col: 9,
+      col: 0,
       length: 5,
-      answer: 'DATES',
-      clue: 'Calendar days; romantic outings',
+      answer: 'NOISE',
+      clue: 'Loud or unwanted sound',
       isSATVocab: false,
     },
     {
-      id: '8D',
-      number: 8,
-      direction: 'down',
-      row: 4,
-      col: 2,
-      length: 4,
-      answer: 'ONCE',
-      clue: 'One single time',
+      id: '12A',
+      number: 12,
+      direction: 'across',
+      row: 7,
+      col: 4,
+      length: 5,
+      answer: 'STOIC',
+      clue: 'Unmoved by pain or hardship',
+      isSATVocab: true,
+      definition: 'adjective — enduring hardship without showing feelings',
+    },
+    {
+      id: '13A',
+      number: 13,
+      direction: 'across',
+      row: 8,
+      col: 0,
+      length: 5,
+      answer: 'TIMES',
+      clue: 'Multiplied by, in math',
+      isSATVocab: false,
+    },
+    {
+      id: '14A',
+      number: 14,
+      direction: 'across',
+      row: 9,
+      col: 5,
+      length: 5,
+      answer: 'ROSES',
+      clue: 'Thorny, fragrant garden blooms',
       isSATVocab: false,
     },
   ],
