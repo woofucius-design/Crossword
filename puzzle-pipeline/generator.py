@@ -30,8 +30,8 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 MIN_RUN = 3
-NODE_LIMIT = 25_000     # backtracking nodes per restart
-RESTARTS = 10           # randomized restarts — escape bad subtrees
+NODE_LIMIT = 80_000     # backtracking nodes per restart
+RESTARTS = 20           # randomized restarts — escape bad subtrees
 EMPTY: frozenset[int] = frozenset()
 
 
@@ -162,8 +162,8 @@ def build_grid(
                 rows[half] = None
                 return None
             return finalize()
-        # prefer black-heavy rows (choppier grid = easier, cleaner fill)
-        local = sorted(order, key=lambda row: -row.count("#") - rng.random() * 2.5)
+        local = order[:]
+        rng.shuffle(local)  # diversify each subtree
         for row in local:
             rows[r] = row
             rows[size - 1 - r] = row[::-1]
@@ -259,9 +259,11 @@ class Filler:
             base.append(dom)
 
         self.nodes = 0
+        self.used_ids: set[int] = set()
         for attempt in range(restarts):
             domains = [set(d) for d in base]
             assign: list[int | None] = [None] * len(self.slots)
+            self.used_ids.clear()
             self.nodes = 0
             # restart 0 = pure frequency order (cleanest fill); later restarts
             # randomize value order to break out of unsolvable subtrees.
@@ -284,10 +286,13 @@ class Filler:
         else:
             cands.sort()  # pool id == frequency order
         for wid in cands:
+            if wid in self.used_ids:  # cheap dedup — no domain mutation needed
+                continue
             self.nodes += 1
             if self.nodes > NODE_LIMIT:
                 return False
             assign[target] = wid
+            self.used_ids.add(wid)
             word = self.pool[wid]
             saved: list[tuple[int, set[int]]] = []
             ok = True
@@ -304,18 +309,11 @@ class Filler:
                 if not pruned:
                     ok = False
                     break
-            if ok:
-                for sj in range(len(self.slots)):
-                    if assign[sj] is None and sj != target and wid in domains[sj]:
-                        saved.append((sj, domains[sj]))
-                        domains[sj] = domains[sj] - {wid}
-                        if not domains[sj]:
-                            ok = False
-                            break
             if ok and self._bt(domains, assign, rng, noisy):
                 return True
-            for sj, dom in reversed(saved):  # undo (a slot may prune twice)
+            for sj, dom in reversed(saved):
                 domains[sj] = dom
+            self.used_ids.discard(wid)
             assign[target] = None
         return False
 

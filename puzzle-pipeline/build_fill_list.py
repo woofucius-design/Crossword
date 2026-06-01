@@ -1,52 +1,59 @@
 """
-Builds clean_fill.json — the fill word list for the puzzle generator.
+Builds clean_fill.json from the Crossword Nexus collaborative word list — a
+real crossword-quality, scored wordlist (score 0-100, higher = better) of the
+kind used by professional constructors. It includes common words, proper
+nouns, and phrases that show up in real NYT-style crosswords.
 
-Uses the FULL English dictionary (~274k words from the npm `word-list`
-package). That dictionary is entirely lowercase common words, so proper
-nouns, brand names, and titles are absent by construction — a puzzle filled
-from it cannot contain a pop-culture word.
+We keep entries with score >= MIN_SCORE; the list is sorted score-descending,
+so the solver tries the cleanest, most familiar entries first.
 
-Words are ordered most-common-first using wordfreq, so the generator naturally
-prefers familiar words and only reaches for obscure ones when a hard grid
-forces it. Nothing is dropped for being rare: a big pool is what makes tightly
-interlocked, fully-checked grids fillable.
+Source: https://github.com/Crossword-Nexus/collaborative-word-list
 """
 import json
 import re
 from pathlib import Path
 
-from wordfreq import zipf_frequency
-
 HERE = Path(__file__).parent
-DICT_PATH = HERE / "data" / "dictionary.txt"
+SRC = HERE / "data" / "xwordlist.dict"
 OUT_PATH = HERE / "data" / "clean_fill.json"
 
+MIN_SCORE = 40    # 40+ gives the solver room (cleanest picked by pick_15.py)
 MIN_LEN = 3
 MAX_LEN = 15
 
 
 def main() -> None:
-    scored: list[tuple[str, float]] = []
-    with DICT_PATH.open() as fh:
-        for raw in fh:
-            word = raw.strip().lower()
-            if not re.fullmatch(r"[a-z]+", word):
+    scored: list[tuple[str, int]] = []
+    with SRC.open() as fh:
+        for line in fh:
+            line = line.strip()
+            if not line or ";" not in line:
+                continue
+            word, _, score_str = line.partition(";")
+            word = word.upper()
+            if not re.fullmatch(r"[A-Z]+", word):
                 continue
             if not (MIN_LEN <= len(word) <= MAX_LEN):
                 continue
-            scored.append((word.upper(), zipf_frequency(word, "en")))
+            try:
+                score = int(score_str)
+            except ValueError:
+                continue
+            if score < MIN_SCORE:
+                continue
+            scored.append((word, score))
 
-    scored.sort(key=lambda pair: pair[1], reverse=True)
+    scored.sort(key=lambda p: (-p[1], p[0]))
     ordered = [w for w, _ in scored]
     OUT_PATH.write_text(json.dumps(ordered))
 
     by_len: dict[int, int] = {}
     for w in ordered:
         by_len[len(w)] = by_len.get(len(w), 0) + 1
-    common = sum(1 for _, z in scored if z >= 3.0)
-    print(f"fill words: {len(ordered)}  ({common} common, zipf >= 3.0)")
+    print(f"fill words: {len(ordered):,}  (score >= {MIN_SCORE})")
     for length in range(MIN_LEN, MAX_LEN + 1):
-        print(f"  len {length:2d}: {by_len.get(length, 0)}")
+        print(f"  len {length:2d}: {by_len.get(length, 0):>7,}")
+    print(f"top 10 (highest score): {', '.join(ordered[:10])}")
     print(f"written -> {OUT_PATH.relative_to(HERE)}")
 
 
