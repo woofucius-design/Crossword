@@ -162,6 +162,15 @@ def main() -> None:
     G.NODE_LIMIT = args.node_limit
     grid = json.loads((G.HERE / "data" / "template_15.json").read_text())
     slots = G.extract_slots(grid)
+    # English-word whitelist for the picker's proper-noun penalty. Words not
+    # in this list are likely proper nouns / brands / partials (SNOOKI, LSAT,
+    # DELWEBB, IPHONES). The solver still has the full xwordlist pool to find
+    # SOME valid fill, but we reject candidate puzzles that lean on them.
+    english_words = {
+        w.strip().upper()
+        for w in (G.HERE / "data" / "dictionary.txt").open()
+        if w.strip()
+    }
     available_lengths = {s.length for s in slots}
     sat = G.load_sat()
     sat_lookup = {w["word"]: w for w in sat}
@@ -198,8 +207,10 @@ def main() -> None:
         print(f"\n=== puzzle {p + 1}/{len(seedable)}  seed={seed_word} ===", flush=True)
         seed_wid = word_to_id[seed_word]
         best_assign = None
-        best_metrics: tuple[int, float, int, int] = (-1, 0.0, 0, 0)
-        # metrics tuple: (sat_count, avg_score, weak_count [neg], cand_idx)
+        # metrics tuple: (-proper_count, sat_count, avg_score, -weak, cand_idx)
+        # — minimize proper nouns FIRST (user explicitly wants this), then
+        # maximize SAT density, then fill quality.
+        best_metrics: tuple[int, int, float, int, int] = (-(1 << 30), -1, 0.0, 0, 0)
         t_total = time.time()
         for cand in range(args.candidates):
             if time.time() - t_total > args.time_budget:
@@ -220,10 +231,15 @@ def main() -> None:
             avg = sum(ws) / len(ws)
             weak = sum(1 for s in ws if s < 50)
             sat_n = sum(1 for w in assign if w in sat_set)
-            metrics = (sat_n, avg, -weak, cand)
+            # proper-noun count: non-SAT entries not in the English dictionary
+            proper_n = sum(
+                1 for w in assign
+                if w not in sat_set and w not in english_words
+            )
+            metrics = (-proper_n, sat_n, avg, -weak, cand)
             print(
                 f"  cand {cand + 1}: SOLVED {dt:.1f}s "
-                f"SAT={sat_n} avg={avg:.1f} weak={weak}",
+                f"SAT={sat_n} proper={proper_n} avg={avg:.1f} weak={weak}",
                 flush=True,
             )
             if metrics > best_metrics:
@@ -244,19 +260,21 @@ def main() -> None:
         sat_in_puzzle = sorted(
             w["answer"] for w in puzzle["words"] if w["isSATVocab"]
         )
+        proper_n, sat_n, avg_score, neg_weak, _ = best_metrics
         print(
             f"  -> {out.relative_to(G.HERE)}  "
-            f"SAT={best_metrics[0]} ({sat_in_puzzle})  "
-            f"avg={best_metrics[1]:.1f} weak={-best_metrics[2]}"
+            f"SAT={sat_n} ({sat_in_puzzle})  "
+            f"proper={-proper_n} avg={avg_score:.1f} weak={-neg_weak}"
         )
         summary.append({
             "date": date_str,
             "number": cur_num,
             "seed": seed_word,
-            "sat_count": best_metrics[0],
+            "sat_count": sat_n,
             "sat_in_puzzle": sat_in_puzzle,
-            "avg_score": best_metrics[1],
-            "weak_fill": -best_metrics[2],
+            "avg_score": avg_score,
+            "weak_fill": -neg_weak,
+            "proper_nouns": -proper_n,
         })
         cur_date += timedelta(days=1)
         cur_num += 1
@@ -266,8 +284,9 @@ def main() -> None:
     for s in summary:
         print(
             f"{s['date']} #{s['number']:<3} seed={s['seed']:<11} "
-            f"SAT={s['sat_count']} avg={s['avg_score']:.1f} "
-            f"weak={s['weak_fill']}  ({', '.join(s['sat_in_puzzle'])})"
+            f"SAT={s['sat_count']:>2} proper={s['proper_nouns']:>2} "
+            f"avg={s['avg_score']:.1f} weak={s['weak_fill']:>2}  "
+            f"({', '.join(s['sat_in_puzzle'])})"
         )
         for w in s["sat_in_puzzle"]:
             sat_totals[w] += 1
