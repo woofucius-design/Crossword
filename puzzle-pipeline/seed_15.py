@@ -144,6 +144,9 @@ def main() -> None:
                     help="seconds before we stop trying candidates for one word")
     ap.add_argument("--limit", type=int, default=0,
                     help="cap on number of featured-word puzzles (0 = no cap)")
+    ap.add_argument("--curated", type=int, default=0,
+                    help="only seed from the first N entries in sat_words.json "
+                         "(the hand-curated headliners). 0 = use all seedable.")
     args = ap.parse_args()
 
     grid = json.loads((G.HERE / "data" / "template_15.json").read_text())
@@ -163,9 +166,14 @@ def main() -> None:
         by_len[s.length].append(i)
 
     # SAT words we can actually seed (their length must exist as a slot)
-    seedable = [w for w in sat_list if len(w) in available_lengths]
-    skipped = [w for w in sat_list if len(w) not in available_lengths]
-    print(f"seedable SAT: {len(seedable)}, no-slot: {skipped}", flush=True)
+    seed_pool = sat_list[: args.curated] if args.curated else sat_list
+    seedable = [w for w in seed_pool if len(w) in available_lengths]
+    skipped_n = len(seed_pool) - len(seedable)
+    print(
+        f"SAT bank: {len(sat_list):,} total, "
+        f"seeding from {len(seed_pool):,} ({skipped_n} skipped for no-slot)",
+        flush=True,
+    )
 
     if args.limit:
         seedable = seedable[: args.limit]
