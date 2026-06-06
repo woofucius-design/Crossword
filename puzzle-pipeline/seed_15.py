@@ -164,11 +164,16 @@ def main() -> None:
     slots = G.extract_slots(grid)
     # English-word whitelist for the picker's proper-noun penalty. Words not
     # in this list are likely proper nouns / brands / partials (SNOOKI, LSAT,
-    # DELWEBB, IPHONES). The solver still has the full xwordlist pool to find
-    # SOME valid fill, but we reject candidate puzzles that lean on them.
+    # DELWEBB, IPHONES, TBILISI, BYRNE, ARNOLDS, ELMO, ESTES, PERRYCOMO). The
+    # solver still has the full xwordlist pool to find SOME valid fill, but
+    # we reject candidate puzzles that lean on them.
+    #
+    # data/english_words.txt is the dwyl/english-words list (370k entries),
+    # broader than the legacy dictionary.txt (274k) so demonyms (SPANIARDS),
+    # inflected forms, and uncommon-but-real words don't get false-flagged.
     english_words = {
         w.strip().upper()
-        for w in (G.HERE / "data" / "dictionary.txt").open()
+        for w in (G.HERE / "data" / "english_words.txt").open()
         if w.strip()
     }
     available_lengths = {s.length for s in slots}
