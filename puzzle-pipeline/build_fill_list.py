@@ -45,12 +45,14 @@ def main() -> None:
                 continue
             scored.append((word, score, word in english))
 
-    # Sort English-dict words first (so the solver's natural lowest-ID-first
-    # iteration prefers common English over proper nouns), each group sorted
-    # by score descending. This pushes pop-culture / proper-noun fill (BYRNE,
-    # TBILISI, SNOOKI, ELMO, ESTES, PERRYCOMO) to the bottom of the pool —
-    # the solver only reaches them when no English-dict candidate fits.
-    scored.sort(key=lambda p: (not p[2], -p[1], p[0]))
+    # Sort by score descending, tie-broken by English-dict first. At equal
+    # score (e.g. 50-score TBILISI vs 50-score ALEE), the English word wins
+    # and gets a lower ID, so the solver's natural lowest-ID-first iteration
+    # prefers it. We DON'T put all English ahead of all non-English: many
+    # high-score crossword-glue entries (often pop-culture but well-loved by
+    # constructors) score 80+ and aren't in the English dict, and demoting
+    # them en masse strangles the solver.
+    scored.sort(key=lambda p: (-p[1], not p[2], p[0]))
     ordered = [w for w, _, _ in scored]
     english_count = sum(1 for _, _, is_en in scored if is_en)
     OUT_PATH.write_text(json.dumps(ordered))
