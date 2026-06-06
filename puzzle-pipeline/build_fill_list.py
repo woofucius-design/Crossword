@@ -17,7 +17,9 @@ HERE = Path(__file__).parent
 SRC = HERE / "data" / "xwordlist.dict"
 OUT_PATH = HERE / "data" / "clean_fill.json"
 
-MIN_SCORE = 40    # 40+ gives the solver room (cleanest picked by pick_15.py)
+MIN_SCORE = 50    # 50+ cuts pop-culture / partial / abbreviation fill (FML,
+                  # LDL, IFID, AAE, DCCL, etc.) that scored 40-49. 230k entries
+                  # at 50+ is plenty for the solver, and fill is visibly cleaner.
 MIN_LEN = 3
 MAX_LEN = 15
 

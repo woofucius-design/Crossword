@@ -38,8 +38,15 @@ def seed_solve(
     rng: random.Random,
     restarts: int = 4,
 ) -> list[str] | None:
-    """One full solve with a single SAT word pinned at seed_slot."""
-    filler = SatBiasedFiller(slots, pool, sat_count)
+    """One full solve with a single SAT word pinned at seed_slot.
+
+    Uses the vanilla Filler — value ordering already prefers SAT (IDs 0..N
+    come before fill IDs in sorted order). When the SAT bank was only 30
+    words we used SatBiasedFiller's MRV tie-breaker to nudge harder, but
+    with a ~5,000-word bank the natural sort is plenty and the per-node
+    eligibility check became a bottleneck (5k * 68 ops per node).
+    """
+    filler = G.Filler(slots, pool, sat_count)
     base: list[set[int]] = []
     for si, slot in enumerate(filler.slots):
         dom = set(filler.length_ids.get(slot.length, ()))
@@ -147,8 +154,12 @@ def main() -> None:
     ap.add_argument("--curated", type=int, default=0,
                     help="only seed from the first N entries in sat_words.json "
                          "(the hand-curated headliners). 0 = use all seedable.")
+    ap.add_argument("--node-limit", type=int, default=300_000,
+                    help="solver backtracking-node cap per restart. Higher = "
+                         "more chance of solving on a constrained pool, slower.")
     args = ap.parse_args()
 
+    G.NODE_LIMIT = args.node_limit
     grid = json.loads((G.HERE / "data" / "template_15.json").read_text())
     slots = G.extract_slots(grid)
     available_lengths = {s.length for s in slots}
