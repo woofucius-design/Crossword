@@ -1,40 +1,46 @@
 """
-Builds clean_fill.json using a TIER hierarchy + English-frequency ordering.
-Drops Broda scoring entirely — Broda assigns 100 to vulgar / slang (DAFUCK,
-MURICA, LGBTQ), 70-80 to common words (BREAD, HORSE), and 50 to both SAT
-vocab (LUCID, EPHEMERAL) and obscure technical English (DASHEEN, NIGELLA).
-That ranking is exactly backwards for our use case.
+Builds clean_fill.json using a frequency-driven THREE-TIER hierarchy.
+
+The earlier "SCOWL alone for tier 1" was the root cause of the user's
+specific complaints (NSC, MEIER, MCADOO, CREESE in fill): SCOWL is a
+spell-checker dictionary and accepts ANY proper noun or abbreviation it
+recognizes (NSC, AACHEN, ABERNATHY, ABM). The fix is to require words in
+the higher tiers to also appear at meaningful frequency rank in modern
+English usage. English-frequency separates clean common words from niche
+ones by usage rather than by spell-check membership.
 
 Pool order (solver tries lowest ID first, so this == preference):
 
-  TIER 1 — school vocabulary.
-    SCOWL spell-check entries (lowercase common English PLUS uppercase
-    educational proper nouns: CAESAR, NAPOLEON, EGYPT, NILE, ATHENA,
-    HAMLET, EINSTEIN, NEWTON, KENNEDY, IRISH, SAHARA, AMAZON, HOMER).
-    Within tier 1, sorted by English word-frequency rank (top-100k list)
-    so MOTHER (rank 200) outranks ALACRITY (rank 50k+).
+  TIER 1 — common, school-relevant vocabulary.
+    All entries are either:
+      (a) SCOWL-lowercase (common English: APPLE, MOTHER, LUCID), OR
+      (b) SCOWL ∩ english-frequency top 12,000 (well-known proper
+          nouns and abbrevs: CAESAR @7.6k, NILE @10.7k, EGYPT @2.9k,
+          EINSTEIN @8.9k, IRISH @2.4k).
+    Excludes NSC @26k, MEIER @22k, MCADOO @49k, AACHEN @20k+ — proper
+    nouns SCOWL knows but that aren't in active modern usage.
+    Sort within: frequency rank ascending (most-common first).
 
-  TIER 2 — allowed but deprioritized.
-    (a) dwyl English-words minus tier 1, min length 4 — obscure-but-real
-        English (DASHEEN, NIGELLA, HUMIC, METASEQUOIA, SOLATIA).
-    (b) Roman numerals I..MM (from tier2_allow.txt).
-    (c) Curated common abbreviations (GPS, HUD, DNA, MRI, USB, CEO).
-    Within tier 2, sorted alphabetically — none of these have a clean
-    frequency signal.
+  TIER 2 — moderately uncommon but real, still encountered.
+    All entries either:
+      (a) dwyl entries with frequency rank 12k..100k, length ≥ 4,
+          in Broda (technical English / less-known terms that still
+          appear in modern text: HUMIC @32k, GESTATION @15k).
+      (b) Roman numerals from tier2_allow.
+      (c) Common abbreviations from tier2_allow (GPS, HUD, DNA, MRI,
+          USB, CEO) — these are in tier 2 deliberately as "well-known
+          but should not preempt school vocab".
+    Sort within: alphabetical.
 
-  TIER 3 — random acronyms / fallback.
-    3-6 char entries from the Broda wordlist that are NOT in any English
-    dict and NOT in our tier-2 allow list, AND whose Broda score is ≤ 65
-    (to filter out trendy slang like DAFUCK / LGBTQ scored 70+). The
-    "boring acronyms students wouldn't recognize" bucket: BEC, CSC, MGR,
-    CDR, NCO. Within tier 3, alphabetical.
-
-Sources we look at solely to find which entries should be in the pool:
-  data/scowl.txt          spell-check dictionary (89k)
-  data/english_words.txt  dwyl/english-words (370k, broader)
-  data/tier2_allow.txt    Roman + curated abbrevs (1.1k)
-  data/broda_wordlist.txt source list of all candidate fill words
-  data/english_frequency.txt  top-100k English by frequency
+  TIER 3 — fallback (rare-or-niche, students wouldn't recognize).
+    All entries either:
+      (a) Short (3-6 char) Broda-only entries scored ≤65 — boring
+          acronyms (BEC, CSC, CDR, MGR-ish) without trendy slang.
+      (b) dwyl entries NOT in top-100k frequency — archaic / dialectal
+          English (CREESE, DASHEEN, NIGELLA, SOLATIA, ATAVIST).
+      (c) data/tier3_force.txt — hand-curated override for items the
+          dictionaries get wrong (specific surnames, niche acronyms).
+    Sort within: alphabetical.
 """
 import json
 import re
@@ -44,35 +50,39 @@ HERE = Path(__file__).parent
 SCOWL_SRC = HERE / "data" / "scowl.txt"
 DWYL_SRC = HERE / "data" / "english_words.txt"
 TIER2_SRC = HERE / "data" / "tier2_allow.txt"
+TIER3_FORCE_SRC = HERE / "data" / "tier3_force.txt"
 BRODA_SRC = HERE / "data" / "broda_wordlist.txt"
 FREQ_SRC = HERE / "data" / "english_frequency.txt"
 OUT_PATH = HERE / "data" / "clean_fill.json"
 
 MIN_LEN = 3
 MAX_LEN = 15
-TIER2_MIN_LEN = 4   # length-3 obscure English is mostly junk abbrevs
-TIER3_MAX_LEN = 6   # tier-3 fallback is for short acronyms; longer
-                    # Broda-only entries (BABYHITLER, ACCENTCOACH,
-                    # ARTISTICNUDITY) are concentrated vulgar phrases.
-TIER3_MAX_BRODA = 65  # tier-3 caps Broda score at 65 so we keep the
-                    # boring random acronyms (BEC, CSC, MGR scored 50-65)
-                    # but drop trendy slang (DAFUCK / LGBTQ / FML scored
-                    # 70-100). Broda is only used as a junk filter here,
-                    # not as a quality ranking.
+TIER1_PROPER_RANK = 12_000  # SCOWL proper nouns / abbrevs must rank at or
+                             # below this in english_frequency to enter
+                             # tier 1. CAESAR @7.6k, NILE @10.7k, HAMLET
+                             # @8.1k all qualify. NSC @26k, MEIER @22k,
+                             # MCADOO @49k drop out.
+TIER2_FREQ_CAP = 100_000     # dwyl entries above this rank fall to tier 3.
+TIER2_MIN_LEN = 4
+TIER3_MAX_LEN = 6
+TIER3_MAX_BRODA = 65
 
 
-def load_alpha(path: Path, *, case_filter=lambda w: True) -> set[str]:
+def load_alpha_upper(path: Path) -> set[str]:
+    return {w.strip().upper() for w in path.open()
+            if w.strip() and w.strip().isalpha()}
+
+
+def load_alpha_lower_in_scowl() -> set[str]:
     out: set[str] = set()
-    for w in path.open():
+    for w in SCOWL_SRC.open():
         w = w.strip()
-        if w and w.isalpha() and case_filter(w):
+        if w and w.islower() and w.isalpha():
             out.add(w.upper())
     return out
 
 
 def load_frequency_rank() -> dict[str, int]:
-    """word -> 1-indexed rank (1 = most common). Words outside the top-100k
-    list get rank len+1, putting them at the end of within-tier sort."""
     rank: dict[str, int] = {}
     for i, w in enumerate(FREQ_SRC.open(), 1):
         w = w.strip().upper()
@@ -81,17 +91,29 @@ def load_frequency_rank() -> dict[str, int]:
     return rank
 
 
-def main() -> None:
-    scowl = load_alpha(SCOWL_SRC)
-    dwyl = load_alpha(DWYL_SRC)
-    tier2_allow = load_alpha(TIER2_SRC)
-    frequency = load_frequency_rank()
-    print(f"SCOWL (school vocab):     {len(scowl):,}")
-    print(f"dwyl english (broader):   {len(dwyl):,}")
-    print(f"tier 2 allow list:        {len(tier2_allow):,}")
-    print(f"frequency list:           {len(frequency):,}")
+def load_tier3_force() -> set[str]:
+    out: set[str] = set()
+    for line in TIER3_FORCE_SRC.open():
+        line = line.split("#", 1)[0].strip().upper()
+        if line and line.isalpha():
+            out.add(line)
+    return out
 
-    # Collect Broda entries — only used to filter tier-3 junk.
+
+def main() -> None:
+    scowl_all = load_alpha_upper(SCOWL_SRC)
+    scowl_lower = load_alpha_lower_in_scowl()
+    dwyl = load_alpha_upper(DWYL_SRC)
+    tier2_allow = load_alpha_upper(TIER2_SRC)
+    tier3_force = load_tier3_force()
+    freq = load_frequency_rank()
+    print(f"SCOWL all:         {len(scowl_all):,}")
+    print(f"SCOWL lowercase:   {len(scowl_lower):,}")
+    print(f"dwyl english:      {len(dwyl):,}")
+    print(f"tier2 allow:       {len(tier2_allow):,}")
+    print(f"tier3 force:       {len(tier3_force):,}")
+    print(f"frequency list:    {len(freq):,}")
+
     broda: dict[str, int] = {}
     with BRODA_SRC.open(encoding="latin-1") as fh:
         for line in fh:
@@ -110,27 +132,39 @@ def main() -> None:
     tier2: set[str] = set()
     tier3: set[str] = set()
 
-    for w in scowl:
-        if MIN_LEN <= len(w) <= MAX_LEN:
+    # TIER 1: SCOWL-lower (common English) + SCOWL entries in top 12k freq.
+    for w in scowl_lower:
+        if w in tier3_force or not (MIN_LEN <= len(w) <= MAX_LEN):
+            continue
+        tier1.add(w)
+    for w in scowl_all - scowl_lower:
+        if w in tier3_force or not (MIN_LEN <= len(w) <= MAX_LEN):
+            continue
+        r = freq.get(w)
+        if r is not None and r <= TIER1_PROPER_RANK:
             tier1.add(w)
+
+    # TIER 2 from dwyl: rank between TIER1_PROPER_RANK and TIER2_FREQ_CAP.
     for w in dwyl:
-        if w in tier1:
+        if w in tier1 or w in tier3_force:
             continue
         if not (TIER2_MIN_LEN <= len(w) <= MAX_LEN):
             continue
-        # tier 2 still uses Broda as a "is this a reasonable crossword
-        # entry" inclusion filter — Broda's 492k entries reflect "yes a
-        # constructor would consider this". We're NOT using Broda's
-        # score values, just the membership. Without this filter tier 2
-        # balloons to 278k including AAHED / AALII / AARDWOLVES.
         if w not in broda:
+            continue  # Broda inclusion filter so weird dwyl entries drop
+        r = freq.get(w)
+        if r is None or r > TIER2_FREQ_CAP:
             continue
         tier2.add(w)
+
+    # TIER 2 also includes our curated common abbrevs + Roman numerals.
     for w in tier2_allow:
-        if w in tier1:
+        if w in tier1 or w in tier3_force:
             continue
         if MIN_LEN <= len(w) <= MAX_LEN:
             tier2.add(w)
+
+    # TIER 3: short Broda-only acronyms + dwyl entries outside top 100k.
     for w, s in broda.items():
         if w in tier1 or w in tier2:
             continue
@@ -139,21 +173,38 @@ def main() -> None:
         if s > TIER3_MAX_BRODA:
             continue
         tier3.add(w)
+    for w in dwyl:
+        if w in tier1 or w in tier2 or w in tier3:
+            continue
+        if not (TIER2_MIN_LEN <= len(w) <= MAX_LEN):
+            continue
+        if w not in broda:
+            continue
+        # By construction these are dwyl ∩ Broda with freq rank > 100k or
+        # missing entirely — archaic / dialectal English (CREESE, DASHEEN,
+        # NIGELLA, SOLATIA).
+        tier3.add(w)
+    for w in tier3_force:
+        if MIN_LEN <= len(w) <= MAX_LEN:
+            tier3.add(w)
 
-    no_rank = len(frequency) + 1
-    tier1_sorted = sorted(tier1, key=lambda w: (frequency.get(w, no_rank), w))
+    no_rank = len(freq) + 1
+    tier1_sorted = sorted(tier1, key=lambda w: (freq.get(w, no_rank), w))
     tier2_sorted = sorted(tier2)
     tier3_sorted = sorted(tier3)
     ordered = tier1_sorted + tier2_sorted + tier3_sorted
     OUT_PATH.write_text(json.dumps(ordered))
 
-    print(f"\nTIER 1 (school vocab):             {len(tier1):>7,}")
-    print(f"TIER 2 (obscure + abbrev + Roman): {len(tier2):>7,}")
-    print(f"TIER 3 (random acronyms):          {len(tier3):>7,}")
-    print(f"total fill pool:                   {len(ordered):>7,}")
-    print(f"\ntier 1 top 10 by frequency: {', '.join(tier1_sorted[:10])}")
-    print(f"tier 2 sample:              {', '.join(tier2_sorted[:10])}")
-    print(f"tier 3 sample:              {', '.join(tier3_sorted[:10])}")
+    print(f"\nTIER 1 (school vocab):              {len(tier1):>7,}")
+    print(f"TIER 2 (in top 100k freq + Rmn):    {len(tier2):>7,}")
+    print(f"TIER 3 (archaic/niche/random):      {len(tier3):>7,}")
+    print(f"total fill pool:                    {len(ordered):>7,}")
+    print(f"\ntier 1 top 10 by frequency: "
+          f"{', '.join(tier1_sorted[:10])}")
+    print(f"tier 2 sample:              "
+          f"{', '.join(tier2_sorted[:10])}")
+    print(f"tier 3 sample:              "
+          f"{', '.join(tier3_sorted[:10])}")
     print(f"\nwritten -> {OUT_PATH.relative_to(HERE)}")
 
 

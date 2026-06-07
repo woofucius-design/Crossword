@@ -1,0 +1,24 @@
+# Words that should be forced into tier 3 regardless of which English
+# dictionary contains them. Use this for proper nouns, brand acronyms, and
+# obscure references that SCOWL or dwyl accept but the constructor wants
+# to deprioritize.
+#
+# One word per line, uppercase. Lines starting with # are comments.
+#
+# Build pipeline:  build_fill_list.py reads this and demotes matching
+# entries from tier 1 or tier 2 down to tier 3.
+
+# Government / org acronyms not commonly recognized as everyday words
+NSC
+
+# Architects, actors, historical figures students wouldn't be quizzed on
+MEIER
+MCADOO
+MACNEE
+
+# Foreign / dialectal weapons + words students wouldn't recognize
+CREESE
+
+# Random short acronyms with no clear referent
+IID
+DEORO
