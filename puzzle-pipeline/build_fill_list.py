@@ -1,24 +1,32 @@
 """
-Builds clean_fill.json from English ∩ Broda — the intersection of:
-  - the 370k dwyl/english-words list (excludes proper nouns, brands, slang)
-  - Peter Broda's 492k scored crossword wordlist (gives each word a score)
+Builds clean_fill.json with a TWO-TIER hierarchy that the solver reads via
+ID order (lower ID = tried first):
 
-Why both? Either list alone fails:
-  - Broda alone (or Crossword Nexus xwordlist) scores pop-culture / brands /
-    internet slang at 50-100, so even high-score-only pools contain SNOOKI,
-    BARTMAN, FML, TBILISI, MURICA.
-  - English alone has no quality signal — the solver tries entries in pool
-    order and there's no ordering hint to prefer common over obscure.
-  - English ∩ Broda gives both: ~141k entries, every one is real English,
-    each scored by Broda. The 349k Broda junk and 228k unscored English
-    words drop out.
+  TIER 1 — common English fill.
+    SCOWL-lowercase (curated spell-check dict, ~80k entries — proper nouns
+    are uppercase in SCOWL, so they're excluded) ∩ Broda ≥ 50. Sorted by
+    Broda score descending.
+
+  TIER 2 — obscure-but-real English fill.
+    dwyl English-words (370k, broader coverage of inflections, technical
+    terms, demonyms) ∩ Broda ≥ 50 minus tier 1. Sorted by Broda score
+    descending.
+
+The third implicit tier (SAT vocab) is prepended by the puzzle generator
+itself — see G.load_sat / pool construction — so SAT IDs end up at 0..N
+ahead of every fill ID. Solver default value-ordering (lowest ID first)
+delivers the full priority: SAT > common English > obscure.
+
+Words in Broda only (slang, brands, place names like FML, MURICA, SNOOKI,
+TBILISI, BARTMAN) are dropped — they appear in neither English list.
 """
 import json
 import re
 from pathlib import Path
 
 HERE = Path(__file__).parent
-ENGLISH_SRC = HERE / "data" / "english_words.txt"
+SCOWL_SRC = HERE / "data" / "scowl.txt"
+DWYL_SRC = HERE / "data" / "english_words.txt"
 BRODA_SRC = HERE / "data" / "broda_wordlist.txt"
 OUT_PATH = HERE / "data" / "clean_fill.json"
 
@@ -27,16 +35,34 @@ MIN_LEN = 3
 MAX_LEN = 15
 
 
-def main() -> None:
-    english = {
-        w.strip().upper() for w in ENGLISH_SRC.open()
-        if w.strip().isalpha()
-    }
-    print(f"English wordlist: {len(english):,}")
+def load_scowl_common() -> set[str]:
+    """SCOWL entries that are entirely lowercase letters — common English
+    only, no proper nouns ('Aachen', 'Tbilisi') or acronyms ('LSAT', 'LLB')."""
+    out: set[str] = set()
+    with SCOWL_SRC.open() as fh:
+        for w in fh:
+            w = w.strip()
+            if w and w.islower() and w.isalpha():
+                out.add(w.upper())
+    return out
 
-    scored: list[tuple[str, int]] = []
+
+def load_dwyl() -> set[str]:
+    """dwyl/english-words — broad coverage including inflections, demonyms
+    (SPANIARDS), technical English (METASEQUOIA, SOLATIA). May include some
+    proper nouns the list happens to contain, but excludes pure slang."""
+    return {w.strip().upper() for w in DWYL_SRC.open() if w.strip().isalpha()}
+
+
+def main() -> None:
+    scowl_common = load_scowl_common()
+    dwyl = load_dwyl()
+    print(f"SCOWL lowercase: {len(scowl_common):,}")
+    print(f"dwyl english:    {len(dwyl):,}")
+
+    tier1: list[tuple[str, int]] = []
+    tier2: list[tuple[str, int]] = []
     junk_skipped = 0
-    short_skipped = 0
     with BRODA_SRC.open(encoding="latin-1") as fh:
         for line in fh:
             line = line.strip()
@@ -47,7 +73,6 @@ def main() -> None:
             if not re.fullmatch(r"[A-Z]+", word):
                 continue
             if not (MIN_LEN <= len(word) <= MAX_LEN):
-                short_skipped += 1
                 continue
             try:
                 score = int(score_str)
@@ -55,25 +80,25 @@ def main() -> None:
                 continue
             if score < MIN_SCORE:
                 continue
-            if word not in english:
+            if word in scowl_common:
+                tier1.append((word, score))
+            elif word in dwyl:
+                tier2.append((word, score))
+            else:
                 junk_skipped += 1
-                continue
-            scored.append((word, score))
 
-    scored.sort(key=lambda p: (-p[1], p[0]))
-    ordered = [w for w, _ in scored]
+    tier1.sort(key=lambda p: (-p[1], p[0]))
+    tier2.sort(key=lambda p: (-p[1], p[0]))
+    ordered = [w for w, _ in tier1] + [w for w, _ in tier2]
     OUT_PATH.write_text(json.dumps(ordered))
 
-    by_len: dict[int, int] = {}
-    for w in ordered:
-        by_len[len(w)] = by_len.get(len(w), 0) + 1
-    print(f"\nfill words: {len(ordered):,}  (Broda score >= {MIN_SCORE}, in English dict)")
-    print(f"  skipped non-English (proper nouns / slang / brands): {junk_skipped:,}")
-    print("\nlength distribution:")
-    for length in range(MIN_LEN, MAX_LEN + 1):
-        print(f"  len {length:2d}: {by_len.get(length, 0):>7,}")
-    print(f"\ntop 10 (highest score): {', '.join(ordered[:10])}")
-    print(f"written -> {OUT_PATH.relative_to(HERE)}")
+    print(f"\nTIER 1 (common English):  {len(tier1):>7,}")
+    print(f"TIER 2 (obscure English): {len(tier2):>7,}")
+    print(f"junk (no dict / slang):   {junk_skipped:>7,}  (excluded)")
+    print(f"total fill pool:          {len(ordered):>7,}")
+    print(f"\ntier 1 top 10: {', '.join(w for w, _ in tier1[:10])}")
+    print(f"tier 2 top 10: {', '.join(w for w, _ in tier2[:10])}")
+    print(f"\nwritten -> {OUT_PATH.relative_to(HERE)}")
 
 
 if __name__ == "__main__":
