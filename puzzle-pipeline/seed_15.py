@@ -162,20 +162,18 @@ def main() -> None:
     G.NODE_LIMIT = args.node_limit
     grid = json.loads((G.HERE / "data" / "template_15.json").read_text())
     slots = G.extract_slots(grid)
-    # English-word whitelist for the picker's proper-noun penalty. Words not
-    # in this list are likely proper nouns / brands / partials (SNOOKI, LSAT,
-    # DELWEBB, IPHONES, TBILISI, BYRNE, ARNOLDS, ELMO, ESTES, PERRYCOMO). The
-    # solver still has the full xwordlist pool to find SOME valid fill, but
-    # we reject candidate puzzles that lean on them.
-    #
-    # data/english_words.txt is the dwyl/english-words list (370k entries),
-    # broader than the legacy dictionary.txt (274k) so demonyms (SPANIARDS),
-    # inflected forms, and uncommon-but-real words don't get false-flagged.
-    english_words = {
-        w.strip().upper()
-        for w in (G.HERE / "data" / "english_words.txt").open()
-        if w.strip()
-    }
+    # Picker's "common English" check — uses SCOWL-lowercase, the tighter
+    # spell-check-grade dictionary. Words NOT in this set are penalized as
+    # "obscure" (HECATE, ROMANO, DASHEEN, NIGELLA, BEC, CSC, ...) so the
+    # picker prefers candidates that lean on common English fill. The
+    # broader dwyl list still drives the solver's tier-2 fallback inside
+    # build_fill_list.py — we DO allow obscure English entries in the pool,
+    # we just don't prefer them.
+    common_english = set()
+    for w in (G.HERE / "data" / "scowl.txt").open():
+        w = w.strip()
+        if w and w.islower() and w.isalpha():
+            common_english.add(w.upper())
     available_lengths = {s.length for s in slots}
     sat = G.load_sat()
     sat_lookup = {w["word"]: w for w in sat}
@@ -236,10 +234,11 @@ def main() -> None:
             avg = sum(ws) / len(ws)
             weak = sum(1 for s in ws if s < 50)
             sat_n = sum(1 for w in assign if w in sat_set)
-            # proper-noun count: non-SAT entries not in the English dictionary
+            # proper-noun count: non-SAT entries not in SCOWL common-English
+            # (HECATE, ROMANO, brand names, abbreviations, technical English)
             proper_n = sum(
                 1 for w in assign
-                if w not in sat_set and w not in english_words
+                if w not in sat_set and w not in common_english
             )
             metrics = (-proper_n, sat_n, avg, -weak, cand)
             print(
