@@ -20,20 +20,25 @@ import generator as G
 
 def _classify_tier(word: str,
                    sat: set[str],
-                   scowl_all: set[str],
+                   scowl_upper_only: set[str],
                    scowl_lower: set[str],
                    dwyl: set[str],
                    tier2_allow: set[str],
                    tier3_force: set[str],
                    freq: dict[str, int]) -> int:
-    """Return 0 (SAT) / 1 / 2 / 3. Matches build_fill_list tiering exactly."""
+    """Return 0 (SAT) / 1 / 2 / 3. Matches build_fill_list tiering exactly.
+
+    The earlier version of this function computed `scowl_all - scowl_lower`
+    inside the call site, which made every classification O(|scowl_all|).
+    That alone killed pick_15 with 89k * 370k set diffs. Pre-computed
+    scowl_upper_only is passed in instead."""
     if word in sat:
         return 0
     if word in tier3_force:
         return 3
     if word in scowl_lower:
         return 1
-    if word in scowl_all - scowl_lower:
+    if word in scowl_upper_only:
         r = freq.get(word, 1 << 30)
         if r <= 12_000:
             return 1
@@ -79,6 +84,7 @@ def load_scores() -> dict[str, int]:
 
     scowl_all = load_alpha(here / "data" / "scowl.txt")
     scowl_lower = load_alpha(here / "data" / "scowl.txt", lower_only=True)
+    scowl_upper_only = scowl_all - scowl_lower
     dwyl = load_alpha(here / "data" / "english_words.txt")
     tier2_allow = load_alpha(here / "data" / "tier2_allow.txt")
     tier3_force: set[str] = set()
@@ -101,12 +107,10 @@ def load_scores() -> dict[str, int]:
         return max(0, 20 - int(rank / 2500))
 
     out: dict[str, int] = {}
-    # We need to score every word that might appear in a puzzle, so iterate
-    # the union of all known sources rather than per-tier sets.
     universe = sat_set | scowl_all | dwyl | tier2_allow | tier3_force
     for w in universe:
         tier = _classify_tier(
-            w, sat_set, scowl_all, scowl_lower, dwyl,
+            w, sat_set, scowl_upper_only, scowl_lower, dwyl,
             tier2_allow, tier3_force, freq,
         )
         if tier == 0:
