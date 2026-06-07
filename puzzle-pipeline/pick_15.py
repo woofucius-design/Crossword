@@ -20,17 +20,64 @@ import generator as G
 
 
 def load_scores() -> dict[str, int]:
-    """Parse word->score from broda_wordlist.txt so we can rank candidate
-    puzzles. Broda's scoring is what build_fill_list.py now uses to order
-    the fill pool, so the picker quality metric needs to agree."""
+    """word -> quality score for the picker's avg-score metric.
+
+    Tier-based, not Broda-based. Broda assigns 100 to vulgar / slang
+    (DAFUCK, MURICA, LGBTQ), 70-80 to common everyday words (BREAD, HORSE),
+    and only 50 to SAT vocab (LUCID, EPHEMERAL) and obscure technical
+    English alike — exactly the inverse of what we want to reward.
+
+    Our scale (matches the tier hierarchy in build_fill_list.py):
+      SAT vocab:                 100   (theme priority, highest)
+      Tier 1 (school vocab):      80
+      Tier 2 (obscure + abbrev):  50
+      Tier 3 (random acronyms):   30
+      Anything else (not in any list): 30 fallback
+
+    Within tier 1, we add an English-frequency bonus so MOTHER (rank 200)
+    scores higher than ALACRITY (rank 50k+). Tier 1 score = 80 + bonus
+    where bonus is 0..20 by frequency rank.
+    """
+    from pathlib import Path
+    here = G.HERE
+    sat_words = json.loads((here / "data" / "sat_words.json").read_text())
+    sat_set = {w["word"].upper() for w in sat_words}
+    scowl = {
+        w.strip().upper() for w in (here / "data" / "scowl.txt").open()
+        if w.strip().isalpha()
+    }
+    dwyl = {
+        w.strip().upper() for w in (here / "data" / "english_words.txt").open()
+        if w.strip().isalpha()
+    }
+    tier2_allow = {
+        w.strip().upper() for w in (here / "data" / "tier2_allow.txt").open()
+        if w.strip().isalpha()
+    }
+    freq_rank: dict[str, int] = {}
+    for i, w in enumerate((here / "data" / "english_frequency.txt").open(), 1):
+        w = w.strip().upper()
+        if w.isalpha() and w not in freq_rank:
+            freq_rank[w] = i
+    freq_total = len(freq_rank)
+
+    def freq_bonus(word: str) -> int:
+        rank = freq_rank.get(word)
+        if rank is None:
+            return 0
+        # log-ish bonus: 20 for the top, fading to 0 around rank ~50k
+        return max(0, 20 - int(rank / 2500))
+
     out: dict[str, int] = {}
-    with (G.HERE / "data" / "broda_wordlist.txt").open(encoding="latin-1") as fh:
-        for line in fh:
-            word, _, score_str = line.strip().partition(";")
-            try:
-                out[word.upper()] = int(score_str)
-            except ValueError:
-                pass
+    for w in sat_set:
+        out[w] = 100
+    for w in scowl:
+        out[w] = max(out.get(w, 0), 80 + freq_bonus(w))
+    for w in dwyl - scowl:
+        out[w] = max(out.get(w, 0), 50)
+    for w in tier2_allow - scowl:
+        out[w] = max(out.get(w, 0), 50)
+    # Anything not yet scored falls back to 30 (tier 3 territory).
     return out
 
 
