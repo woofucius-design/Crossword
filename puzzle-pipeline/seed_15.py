@@ -164,18 +164,24 @@ def main() -> None:
     G.NODE_LIMIT = args.node_limit
     grid = json.loads((G.HERE / args.template).read_text())
     slots = G.extract_slots(grid)
-    # Picker's "common English" check — uses SCOWL-lowercase, the tighter
-    # spell-check-grade dictionary. Words NOT in this set are penalized as
-    # "obscure" (HECATE, ROMANO, DASHEEN, NIGELLA, BEC, CSC, ...) so the
-    # picker prefers candidates that lean on common English fill. The
-    # broader dwyl list still drives the solver's tier-2 fallback inside
-    # build_fill_list.py — we DO allow obscure English entries in the pool,
-    # we just don't prefer them.
-    common_english = set()
-    for w in (G.HERE / "data" / "scowl.txt").open():
-        w = w.strip()
-        if w and w.islower() and w.isalpha():
-            common_english.add(w.upper())
+    # Picker's tier-3 detector. Words that ARE in any of these sets are
+    # considered "acceptable" (tier 1 school vocab or tier 2 obscure-English
+    # / abbrev / Roman). Words in NONE of these sets are tier 3 — random
+    # acronyms students wouldn't know (BEC, CSC, MGR, CDR) — and the picker
+    # minimizes them.
+    scowl_all = {
+        w.strip().upper() for w in (G.HERE / "data" / "scowl.txt").open()
+        if w.strip().isalpha()
+    }
+    dwyl = {
+        w.strip().upper() for w in (G.HERE / "data" / "english_words.txt").open()
+        if w.strip().isalpha()
+    }
+    tier2_allow = {
+        w.strip().upper() for w in (G.HERE / "data" / "tier2_allow.txt").open()
+        if w.strip().isalpha()
+    }
+    acceptable_fill = scowl_all | dwyl | tier2_allow
     available_lengths = {s.length for s in slots}
     sat = G.load_sat()
     sat_lookup = {w["word"]: w for w in sat}
@@ -236,16 +242,17 @@ def main() -> None:
             avg = sum(ws) / len(ws)
             weak = sum(1 for s in ws if s < 50)
             sat_n = sum(1 for w in assign if w in sat_set)
-            # proper-noun count: non-SAT entries not in SCOWL common-English
-            # (HECATE, ROMANO, brand names, abbreviations, technical English)
-            proper_n = sum(
+            # tier-3 count: non-SAT entries that are random acronyms / fallback
+            # (not in school vocab, not in any English dict, not in our
+            # abbrev/Roman allow list). The picker minimizes this.
+            tier3_n = sum(
                 1 for w in assign
-                if w not in sat_set and w not in common_english
+                if w not in sat_set and w not in acceptable_fill
             )
-            metrics = (-proper_n, sat_n, avg, -weak, cand)
+            metrics = (-tier3_n, sat_n, avg, -weak, cand)
             print(
                 f"  cand {cand + 1}: SOLVED {dt:.1f}s "
-                f"SAT={sat_n} proper={proper_n} avg={avg:.1f} weak={weak}",
+                f"SAT={sat_n} tier3={tier3_n} avg={avg:.1f} weak={weak}",
                 flush=True,
             )
             if metrics > best_metrics:
@@ -266,11 +273,11 @@ def main() -> None:
         sat_in_puzzle = sorted(
             w["answer"] for w in puzzle["words"] if w["isSATVocab"]
         )
-        proper_n, sat_n, avg_score, neg_weak, _ = best_metrics
+        tier3_n, sat_n, avg_score, neg_weak, _ = best_metrics
         print(
             f"  -> {out.relative_to(G.HERE)}  "
             f"SAT={sat_n} ({sat_in_puzzle})  "
-            f"proper={-proper_n} avg={avg_score:.1f} weak={-neg_weak}"
+            f"tier3={-tier3_n} avg={avg_score:.1f} weak={-neg_weak}"
         )
         summary.append({
             "date": date_str,
@@ -280,7 +287,7 @@ def main() -> None:
             "sat_in_puzzle": sat_in_puzzle,
             "avg_score": avg_score,
             "weak_fill": -neg_weak,
-            "proper_nouns": -proper_n,
+            "tier3_nouns": -tier3_n,
         })
         cur_date += timedelta(days=1)
         cur_num += 1
@@ -290,7 +297,7 @@ def main() -> None:
     for s in summary:
         print(
             f"{s['date']} #{s['number']:<3} seed={s['seed']:<11} "
-            f"SAT={s['sat_count']:>2} proper={s['proper_nouns']:>2} "
+            f"SAT={s['sat_count']:>2} tier3={s['tier3_nouns']:>2} "
             f"avg={s['avg_score']:.1f} weak={s['weak_fill']:>2}  "
             f"({', '.join(s['sat_in_puzzle'])})"
         )
