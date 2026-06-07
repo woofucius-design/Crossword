@@ -157,10 +157,12 @@ def main() -> None:
     ap.add_argument("--node-limit", type=int, default=300_000,
                     help="solver backtracking-node cap per restart. Higher = "
                          "more chance of solving on a constrained pool, slower.")
+    ap.add_argument("--template", default="data/template_15.json",
+                    help="grid template JSON (e.g. data/template_11.json)")
     args = ap.parse_args()
 
     G.NODE_LIMIT = args.node_limit
-    grid = json.loads((G.HERE / "data" / "template_15.json").read_text())
+    grid = json.loads((G.HERE / args.template).read_text())
     slots = G.extract_slots(grid)
     # Picker's "common English" check — uses SCOWL-lowercase, the tighter
     # spell-check-grade dictionary. Words NOT in this set are penalized as
