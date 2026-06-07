@@ -89,7 +89,17 @@ def main() -> None:
 
     tier1.sort(key=lambda p: (-p[1], p[0]))
     tier2.sort(key=lambda p: (-p[1], p[0]))
-    ordered = [w for w, _ in tier1] + [w for w, _ in tier2]
+    # Interleave by score: at equal Broda score, tier 1 (common English)
+    # beats tier 2 (obscure English) — so the solver tries common words
+    # first at every score level, but a high-score tier-2 entry still wins
+    # over a low-score tier-1 entry. Strict tier-first ordering
+    # over-constrained the 15x15 solver because all 76k tier-1 entries
+    # had to be exhausted before any tier-2 word was tried.
+    merged: list[tuple[str, int, int]] = (  # (word, score, tier_rank)
+        [(w, s, 0) for w, s in tier1] + [(w, s, 1) for w, s in tier2]
+    )
+    merged.sort(key=lambda p: (-p[1], p[2], p[0]))
+    ordered = [w for w, _, _ in merged]
     OUT_PATH.write_text(json.dumps(ordered))
 
     print(f"\nTIER 1 (common English):  {len(tier1):>7,}")
