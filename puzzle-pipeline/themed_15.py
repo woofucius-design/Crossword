@@ -74,18 +74,20 @@ def themed_solve(
     sat_count: int,
     theme_slots: set[int],
     rng: random.Random,
+    curated_pool: frozenset[int] | None = None,
     restarts: int = 4,
 ) -> list[str] | None:
-    """Pin theme_slots to SAT-only, other slots to fill-only, then solve."""
+    """Pin theme_slots to (curated) SAT-only, others to fill-only, then solve."""
     filler = G.Filler(slots, pool, sat_count)
     sat_ids = filler.sat_ids
+    theme_pool = curated_pool if curated_pool is not None else sat_ids
     base: list[set[int]] = []
     for si, slot in enumerate(filler.slots):
         dom = set(filler.length_ids.get(slot.length, ()))
         if si in theme_slots:
-            dom &= sat_ids                # SAT only
+            dom &= theme_pool             # SAT only (curated subset)
         else:
-            dom -= sat_ids                # fill only
+            dom -= sat_ids                # fill only (excludes ALL SAT bank)
         if not dom:
             return None
         base.append(dom)
@@ -106,6 +108,12 @@ def main() -> None:
     ap.add_argument("--themers", type=int, default=4,
                     help="exact number of SAT themed entries per puzzle "
                          "(NYT clean-fill norm: 3-4 for 15x15, 2-3 for 11x11)")
+    ap.add_argument("--curated-themes", type=int, default=30,
+                    help="only place themers from the first N SAT bank entries "
+                         "(default 30 = the hand-curated headliners). The bulk "
+                         "of the 4,966-word bank is freevocabulary additions "
+                         "like BASS, EARNEST, LAX, RUE — fine as bonus fill but "
+                         "not real SAT vocab. Use 0 to allow any SAT-bank entry.")
     ap.add_argument("--candidates", type=int, default=10)
     ap.add_argument("--time-budget", type=float, default=120.0)
     ap.add_argument("--node-limit", type=int, default=400_000)
@@ -129,8 +137,13 @@ def main() -> None:
     sat_lookup = {w["word"]: w for w in sat}
     sat_list = [w["word"] for w in sat]
     sat_set = set(sat_list)
+    # Theme slot pool: only the first --curated-themes SAT entries qualify
+    # for placement. The full bank is still tagged isSATVocab in serialization,
+    # but we don't let BASS/RUE/LAX-style common words occupy theme positions.
+    curated_themes = sat_list[: args.curated_themes] if args.curated_themes else sat_list
+    curated_pool = frozenset(range(len(curated_themes)))
     sat_by_len: dict[int, int] = defaultdict(int)
-    for w in sat_list:
+    for w in curated_themes:
         sat_by_len[len(w)] += 1
     fill = G.load_fill()
     pool = sat_list + [w for w in fill if w not in sat_lookup]
@@ -175,6 +188,7 @@ def main() -> None:
             t0 = time.time()
             assign = themed_solve(
                 slots, pool, len(sat_list), theme_slots, rng,
+                curated_pool=curated_pool,
             )
             dt = time.time() - t0
             if assign is None:

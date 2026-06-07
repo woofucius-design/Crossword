@@ -20,9 +20,11 @@ import generator as G
 
 
 def load_scores() -> dict[str, int]:
-    """Parse word->score from xwordlist.dict so we can rank candidate puzzles."""
+    """Parse word->score from broda_wordlist.txt so we can rank candidate
+    puzzles. Broda's scoring is what build_fill_list.py now uses to order
+    the fill pool, so the picker quality metric needs to agree."""
     out: dict[str, int] = {}
-    with (G.HERE / "data" / "xwordlist.dict").open() as fh:
+    with (G.HERE / "data" / "broda_wordlist.txt").open(encoding="latin-1") as fh:
         for line in fh:
             word, _, score_str = line.strip().partition(";")
             try:
