@@ -256,7 +256,7 @@ def main() -> None:
             t_imp = time.time()
             assign, imp_stats = post_improve(
                 slots, pool, assign, _tier_of,
-                max_iters=8, verbose=False,
+                max_iters=12, max_cascade_depth=2, verbose=False,
             )
             dt_imp = time.time() - t_imp
             ws = [scores.get(w, 30) for w in assign]
@@ -268,10 +268,12 @@ def main() -> None:
             # speak the same language about which words are tier 3.
             tier3_n = sum(1 for w in assign if scores.get(w, 30) < 50)
             metrics = (-tier3_n, sat_n, avg, -weak, cand)
+            swap_breakdown = ",".join(
+                f"d{d}={n}" for d, n in sorted(imp_stats["swaps_by_depth"].items())
+            ) or "none"
             print(
                 f"  cand {cand + 1}: SOLVED {dt:.1f}s "
-                f"+improve {dt_imp:.1f}s ({imp_stats['swaps_0_cascade']}/"
-                f"{imp_stats['swaps_1_cascade']} swaps) "
+                f"+improve {dt_imp:.1f}s ({swap_breakdown}) "
                 f"SAT={sat_n} tier3={tier3_n} avg={avg:.1f} weak={weak}",
                 flush=True,
             )

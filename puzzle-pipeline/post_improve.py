@@ -1,31 +1,26 @@
 """
 Post-solve quality improver — reduces tier-3 entries via local search.
 
-The solver in generator.py backtracks on INFEASIBILITY only, never on
-QUALITY: once it finds a valid full assignment, it returns even if many
-slots ended up filled with tier-3 entries (LAIKA, RAFIKI, UCANT-class).
-The picker in seed_15.py works around this by sampling K candidates and
-keeping the best, but each individual candidate's tier-3 count is fixed.
+The CSP solver in generator.py backtracks on INFEASIBILITY only, never on
+QUALITY: it returns the first valid full assignment, even if it stranded
+tier-3 entries in spots a deeper search would have found cleaner. This
+module runs after the solver and tries local swaps to reduce tier-3
+count without invalidating any crossing.
 
-This module does a cheap iterative-improvement pass on a completed
-assignment:
+Cascade depth:
+  depth 0 — only swap the tier-3 entry, all crossing letters must stay.
+            Almost never fires: if a tier-≤2 word matched the current
+            pattern exactly, the solver would have picked it.
+  depth 1 — swap the tier-3 entry W for W', and for each crossing where
+            W' differs from W, swap the crossing slot too. The crossing
+            replacement must match every OTHER fixed crossing exactly.
+  depth 2 — same as 1, but the crossing replacement may itself propagate
+            to one of ITS crossings, recursing one more level.
+  ...
 
-  for each tier-3 entry W at slot S, in some order:
-      for each tier-<=2 candidate W' that fits S's length:
-          - 0-cascade: if W' matches the current letters at every
-            crossing of S, swap W -> W' directly.
-          - 1-cascade: otherwise compute which crossing slots would
-            need to change (positions where W' differs from W). For
-            each such crossing Sc, search for a replacement Wc' with
-            the required letter at the cross point AND matching every
-            OTHER crossing of Sc that's still fixed, AND of tier no
-            worse than the current Wc. If one is found at every
-            affected crossing, apply the multi-swap.
-
-We stop when a full pass finds no improvement, or after N iterations.
-
-This is intentionally limited: depth-1 cascade only, no deeper backtrack.
-Catches the easy cases where a single tier-3 entry stranded itself.
+Cost grows with depth: per top-level candidate, we may try O(N_cands^d)
+sub-recursions. We bound depth at MAX_CASCADE_DEPTH (default 2) and limit
+candidates per slot.
 """
 from __future__ import annotations
 
@@ -36,8 +31,6 @@ import generator as G
 
 
 def _build_indices(slots: list[G.Slot], pool: list[str]):
-    """Pre-compute pool indexes the post-improver needs (same shape as
-    Filler's, recomputed here so we don't depend on Filler internals)."""
     length_ids: dict[int, list[int]] = defaultdict(list)
     pos_index: dict[tuple[int, int, str], set[int]] = defaultdict(set)
     for i, w in enumerate(pool):
@@ -49,13 +42,115 @@ def _build_indices(slots: list[G.Slot], pool: list[str]):
 
 
 def _slot_pos_index(slots: list[G.Slot]):
-    """For each (slot_id, position) -> (crossing_slot_id, position_in_crossing)
-    so we can quickly find the cell shared between a slot and any crossing."""
     out: dict[tuple[int, int], list[tuple[int, int]]] = defaultdict(list)
     for si, slot in enumerate(slots):
         for idx_here, sj, idx_there in slot.crossings:
             out[(si, idx_here)].append((sj, idx_there))
     return out
+
+
+def _find_swap(
+    slot_id: int,
+    pinned_letters: dict[int, str],
+    depth_budget: int,
+    changes: dict[int, int],
+    target_tier: int,
+    *,
+    slots: list[G.Slot],
+    pool: list[str],
+    assign: list[str],
+    tier_of: Callable[[str], int],
+    length_ids: dict[int, list[int]],
+    pos_index: dict[tuple[int, int, str], set[int]],
+    cross_lookup: dict[tuple[int, int], list[tuple[int, int]]],
+    word_to_id: dict[str, int],
+    cand_limit: int = 200,
+) -> dict[int, int] | None:
+    """Find a word for slot_id that satisfies pinned_letters at the given
+    positions, plus any cross letters currently in `assign` at positions
+    that won't propagate (depth_budget controls how many more cross slots
+    we'll let change), AND has tier <= target_tier.
+
+    Returns updated `changes` ({slot_id: word_id}), or None if no swap works.
+    """
+    Lj = slots[slot_id].length
+    current_word = assign[slot_id]
+    cur_wid = word_to_id.get(current_word, -1)
+
+    # Build the domain: words of correct length matching pinned letters.
+    domain = set(length_ids[Lj])
+    for pos, letter in pinned_letters.items():
+        domain &= pos_index.get((Lj, pos, letter), set())
+    if not domain:
+        return None
+
+    in_use = set(changes.values())
+    cands = sorted(domain)[:cand_limit]
+    for wid in cands:
+        if wid in in_use:
+            continue
+        if wid == cur_wid:
+            continue
+        word = pool[wid]
+        if tier_of(word) > target_tier:
+            # pool ordered tier 1 -> tier 2 -> tier 3; once we cross over,
+            # no point continuing through this domain.
+            break
+        # Propose this swap; verify / propagate at every position.
+        new_changes = dict(changes)
+        new_changes[slot_id] = wid
+        new_in_use = set(new_changes.values())
+        ok = True
+        for idx in range(Lj):
+            if idx in pinned_letters:
+                continue
+            crosses = cross_lookup.get((slot_id, idx), [])
+            if not crosses:
+                continue
+            sk, idx_in_sk = crosses[0]
+            # If sk is in changes already, ensure the new word's letter at
+            # idx_in_sk matches what we already committed for sk.
+            if sk in new_changes:
+                cross_word = pool[new_changes[sk]]
+                if cross_word[idx_in_sk] != word[idx]:
+                    ok = False
+                    break
+                continue
+            current_cross = assign[sk]
+            if current_cross[idx_in_sk] == word[idx]:
+                continue  # crossing already satisfies, no change needed
+            # Crossing slot must change. Allowed?
+            if depth_budget <= 0:
+                ok = False
+                break
+            # Recurse to find a replacement for sk with letter word[idx]
+            # at idx_in_sk. The replacement must be no worse than the
+            # crossing's current tier.
+            sk_target_tier = tier_of(current_cross)
+            sub = _find_swap(
+                sk,
+                pinned_letters={idx_in_sk: word[idx]},
+                depth_budget=depth_budget - 1,
+                changes=new_changes,
+                target_tier=sk_target_tier,
+                slots=slots,
+                pool=pool,
+                assign=assign,
+                tier_of=tier_of,
+                length_ids=length_ids,
+                pos_index=pos_index,
+                cross_lookup=cross_lookup,
+                word_to_id=word_to_id,
+                cand_limit=cand_limit,
+            )
+            if sub is None:
+                ok = False
+                break
+            new_changes = sub
+            new_in_use = set(new_changes.values())
+        if ok:
+            return new_changes
+    return None
 
 
 def post_improve(
@@ -64,200 +159,88 @@ def post_improve(
     assign: list[str],
     tier_of: Callable[[str], int],
     max_iters: int = 20,
+    max_cascade_depth: int = 2,
+    cand_limit: int = 200,
     verbose: bool = False,
 ) -> tuple[list[str], dict]:
-    """Iteratively reduce tier-3 entries by 1-step cascade swaps.
-
-    Returns (new_assign, stats) where stats is a dict with counts.
-    """
+    """Iteratively reduce tier-3 entries using cascading swaps of depth
+    up to `max_cascade_depth`. Each iteration tries to find one improvement;
+    if found, applies it and loops. Stops when no improvement or max_iters
+    hit."""
     length_ids, pos_index = _build_indices(slots, pool)
     word_to_id = {w: i for i, w in enumerate(pool)}
     cross_lookup = _slot_pos_index(slots)
     assign = list(assign)
     iters = 0
-    swaps_0 = 0
-    swaps_1 = 0
+    swaps_by_depth: dict[int, int] = defaultdict(int)
+
     while iters < max_iters:
         iters += 1
-        improved_this_pass = False
-        # Find all tier-3 slots
+        improved = False
         bad_slots = [
             (si, w) for si, w in enumerate(assign) if tier_of(w) == 3
         ]
-        # Sort by slot length descending — longer slots have more crossings,
-        # more leverage to reduce overall tier-3 count.
-        bad_slots.sort(key=lambda p: -len(p[1]))
+        bad_slots.sort(key=lambda p: -len(p[1]))  # longer first
 
         for si, current_word in bad_slots:
-            slot = slots[si]
-            L = slot.length
-
-            # Find all words that fit the slot's current letter pattern
-            # (i.e., satisfy ALL crossings as currently assigned).
-            pattern_domain = set(length_ids[L])
-            for idx in range(L):
-                # For each position, what letter is required by crossings?
-                # Take it from the current assign of any crossing slot.
-                fixed_letter: str | None = None
-                for sj, idx_in_sj in cross_lookup.get((si, idx), []):
-                    fixed_letter = assign[sj][idx_in_sj]
-                    break
-                if fixed_letter is None:
-                    continue
-                pattern_domain &= pos_index.get((L, idx, fixed_letter), set())
-
-            # Used-IDs set so we don't pick a duplicate.
-            used = {word_to_id[w] for j, w in enumerate(assign) if j != si}
-
-            # 0-CASCADE: exact-pattern swap. Try tier <= 2 candidates that
-            # match the current letter pattern exactly.
-            zero_cand_id = None
-            for wid in sorted(pattern_domain):
-                if wid in used:
-                    continue
-                w = pool[wid]
-                if w == current_word:
-                    continue
-                if tier_of(w) >= 3:
-                    break  # pool is tier-ordered, no point continuing
-                zero_cand_id = wid
-                break
-            if zero_cand_id is not None:
-                new_w = pool[zero_cand_id]
-                if verbose:
-                    print(f"    0-cascade: slot {si} ({current_word} -> {new_w})")
-                assign[si] = new_w
-                swaps_0 += 1
-                improved_this_pass = True
-                break  # restart pass to recompute tier-3 set
-
-            # 1-CASCADE: try W' that don't match current pattern; see if we
-            # can also change the affected crossings.
-            # Candidate set: all words of length L that are tier <= 2 and
-            # match crossings that DON'T need changing.
-            cands_for_W = []
-            for wid in length_ids[L]:
-                if wid in used:
-                    continue
-                w = pool[wid]
-                if w == current_word:
-                    continue
-                if tier_of(w) >= 3:
-                    continue
-                cands_for_W.append(wid)
-            # Sort: tier-1 candidates first.
-            cands_for_W.sort(key=lambda wid: tier_of(pool[wid]))
-
+            current_wid = word_to_id.get(current_word, -1)
+            base_changes = {si: current_wid} if current_wid >= 0 else {}
+            # Try increasing cascade depths so we accept a shallower fix
+            # if one exists.
             applied = False
-            for wid_new in cands_for_W:
-                w_new = pool[wid_new]
-                # Find positions where w_new differs from current_word.
-                # At those positions, the crossing slot must be replaced.
-                replacements: dict[int, str] = {si: w_new}
-                ok = True
-                seen_used = set(used)
-                seen_used.discard(word_to_id[current_word])
-                seen_used.add(wid_new)
-                for idx in range(L):
-                    if w_new[idx] == current_word[idx]:
-                        continue
-                    # Find the crossing slot at this position.
-                    cross_targets = cross_lookup.get((si, idx), [])
-                    if not cross_targets:
-                        # No crossing — this means slot has open edge, but
-                        # since the grid is fully checked, every cell has
-                        # a crossing. So this shouldn't happen.
-                        ok = False
-                        break
-                    sj, idx_in_sj = cross_targets[0]
-                    if sj in replacements:
-                        # Already replacing this crossing in this attempt
-                        # (shouldn't happen if slots are distinct).
-                        if replacements[sj][idx_in_sj] != w_new[idx]:
-                            ok = False
-                            break
-                        continue
-                    current_Wc = assign[sj]
-                    target_tier = tier_of(current_Wc)
-                    # Build the required letter pattern for Wc'
-                    Lc = slots[sj].length
-                    # Wc' must have w_new[idx] at position idx_in_sj
-                    domain_c = set(
-                        pos_index.get((Lc, idx_in_sj, w_new[idx]), set())
+            for depth in range(max_cascade_depth + 1):
+                # Start by trying to swap slot si itself with target_tier=2.
+                # We want a tier-≤2 word for si — pin nothing initially,
+                # let cross propagation handle the rest.
+                changes = _find_swap(
+                    si,
+                    pinned_letters={},
+                    depth_budget=depth,
+                    changes={},
+                    target_tier=2,
+                    slots=slots,
+                    pool=pool,
+                    assign=assign,
+                    tier_of=tier_of,
+                    length_ids=length_ids,
+                    pos_index=pos_index,
+                    cross_lookup=cross_lookup,
+                    word_to_id=word_to_id,
+                    cand_limit=cand_limit,
+                )
+                if changes is None:
+                    continue
+                # Verify the swap strictly decreases tier-3 count.
+                old_tier3 = sum(
+                    1 for j, w in enumerate(assign) if tier_of(w) == 3
+                )
+                new_tier3 = sum(
+                    1 for j, w in enumerate(assign)
+                    if (j not in changes and tier_of(w) == 3)
+                    or (j in changes and tier_of(pool[changes[j]]) == 3)
+                )
+                if new_tier3 >= old_tier3:
+                    continue
+                # Apply.
+                for sj, new_wid in changes.items():
+                    assign[sj] = pool[new_wid]
+                swaps_by_depth[depth] += 1
+                if verbose:
+                    print(
+                        f"    depth-{depth}: slot {si} +{len(changes)-1} "
+                        f"crossings, tier3 {old_tier3} -> {new_tier3}"
                     )
-                    # AND match every OTHER crossing of Sc that's currently
-                    # fixed by an unchanged assign.
-                    for idxc in range(Lc):
-                        if idxc == idx_in_sj:
-                            continue
-                        # What's the current letter at this cell? It's
-                        # whatever the crossing slot at that position says
-                        # (or current_Wc itself if no further crossings).
-                        cross_other = cross_lookup.get((sj, idxc), [])
-                        fixed = None
-                        for sk, idxk_in_sk in cross_other:
-                            if sk in replacements:
-                                fixed = replacements[sk][idxk_in_sk]
-                            else:
-                                fixed = assign[sk][idxk_in_sk]
-                            break
-                        if fixed is not None:
-                            domain_c &= pos_index.get(
-                                (Lc, idxc, fixed), set()
-                            )
-                            if not domain_c:
-                                break
-                    # Pick the best (lowest-ID) candidate of tier <= target.
-                    Wc_new_id = None
-                    for wid_c in sorted(domain_c):
-                        if wid_c in seen_used:
-                            continue
-                        wc = pool[wid_c]
-                        if wc == current_Wc:
-                            continue
-                        if tier_of(wc) > target_tier:
-                            break  # pool tier-ordered
-                        Wc_new_id = wid_c
-                        break
-                    if Wc_new_id is None:
-                        ok = False
-                        break
-                    replacements[sj] = pool[Wc_new_id]
-                    seen_used.add(Wc_new_id)
-                if ok and len(replacements) >= 2:
-                    # Apply if at least one crossing actually changed and
-                    # the global tier-3 count strictly decreased.
-                    old_tier3 = sum(
-                        1 for j, w in enumerate(assign) if tier_of(w) == 3
-                    )
-                    new_tier3 = sum(
-                        1
-                        for j, w in enumerate(assign)
-                        if (j not in replacements and tier_of(w) == 3)
-                        or (j in replacements and tier_of(replacements[j]) == 3)
-                    )
-                    if new_tier3 < old_tier3:
-                        if verbose:
-                            print(
-                                f"    1-cascade: slot {si} ({current_word} "
-                                f"-> {w_new}) +{len(replacements)-1} crossings "
-                                f"changed, tier3 {old_tier3} -> {new_tier3}"
-                            )
-                        for sj, w_new_sj in replacements.items():
-                            assign[sj] = w_new_sj
-                        swaps_1 += 1
-                        applied = True
-                        break
+                applied = True
+                break  # restart with shallower depths next iteration
             if applied:
-                improved_this_pass = True
-                break  # restart pass
-
-        if not improved_this_pass:
+                improved = True
+                break
+        if not improved:
             break
 
     stats = {
         "iterations": iters,
-        "swaps_0_cascade": swaps_0,
-        "swaps_1_cascade": swaps_1,
+        "swaps_by_depth": dict(swaps_by_depth),
+        "total_swaps": sum(swaps_by_depth.values()),
     }
     return assign, stats
