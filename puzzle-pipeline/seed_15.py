@@ -27,6 +27,7 @@ from pathlib import Path
 
 import generator as G
 from pick_15 import load_scores
+from post_improve import post_improve
 
 
 def seed_solve(
@@ -238,20 +239,39 @@ def main() -> None:
             if assign is None:
                 print(f"  cand {cand + 1}: fail in {dt:.1f}s", flush=True)
                 continue
+            # Quick local search to reduce tier-3 entries via 0-cascade and
+            # 1-cascade swaps. The CSP solver finds the FIRST valid
+            # assignment without regard to fill quality — this pass tries
+            # to swap LAIKA/RAFIKI-class tier-3 fill for tier <=2 entries
+            # before the picker evaluates the candidate.
+            def _tier_of(w, _s=scores):
+                s = _s.get(w, 30)
+                if s >= 100:
+                    return 0
+                if s >= 80:
+                    return 1
+                if s >= 50:
+                    return 2
+                return 3
+            t_imp = time.time()
+            assign, imp_stats = post_improve(
+                slots, pool, assign, _tier_of,
+                max_iters=8, verbose=False,
+            )
+            dt_imp = time.time() - t_imp
             ws = [scores.get(w, 30) for w in assign]
             avg = sum(ws) / len(ws)
             weak = sum(1 for s in ws if s < 50)
             sat_n = sum(1 for w in assign if w in sat_set)
-            # tier-3 count: non-SAT entries that are random acronyms / fallback
-            # (not in school vocab, not in any English dict, not in our
-            # abbrev/Roman allow list). The picker minimizes this.
-            tier3_n = sum(
-                1 for w in assign
-                if w not in sat_set and w not in acceptable_fill
-            )
+            # Tier-3 count via the scoring map — agrees with _tier_of so
+            # the picker, the metric report, and the post-improver all
+            # speak the same language about which words are tier 3.
+            tier3_n = sum(1 for w in assign if scores.get(w, 30) < 50)
             metrics = (-tier3_n, sat_n, avg, -weak, cand)
             print(
                 f"  cand {cand + 1}: SOLVED {dt:.1f}s "
+                f"+improve {dt_imp:.1f}s ({imp_stats['swaps_0_cascade']}/"
+                f"{imp_stats['swaps_1_cascade']} swaps) "
                 f"SAT={sat_n} tier3={tier3_n} avg={avg:.1f} weak={weak}",
                 flush=True,
             )
