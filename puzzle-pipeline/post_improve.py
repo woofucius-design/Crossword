@@ -65,6 +65,7 @@ def _find_swap(
     cross_lookup: dict[tuple[int, int], list[tuple[int, int]]],
     word_to_id: dict[str, int],
     cand_limit: int = 200,
+    budget: list[int] | None = None,
 ) -> dict[int, int] | None:
     """Find a word for slot_id that satisfies pinned_letters at the given
     positions, plus any cross letters currently in `assign` at positions
@@ -87,6 +88,10 @@ def _find_swap(
     in_use = set(changes.values())
     cands = sorted(domain)[:cand_limit]
     for wid in cands:
+        if budget is not None:
+            if budget[0] <= 0:
+                return None
+            budget[0] -= 1
         if wid in in_use:
             continue
         if wid == cur_wid:
@@ -142,6 +147,7 @@ def _find_swap(
                 cross_lookup=cross_lookup,
                 word_to_id=word_to_id,
                 cand_limit=cand_limit,
+                budget=budget,
             )
             if sub is None:
                 ok = False
@@ -160,7 +166,8 @@ def post_improve(
     tier_of: Callable[[str], int],
     max_iters: int = 20,
     max_cascade_depth: int = 2,
-    cand_limit: int = 200,
+    cand_limit: int = 60,
+    per_slot_node_budget: int = 50_000,
     verbose: bool = False,
 ) -> tuple[list[str], dict]:
     """Iteratively reduce tier-3 entries using cascading swaps of depth
@@ -189,9 +196,7 @@ def post_improve(
             # if one exists.
             applied = False
             for depth in range(max_cascade_depth + 1):
-                # Start by trying to swap slot si itself with target_tier=2.
-                # We want a tier-≤2 word for si — pin nothing initially,
-                # let cross propagation handle the rest.
+                budget = [per_slot_node_budget]
                 changes = _find_swap(
                     si,
                     pinned_letters={},
@@ -207,6 +212,7 @@ def post_improve(
                     cross_lookup=cross_lookup,
                     word_to_id=word_to_id,
                     cand_limit=cand_limit,
+                    budget=budget,
                 )
                 if changes is None:
                     continue
