@@ -52,6 +52,16 @@ def load_fill_clues() -> dict:
     return json.loads(path.read_text()) if path.exists() else {}
 
 
+@functools.lru_cache(maxsize=1)
+def load_definitions() -> dict:
+    """Word -> {definition, source, pos, ...}. Used to populate the `clue`
+    field for fill entries that aren't SAT vocab and don't have a hand
+    fill_clue. Source data is built by build_definitions.py +
+    enrich_definitions.py."""
+    path = HERE / "data" / "definitions.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 # ── 1. grid construction ─────────────────────────────────────────────────────
 def _runs_ok(line: tuple[str, ...]) -> bool:
     run = 0
@@ -369,6 +379,7 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
         for r in range(size)
     ]
     fill_clues = load_fill_clues()
+    definitions = load_definitions()
     words = []
     for si, slot in enumerate(slots):
         answer = assign[si]
@@ -376,20 +387,40 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             solution[r][c] = answer[idx]
         r0, c0 = slot.cells[0]
         sat = sat_lookup.get(answer)
-        words.append(
-            {
-                "id": f"{numbers[(r0, c0)]}{'A' if slot.direction == 'across' else 'D'}",
-                "number": numbers[(r0, c0)],
-                "direction": slot.direction,
-                "row": r0,
-                "col": c0,
-                "length": slot.length,
-                "answer": answer,
-                "clue": sat["clue"] if sat else fill_clues.get(answer, ""),
-                "isSATVocab": bool(sat),
-                **({"definition": sat["definition"]} if sat else {}),
-            }
-        )
+        # Clue priority: SAT-bank clue > hand fill_clue > sourced definition
+        if sat:
+            clue = sat["clue"]
+            definition = sat["definition"]
+            source = "sat"
+        elif answer in fill_clues:
+            clue = fill_clues[answer]
+            definition = ""
+            source = "hand"
+        elif answer in definitions:
+            d = definitions[answer]
+            clue = d["definition"]
+            definition = d["definition"]
+            source = d.get("source", "definition")
+        else:
+            clue = ""
+            definition = ""
+            source = ""
+        entry = {
+            "id": f"{numbers[(r0, c0)]}{'A' if slot.direction == 'across' else 'D'}",
+            "number": numbers[(r0, c0)],
+            "direction": slot.direction,
+            "row": r0,
+            "col": c0,
+            "length": slot.length,
+            "answer": answer,
+            "clue": clue,
+            "isSATVocab": bool(sat),
+        }
+        if definition:
+            entry["definition"] = definition
+        if source:
+            entry["clueSource"] = source
+        words.append(entry)
     words.sort(key=lambda w: (w["number"], w["direction"]))
     return {
         "date": date,
