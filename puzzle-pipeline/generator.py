@@ -73,9 +73,10 @@ def load_sat_alt_clues() -> dict:
 
 @functools.lru_cache(maxsize=1)
 def load_sat_synonym_index() -> dict:
-    """Fill answer -> list of SAT words it's a synonym of. When a curated
-    SAT-synonym appears as fill, the puzzle clue becomes the SAT word
-    itself, turning regular fill into vocabulary review."""
+    """Fill answer -> {satWords: [...], kind: "synonym"|"short_def",
+    display?: "..."}. When a curated SAT-synonym (SHREWD) or squashed
+    short-definition phrase (EASYTOGRASP) appears as fill, the puzzle
+    clue becomes the SAT word itself, turning fill into vocab review."""
     path = HERE / "data" / "sat_synonym_index.json"
     return json.loads(path.read_text()) if path.exists() else {}
 
@@ -424,10 +425,15 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
                 source = "sat"
             definition = sat["definition"]
         elif answer in syn_index:
-            sat_word_for_clue = syn_index[answer][0]
+            tie = syn_index[answer]
+            sat_word_for_clue = tie["satWords"][0]
             clue = sat_word_for_clue.title()
-            definition = f"Synonym of {sat_word_for_clue.lower()}"
-            source = "sat_synonym"
+            if tie["kind"] == "short_def":
+                shown = tie.get("display", answer)
+                definition = f"“{shown}” defines {sat_word_for_clue.lower()}"
+            else:
+                definition = f"Synonym of {sat_word_for_clue.lower()}"
+            source = f"sat_{tie['kind']}"
         elif answer in fill_clues:
             clue = fill_clues[answer]
             definition = ""
@@ -454,7 +460,8 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             "isSATSynonym": (not sat) and answer in syn_index,
         }
         if entry["isSATSynonym"]:
-            entry["satSynonymOf"] = syn_index[answer]
+            entry["satSynonymOf"] = syn_index[answer]["satWords"]
+            entry["satTeachingKind"] = syn_index[answer]["kind"]
         if definition:
             entry["definition"] = definition
         if source:

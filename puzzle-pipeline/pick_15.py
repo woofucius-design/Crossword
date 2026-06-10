@@ -106,9 +106,21 @@ def load_scores() -> dict[str, int]:
             return 0
         return max(0, 20 - int(rank / 2500))
 
+    # SAT teaching words (synonyms + short-def phrases of SAT vocab):
+    # scored 99 — just under SAT itself, above all ordinary tier 1 — so
+    # both the solver's value ordering and the picker's avg-score metric
+    # prefer turning fill slots into vocabulary review.
+    teaching: set[str] = set()
+    teach_path = here / "data" / "sat_synonym_index.json"
+    if teach_path.exists():
+        teaching = set(json.loads(teach_path.read_text()))
+
     out: dict[str, int] = {}
-    universe = sat_set | scowl_all | dwyl | tier2_allow | tier3_force
+    universe = sat_set | scowl_all | dwyl | tier2_allow | tier3_force | teaching
     for w in universe:
+        if w in teaching and w not in sat_set:
+            out[w] = 99
+            continue
         tier = _classify_tier(
             w, sat_set, scowl_upper_only, scowl_lower, dwyl,
             tier2_allow, tier3_force, freq,

@@ -188,8 +188,30 @@ def main() -> None:
         if MIN_LEN <= len(w) <= MAX_LEN:
             tier3.add(w)
 
+    # SAT teaching boost: words in the synonym/short-def index go to the
+    # very front of tier 1 so the solver prefers them over ordinary fill
+    # whenever they fit — each one placed turns a fill slot into vocab
+    # review (its clue becomes the SAT word). Short-def phrases like
+    # EASYTOGRASP exist in no dictionary, so they're added to the pool
+    # here.
+    teach_path = HERE / "data" / "sat_synonym_index.json"
+    teaching: set[str] = set()
+    if teach_path.exists():
+        teaching = {
+            w for w in json.loads(teach_path.read_text())
+            if w.isalpha() and MIN_LEN <= len(w) <= MAX_LEN
+        }
+        new_phrases = teaching - tier1 - tier2 - tier3
+        tier1 |= teaching
+        tier2 -= teaching
+        tier3 -= teaching
+        print(f"teaching words boosted to tier-1 front: {len(teaching):,} "
+              f"({len(new_phrases)} new phrase entries)")
+
     no_rank = len(freq) + 1
-    tier1_sorted = sorted(tier1, key=lambda w: (freq.get(w, no_rank), w))
+    tier1_sorted = sorted(
+        tier1, key=lambda w: (w not in teaching, freq.get(w, no_rank), w)
+    )
     tier2_sorted = sorted(tier2)
     tier3_sorted = sorted(tier3)
     ordered = tier1_sorted + tier2_sorted + tier3_sorted

@@ -11,25 +11,49 @@ Builds two enrichment files for SAT vocabulary used by the generator:
     Format: { "LUCID": [{"text": "...", "source": "sat"}, {...}, ...] }
 
   data/sat_synonym_index.json
-    Inverse map for the generator's clue-substitution pass: each fill
-    word that is a curated synonym of a SAT word maps to that SAT word,
-    so when the solver places SHREWD as fill the puzzle clue becomes
-    "Astute". Built from data/sat_synonyms.json (hand-curated).
-    Format: { "SHREWD": ["ASTUTE"], "CALM": ["STOIC", "PLACID", "SERENE"] }
+    Inverse map for the generator's clue-substitution pass. Combines two
+    hand-curated sources:
+      - data/sat_synonyms.json: fill words that are synonyms of a SAT
+        word (SHREWD -> ASTUTE).
+      - data/sat_short_defs.json: 2-3 word definition phrases, squashed
+        to crossword answers (EASYTOGRASP -> LUCID). These are ADDED to
+        the fill pool by build_fill_list.py even though no dictionary
+        contains them.
+    When the solver places one of these as fill, the puzzle clue becomes
+    the SAT word itself ("Astute" / "Lucid"), turning fill into vocab
+    review.
+    Format: { "SHREWD":      {"satWords": ["ASTUTE"], "kind": "synonym"},
+              "EASYTOGRASP": {"satWords": ["LUCID"],
+                              "kind": "short_def",
+                              "display": "EASY TO GRASP"} }
 """
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 HERE = Path(__file__).parent
 SAT_SRC = HERE / "data" / "sat_words.json"
 DEFS_SRC = HERE / "data" / "definitions.json"
 SYN_SRC = HERE / "data" / "sat_synonyms.json"
+SHORT_DEFS_SRC = HERE / "data" / "sat_short_defs.json"
 MANUAL_CLUES = HERE / "data" / "sat_alt_clues_manual.json"
 WEBSTER_SRC = HERE / "data" / "dict_webster.json"
 OUT_CLUES = HERE / "data" / "sat_alt_clues.json"
 OUT_SYN_INDEX = HERE / "data" / "sat_synonym_index.json"
+
+
+def format_clue(text: str) -> str:
+    """Normalize a definition into standard crossword clue style:
+      - verbs lose the leading infinitive 'To ' ('To rub or wear off'
+        -> 'Rub or wear off')
+      - nouns lose the leading article ('A young girl' -> 'Young girl')
+      - first letter capitalized
+    """
+    s = text.strip()
+    s = re.sub(r"^(To|A|An|The)\s+", "", s, flags=re.IGNORECASE)
+    return s[:1].upper() + s[1:] if s else s
 
 
 def _clean_webster(text: str, max_len: int = 70) -> str:
@@ -135,10 +159,11 @@ def build_alt_clues() -> None:
                 clues.append({"text": entry_text, "source": "manual"})
             elif isinstance(entry_text, dict):
                 clues.append(entry_text)
-        # Deduplicate by lowercased text
+        # Crossword-format normalization, then dedupe by lowercased text
         seen: set[str] = set()
         unique: list[dict] = []
         for c in clues:
+            c["text"] = format_clue(c["text"])
             key = c["text"].lower().strip()
             if key and key not in seen:
                 seen.add(key)
@@ -154,17 +179,43 @@ def build_alt_clues() -> None:
 
 
 def build_synonym_index() -> None:
+    """Combined teaching index: synonyms + squashed short-definition
+    phrases. Both map fill answer -> SAT word(s), with a kind tag so the
+    generator can phrase the entry's definition correctly."""
+    index: dict[str, dict] = {}
+
     syns = json.loads(SYN_SRC.read_text())
-    index: dict[str, list[str]] = {}
     for sat_word, synonyms in syns.items():
         for syn in synonyms:
-            # Normalize: drop spaces (puzzle answers are single tokens)
             key = syn.upper().replace(" ", "")
             if not key.isalpha():
                 continue
-            index.setdefault(key, []).append(sat_word.upper())
+            slot = index.setdefault(key, {"satWords": [], "kind": "synonym"})
+            if sat_word.upper() not in slot["satWords"]:
+                slot["satWords"].append(sat_word.upper())
+
+    short_defs = (
+        json.loads(SHORT_DEFS_SRC.read_text())
+        if SHORT_DEFS_SRC.exists() else {}
+    )
+    n_phrases = 0
+    for sat_word, phrases in short_defs.items():
+        for phrase in phrases:
+            key = phrase.upper().replace(" ", "")
+            if not key.isalpha() or len(key) > 15:
+                continue
+            slot = index.setdefault(
+                key, {"satWords": [], "kind": "short_def", "display": phrase}
+            )
+            if sat_word.upper() not in slot["satWords"]:
+                slot["satWords"].append(sat_word.upper())
+            n_phrases += 1
+
     OUT_SYN_INDEX.write_text(json.dumps(index, indent=1, sort_keys=True))
-    print(f"synonym index: {len(index):,} fill words map to SAT clues")
+    n_syn = sum(1 for v in index.values() if v["kind"] == "synonym")
+    n_sd = sum(1 for v in index.values() if v["kind"] == "short_def")
+    print(f"teaching index: {len(index):,} answers "
+          f"({n_syn} synonyms, {n_sd} short-def phrases)")
 
 
 def main() -> None:

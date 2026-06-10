@@ -41,6 +41,15 @@ MISSING_PATH = HERE / "data" / "definitions_missing.txt"
 MAX_CLUE_LEN = 80
 
 
+def format_clue(text: str) -> str:
+    """Standard crossword clue style: drop leading infinitive 'To ' and
+    articles 'A '/'An '/'The ', capitalize first letter. 'To rub or wear
+    off' -> 'Rub or wear off'; 'A young girl' -> 'Young girl'."""
+    s = text.strip()
+    s = re.sub(r"^(To|A|An|The)\s+", "", s, flags=re.IGNORECASE)
+    return s[:1].upper() + s[1:] if s else s
+
+
 def clean_webster(text: str) -> str:
     """See build_sat_extras._clean_webster — same logic kept in sync."""
     s = text
@@ -99,7 +108,7 @@ def parse_wordnet_file(path: Path) -> dict[str, tuple[str, str]]:
             except (ValueError, IndexError):
                 continue
             pos = pos_letter_to_name.get(pos_letter, pos_letter)
-            cleaned_gloss = clean_wordnet_gloss(gloss)
+            cleaned_gloss = format_clue(clean_wordnet_gloss(gloss))
             if not cleaned_gloss:
                 continue
             # Words start at index 4; each pair is (word, lex_id).
@@ -155,7 +164,7 @@ def main() -> None:
             continue
         if not raw or not isinstance(raw, str):
             continue
-        defn = clean_webster(raw)
+        defn = format_clue(clean_webster(raw))
         if defn:
             out[word] = {
                 "definition": defn,
