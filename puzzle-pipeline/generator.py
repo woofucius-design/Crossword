@@ -62,6 +62,24 @@ def load_definitions() -> dict:
     return json.loads(path.read_text()) if path.exists() else {}
 
 
+@functools.lru_cache(maxsize=1)
+def load_sat_alt_clues() -> dict:
+    """SAT word -> list of {text, source} clue candidates. The puzzle
+    generator picks one based on the puzzle number so successive runs
+    don't all show the same wording."""
+    path = HERE / "data" / "sat_alt_clues.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+@functools.lru_cache(maxsize=1)
+def load_sat_synonym_index() -> dict:
+    """Fill answer -> list of SAT words it's a synonym of. When a curated
+    SAT-synonym appears as fill, the puzzle clue becomes the SAT word
+    itself, turning regular fill into vocabulary review."""
+    path = HERE / "data" / "sat_synonym_index.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
 # ── 1. grid construction ─────────────────────────────────────────────────────
 def _runs_ok(line: tuple[str, ...]) -> bool:
     run = 0
@@ -380,6 +398,8 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
     ]
     fill_clues = load_fill_clues()
     definitions = load_definitions()
+    alt_clues = load_sat_alt_clues()
+    syn_index = load_sat_synonym_index()
     words = []
     for si, slot in enumerate(slots):
         answer = assign[si]
@@ -387,11 +407,27 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             solution[r][c] = answer[idx]
         r0, c0 = slot.cells[0]
         sat = sat_lookup.get(answer)
-        # Clue priority: SAT-bank clue > hand fill_clue > sourced definition
+        # Clue priority for fill answers:
+        #   SAT vocab          -> rotate among alt clues by puzzle number
+        #   SAT synonym        -> "Sat-word" so the fill teaches vocab too
+        #   hand fill_clue     -> editor override (data/fill_clues.json)
+        #   sourced definition -> Webster/WordNet/inflection/abbrev/Roman
+        #   none               -> empty
         if sat:
-            clue = sat["clue"]
+            alts = alt_clues.get(answer, [])
+            if alts:
+                pick = alts[number % len(alts)]
+                clue = pick["text"]
+                source = f"sat:{pick.get('source','?')}"
+            else:
+                clue = sat["clue"]
+                source = "sat"
             definition = sat["definition"]
-            source = "sat"
+        elif answer in syn_index:
+            sat_word_for_clue = syn_index[answer][0]
+            clue = sat_word_for_clue.title()
+            definition = f"Synonym of {sat_word_for_clue.lower()}"
+            source = "sat_synonym"
         elif answer in fill_clues:
             clue = fill_clues[answer]
             definition = ""
@@ -415,7 +451,10 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             "answer": answer,
             "clue": clue,
             "isSATVocab": bool(sat),
+            "isSATSynonym": (not sat) and answer in syn_index,
         }
+        if entry["isSATSynonym"]:
+            entry["satSynonymOf"] = syn_index[answer]
         if definition:
             entry["definition"] = definition
         if source:

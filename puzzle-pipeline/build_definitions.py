@@ -42,15 +42,20 @@ MAX_CLUE_LEN = 80
 
 
 def clean_webster(text: str) -> str:
-    text = re.sub(r"^\s*\d+\.\s*", "", text)
-    text = re.split(r"\s\d+\.\s", text, maxsplit=1)[0]
-    text = re.split(r"\s+\[", text, maxsplit=1)[0]
-    text = re.split(r"\s+--", text, maxsplit=1)[0]
-    text = re.split(r";", text, maxsplit=1)[0]
-    text = re.sub(r"\s+", " ", text).strip(" .")
-    if len(text) > MAX_CLUE_LEN:
-        text = text[:MAX_CLUE_LEN].rsplit(" ", 1)[0] + "..."
-    return text
+    """See build_sat_extras._clean_webster — same logic kept in sync."""
+    s = text
+    s = re.sub(r"^\s*\d+\.\s*", "", s)
+    s = re.sub(r"^\([^)]+\)\s*", "", s)
+    s = re.split(r"\s\d+\.\s", s, maxsplit=1)[0]
+    s = re.split(r"\s+\[", s, maxsplit=1)[0]
+    s = re.split(r"\s+--", s, maxsplit=1)[0]
+    s = re.split(r";", s, maxsplit=1)[0]
+    s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\.\s+[A-Z][a-z]+\.?\s*$", "", s).strip()
+    s = s.rstrip(" .")
+    if len(s) > MAX_CLUE_LEN:
+        s = s[:MAX_CLUE_LEN].rsplit(" ", 1)[0] + "..."
+    return s
 
 
 def clean_wordnet_gloss(gloss: str) -> str:
