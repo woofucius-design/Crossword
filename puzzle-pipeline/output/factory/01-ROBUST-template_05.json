@@ -1,0 +1,847 @@
+{
+  "date": "2027-01-01",
+  "number": 1000,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "R",
+      "E",
+      "H",
+      "A",
+      "B",
+      "#",
+      "O",
+      "A",
+      "F",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "D",
+      "I",
+      "L",
+      "Y",
+      "#",
+      "U",
+      "L",
+      "L",
+      "A"
+    ],
+    [
+      "A",
+      "B",
+      "O",
+      "M",
+      "I",
+      "N",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "U",
+      "B",
+      "#",
+      "#",
+      "E",
+      "X",
+      "C",
+      "E",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "W",
+      "#",
+      "R",
+      "I",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "Y",
+      "R",
+      "O",
+      "#",
+      "S",
+      "M",
+      "U",
+      "G",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E",
+      "#",
+      "E",
+      "N",
+      "D",
+      "#"
+    ],
+    [
+      "A",
+      "T",
+      "O",
+      "N",
+      "A",
+      "L",
+      "#",
+      "#",
+      "B",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "I",
+      "N",
+      "G",
+      "L",
+      "E",
+      "S",
+      "T",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "L",
+      "#",
+      "C",
+      "O",
+      "U",
+      "R",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "T",
+      "H",
+      "I",
+      "N",
+      "K",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "REHAB",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "EDOBAY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "HIM",
+      "clue": "Them. See Hem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Them. See Hem",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "BYNER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "OAF",
+      "clue": "Awkward stupid person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Awkward stupid person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "OUTCOME",
+      "clue": "Something that results",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that results",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "FLOE",
+      "clue": "Low, flat mass of floating ice. Floe rat (Zo\u00f6l.), a seal (Phoca...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A collection of tabular masses of floating polar ice.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BODILY",
+      "clue": "Having a body or material form",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Corporeal.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "BAS",
+      "clue": "Plural of ba",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ba",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ULLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ABOMINATION",
+      "clue": "Feeling of extreme disgust and hatred",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A very detestable act or practice.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "AXIS",
+      "clue": "Center around which something rotates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Center around which something rotates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SUB",
+      "clue": "Submersible warship usually armed with torpedoes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Submersible warship usually armed with torpedoes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "EXCEED",
+      "clue": "Go beyond",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To go beyond, as in measure, quality, value, action, power, skill, etc.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "SAW",
+      "clue": "Power tool for cutting wood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Power tool for cutting wood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "WRANGLE",
+      "clue": "Argue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To maintain by noisy argument or dispute.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RIO",
+      "clue": "Former capital and 2nd largest city of Brazil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former capital and 2nd largest city of Brazil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "TYRO",
+      "clue": "Beginner in learning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One slightly skilled in or acquainted with any trade or profession.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered by the mouth, or in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "SMUG",
+      "clue": "Marked by excessive complacency or self-satisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by excessive complacency or self-satisfaction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "UNBORN",
+      "clue": "Not yet brought into existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not yet brought into existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "GDANSK",
+      "clue": "Port city of northern Poland near the mouth of the Vistula River on a gulf of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city of northern Poland near the mouth of the Vistula River on a gulf of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ELECT",
+      "clue": "Exclusive group of people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclusive group of people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ATONAL",
+      "clue": "Characterized by avoidance of traditional western tonality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by avoidance of traditional western tonality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ASP",
+      "clue": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TIAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ONLY",
+      "clue": "Exclusive of anyone or anything else",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclusive of anyone or anything else",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "BAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SINGLESTONE",
+      "clue": "Monolith",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MONOLITH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csingle stone\u201d defines monolith",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "SOH",
+      "clue": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TUI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "PALL",
+      "clue": "Same as Pawl",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make dull by satiety.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "COURSE",
+      "clue": "Act of moving from one point to another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Line of motion or direction.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "THINK",
+      "clue": "Instance of deliberate thinking",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instance of deliberate thinking",
+      "clueSource": "wordnet"
+    }
+  ]
+}

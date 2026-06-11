@@ -1,0 +1,884 @@
+{
+  "date": "2027-01-04",
+  "number": 1003,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "E",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "H",
+      "E"
+    ],
+    [
+      "A",
+      "M",
+      "A",
+      "L",
+      "G",
+      "A",
+      "M",
+      "#",
+      "A",
+      "I",
+      "R"
+    ],
+    [
+      "S",
+      "U",
+      "P",
+      "E",
+      "R",
+      "L",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "T",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "I",
+      "B",
+      "S",
+      "E",
+      "N",
+      "#",
+      "E",
+      "U",
+      "R",
+      "O",
+      "S"
+    ],
+    [
+      "F",
+      "O",
+      "U",
+      "N",
+      "D",
+      "#",
+      "R",
+      "G",
+      "I",
+      "I",
+      "I"
+    ],
+    [
+      "S",
+      "L",
+      "E",
+      "E",
+      "P",
+      "#",
+      "I",
+      "H",
+      "A",
+      "D",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "Y",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "D",
+      "Y",
+      "P",
+      "O",
+      "L",
+      "I",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "U",
+      "S",
+      "E",
+      "#",
+      "A",
+      "U",
+      "S",
+      "T",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "T",
+      "A",
+      "X",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "E",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FEMA",
+      "clue": "Independent agency of the United States government that provides a single...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent agency of the United States government that provides a single...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "FAS",
+      "clue": "Congenital medical condition in which body deformation occurs or facial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Congenital medical condition in which body deformation occurs or facial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "EMU",
+      "clue": "Large Australian flightless bird similar to the ostrich but smaller",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Australian flightless bird similar to the ostrich but smaller",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "MAP",
+      "clue": "Diagrammatic representation of the earth's surface (or part of it)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diagrammatic representation of the earth's surface (or part of it)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "General name for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for beer made with a top fermenting yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "TAI",
+      "clue": "Most widespread and best known of the Kadai family of languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most widespread and best known of the Kadai family of languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "HIV",
+      "clue": "Virus that causes acquired immune deficiency syndrome (AIDS)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Virus that causes acquired immune deficiency syndrome (AIDS)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "AMALGAM",
+      "clue": "Alloy of mercury with another metal or metals",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An alloy or union of mercury with another metal.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "GRANDPAPA",
+      "clue": "Grandfather",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grandfather",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "MATERIALS",
+      "clue": "Plural of material",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of material",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "Travel via aircraft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel via aircraft",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SUPERLATIVE",
+      "clue": "Lifted up to the highest degree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That which is of the highest possible excellence or eminence.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "TOUGH",
+      "clue": "Robust",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ROBUST"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of robust",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Formerly the part sung by the highest male, or counter-tenor, voices",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "IBSEN",
+      "clue": "Realistic Norwegian author who wrote plays on social and political themes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Realistic Norwegian author who wrote plays on social and political themes...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "IFS",
+      "clue": "Plural of if",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of if",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "BOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "SUE",
+      "clue": "French writer whose novels described the sordid side of city life (1804-1857)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French writer whose novels described the sordid side of city life (1804-1857)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "ENEMY",
+      "clue": "Any hostile group of people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any hostile group of people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "EUROS",
+      "clue": "Plural of euro",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of euro",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "RIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "OID",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "SIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "FOUND",
+      "clue": "Food and lodging provided in addition to money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Food and lodging provided in addition to money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "RGIII",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SLEEP",
+      "clue": "Euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "IHADA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "MAYA",
+      "clue": "Family of American Indian languages spoken by Maya",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Family of American Indian languages spoken by Maya",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "BODYPOLITIC",
+      "clue": "Inflammation",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INFLAMMATION",
+        "WEAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbody politic\u201d defines inflammation",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "BUT",
+      "clue": "And nothing more",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "And nothing more",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "OSA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "DEX",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "TEE",
+      "clue": "Short peg put into the ground to hold a golf ball off the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short peg put into the ground to hold a golf ball off the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "CED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Practicing great self-denial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "TAX",
+      "clue": "Charge against a citizen's person or property or activity for the support of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Charge against a citizen's person or property or activity for the support of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SEED",
+      "clue": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

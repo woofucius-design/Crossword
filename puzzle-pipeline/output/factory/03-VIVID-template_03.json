@@ -1,0 +1,813 @@
+{
+  "date": "2027-01-03",
+  "number": 1002,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "J",
+      "A",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "T"
+    ],
+    [
+      "E",
+      "R",
+      "R",
+      "#",
+      "A",
+      "A",
+      "H",
+      "#",
+      "I",
+      "C",
+      "I"
+    ],
+    [
+      "F",
+      "R",
+      "O",
+      "#",
+      "S",
+      "C",
+      "A",
+      "R",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "F",
+      "I",
+      "X",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D",
+      "#",
+      "A",
+      "E",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "E",
+      "R",
+      "I",
+      "C",
+      "A",
+      "N",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "L",
+      "A",
+      "R",
+      "#",
+      "F",
+      "O",
+      "S",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "I",
+      "L",
+      "E",
+      "T",
+      "T",
+      "O"
+    ],
+    [
+      "V",
+      "I",
+      "D",
+      "E",
+      "O",
+      "E",
+      "D",
+      "#",
+      "A",
+      "S",
+      "K"
+    ],
+    [
+      "I",
+      "R",
+      "E",
+      "#",
+      "E",
+      "D",
+      "S",
+      "#",
+      "T",
+      "E",
+      "A"
+    ],
+    [
+      "E",
+      "K",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "Y"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "JAP",
+      "clue": "Offensive term for a person of Japanese descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for a person of Japanese descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "JEFF",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "ARRIVAL",
+      "clue": "Coming to stopping-place or destination",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A coming to stopping-place or destination.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "PROXIMA",
+      "clue": "Nearest star to the sun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nearest star to the sun",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink with a floor of ice for ice hockey or ice skating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rink with a floor of ice for ice hockey or ice skating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "TIT",
+      "clue": "Small insectivorous birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small insectivorous birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ERR",
+      "clue": "Make a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a mistake or be incorrect",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "ASTIR",
+      "clue": "Stirring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stirring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ACIDIFIED",
+      "clue": "Past tense of acidify",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of acidify",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "HAO",
+      "clue": "10 hao equal 1 dong in Vietnam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "10 hao equal 1 dong in Vietnam",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ICI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "FRO",
+      "clue": "From",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "From",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "SCARLET",
+      "clue": "Variable color that is vivid red but sometimes with an orange tinge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variable color that is vivid red but sometimes with an orange tinge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "RNAASE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "FIXATION",
+      "clue": "Preservation and hardening of a tissue sample to retain as nearly as...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preservation and hardening of a tissue sample to retain as nearly as...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "AVERSE",
+      "clue": "Reluctant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Reluctant.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "True to the life",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "AET",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ENSTATE",
+      "clue": "See Instate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Instate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "TSETSES",
+      "clue": "Plural of tsetse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tsetse",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "AMERICANS",
+      "clue": "Plural of american",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of american",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "COLDS",
+      "clue": "Plural of cold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cold",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "LAR",
+      "clue": "Tutelary deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tutelary deity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "FOSSE",
+      "clue": "Ditch dug as a fortification and usually filled with water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ditch dug as a fortification and usually filled with water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "STILETTO",
+      "clue": "Small dagger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small dagger.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "TOE",
+      "clue": "Part of footwear that provides a covering for the toes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of footwear that provides a covering for the toes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "OKAY",
+      "clue": "Endorsement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Endorsement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "VIDEOED",
+      "clue": "Past tense of video",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of video",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "Afflict with pain, vexation, or fatigue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Light midafternoon meal of tea and sandwiches or cakes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light midafternoon meal of tea and sandwiches or cakes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EKE",
+      "clue": "Increase",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increase",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ESY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

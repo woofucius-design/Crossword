@@ -1,0 +1,742 @@
+{
+  "date": "2027-01-11",
+  "number": 1010,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    [
+      "K",
+      "I",
+      "N",
+      "D",
+      "#",
+      "A",
+      "R",
+      "R",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "O",
+      "R",
+      "S",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "Y",
+      "E",
+      "S",
+      "#",
+      "A",
+      "C",
+      "C",
+      "O",
+      "R",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "R",
+      "R",
+      "Y",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "C",
+      "I",
+      "N",
+      "E",
+      "S",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "L",
+      "A",
+      "D",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "I",
+      "B",
+      "E",
+      "T",
+      "A",
+      "N",
+      "#",
+      "B",
+      "O",
+      "A"
+    ],
+    [
+      "E",
+      "V",
+      "I",
+      "D",
+      "E",
+      "N",
+      "T",
+      "I",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T",
+      "#",
+      "R",
+      "I",
+      "F",
+      "E"
+    ],
+    [
+      "M",
+      "R",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#",
+      "E",
+      "L",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LINE",
+      "clue": "Principal activity in your life that you do to earn money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal activity in your life that you do to earn money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ENDS",
+      "clue": "Plural of end",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of end",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ABBA",
+      "clue": "Father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Father",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "ARMORS",
+      "clue": "Plural of armor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of armor",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "BEERYS",
+      "clue": "Plural of beery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of beery",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BAND",
+      "clue": "Thin flat strip of flexible material that is worn around the body or one of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin flat strip of flexible material that is worn around the body or one of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "KIND",
+      "clue": "Benevolent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BENEVOLENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of benevolent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "KEY",
+      "clue": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ARREAR",
+      "clue": "Something overdue and unpaid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Something overdue and unpaid.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ASCENDANT",
+      "clue": "Most powerful or important or influential",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Dominant.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "RECREANT",
+      "clue": "Lacking even the rudiments of courage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A cowardly or faithless person.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ENDORSEMENT",
+      "clue": "Act of endorsing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of endorsing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "RADIATES",
+      "clue": "Plural of radiate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of radiate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "ACCORDS",
+      "clue": "Plural of accord",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of accord",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "DERRY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "ICINESS",
+      "clue": "Lack of affection or enthusiasm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The state of being icy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "Receive into the mind and retain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink or take in.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CLEDUS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MLADA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "TIBETAN",
+      "clue": "Himalayish language spoken in Tibet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Himalayish language spoken in Tibet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TERM",
+      "clue": "Statue or a human bust or an animal carved out of the top of a square pillar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Statue or a human bust or an animal carved out of the top of a square pillar",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "IVOR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "BOA",
+      "clue": "Any of several chiefly tropical constrictors with vestigial hind limbs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several chiefly tropical constrictors with vestigial hind limbs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "BAIL",
+      "clue": "Legal system that allows an accused person to be temporarily released from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Legal system that allows an accused person to be temporarily released from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ORFE",
+      "clue": "Bright-colored domesticated variety of the id. See Id",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bright-colored domesticated variety of the id. See Id",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EVIDENTIARY",
+      "clue": "Serving as or based on evidence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serving as or based on evidence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Evincing strength",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "RIFE",
+      "clue": "Excessively abundant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Abundant.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "MRES",
+      "clue": "Plural of mr",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of mr",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ELE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

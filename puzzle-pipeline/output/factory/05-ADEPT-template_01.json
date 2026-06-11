@@ -1,0 +1,873 @@
+{
+  "date": "2027-01-05",
+  "number": 1004,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "O",
+      "P",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "Y"
+    ],
+    [
+      "I",
+      "N",
+      "H",
+      "I",
+      "B",
+      "I",
+      "T",
+      "#",
+      "U",
+      "S",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "D",
+      "C",
+      "U",
+      "R",
+      "R",
+      "A",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "C",
+      "A",
+      "L",
+      "P",
+      "#",
+      "D",
+      "E",
+      "T",
+      "A",
+      "T"
+    ],
+    [
+      "U",
+      "N",
+      "H",
+      "I",
+      "T",
+      "#",
+      "E",
+      "P",
+      "O",
+      "C",
+      "H"
+    ],
+    [
+      "M",
+      "I",
+      "A",
+      "M",
+      "I",
+      "#",
+      "A",
+      "T",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "O",
+      "M",
+      "B",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "M",
+      "O",
+      "U",
+      "F",
+      "L",
+      "A",
+      "G",
+      "E",
+      "D"
+    ],
+    [
+      "O",
+      "B",
+      "A",
+      "#",
+      "S",
+      "C",
+      "E",
+      "N",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "G",
+      "U",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SOPS",
+      "clue": "Piece of solid food for dipping in a liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of solid food for dipping in a liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SIR",
+      "clue": "Term of address for a man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Term of address for a man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "PHD",
+      "clue": "Doctorate usually based on at least 3 years graduate study and a dissertation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctorate usually based on at least 3 years graduate study and a dissertation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SIC",
+      "clue": "Urge to attack someone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urge to attack someone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "DEY",
+      "clue": "Servant who has charge of the dairy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Servant who has charge of the dairy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Of a dull greyish brown to brownish grey color",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "INHIBIT",
+      "clue": "Put down by force or authority",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To hold back or in.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "BUMPTIOUS",
+      "clue": "Offensively self-assertive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Full of offensive and aggressive self-conceit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "TRADEABLE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REDCURRANTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Highly skilled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "MEAD",
+      "clue": "Made of fermented honey and water",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A meadow.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "SCALP",
+      "clue": "Skin that covers the top of the head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Skin that covers the top of the head",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SUM",
+      "clue": "Whole amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "CNI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "LIMBO",
+      "clue": "In Roman Catholicism, the place of unbaptized but innocent or righteous souls...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Roman Catholicism, the place of unbaptized but innocent or righteous souls...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "DETAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "TOO",
+      "clue": "A degree exceeding normal or proper limits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A degree exceeding normal or proper limits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "ACN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "UNHIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "EPOCH",
+      "clue": "Unit of geological time that is a subdivision of a period and is itself...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A interval of time, memorable for extraordinary events.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MIAMI",
+      "clue": "City and resort in southeastern Florida on Biscayne Bay",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City and resort in southeastern Florida on Biscayne Bay",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "ATONE",
+      "clue": "Turn away from sin or do penitence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make amends for.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "BOMB",
+      "clue": "Explosive device fused to explode under specific conditions",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A hollow projectile containing an explosive material.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "MFC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CAMOUFLAGED",
+      "clue": "Made invisible by means of protective coloring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made invisible by means of protective coloring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "COG",
+      "clue": "Tooth on the rim of gear wheel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tooth on the rim of gear wheel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "ABU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "MAY",
+      "clue": "Thorny Eurasian shrub of small tree having dense clusters of white to scarlet...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thorny Eurasian shrub of small tree having dense clusters of white to scarlet...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ANA",
+      "clue": "Collection of anecdotes about a person or place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of anecdotes about a person or place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "DYE",
+      "clue": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "OBA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SCENERY",
+      "clue": "Painted structures of a stage set that are intended to suggest a particular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Painted structures of a stage set that are intended to suggest a particular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ATEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}
