@@ -38,16 +38,8 @@ def seed_solve(
     seed_word_id: int,
     rng: random.Random,
     restarts: int = 4,
-    companion_slot: int | None = None,
-    companion_ids: frozenset[int] | None = None,
 ) -> list[str] | None:
     """One full solve with a single SAT word pinned at seed_slot.
-
-    Optionally also pins a COMPANION slot whose domain is restricted to
-    the seed word's teaching entries (synonyms / short-def phrases like
-    EASYTOGRASP for LUCID). The solved puzzle then deliberately contains
-    the SAT word AND a fill answer clued as that word — guaranteed vocab
-    review instead of hoping the solver stumbles into one.
 
     Uses the vanilla Filler — value ordering already prefers SAT (IDs 0..N
     come before fill IDs in sorted order). When the SAT bank was only 30
@@ -63,8 +55,6 @@ def seed_solve(
             if seed_word_id not in dom:
                 return None
             dom = {seed_word_id}
-        elif companion_slot is not None and si == companion_slot:
-            dom &= companion_ids or frozenset()
         if not dom:
             return None
         base.append(dom)
@@ -206,26 +196,17 @@ def main() -> None:
     by_len: dict[int, list[int]] = defaultdict(list)
     for i, s in enumerate(slots):
         by_len[s.length].append(i)
-    # slots that cross each slot — companion must not cross the seed slot
-    # (a shared cell would force the SAT word and its own definition
-    # phrase to intersect, which over-constrains both).
-    crossings_of = [
-        {sj for _i, sj, _j in s.crossings} for s in slots
-    ]
 
-    # Teaching reverse map: SAT word -> [teaching answer ids in pool].
-    # Used to pin a companion entry (synonym or short-def phrase of the
-    # seed word) so each puzzle deliberately contains the seed AND a fill
-    # answer clued as the seed word.
+    # Teaching index for the picker's organic-fill metric. Each fill word
+    # in here gets its SAT-word as a clue when it appears, so each
+    # placement is implicit vocab review. Companion pinning was removed
+    # because forcing the seed word's OWN synonym into the same grid
+    # creates clue/answer redundancy — but the boost in pool ordering
+    # still makes teaching words preferred fill candidates.
     teach_path = G.HERE / "data" / "sat_synonym_index.json"
-    teaching_by_sat: dict[str, list[int]] = defaultdict(list)
-    if teach_path.exists():
-        for answer, tie in json.loads(teach_path.read_text()).items():
-            wid = word_to_id.get(answer)
-            if wid is None:
-                continue
-            for sat_word in tie["satWords"]:
-                teaching_by_sat[sat_word].append(wid)
+    teaching_set: set[str] = (
+        set(json.loads(teach_path.read_text())) if teach_path.exists() else set()
+    )
 
     # SAT words we can actually seed (their length must exist as a slot)
     seed_pool = sat_list[: args.curated] if args.curated else sat_list
@@ -252,51 +233,20 @@ def main() -> None:
         # metrics tuple: (-proper_count, sat_count, avg_score, -weak, cand_idx)
         # — minimize proper nouns FIRST (user explicitly wants this), then
         # maximize SAT density, then fill quality.
-        # (-tier3, companion?, sat_n, avg, -weak, cand)
-        best_metrics: tuple = (-(1 << 30), 0, -1, 0.0, 0, 0)
+        # (-tier3, teach_n, sat_n, avg, -weak, cand)
+        best_metrics: tuple = (-(1 << 30), -1, -1, 0.0, 0, 0)
         t_total = time.time()
         for cand in range(args.candidates):
             if time.time() - t_total > args.time_budget:
                 print(f"  time budget reached after cand {cand}", flush=True)
                 break
             seed_slot = rng.choice(by_len[len(seed_word)])
-            # Companion: pick a non-crossing slot whose length matches one
-            # of the seed word's teaching entries, restrict its domain to
-            # those entries. Try with companion first; on failure fall
-            # back to seed-only so the feature never costs us a puzzle.
-            companion_slot = None
-            companion_ids: frozenset[int] | None = None
-            teach_ids = teaching_by_sat.get(seed_word, [])
-            if teach_ids:
-                teach_lens = {len(pool[wid]) for wid in teach_ids}
-                options = [
-                    si for L in teach_lens for si in by_len.get(L, [])
-                    if si != seed_slot and si not in crossings_of[seed_slot]
-                ]
-                if options:
-                    companion_slot = rng.choice(options)
-                    want_len = slots[companion_slot].length
-                    companion_ids = frozenset(
-                        wid for wid in teach_ids if len(pool[wid]) == want_len
-                    )
             t0 = time.time()
-            assign = None
-            with_companion = False
-            if companion_slot is not None:
-                assign = seed_solve(
-                    slots, pool, len(sat_list),
-                    seed_slot, seed_wid, rng,
-                    restarts=3,
-                    companion_slot=companion_slot,
-                    companion_ids=companion_ids,
-                )
-                with_companion = assign is not None
-            if assign is None:
-                assign = seed_solve(
-                    slots, pool, len(sat_list),
-                    seed_slot, seed_wid, rng,
-                    restarts=3,
-                )
+            assign = seed_solve(
+                slots, pool, len(sat_list),
+                seed_slot, seed_wid, rng,
+                restarts=3,
+            )
             dt = time.time() - t0
             if assign is None:
                 print(f"  cand {cand + 1}: fail in {dt:.1f}s", flush=True)
@@ -329,22 +279,20 @@ def main() -> None:
             # the picker, the metric report, and the post-improver all
             # speak the same language about which words are tier 3.
             tier3_n = sum(1 for w in assign if scores.get(w, 30) < 50)
-            # companion outranks SAT count: one guaranteed teaching pair
-            # (seed word + its definition/synonym as fill) is worth more
-            # than a marginal extra SAT entry.
-            metrics = (-tier3_n, int(with_companion), sat_n, avg, -weak, cand)
+            # teaching count: fill answers that double as SAT vocab review
+            # (synonyms / short-def phrases of any SAT word, not just the
+            # seed). The picker prefers candidates that surface more of
+            # these as organic fill.
+            teach_n = sum(1 for w in assign if w in teaching_set)
+            metrics = (-tier3_n, teach_n, sat_n, avg, -weak, cand)
             swap_breakdown = ",".join(
                 f"d{d}={n}" for d, n in sorted(imp_stats["swaps_by_depth"].items())
             ) or "none"
-            comp_note = (
-                f" companion={assign[companion_slot]}"
-                if with_companion and companion_slot is not None else ""
-            )
             print(
                 f"  cand {cand + 1}: SOLVED {dt:.1f}s "
                 f"+improve {dt_imp:.1f}s ({swap_breakdown}) "
-                f"SAT={sat_n} tier3={tier3_n} avg={avg:.1f} weak={weak}"
-                f"{comp_note}",
+                f"SAT={sat_n} teach={teach_n} tier3={tier3_n} "
+                f"avg={avg:.1f} weak={weak}",
                 flush=True,
             )
             if metrics > best_metrics:
@@ -365,10 +313,14 @@ def main() -> None:
         sat_in_puzzle = sorted(
             w["answer"] for w in puzzle["words"] if w["isSATVocab"]
         )
-        tier3_n, got_comp, sat_n, avg_score, neg_weak, _ = best_metrics
+        tier3_n, teach_n, sat_n, avg_score, neg_weak, _ = best_metrics
+        teach_in_puzzle = sorted(
+            w["answer"] for w in puzzle["words"] if w.get("isSATSynonym")
+        )
         print(
             f"  -> {out.relative_to(G.HERE)}  "
-            f"SAT={sat_n} ({sat_in_puzzle})  companion={'yes' if got_comp else 'no'}  "
+            f"SAT={sat_n} ({sat_in_puzzle})  "
+            f"teach={teach_n} ({teach_in_puzzle})  "
             f"tier3={-tier3_n} avg={avg_score:.1f} weak={-neg_weak}"
         )
         summary.append({

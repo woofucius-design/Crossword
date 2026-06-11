@@ -38,6 +38,7 @@ SAT_SRC = HERE / "data" / "sat_words.json"
 DEFS_SRC = HERE / "data" / "definitions.json"
 SYN_SRC = HERE / "data" / "sat_synonyms.json"
 SHORT_DEFS_SRC = HERE / "data" / "sat_short_defs.json"
+SHORT_DEFS_MANUAL = HERE / "data" / "sat_short_defs_manual.json"
 MANUAL_CLUES = HERE / "data" / "sat_alt_clues_manual.json"
 WEBSTER_SRC = HERE / "data" / "dict_webster.json"
 OUT_CLUES = HERE / "data" / "sat_alt_clues.json"
@@ -194,15 +195,26 @@ def build_synonym_index() -> None:
             if sat_word.upper() not in slot["satWords"]:
                 slot["satWords"].append(sat_word.upper())
 
-    short_defs = (
+    # Short-def phrases: manual entries override auto-generated ones at
+    # the per-phrase level (same squashed key wins to manual).
+    auto = (
         json.loads(SHORT_DEFS_SRC.read_text())
         if SHORT_DEFS_SRC.exists() else {}
     )
+    manual = (
+        json.loads(SHORT_DEFS_MANUAL.read_text())
+        if SHORT_DEFS_MANUAL.exists() else {}
+    )
     n_phrases = 0
-    for sat_word, phrases in short_defs.items():
-        for phrase in phrases:
+    for sat_word in set(auto) | set(manual):
+        combined = list(manual.get(sat_word, [])) + [
+            p for p in auto.get(sat_word, [])
+            if p not in manual.get(sat_word, [])
+        ]
+        for phrase in combined:
             key = phrase.upper().replace(" ", "")
-            if not key.isalpha() or len(key) > 15:
+            key = "".join(c for c in key if c.isalpha())
+            if not (3 <= len(key) <= 15):
                 continue
             slot = index.setdefault(
                 key, {"satWords": [], "kind": "short_def", "display": phrase}
