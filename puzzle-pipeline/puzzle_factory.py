@@ -97,10 +97,11 @@ def main() -> None:
                     help="solver candidates per (template, seed) pair")
     ap.add_argument("--time-budget-per-pair", type=float, default=20.0,
                     help="seconds per (template, seed) pair before giving up")
-    ap.add_argument("--keep", type=int, default=20,
-                    help="number of top puzzles to save")
-    ap.add_argument("--per-seed", type=int, default=2,
-                    help="max puzzles to keep per seed SAT word (variety)")
+    ap.add_argument("--keep", type=int, default=0,
+                    help="number of top puzzles to save (0 = save all)")
+    ap.add_argument("--per-seed", type=int, default=0,
+                    help="max puzzles to keep per seed SAT word "
+                         "(0 = no cap, keep all)")
     ap.add_argument("--max-tier3", type=int, default=10,
                     help="hard reject puzzles with > this many tier-3 entries")
     ap.add_argument("--node-limit", type=int, default=500_000)
@@ -240,16 +241,21 @@ def main() -> None:
     print(f"\nsweep complete: {n_solves:,} viable puzzles, {n_rejects:,} rejected",
           flush=True)
 
-    # Rank, with per-seed cap for variety.
+    # Keep EVERY viable puzzle, sorted by goodness. Since the pool is
+    # tier-1+2 only, every viable puzzle already has zero tier-3, so
+    # "save all zero-tier-3 sorted by score" == save all, ranked.
+    # --keep / --per-seed are honored only when > 0 (0 = no cap).
     all_candidates.sort(key=lambda c: -c["score"])
     kept: list[dict] = []
     per_seed_count: dict[str, int] = defaultdict(int)
     for c in all_candidates:
-        if per_seed_count[c["seed"]] >= args.per_seed:
+        if c["tier3"] > 0:
+            continue
+        if args.per_seed and per_seed_count[c["seed"]] >= args.per_seed:
             continue
         kept.append(c)
         per_seed_count[c["seed"]] += 1
-        if len(kept) >= args.keep:
+        if args.keep and len(kept) >= args.keep:
             break
 
     # Save each as a finished puzzle file.
@@ -288,7 +294,8 @@ def main() -> None:
 
     # Human report
     lines = [
-        f"# Puzzle factory — top {len(saved)} of {len(all_candidates)} viable",
+        f"# Puzzle factory — {len(saved)} zero-tier-3 puzzles "
+        f"(of {len(all_candidates)} viable), ranked by score",
         f"",
         f"Sweep: {len(templates)} templates × {len(seeds)} seeds = "
         f"{n_pair:,} pairs.",
