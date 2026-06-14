@@ -23,8 +23,20 @@ Inflection patterns covered (apply in order, first match wins):
 """
 from __future__ import annotations
 
+import functools
 import json
+import re
 from pathlib import Path
+
+import lemminflect
+import nltk
+
+# Ensure the POS tagger model is available (no-op if already downloaded).
+for _pkg in ("averaged_perceptron_tagger_eng", "averaged_perceptron_tagger"):
+    try:
+        nltk.download(_pkg, quiet=True)
+    except Exception:
+        pass
 
 HERE = Path(__file__).parent
 DEFS_PATH = HERE / "data" / "definitions.json"
@@ -52,22 +64,189 @@ def roman_to_int(word: str) -> int:
 
 
 INFLECTION_RULES = [
-    # (suffix to strip, possible additions to base, clue template)
-    ("IES", ["Y"],            "Plural of {base}"),
-    ("ES",  ["", "E"],        "Plural of {base}"),
-    ("S",   [""],             "Plural of {base}"),
-    ("IED", ["Y"],            "Past tense of {base}"),
-    ("ED",  ["", "E"],        "Past tense of {base}"),
-    ("ING", ["", "E"],        "Present participle of {base}"),
-    ("EST", ["", "E"],        "Superlative of {base}"),
-    ("ER",  ["", "E"],        "One who {base}s"),
-    ("LY",  [""],             "In a {base} manner"),
+    # (suffix to strip, base reconstructions to try)
+    ("IES", ["Y"]),
+    ("ES",  ["", "E"]),
+    ("S",   [""]),
+    ("IED", ["Y"]),
+    ("ED",  ["", "E"]),
+    ("ING", ["", "E"]),
+    ("EST", ["", "E"]),
+    ("ER",  ["", "E"]),
+    ("LY",  [""]),
 ]
 
+# Tokens we never inflect even at a coordinated head position — particles,
+# prepositions, articles, light verbs — so "rub or wear OFF" keeps "off".
+_NOINFLECT = {
+    "off", "on", "in", "out", "up", "down", "through", "over", "away",
+    "with", "to", "of", "at", "for", "into", "from", "about", "around",
+    "upon", "forth", "by", "or", "and", "a", "an", "the", "as", "that",
+    "be", "is", "are", "not", "without", "than",
+}
 
-def lemmatize(word: str, defined: set[str]) -> tuple[str, str] | None:
-    """Find a defined base form via suffix stripping; return (base, clue)."""
-    for suffix, additions, template in INFLECTION_RULES:
+_TAG = {"past": "VBD", "gerund": "VBG", "third": "VBZ", "plural": "NNS"}
+
+
+def _resolve_kind(suffix: str, pos: str) -> str | None:
+    """Map (suffix, root part-of-speech) to an inflection kind, or None when
+    the combination doesn't make sense (so we skip rather than emit junk —
+    e.g. -ED on a noun root like TALON)."""
+    pos = (pos or "").lower()
+    if suffix in ("IES", "ES", "S"):
+        if pos == "verb":
+            return "third"
+        if pos == "noun":
+            return "plural"
+        return None
+    if suffix in ("IED", "ED"):
+        return "past" if pos == "verb" else None
+    if suffix == "ING":
+        return "gerund" if pos == "verb" else None
+    if suffix == "EST":
+        return "super" if pos in ("adjective", "adj") else None
+    if suffix == "ER":
+        if pos == "verb":
+            return "agent"
+        if pos in ("adjective", "adj"):
+            return "comp"
+        return None
+    if suffix == "LY":
+        return "adverb" if pos in ("adjective", "adj") else None
+    return None
+
+
+def _clean_root_def(definition: str) -> str:
+    """First sense only, leading 'To/A/An/The' stripped, trailing period
+    dropped, capped to clue length."""
+    s = re.split(r"[.;]", definition, maxsplit=1)[0]
+    s = re.sub(r"^(To|A|An|The)\s+", "", s.strip(), flags=re.IGNORECASE)
+    s = re.sub(r"\s+", " ", s).strip(" .")
+    if len(s) > 70:
+        s = s[:70].rsplit(" ", 1)[0]
+    return s
+
+
+@functools.lru_cache(maxsize=4096)
+def _pos_tags(clean: str) -> tuple[str, ...]:
+    """Penn-Treebank tags for a definition. Lowercased before tagging so a
+    capitalized leading word isn't mis-tagged NNP (the tagger reads 'Search'
+    as a proper noun but 'search' correctly as a verb/noun)."""
+    from nltk import pos_tag
+    toks = [re.sub(r"[^A-Za-z]", "", t).lower() for t in clean.split()]
+    return tuple(tag for _w, tag in pos_tag(toks))
+
+
+def _span_before_prep(tags: tuple[str, ...], tokens: list[str]) -> int:
+    """Index of the first boundary after which the head no longer lives:
+    a preposition, a relative pronoun (who/which/that), a finite verb that
+    opens a relative/predicate clause, or a comma. For 'Person who founds
+    some institution' this cuts at 'who' so the head is 'Person', not the
+    object 'institution'."""
+    _cut_tags = ("IN", "TO", "WP", "WDT", "WP$", "VBZ", "VBP", "VBD", "VBN")
+    for i, (tok, tag) in enumerate(zip(tokens, tags)):
+        if i > 0 and tag in _cut_tags:
+            return i
+        if tok.endswith((",", ";", ":")):
+            return i + 1
+    return len(tokens)
+
+
+def _head_indices(tokens: list[str], tags: tuple[str, ...], want: str) -> list[int]:
+    """Indices of the head word(s) to inflect. For verbs: the leading verb
+    plus any verb coordinated to it. For nouns: the last noun before the
+    first preposition plus nouns joined to it by and/or (so 'X or Y of Z'
+    pluralizes X and Y, and 'police officer' pluralizes only officer)."""
+    cut = _span_before_prep(tags, tokens)
+    span = list(range(cut))
+    if not span:
+        return []
+    if want == "verb":
+        idxs = [span[0]]
+        for i in span[1:]:
+            if tags[i].startswith("VB") and tags[i - 1] == "CC":
+                idxs.append(i)
+        return idxs
+    nn_tags = ("NN", "NNS", "NNP", "NNPS")
+    nouns = [i for i in span if tags[i] in nn_tags]
+    if not nouns:
+        return []
+    head = {nouns[-1]}
+    for i in nouns[:-1]:
+        between = tags[i + 1: nouns[-1]]
+        if "CC" in between and all(
+            b in nn_tags or b == "CC" or b == "JJ" for b in between
+        ):
+            head.add(i)
+    return sorted(head)
+
+
+def _apply(tokens: list[str], idxs: list[int], tag: str) -> bool:
+    """Inflect tokens at idxs in place to Penn `tag`. Returns True if any
+    token actually changed."""
+    changed = False
+    for i in idxs:
+        core = re.sub(r"[^A-Za-z]", "", tokens[i])
+        if not core or core.lower() in _NOINFLECT:
+            continue
+        forms = lemminflect.getInflection(core.lower(), tag)
+        if forms and forms[0].lower() != core.lower():
+            infl = forms[0]
+            if core[:1].isupper():
+                infl = infl[:1].upper() + infl[1:]
+            tokens[i] = tokens[i].replace(core, infl, 1)
+            changed = True
+    return changed
+
+
+def _inflect_head(clean: str, tag: str) -> str | None:
+    """POS-aware head inflection. `tag` is a verb tag (VBD/VBG/VBZ) or NNS;
+    we tag the definition, locate the head verb/noun group, and inflect it.
+    Returns None if nothing could be inflected (caller may fall back)."""
+    tokens = clean.split()
+    if not tokens:
+        return None
+    want = "noun" if tag == "NNS" else "verb"
+    try:
+        tags = _pos_tags(clean)
+    except Exception:
+        tags = ()
+    idxs = _head_indices(tokens, tags, want) if tags else [0]
+    if not idxs:
+        idxs = [0]
+    if not _apply(tokens, idxs, tag):
+        return None
+    res = " ".join(tokens)
+    return res[:1].upper() + res[1:]
+
+
+def inflect_definition(definition: str, kind: str) -> str | None:
+    """Turn a root word's definition into a clue for an inflected form.
+    e.g. ('To wear away the surface...', 'past') -> 'Wore away the surface...'
+    """
+    clean = _clean_root_def(definition)
+    if not clean:
+        return None
+    if kind in _TAG:
+        return _inflect_head(clean, _TAG[kind])
+    if kind == "agent":
+        # ABRADER: "One who wears away the surface..."
+        third = _inflect_head(clean, "VBZ") or clean
+        return f"One who {third[:1].lower() + third[1:]}"
+    if kind == "comp":
+        return f"More {clean[:1].lower() + clean[1:]}"
+    if kind == "super":
+        return f"Most {clean[:1].lower() + clean[1:]}"
+    if kind == "adverb":
+        return f"In a {clean[:1].lower() + clean[1:]} manner"
+    return None
+
+
+def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
+    """Find a defined base form via suffix stripping, then build a clue by
+    inflecting the BASE's definition (not naming the base) so the clue reads
+    in crossword style and never leaks the answer's root."""
+    for suffix, additions in INFLECTION_RULES:
         if not word.endswith(suffix):
             continue
         stem = word[: -len(suffix)]
@@ -75,8 +254,18 @@ def lemmatize(word: str, defined: set[str]) -> tuple[str, str] | None:
             continue
         for add in additions:
             base = stem + add
-            if base != word and base in defined:
-                return base, template.format(base=base.lower())
+            if base == word or base not in defs:
+                continue
+            entry = defs[base]
+            # don't chain off another inflection-derived clue
+            if entry.get("source") == "inflection":
+                continue
+            kind = _resolve_kind(suffix, entry.get("pos", ""))
+            if kind is None:
+                continue
+            clue = inflect_definition(entry.get("definition", ""), kind)
+            if clue:
+                return base, clue
     return None
 
 
@@ -97,9 +286,9 @@ def main() -> None:
     for word in sorted(pool - defined):
         if word in defs:
             continue
-        # Try lemmatize against the original SAT+Webster set so we don't
-        # chain inflection -> inflection.
-        result = lemmatize(word, defined)
+        # Build the clue by inflecting the base word's DEFINITION (passing
+        # the full defs dict so we can read the base's pos + definition).
+        result = lemmatize(word, defs)
         if result is not None:
             base, clue = result
             defs[word] = {
