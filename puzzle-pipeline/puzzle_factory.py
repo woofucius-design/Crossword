@@ -122,11 +122,23 @@ def main() -> None:
     sat_lookup = {w["word"]: w for w in sat}
     sat_list = [w["word"] for w in sat]
     sat_set = set(sat_list)
-    fill = G.load_fill()
+    # Filter out tier-3 from the fill pool entirely. The earlier
+    # zero-tier-3 experiment showed 11x11 solves cleanly 6/6 against this
+    # 95k-word pool, vs a ~33% solve rate on 15x15. With tier-3 absent the
+    # solver CAN'T place an obscure acronym — zero tier-3 by construction.
+    # --max-tier3 stays as a sanity cap (should always be 0 now).
+    raw_fill = G.load_fill()
+    raw_scores = load_scores()
+    fill = [w for w in raw_fill if raw_scores.get(w, 30) >= 50]
     pool = sat_list + [w for w in fill if w not in sat_lookup]
     word_to_id = {w: i for i, w in enumerate(pool)}
-    scores = load_scores()
+    scores = raw_scores
     definitions = G.load_definitions()
+    print(
+        f"pool: {len(raw_fill):,} fill -> tier1+2 only: {len(fill):,} "
+        f"(tier-3 excluded by construction)",
+        flush=True,
+    )
 
     teach_path = G.HERE / "data" / "sat_synonym_index.json"
     teaching_set: set[str] = (
