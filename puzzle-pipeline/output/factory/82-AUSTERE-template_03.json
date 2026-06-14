@@ -1,0 +1,819 @@
+{
+  "date": "2027-03-23",
+  "number": 1081,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "N",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "D"
+    ],
+    [
+      "Y",
+      "O",
+      "U",
+      "#",
+      "B",
+      "I",
+      "G",
+      "#",
+      "D",
+      "U",
+      "O"
+    ],
+    [
+      "N",
+      "O",
+      "S",
+      "#",
+      "A",
+      "N",
+      "E",
+      "M",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "T",
+      "A",
+      "N",
+      "G",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "U",
+      "C",
+      "E",
+      "#",
+      "N",
+      "S",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "R",
+      "S",
+      "O",
+      "N",
+      "I",
+      "S",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "Y",
+      "E",
+      "T",
+      "#",
+      "U",
+      "N",
+      "C",
+      "U",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "R",
+      "I",
+      "S",
+      "H",
+      "M",
+      "A",
+      "N"
+    ],
+    [
+      "B",
+      "E",
+      "N",
+      "N",
+      "E",
+      "T",
+      "T",
+      "#",
+      "B",
+      "R",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "I",
+      "#",
+      "S",
+      "Y",
+      "R",
+      "#",
+      "L",
+      "T",
+      "R"
+    ],
+    [
+      "C",
+      "D",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "E",
+      "C"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DYNE",
+      "clue": "Force which, applied to a mass of one gram for 1 second, would give it a",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The force which, applied to a mass of one gram for 1 second, would give it a",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "NOONDAY",
+      "clue": "Middle of the day",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Middle of the day",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Severe or strict in manner; plain and unadorned",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADD",
+      "clue": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Mound or small hill. To cure, as codfish, in a particular manner,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Female deer or antelope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "BIG",
+      "clue": "Conspicuous in position or importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conspicuous in position or importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "BANCO",
+      "clue": "Bank, especially that of Venice. Note: This term is used in some parts of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bank, especially that of Venice. Note: This term is used in some parts of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "INGENUITY",
+      "clue": "Quality or power of ready invention",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Cleverness in contriving, combining, or originating.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "GEL",
+      "clue": "Thin translucent membrane used over stage lights for color effects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin translucent membrane used over stage lights for color effects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DUO",
+      "clue": "Musical composition for two performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition for two performers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "NOS",
+      "clue": "Plural of no",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of no",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "ANEMONE",
+      "clue": "Marine polyps that resemble flowers but have oral rings of tentacles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marine polyps that resemble flowers but have oral rings of tentacles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "MENSCH",
+      "clue": "Decent responsible person with admirable characteristics",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Decent responsible person with admirable characteristics",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "ENTANGLE",
+      "clue": "Twist or interweave in such a manner as not to be easily separated",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To involve in difficulties, confusion, or complications.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "AUSTIN",
+      "clue": "State capital of Texas on the Colorado River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State capital of Texas on the Colorado River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "DEUCE",
+      "clue": "One of the four playing cards in a deck that have two spots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the four playing cards in a deck that have two spots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "United States cryptologic organization that coordinates and directs highly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States cryptologic organization that coordinates and directs highly...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "STUMBLE",
+      "clue": "Unintentional but embarrassing blunder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unintentional but embarrassing blunder",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ASTARTE",
+      "clue": "Ancient Phoenician goddess of love and fertility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient Phoenician goddess of love and fertility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ARSONISTS",
+      "clue": "Plural of arsonist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of arsonist",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "INSTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "UNCUT",
+      "clue": "Complete",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Complete",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "IRISHMAN",
+      "clue": "Man who is a native or inhabitant of Ireland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who is a native or inhabitant of Ireland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "RES",
+      "clue": "Widely distributed system consisting of all the cells able to ingest bacteria...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Widely distributed system consisting of all the cells able to ingest bacteria...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "NARC",
+      "clue": "Lawman concerned with narcotics violations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lawman concerned with narcotics violations",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "BENNETT",
+      "clue": "United States aviator who (with Richard E. Byrd) piloted the first flight over...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States aviator who (with Richard E. Byrd) piloted the first flight over...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "BAC",
+      "clue": "Broad, flatbottomed ferryboat, usually worked by a rope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broad, flatbottomed ferryboat, usually worked by a rope",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "BRA",
+      "clue": "Undergarment worn by women to support their breasts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undergarment worn by women to support their breasts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Black tropical American cuckoo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "CDL",
+      "clue": "Roman numeral for 450",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 450",
+      "clueSource": "roman"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "EEC",
+      "clue": "International organization of European countries formed after World War II...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization of European countries formed after World War II...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

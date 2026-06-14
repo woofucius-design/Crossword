@@ -1,0 +1,884 @@
+{
+  "date": "2027-02-24",
+  "number": 1054,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "H",
+      "E",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "A",
+      "Y"
+    ],
+    [
+      "B",
+      "I",
+      "V",
+      "O",
+      "U",
+      "A",
+      "C",
+      "#",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "I",
+      "N",
+      "V",
+      "A",
+      "S",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "I",
+      "N",
+      "H",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "H",
+      "I",
+      "R",
+      "R",
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D"
+    ],
+    [
+      "L",
+      "A",
+      "N",
+      "A",
+      "I",
+      "#",
+      "A",
+      "F",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "H",
+      "O",
+      "L",
+      "D",
+      "#",
+      "S",
+      "T",
+      "E",
+      "E",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "L",
+      "U",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "T",
+      "H",
+      "E",
+      "T",
+      "E",
+      "R",
+      "I",
+      "Z",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "#",
+      "D",
+      "E",
+      "D",
+      "U",
+      "C",
+      "E",
+      "D"
+    ],
+    [
+      "I",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "E",
+      "D",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AHEM",
+      "clue": "Utterance of a sound similar to clearing the throat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Utterance of a sound similar to clearing the throat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ABS",
+      "clue": "Any of a class of composite plastics used to make car bodies and cases for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of a class of composite plastics used to make car bodies and cases for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "HIE",
+      "clue": "Move fast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move fast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "MOI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PAY",
+      "clue": "Something that remunerates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that remunerates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "POI",
+      "clue": "Hawaiian dish of taro root pounded to a paste and often allowed to ferment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hawaiian dish of taro root pounded to a paste and often allowed to ferment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "YEN",
+      "clue": "Yearning for something or to do something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yearning for something or to do something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "BIVOUAC",
+      "clue": "Temporary living quarters specially built by the army for soldiers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Temporary living quarters specially built by the army for soldiers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "UNBRIDLED",
+      "clue": "Loosed from the bridle, or as from the bridle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Being without restraint.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "AVI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "CANVASSED",
+      "clue": "Past tense of canvass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of canvass",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SEEINVASION",
+      "clue": "Inroad",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INROAD",
+        "IRRUPTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Invasion\u201d defines inroad",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "SHIFT",
+      "clue": "Act of changing one thing or position for another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing one thing or position for another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "BINH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "SHIRR",
+      "clue": "Bake (eggs) in their shells until they are set",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bake (eggs) in their shells until they are set",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "HAH",
+      "clue": "Same as Ha",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Ha",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "INO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "RALPH",
+      "clue": "Name sometimes given to the raven",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name sometimes given to the raven",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "True to the life",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Stake a sum upon a hand of cards, as in the old game of gleek. See...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "LANAI",
+      "clue": "Veranda or roofed patio often furnished and used as a living room",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Veranda or roofed patio often furnished and used as a living room",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AFIRE",
+      "clue": "& adj. on fire, literally or figuratively",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "& adj. On fire, literally or figuratively.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "AHOLD",
+      "clue": "Near the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near the wind",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "STEEL",
+      "clue": "Knife sharpener consisting of a ridged steel rod",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Knife sharpener consisting of a ridged steel rod",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "PLUS",
+      "clue": "Arithmetic operation of summing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arithmetic operation of summing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "UTE",
+      "clue": "Shoshonean language spoken by the Utes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shoshonean language spoken by the Utes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CATHETERIZE",
+      "clue": "Insert a catheter into (a body part)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Insert a catheter into (a body part)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "CAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "RUB",
+      "clue": "Act of rubbing or wiping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of rubbing or wiping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink with a floor of ice for ice hockey or ice skating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rink with a floor of ice for ice hockey or ice skating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ZED",
+      "clue": "26th letter of the Roman alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "26th letter of the Roman alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "DEDUCED",
+      "clue": "Past tense of deduce",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of deduce",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ISE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "BEDS",
+      "clue": "Plural of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bed",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "date": "2027-05-18",
+  "number": 1137,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "K",
+      "A",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "M",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "D",
+      "#",
+      "L",
+      "A",
+      "U",
+      "R",
+      "E",
+      "L"
+    ],
+    [
+      "C",
+      "H",
+      "L",
+      "O",
+      "R",
+      "I",
+      "N",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "E",
+      "N",
+      "#",
+      "A",
+      "C",
+      "O",
+      "N",
+      "I",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "I",
+      "C",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "P",
+      "I",
+      "N",
+      "N",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "P",
+      "R",
+      "O",
+      "S",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "A",
+      "R",
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "V",
+      "G",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "X",
+      "A",
+      "N",
+      "D",
+      "R",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "B",
+      "A",
+      "A",
+      "I",
+      "N",
+      "G",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "I",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "E",
+      "E",
+      "L",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AKA",
+      "clue": "Also known as",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also known as",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "KILN",
+      "clue": "Oven or furnace for baking, burning, or drying industrial products",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An oven or furnace for baking, burning, or drying industrial products.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "NAME",
+      "clue": "By the sanction or authority of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By the sanction or authority of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or expression",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ARTIER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "MEET",
+      "clue": "Meeting at which a number of athletic contests are held",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Meeting at which a number of athletic contests are held",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "Other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Other",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ACID",
+      "clue": "Sour substance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A sour substance.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "LAUREL",
+      "clue": "Wreath of laurel foliage worn on the head as an emblem of victory",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wreath of laurel foliage worn on the head as an emblem of victory",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "LICENSING",
+      "clue": "Present participle of license",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of license",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "ANOINTED",
+      "clue": "Past tense of anoint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of anoint",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CHLORINATES",
+      "clue": "Plural of chlorinate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of chlorinate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "RADIOMAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "TEN",
+      "clue": "One of four playing cards in a deck with ten pips on the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck with ten pips on the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "ACONITE",
+      "clue": "Any of various usually poisonous plants of the genus Aconitum having tuberous...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various usually poisonous plants of the genus Aconitum having tuberous...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "DEICE",
+      "clue": "Make or become free of frost or ice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make or become free of frost or ice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "SPINNER",
+      "clue": "Fisherman's lure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fisherman's lure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SPREAD",
+      "clue": "Act of extending over a wider scope or expanse of space or time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of extending over a wider scope or expanse of space or time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "PRAXIS",
+      "clue": "Translating an idea into action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Translating an idea into action",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "PROST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "LARAMIE",
+      "clue": "University town in southeast Wyoming",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "University town in southeast Wyoming",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "LABS",
+      "clue": "Plural of lab",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lab",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "VGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "VISE",
+      "clue": "Holding device attached to a workbench",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Holding device attached to a workbench",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ALEXANDRIAN",
+      "clue": "Resident or native of Alexandria (especially Alexandria in Egypt)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resident or native of Alexandria (especially Alexandria in Egypt)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "BAAING",
+      "clue": "Bleating of a sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bleating of a sheep",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Previously used or owned by another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Previously used or owned by another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SIDS",
+      "clue": "Sudden and unexpected death of an apparently healthy infant during sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sudden and unexpected death of an apparently healthy infant during sleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EEL",
+      "clue": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

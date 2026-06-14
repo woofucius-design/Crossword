@@ -1,0 +1,865 @@
+{
+  "date": "2027-01-31",
+  "number": 1030,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "O",
+      "L",
+      "L",
+      "S",
+      "#",
+      "F",
+      "E",
+      "Z",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "N",
+      "A",
+      "C",
+      "E",
+      "#",
+      "O",
+      "D",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "X",
+      "A",
+      "N",
+      "D",
+      "R",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "C",
+      "V",
+      "I",
+      "#",
+      "#",
+      "D",
+      "I",
+      "E",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "I",
+      "D",
+      "A",
+      "#",
+      "S",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "A",
+      "L",
+      "M",
+      "#",
+      "G",
+      "U",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "L",
+      "#",
+      "N",
+      "I",
+      "T",
+      "#"
+    ],
+    [
+      "B",
+      "U",
+      "R",
+      "E",
+      "A",
+      "U",
+      "#",
+      "#",
+      "M",
+      "O",
+      "I"
+    ],
+    [
+      "E",
+      "N",
+      "H",
+      "A",
+      "N",
+      "C",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "D",
+      "I",
+      "E",
+      "D",
+      "#",
+      "I",
+      "T",
+      "D",
+      "O",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "T",
+      "A",
+      "Y",
+      "#",
+      "D",
+      "A",
+      "I",
+      "R",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "POLLS",
+      "clue": "Place where people vote",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place where people vote",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "PELVIC",
+      "clue": "Of or relating to the pelvis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the pelvis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ONEIDA",
+      "clue": "Iroquoian language spoken by the Oneida",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Iroquoian language spoken by the Oneida",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "LAX",
+      "clue": "Not tense, firm, or rigid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not stringent or energetic.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "LCA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SENDS",
+      "clue": "Plural of send",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of send",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "FEZ",
+      "clue": "Felt or cloth cap, usually red and having a tassel,",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A brimless felt cap in the shape of a truncated cone, usually red with a black",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "FORERUN",
+      "clue": "Go before as introducing or ushering in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To go before as introducing or ushering in.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EDIT",
+      "clue": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ZONE",
+      "clue": "Any encircling or beltlike structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any encircling or beltlike structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "MENACE",
+      "clue": "Show of an intention to inflict evil",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A threat.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Waterproof raincoat made of rubberized fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waterproof raincoat made of rubberized fabric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "RED",
+      "clue": "Red color or pigment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Red color or pigment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ALEXANDRINE",
+      "clue": "Line of verse that has six iambic feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Line of verse that has six iambic feet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "DIAG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "CVI",
+      "clue": "Roman numeral for 106",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 106",
+      "clueSource": "roman"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "DIETED",
+      "clue": "Past tense of diet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of diet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "IDA",
+      "clue": "Agency of the United Nations affiliated with the World Bank",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency of the United Nations affiliated with the World Bank",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "ALREADY",
+      "clue": "Prior to a specified or implied time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prior to a specified or implied time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "CALM",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "PLACID",
+        "SERENE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "MEAN",
+      "clue": "Average of n numbers computed by adding some function of the numbers and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Average of n numbers computed by adding some function of the numbers and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "GUTS",
+      "clue": "Tenacity",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TENACITY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of tenacity",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "TIMEOR",
+      "clue": "Expense",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EXPENSE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ctime or\u201d defines expense",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "STONEY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "REL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Shining",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or other small insect. Nit grass (Bot.), a pretty...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BUREAU",
+      "clue": "Originally, a desk or writing table with drawers for papers",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A chest of drawers for clothing, etc.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "BED",
+      "clue": "Piece of furniture that provides a place to sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of furniture that provides a place to sleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "UNIT",
+      "clue": "Assemblage of parts that is regarded as a single entity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assemblage of parts that is regarded as a single entity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RHEA",
+      "clue": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "MOI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ENHANCEMENT",
+      "clue": "Improvement that makes something more agreeable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Improvement that makes something more agreeable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "MDI",
+      "clue": "Sunni organization formed in 1989 and based in Pakistan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sunni organization formed in 1989 and based in Pakistan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DIED",
+      "clue": "Past tense of die",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of die",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ITDOES",
+      "clue": "Amicable",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "AMICABLE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cIt does\u201d defines amicable",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "TAY",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "DAIRY",
+      "clue": "Farm where dairy products are produced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farm where dairy products are produced",
+      "clueSource": "wordnet"
+    }
+  ]
+}

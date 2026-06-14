@@ -1,0 +1,855 @@
+{
+  "date": "2027-02-01",
+  "number": 1031,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "L",
+      "U",
+      "M",
+      "B",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "E",
+      "S",
+      "A",
+      "R",
+      "#",
+      "P",
+      "U",
+      "P",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "G",
+      "E",
+      "R",
+      "O",
+      "R",
+      "P",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "N",
+      "A",
+      "A",
+      "#",
+      "#",
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "M",
+      "C",
+      "C",
+      "#",
+      "C",
+      "T",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "S",
+      "#",
+      "H",
+      "E",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "K",
+      "I",
+      "#",
+      "L",
+      "A",
+      "X",
+      "#"
+    ],
+    [
+      "T",
+      "O",
+      "C",
+      "S",
+      "I",
+      "N",
+      "#",
+      "#",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "U",
+      "N",
+      "D",
+      "I",
+      "S",
+      "C",
+      "L",
+      "O",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "O",
+      "#",
+      "A",
+      "E",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "Y",
+      "I",
+      "N",
+      "#",
+      "S",
+      "T",
+      "A",
+      "N",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PLUMB",
+      "clue": "Exactly vertical",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A weight suspended by a line to test the verticality of something.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "PANAMA",
+      "clue": "Stiff hat made of straw with a flat crown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stiff hat made of straw with a flat crown",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "LEGACY",
+      "clue": "Gift of personal property by will",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A bequest.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "MAR",
+      "clue": "Mark or flaw that spoils the appearance of something (especially on a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mark or flaw that spoils the appearance of something (especially on a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "BRONC",
+      "clue": "Unbroken or imperfectly broken mustang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unbroken or imperfectly broken mustang",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "APPAREL",
+      "clue": "Clothing in general",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clothing in general",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "YUAN",
+      "clue": "Imperial dynasty of China from 1279 to 1368",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperial dynasty of China from 1279 to 1368",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Very imposing or impressive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "CAESAR",
+      "clue": "Conqueror of Gaul and master of Italy (100-44 BC)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conqueror of Gaul and master of Italy (100-44 BC)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "CAN",
+      "clue": "Airtight sealed metal container for food or drink or paint etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airtight sealed metal container for food or drink or paint etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "PUPA",
+      "clue": "Insect in the inactive stage of development (when it is not feeding)...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Insect in the inactive stage of development (when it is not feeding)...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ANE",
+      "clue": "Used of a single unit or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used of a single unit or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ANGERORPAIN",
+      "clue": "Gnash",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "GNASH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201canger or pain\u201d defines gnash",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "RUTH",
+      "clue": "Book of the Old Testament that tells the story of Ruth who was not an...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Sorrow for another's misery.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "NAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or opinion or attitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "MCC",
+      "clue": "Roman numeral for 1200",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1200",
+      "clueSource": "roman"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CESSION",
+      "clue": "Act of ceding",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Surrender, as of possessions or rights.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "CTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "AYES",
+      "clue": "Plural of ay",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ay",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "SKIS",
+      "clue": "Plural of ski",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ski",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "HERE",
+      "clue": "Present location",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present location",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "RAISIN",
+      "clue": "Dried grape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dried grape",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "EXCEED",
+      "clue": "Be or do something to a greater degree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To go beyond, as in measure, quality, value, action, power, skill, etc.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "SKI",
+      "clue": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "INCAS",
+      "clue": "Plural of inca",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of inca",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "LAX",
+      "clue": "Emptying easily or excessively",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not stringent or energetic.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "TOCSIN",
+      "clue": "Bell used to sound an alarm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bell used to sound an alarm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "TUA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ONLY",
+      "clue": "Exclusive of anyone or anything else",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclusive of anyone or anything else",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "CDLI",
+      "clue": "Roman numeral for 451",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 451",
+      "clueSource": "roman"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink with a floor of ice for ice hockey or ice skating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rink with a floor of ice for ice hockey or ice skating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNDISCLOSED",
+      "clue": "Not made known",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not made known",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Serve that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that strikes the net before falling into the receiver's court",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ALLO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "AERIES",
+      "clue": "Plural of aery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of aery",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "YIN",
+      "clue": "Dark negative feminine principle in Chinese dualistic cosmology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dark negative feminine principle in Chinese dualistic cosmology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "STAND",
+      "clue": "Defensive effort",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Defensive effort",
+      "clueSource": "wordnet"
+    }
+  ]
+}

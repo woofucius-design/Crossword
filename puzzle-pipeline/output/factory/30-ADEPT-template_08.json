@@ -1,0 +1,816 @@
+{
+  "date": "2027-01-30",
+  "number": 1029,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "L",
+      "E",
+      "R",
+      "A",
+      "#",
+      "H",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "A",
+      "X",
+      "E",
+      "D",
+      "#",
+      "A",
+      "C",
+      "H",
+      "E"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "U",
+      "C",
+      "E",
+      "#",
+      "J",
+      "U",
+      "A",
+      "N"
+    ],
+    [
+      "B",
+      "A",
+      "S",
+      "R",
+      "A",
+      "#",
+      "#",
+      "#",
+      "M",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "L",
+      "I",
+      "T",
+      "H",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "H",
+      "A",
+      "L",
+      "C",
+      "Y",
+      "O",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "N",
+      "S",
+      "E",
+      "R",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "B",
+      "A",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "E",
+      "P",
+      "T"
+    ],
+    [
+      "G",
+      "E",
+      "T",
+      "A",
+      "#",
+      "A",
+      "N",
+      "O",
+      "M",
+      "I",
+      "E"
+    ],
+    [
+      "T",
+      "A",
+      "U",
+      "T",
+      "#",
+      "E",
+      "N",
+      "G",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "U",
+      "S",
+      "E",
+      "#",
+      "S",
+      "Y",
+      "S",
+      "T",
+      "E",
+      "M"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SCLERA",
+      "clue": "Whitish fibrous membrane (albuginea) that with the cornea forms the outer...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whitish fibrous membrane (albuginea) that with the cornea forms the outer...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAB",
+      "clue": "Crustlike surface of a healing skin lesion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Crustlike surface of a healing skin lesion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CODA",
+      "clue": "Closing section of a musical composition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Closing section of a musical composition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "LADS",
+      "clue": "Plural of lad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lad",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "EXURBAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "RECALLS",
+      "clue": "Plural of recall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of recall",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ADE",
+      "clue": "Sweetened beverage of diluted fruit juice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweetened beverage of diluted fruit juice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "HAT",
+      "clue": "Informal term for a person's role",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for a person's role",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "HAJ",
+      "clue": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ACUMEN",
+      "clue": "Quickness of intellectual insight, or discernment; keenness of discrimination",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Quickness of intellectual insight, or discernment; keenness of discrimination.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "THAI",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "COAXED",
+      "clue": "Past tense of coax",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of coax",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ADDUCE",
+      "clue": "Bring forward or name for consideration",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To bring forward or name for consideration.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "JUAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "BASRA",
+      "clue": "Second largest city in Iraq",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second largest city in Iraq",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "MID",
+      "clue": "Denoting the middle part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Denoting the middle part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "BLITHE",
+      "clue": "Joyous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Joyous.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink with a floor of ice for ice hockey or ice skating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rink with a floor of ice for ice hockey or ice skating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "TYRANNY",
+      "clue": "Absolute power arbitrarily or unjustly administrated",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Absolute power arbitrarily or unjustly administrated.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "HOTDOGS",
+      "clue": "Plural of hotdog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of hotdog",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "HALCYON",
+      "clue": "Calm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Calm.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "HIATUS",
+      "clue": "Break or vacancy where something necessary to supply the connection is",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A break or vacancy where something necessary to supply the connection is",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "INSERT",
+      "clue": "Still picture that is introduced and that interrupts the action of a film",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Still picture that is introduced and that interrupts the action of a film",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MBA",
+      "clue": "Master's degree in business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in business",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MGT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "Escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An escort or lover.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Very skilled or proficient at something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "PINE",
+      "clue": "Coniferous tree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coniferous tree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TEEM",
+      "clue": "Be full to overflowing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be full to overflowing.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "GETA",
+      "clue": "Footwear usually with wooden soles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Footwear usually with wooden soles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ANOMIE",
+      "clue": "Lack of moral standards in a society",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lack of moral standards in a society",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "AES",
+      "clue": "Plural of ae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ae",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "TAUT",
+      "clue": "Stretched tight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stretched tight.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ENGINE",
+      "clue": "Motor that converts thermal energy to mechanical work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor that converts thermal energy to mechanical work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SYSTEM",
+      "clue": "Instrumentality that combines interrelated interacting artifacts designed to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instrumentality that combines interrelated interacting artifacts designed to...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

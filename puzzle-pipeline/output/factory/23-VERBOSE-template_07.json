@@ -1,0 +1,786 @@
+{
+  "date": "2027-01-23",
+  "number": 1022,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "S",
+      "H",
+      "E",
+      "N",
+      "#",
+      "S",
+      "L",
+      "A",
+      "B",
+      "S"
+    ],
+    [
+      "L",
+      "A",
+      "U",
+      "R",
+      "A",
+      "#",
+      "T",
+      "U",
+      "L",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "G",
+      "G",
+      "R",
+      "A",
+      "V",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "S",
+      "#",
+      "E",
+      "T",
+      "H",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "F",
+      "I",
+      "B",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "A",
+      "T",
+      "E",
+      "S",
+      "#",
+      "P",
+      "R",
+      "O",
+      "D"
+    ],
+    [
+      "A",
+      "R",
+      "C",
+      "H",
+      "A",
+      "E",
+      "O",
+      "L",
+      "O",
+      "G",
+      "Y"
+    ],
+    [
+      "C",
+      "A",
+      "R",
+      "O",
+      "L",
+      "#",
+      "C",
+      "A",
+      "I",
+      "R",
+      "N"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "M",
+      "S",
+      "#",
+      "A",
+      "T",
+      "L",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Anemic looking from illness or emotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pale.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAS",
+      "clue": "By bad luck",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By bad luck",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "HUGE",
+      "clue": "Unusually great in size or amount or degree or especially extent or scope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unusually great in size or amount or degree or especially extent or scope",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ERRS",
+      "clue": "Plural of err",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of err",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "NAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "SLABS",
+      "clue": "Plural of slab",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of slab",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "STATUE",
+      "clue": "Sculpture representing a human or animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sculpture representing a human or animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "LUTHER",
+      "clue": "German theologian who led the Reformation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German theologian who led the Reformation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALII",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BLOC",
+      "clue": "Group of countries in special alliance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of countries in special alliance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SENS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "LAURA",
+      "clue": "Number of hermitages or cells in the same neighborhood occupied by anchorites...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Number of hermitages or cells in the same neighborhood occupied by anchorites...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "TULLE",
+      "clue": "Fine (often starched) net used for veils or tutus or gowns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fine (often starched) net used for veils or tutus or gowns",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "AGGRAVATION",
+      "clue": "Action that makes a problem or a disease (or its symptoms) worse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The fact of being made heavier or more heinous, as a crime , offense...",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Abounding in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Plural of se",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of se",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ETHICS",
+      "clue": "Philosophical study of moral values and rules",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Philosophical study of moral values and rules",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Street or road in France",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "FIBER",
+      "clue": "Leatherlike material made by compressing layers of paper or cloth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leatherlike material made by compressing layers of paper or cloth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "FATHOM",
+      "clue": "Unit of volume (equal to 6 cubic feet) used in measuring bodies of ore",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A measure of length, 6 feet.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "IDEALS",
+      "clue": "Plural of ideal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ideal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "SPATES",
+      "clue": "Plural of spat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of spat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SACS",
+      "clue": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "PRAT",
+      "clue": "Fleshy part of the human body that you sit on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy part of the human body that you sit on",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "PROD",
+      "clue": "Pointed instrument that is used to prod into a state of motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pointed instrument that is used to prod into a state of motion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "PLAT",
+      "clue": "Map showing planned or actual features of an area (streets and building lots...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Map showing planned or actual features of an area (streets and building lots...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ROIL",
+      "clue": "Make turbid by stirring up the sediments of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make turbid by stirring up the sediments of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DYNE",
+      "clue": "Unit of force, in the C. G. S. (Centimeter Gram Second) system of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The force which, applied to a mass of one gram for 1 second, would give it a",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ARCHAEOLOGY",
+      "clue": "Science or study of antiquities, esp. prehistoric antiquities,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The branch of anthropology concerned with the systematic investigation of",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "OCA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "CAROL",
+      "clue": "Joyful song (usually celebrating the birth of Christ)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Joyful song (usually celebrating the birth of Christ)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "CAIRN",
+      "clue": "Small rough-haired breed of terrier from Scotland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small rough-haired breed of terrier from Scotland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "STEMS",
+      "clue": "Plural of stem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stem",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "ATLEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

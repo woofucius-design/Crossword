@@ -1,0 +1,817 @@
+{
+  "date": "2027-01-21",
+  "number": 1020,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "D",
+      "O",
+      "R",
+      "S",
+      "#",
+      "M",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "N",
+      "I",
+      "E",
+      "C",
+      "E",
+      "S",
+      "#",
+      "A",
+      "C",
+      "H",
+      "E"
+    ],
+    [
+      "A",
+      "F",
+      "F",
+      "E",
+      "C",
+      "T",
+      "#",
+      "C",
+      "C",
+      "I",
+      "V"
+    ],
+    [
+      "S",
+      "E",
+      "T",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#",
+      "U",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "G",
+      "G",
+      "A",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "I",
+      "V",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "C",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "O",
+      "R",
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "K",
+      "I",
+      "N",
+      "#",
+      "S",
+      "A",
+      "T",
+      "I",
+      "V",
+      "A"
+    ],
+    [
+      "A",
+      "R",
+      "N",
+      "A",
+      "#",
+      "A",
+      "C",
+      "I",
+      "D",
+      "I",
+      "C"
+    ],
+    [
+      "#",
+      "A",
+      "G",
+      "E",
+      "#",
+      "R",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ARDORS",
+      "clue": "Plural of ardor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ardor",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ANAS",
+      "clue": "Type genus of the Anatidae: freshwater ducks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Anatidae: freshwater ducks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RIFE",
+      "clue": "Abundant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Abundant.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Quick and neatly skillful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "OCEANIC",
+      "clue": "Eastern subfamily of Malayo-Polynesian languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eastern subfamily of Malayo-Polynesian languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "RECEIVE",
+      "clue": "Convert into sounds or pictures",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Convert into sounds or pictures",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "MAT",
+      "clue": "Thick flat pad used as a floor covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thick flat pad used as a floor covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Waterproof raincoat made of rubberized fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waterproof raincoat made of rubberized fabric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ACCUSE",
+      "clue": "Charge with wrong doing, misconduct, or error",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To charge with wrong doing, misconduct, or error.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "THIS",
+      "clue": "As a demonstrative pronoun, this denotes something that is present or near in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "As a demonstrative pronoun, this denotes something that is present or near in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "NIECES",
+      "clue": "Plural of niece",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of niece",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "AFFECT",
+      "clue": "Act upon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To act upon",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "CCIV",
+      "clue": "Roman numeral for 204",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 204",
+      "clueSource": "roman"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SETAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "NIGGAS",
+      "clue": "Plural of nigga",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nigga",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "GRIMACE",
+      "clue": "Distortion of the features, occasioned by some feeling of pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A distortion of the features, occasioned by some feeling of pain, disgust, etc.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "ASCETIC",
+      "clue": "Given to severe self-denial and practicing excessive abstinence and",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Given to severe self-denial and practicing excessive abstinence and devotion.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "DIVERSE",
+      "clue": "Capable of various forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Capable of various forms.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DARING",
+      "clue": "Brave",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Brave.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ACETIC",
+      "clue": "Of, pertaining to, or of the nature of vinegar",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of, pertaining to, or of the nature of vinegar.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "FAA",
+      "clue": "Agency in the Department of Transportation that is responsible for the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency in the Department of Transportation that is responsible for the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OKRA",
+      "clue": "Long mucilaginous green pods",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long mucilaginous green pods",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "METAL",
+      "clue": "Element that forms a base by combining with oxygen, is usually",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An element that forms a base by combining with oxygen, is usually hard, heavy...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TIDE",
+      "clue": "Periodic rise and fall of the sea level under the gravitational pull of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Periodic rise and fall of the sea level under the gravitational pull of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AVID",
+      "clue": "Zealous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of zealous",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LACE",
+      "clue": "Delicate decorative fabric woven in an open web of symmetrical patterns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Delicate decorative fabric woven in an open web of symmetrical patterns",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SATIVA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ARNA",
+      "clue": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ACIDIC",
+      "clue": "Being or containing an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being or containing an acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "RECEDE",
+      "clue": "Move back or away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move back or away.",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

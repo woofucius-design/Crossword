@@ -1,0 +1,813 @@
+{
+  "date": "2027-05-31",
+  "number": 1150,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "B",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "A",
+      "H"
+    ],
+    [
+      "R",
+      "A",
+      "Y",
+      "#",
+      "S",
+      "C",
+      "H",
+      "#",
+      "S",
+      "P",
+      "A"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "#",
+      "T",
+      "O",
+      "O",
+      "T",
+      "H",
+      "E",
+      "D"
+    ],
+    [
+      "P",
+      "I",
+      "T",
+      "F",
+      "A",
+      "L",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "O",
+      "R",
+      "E",
+      "L",
+      "#",
+      "E",
+      "F",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "O",
+      "P",
+      "U",
+      "L",
+      "E",
+      "N",
+      "T",
+      "L",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "F",
+      "I",
+      "G",
+      "#",
+      "C",
+      "E",
+      "S",
+      "A",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "T",
+      "H",
+      "E",
+      "N",
+      "I",
+      "A"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "L",
+      "T",
+      "O",
+      "R",
+      "#",
+      "G",
+      "N",
+      "U"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "A",
+      "R",
+      "U",
+      "#",
+      "E",
+      "G",
+      "G"
+    ],
+    [
+      "E",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "TBD",
+      "clue": "Decision pending, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Decision pending, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TRAP",
+      "clue": "Act of concealing yourself and lying in wait to attack by surprise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of concealing yourself and lying in wait to attack by surprise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "BASISOF",
+      "clue": "Underlie",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "UNDERLIE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbasis of\u201d defines underlie",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "DYSTOPI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "RAY",
+      "clue": "Cartilaginous fishes having horizontally flattened bodies and enlarged winglike...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cartilaginous fishes having horizontally flattened bodies and enlarged winglike...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "SCH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "STAEL",
+      "clue": "French romantic writer (1766-1817)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French romantic writer (1766-1817)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "COLLECTOR",
+      "clue": "One who collects things which are separate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who makes a collection, as of objects of art, books, or the like.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "HOL",
+      "clue": "Whole",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SPA",
+      "clue": "Place of business with equipment and facilities for exercising and improving...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place of business with equipment and facilities for exercising and improving...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "TOOTHED",
+      "clue": "Having an irregularly notched or toothed margin as though gnawed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an irregularly notched or toothed margin as though gnawed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "TSETSE",
+      "clue": "Bloodsucking African fly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African fly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "PITFALLS",
+      "clue": "Plural of pitfall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of pitfall",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "FRUGAL",
+      "clue": "Economical in the use or appropriation of resources",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "sparing or economical with money or food",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "SOREL",
+      "clue": "Young buck in the third year. See the Note under Buck",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young buck in the third year. See the Note under Buck",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "EFS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "FLANGES",
+      "clue": "Plural of flang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of flang",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "SYRINGE",
+      "clue": "Medical instrument used to inject or withdraw fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Medical instrument used to inject or withdraw fluids",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "OPULENTLY",
+      "clue": "In a sumptuous and opulent manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a sumptuous and opulent manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "NEHRU",
+      "clue": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "FIG",
+      "clue": "Diagram or picture illustrating textual material",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diagram or picture illustrating textual material",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CESAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "ASTHENIA",
+      "clue": "Abnormal loss of strength",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Abnormal loss of strength",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "STA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "AUGE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "REALTOR",
+      "clue": "Real estate agent who is a member of the National Association of Realtors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Real estate agent who is a member of the National Association of Realtors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "RAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "GNU",
+      "clue": "Large African antelope having a head with horns like an ox and a long tufted...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large African antelope having a head with horns like an ox and a long tufted...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ARU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "EGG",
+      "clue": "Animal reproductive body consisting of an ovum or embryo together with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animal reproductive body consisting of an ovum or embryo together with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Capital and largest city of Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    }
+  ]
+}

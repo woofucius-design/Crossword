@@ -1,0 +1,857 @@
+{
+  "date": "2027-01-14",
+  "number": 1013,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "P",
+      "A",
+      "C",
+      "E",
+      "#",
+      "C",
+      "A",
+      "B",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "T",
+      "E",
+      "R",
+      "#",
+      "A",
+      "C",
+      "R",
+      "E"
+    ],
+    [
+      "F",
+      "R",
+      "E",
+      "E",
+      "O",
+      "R",
+      "C",
+      "L",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "#",
+      "#",
+      "E",
+      "R",
+      "O",
+      "D",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "N",
+      "I",
+      "L",
+      "#",
+      "D",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "M",
+      "I",
+      "T",
+      "#",
+      "B",
+      "I",
+      "A",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "T",
+      "#",
+      "E",
+      "L",
+      "A",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "I",
+      "G",
+      "M",
+      "A",
+      "#",
+      "#",
+      "K",
+      "Y",
+      "U"
+    ],
+    [
+      "I",
+      "S",
+      "S",
+      "U",
+      "E",
+      "I",
+      "N",
+      "R",
+      "A",
+      "Y",
+      "S"
+    ],
+    [
+      "G",
+      "A",
+      "L",
+      "A",
+      "#",
+      "L",
+      "O",
+      "O",
+      "N",
+      "I",
+      "E"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "L",
+      "#",
+      "S",
+      "T",
+      "E",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SPACE",
+      "clue": "Unlimited expanse in which everything is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unlimited expanse in which everything is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Calm, peaceful, and untroubled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "PRELIM",
+      "clue": "Examination taken by graduate students to determine their fitness to continue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Examination taken by graduate students to determine their fitness to continue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "CEO",
+      "clue": "Corporate executive responsible for the operations of the firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive responsible for the operations of the firm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ERRED",
+      "clue": "Past tense of err",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of err",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "CAB",
+      "clue": "Car driven by a person whose job is to take passengers where they want to go...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Car driven by a person whose job is to take passengers where they want to go...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "CALORIE",
+      "clue": "Amount of heat needed to raise the temperature of 1 kilogram of water 1 degree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Amount of heat needed to raise the temperature of 1 kilogram of water 1 degree",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ACED",
+      "clue": "Past tense of ac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of ac",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BRAE",
+      "clue": "Slope or hillside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Hillside.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "PERTER",
+      "clue": "One who perts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who perts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "PFD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ERD",
+      "clue": "Earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "FREEORCLEAR",
+      "clue": "Acquit",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACQUIT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cfree or clear\u201d defines acquit",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "CRAB",
+      "clue": "Stroke of the oar that either misses the water or digs too deeply",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stroke of the oar that either misses the water or digs too deeply",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ERODED",
+      "clue": "Worn away as by water or ice or wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Worn away as by water or ice or wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "LINGUAL",
+      "clue": "Pertaining to or resembling or lying near the tongue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the use of the tongue in utterance.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Expel (gases or odors)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "TIME",
+      "clue": "Continuum of experience in which events pass from the future through the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Continuum of experience in which events pass from the future through the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "BIAS",
+      "clue": "Partiality that prevents objective consideration of an issue or situation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Partiality that prevents objective consideration of an issue or situation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ALKANE",
+      "clue": "Series of non-aromatic saturated hydrocarbons with the general formula...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Series of non-aromatic saturated hydrocarbons with the general formula...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "SAYYID",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "TAILS",
+      "clue": "Formalwear consisting of full evening dress for men",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formalwear consisting of full evening dress for men",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "STIGMA",
+      "clue": "Mark of infamy or token of disgrace attaching to a person as the result of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A mark of infamy or token of disgrace attaching to a person as the result of",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "SIG",
+      "clue": "Urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Small island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "KYU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ISSUEINRAYS",
+      "clue": "Radiate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RADIATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cissue in rays\u201d defines radiate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "NOT",
+      "clue": "Negation of a word or group of words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negation of a word or group of words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ROE",
+      "clue": "Eggs or egg-laden ovary of a fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eggs or egg-laden ovary of a fish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "GALA",
+      "clue": "Gay festivity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gay festivity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LOONIE",
+      "clue": "Basic unit of money in Canada",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Canada",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "REL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "STEED",
+      "clue": "Spirited horse for state or war",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited horse for state or war",
+      "clueSource": "wordnet"
+    }
+  ]
+}

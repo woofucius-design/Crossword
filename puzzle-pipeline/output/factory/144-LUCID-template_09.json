@@ -1,0 +1,808 @@
+{
+  "date": "2027-05-24",
+  "number": 1143,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "K",
+      "A",
+      "N",
+      "A",
+      "#",
+      "A",
+      "B",
+      "C",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "U",
+      "C",
+      "I",
+      "D",
+      "#",
+      "L",
+      "E",
+      "H",
+      "R",
+      "#"
+    ],
+    [
+      "I",
+      "D",
+      "A",
+      "H",
+      "O",
+      "#",
+      "S",
+      "N",
+      "A",
+      "I",
+      "L"
+    ],
+    [
+      "S",
+      "O",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "L",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "E",
+      "P",
+      "T",
+      "I",
+      "C",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "I",
+      "S",
+      "R",
+      "U",
+      "L",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "W",
+      "H",
+      "I",
+      "S",
+      "P",
+      "E",
+      "R",
+      "I",
+      "N",
+      "G",
+      "S"
+    ],
+    [
+      "T",
+      "A",
+      "C",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "U",
+      "Y"
+    ],
+    [
+      "O",
+      "N",
+      "I",
+      "O",
+      "N",
+      "#",
+      "W",
+      "H",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "D",
+      "A",
+      "L",
+      "E",
+      "#",
+      "O",
+      "W",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "N",
+      "S",
+      "A",
+      "#",
+      "N",
+      "A",
+      "G",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,6": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,1": {
+      "number": 32
+    },
+    "9,6": {
+      "number": 33
+    },
+    "10,2": {
+      "number": 34
+    },
+    "10,6": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "KANA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "KUDOS",
+      "clue": "Expression of approval and commendation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expression of approval and commendation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "ACADEMICIAN",
+      "clue": "Member of an academy of literature, art, or science",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A member of an academy of literature, art, or science.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "NIH",
+      "clue": "Agency in the Department of Health and Human Services whose mission is to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency in the Department of Health and Human Services whose mission is to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ABC",
+      "clue": "Elementary stages of any subject (usually plural)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elementary stages of any subject (usually plural)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ALS",
+      "clue": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "BENGALI",
+      "clue": "Magadhan language spoken by the Bengali people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Magadhan language spoken by the Bengali people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "CHALLENGING",
+      "clue": "Requiring full use of your abilities or resources",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Requiring full use of your abilities or resources",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Transparently clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LISA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "LEHR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 4,
+      "answer": "RIEL",
+      "clue": "Basic unit of money in Cambodia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Cambodia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "IDAHO",
+      "clue": "State in the Rocky Mountains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the Rocky Mountains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "SNAIL",
+      "clue": "Freshwater or marine or terrestrial gastropod mollusk usually having an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freshwater or marine or terrestrial gastropod mollusk usually having an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "LEY",
+      "clue": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SOD",
+      "clue": "Surface layer of ground containing a mat of grass and grass roots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surface layer of ground containing a mat of grass and grass roots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "GLEE",
+      "clue": "Great merriment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Great merriment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 11,
+      "answer": "ASEPTICALLY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "PISTOLS",
+      "clue": "Plural of pistol",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of pistol",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "answer": "CUR",
+      "clue": "Inferior dog or one of mixed breed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inferior dog or one of mixed breed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "MISRULE",
+      "clue": "Misgovern",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To misgovern.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 11,
+      "answer": "WHISPERINGS",
+      "clue": "Plural of whispering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of whispering",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "WTO",
+      "clue": "International organization based in Geneva that monitors and enforces rules...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization based in Geneva that monitors and enforces rules...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "answer": "HAND",
+      "clue": "Physical assistance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Physical assistance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "GULES",
+      "clue": "Tincture red, indicated in seals and engraved figures of escutcheons by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tincture red, indicated in seals and engraved figures of escutcheons by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "SYED",
+      "clue": "Past tense of sy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of sy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TACT",
+      "clue": "Consideration in dealing with others and avoiding giving offense",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "ONION",
+      "clue": "Aromatic flavorful vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aromatic flavorful vegetable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "WHILE",
+      "clue": "Period of indeterminate length (usually short) marked by some action or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Period of indeterminate length (usually short) marked by some action or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "WON",
+      "clue": "Basic unit of money in North Korea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in North Korea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "HWA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "DALE",
+      "clue": "Open river valley (in a hilly area)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open river valley (in a hilly area)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "OWNED",
+      "clue": "Having an owner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an owner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "United States cryptologic organization that coordinates and directs highly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States cryptologic organization that coordinates and directs highly...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "NAGS",
+      "clue": "Plural of nag",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nag",
+      "clueSource": "inflection"
+    }
+  ]
+}

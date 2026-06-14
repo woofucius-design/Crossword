@@ -1,0 +1,824 @@
+{
+  "date": "2027-03-03",
+  "number": 1061,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "M",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "L"
+    ],
+    [
+      "P",
+      "O",
+      "E",
+      "#",
+      "C",
+      "P",
+      "S",
+      "#",
+      "D",
+      "O",
+      "E"
+    ],
+    [
+      "I",
+      "R",
+      "E",
+      "#",
+      "H",
+      "E",
+      "A",
+      "R",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "R",
+      "T",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "N",
+      "A",
+      "O",
+      "M",
+      "I",
+      "#",
+      "B",
+      "U",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "I",
+      "M",
+      "P",
+      "O",
+      "S",
+      "T",
+      "U",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "E",
+      "E",
+      "#",
+      "H",
+      "A",
+      "S",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "H",
+      "E",
+      "S",
+      "T",
+      "N",
+      "U",
+      "T"
+    ],
+    [
+      "D",
+      "U",
+      "N",
+      "K",
+      "I",
+      "R",
+      "K",
+      "#",
+      "I",
+      "I",
+      "I"
+    ],
+    [
+      "P",
+      "S",
+      "I",
+      "#",
+      "E",
+      "S",
+      "S",
+      "#",
+      "U",
+      "T",
+      "C"
+    ],
+    [
+      "T",
+      "E",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "Y",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "EMS",
+      "clue": "Plural of em",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of em",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "MORONIC",
+      "clue": "Having a mental age of between eight and twelve years",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having a mental age of between eight and twelve years",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "SEENAME",
+      "clue": "Denomination",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DENOMINATION",
+        "APPELLATION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Name\u201d defines denomination",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "LOS",
+      "clue": "Praise. See Loos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Praise. See Loos",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "POE",
+      "clue": "United States writer and poet (1809-1849)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer and poet (1809-1849)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "CPS",
+      "clue": "Unit of frequency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of frequency",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "CHEMO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "PERISHERS",
+      "clue": "Plural of perisher",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of perisher",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "SAT",
+      "clue": "Seventh and last day of the week",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seventh and last day of the week",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Mature female of mammals of which the male is called `buck'",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "HEAROSE",
+      "clue": "Benediction",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BENEDICTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201che arose\u201d defines benediction",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong, healthy, and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "CONCERTO",
+      "clue": "Composition for orchestra and a soloist",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A musical composition.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "COPECK",
+      "clue": "100 kopecks equal 1 ruble in Russia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "100 kopecks equal 1 ruble in Russia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "NAOMI",
+      "clue": "Mother-in-law of Ruth whose story is told in the Book of Ruth in the Old...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother-in-law of Ruth whose story is told in the Book of Ruth in the Old...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "BUT",
+      "clue": "And nothing more",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "And nothing more",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "URANIUM",
+      "clue": "Heavy toxic silvery-white radioactive metallic element",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavy toxic silvery-white radioactive metallic element",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "TENUITY",
+      "clue": "Quality of lacking intensity or substance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of lacking intensity or substance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "IMPOSTURE",
+      "clue": "Pretending to be another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pretending to be another person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "TASKS",
+      "clue": "Plural of task",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of task",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "CEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "HASAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "CHESTNUT",
+      "clue": "Dark golden-brown or reddish-brown horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dark golden-brown or reddish-brown horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "HIE",
+      "clue": "Move fast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move fast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TICS",
+      "clue": "Plural of tic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tic",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "DUNKIRK",
+      "clue": "Amphibious evacuation in World War II (1940) when 330,000 Allied troops had...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amphibious evacuation in World War II (1940) when 330,000 Allied troops had...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "DPT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "III",
+      "clue": "Cardinal number that is the sum of one and one and one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the sum of one and one and one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "PSI",
+      "clue": "23rd letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Plural of es",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of es",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "UTC",
+      "clue": "Greenwich Mean Time updated with leap seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greenwich Mean Time updated with leap seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "TEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "MYS",
+      "clue": "Plural of my",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of my",
+      "clueSource": "inflection"
+    }
+  ]
+}

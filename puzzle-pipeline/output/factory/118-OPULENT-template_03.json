@@ -1,0 +1,821 @@
+{
+  "date": "2027-04-28",
+  "number": 1117,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "G",
+      "A",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O"
+    ],
+    [
+      "O",
+      "N",
+      "E",
+      "#",
+      "B",
+      "I",
+      "G",
+      "#",
+      "S",
+      "U",
+      "U"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "#",
+      "O",
+      "P",
+      "U",
+      "L",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "D",
+      "I",
+      "M",
+      "E",
+      "T",
+      "H",
+      "Y",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "R",
+      "I",
+      "S",
+      "H",
+      "I",
+      "#",
+      "A",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "O",
+      "C",
+      "T",
+      "A",
+      "G",
+      "O",
+      "N",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "N",
+      "A",
+      "A",
+      "#",
+      "E",
+      "P",
+      "O",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "U",
+      "N",
+      "I",
+      "S",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "U",
+      "S",
+      "H",
+      "E",
+      "R",
+      "I",
+      "N",
+      "#",
+      "A",
+      "N",
+      "A"
+    ],
+    [
+      "S",
+      "A",
+      "A",
+      "#",
+      "N",
+      "A",
+      "E",
+      "#",
+      "T",
+      "O",
+      "D"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "GAS",
+      "clue": "Pedal that controls the throttle valve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pedal that controls the throttle valve",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "GOOD",
+      "clue": "Benevolent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BENEVOLENT",
+        "ADEPT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of benevolent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "ANDIRON",
+      "clue": "Metal supports for logs in a fireplace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal supports for logs in a fireplace",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "SEEMICA",
+      "clue": "Glimmer",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "GLIMMER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Mica\u201d defines glimmer",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Mound or small hill. To cure, as codfish, in a particular manner,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "OUT",
+      "clue": "Failure by a batter or runner to reach a base safely in baseball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Failure by a batter or runner to reach a base safely in baseball",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "BIG",
+      "clue": "Conspicuous in position or importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conspicuous in position or importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "BOTHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "IPHIGENIA",
+      "clue": "Daughter of Clytemnestra and Agamemnon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Daughter of Clytemnestra and Agamemnon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Rope, chain, or rod attached to anything to steady it",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SUU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Showing great wealth; lavish; luxurious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "LLANOS",
+      "clue": "Plural of llano",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of llano",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "DIMETHYL",
+      "clue": "Ethane",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ethane",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "ESTATE",
+      "clue": "Major social class or order of persons regarded collectively as part of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major social class or order of persons regarded collectively as part of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "RISHI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "RADIATE",
+      "clue": "Emit rays",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To extend in all directions, as from a source or focus.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ELEANOR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "OCTAGONAL",
+      "clue": "Of or relating to or shaped like an octagon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or shaped like an octagon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OPINE",
+      "clue": "Expect, believe, or suppose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expect, believe, or suppose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "NAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "EPODE",
+      "clue": "After song",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A species of lyric poems.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "TUNISIAN",
+      "clue": "Native or inhabitant of Tunisia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native or inhabitant of Tunisia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "URN",
+      "clue": "Large vase that usually has a pedestal or feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large vase that usually has a pedestal or feet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "NADA",
+      "clue": "Quantity of no importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quantity of no importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "USHERIN",
+      "clue": "Induct",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INDUCT",
+        "HARBINGER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cusher in\u201d defines induct",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ANA",
+      "clue": "Collection of anecdotes about a person or place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of anecdotes about a person or place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "SAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "TOD",
+      "clue": "Unit of weight for wool equal to about 28 pounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of weight for wool equal to about 28 pounds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    }
+  ]
+}

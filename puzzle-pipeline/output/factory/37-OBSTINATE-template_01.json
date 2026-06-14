@@ -1,0 +1,893 @@
+{
+  "date": "2027-02-06",
+  "number": 1036,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "I",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "H",
+      "A",
+      "D"
+    ],
+    [
+      "R",
+      "I",
+      "S",
+      "O",
+      "T",
+      "T",
+      "O",
+      "#",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "T",
+      "R",
+      "I",
+      "B",
+      "U",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "N",
+      "S",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "O",
+      "K",
+      "E",
+      "#",
+      "T",
+      "E",
+      "R",
+      "N",
+      "S"
+    ],
+    [
+      "G",
+      "L",
+      "E",
+      "N",
+      "N",
+      "#",
+      "I",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "A",
+      "N",
+      "#",
+      "N",
+      "I",
+      "G",
+      "H",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "I",
+      "S",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "P",
+      "A",
+      "S",
+      "T",
+      "A",
+      "G",
+      "E",
+      "S"
+    ],
+    [
+      "C",
+      "A",
+      "I",
+      "#",
+      "L",
+      "E",
+      "E",
+      "W",
+      "A",
+      "R",
+      "D"
+    ],
+    [
+      "E",
+      "X",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ARID",
+      "clue": "Exhausted of moisture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very dry.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ARC",
+      "clue": "Electrical conduction through a gas in an applied electric field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrical conduction through a gas in an applied electric field",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "RIO",
+      "clue": "Former capital and 2nd largest city of Brazil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former capital and 2nd largest city of Brazil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "ISN",
+      "clue": "Switzerland's information network for security and defense studies and for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Switzerland's information network for security and defense studies and for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "DOT",
+      "clue": "Street name for lysergic acid diethylamide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street name for lysergic acid diethylamide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "HOT",
+      "clue": "Ardent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of ardent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "DER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "RISOTTO",
+      "clue": "Rice cooked with broth and sprinkled with grated cheese",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rice cooked with broth and sprinkled with grated cheese",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "TRIENNIAL",
+      "clue": "Continuing three years",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Taking place every third year.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "TIN",
+      "clue": "Airtight sealed metal container for food or drink or paint etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airtight sealed metal container for food or drink or paint etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Stubbornly set in one's ways",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CONTRIBUTOR",
+      "clue": "One who gives or furnishes, in common with others, for a common",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who gives or furnishes, in common with others, for a common purpose.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "UTERI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "INST",
+      "clue": "In or of the present month",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the present month",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "COOKE",
+      "clue": "United States financier who marketed Union bonds to finance the American Civil...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States financier who marketed Union bonds to finance the American Civil...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "CGS",
+      "clue": "System of measurement based on centimeters and grams and seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "System of measurement based on centimeters and grams and seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "OLA",
+      "clue": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "OER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "KNAPP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "TERNS",
+      "clue": "Plural of tern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tern",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "RAG",
+      "clue": "Boisterous practical joke (especially by college students)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boisterous practical joke (especially by college students)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "NTH",
+      "clue": "Last or greatest in an indefinitely large series",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Last or greatest in an indefinitely large series",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "GLENN",
+      "clue": "Made the first orbital rocket-powered flight by a United States astronaut in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made the first orbital rocket-powered flight by a United States astronaut in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "IRATE",
+      "clue": "Angry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Moved to anger.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SARAN",
+      "clue": "Any of various thermoplastic resins used to make things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various thermoplastic resins used to make things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "NIGHT",
+      "clue": "Roman goddess of night",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman goddess of night",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "PISA",
+      "clue": "City in Tuscany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Tuscany",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass point midway between south and southeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ALLPASTAGES",
+      "clue": "Cite",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CITE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201call past ages\u201d defines cite",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Serve that the receiver is unable to reach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that the receiver is unable to reach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "LAX",
+      "clue": "Not tense, firm, or rigid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not stringent or energetic.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "LIP",
+      "clue": "Either the outer margin or the inner margin of the aperture of a gastropod's...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either the outer margin or the inner margin of the aperture of a gastropod's...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "AWE",
+      "clue": "Overwhelming feeling of wonder or admiration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overwhelming feeling of wonder or admiration",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "GAR",
+      "clue": "Elongate European surface-dwelling predacious fishes with long toothed jaws",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elongate European surface-dwelling predacious fishes with long toothed jaws",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SDS",
+      "clue": "Plural of sd",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sd",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "CAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "LEEWARD",
+      "clue": "Pertaining to, or in the direction of, the part or side toward which...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That side or direction toward which the wind blows.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EXP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "Plural of era",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of era",
+      "clueSource": "inflection"
+    }
+  ]
+}

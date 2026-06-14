@@ -1,0 +1,818 @@
+{
+  "date": "2027-02-21",
+  "number": 1051,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "R",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "R",
+      "G"
+    ],
+    [
+      "L",
+      "I",
+      "I",
+      "#",
+      "A",
+      "C",
+      "E",
+      "#",
+      "F",
+      "E",
+      "E"
+    ],
+    [
+      "M",
+      "P",
+      "G",
+      "#",
+      "G",
+      "I",
+      "R",
+      "A",
+      "F",
+      "F",
+      "E"
+    ],
+    [
+      "S",
+      "P",
+      "R",
+      "A",
+      "I",
+      "N",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "L",
+      "A",
+      "D",
+      "L",
+      "E",
+      "#",
+      "O",
+      "C",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "P",
+      "H",
+      "E",
+      "M",
+      "E",
+      "R",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "H",
+      "E",
+      "#",
+      "A",
+      "V",
+      "E",
+      "R",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "T",
+      "E",
+      "S",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "U",
+      "S",
+      "H",
+      "E",
+      "R",
+      "I",
+      "N",
+      "#",
+      "O",
+      "R",
+      "E"
+    ],
+    [
+      "S",
+      "A",
+      "A",
+      "#",
+      "A",
+      "C",
+      "T",
+      "#",
+      "N",
+      "E",
+      "B"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "D",
+      "I"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ERD",
+      "clue": "Earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ELMS",
+      "clue": "Plural of elm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of elm",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "RIPPLET",
+      "clue": "Small ripple",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small ripple, as of water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "DIGRAPH",
+      "clue": "Two signs or characters combined to express a single articulated sound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A union of two characters representing a single sound.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ORG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OFF",
+      "clue": "In a general sense, denoting from or away from",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Farther or more distant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "REF",
+      "clue": "Chief official (as in boxing or American football) who is expected to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief official (as in boxing or American football) who is expected to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "GEE",
+      "clue": "Unit of force equal to the force exerted by gravity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of force equal to the force exerted by gravity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "LII",
+      "clue": "Being two more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Serve that the receiver is unable to reach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that the receiver is unable to reach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Having the faculty of quick motion in the limbs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CINEMATIC",
+      "clue": "Of or pertaining to or characteristic of the cinema",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to or characteristic of the cinema",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "FEE",
+      "clue": "Interest in land capable of being inherited",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interest in land capable of being inherited",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MPG",
+      "clue": "Fuel efficiency unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fuel efficiency unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "GIRAFFE",
+      "clue": "Tallest living quadruped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tallest living quadruped",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "ADORES",
+      "clue": "Plural of adore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of adore",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "SPRAINED",
+      "clue": "Past tense of sprain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of sprain",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "ADHERE",
+      "clue": "Stick fast or cleave, as a glutinous substance does",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To stick fast or together.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "LADLE",
+      "clue": "Spoon-shaped vessel with a long handle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A cup-shaped vessel with a long handle, intended for dipping up and pouring",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "OCA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "CARTONS",
+      "clue": "Plural of carton",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of carton",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ALTERED",
+      "clue": "Changed in form or character without becoming something else",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changed in form or character without becoming something else",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "EPHEMERAL",
+      "clue": "Lasting a very short time",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "lasting for a very short time",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "EVENT",
+      "clue": "Something that happens at a given place and time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that happens at a given place and time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "Turn aside, or away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To turn away or aside.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "RETESTED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DEBI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "USHERIN",
+      "clue": "Induct",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INDUCT",
+        "HARBINGER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cusher in\u201d defines induct",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "SAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "NEB",
+      "clue": "Horny projecting mouth of a bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horny projecting mouth of a bird",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

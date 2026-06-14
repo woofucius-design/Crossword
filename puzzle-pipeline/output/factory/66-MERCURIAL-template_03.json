@@ -1,0 +1,815 @@
+{
+  "date": "2027-03-07",
+  "number": 1065,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "S"
+    ],
+    [
+      "U",
+      "I",
+      "T",
+      "#",
+      "S",
+      "O",
+      "L",
+      "#",
+      "E",
+      "D",
+      "S"
+    ],
+    [
+      "M",
+      "O",
+      "O",
+      "#",
+      "T",
+      "U",
+      "I",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "M",
+      "O",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "G",
+      "A",
+      "I",
+      "N",
+      "#",
+      "A",
+      "M",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "M",
+      "E",
+      "R",
+      "C",
+      "U",
+      "R",
+      "I",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "K",
+      "#",
+      "M",
+      "O",
+      "T",
+      "E",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "M",
+      "B",
+      "O",
+      "S",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "P",
+      "I",
+      "T",
+      "H",
+      "E",
+      "T",
+      "#",
+      "T",
+      "R",
+      "Y"
+    ],
+    [
+      "N",
+      "O",
+      "R",
+      "#",
+      "O",
+      "R",
+      "S",
+      "#",
+      "R",
+      "E",
+      "C"
+    ],
+    [
+      "D",
+      "O",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "D",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "BDS",
+      "clue": "Plural of bd",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bd",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BUMP",
+      "clue": "Impact (as from a collision)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Impact (as from a collision)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "DIORAMA",
+      "clue": "Picture (or series of pictures) representing a continuous scene",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Picture (or series of pictures) representing a continuous scene",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "STOOGES",
+      "clue": "Plural of stooge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stooge",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "LAS",
+      "clue": "Lace. See Lace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lace. See Lace",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "UIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The sun.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Enduring hardship without showing feelings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "OUTNUMBER",
+      "clue": "Be larger in number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be larger in number",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "LIE",
+      "clue": "Statement that deviates from or perverts the truth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Statement that deviates from or perverts the truth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MOO",
+      "clue": "Sound made by a cow or bull",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound made by a cow or bull",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "TUITION",
+      "clue": "Teaching pupils individually (usually by a tutor hired privately)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Teaching pupils individually (usually by a tutor hired privately)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "TRAITS",
+      "clue": "Plural of trait",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of trait",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "PROMOTER",
+      "clue": "Furtherer, forwarder, or encourager",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A furtherer, forwarder, or encourager.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "MARKET",
+      "clue": "World of commercial activity where goods and services are bought and sold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "World of commercial activity where goods and services are bought and sold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "AGAIN",
+      "clue": "Anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "MAESTRO",
+      "clue": "Artist of consummate skill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artist of consummate skill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ALTERED",
+      "clue": "Changed in form or character without becoming something else",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changed in form or character without becoming something else",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "MERCURIAL",
+      "clue": "Subject to sudden or unpredictable mood changes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "subject to sudden or unpredictable mood changes",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ROOTS",
+      "clue": "Condition of belonging to a particular place or group by virtue of social...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condition of belonging to a particular place or group by virtue of social...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MOTET",
+      "clue": "Unaccompanied choral composition with sacred lyrics",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unaccompanied choral composition with sacred lyrics",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "EMBOSSED",
+      "clue": "Embellished with a raised pattern created by pressure or embroidery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Embellished with a raised pattern created by pressure or embroidery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "MHO",
+      "clue": "Unit of conductance equal to the reciprocal of an ohm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of conductance equal to the reciprocal of an ohm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DYCE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "EPITHET",
+      "clue": "Word used adjectivally to describe some quality or attribute of is objects, as",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Word used adjectivally to describe some quality or attribute of is objects, as",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "POO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "TRY",
+      "clue": "Earnest and conscientious activity intended to do or accomplish something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earnest and conscientious activity intended to do or accomplish something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "NOR",
+      "clue": "Negative connective or particle, introducing the second member or clause of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negative connective or particle, introducing the second member or clause of a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ORS",
+      "clue": "Plural of or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "REC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Female of the deer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

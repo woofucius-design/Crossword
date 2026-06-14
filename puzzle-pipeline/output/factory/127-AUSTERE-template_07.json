@@ -1,0 +1,776 @@
+{
+  "date": "2027-05-07",
+  "number": 1126,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "A",
+      "T",
+      "O",
+      "N",
+      "#",
+      "B",
+      "R",
+      "I",
+      "B",
+      "E"
+    ],
+    [
+      "I",
+      "R",
+      "A",
+      "N",
+      "I",
+      "#",
+      "L",
+      "I",
+      "D",
+      "A",
+      "R"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "L",
+      "A",
+      "I",
+      "M",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "E",
+      "A",
+      "S",
+      "E",
+      "#",
+      "U",
+      "T",
+      "M",
+      "O",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "N",
+      "E",
+      "R",
+      "#",
+      "N",
+      "A",
+      "S",
+      "A"
+    ],
+    [
+      "N",
+      "O",
+      "N",
+      "C",
+      "L",
+      "E",
+      "R",
+      "I",
+      "C",
+      "A",
+      "L"
+    ],
+    [
+      "I",
+      "S",
+      "S",
+      "E",
+      "I",
+      "#",
+      "U",
+      "S",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "T",
+      "H",
+      "I",
+      "R",
+      "D",
+      "#",
+      "E",
+      "I",
+      "D",
+      "O",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "BATON",
+      "clue": "Staff or truncheon, used for various purposes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An official staff borne either as a weapon or as an emblem of authority or",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BIDE",
+      "clue": "Await",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To await.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ARIA",
+      "clue": "Elaborate song for solo voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elaborate song for solo voice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "TASS",
+      "clue": "Plural of tas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tas",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ONCE",
+      "clue": "On one occasion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On one occasion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "BRIBE",
+      "clue": "Payment made to a person in a position of trust to corrupt his judgment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Payment made to a person in a position of trust to corrupt his judgment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "BLITHE",
+      "clue": "Gay",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Joyous.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "RIMMER",
+      "clue": "Implement for cutting, trimming, or ornamenting the rim of anything, as the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Implement for cutting, trimming, or ornamenting the rim of anything, as the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "IDEO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BARS",
+      "clue": "Gymnastic apparatus consisting of two parallel wooden rods supported on uprights",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gymnastic apparatus consisting of two parallel wooden rods supported on uprights",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "IRANI",
+      "clue": "Native or inhabitant of Iran",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native or inhabitant of Iran",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LIDAR",
+      "clue": "Measuring system that detects and locates objects on the same principle as...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring system that detects and locates objects on the same principle as...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DISCLAIMERS",
+      "clue": "Plural of disclaimer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of disclaimer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Sour and astringent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "EASE",
+      "clue": "Freedom from activity (work or strain or responsibility)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freedom from activity (work or strain or responsibility)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "UTMOST",
+      "clue": "Situated at the farthest point or extremity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The greatest possible extent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DETER",
+      "clue": "Prevent by fear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To frighten away.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "DANCER",
+      "clue": "Performer who dances professionally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Performer who dances professionally",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "EYELID",
+      "clue": "Either of two folds of skin that can be moved to cover or open the eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two folds of skin that can be moved to cover or open the eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "INANER",
+      "clue": "One who inanes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who inanes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "INIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "NOSH",
+      "clue": "Snack or light meal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Snack or light meal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ANSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NASA",
+      "clue": "Independent agency of the United States government responsible for aviation...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent agency of the United States government responsible for aviation...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Not final or absolute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not final or absolute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SAGO",
+      "clue": "Powdery starch from certain sago palms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powdery starch from certain sago palms",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "Plural of al",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of al",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "NONCLERICAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ISSEI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "USAGE",
+      "clue": "Act of using",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Treatment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "THIRD",
+      "clue": "Fielding position of the player on a baseball team who is stationed near...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fielding position of the player on a baseball team who is stationed near...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "EIDOS",
+      "clue": "Distinctive expression of the cognitive or intellectual character of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinctive expression of the cognitive or intellectual character of a...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

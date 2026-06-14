@@ -1,0 +1,822 @@
+{
+  "date": "2027-01-06",
+  "number": 1005,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "A",
+      "G",
+      "E",
+      "R",
+      "S",
+      "#",
+      "U",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "I",
+      "Q",
+      "U",
+      "E",
+      "#",
+      "S",
+      "E",
+      "C",
+      "T"
+    ],
+    [
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T",
+      "#",
+      "A",
+      "E",
+      "O",
+      "N"
+    ],
+    [
+      "K",
+      "N",
+      "E",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "G"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "I",
+      "B",
+      "A",
+      "L",
+      "D",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "T",
+      "R",
+      "A",
+      "I",
+      "N",
+      "E",
+      "D",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "Y",
+      "N",
+      "T",
+      "A",
+      "X",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "Y",
+      "E",
+      "#",
+      "#",
+      "#",
+      "L",
+      "I",
+      "D",
+      "O",
+      "S"
+    ],
+    [
+      "D",
+      "O",
+      "T",
+      "S",
+      "#",
+      "B",
+      "O",
+      "C",
+      "C",
+      "I",
+      "E"
+    ],
+    [
+      "O",
+      "U",
+      "S",
+      "T",
+      "#",
+      "E",
+      "G",
+      "O",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "D",
+      "#",
+      "L",
+      "Y",
+      "N",
+      "X",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "LAGERS",
+      "clue": "Plural of lager",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lager",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LURK",
+      "clue": "Wait in hiding to attack",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wait in hiding to attack",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANON",
+      "clue": "In a little while",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a little while",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Utter taunts or reproaches",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "EQUERRY",
+      "clue": "Personal attendant of the British royal family",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Personal attendant of the British royal family",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "RUSSIAN",
+      "clue": "Slavic language that is the official language of Russia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slavic language that is the official language of Russia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Army of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Army of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "SEEADD",
+      "clue": "Annex",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ANNEX"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Add\u201d defines annex",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ECOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "UNIQUE",
+      "clue": "Being the only one of its kind",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Being the only one of its kind.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "SECT",
+      "clue": "Subdivision of a larger religious group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subdivision of a larger religious group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "TNG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong, healthy, and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "AEON",
+      "clue": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "KNEES",
+      "clue": "Plural of knee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of knee",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "ALG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "RIBALD",
+      "clue": "Indulging in or manifesting coarse indecency or obscenity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Indulging in or manifesting coarse indecency or obscenity.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "BIT",
+      "clue": "Cutting part of a drill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cutting part of a drill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "ANALOGY",
+      "clue": "Reasoning in which from certain and known relations or resemblance others are",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Reasoning in which from certain and known relations or resemblance others are",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "LEXICON",
+      "clue": "Dictionary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A dictionary.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "TRAINED",
+      "clue": "Shaped or conditioned or disciplined by training",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shaped or conditioned or disciplined by training",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "TSETSE",
+      "clue": "Bloodsucking African fly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African fly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "SYNTAX",
+      "clue": "Grammatical arrangement of words in sentences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grammatical arrangement of words in sentences",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "LIDOS",
+      "clue": "Plural of lido",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lido",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "DCIX",
+      "clue": "Roman numeral for 609",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 609",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OISE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SETS",
+      "clue": "Plural of set",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of set",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "DOTS",
+      "clue": "Plural of dot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "BOCCIE",
+      "clue": "Italian bowling played on a long narrow dirt court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian bowling played on a long narrow dirt court",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "BEL",
+      "clue": "Babylonian god of the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Babylonian god of the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "OUST",
+      "clue": "Eject",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To eject.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EGOIST",
+      "clue": "One who advocates or practices egoism",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who advocates or practices egoism.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "RED",
+      "clue": "Red color or pigment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Red color or pigment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "LYNXES",
+      "clue": "Plural of lynx",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lynx",
+      "clueSource": "inflection"
+    }
+  ]
+}

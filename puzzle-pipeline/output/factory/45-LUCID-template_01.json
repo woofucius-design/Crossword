@@ -1,0 +1,891 @@
+{
+  "date": "2027-02-14",
+  "number": 1044,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "S",
+      "H",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "B",
+      "R",
+      "A",
+      "E",
+      "#",
+      "N",
+      "O",
+      "D"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "T",
+      "E",
+      "R",
+      "M",
+      "I",
+      "N",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "C",
+      "B",
+      "M",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "D",
+      "M",
+      "E",
+      "N",
+      "#",
+      "A",
+      "B",
+      "A",
+      "C",
+      "A"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "V",
+      "S",
+      "#",
+      "L",
+      "U",
+      "C",
+      "I",
+      "D"
+    ],
+    [
+      "E",
+      "L",
+      "I",
+      "O",
+      "T",
+      "#",
+      "M",
+      "E",
+      "T",
+      "R",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "K",
+      "A",
+      "M",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "K",
+      "E",
+      "T",
+      "A",
+      "N",
+      "G",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "F",
+      "A",
+      "E",
+      "#",
+      "E",
+      "N",
+      "G",
+      "R",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "G",
+      "U",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "V",
+      "E",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ASHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "HEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ABT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ANN",
+      "clue": "Half years's stipend, over and above what is owing for the incumbency, due to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Half years's stipend, over and above what is owing for the incumbency, due to...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "SEEBRAE",
+      "clue": "Bray",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BRAY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Brae\u201d defines bray",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "REINSTATE",
+      "clue": "Restore to a former state, station, or authority",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To restore to a former state, station, or authority.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "ARC",
+      "clue": "Electrical conduction through a gas in an applied electric field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrical conduction through a gas in an applied electric field",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "EMBALMING",
+      "clue": "Present participle of embalm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of embalm",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "NOD",
+      "clue": "Act of nodding the head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of nodding the head",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SEETERMINUS",
+      "clue": "Terminal",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TERMINAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Terminus\u201d defines terminal",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "IMBUE",
+      "clue": "Suffuse with color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suffuse with color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "ICBM",
+      "clue": "Ballistic missile that is capable of traveling from one continent to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ballistic missile that is capable of traveling from one continent to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "ADMEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "MRI",
+      "clue": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "EVOKE",
+      "clue": "Call or summon forth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To call or summon forth.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "ABACA",
+      "clue": "Philippine banana tree having leafstalks that yield Manila hemp used for rope...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Philippine banana tree having leafstalks that yield Manila hemp used for rope...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "CIR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "PERVS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clearly expressed; easy to follow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ELIOT",
+      "clue": "British writer of novels characterized by realistic analysis of provincial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British writer of novels characterized by realistic analysis of provincial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "METRO",
+      "clue": "Electric railway operating below the surface of the ground (usually in a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electric railway operating below the surface of the ground (usually in a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "KAMI",
+      "clue": "One the Shinto deities (including mythological beings, spirits of distinguished...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One the Shinto deities (including mythological beings, spirits of distinguished...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "MAN",
+      "clue": "Any living or extinct member of the family Hominidae characterized by superior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any living or extinct member of the family Hominidae characterized by superior...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MAKETANGLED",
+      "clue": "Entangle",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ENTANGLE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cmake tangled\u201d defines entangle",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "MFG",
+      "clue": "Manufacturing, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Manufacturing, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "AAU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "KEY",
+      "clue": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "GRE",
+      "clue": "See Gree, a step",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Gree, a step",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "LAV",
+      "clue": "Room or building equipped with one or more toilets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Room or building equipped with one or more toilets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "DEN",
+      "clue": "Room that is comfortable and secluded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Room that is comfortable and secluded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "FAE",
+      "clue": "Device consisting of a container of fuel and two explosive charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device consisting of a container of fuel and two explosive charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "ENGRAVE",
+      "clue": "Cut or carve in or upon some surface",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cut or carve in or upon some surface.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "EVEN",
+      "clue": "Latter part of the day (the period of decreasing daylight from late...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Latter part of the day (the period of decreasing daylight from late...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

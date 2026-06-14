@@ -1,0 +1,855 @@
+{
+  "date": "2027-03-14",
+  "number": 1072,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "I",
+      "S",
+      "H",
+      "A",
+      "#",
+      "P",
+      "Y",
+      "E",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "U",
+      "R",
+      "D",
+      "#",
+      "R",
+      "O",
+      "V",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "A",
+      "R",
+      "S",
+      "E",
+      "J",
+      "O",
+      "K",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "A",
+      "I",
+      "#",
+      "#",
+      "P",
+      "O",
+      "T",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "A",
+      "N",
+      "#",
+      "T",
+      "H",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "H",
+      "O",
+      "W",
+      "#",
+      "N",
+      "I",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "I",
+      "M",
+      "#",
+      "N",
+      "I",
+      "L",
+      "#"
+    ],
+    [
+      "D",
+      "R",
+      "O",
+      "W",
+      "S",
+      "Y",
+      "#",
+      "#",
+      "P",
+      "A",
+      "L"
+    ],
+    [
+      "T",
+      "H",
+      "R",
+      "I",
+      "C",
+      "E",
+      "H",
+      "A",
+      "P",
+      "P",
+      "Y"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "L",
+      "#",
+      "R",
+      "E",
+      "C",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "D",
+      "#",
+      "S",
+      "W",
+      "E",
+      "D",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AISHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ABOARD",
+      "clue": "On first or second or third base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On first or second or third base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ISAIAH",
+      "clue": "Old Testament book consisting of Isaiah's prophecies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old Testament book consisting of Isaiah's prophecies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SUR",
+      "clue": "Port in southern Lebanon on the Mediterranean Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port in southern Lebanon on the Mediterranean Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "HRS",
+      "clue": "Plural of hr",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of hr",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Highly skilled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "PYE",
+      "clue": "See 2d Pie (b)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See 2d Pie (b)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PROTEIN",
+      "clue": "Any of a large group of nitrogenous organic compounds that are essential...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of a large group of nitrogenous organic compounds that are essential...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "YOKE",
+      "clue": "Stable gear that joins two draft animals at the neck so they can work together...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stable gear that joins two draft animals at the neck so they can work together...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EVEN",
+      "clue": "Latter part of the day (the period of decreasing daylight from late...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Latter part of the day (the period of decreasing daylight from late...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSURD",
+      "clue": "Contrary to reason or propriety",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Inconsistent with reason or common sense.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ROVE",
+      "clue": "Move about aimlessly or without any destination, often in search of food or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move about aimlessly or without any destination, often in search of food or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "COARSEJOKES",
+      "clue": "Buffoonery",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BUFFOONERY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccoarse jokes\u201d defines buffoonery",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "JOHN",
+      "clue": "Room or building equipped with one or more toilets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Room or building equipped with one or more toilets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "TAI",
+      "clue": "Most widespread and best known of the Kadai family of languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most widespread and best known of the Kadai family of languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "POTENT",
+      "clue": "Producing great physical effects",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Physically powerful.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "RAN",
+      "clue": "Imp. of Run. Open robbery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. of Run. Open robbery",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "NOTWILD",
+      "clue": "Staid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STAID"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cnot wild\u201d defines staid",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "DHOW",
+      "clue": "Lateen-rigged sailing vessel used by Arabs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lateen-rigged sailing vessel used by Arabs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "WISC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "NINE",
+      "clue": "One of four playing cards in a deck with nine pips on the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck with nine pips on the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "NIPPED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "Slip or glide away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "TIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MYERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "DROWSY",
+      "clue": "Inclined to drowse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Heavy with sleepiness.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DTP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RHEA",
+      "clue": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OREM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "PAL",
+      "clue": "Close friend who accompanies his buddies in their activities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Close friend who accompanies his buddies in their activities",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "LYS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "THRICEHAPPY",
+      "clue": "Persevere",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PERSEVERE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cThrice happy\u201d defines persevere",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "HEW",
+      "clue": "Strike with an axe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strike with an axe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Serve that the receiver is unable to reach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that the receiver is unable to reach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "PEEL",
+      "clue": "Rind of a fruit or vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rind of a fruit or vegetable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "RECESS",
+      "clue": "Pause from doing something (as work)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pause from doing something (as work)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AMD",
+      "clue": "Macular degeneration that is age-related",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macular degeneration that is age-related",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SWEDE",
+      "clue": "Large yellow root of a rutabaga plant used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large yellow root of a rutabaga plant used as food",
+      "clueSource": "wordnet"
+    }
+  ]
+}

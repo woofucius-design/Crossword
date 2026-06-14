@@ -1,0 +1,816 @@
+{
+  "date": "2027-02-19",
+  "number": 1049,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "O",
+      "R",
+      "S",
+      "C",
+      "H",
+      "#",
+      "N",
+      "E",
+      "G",
+      "#"
+    ],
+    [
+      "A",
+      "P",
+      "A",
+      "C",
+      "H",
+      "E",
+      "#",
+      "O",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "N",
+      "A",
+      "T",
+      "H",
+      "A",
+      "N",
+      "#",
+      "V",
+      "O",
+      "I",
+      "D"
+    ],
+    [
+      "S",
+      "L",
+      "E",
+      "E",
+      "P",
+      "#",
+      "#",
+      "#",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "S",
+      "S",
+      "R",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "A",
+      "L",
+      "C",
+      "I",
+      "U",
+      "M",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "I",
+      "G",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "U",
+      "N",
+      "#",
+      "#",
+      "#",
+      "N",
+      "O",
+      "M",
+      "A",
+      "D"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "E",
+      "#",
+      "N",
+      "O",
+      "V",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "I",
+      "C",
+      "O",
+      "N",
+      "#",
+      "I",
+      "R",
+      "E",
+      "N",
+      "I",
+      "C"
+    ],
+    [
+      "#",
+      "I",
+      "R",
+      "E",
+      "#",
+      "L",
+      "A",
+      "R",
+      "E",
+      "D",
+      "O"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "BORSCH",
+      "clue": "Russian or Polish soup usually containing beet juice as a foundation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian or Polish soup usually containing beet juice as a foundation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BANS",
+      "clue": "Plural of ban",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ban",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "OPAL",
+      "clue": "Translucent mineral consisting of hydrated silica of variable color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Translucent mineral consisting of hydrated silica of variable color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "RATE",
+      "clue": "Relative speed of progress or change",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relative speed of progress or change",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "SCHEMAS",
+      "clue": "Plural of schema",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of schema",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "CHAPELS",
+      "clue": "Plural of chapel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of chapel",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "HEN",
+      "clue": "Female of certain aquatic animals e.g. octopus or lobster",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female of certain aquatic animals e.g. octopus or lobster",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "NEG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "NOV",
+      "clue": "Month following October and preceding December",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following October and preceding December",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "EGOISM",
+      "clue": "Concern for your own interests and welfare",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The theory that places man's chief good in the completeness of self.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "GRIT",
+      "clue": "Tenacity",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TENACITY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of tenacity",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "APACHE",
+      "clue": "Language of the Apache",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language of the Apache",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "NATHAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "VOID",
+      "clue": "Empty area or space",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Empty area or space",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SLEEP",
+      "clue": "Euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Euphemisms for death (based on an analogy between lying in a bed and in a tomb)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "MESSRS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "SIGNORA",
+      "clue": "Italian title or form of address for a married woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian title or form of address for a married woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "RUNOVER",
+      "clue": "Overrun",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OVERRUN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201crun over\u201d defines overrun",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "CALCIUM",
+      "clue": "White metallic element that burns with a brilliant light",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White metallic element that burns with a brilliant light",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Quality of being open, honest, and direct",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ASSIGN",
+      "clue": "Select something or someone for a specific purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Select something or someone for a specific purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Of a dull greyish brown to brownish grey color",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DEI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "UNCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NOMAD",
+      "clue": "Member of a people who have no permanent home but move about according to the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having no fixed abode.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MINE",
+      "clue": "Explosive device that explodes on contact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Explosive device that explodes on contact",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ACID",
+      "clue": "Having the characteristics of an acid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A sour substance.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DECO",
+      "clue": "Style of design that was popular in the 1920s and 1930s",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Style of design that was popular in the 1920s and 1930s",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ENDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point midway between northeast and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between northeast and east",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Person new to and inexperienced in a field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Conventional religious painting in oil on a small wooden panel",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "IRENIC",
+      "clue": "Conducive to peace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conducive to peace",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "LAREDO",
+      "clue": "City in southern Texas on the Rio Grande",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in southern Texas on the Rio Grande",
+      "clueSource": "wordnet"
+    }
+  ]
+}

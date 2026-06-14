@@ -1,0 +1,813 @@
+{
+  "date": "2027-05-13",
+  "number": 1132,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "G",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "A",
+      "A"
+    ],
+    [
+      "N",
+      "A",
+      "E",
+      "#",
+      "O",
+      "P",
+      "T",
+      "#",
+      "S",
+      "Y",
+      "N"
+    ],
+    [
+      "D",
+      "I",
+      "L",
+      "#",
+      "T",
+      "R",
+      "O",
+      "C",
+      "H",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "A",
+      "T",
+      "H",
+      "E",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "P",
+      "E",
+      "E",
+      "D",
+      "#",
+      "N",
+      "I",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "T",
+      "R",
+      "A",
+      "D",
+      "D",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "Y",
+      "E",
+      "R",
+      "#",
+      "T",
+      "H",
+      "O",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "P",
+      "I",
+      "A",
+      "R",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "F",
+      "O",
+      "R",
+      "S",
+      "O",
+      "O",
+      "K",
+      "#",
+      "C",
+      "I",
+      "E"
+    ],
+    [
+      "E",
+      "T",
+      "H",
+      "#",
+      "D",
+      "N",
+      "A",
+      "#",
+      "I",
+      "D",
+      "S"
+    ],
+    [
+      "Z",
+      "O",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "AGR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ANDA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "GAINSAY",
+      "clue": "Take exception to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take exception to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "RELAPSE",
+      "clue": "Slip or slide back, in a literal sense",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To suffer a return of a disease after partial recovery.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AAA",
+      "clue": "Aneurysm of the abdominal aorta associated with old age and hypertension",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aneurysm of the abdominal aorta associated with old age and hypertension",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ANE",
+      "clue": "Used of a single unit or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used of a single unit or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "OPT",
+      "clue": "Select as an alternative over another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Select as an alternative over another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "OTHER",
+      "clue": "Very unusual",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very unusual",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "PREDATION",
+      "clue": "Act of preying by a predator who kills and eats the prey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of preying by a predator who kills and eats the prey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TOM",
+      "clue": "Male turkey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male turkey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "DIL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "TROCHEE",
+      "clue": "Metrical unit with stressed-unstressed syllables",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metrical unit with stressed-unstressed syllables",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Frankness; honesty in expression",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "ANATHEMA",
+      "clue": "Ban or curse pronounced with religious solemnity by ecclesiastical...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Anything forbidden, as by social usage.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "TETRAS",
+      "clue": "Plural of tetra",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tetra",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "SPEED",
+      "clue": "Changing location rapidly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changing location rapidly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ILLICIT",
+      "clue": "Not permitted or allowed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Unlawful.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "LEESIDE",
+      "clue": "Leeward",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LEEWARD"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clee side\u201d defines leeward",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ASTRADDLE",
+      "clue": "With one leg on each side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "With one leg on each side",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "DHAKA",
+      "clue": "Capital and largest city of Bangladesh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Bangladesh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "YER",
+      "clue": "Ere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ere",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "THOLE",
+      "clue": "Holder attached to the gunwale of a boat that holds the oar in place and acts...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Holder attached to the gunwale of a boat that holds the oar in place and acts...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "APIARIST",
+      "clue": "Farmer who keeps bees for their honey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farmer who keeps bees for their honey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "POD",
+      "clue": "Detachable container of fuel on an airplane",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Detachable container of fuel on an airplane",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TEST",
+      "clue": "Act of testing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of testing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "FORSOOK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "FEZ",
+      "clue": "Brimless felt cap in the shape of a truncated cone, usually red",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A brimless felt cap in the shape of a truncated cone, usually red with a black",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "OTO",
+      "clue": "Dialect of the Chiwere language spoken by the Oto",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dialect of the Chiwere language spoken by the Oto",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "RHO",
+      "clue": "17th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "17th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "CIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ETH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "IDS",
+      "clue": "Plural of id",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of id",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ZOO",
+      "clue": "Facility where wild animals are housed for exhibition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Facility where wild animals are housed for exhibition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "TET",
+      "clue": "New Year in Vietnam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "New Year in Vietnam",
+      "clueSource": "wordnet"
+    }
+  ]
+}

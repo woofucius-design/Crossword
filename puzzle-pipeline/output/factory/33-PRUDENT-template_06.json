@@ -1,0 +1,857 @@
+{
+  "date": "2027-02-02",
+  "number": 1032,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "M",
+      "E",
+      "A",
+      "R",
+      "S",
+      "#",
+      "I",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "C",
+      "A",
+      "N",
+      "Y",
+      "O",
+      "U",
+      "#",
+      "T",
+      "O",
+      "P"
+    ],
+    [
+      "P",
+      "R",
+      "U",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "L",
+      "I",
+      "S",
+      "P",
+      "#",
+      "D",
+      "U",
+      "P",
+      "L",
+      "E",
+      "X"
+    ],
+    [
+      "A",
+      "B",
+      "E",
+      "L",
+      "#",
+      "O",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "A",
+      "I",
+      "#",
+      "E",
+      "N",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "O",
+      "O",
+      "#",
+      "A",
+      "N",
+      "A",
+      "T"
+    ],
+    [
+      "S",
+      "P",
+      "E",
+      "E",
+      "D",
+      "S",
+      "#",
+      "N",
+      "I",
+      "P",
+      "A"
+    ],
+    [
+      "H",
+      "I",
+      "M",
+      "#",
+      "I",
+      "C",
+      "E",
+      "C",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "O",
+      "K",
+      "I",
+      "#",
+      "N",
+      "A",
+      "V",
+      "E",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "W",
+      "E",
+      "T",
+      "#",
+      "E",
+      "R",
+      "A",
+      "S",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SMEARS",
+      "clue": "Plural of smear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of smear",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SCRIBE",
+      "clue": "One who writes or is skilled in writing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who writes or is skilled in writing.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "MAUSER",
+      "clue": "Trademark for a repeating rifle or pistol",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trademark for a repeating rifle or pistol",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "ENDPLATE",
+      "clue": "Flattened end of a motor neuron that transmits neural impulses to a muscle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flattened end of a motor neuron that transmits neural impulses to a muscle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "RONDO",
+      "clue": "Musical composition during which the first part or subject is",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A musical composition during which the first part or subject is repeated several",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "SUTURE",
+      "clue": "Thread of catgut or silk or wire used by surgeons to stitch tissues together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thread of catgut or silk or wire used by surgeons to stitch tissues together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IRA",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ITAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ROTE",
+      "clue": "Repetition of words or sounds as a means of learning them, with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Repetition of words or sounds as a means of learning them, with slight attention.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Highest point, as of a mountain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "CANYOU",
+      "clue": "Relent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RELENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cCan you\u201d defines relent",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TOP",
+      "clue": "Canvas tent to house the audience at a circus performance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Canvas tent to house the audience at a circus performance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible about the future",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "PLAT",
+      "clue": "Map showing planned or actual features of an area (streets and building lots...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Map showing planned or actual features of an area (streets and building lots...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "LISP",
+      "clue": "Flexible procedure-oriented programing language that manipulates symbols in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flexible procedure-oriented programing language that manipulates symbols in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "DUPLEX",
+      "clue": "Having two parts",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having two parts.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "PENANCES",
+      "clue": "Plural of penance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of penance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ABEL",
+      "clue": "Cain and Abel were the first children of Adam and Eve born after the Fall of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cain and Abel were the first children of Adam and Eve born after the Fall of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "TERAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "IODINE",
+      "clue": "Tincture consisting of a solution of iodine in ethyl alcohol",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tincture consisting of a solution of iodine in ethyl alcohol",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ENURE",
+      "clue": "See Inure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Inure",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "UNIATE",
+      "clue": "Member of the Uniat Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the Uniat Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "RAPPED",
+      "clue": "Imp. & p. p. of Rap, to strike. imp. & p. p. of Rap, to snatch away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. & p. p. of Rap, to strike. imp. & p. p. of Rap, to snatch away",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "Plural of eta",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of eta",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "TOO",
+      "clue": "A degree exceeding normal or proper limits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A degree exceeding normal or proper limits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "OSCAR",
+      "clue": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ANAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "SPEEDS",
+      "clue": "Plural of speed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of speed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SHOW",
+      "clue": "Act of publicly exhibiting or entertaining",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of publicly exhibiting or entertaining",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "PIKE",
+      "clue": "Any of several elongate long-snouted freshwater game and food fishes widely...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several elongate long-snouted freshwater game and food fishes widely...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NIPA",
+      "clue": "Made from sap of the Australasian nipa palm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made from sap of the Australasian nipa palm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "HIM",
+      "clue": "Them. See Hem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Them. See Hem",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "ICECAPS",
+      "clue": "Plural of icecap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of icecap",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "EVA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "OKI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "NAVETE",
+      "clue": "Grimace",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "GRIMACE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cna vete\u201d defines grimace",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "WET",
+      "clue": "Wetness caused by water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wetness caused by water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "ERASED",
+      "clue": "Rubbed or scraped out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rubbed or scraped out",
+      "clueSource": "webster"
+    }
+  ]
+}

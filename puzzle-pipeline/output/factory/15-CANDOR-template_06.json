@@ -1,0 +1,853 @@
+{
+  "date": "2027-01-15",
+  "number": 1014,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "C",
+      "E",
+      "P",
+      "T",
+      "#",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "R",
+      "A",
+      "R",
+      "E",
+      "L",
+      "Y",
+      "#",
+      "V",
+      "I",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "N",
+      "U",
+      "L",
+      "A",
+      "R",
+      "#",
+      "E",
+      "E",
+      "C"
+    ],
+    [
+      "B",
+      "I",
+      "D",
+      "E",
+      "#",
+      "C",
+      "A",
+      "I",
+      "R",
+      "N",
+      "S"
+    ],
+    [
+      "E",
+      "C",
+      "O",
+      "L",
+      "#",
+      "E",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "A",
+      "R",
+      "E",
+      "D",
+      "#",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "C",
+      "#",
+      "A",
+      "E",
+      "O",
+      "N"
+    ],
+    [
+      "B",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "#",
+      "L",
+      "A",
+      "L",
+      "O"
+    ],
+    [
+      "E",
+      "B",
+      "B",
+      "#",
+      "D",
+      "E",
+      "V",
+      "I",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "L",
+      "E",
+      "S",
+      "#",
+      "E",
+      "P",
+      "I",
+      "Z",
+      "O",
+      "N",
+      "#"
+    ],
+    [
+      "A",
+      "T",
+      "P",
+      "#",
+      "D",
+      "E",
+      "C",
+      "E",
+      "N",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ACCEPT",
+      "clue": "Take when offered",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To take when offered.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ARNICA",
+      "clue": "Ointment used in treating bruises",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ointment used in treating bruises",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Whiteness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "CRUELEST",
+      "clue": "Superlative of cruel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Superlative of cruel",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "EEL",
+      "clue": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "PLACE",
+      "clue": "Job in an organization",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Job in an organization",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "TYRANT",
+      "clue": "Cruel and oppressive dictator",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cruel and oppressive dictator",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALS",
+      "clue": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LIEN",
+      "clue": "Legal claim or hold on property, as security for a debt or charge",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A legal claim or hold on property, as security for a debt or charge.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SECS",
+      "clue": "Plural of sec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sec",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "RARELY",
+      "clue": "Not often",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not often",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "ANNULAR",
+      "clue": "Shaped like a ring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shaped like a ring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "EEC",
+      "clue": "International organization of European countries formed after World War II...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization of European countries formed after World War II...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "BIDE",
+      "clue": "Await",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To await.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CAIRNS",
+      "clue": "Plural of cairn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cairn",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "IDEALIZE",
+      "clue": "Make to conform to some mental or imaginary standard",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make to conform to some mental or imaginary standard.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ECOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "DARED",
+      "clue": "Past tense of dare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of dare",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "DEEDED",
+      "clue": "Past tense of deed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of deed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Appearing as if rubbed or wiped off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "REASON",
+      "clue": "Capacity for rational thought or inference or discrimination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capacity for rational thought or inference or discrimination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "SOLENT",
+      "clue": "Strait of the English Channel between the coast of Hampshire and the Isle of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strait of the English Channel between the coast of Hampshire and the Isle of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "ENOS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CREPE",
+      "clue": "Soft thin light fabric with a crinkled surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft thin light fabric with a crinkled surface",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "AEON",
+      "clue": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BATTER",
+      "clue": "Beat with successive blows",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A thick liquid mixture of two or more materials beaten together, to be used in",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BELA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Aid, promote, or encourage the commission of (an offense)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "TBSP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LALO",
+      "clue": "Powdered leaves of the baobab tree, used by the Africans to mix in their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powdered leaves of the baobab tree, used by the Africans to mix in their...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "EBB",
+      "clue": "Outward flow of the tide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outward flow of the tide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "DEVISES",
+      "clue": "Plural of devise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of devise",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "VIC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "LES",
+      "clue": "Leash",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leash",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "EPIZON",
+      "clue": "Epizootic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EPIZOOTIC"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cepizo n\u201d defines epizootic",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "DECENT",
+      "clue": "Characterized by propriety of conduct, speech, manners, or dress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Characterized by propriety of conduct, speech, manners, or dress.",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

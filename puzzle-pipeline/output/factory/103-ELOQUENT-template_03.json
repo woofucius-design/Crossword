@@ -1,0 +1,823 @@
+{
+  "date": "2027-04-13",
+  "number": 1102,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "F",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "A",
+      "H"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "#",
+      "U",
+      "S",
+      "A",
+      "#",
+      "S",
+      "P",
+      "A"
+    ],
+    [
+      "M",
+      "Y",
+      "C",
+      "#",
+      "S",
+      "W",
+      "I",
+      "S",
+      "H",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "L",
+      "O",
+      "Q",
+      "U",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "N",
+      "U",
+      "R",
+      "E",
+      "#",
+      "A",
+      "C",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "D",
+      "A",
+      "P",
+      "T",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "F",
+      "O",
+      "R",
+      "#",
+      "N",
+      "O",
+      "L",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "H",
+      "E",
+      "R",
+      "E",
+      "W",
+      "A",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "O",
+      "A",
+      "S",
+      "T",
+      "#",
+      "I",
+      "N",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "T",
+      "S",
+      "A",
+      "#",
+      "N",
+      "C",
+      "O"
+    ],
+    [
+      "A",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "Y",
+      "P"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CFS",
+      "clue": "Plural of cf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cf",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CAME",
+      "clue": "Leaden sash-bar or grooved strip for fastening panes in stained-glass windows",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A leaden sash-bar or grooved strip for fastening panes in stained-glass windows.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "FLYLEAF",
+      "clue": "Blank leaf in the front or back of a book",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Blank leaf in the front or back of a book",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "SECONDO",
+      "clue": "Second or lower part of a duet (especially a piano duet)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second or lower part of a duet (especially a piano duet)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "General name for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for beer made with a top fermenting yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Army of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Army of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "USURP",
+      "clue": "Seize, and hold in possession, by force, or without right",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To take possession of by force.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SWEETNESS",
+      "clue": "Quality of giving pleasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of giving pleasure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "AIN",
+      "clue": "Belonging to or on behalf of a specified person (especially yourself)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belonging to or on behalf of a specified person (especially yourself)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SPA",
+      "clue": "Place of business with equipment and facilities for exercising and improving...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place of business with equipment and facilities for exercising and improving...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MYC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "SWISHED",
+      "clue": "Past tense of swish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of swish",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "STABLE",
+      "clue": "Farm building for housing horses or other livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farm building for housing horses or other livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "ELOQUENT",
+      "clue": "Having the power of expressing strong emotions or forcible arguments...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fluent or persuasive in speaking or writing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "QUARTO",
+      "clue": "Having four leaves to the sheet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An eight-page newspaper of any size.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "ENURE",
+      "clue": "See Inure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Inure",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "CLAWING",
+      "clue": "Present participle of claw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of claw",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "TENANCY",
+      "clue": "Act of being a tenant or occupant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of being a tenant or occupant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ADAPTABLE",
+      "clue": "Capable of adapting (of becoming or being made suitable) to a particular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of adapting (of becoming or being made suitable) to a particular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AORTA",
+      "clue": "Large trunk artery that carries blood from the left ventricle of the heart...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large trunk artery that carries blood from the left ventricle of the heart...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "NOLAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "THEREWAS",
+      "clue": "Species",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SPECIES"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cThere was\u201d defines species",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "HAT",
+      "clue": "Informal term for a person's role",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for a person's role",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STOP",
+      "clue": "Brief stay in the course of a journey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief stay in the course of a journey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "SEEOAST",
+      "clue": "Oust",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OUST"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Oast\u201d defines oust",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "SAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "INT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Agency established in 2001 to safeguard United States transportation systems...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency established in 2001 to safeguard United States transportation systems...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "NCO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ADS",
+      "clue": "Plural of ad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ad",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "GYP",
+      "clue": "Swindle in which you cheat at gambling or persuade a person to buy worthless...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swindle in which you cheat at gambling or persuade a person to buy worthless...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

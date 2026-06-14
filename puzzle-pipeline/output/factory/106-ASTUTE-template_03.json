@@ -1,0 +1,815 @@
+{
+  "date": "2027-04-16",
+  "number": 1105,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "S",
+      "I",
+      "R",
+      "#",
+      "A",
+      "G",
+      "E",
+      "#",
+      "D",
+      "U",
+      "N"
+    ],
+    [
+      "A",
+      "D",
+      "S",
+      "#",
+      "C",
+      "R",
+      "E",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "M",
+      "I",
+      "E",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "I",
+      "N",
+      "A",
+      "N",
+      "E",
+      "#",
+      "T",
+      "H",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "I",
+      "L",
+      "I",
+      "N",
+      "G",
+      "U",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "C",
+      "I",
+      "#",
+      "M",
+      "A",
+      "T",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "G",
+      "R",
+      "A",
+      "M",
+      "E",
+      "R",
+      "C",
+      "Y"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "N",
+      "N",
+      "I",
+      "E",
+      "#",
+      "E",
+      "T",
+      "A"
+    ],
+    [
+      "U",
+      "T",
+      "C",
+      "#",
+      "A",
+      "L",
+      "S",
+      "#",
+      "D",
+      "E",
+      "N"
+    ],
+    [
+      "Y",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "D",
+      "K"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ASAP",
+      "clue": "As soon as possible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "As soon as possible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "MIDRIBS",
+      "clue": "Plural of midrib",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of midrib",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "ARSENIC",
+      "clue": "Very poisonous metallic element that has three allotropic forms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very poisonous metallic element that has three allotropic forms",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "EDT",
+      "clue": "Eastern daylight time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eastern daylight time",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "SIR",
+      "clue": "Term of address for a man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Term of address for a man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "GREENMAIL",
+      "clue": "Practice of purchasing enough shares in a firm to threaten a takeover and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Practice of purchasing enough shares in a firm to threaten a takeover and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "EER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Mound or small hill. To cure, as codfish, in a particular manner,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ADS",
+      "clue": "Plural of ad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ad",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "CREATED",
+      "clue": "Past tense of creat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of creat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Having sharp judgment; shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "PREMIERS",
+      "clue": "Plural of premier",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of premier",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "MALIGN",
+      "clue": "Having an evil disposition toward others",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To speak evil of, especially to do so falsely and severely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "INANE",
+      "clue": "Without contents",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Silly.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "HATREDS",
+      "clue": "Plural of hatred",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of hatred",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ELECTED",
+      "clue": "Subject to popular election",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject to popular election",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "BILINGUAL",
+      "clue": "Containing, or consisting of, two languages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Speaking two languages.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "GAMES",
+      "clue": "Plural of gam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of gam",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MATTE",
+      "clue": "Property of having little or no contrast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property of having little or no contrast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "GRAMERCY",
+      "clue": "Word formerly used to express thankfulness, with surprise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word formerly used to express thankfulness, with surprise",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "RNA",
+      "clue": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "YANK",
+      "clue": "American (especially to non-Americans)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American (especially to non-Americans)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "GRANNIE",
+      "clue": "Mother of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother of your father or mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Rope, chain, or rod attached to anything to steady it",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "UTC",
+      "clue": "Greenwich Mean Time updated with leap seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greenwich Mean Time updated with leap seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ALS",
+      "clue": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "DEN",
+      "clue": "Room that is comfortable and secluded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Room that is comfortable and secluded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SDK",
+      "clue": "Developer's toolkit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developer's toolkit",
+      "clueSource": "abbrev_curated"
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "date": "2027-04-11",
+  "number": 1100,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "L",
+      "A",
+      "B",
+      "#",
+      "F",
+      "O",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "O",
+      "O",
+      "S",
+      "E",
+      "#",
+      "A",
+      "P",
+      "E",
+      "X",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "W",
+      "A",
+      "Y",
+      "#",
+      "Y",
+      "U",
+      "C",
+      "C",
+      "A"
+    ],
+    [
+      "S",
+      "O",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "I",
+      "D"
+    ],
+    [
+      "P",
+      "S",
+      "Y",
+      "C",
+      "H",
+      "O",
+      "G",
+      "E",
+      "N",
+      "I",
+      "C"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "I",
+      "R",
+      "S",
+      "T",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "K"
+    ],
+    [
+      "R",
+      "O",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "H",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "P",
+      "H",
+      "#",
+      "A",
+      "G",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "S",
+      "P",
+      "O",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "T",
+      "D",
+      "#",
+      "K",
+      "A",
+      "N",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,6": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,1": {
+      "number": 32
+    },
+    "9,6": {
+      "number": 33
+    },
+    "10,2": {
+      "number": 34
+    },
+    "10,6": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SLAB",
+      "clue": "Block consisting of a thick piece of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Block consisting of a thick piece of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SOLOS",
+      "clue": "Plural of solo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of solo",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "LOWLYDREAMS",
+      "clue": "Abject",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ABJECT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clowly dreams\u201d defines abject",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ASA",
+      "clue": "Ancient name of a gum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient name of a gum",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "BEY",
+      "clue": "Governor of a district or province in the Ottoman Empire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governor of a district or province in the Ottoman Empire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "FAY",
+      "clue": "Small being, human in form, playful and having magical powers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small being, human in form, playful and having magical powers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Ostentatiously rich and luxurious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "RECANTATION",
+      "clue": "Disavowal or taking back of a previous assertion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disavowal or taking back of a previous assertion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "GOOSE",
+      "clue": "Web-footed long-necked typically gregarious migratory aquatic birds usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Web-footed long-necked typically gregarious migratory aquatic birds usually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "GASP",
+      "clue": "Short labored intake of breath with the mouth open",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short labored intake of breath with the mouth open",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Point on the celestial sphere toward which the sun and solar system appear...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 4,
+      "answer": "XCII",
+      "clue": "Being two more than ninety",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than ninety",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ALWAY",
+      "clue": "Always",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Always",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "YUCCA",
+      "clue": "Any of several evergreen plants of the genus Yucca having usually tall stout...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several evergreen plants of the genus Yucca having usually tall stout...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "ADC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "Sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The sun.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "LAID",
+      "clue": "Set down according to a plan:\"a carefully laid table with places set for four...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set down according to a plan:\"a carefully laid table with places set for four...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 11,
+      "answer": "PSYCHOGENIC",
+      "clue": "Mental or emotional rather than physiological in origin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mental or emotional rather than physiological in origin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CESSPIT",
+      "clue": "Covered cistern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covered cistern",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "answer": "HST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "OCA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "DESCENT",
+      "clue": "Act of changing your location in a downward direction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The act of moving or going downward.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 11,
+      "answer": "FIRSTATTACK",
+      "clue": "Aggression",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "AGGRESSION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cfirst attack\u201d defines aggression",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "FRS",
+      "clue": "Central bank of the United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central bank of the United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "9th letter of the Greek alphabet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CHLOE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "KEEN",
+      "clue": "Astute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ASTUTE",
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of astute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ROES",
+      "clue": "Plural of ro",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ro",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "STAPH",
+      "clue": "Spherical Gram-positive parasitic bacteria that tend to form irregular colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spherical Gram-positive parasitic bacteria that tend to form irregular colonies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "HED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Moving quickly and lightly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "GPA",
+      "clue": "Measure of a student's academic achievement at a college or university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a student's academic achievement at a college or university",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "SPOON",
+      "clue": "Piece of cutlery with a shallow bowl-shaped container and a handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of cutlery with a shallow bowl-shaped container and a handle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "KANE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

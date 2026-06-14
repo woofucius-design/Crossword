@@ -1,0 +1,713 @@
+{
+  "date": "2027-05-26",
+  "number": 1145,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "C",
+      "A",
+      "D",
+      "S",
+      "#",
+      "I",
+      "F",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "A",
+      "M",
+      "E",
+      "O",
+      "#",
+      "N",
+      "O",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "I",
+      "N",
+      "E",
+      "L",
+      "E",
+      "G",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "N",
+      "I",
+      "#",
+      "A",
+      "L",
+      "T",
+      "A",
+      "R"
+    ],
+    [
+      "#",
+      "P",
+      "L",
+      "A",
+      "N",
+      "#",
+      "L",
+      "I",
+      "A",
+      "N",
+      "G"
+    ],
+    [
+      "B",
+      "R",
+      "I",
+      "B",
+      "E",
+      "#",
+      "L",
+      "E",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "L",
+      "U",
+      "C",
+      "I",
+      "A",
+      "#",
+      "O",
+      "N",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "A",
+      "D",
+      "U",
+      "L",
+      "T",
+      "#",
+      "P",
+      "A",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "E",
+      "L",
+      "I",
+      "E",
+      "V",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "N",
+      "A",
+      "T",
+      "#",
+      "I",
+      "D",
+      "L",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "R",
+      "Y",
+      "#",
+      "M",
+      "E",
+      "E",
+      "S",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "2,1": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,6": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,6": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,5": {
+      "number": 25
+    },
+    "8,9": {
+      "number": 26
+    },
+    "9,1": {
+      "number": 27
+    },
+    "9,5": {
+      "number": 28
+    },
+    "10,1": {
+      "number": 29
+    },
+    "10,5": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SCADS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "CANALICULAR",
+      "clue": "Relating to or like or having a canaliculus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or like or having a canaliculus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "AMENABILITY",
+      "clue": "Trait of being cooperative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trait of being cooperative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 9,
+      "answer": "DELINEATE",
+      "clue": "Represented accurately or precisely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To represent by sketch or diagram.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SOE",
+      "clue": "Large wooden vessel for holding water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large wooden vessel for holding water",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "IFS",
+      "clue": "Plural of if",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of if",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "INALIENABLE",
+      "clue": "Incapable of being repudiated or transferred to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Incapable of being repudiated or transferred to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "FONTANELLES",
+      "clue": "Plural of fontanelle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of fontanelle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 7,
+      "answer": "SECANTS",
+      "clue": "Plural of secant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of secant",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "CAMEO",
+      "clue": "Engraving or carving in low relief on a stone (as in a brooch or ring)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any small engraved or carved work in relief.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "NOE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "INELEGANCE",
+      "clue": "Quality of lacking refinement and good taste",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of lacking refinement and good taste",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 9,
+      "answer": "GALLOPADE",
+      "clue": "I horsemanship, a sidelong or curveting kind of gallop",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "I horsemanship, a sidelong or curveting kind of gallop",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ERGO",
+      "clue": "Therefore or consequently",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Therefore or consequently",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Black tropical American cuckoo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "ALTAR",
+      "clue": "Any raised place or structure on which sacrifices may be offered or incense",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any raised place or structure on which sacrifices may be offered or incense",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "PLAN",
+      "clue": "Scale drawing of a structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scale drawing of a structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Acting with care and thought for the future",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "LIANG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "BRIBE",
+      "clue": "Payment made to a person in a position of trust to corrupt his judgment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Payment made to a person in a position of trust to corrupt his judgment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "BLAB",
+      "clue": "Divulge confidential information or secrets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divulge confidential information or secrets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "LENTO",
+      "clue": "Slow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "LUCIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ADULT",
+      "clue": "Any mature animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any mature animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "answer": "PAL",
+      "clue": "Close friend who accompanies his buddies in their activities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Close friend who accompanies his buddies in their activities",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "BELIEVABLE",
+      "clue": "Capable of being believed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of being believed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "VIM",
+      "clue": "Imaginative lively style (especially style of writing)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imaginative lively style (especially style of writing)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "NAT",
+      "clue": "Not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "answer": "IDLER",
+      "clue": "Person who does no work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who does no work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "TRY",
+      "clue": "Earnest and conscientious activity intended to do or accomplish something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earnest and conscientious activity intended to do or accomplish something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "MEESE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

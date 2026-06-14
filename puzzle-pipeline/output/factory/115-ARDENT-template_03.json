@@ -1,0 +1,815 @@
+{
+  "date": "2027-04-25",
+  "number": 1114,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "H",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "Y",
+      "X"
+    ],
+    [
+      "O",
+      "N",
+      "E",
+      "#",
+      "T",
+      "S",
+      "A",
+      "#",
+      "R",
+      "O",
+      "I"
+    ],
+    [
+      "L",
+      "A",
+      "S",
+      "#",
+      "H",
+      "Y",
+      "D",
+      "R",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "T",
+      "A",
+      "I",
+      "N",
+      "E",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "M",
+      "I",
+      "R",
+      "E",
+      "D",
+      "#",
+      "N",
+      "C",
+      "O",
+      "#"
+    ],
+    [
+      "#",
+      "I",
+      "N",
+      "D",
+      "U",
+      "R",
+      "A",
+      "T",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "O",
+      "V",
+      "A",
+      "R",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "M",
+      "E",
+      "L",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "T",
+      "N",
+      "E",
+      "R",
+      "#",
+      "A",
+      "S",
+      "K"
+    ],
+    [
+      "F",
+      "L",
+      "U",
+      "#",
+      "D",
+      "S",
+      "T",
+      "#",
+      "L",
+      "E",
+      "I"
+    ],
+    [
+      "C",
+      "E",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "Y",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "HOLD",
+      "clue": "Act of grasping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of grasping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "ANAEMIA",
+      "clue": "Deficiency of red blood cells",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deficiency of red blood cells",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "DESTINY",
+      "clue": "Event (or a course of events) that will inevitably happen in the future",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Event (or a course of events) that will inevitably happen in the future",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PYX",
+      "clue": "Box, case, vase, or tabernacle, in which the host is reserved",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A vessel or casket, usually of precious metal, in which the host is preserved.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PRO",
+      "clue": "Argument in favor of a proposal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Argument in favor of a proposal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "XIS",
+      "clue": "Plural of xi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of xi",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Agency established in 2001 to safeguard United States transportation systems...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency established in 2001 to safeguard United States transportation systems...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "THIEU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SYNDROMES",
+      "clue": "Plural of syndrome",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of syndrome",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "ADE",
+      "clue": "Sweetened beverage of diluted fruit juice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweetened beverage of diluted fruit juice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ROI",
+      "clue": "Amount, expressed as a percentage, that is earned on a company's total...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amount, expressed as a percentage, that is earned on a company's total...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "LAS",
+      "clue": "Lace. See Lace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lace. See Lace",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "HYDROUS",
+      "clue": "Containing water",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Watery.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "RENTAL",
+      "clue": "Act of paying for the use of something (as an apartment or house or car)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of paying for the use of something (as an apartment or house or car)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "DETAINEE",
+      "clue": "Some held in custody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Some held in custody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "ARDENT",
+      "clue": "Hot or burning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very enthusiastic or passionate",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "MIRED",
+      "clue": "Entangled or hindered as if e.g. in mire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Entangled or hindered as if e.g. in mire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "NCO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "CEREALS",
+      "clue": "Plural of cereal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cereal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "ODYSSEY",
+      "clue": "Long wandering and eventful journey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long wandering and eventful journey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "INDURATED",
+      "clue": "Hardened",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hardened",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "Turn away or aside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To turn away or aside.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "OVARY",
+      "clue": "One of usually two organs that produce ova and secrete estrogen and progesterone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of usually two organs that produce ova and secrete estrogen and progesterone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "NAMELESS",
+      "clue": "Without a name",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having no fame or reputation.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SKIN",
+      "clue": "Body covering of a living animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body covering of a living animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "PARTNER",
+      "clue": "Associate in an activity or endeavor or sphere of common interest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Associate in an activity or endeavor or sphere of common interest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "PFC",
+      "clue": "Powerful greenhouse gas emitted during the production of aluminum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powerful greenhouse gas emitted during the production of aluminum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "General name for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for beer made with a top fermenting yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "FLU",
+      "clue": "Acute febrile highly contagious viral disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acute febrile highly contagious viral disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "DST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "CEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

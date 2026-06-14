@@ -1,0 +1,780 @@
+{
+  "date": "2027-04-02",
+  "number": 1091,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "K",
+      "I",
+      "F",
+      "F",
+      "#",
+      "R",
+      "A",
+      "D",
+      "O",
+      "N"
+    ],
+    [
+      "M",
+      "E",
+      "D",
+      "I",
+      "O",
+      "#",
+      "O",
+      "M",
+      "E",
+      "G",
+      "A"
+    ],
+    [
+      "O",
+      "P",
+      "E",
+      "N",
+      "R",
+      "O",
+      "B",
+      "B",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "G",
+      "I",
+      "E",
+      "S",
+      "#",
+      "P",
+      "U",
+      "L",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "U",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "L",
+      "T",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "T",
+      "E",
+      "N",
+      "#",
+      "A",
+      "S",
+      "S",
+      "N"
+    ],
+    [
+      "P",
+      "E",
+      "N",
+      "U",
+      "L",
+      "T",
+      "I",
+      "M",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "U",
+      "T",
+      "E",
+      "R",
+      "I",
+      "#",
+      "R",
+      "I",
+      "V",
+      "E",
+      "T"
+    ],
+    [
+      "R",
+      "E",
+      "W",
+      "E",
+      "D",
+      "#",
+      "K",
+      "E",
+      "E",
+      "P",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SKIFF",
+      "clue": "Any of various small boats propelled by oars or by sails or by a motor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Usually, a small light boat propelled by oars.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SMOG",
+      "clue": "Air pollution by a mixture of smoke and fog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air pollution by a mixture of smoke and fog",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "KEPI",
+      "clue": "Cap with a flat circular top and a visor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cap with a flat circular top and a visor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "IDEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "FINS",
+      "clue": "Plural of fin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of fin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "RADON",
+      "clue": "Radioactive gaseous element formed by the disintegration of radium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive gaseous element formed by the disintegration of radium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Rough and crude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "AMBLES",
+      "clue": "Plural of amble",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of amble",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "DEES",
+      "clue": "Dice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dice",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "NAYS",
+      "clue": "Plural of nay",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nay",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "MEDIO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "OMEGA",
+      "clue": "Last (24th) letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Last (24th) letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OPENROBBERY",
+      "clue": "Pillage",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PILLAGE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cOpen robbery\u201d defines pillage",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Rich and superior in quality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "GIES",
+      "clue": "Plural of gi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of gi",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "PULSES",
+      "clue": "Plural of pulse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of pulse",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "MELTS",
+      "clue": "Plural of melt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of melt",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "MATURE",
+      "clue": "Cause to ripen and discharge pus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to ripen and discharge pus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "EYELID",
+      "clue": "Either of two folds of skin that can be moved to cover or open the eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two folds of skin that can be moved to cover or open the eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "STATEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SPUR",
+      "clue": "Railway line connected to a trunk line",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railway line connected to a trunk line",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TETE",
+      "clue": "Kind of wig",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of wig",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Again but in a new or different way",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SAVE",
+      "clue": "Act of preventing the opposition from scoring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of preventing the opposition from scoring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "NETS",
+      "clue": "Plural of net",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of net",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PENULTIMATE",
+      "clue": "Next to the last",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A syllable or member of a series that is last but one.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "Irritate or vex",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "UTERI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "RIVET",
+      "clue": "Heavy pin having a head at one end and the other end being hammered flat after...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavy pin having a head at one end and the other end being hammered flat after...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "REWED",
+      "clue": "Past tense of rew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of rew",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "KEEPS",
+      "clue": "Plural of keep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of keep",
+      "clueSource": "inflection"
+    }
+  ]
+}

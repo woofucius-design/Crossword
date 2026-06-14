@@ -1,0 +1,814 @@
+{
+  "date": "2027-02-11",
+  "number": 1041,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "E",
+      "E",
+      "D",
+      "E",
+      "F",
+      "#",
+      "E",
+      "C",
+      "G",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "T",
+      "U",
+      "R",
+      "O",
+      "#",
+      "T",
+      "Y",
+      "R",
+      "O"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "#",
+      "A",
+      "B",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "G",
+      "S",
+      "#",
+      "#",
+      "#",
+      "O",
+      "W",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "I",
+      "T",
+      "H",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "B",
+      "O",
+      "O",
+      "B",
+      "I",
+      "N",
+      "G",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "N",
+      "N",
+      "A",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#",
+      "L",
+      "U",
+      "S",
+      "T",
+      "S"
+    ],
+    [
+      "M",
+      "E",
+      "G",
+      "A",
+      "#",
+      "C",
+      "O",
+      "I",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "V",
+      "E",
+      "R",
+      "#",
+      "O",
+      "C",
+      "T",
+      "O",
+      "P",
+      "I"
+    ],
+    [
+      "#",
+      "I",
+      "R",
+      "E",
+      "#",
+      "S",
+      "K",
+      "E",
+      "W",
+      "E",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SEEDEF",
+      "clue": "Stigma",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STIGMA"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee def\u201d defines stigma",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SACS",
+      "clue": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ERAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ETNA",
+      "clue": "Gas burner used in laboratories",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gas burner used in laboratories",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "DUDGEON",
+      "clue": "Feeling of intense indignation (now used only in the phrase `in high dudgeon')",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feeling of intense indignation (now used only in the phrase `in high dudgeon')",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "EROSION",
+      "clue": "Erosion by chemical action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Erosion by chemical action",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ECG",
+      "clue": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "CYBORG",
+      "clue": "Human being whose body has been taken over in whole or in part by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Human being whose body has been taken over in whole or in part by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "GREW",
+      "clue": "Imp. of Grow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. of Grow",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ARTURO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "TYRO",
+      "clue": "One slightly skilled in or acquainted with any trade or profession",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One slightly skilled in or acquainted with any trade or profession.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Quality of being open, honest, and direct",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STAGS",
+      "clue": "Plural of stag",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stag",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "OWE",
+      "clue": "Be in debt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be in debt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "EITHER",
+      "clue": "After a negative statement used as an intensive meaning something like...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "After a negative statement used as an intensive meaning something like...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TBA",
+      "clue": "Future announcement, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Future announcement, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "HILLOCK",
+      "clue": "Small hill or mound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small hill or mound.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "ENSUITE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "BOOBING",
+      "clue": "Present participle of boob",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of boob",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "BADGER",
+      "clue": "Pester",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To pester.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ANNALS",
+      "clue": "Record of events in their chronological order, year by year",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A record of events in their chronological order, year by year.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "NEVI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "LUSTS",
+      "clue": "Plural of lust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lust",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STOW",
+      "clue": "Fill by packing tightly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill by packing tightly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TAPE",
+      "clue": "Memory device consisting of a long thin plastic strip coated with iron oxide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Memory device consisting of a long thin plastic strip coated with iron oxide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SLID",
+      "clue": "Imp. & p. p. of Slide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. & p. p. of Slide",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "MEGA",
+      "clue": "Combining forms signifying: (a) Great, extended, powerful",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Combining forms signifying: (a) Great, extended, powerful",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "COITAL",
+      "clue": "Of or relating to coitus or copulation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to coitus or copulation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "COS",
+      "clue": "Lettuce with long dark-green leaves in a loosely packed elongated head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lettuce with long dark-green leaves in a loosely packed elongated head",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "OCTOPI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SKEWED",
+      "clue": "Having an oblique or slanting direction or position",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an oblique or slanting direction or position",
+      "clueSource": "wordnet"
+    }
+  ]
+}

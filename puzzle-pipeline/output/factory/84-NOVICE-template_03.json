@@ -1,0 +1,813 @@
+{
+  "date": "2027-03-25",
+  "number": 1083,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "S",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "I"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "#",
+      "S",
+      "W",
+      "A",
+      "#",
+      "Y",
+      "E",
+      "T"
+    ],
+    [
+      "I",
+      "R",
+      "E",
+      "#",
+      "H",
+      "O",
+      "R",
+      "N",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "R",
+      "T",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "N",
+      "A",
+      "R",
+      "E",
+      "S",
+      "#",
+      "V",
+      "I",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "G",
+      "R",
+      "A",
+      "P",
+      "E",
+      "V",
+      "I",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "Y",
+      "N",
+      "#",
+      "N",
+      "I",
+      "C",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "R",
+      "I",
+      "T",
+      "E",
+      "R",
+      "I",
+      "A"
+    ],
+    [
+      "K",
+      "A",
+      "C",
+      "H",
+      "I",
+      "N",
+      "A",
+      "#",
+      "T",
+      "E",
+      "L"
+    ],
+    [
+      "E",
+      "D",
+      "P",
+      "#",
+      "A",
+      "G",
+      "E",
+      "#",
+      "I",
+      "S",
+      "O"
+    ],
+    [
+      "Y",
+      "O",
+      "U",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ESP",
+      "clue": "Apparent power to perceive things that are not present to the senses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apparent power to perceive things that are not present to the senses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Very imposing or impressive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "SARONGS",
+      "clue": "Plural of sarong",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sarong",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "PLENARY",
+      "clue": "Entire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Entire.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Serve that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that strikes the net before falling into the receiver's court",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "PAL",
+      "clue": "Close friend who accompanies his buddies in their activities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Close friend who accompanies his buddies in their activities",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "SWA",
+      "clue": "So",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "SHEEP",
+      "clue": "Woolly usually horned ruminant mammal related to the goat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Woolly usually horned ruminant mammal related to the goat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "WORSENING",
+      "clue": "Changing something with the result that it becomes worse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changing something with the result that it becomes worse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "ART",
+      "clue": "Creation of beautiful or significant things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Creation of beautiful or significant things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "HORNETS",
+      "clue": "Plural of hornet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of hornet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Someone new to a field or activity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "CONCERTO",
+      "clue": "Musical composition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A musical composition.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "CRANCH",
+      "clue": "Press or grind with a crushing noise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Press or grind with a crushing noise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "NARES",
+      "clue": "Nostrils or nasal openings,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nostrils or nasal openings,",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "INERTIA",
+      "clue": "Disposition to remain inactive or inert",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disposition to remain inactive or inert",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "EERIEST",
+      "clue": "Superlative of eerie",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Superlative of eerie",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "GRAPEVINE",
+      "clue": "Gossip spread by spoken communication",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gossip spread by spoken communication",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "VITAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "NICER",
+      "clue": "One who nices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who nices",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "CRITERIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "RIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "KACHINA",
+      "clue": "Carved doll wearing the costume of a particular Pueblo spirit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Carved doll wearing the costume of a particular Pueblo spirit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "KEY",
+      "clue": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal device shaped in such a way that when it is inserted into the appropriate...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "CPU",
+      "clue": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "TEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "EDP",
+      "clue": "Automatic data processing by electronic means without the use of tabulating...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Automatic data processing by electronic means without the use of tabulating...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "ISO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    }
+  ]
+}

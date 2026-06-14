@@ -1,0 +1,817 @@
+{
+  "date": "2027-05-15",
+  "number": 1134,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "S",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "E"
+    ],
+    [
+      "P",
+      "H",
+      "I",
+      "#",
+      "A",
+      "C",
+      "T",
+      "#",
+      "A",
+      "I",
+      "R"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "#",
+      "M",
+      "A",
+      "H",
+      "A",
+      "T",
+      "M",
+      "A"
+    ],
+    [
+      "V",
+      "E",
+      "R",
+      "T",
+      "I",
+      "C",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "P",
+      "R",
+      "O",
+      "T",
+      "O",
+      "#",
+      "C",
+      "O",
+      "P",
+      "#"
+    ],
+    [
+      "#",
+      "P",
+      "O",
+      "L",
+      "Y",
+      "P",
+      "H",
+      "O",
+      "N",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "#",
+      "H",
+      "O",
+      "T",
+      "E",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "O",
+      "O",
+      "R",
+      "S",
+      "T",
+      "O",
+      "P"
+    ],
+    [
+      "S",
+      "U",
+      "B",
+      "O",
+      "R",
+      "N",
+      "S",
+      "#",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "K",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "M",
+      "I",
+      "N"
+    ],
+    [
+      "Y",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "C",
+      "G"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SSP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SPIV",
+      "clue": "Person without employment who makes money by various dubious schemes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person without employment who makes money by various dubious schemes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "SHLEPPS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "PIERROT",
+      "clue": "Male character in French pantomime",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male character in French pantomime",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SAT",
+      "clue": "Seventh and last day of the week",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seventh and last day of the week",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "HIM",
+      "clue": "Them. See Hem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Them. See Hem",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "PHI",
+      "clue": "21st letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "21st letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "AMITY",
+      "clue": "Friendship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Friendship.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CACOPHONY",
+      "clue": "Uncouth or disagreable sound of words, owing to the concurrence of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a harsh, discordant mixture of sounds",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "Travel via aircraft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel via aircraft",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ILE",
+      "clue": "Ear of corn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ear of corn",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "MAHATMA",
+      "clue": "Term of respect for a brahmin sage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Term of respect for a brahmin sage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "ASCOTS",
+      "clue": "Plural of ascot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ascot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "VERTICES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "TOLEDO",
+      "clue": "City in central Spain on the Tagus river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in central Spain on the Tagus river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "PROTO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "COP",
+      "clue": "Uncomplimentary terms for a policeman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uncomplimentary terms for a policeman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ONETIME",
+      "clue": "Rhapsody",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RHAPSODY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cone time\u201d defines rhapsody",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "PYLORIC",
+      "clue": "Relating to or near the pylorus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or near the pylorus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "POLYPHONY",
+      "clue": "Music arranged in parts for several voices or instruments",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Music arranged in parts for several voices or instruments",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "HORSE",
+      "clue": "Solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "STE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "HOTEL",
+      "clue": "Building where travelers can pay for lodging and meals and other services",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Building where travelers can pay for lodging and meals and other services",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "DOORSTOP",
+      "clue": "Stop that keeps open doors from moving",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stop that keeps open doors from moving",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "PENG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "SUBORNS",
+      "clue": "Plural of suborn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of suborn",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "SAY",
+      "clue": "Chance to speak",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chance to speak",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "BKS",
+      "clue": "Plural of bk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bk",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "MIN",
+      "clue": "Any of the forms of Chinese spoken in Fukien province",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of the forms of Chinese spoken in Fukien province",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ECG",
+      "clue": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "clueSource": "wordnet"
+    }
+  ]
+}

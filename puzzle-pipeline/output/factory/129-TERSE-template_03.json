@@ -1,0 +1,817 @@
+{
+  "date": "2027-05-09",
+  "number": 1128,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "I",
+      "S",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "J",
+      "O",
+      "Y"
+    ],
+    [
+      "C",
+      "E",
+      "E",
+      "#",
+      "O",
+      "P",
+      "A",
+      "#",
+      "O",
+      "W",
+      "E"
+    ],
+    [
+      "E",
+      "E",
+      "N",
+      "#",
+      "S",
+      "I",
+      "Z",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "D",
+      "O",
+      "O",
+      "R",
+      "K",
+      "N",
+      "O",
+      "B",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "R",
+      "E",
+      "A",
+      "S",
+      "#",
+      "J",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "C",
+      "R",
+      "E",
+      "D",
+      "U",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "H",
+      "U",
+      "#",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "T",
+      "R",
+      "E",
+      "A",
+      "D",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "F",
+      "E",
+      "R",
+      "E",
+      "E",
+      "#",
+      "U",
+      "L",
+      "T"
+    ],
+    [
+      "A",
+      "P",
+      "E",
+      "#",
+      "A",
+      "R",
+      "K",
+      "#",
+      "L",
+      "E",
+      "E"
+    ],
+    [
+      "B",
+      "I",
+      "Z",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "S",
+      "P"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ISM",
+      "clue": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ICED",
+      "clue": "Covered with ice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covered with ice",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "SEEOAST",
+      "clue": "Oust",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OUST"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Oast\u201d defines oust",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "MENORAH",
+      "clue": "Candelabrum with nine branches",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Candelabrum with nine branches",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "JOY",
+      "clue": "Something or someone that provides a source of happiness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something or someone that provides a source of happiness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "JOB",
+      "clue": "Damaging piece of work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Damaging piece of work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "OWL",
+      "clue": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "YEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "CEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "OPA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "OSKAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "PINSETTER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "AZO",
+      "clue": "Relating to or containing the azo radical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or containing the azo radical",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "OWE",
+      "clue": "Be in debt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be in debt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "EEN",
+      "clue": "Old plural of Eye. And eke with fatness swollen were his een. Spenser. E'ER...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old plural of Eye. And eke with fatness swollen were his een. Spenser. E'ER...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "SIZABLE",
+      "clue": "Large in amount or extent or degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large in amount or extent or degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "ABJURE",
+      "clue": "Recant, renounce, repudiate under oath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To recant, renounce, repudiate under oath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "DOORKNOB",
+      "clue": "Knob used to release the catch when opening a door (often called `doorhandle'...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Knob used to release the catch when opening a door (often called `doorhandle'...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "RECURE",
+      "clue": "Cure again",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cure again.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "AREAS",
+      "clue": "Plural of area",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of area",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "JAN",
+      "clue": "First month of the year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First month of the year",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ASSAULT",
+      "clue": "Threatened or attempted physical attack by someone who appears to be able to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Threatened or attempted physical attack by someone who appears to be able to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "NEEDLES",
+      "clue": "Plural of needle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of needle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "SACREDUSE",
+      "clue": "Dedication",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DEDICATION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csacred use\u201d defines dedication",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "DEREK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "THU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Brief to the point of bluntness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "RETREADS",
+      "clue": "Plural of retread",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of retread",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "REFEREE",
+      "clue": "Umpire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An umpire.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "RAB",
+      "clue": "Rod or stick used by masons in mixing hair with mortar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rod or stick used by masons in mixing hair with mortar",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "EPI",
+      "clue": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "FEZ",
+      "clue": "Brimless felt cap in the shape of a truncated cone, usually red",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A brimless felt cap in the shape of a truncated cone, usually red with a black",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ULT",
+      "clue": "In or of the month preceding the present one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the month preceding the present one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ARK",
+      "clue": "Boat built by Noah to save his family and animals from the flood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boat built by Noah to save his family and animals from the flood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "BIZ",
+      "clue": "Your occupation or line of work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Your occupation or line of work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

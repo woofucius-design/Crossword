@@ -1,0 +1,736 @@
+{
+  "date": "2027-05-30",
+  "number": 1149,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#",
+      "R",
+      "A",
+      "G",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "E",
+      "W",
+      "#",
+      "S",
+      "T",
+      "A",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "I",
+      "N",
+      "F",
+      "L",
+      "A",
+      "T",
+      "A",
+      "B",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "#",
+      "V",
+      "E",
+      "R",
+      "B",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "A",
+      "R",
+      "L",
+      "Y",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "B",
+      "I",
+      "R",
+      "D",
+      "I",
+      "E",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "S",
+      "S",
+      "I",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "A",
+      "N",
+      "C",
+      "I",
+      "E",
+      "S",
+      "#",
+      "S",
+      "E",
+      "A"
+    ],
+    [
+      "O",
+      "R",
+      "T",
+      "H",
+      "O",
+      "S",
+      "T",
+      "A",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "A",
+      "N",
+      "O",
+      "I",
+      "N",
+      "T",
+      "#",
+      "P",
+      "E",
+      "R",
+      "T"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "A",
+      "#",
+      "#",
+      "#",
+      "A",
+      "P",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANNE",
+      "clue": "Queen of England and Scotland and Ireland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Queen of England and Scotland and Ireland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Neatly skillful and quick in movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "OWL",
+      "clue": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "RAGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "RABBLE",
+      "clue": "Disorderly crowd of people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disorderly crowd of people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ALLOYS",
+      "clue": "Plural of alloy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of alloy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "GEES",
+      "clue": "Plural of ge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ge",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ASSE",
+      "clue": "Small foxlike animal (Vulpes cama) of South Africa, valued for its fur",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small foxlike animal (Vulpes cama) of South Africa, valued for its fur",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Once more",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "Travel via aircraft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel via aircraft",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "STALES",
+      "clue": "Plural of stal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "STEADIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "TARRIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INFLATABLES",
+      "clue": "Plural of inflatable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of inflatable",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "AVERSION",
+      "clue": "Mental condition of fixed opposition to or dislike of some particular thing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A mental condition of fixed opposition to or dislike of some particular thing.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "RET",
+      "clue": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using or expressed in more words than are needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "EARLY",
+      "clue": "At or near the beginning of a period of time or course of events or before the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or near the beginning of a period of time or course of events or before the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "BIRDIES",
+      "clue": "Plural of birdie",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of birdie",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "BENTON",
+      "clue": "United States legislator who opposed the use of paper currency (1782-1858)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States legislator who opposed the use of paper currency (1782-1858)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "ISCHIA",
+      "clue": "Volcanic island (part of Campania) in the Tyrrhenian Sea at the north end of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Volcanic island (part of Campania) in the Tyrrhenian Sea at the north end of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ESSIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "FANCIES",
+      "clue": "Plural of fancy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of fancy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "FOAM",
+      "clue": "Mass of small bubbles formed in or on a liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mass of small bubbles formed in or on a liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ARNA",
+      "clue": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SEA",
+      "clue": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "EIRE",
+      "clue": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ORTHOSTATIC",
+      "clue": "Pertaining to an upright standing posture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to an upright standing posture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "APA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ANOINT",
+      "clue": "Administer an oil or ointment to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Administer an oil or ointment to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "PERT",
+      "clue": "Characterized by a lightly pert and exuberant quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by a lightly pert and exuberant quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "MANA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    }
+  ]
+}

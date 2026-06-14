@@ -1,0 +1,782 @@
+{
+  "date": "2027-01-29",
+  "number": 1028,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "I",
+      "D",
+      "A",
+      "#",
+      "N",
+      "E",
+      "E",
+      "D",
+      "S"
+    ],
+    [
+      "P",
+      "O",
+      "L",
+      "E",
+      "D",
+      "#",
+      "U",
+      "N",
+      "D",
+      "U",
+      "E"
+    ],
+    [
+      "S",
+      "U",
+      "L",
+      "F",
+      "O",
+      "N",
+      "A",
+      "M",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "E",
+      "R",
+      "S",
+      "T",
+      "#",
+      "U",
+      "N",
+      "I",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "N",
+      "E",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "U",
+      "D",
+      "E",
+      "#",
+      "H",
+      "A",
+      "A",
+      "S"
+    ],
+    [
+      "C",
+      "O",
+      "A",
+      "L",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "T",
+      "I",
+      "N",
+      "E",
+      "A",
+      "#",
+      "C",
+      "R",
+      "E",
+      "M",
+      "E"
+    ],
+    [
+      "S",
+      "N",
+      "A",
+      "R",
+      "L",
+      "#",
+      "C",
+      "O",
+      "W",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ALIDA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "Domed or vaulted recess or projection on a building especially the east end...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Domed or vaulted recess or projection on a building especially the east end...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LOUR",
+      "clue": "Look angry or sullen, wrinkle one's forehead, as if to signal disapproval",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Look angry or sullen, wrinkle one's forehead, as if to signal disapproval",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ILLS",
+      "clue": "Plural of ill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ill",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Quick and neatly skillful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "NEEDS",
+      "clue": "In such a manner as could not be otherwise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In such a manner as could not be otherwise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle shade of meaning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "ENMITY",
+      "clue": "Feeling of a hostile person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Hatred.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EDIT",
+      "clue": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "DUDE",
+      "clue": "Man who is much concerned with his dress and appearance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who is much concerned with his dress and appearance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SEED",
+      "clue": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "POLED",
+      "clue": "Past tense of pol",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of pol",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "UNDUE",
+      "clue": "Not yet payable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "More than sufficient.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SULFONAMIDE",
+      "clue": "Antibacterial consisting of any of several synthetic organic compounds capable...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Antibacterial consisting of any of several synthetic organic compounds capable...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "NUANCES",
+      "clue": "Plural of nuance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nuance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "UNITED",
+      "clue": "Of or relating to two people who are married to each other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to two people who are married to each other",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "MONEY",
+      "clue": "Wealth reckoned in terms of money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wealth reckoned in terms of money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "MAULER",
+      "clue": "Fighter who batters the opponent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fighter who batters the opponent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "ORDEAL",
+      "clue": "Anything that severely tests courage, strength, patience, conscience",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Anything that severely tests courage, strength, patience, conscience, etc.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ARC",
+      "clue": "Electrical conduction through a gas in an applied electric field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrical conduction through a gas in an applied electric field",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ALLUDE",
+      "clue": "Make a more or less disguised reference to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To refer incidentally, or by suggestion.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ACTS",
+      "clue": "New Testament book describing the development of the early church from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "New Testament book describing the development of the early church from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LOIN",
+      "clue": "Either side of the backbone between the hipbone and the ribs in humans as well...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either side of the backbone between the hipbone and the ribs in humans as well...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "LANA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HAAS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HERO",
+      "clue": "Principal character in a play or movie or novel or poem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal character in a play or movie or novel or poem",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Again but in a new or different way",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point (of something)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SEER",
+      "clue": "Authoritative person who divines the future",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A prophet.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "COALESCENCE",
+      "clue": "Act or process of coming together so as to form one body",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The act or process of coming together so as to form one body, combination...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "CCC",
+      "clue": "Being one hundred more than two hundred",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one hundred more than two hundred",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "TINEA",
+      "clue": "Type genus of the Tineidae: clothes moths",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Tineidae: clothes moths",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "CREME",
+      "clue": "Cream",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cream",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "SNARL",
+      "clue": "Something jumbled or confused",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something jumbled or confused",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "COWER",
+      "clue": "Show submission or fear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To crouch down tremblingly, as through fear or shame.",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

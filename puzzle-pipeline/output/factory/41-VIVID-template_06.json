@@ -1,0 +1,855 @@
+{
+  "date": "2027-02-10",
+  "number": 1040,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "T",
+      "I",
+      "V",
+      "E",
+      "#",
+      "T",
+      "B",
+      "S"
+    ],
+    [
+      "#",
+      "B",
+      "E",
+      "R",
+      "L",
+      "I",
+      "N",
+      "#",
+      "H",
+      "O",
+      "T"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "L",
+      "V",
+      "E",
+      "#",
+      "A",
+      "M",
+      "Y"
+    ],
+    [
+      "P",
+      "O",
+      "S",
+      "T",
+      "#",
+      "I",
+      "M",
+      "B",
+      "I",
+      "B",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "T",
+      "#",
+      "D",
+      "A",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "I",
+      "E",
+      "#",
+      "S",
+      "P",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "L",
+      "#",
+      "A",
+      "N",
+      "D",
+      "I"
+    ],
+    [
+      "L",
+      "E",
+      "N",
+      "G",
+      "T",
+      "H",
+      "#",
+      "S",
+      "T",
+      "U",
+      "N"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "#",
+      "H",
+      "A",
+      "S",
+      "S",
+      "O",
+      "C",
+      "K"
+    ],
+    [
+      "M",
+      "G",
+      "R",
+      "#",
+      "E",
+      "S",
+      "S",
+      "E",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "#",
+      "R",
+      "A",
+      "I",
+      "D",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ACTIVE",
+      "clue": "Diligent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DILIGENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of diligent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ABBOTS",
+      "clue": "Plural of abbot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of abbot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "CESSES",
+      "clue": "Plural of cess",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cess",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "TROTTING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ILL",
+      "clue": "Often persistent bodily disorder or disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Often persistent bodily disorder or disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Strikingly bright or clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "ENEMAS",
+      "clue": "Plural of enema",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of enema",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Plural of tb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tb",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "THAI",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BOMB",
+      "clue": "Explosive device fused to explode under specific conditions",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A hollow projectile containing an explosive material.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Infection of the sebaceous gland of the eyelid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infection of the sebaceous gland of the eyelid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "BERLIN",
+      "clue": "Limousine with a glass partition between the front and back seats",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Limousine with a glass partition between the front and back seats",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "HOT",
+      "clue": "Ardent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of ardent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "ABSOLVE",
+      "clue": "Let off the hook",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To free from sin or its penalties.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "Domed or vaulted recess or projection on a building especially the east end...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Domed or vaulted recess or projection on a building especially the east end...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "AMY",
+      "clue": "Friend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Friend",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "POST",
+      "clue": "Delivery and collection of letters and packages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Delivery and collection of letters and packages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "Receive into the mind and retain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink or take in.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "BYPASSED",
+      "clue": "Past tense of bypass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of bypass",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "STET",
+      "clue": "Printing: direct that a matter marked for omission or correction is to be...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Printing: direct that a matter marked for omission or correction is to be...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DAY",
+      "clue": "United States writer best known for his autobiographical works (1874-1935)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer best known for his autobiographical works (1874-1935)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ESSIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "EITHER",
+      "clue": "After a negative statement used as an intensive meaning something like...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "After a negative statement used as an intensive meaning something like...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "SPIES",
+      "clue": "Plural of spy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of spy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "INTONE",
+      "clue": "Recite with musical intonation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recite with musical intonation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "EDUCED",
+      "clue": "Past tense of educe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of educe",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "SINK",
+      "clue": "Covered cistern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covered cistern",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LHASA",
+      "clue": "Breed of terrier having a long heavy coat raised in Tibet as watchdogs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Breed of terrier having a long heavy coat raised in Tibet as watchdogs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ANDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "LENGTH",
+      "clue": "Section of something that is long and narrow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Section of something that is long and narrow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "LAMS",
+      "clue": "Plural of lam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lam",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "NORM",
+      "clue": "Statistic describing the location of a distribution",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A model.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "STUN",
+      "clue": "Make senseless or dizzy by or as if by a blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make senseless or dizzy by or as if by a blow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "HASSOCK",
+      "clue": "Cushion for kneeling on (as when praying in church)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cushion for kneeling on (as when praying in church)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "SSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "MGR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "ESSENE",
+      "clue": "Member of an ascetic Jewish sect around the time of Jesus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of an ascetic Jewish sect around the time of Jesus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SEM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "RAIDED",
+      "clue": "Past tense of raid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of raid",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "date": "2027-05-20",
+  "number": 1139,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "M",
+      "O",
+      "G",
+      "S",
+      "#",
+      "M",
+      "A",
+      "B",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "A",
+      "C",
+      "U",
+      "P",
+      "#",
+      "E",
+      "L",
+      "I",
+      "A"
+    ],
+    [
+      "W",
+      "E",
+      "S",
+      "T",
+      "M",
+      "I",
+      "N",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "O",
+      "B",
+      "E",
+      "#",
+      "#",
+      "C",
+      "E",
+      "S",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "O",
+      "R",
+      "G",
+      "#",
+      "K",
+      "A",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "U",
+      "L",
+      "B",
+      "#",
+      "R",
+      "A",
+      "J",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "R",
+      "C",
+      "#",
+      "H",
+      "A",
+      "D",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#",
+      "#",
+      "M",
+      "D",
+      "I"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "T",
+      "E",
+      "L",
+      "S",
+      "H",
+      "E",
+      "L",
+      "F"
+    ],
+    [
+      "Y",
+      "M",
+      "C",
+      "A",
+      "#",
+      "I",
+      "R",
+      "I",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "Y",
+      "L",
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SMOGS",
+      "clue": "Plural of smog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of smog",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SEEBOB",
+      "clue": "Plumb",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLUMB"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Bob\u201d defines plumb",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "MASERU",
+      "clue": "Capital of Lesotho",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Lesotho",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "OCT",
+      "clue": "Month following September and preceding November",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following September and preceding November",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "GUM",
+      "clue": "Tissue (covered by mucous membrane) of the jaws that surrounds the bases of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tissue (covered by mucous membrane) of the jaws that surrounds the bases of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SPICK",
+      "clue": "Offensive term for persons of Latin American descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for persons of Latin American descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "MAB",
+      "clue": "Slattern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slattern",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "MESSIAH",
+      "clue": "Oratorio composed by Handel in 1742",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oratorio composed by Handel in 1742",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BIER",
+      "clue": "Stand to support a corpse or a coffin prior to burial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A horizontal framework with two handles at each end for carrying a corpse to the",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "TEACUP",
+      "clue": "Cup from which tea is drunk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cup from which tea is drunk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "TWO",
+      "clue": "One of the four playing cards in a deck that have two spots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the four playing cards in a deck that have two spots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ELIA",
+      "clue": "English essayist (1775-1834)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English essayist (1775-1834)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "WESTMINSTER",
+      "clue": "Borough of Greater London on the Thames",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Borough of Greater London on the Thames",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "NEAR",
+      "clue": "Move towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move towards",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "OBE",
+      "clue": "See Obi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Obi",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CESARE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "ORG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "GLOTTAL",
+      "clue": "Of or relating to or produced by the glottis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or produced by the glottis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "KAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "BULB",
+      "clue": "Rounded part of a cylindrical instrument (usually at one end)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rounded part of a cylindrical instrument (usually at one end)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "BRIE",
+      "clue": "Soft creamy white cheese",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft creamy white cheese",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "RAJA",
+      "clue": "Type genus of the family Rajidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the family Rajidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "JAMESI",
+      "clue": "Tempt",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TEMPT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cJames i\u201d defines tempt",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ADDLED",
+      "clue": "Confused and vague",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Confused and vague",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ORC",
+      "clue": "Grampus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grampus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CCLIV",
+      "clue": "Roman numeral for 254",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 254",
+      "clueSource": "roman"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ACETIC",
+      "clue": "Relating to or containing acetic acid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of, pertaining to, or of the nature of vinegar.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "AMY",
+      "clue": "Friend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Friend",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CAMS",
+      "clue": "Plural of cam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cam",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ENCY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "MDI",
+      "clue": "Sunni organization formed in 1989 and based in Pakistan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sunni organization formed in 1989 and based in Pakistan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "IFS",
+      "clue": "Plural of if",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of if",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MANTELSHELF",
+      "clue": "Shelf of a mantel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shelf of a mantel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "HIV",
+      "clue": "Virus that causes acquired immune deficiency syndrome (AIDS)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Virus that causes acquired immune deficiency syndrome (AIDS)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "YMCA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "IRISES",
+      "clue": "Plural of iris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of iris",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "SYL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Having the highest saturation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "date": "2027-02-22",
+  "number": 1052,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "E",
+      "T",
+      "C",
+      "H",
+      "A",
+      "#",
+      "D",
+      "E",
+      "L",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "Y",
+      "A",
+      "H",
+      "#",
+      "E",
+      "X",
+      "I",
+      "T"
+    ],
+    [
+      "S",
+      "A",
+      "N",
+      "C",
+      "T",
+      "A",
+      "#",
+      "A",
+      "C",
+      "M",
+      "E"
+    ],
+    [
+      "K",
+      "N",
+      "O",
+      "L",
+      "L",
+      "#",
+      "#",
+      "#",
+      "E",
+      "N",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "E",
+      "U",
+      "V",
+      "R",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "I",
+      "S",
+      "D",
+      "E",
+      "E",
+      "D",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "D",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#",
+      "B",
+      "O",
+      "A",
+      "R",
+      "D"
+    ],
+    [
+      "S",
+      "U",
+      "D",
+      "S",
+      "#",
+      "B",
+      "O",
+      "O",
+      "B",
+      "O",
+      "O"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "E",
+      "#",
+      "A",
+      "S",
+      "T",
+      "U",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "N",
+      "D",
+      "#",
+      "T",
+      "E",
+      "S",
+      "T",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "BETCHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BASK",
+      "clue": "Be exposed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make warm by genial heat.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Enthusiastic and assured vigor and liveliness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enthusiastic and assured vigor and liveliness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "TINO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "CYCLOID",
+      "clue": "Resembling a circle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Like a circle.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "HATLESS",
+      "clue": "Not wearing a hat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not wearing a hat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "DEA",
+      "clue": "Federal agency responsible for enforcing laws and regulations governing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal agency responsible for enforcing laws and regulations governing...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "EXCEED",
+      "clue": "Be or do something to a greater degree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To go beyond, as in measure, quality, value, action, power, skill, etc.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LIMN",
+      "clue": "Make a portrait of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a portrait of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ALIYAH",
+      "clue": "Immigration of Jews to Israel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Immigration of Jews to Israel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EXIT",
+      "clue": "Act of going out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A way or passage out.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "TED",
+      "clue": "Tough youth of 1950's and 1960's wearing Edwardian style clothes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough youth of 1950's and 1960's wearing Edwardian style clothes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "SANCTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point (of something)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "KNOLL",
+      "clue": "Small natural hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small natural hill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "OEUVRE",
+      "clue": "Total output of a writer or artist (or a substantial part of it)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Total output of a writer or artist (or a substantial part of it)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "UDO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using far more words than needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "REBOOTS",
+      "clue": "Plural of reboot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of reboot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "MISDEED",
+      "clue": "Improper or wicked or immoral behavior",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A wrong or improper act.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "MADDEN",
+      "clue": "Inflame with passion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To inflame with passion.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ADSORB",
+      "clue": "Accumulate (liquids or gases) on the surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accumulate (liquids or gases) on the surface",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Have. Had as lief, Had rather, Had better, Had as soon, etc., with a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "HST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AURA",
+      "clue": "Distinctive but intangible quality surrounding a person or thing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pervasive psychic influence supposed to emanate from persons",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "BOARD",
+      "clue": "Flat piece of material designed for a special purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat piece of material designed for a special purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ABUT",
+      "clue": "Lie adjacent to another or share a boundary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To touch at the end or boundary line.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ROTE",
+      "clue": "Repetition of words or sounds as a means of learning them, with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Repetition of words or sounds as a means of learning them, with slight attention.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DOES",
+      "clue": "3d pers. sing. pres. of Do",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "3d pers. sing. pres. of Do",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SUDS",
+      "clue": "Dysphemism for beer (especially for lager that effervesces)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dysphemism for beer (especially for lager that effervesces)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "SED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "BOOBOO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "BAT",
+      "clue": "Turn trying to get a hit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turn trying to get a hit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "TREE",
+      "clue": "English actor and theatrical producer noted for his lavish productions of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English actor and theatrical producer noted for his lavish productions of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "TESTES",
+      "clue": "Pl. of Teste, or of Testis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pl. of Teste, or of Testis",
+      "clueSource": "webster"
+    }
+  ]
+}

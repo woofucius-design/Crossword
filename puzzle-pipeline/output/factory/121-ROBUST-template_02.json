@@ -1,0 +1,736 @@
+{
+  "date": "2027-05-01",
+  "number": 1120,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "M",
+      "P",
+      "H",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "I",
+      "A"
+    ],
+    [
+      "D",
+      "I",
+      "A",
+      "G",
+      "#",
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T"
+    ],
+    [
+      "U",
+      "N",
+      "U",
+      "T",
+      "T",
+      "E",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "N",
+      "I",
+      "L",
+      "#",
+      "I",
+      "C",
+      "I",
+      "C",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "O",
+      "G",
+      "U",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "U",
+      "E",
+      "L",
+      "I",
+      "S",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "P",
+      "S",
+      "O",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "A",
+      "#",
+      "L",
+      "E",
+      "I"
+    ],
+    [
+      "U",
+      "N",
+      "T",
+      "I",
+      "M",
+      "E",
+      "L",
+      "I",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "K",
+      "E",
+      "D",
+      "#",
+      "R",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "H",
+      "A",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "MPH",
+      "clue": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "MINI",
+      "clue": "Very short skirt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very short skirt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PAUL",
+      "clue": "Christian missionary to the Gentiles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Christian missionary to the Gentiles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "HGT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ASIA",
+      "clue": "Nations of the Asian continent collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nations of the Asian continent collectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "ABACUS",
+      "clue": "Calculator that performs arithmetic functions by manually sliding counters on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Calculator that performs arithmetic functions by manually sliding counters on...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "SUBLET",
+      "clue": "Lease from one lessee to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lease from one lessee to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "See Aisle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ATES",
+      "clue": "Plural of at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of at",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "DIAG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Mound or small hill. To cure, as codfish, in a particular manner,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "RECOLORED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "ORIGINAL",
+      "clue": "Pertaining to the origin or beginning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not copied nor produced by imitation.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNUTTERABLE",
+      "clue": "Not utterable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Inexpressible.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "TIRESOME",
+      "clue": "Fitted or tending to tire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wearisome.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "ICICLES",
+      "clue": "Plural of icicle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of icicle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "ROGUE",
+      "clue": "Deceitful and unreliable scoundrel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deceitful and unreliable scoundrel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "DUELIST",
+      "clue": "Person who fights duels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who fights duels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DENTAL",
+      "clue": "Consonant articulated with the tip of the tongue near the gum ridge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Consonant articulated with the tip of the tongue near the gum ridge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "UPDIKE",
+      "clue": "United States author (born 1932)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States author (born 1932)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "EPSON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PANDORA",
+      "clue": "First woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PUSH",
+      "clue": "Act of applying force in order to move something away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of applying force in order to move something away",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ANTA",
+      "clue": "Species of pier produced by thickening a wall at its termination, treated...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Species of pier produced by thickening a wall at its termination, treated...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LEAD",
+      "clue": "Playing of a card to start a trick in bridge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing of a card to start a trick in bridge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNTIMELIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IRA",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "STAKED",
+      "clue": "Past tense of stake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of stake",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "RAPS",
+      "clue": "Plural of rap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rap",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "HALE",
+      "clue": "Sound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of sound and vigorous health.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ADY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

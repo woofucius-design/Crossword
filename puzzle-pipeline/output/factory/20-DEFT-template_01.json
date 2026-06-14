@@ -1,0 +1,887 @@
+{
+  "date": "2027-01-20",
+  "number": 1019,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "E",
+      "F",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "P",
+      "G"
+    ],
+    [
+      "O",
+      "R",
+      "E",
+      "S",
+      "T",
+      "E",
+      "S",
+      "#",
+      "Y",
+      "O",
+      "U"
+    ],
+    [
+      "H",
+      "A",
+      "Z",
+      "A",
+      "R",
+      "D",
+      "O",
+      "U",
+      "S",
+      "L",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "S",
+      "B",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "N",
+      "O",
+      "D",
+      "E",
+      "#",
+      "B",
+      "I",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "B",
+      "A",
+      "R",
+      "O",
+      "N",
+      "#",
+      "I",
+      "T",
+      "E",
+      "M",
+      "S"
+    ],
+    [
+      "B",
+      "E",
+      "G",
+      "U",
+      "N",
+      "#",
+      "N",
+      "Y",
+      "L",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "I",
+      "O",
+      "G",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "U",
+      "I",
+      "T",
+      "A",
+      "B",
+      "L",
+      "E",
+      "F",
+      "O",
+      "R"
+    ],
+    [
+      "E",
+      "S",
+      "R",
+      "#",
+      "L",
+      "A",
+      "Y",
+      "B",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "W",
+      "E",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "R",
+      "E",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Skillful in physical movements",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DOH",
+      "clue": "Syllable naming the first (tonic) note of any major scale in solmization",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the first (tonic) note of any major scale in solmization",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "FEZ",
+      "clue": "Felt cap (usually red) for a man",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A brimless felt cap in the shape of a truncated cone, usually red with a black",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Agency established in 2001 to safeguard United States transportation systems...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency established in 2001 to safeguard United States transportation systems...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "MPG",
+      "clue": "Fuel efficiency unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fuel efficiency unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "MYS",
+      "clue": "Plural of my",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of my",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "POL",
+      "clue": "Person active in party politics",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person active in party politics",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ORESTES",
+      "clue": "Son of Agamemnon and Clytemnestra",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Son of Agamemnon and Clytemnestra",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "TRIENNIAL",
+      "clue": "Occurring every third year or lasting 3 years",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Taking place every third year.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "SOBBINGLY",
+      "clue": "With sobs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "With sobs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "HAZARDOUSLY",
+      "clue": "In a dangerous manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a dangerous manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "UNITY",
+      "clue": "Quality of being united into one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being united into one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "ISBN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "ANODE",
+      "clue": "Positively charged electrode by which electrons leave an electrical device",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The point where or path by which a voltaic current enters an electrolyte or the",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ABB",
+      "clue": "Urban hit squad and guerrilla group of the Communist Party in the Philippines",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urban hit squad and guerrilla group of the Communist Party in the Philippines",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "ORG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "DOUBT",
+      "clue": "Uncertainty about the truth or factuality or existence of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uncertainty about the truth or factuality or existence of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "BITES",
+      "clue": "Plural of bit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bit",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "TEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "EMO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "BARON",
+      "clue": "Very wealthy or powerful businessman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very wealthy or powerful businessman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ITEMS",
+      "clue": "Plural of item",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of item",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "BEGUN",
+      "clue": "Of Begin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of Begin",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "NYLON",
+      "clue": "Synthetic fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic fabric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "BIOG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "OBA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SUITABLEFOR",
+      "clue": "Lunatic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LUNATIC"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csuitable for\u201d defines lunatic",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "SEW",
+      "clue": "Fasten by sewing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fasten by sewing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "EBB",
+      "clue": "Outward flow of the tide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outward flow of the tide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "FAR",
+      "clue": "Terrorist organization that seeks to overthrow the government dominated by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Terrorist organization that seeks to overthrow the government dominated by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "RED",
+      "clue": "Red color or pigment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Red color or pigment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ESR",
+      "clue": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "LAYBARE",
+      "clue": "Denude",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DENUDE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clay bare\u201d defines denude",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very early",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very small.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "BRED",
+      "clue": "Imp. & p. p. of Breed. Bred out, degenerated. \"The strain of man's bred out...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. & p. p. of Breed. Bred out, degenerated. \"The strain of man's bred out...",
+      "clueSource": "webster"
+    }
+  ]
+}

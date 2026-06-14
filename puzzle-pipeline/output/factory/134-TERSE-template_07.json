@@ -1,0 +1,776 @@
+{
+  "date": "2027-05-14",
+  "number": 1133,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "A",
+      "A",
+      "T",
+      "H",
+      "#",
+      "A",
+      "D",
+      "D",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "C",
+      "I",
+      "I",
+      "#",
+      "B",
+      "R",
+      "E",
+      "A",
+      "K"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "E",
+      "M",
+      "B",
+      "R",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "A",
+      "M",
+      "E",
+      "S",
+      "#",
+      "R",
+      "A",
+      "G",
+      "G",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "V",
+      "E",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "R",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "M",
+      "C",
+      "E",
+      "E",
+      "D",
+      "#",
+      "E",
+      "M",
+      "F",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "L",
+      "F",
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "I",
+      "T"
+    ],
+    [
+      "P",
+      "L",
+      "E",
+      "A",
+      "T",
+      "#",
+      "I",
+      "C",
+      "I",
+      "L",
+      "Y"
+    ],
+    [
+      "Y",
+      "A",
+      "W",
+      "N",
+      "S",
+      "#",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "BAATH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BARA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ASEM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point (of something)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "TIES",
+      "clue": "Plural of ti",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ti",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "HIM",
+      "clue": "Them. See Hem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Them. See Hem",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ADDLE",
+      "clue": "Make inefficient or worthless; muddle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make inefficient or worthless; muddle.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "ABRADE",
+      "clue": "Rub hard or scrub",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To wear away the surface or some part of by friction.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "DRAGON",
+      "clue": "Any of several small tropical Asian lizards capable of gliding by spreading...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small tropical Asian lizards capable of gliding by spreading...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "DENG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LACE",
+      "clue": "Delicate decorative fabric woven in an open web of symmetrical patterns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Delicate decorative fabric woven in an open web of symmetrical patterns",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "EKED",
+      "clue": "Past tense of eke",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of eke",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ASCII",
+      "clue": "Code for information exchange between computers made by different companies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Code for information exchange between computers made by different companies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "BREAK",
+      "clue": "Escape from jail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Escape from jail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REMEMBRANCE",
+      "clue": "Ability to recall past occurrences",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Recollection.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "BRAVADO",
+      "clue": "Swaggering show of courage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An aggressive display of boldness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "AMES",
+      "clue": "Plural of am",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of am",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "RAGGED",
+      "clue": "Having an irregular outline",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an irregular outline",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SEVEN",
+      "clue": "One of four playing cards in a deck with seven pips on the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck with seven pips on the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "STEFAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "ERECTS",
+      "clue": "Plural of erect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of erect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "TRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "EMCEED",
+      "clue": "Past tense of emcee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of emcee",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "MELA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "CLEW",
+      "clue": "Evidence that helps to solve a problem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evidence that helps to solve a problem",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "EMFS",
+      "clue": "Plural of emf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of emf",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ECCE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MEIR",
+      "clue": "Israeli statesman (born in Russia) (1898-1978)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Israeli statesman (born in Russia) (1898-1978)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "FILS",
+      "clue": "Fractional monetary unit in Bahrain and Iraq and Jordan and Kuwait",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fractional monetary unit in Bahrain and Iraq and Jordan and Kuwait",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Infection of the sebaceous gland of the eyelid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infection of the sebaceous gland of the eyelid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SELFCONCEIT",
+      "clue": "Egotism",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EGOTISM"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSelf conceit\u201d defines egotism",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "PLEAT",
+      "clue": "Any of various types of fold formed by doubling fabric back upon itself and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various types of fold formed by doubling fabric back upon itself and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "ICILY",
+      "clue": "In a cold and icy manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Frigidly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "YAWNS",
+      "clue": "Plural of yawn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of yawn",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Briefly and cleanly expressed; curt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat_def"
+    }
+  ]
+}

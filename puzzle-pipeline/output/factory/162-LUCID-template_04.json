@@ -1,0 +1,717 @@
+{
+  "date": "2027-06-11",
+  "number": 1161,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "U",
+      "C",
+      "I",
+      "D",
+      "#",
+      "A",
+      "G",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "N",
+      "E",
+      "M",
+      "A",
+      "#",
+      "L",
+      "U",
+      "O",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "D",
+      "A",
+      "P",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "S",
+      "R",
+      "#",
+      "V",
+      "E",
+      "L",
+      "M",
+      "A"
+    ],
+    [
+      "#",
+      "F",
+      "R",
+      "E",
+      "E",
+      "#",
+      "A",
+      "R",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "F",
+      "A",
+      "C",
+      "T",
+      "S",
+      "#",
+      "S",
+      "N",
+      "O",
+      "R",
+      "T"
+    ],
+    [
+      "E",
+      "C",
+      "H",
+      "O",
+      "S",
+      "#",
+      "C",
+      "A",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "D",
+      "E",
+      "A",
+      "R",
+      "E",
+      "#",
+      "U",
+      "T",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "A",
+      "D",
+      "D",
+      "L",
+      "I",
+      "N",
+      "G",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "G",
+      "G",
+      "#",
+      "C",
+      "A",
+      "V",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "E",
+      "#",
+      "C",
+      "R",
+      "E",
+      "D",
+      "O",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "2,1": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,6": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,6": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,5": {
+      "number": 25
+    },
+    "8,9": {
+      "number": 26
+    },
+    "9,1": {
+      "number": 27
+    },
+    "9,5": {
+      "number": 28
+    },
+    "10,1": {
+      "number": 29
+    },
+    "10,5": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clear, coherent; easy to understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "UNDERCHARGE",
+      "clue": "Make an inadequate charge for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make an inadequate charge for.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "CEASETORAGE",
+      "clue": "Subside",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SUBSIDE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccease to rage\u201d defines subside",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 9,
+      "answer": "IMPRESSED",
+      "clue": "Past tense of impress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of impress",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "DAT",
+      "clue": "Digital tape recording of sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Digital tape recording of sound",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "AGR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "ALTERNATIVE",
+      "clue": "Something that may or must exist, be taken or chosen, or done instead of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Something that may or must exist, be taken or chosen, or done instead of",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "GUILLOTINED",
+      "clue": "Past tense of guillotine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of guillotine",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 7,
+      "answer": "ROOMERS",
+      "clue": "Plural of roomer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of roomer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "ENEMA",
+      "clue": "Injection of a liquid through the anus to stimulate evacuation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Injection of a liquid through the anus to stimulate evacuation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "LUO",
+      "clue": "Nilotic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nilotic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "ADAPTATION",
+      "clue": "Responsive adjustment of a sense organ (as the eye) to varying conditions...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Responsive adjustment of a sense organ (as the eye) to varying conditions...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 9,
+      "answer": "AVASCULAR",
+      "clue": "Without blood vessels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Without blood vessels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "NAST",
+      "clue": "United States political cartoonist (1840-1902)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States political cartoonist (1840-1902)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 3,
+      "answer": "ESR",
+      "clue": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "VELMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "FREE",
+      "clue": "People who are free",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are free",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 7,
+      "answer": "FACETED",
+      "clue": "Having facets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having facets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "ARLES",
+      "clue": "Money given by a buyer to a seller to bind a contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money given by a buyer to a seller to bind a contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "FACTS",
+      "clue": "Plural of fact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of fact",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "FEDS",
+      "clue": "Plural of fed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of fed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "SNORT",
+      "clue": "Cry or noise made to express displeasure or contempt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cry or noise made to express displeasure or contempt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ECHOS",
+      "clue": "Plural of echo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of echo",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "answer": "CATS",
+      "clue": "Plural of cat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DEARE",
+      "clue": "Variant of Dere, v. t. & n",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variant of Dere, v. t. & n",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "answer": "UTI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "STRADDLING",
+      "clue": "Applied to spokes when they are arranged alternately in two circles in the hub....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Applied to spokes when they are arranged alternately in two circles in the hub....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DCC",
+      "clue": "Roman numeral for 700",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 700",
+      "clueSource": "roman"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "GRO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "EGG",
+      "clue": "Animal reproductive body consisting of an ovum or embryo together with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animal reproductive body consisting of an ovum or embryo together with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "answer": "CAVER",
+      "clue": "One who caves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who caves",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "CREDO",
+      "clue": "Any system of principles or beliefs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any system of principles or beliefs",
+      "clueSource": "wordnet"
+    }
+  ]
+}

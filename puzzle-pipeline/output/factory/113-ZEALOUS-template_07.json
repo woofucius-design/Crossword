@@ -1,0 +1,784 @@
+{
+  "date": "2027-04-23",
+  "number": 1112,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "A",
+      "M",
+      "P",
+      "S",
+      "#",
+      "S",
+      "K",
+      "Y",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "C",
+      "#",
+      "P",
+      "I",
+      "E",
+      "C",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "G",
+      "N",
+      "I",
+      "Z",
+      "A",
+      "N",
+      "T",
+      "O",
+      "F"
+    ],
+    [
+      "O",
+      "N",
+      "E",
+      "S",
+      "#",
+      "E",
+      "D",
+      "G",
+      "I",
+      "L",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "I",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "C",
+      "L",
+      "X",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "H",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "U",
+      "R",
+      "E",
+      "A",
+      "U",
+      "#",
+      "K",
+      "E",
+      "P",
+      "I"
+    ],
+    [
+      "U",
+      "P",
+      "H",
+      "O",
+      "L",
+      "S",
+      "T",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "B",
+      "O",
+      "O",
+      "L",
+      "E",
+      "#",
+      "H",
+      "E",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "O",
+      "N",
+      "S",
+      "E",
+      "T",
+      "#",
+      "E",
+      "L",
+      "E",
+      "N",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TAMPS",
+      "clue": "Plural of tamp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tamp",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TACO",
+      "clue": "Tortilla rolled cupped around a filling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tortilla rolled cupped around a filling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANON",
+      "clue": "In a little while",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a little while",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "MTGE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "PINS",
+      "clue": "Plural of pin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of pin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "SKYED",
+      "clue": "Surrounded by sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surrounded by sky",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "SPADIX",
+      "clue": "Fleshy axis of a spike often surrounded by a spathe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy axis of a spike often surrounded by a spathe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "KINGSI",
+      "clue": "Recover",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RECOVER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cKings i\u201d defines recover",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "YETI",
+      "clue": "Large hairy humanoid creature said to live in the Himalayas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large hairy humanoid creature said to live in the Himalayas",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ECOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DEFY",
+      "clue": "Challenge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Challenge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ANTIC",
+      "clue": "Ludicrously odd",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A grotesque, ludicrous, or fantastic action.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "PIECE",
+      "clue": "Portable gun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A loose or separated part, as distinguished from the whole or the mass.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "COGNIZANTOF",
+      "clue": "Acquaint",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACQUAINT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccognizant of\u201d defines acquaint",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Full of energy for a cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "EDGILY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "AIS",
+      "clue": "Plural of ai",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ai",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CCLXI",
+      "clue": "Roman numeral for 261",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 261",
+      "clueSource": "roman"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CREOLE",
+      "clue": "Mother tongue that originates from contact between two languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother tongue that originates from contact between two languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "CHALET",
+      "clue": "Swiss house with a sloping roof and wide eaves or a house built in this style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swiss house with a sloping roof and wide eaves or a house built in this style",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "RHO",
+      "clue": "17th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "17th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BUREAU",
+      "clue": "Furniture with drawers for keeping clothes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A chest of drawers for clothing, etc.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BUBO",
+      "clue": "Genus of Strigidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of Strigidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "UPON",
+      "clue": "On",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RHOS",
+      "clue": "Plural of rho",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rho",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "KEPI",
+      "clue": "Cap with a flat circular top and a visor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cap with a flat circular top and a visor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "KEEL",
+      "clue": "One of the main longitudinal beams (or plates) of the hull of a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the main longitudinal beams (or plates) of the hull of a vessel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Port city on Lake Erie in northwestern Pennsylvania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city on Lake Erie in northwestern Pennsylvania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "PENN",
+      "clue": "University in Philadelphia, Pennsylvania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "University in Philadelphia, Pennsylvania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UPHOLSTERED",
+      "clue": "Past tense of upholster",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of upholster",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "BOOLE",
+      "clue": "English mathematician",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English mathematician",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "HEINE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "ONSET",
+      "clue": "Offensive against an enemy (using weapons)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An assault, especially of troops, upon an enemy or fortification.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "ELENA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

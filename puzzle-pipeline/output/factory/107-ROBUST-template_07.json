@@ -1,0 +1,778 @@
+{
+  "date": "2027-04-17",
+  "number": 1106,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "F",
+      "F",
+      "E",
+      "D",
+      "#",
+      "A",
+      "B",
+      "B",
+      "O",
+      "T"
+    ],
+    [
+      "S",
+      "L",
+      "U",
+      "M",
+      "S",
+      "#",
+      "C",
+      "R",
+      "E",
+      "W",
+      "E"
+    ],
+    [
+      "P",
+      "O",
+      "L",
+      "I",
+      "T",
+      "I",
+      "C",
+      "I",
+      "A",
+      "N",
+      "S"
+    ],
+    [
+      "Y",
+      "E",
+      "A",
+      "R",
+      "#",
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "W",
+      "A",
+      "N",
+      "T",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "R",
+      "I",
+      "B",
+      "A",
+      "#",
+      "A",
+      "C",
+      "M",
+      "E"
+    ],
+    [
+      "W",
+      "A",
+      "I",
+      "T",
+      "I",
+      "N",
+      "G",
+      "R",
+      "O",
+      "O",
+      "M"
+    ],
+    [
+      "E",
+      "M",
+      "L",
+      "E",
+      "N",
+      "#",
+      "E",
+      "N",
+      "N",
+      "U",
+      "I"
+    ],
+    [
+      "D",
+      "I",
+      "L",
+      "D",
+      "O",
+      "#",
+      "T",
+      "E",
+      "N",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "EFFED",
+      "clue": "Past tense of eff",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of eff",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "FLOE",
+      "clue": "Flat mass of ice (smaller than an ice field) floating at sea",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A collection of tabular masses of floating polar ice.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "FULA",
+      "clue": "Family of languages of the Fulani of West Africa and used as a lingua franca...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Family of languages of the Fulani of West Africa and used as a lingua franca...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "EMIR",
+      "clue": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ABBOT",
+      "clue": "Superior of an abbey of monks",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The superior of a community of monks.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "ACCOST",
+      "clue": "Approach with an offer of sexual favors",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To speak to.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "BRIBES",
+      "clue": "Plural of bribe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bribe",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "Man who is the lover of a girl or young woman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An escort or lover.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "OWNS",
+      "clue": "Plural of own",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of own",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "TEST",
+      "clue": "Act of testing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of testing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SLUMS",
+      "clue": "Plural of slum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of slum",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "CREWE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "POLITICIANS",
+      "clue": "Plural of politician",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of politician",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "IRANIAN",
+      "clue": "Modern Persian language spoken in Iran",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Modern Persian language spoken in Iran",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "YEAR",
+      "clue": "Body of students who graduate together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of students who graduate together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Evincing strength",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ASE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "WANTS",
+      "clue": "Plural of want",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of want",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "WAITED",
+      "clue": "Past tense of wait",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of wait",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "ALBINO",
+      "clue": "Person, whether negro, Indian, or white, in whom by some defect of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A person with milky white skin and hair, and eyes with bright red pupil and",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ARRIBA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AWED",
+      "clue": "Inspired by a feeling of fearful wonderment or reverence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inspired by a feeling of fearful wonderment or reverence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RAMI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RILL",
+      "clue": "Small channel (as one formed by soil erosion)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small channel (as one formed by soil erosion)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point (of something)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARNE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "CONN",
+      "clue": "Conduct or direct the steering of a ship or plane",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conduct or direct the steering of a ship or plane",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "MOUE",
+      "clue": "Disdainful grimace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disdainful grimace",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Expel (gases or odors)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "WAITINGROOM",
+      "clue": "Anteroom",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ANTEROOM"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cwaiting room\u201d defines anteroom",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "EMLEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "ENNUI",
+      "clue": "Feeling of being bored by something tedious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feeling of being bored by something tedious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "DILDO",
+      "clue": "Vibrating device that substitutes for an erect penis to provide vaginal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vibrating device that substitutes for an erect penis to provide vaginal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "TENET",
+      "clue": "Any opinion, principle, dogma, belief, or doctrine, which a person...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

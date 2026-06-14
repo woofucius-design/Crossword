@@ -1,0 +1,822 @@
+{
+  "date": "2027-01-18",
+  "number": 1017,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "K",
+      "H",
+      "A",
+      "L",
+      "S",
+      "A",
+      "#",
+      "L",
+      "A",
+      "W",
+      "#"
+    ],
+    [
+      "E",
+      "O",
+      "L",
+      "I",
+      "A",
+      "N",
+      "#",
+      "A",
+      "P",
+      "E",
+      "X"
+    ],
+    [
+      "P",
+      "L",
+      "A",
+      "C",
+      "I",
+      "D",
+      "#",
+      "N",
+      "O",
+      "R",
+      "M"
+    ],
+    [
+      "T",
+      "I",
+      "R",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "G",
+      "E",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "W",
+      "B",
+      "I",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "U",
+      "A",
+      "G",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "P",
+      "E",
+      "P",
+      "S",
+      "I",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "C",
+      "A",
+      "#",
+      "#",
+      "#",
+      "T",
+      "O",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "N",
+      "O",
+      "T",
+      "S",
+      "#",
+      "L",
+      "I",
+      "B",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "A",
+      "C",
+      "H",
+      "E",
+      "#",
+      "E",
+      "N",
+      "L",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "A",
+      "G",
+      "E",
+      "N",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "KHALSA",
+      "clue": "Group of initiated Sikhs to which devout orthodox Sikhs are ritually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of initiated Sikhs to which devout orthodox Sikhs are ritually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "KEPT",
+      "clue": "Not violated or disregarded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not violated or disregarded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "HOLI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ALAR",
+      "clue": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "LICENSE",
+      "clue": "Act of giving a formal (usually written) authorization",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of giving a formal (usually written) authorization",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SAIDESP",
+      "clue": "Taut",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TAUT",
+        "BLAZE",
+        "DISMOUNT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csaid esp\u201d defines taut",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "LAW",
+      "clue": "Learned profession that is mastered by graduate study in a law school and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Learned profession that is mastered by graduate study in a law school and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "LAN",
+      "clue": "Local computer network for communication between computers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local computer network for communication between computers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "APOGEE",
+      "clue": "Climax",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The climax.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "WERE",
+      "clue": "Wear. See 3d Wear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wear. See 3d Wear",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "EOLIAN",
+      "clue": "Member of one of four linguistic divisions of the prehistoric Greeks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of one of four linguistic divisions of the prehistoric Greeks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Highest point, as of a mountain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "XML",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Calm and peaceful, free from disturbance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NORM",
+      "clue": "Model",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A model.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TIRED",
+      "clue": "Repeated too often",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Repeated too often",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "GEL",
+      "clue": "Thin translucent membrane used over stage lights for color effects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin translucent membrane used over stage lights for color effects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "NEWBIE",
+      "clue": "Novice",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NOVICE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of novice",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "WUS",
+      "clue": "Plural of wu",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of wu",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "BAITING",
+      "clue": "Harassment especially of a tethered animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Harassment especially of a tethered animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "IGNOBLE",
+      "clue": "Low in character or purpose",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Low in character or purpose.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "ASSUAGE",
+      "clue": "Cause to be less harsh, violent, or severe, as excitement, appetite, pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cause to be less harsh, violent, or severe, as excitement, appetite, pain...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "APATHY",
+      "clue": "Insensibility to emotion or passionate feeling",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Insensibility to emotion or passionate feeling.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "PEPSIN",
+      "clue": "Enzyme produced in the stomach that splits proteins into peptones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enzyme produced in the stomach that splits proteins into peptones",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DCA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "COCA",
+      "clue": "Dried leaves of the coca plant (and related plants that also contain cocaine)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dried leaves of the coca plant (and related plants that also contain cocaine)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "TONER",
+      "clue": "Lotion for cleansing the skin and contracting the pores",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lotion for cleansing the skin and contracting the pores",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "NEIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "RATS",
+      "clue": "Plural of rat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "NOTS",
+      "clue": "Plural of not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of not",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LIBERA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ENLIST",
+      "clue": "Enter voluntarily the military service by formal enrollment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To enter voluntarily the military service by formal enrollment.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "AGENTS",
+      "clue": "Plural of agent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of agent",
+      "clueSource": "inflection"
+    }
+  ]
+}

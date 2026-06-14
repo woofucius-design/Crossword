@@ -1,0 +1,817 @@
+{
+  "date": "2027-05-04",
+  "number": 1123,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "Y",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "H",
+      "G"
+    ],
+    [
+      "R",
+      "O",
+      "I",
+      "#",
+      "P",
+      "A",
+      "T",
+      "#",
+      "T",
+      "A",
+      "U"
+    ],
+    [
+      "A",
+      "U",
+      "D",
+      "#",
+      "E",
+      "C",
+      "O",
+      "N",
+      "O",
+      "M",
+      "Y"
+    ],
+    [
+      "W",
+      "H",
+      "E",
+      "N",
+      "T",
+      "H",
+      "O",
+      "U",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "T",
+      "A",
+      "R",
+      "I",
+      "#",
+      "A",
+      "S",
+      "P",
+      "#"
+    ],
+    [
+      "#",
+      "V",
+      "I",
+      "G",
+      "I",
+      "L",
+      "A",
+      "N",
+      "C",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "C",
+      "G",
+      "#",
+      "L",
+      "U",
+      "C",
+      "I",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "X",
+      "E",
+      "G",
+      "E",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "O",
+      "B",
+      "A",
+      "D",
+      "I",
+      "A",
+      "H",
+      "#",
+      "S",
+      "C",
+      "H"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "#",
+      "I",
+      "N",
+      "T",
+      "#",
+      "O",
+      "A",
+      "R"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "B",
+      "I"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DYE",
+      "clue": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DRAW",
+      "clue": "Act of drawing or hauling something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of drawing or hauling something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "YOUHAVE",
+      "clue": "Odium",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ODIUM"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cYou have\u201d defines odium",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "EIDETIC",
+      "clue": "Of visual imagery of almost photographic accuracy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of visual imagery of almost photographic accuracy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CHG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CTO",
+      "clue": "Tech chief",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tech chief",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "HAM",
+      "clue": "Meat cut from the thigh of a hog (usually smoked)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Meat cut from the thigh of a hog (usually smoked)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Rope, chain, or rod attached to anything to steady it",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ROI",
+      "clue": "Amount, expressed as a percentage, that is earned on a company's total...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amount, expressed as a percentage, that is earned on a company's total...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "PAT",
+      "clue": "Light touch or stroke",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light touch or stroke",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "PETRI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ACHILLEAN",
+      "clue": "Resembling Achilles, the hero of the Iliad",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Invulnerable.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TOO",
+      "clue": "A degree exceeding normal or proper limits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A degree exceeding normal or proper limits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TAU",
+      "clue": "19th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "19th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AUD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "ECONOMY",
+      "clue": "Act of economizing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of economizing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or opinion or attitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "WHENTHOU",
+      "clue": "Prate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cWhen thou\u201d defines prate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "NAGGED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "ATARI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ASP",
+      "clue": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "SCISSOR",
+      "clue": "Cut with or as if with scissors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cut with or as if with scissors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "PEDICAB",
+      "clue": "Tricycle (usually propelled by pedalling)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tricycle (usually propelled by pedalling)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "VIGILANCE",
+      "clue": "Quality or state of being vigilant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Alert and intent mental watchfulness in guarding against danger.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AUGHT",
+      "clue": "Quantity of no importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quantity of no importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "ECG",
+      "clue": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Transparently clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "EXEGESIS",
+      "clue": "Exposition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Biblical exposition or interpretation.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "XII",
+      "clue": "Cardinal number that is the sum of eleven and one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the sum of eleven and one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SHRI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "OBADIAH",
+      "clue": "Old Testament book telling Obadiah's prophecies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old Testament book telling Obadiah's prophecies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "BEN",
+      "clue": "Mountain or tall hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain or tall hill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "SCH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "DEN",
+      "clue": "Room that is comfortable and secluded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Room that is comfortable and secluded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "INT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "OAR",
+      "clue": "Implement used to propel or steer a boat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Implement used to propel or steer a boat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "RBI",
+      "clue": "Run that is the result of the batter's performance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run that is the result of the batter's performance",
+      "clueSource": "wordnet"
+    }
+  ]
+}

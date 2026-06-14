@@ -1,0 +1,830 @@
+{
+  "date": "2027-03-06",
+  "number": 1064,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "D",
+      "R",
+      "M",
+      "#",
+      "R",
+      "I",
+      "P",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "O",
+      "U",
+      "D",
+      "#",
+      "F",
+      "M",
+      "R",
+      "I",
+      "#"
+    ],
+    [
+      "R",
+      "A",
+      "B",
+      "B",
+      "I",
+      "#",
+      "S",
+      "M",
+      "I",
+      "R",
+      "K"
+    ],
+    [
+      "A",
+      "R",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "V",
+      "E",
+      "R"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "R",
+      "W",
+      "I",
+      "T",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "V",
+      "E",
+      "R",
+      "B",
+      "O",
+      "S",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "S",
+      "Y",
+      "M",
+      "M",
+      "E",
+      "T",
+      "R",
+      "Y"
+    ],
+    [
+      "S",
+      "L",
+      "A",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "H",
+      "U",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "C",
+      "I",
+      "I",
+      "#",
+      "A",
+      "V",
+      "I",
+      "L",
+      "A"
+    ],
+    [
+      "#",
+      "A",
+      "T",
+      "T",
+      "N",
+      "#",
+      "S",
+      "H",
+      "E",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "E",
+      "T",
+      "#",
+      "E",
+      "F",
+      "F",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,6": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,1": {
+      "number": 32
+    },
+    "9,6": {
+      "number": 33
+    },
+    "10,2": {
+      "number": 34
+    },
+    "10,6": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "BDRM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BLARE",
+      "clue": "Cacophony",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "DOBRAVEACTS",
+      "clue": "Chivalry",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CHIVALRY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cdo brave acts\u201d defines chivalry",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "RUB",
+      "clue": "Act of rubbing or wiping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of rubbing or wiping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "MDI",
+      "clue": "Sunni organization formed in 1989 and based in Pakistan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sunni organization formed in 1989 and based in Pakistan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "RIP",
+      "clue": "Act of rending or ripping or splitting something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of rending or ripping or splitting something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "RFS",
+      "clue": "Plural of rf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rf",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "IMMENSE",
+      "clue": "Unusually great in size or amount or degree or especially extent or scope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very great in degree, extent, size, or quantity.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PRIVEETHIEF",
+      "clue": "Privy",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRIVY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cprivee thief\u201d defines privy",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ALOUD",
+      "clue": "Using the voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Using the voice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ARAB",
+      "clue": "Spirited graceful and intelligent riding horse native to Arabia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited graceful and intelligent riding horse native to Arabia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "FMRI",
+      "clue": "Form of magnetic resonance imaging of the brain that registers blood flow to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of magnetic resonance imaging of the brain that registers blood flow to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 4,
+      "answer": "IRES",
+      "clue": "Plural of ir",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ir",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "RABBI",
+      "clue": "Hebrew title of respect for a Jewish scholar or teacher",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hebrew title of respect for a Jewish scholar or teacher",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "SMIRK",
+      "clue": "Smile expressing smugness or scorn instead of pleasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smile expressing smugness or scorn instead of pleasure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "KRS",
+      "clue": "Plural of kr",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of kr",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ARR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "EVER",
+      "clue": "At all times",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At all times",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 11,
+      "answer": "BEARWITNESS",
+      "clue": "Reluctance",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RELUCTANCE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cBear witness\u201d defines reluctance",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "RESPITE",
+      "clue": "Pause from doing something (as work)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Interval of rest.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "answer": "WRY",
+      "clue": "Humorously sarcastic or mocking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Deviating from that which is proper or right.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "IBM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "answer": "TOM",
+      "clue": "Male turkey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male turkey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using far more words than needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 11,
+      "answer": "SEESYMMETRY",
+      "clue": "Symmetrical",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SYMMETRICAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Symmetry\u201d defines symmetrical",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "SSA",
+      "clue": "Independent government agency responsible for the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent government agency responsible for the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "answer": "ELSA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "RULES",
+      "clue": "Plural of rule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rule",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "YEAR",
+      "clue": "Body of students who graduate together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of students who graduate together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SLAP",
+      "clue": "Act of smacking something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of smacking something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "HUE",
+      "clue": "Quality of a color as determined by its dominant wavelength",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of a color as determined by its dominant wavelength",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "ASCII",
+      "clue": "Code for information exchange between computers made by different companies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Code for information exchange between computers made by different companies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "INT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "AVILA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ASE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "VHF",
+      "clue": "30 to 300 megahertz",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "30 to 300 megahertz",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "ATTN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "SHEER",
+      "clue": "Very steep",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Absolute.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "EFFS",
+      "clue": "Plural of eff",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of eff",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+  "date": "2027-06-20",
+  "number": 1170,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "A",
+      "C",
+      "#",
+      "#",
+      "#",
+      "S",
+      "C",
+      "A",
+      "M"
+    ],
+    [
+      "S",
+      "A",
+      "L",
+      "T",
+      "#",
+      "N",
+      "E",
+      "P",
+      "A",
+      "L",
+      "I"
+    ],
+    [
+      "C",
+      "H",
+      "A",
+      "N",
+      "G",
+      "E",
+      "L",
+      "I",
+      "N",
+      "G",
+      "S"
+    ],
+    [
+      "R",
+      "T",
+      "E",
+      "#",
+      "A",
+      "G",
+      "E",
+      "N",
+      "D",
+      "A",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "C",
+      "A",
+      "O",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "C",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "P",
+      "O",
+      "L",
+      "I",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "W",
+      "A",
+      "R",
+      "R",
+      "I",
+      "O",
+      "R",
+      "#",
+      "L",
+      "O",
+      "W"
+    ],
+    [
+      "H",
+      "E",
+      "A",
+      "V",
+      "E",
+      "N",
+      "S",
+      "E",
+      "A",
+      "S",
+      "Y"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "E",
+      "L",
+      "S",
+      "#",
+      "A",
+      "S",
+      "H",
+      "E"
+    ],
+    [
+      "P",
+      "O",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#",
+      "U",
+      "T",
+      "A",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "BAC",
+      "clue": "Broad, flatbottomed ferryboat, usually worked by a rope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broad, flatbottomed ferryboat, usually worked by a rope",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "BAHT",
+      "clue": "Basic unit of money in Thailand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Thailand",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ALAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "CTN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "SCAM",
+      "clue": "Fraudulent business scheme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fraudulent business scheme",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "SPINAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Whiteness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ALGA",
+      "clue": "Primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "MISS",
+      "clue": "Form of address for an unmarried woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of address for an unmarried woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SALT",
+      "clue": "Taste experience when common salt is taken into the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Taste experience when common salt is taken into the mouth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "SCR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "NEPALI",
+      "clue": "Official state language of Nepal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official state language of Nepal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "NEGATIONS",
+      "clue": "Plural of negation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of negation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "ELECTORS",
+      "clue": "Plural of elector",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of elector",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CHANGELINGS",
+      "clue": "Plural of changeling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of changeling",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "GAMALIEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "AGENDAS",
+      "clue": "Plural of agenda",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of agenda",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "MACAO",
+      "clue": "Former Portuguese province on the south coast of China and two islands in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former Portuguese province on the south coast of China and two islands in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "SCATTER",
+      "clue": "Act of scattering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of scattering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SPRAIN",
+      "clue": "Painful injury to a joint caused by a sudden wrenching of its ligaments",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Painful injury to a joint caused by a sudden wrenching of its ligaments",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CORVEE",
+      "clue": "Unpaid labor (as for the maintenance of roads) required by a lord of his...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unpaid labor (as for the maintenance of roads) required by a lord of his...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "POLIO",
+      "clue": "Acute viral disease marked by inflammation of nerve cells of the brain stem...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acute viral disease marked by inflammation of nerve cells of the brain stem...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "WARRIOR",
+      "clue": "Someone engaged in or experienced in warfare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone engaged in or experienced in warfare",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "WHOP",
+      "clue": "Hit hard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hit hard",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AERO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "LOW",
+      "clue": "Lowest forward gear ratio in the gear box of a motor vehicle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lowest forward gear ratio in the gear box of a motor vehicle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LAST",
+      "clue": "Person's dying act",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person's dying act",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OSHA",
+      "clue": "Government agency in the Department of Labor to maintain a safe and healthy...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Government agency in the Department of Labor to maintain a safe and healthy...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "WYE",
+      "clue": "25th letter of the Roman alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "25th letter of the Roman alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "HEAVENSEASY",
+      "clue": "Artless",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARTLESS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cHeaven s easy\u201d defines artless",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "EAU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ORIELS",
+      "clue": "Plural of oriel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of oriel",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ASHE",
+      "clue": "United States tennis player who was the first Black to win United States and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States tennis player who was the first Black to win United States and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "PONE",
+      "clue": "Cornbread often made without milk or eggs and baked or fried (southern)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cornbread often made without milk or eggs and baked or fried (southern)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "UTA",
+      "clue": "Reptile genus of Iguanidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reptile genus of Iguanidae",
+      "clueSource": "wordnet"
+    }
+  ]
+}

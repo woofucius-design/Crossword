@@ -1,0 +1,725 @@
+{
+  "date": "2027-05-23",
+  "number": 1142,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "O",
+      "P",
+      "E",
+      "R",
+      "A",
+      "#",
+      "D",
+      "P",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "R",
+      "L",
+      "E",
+      "S",
+      "#",
+      "E",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "K",
+      "E",
+      "E",
+      "P",
+      "S",
+      "A",
+      "C",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "C",
+      "L",
+      "#",
+      "P",
+      "E",
+      "T",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "C",
+      "I",
+      "T",
+      "E",
+      "#",
+      "A",
+      "L",
+      "O",
+      "O",
+      "F"
+    ],
+    [
+      "B",
+      "A",
+      "C",
+      "O",
+      "N",
+      "#",
+      "R",
+      "E",
+      "F",
+      "I",
+      "T"
+    ],
+    [
+      "A",
+      "T",
+      "A",
+      "R",
+      "I",
+      "#",
+      "T",
+      "R",
+      "A",
+      "D",
+      "#"
+    ],
+    [
+      "B",
+      "E",
+      "T",
+      "A",
+      "S",
+      "#",
+      "H",
+      "A",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "I",
+      "T",
+      "H",
+      "M",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "V",
+      "E",
+      "#",
+      "F",
+      "I",
+      "E",
+      "N",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "S",
+      "#",
+      "A",
+      "D",
+      "D",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "2,1": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,6": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,6": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,5": {
+      "number": 25
+    },
+    "8,9": {
+      "number": 26
+    },
+    "9,1": {
+      "number": 27
+    },
+    "9,5": {
+      "number": 28
+    },
+    "10,1": {
+      "number": 29
+    },
+    "10,5": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "OPERA",
+      "clue": "Building where musical dramas are performed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Building where musical dramas are performed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "OAK",
+      "clue": "Deciduous tree of the genus Quercus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deciduous tree of the genus Quercus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "PREDICATIVE",
+      "clue": "Of adjectives",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of adjectives",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "ELECTORATES",
+      "clue": "Plural of electorate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of electorate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 9,
+      "answer": "REPLENISH",
+      "clue": "Fill something that had previously been emptied",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To fill again, as something that has been emptied.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "DPS",
+      "clue": "Plural of dp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dp",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "DECELERATED",
+      "clue": "Past tense of decelerate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of decelerate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PARTOFALINE",
+      "clue": "Infinity",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INFINITY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cpart of a line\u201d defines infinity",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 7,
+      "answer": "STEROID",
+      "clue": "Any hormone affecting the development and growth of sex organs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any hormone affecting the development and growth of sex organs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "ARLES",
+      "clue": "Money given by a buyer to a seller to bind a contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money given by a buyer to a seller to bind a contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "EAT",
+      "clue": "Cause to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "KEEPSACRED",
+      "clue": "Enshrine",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ENSHRINE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ckeep sacred\u201d defines enshrine",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 9,
+      "answer": "APARTHEID",
+      "clue": "Social policy or racial segregation involving political and economic and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social policy or racial segregation involving political and economic and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Apt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 3,
+      "answer": "DCL",
+      "clue": "Roman numeral for 650",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 650",
+      "clueSource": "roman"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "PETRE",
+      "clue": "See Saltpeter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Saltpeter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "Short note recognizing a source of information or of a quoted passage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To refer to specifically.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 7,
+      "answer": "CATERED",
+      "clue": "Past tense of cater",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of cater",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "ALOOF",
+      "clue": "Remote in manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not in sympathy with or desiring to associate with others.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "BACON",
+      "clue": "Back and sides of a hog salted and dried or smoked",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Back and sides of a hog salted and dried or smoked",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "BABA",
+      "clue": "Small cake leavened with yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cake leavened with yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "REFIT",
+      "clue": "Outfitting a ship again (by repairing or replacing parts)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outfitting a ship again (by repairing or replacing parts)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ATARI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "answer": "TRAD",
+      "clue": "Traditional jazz as revived in the 1950s",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Traditional jazz as revived in the 1950s",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "BETAS",
+      "clue": "Plural of beta",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of beta",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "answer": "HAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "ARITHMETIC",
+      "clue": "Branch of pure mathematics dealing with the theory of numerical calculations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of pure mathematics dealing with the theory of numerical calculations",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MFA",
+      "clue": "Master's degree in fine arts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in fine arts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "CDR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "answer": "FIEND",
+      "clue": "Evil supernatural being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evil supernatural being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ADDER",
+      "clue": "Small terrestrial viper common in northern Eurasia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small terrestrial viper common in northern Eurasia",
+      "clueSource": "wordnet"
+    }
+  ]
+}

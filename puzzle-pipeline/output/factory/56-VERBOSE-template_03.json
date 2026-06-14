@@ -1,0 +1,815 @@
+{
+  "date": "2027-02-25",
+  "number": 1055,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "F",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "L"
+    ],
+    [
+      "U",
+      "L",
+      "U",
+      "#",
+      "A",
+      "L",
+      "I",
+      "#",
+      "D",
+      "O",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "B",
+      "#",
+      "V",
+      "E",
+      "R",
+      "B",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "B",
+      "E",
+      "S",
+      "I",
+      "E",
+      "G",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "I",
+      "R",
+      "R",
+      "I",
+      "#",
+      "A",
+      "B",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "D",
+      "I",
+      "T",
+      "O",
+      "R",
+      "I",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "S",
+      "#",
+      "N",
+      "A",
+      "N",
+      "C",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "F",
+      "I",
+      "S",
+      "S",
+      "U",
+      "R",
+      "E",
+      "#",
+      "L",
+      "E",
+      "O"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "#",
+      "M",
+      "Y",
+      "S",
+      "#",
+      "L",
+      "S",
+      "T"
+    ],
+    [
+      "S",
+      "K",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "S",
+      "O"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CFS",
+      "clue": "Plural of cf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cf",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CURB",
+      "clue": "Act of restraining power or action or limiting excess",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of restraining power or action or limiting excess",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "FLEECED",
+      "clue": "Furnished with a fleece",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Furnished with a fleece",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "SUBSIDE",
+      "clue": "Wear off or die down",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To relapse into a state of repose and tranquillity.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "LOS",
+      "clue": "Praise. See Loos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Praise. See Loos",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ULU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "Turn aside, or away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To turn away or aside.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "LEGIONARY",
+      "clue": "Soldier who is a member of a legion (especially the French Foreign Legion)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A member of an ancient Roman legion or of the modern French Legion of Honor.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Mature female of mammals of which the male is called `buck'",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "REB",
+      "clue": "`Johnny' was applied as a nickname for Confederate soldiers by the Federal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "`Johnny' was applied as a nickname for Confederate soldiers by the Federal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using or containing too many words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "BRAINS",
+      "clue": "Plural of brain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of brain",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "BESIEGER",
+      "clue": "Enemy who lays siege to your position",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enemy who lays siege to your position",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "IRISES",
+      "clue": "Plural of iris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of iris",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "CIRRI",
+      "clue": "See Cirrus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Cirrus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ABS",
+      "clue": "Any of a class of composite plastics used to make car bodies and cases for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of a class of composite plastics used to make car bodies and cases for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "BACILLI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "SLYNESS",
+      "clue": "Shrewdness as demonstrated by being skilled in deception",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrewdness as demonstrated by being skilled in deception",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "EDITORIAL",
+      "clue": "Of or relating to an article stating opinions or giving perspectives",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An article in a periodical written by the editor and published as an official",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "RAPES",
+      "clue": "Plural of rap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rap",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "NANCY",
+      "clue": "City in northeastern France in Lorraine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northeastern France in Lorraine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "ELAPSING",
+      "clue": "Present participle of elaps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of elaps",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "LUM",
+      "clue": "Chimney",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chimney",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "GOTO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "FISSURE",
+      "clue": "Long narrow slit or groove that divides an organ into lobes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A crack or crack-like depression.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "FPS",
+      "clue": "Agency in the General Services Administration that is a security...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency in the General Services Administration that is a security...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "Irritate or vex",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "SOY",
+      "clue": "Most highly proteinaceous vegetable known",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most highly proteinaceous vegetable known",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "LEO",
+      "clue": "Fifth sign of the zodiac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fifth sign of the zodiac",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "PRO",
+      "clue": "Argument in favor of a proposal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Argument in favor of a proposal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "MYS",
+      "clue": "Plural of my",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of my",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SKY",
+      "clue": "Atmosphere and outer space as viewed from the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Atmosphere and outer space as viewed from the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ISO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

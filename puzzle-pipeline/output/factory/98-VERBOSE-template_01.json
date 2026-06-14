@@ -1,0 +1,887 @@
+{
+  "date": "2027-04-08",
+  "number": 1097,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "A",
+      "C",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "K"
+    ],
+    [
+      "B",
+      "L",
+      "O",
+      "W",
+      "J",
+      "O",
+      "B",
+      "#",
+      "W",
+      "E",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "S",
+      "O",
+      "U",
+      "C",
+      "I",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "A",
+      "N",
+      "G",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "G",
+      "G",
+      "#",
+      "O",
+      "A",
+      "K",
+      "E",
+      "N"
+    ],
+    [
+      "E",
+      "N",
+      "U",
+      "R",
+      "E",
+      "#",
+      "C",
+      "I",
+      "R",
+      "R",
+      "I"
+    ],
+    [
+      "T",
+      "A",
+      "R",
+      "E",
+      "S",
+      "#",
+      "U",
+      "N",
+      "S",
+      "E",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "X",
+      "E",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "U",
+      "L",
+      "T",
+      "I",
+      "V",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "U",
+      "S",
+      "A",
+      "#",
+      "V",
+      "E",
+      "R",
+      "B",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "T",
+      "E",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "N",
+      "I",
+      "P"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FACT",
+      "clue": "Piece of information about circumstances that exist or events that have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of information about circumstances that exist or events that have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "FBI",
+      "clue": "Federal law enforcement agency that is the principal investigative arm of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal law enforcement agency that is the principal investigative arm of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ALN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "COS",
+      "clue": "Lettuce with long dark-green leaves in a loosely packed elongated head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lettuce with long dark-green leaves in a loosely packed elongated head",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "TWO",
+      "clue": "One of the four playing cards in a deck that have two spots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the four playing cards in a deck that have two spots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AWN",
+      "clue": "Slender bristlelike appendage found on the bracts of grasses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slender bristlelike appendage found on the bracts of grasses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "KEE",
+      "clue": "See Kie, Ky, and Kine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Kie, Ky, and Kine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "BLOWJOB",
+      "clue": "Slang for fellatio",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for fellatio",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "JUDGESXIV",
+      "clue": "Carcass",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CARCASS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cJudges xiv\u201d defines carcass",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "OCA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "BINOCULAR",
+      "clue": "Relating to both eyes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to both eyes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very early",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very small.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INSOUCIANCE",
+      "clue": "Cheerful feeling you have when nothing is troubling you",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cheerful feeling you have when nothing is troubling you",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "AGAIN",
+      "clue": "Anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "DANG",
+      "clue": "Imp. of Ding",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. of Ding",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "GREGG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "RNA",
+      "clue": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "EUR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "GREAT",
+      "clue": "Person who has achieved distinction and honor in some field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has achieved distinction and honor in some field",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "OAKEN",
+      "clue": "Consisting of or made of wood of the oak tree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Made of or from oak.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "KRS",
+      "clue": "Plural of kr",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of kr",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ENURE",
+      "clue": "See Inure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Inure",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "CIRRI",
+      "clue": "See Cirrus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Cirrus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "TARES",
+      "clue": "Plural of tar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tar",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "UNSET",
+      "clue": "Not set",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not set",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "AXEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CULTIVATION",
+      "clue": "Production of food by preparing the land to grow crops (especially on a large...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Production of food by preparing the land to grow crops (especially on a large...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "CUT",
+      "clue": "Unexcused absence from class",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unexcused absence from class",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "LAN",
+      "clue": "Local computer network for communication between computers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local computer network for communication between computers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Plural of tb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tb",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ION",
+      "clue": "Particle that is electrically charged (positive or negative)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle that is electrically charged (positive or negative)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "NEP",
+      "clue": "Catnip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Catnip",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Army of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Army of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using or expressed in more words than are needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "TEN",
+      "clue": "One of four playing cards in a deck with ten pips on the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck with ten pips on the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SNIP",
+      "clue": "Act of clipping or snipping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of clipping or snipping",
+      "clueSource": "wordnet"
+    }
+  ]
+}

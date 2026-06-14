@@ -1,0 +1,845 @@
+{
+  "date": "2027-03-31",
+  "number": 1089,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "E",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "F",
+      "F"
+    ],
+    [
+      "A",
+      "R",
+      "A",
+      "#",
+      "S",
+      "M",
+      "A",
+      "#",
+      "D",
+      "O",
+      "P"
+    ],
+    [
+      "U",
+      "R",
+      "N",
+      "#",
+      "T",
+      "E",
+      "T",
+      "H",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "B",
+      "A",
+      "D",
+      "S",
+      "E",
+      "N",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "E",
+      "T",
+      "R",
+      "A",
+      "#",
+      "L",
+      "A",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "L",
+      "O",
+      "N",
+      "G",
+      "S",
+      "I",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "I",
+      "#",
+      "E",
+      "T",
+      "U",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "H",
+      "R",
+      "O",
+      "M",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "A",
+      "C",
+      "T",
+      "S",
+      "I",
+      "I",
+      "I",
+      "#",
+      "S",
+      "A",
+      "A"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "#",
+      "S",
+      "E",
+      "C",
+      "#",
+      "O",
+      "M",
+      "S"
+    ],
+    [
+      "U",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "P"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DEC",
+      "clue": "Angular distance of a celestial body north or to the south of the celestial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular distance of a celestial body north or to the south of the celestial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DAUB",
+      "clue": "Unskillful painting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unskillful painting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "ERRATAS",
+      "clue": "Plural of errata",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of errata",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "CANDELA",
+      "clue": "Basic unit of luminous intensity adopted under the Systeme International...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of luminous intensity adopted under the Systeme International...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OFF",
+      "clue": "Farther or more distant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Farther or more distant.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "FPS",
+      "clue": "Agency in the General Services Administration that is a security...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency in the General Services Administration that is a security...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ARA",
+      "clue": "Macaws",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macaws",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "SMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "STERN",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "AUSTERE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MENAGERIE",
+      "clue": "Collection of wild animals, especially when kept for exhibition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A collection of wild animals, especially when kept for exhibition.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "ATS",
+      "clue": "Plural of at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of at",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DOP",
+      "clue": "Little copper cup in which a diamond is held while being cut. To dip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little copper cup in which a diamond is held while being cut. To dip",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "URN",
+      "clue": "Large vase that usually has a pedestal or feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large vase that usually has a pedestal or feet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "TETHERS",
+      "clue": "Plural of tether",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tether",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "HELIUM",
+      "clue": "Very light colorless element that is one of the six inert gasses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very light colorless element that is one of the six inert gasses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "BADSENSE",
+      "clue": "Requital",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "REQUITAL",
+        "PREEMINENCE",
+        "DESPERATE",
+        "HARANGUE",
+        "ARRANT",
+        "COMMITMENT",
+        "RESENT",
+        "GRANDIOSE",
+        "FEMININE",
+        "REQUITE",
+        "GALLANT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbad sense\u201d defines requital",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "STOICS",
+      "clue": "Plural of stoic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stoic",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "TETRA",
+      "clue": "Brightly colored tropical freshwater fishes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brightly colored tropical freshwater fishes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "LAS",
+      "clue": "Lace. See Lace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lace. See Lace",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ADDISON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "SEENAME",
+      "clue": "Denomination",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DENOMINATION",
+        "APPELLATION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Name\u201d defines denomination",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ALONGSIDE",
+      "clue": "Side by side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side by side",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Enduring hardship without showing feelings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "SAI",
+      "clue": "See Capuchin, 3 (a)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Capuchin, 3 (a)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ETUDE",
+      "clue": "Short composition for a solo instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short composition for a solo instrument",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "CHROMING",
+      "clue": "Present participle of chrome",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of chrome",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "HIS",
+      "clue": "Belonging or pertaining to him",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belonging or pertaining to him",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "GASP",
+      "clue": "Short labored intake of breath with the mouth open",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short labored intake of breath with the mouth open",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "ACTSIII",
+      "clue": "Foretell",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "FORETELL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cActs iii\u201d defines foretell",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "AAU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Plural of cs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "SAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Plural of om",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of om",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "NEP",
+      "clue": "Catnip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Catnip",
+      "clueSource": "webster"
+    }
+  ]
+}

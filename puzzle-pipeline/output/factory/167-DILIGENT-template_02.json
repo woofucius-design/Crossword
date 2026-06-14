@@ -1,0 +1,734 @@
+{
+  "date": "2027-06-16",
+  "number": 1166,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "P",
+      "M",
+      "#",
+      "#",
+      "#",
+      "E",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "B",
+      "E",
+      "E",
+      "P",
+      "#",
+      "C",
+      "D",
+      "X",
+      "L",
+      "I",
+      "I"
+    ],
+    [
+      "C",
+      "A",
+      "T",
+      "H",
+      "O",
+      "L",
+      "I",
+      "C",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "D",
+      "N",
+      "S",
+      "#",
+      "B",
+      "O",
+      "L",
+      "I",
+      "V",
+      "I",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "U",
+      "I",
+      "T",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "R",
+      "E",
+      "D",
+      "G",
+      "E",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "E",
+      "R",
+      "I",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "I",
+      "V",
+      "E",
+      "N",
+      "#",
+      "B",
+      "R",
+      "A"
+    ],
+    [
+      "E",
+      "A",
+      "R",
+      "N",
+      "E",
+      "S",
+      "T",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "W",
+      "R",
+      "Y",
+      "E",
+      "S",
+      "T",
+      "#",
+      "E",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "S",
+      "O",
+      "L",
+      "D",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "P",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LPM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LEAN",
+      "clue": "Property possessed by a line or surface that departs from the vertical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property possessed by a line or surface that departs from the vertical",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PETS",
+      "clue": "Plural of pet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of pet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "MPH",
+      "clue": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "EONS",
+      "clue": "Plural of eon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of eon",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "EXCITE",
+      "clue": "Act as a stimulant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act as a stimulant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "OLIVES",
+      "clue": "Plural of olive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of olive",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Not final or absolute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not final or absolute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SIMA",
+      "clue": "Rock that form the continuous lower layer of the earth's crust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rock that form the continuous lower layer of the earth's crust",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BEEP",
+      "clue": "Short high tone produced as a signal or warning",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short high tone produced as a signal or warning",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "BCD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "CDXLII",
+      "clue": "Roman numeral for 442",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 442",
+      "clueSource": "roman"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CLOUDIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "DILIGENT",
+      "clue": "Prosecuted with careful attention and effort",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing care and conscientiousness in one's work",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CATHOLICISM",
+      "clue": "Beliefs and practices of a Catholic Church",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The system, doctrine, and practice of the Roman Catholic Church.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "OBSERVES",
+      "clue": "Plural of observe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of observe",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "DNS",
+      "clue": "Internet directory, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internet directory, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "BOLIVIA",
+      "clue": "Form of canasta in which sequences can be melded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of canasta in which sequences can be melded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "SUITE",
+      "clue": "Apartment consisting of a series of connected rooms used as a living unit (as...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apartment consisting of a series of connected rooms used as a living unit (as...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "DREDGES",
+      "clue": "Plural of dredge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dredge",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DARRYL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "REINED",
+      "clue": "Past tense of rein",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of rein",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AERIE",
+      "clue": "Any habitation at a high altitude",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any habitation at a high altitude",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "STRIVEN",
+      "clue": "P. p. of Strive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "P. p. of Strive",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SEWS",
+      "clue": "Plural of sew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sew",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TARO",
+      "clue": "Tropical starchy tuberous root",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tropical starchy tuberous root",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "BRA",
+      "clue": "Undergarment worn by women to support their breasts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undergarment worn by women to support their breasts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "BEAL",
+      "clue": "Small inflammatory tumor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small inflammatory tumor",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "RSVP",
+      "clue": "Reply request",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reply request",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ASE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EARNESTNESS",
+      "clue": "Trait of being serious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trait of being serious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "WRYEST",
+      "clue": "Superlative of wry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Superlative of wry",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "EAVE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SOLD",
+      "clue": "Disposed of to a purchaser",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disposed of to a purchaser",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ALP",
+      "clue": "Any high mountain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any high mountain",
+      "clueSource": "wordnet"
+    }
+  ]
+}

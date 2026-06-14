@@ -1,0 +1,821 @@
+{
+  "date": "2027-03-17",
+  "number": 1075,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "A",
+      "B",
+      "B",
+      "E",
+      "D",
+      "#",
+      "A",
+      "C",
+      "T",
+      "#"
+    ],
+    [
+      "U",
+      "P",
+      "L",
+      "A",
+      "N",
+      "D",
+      "#",
+      "N",
+      "O",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "P",
+      "U",
+      "R",
+      "T",
+      "S",
+      "#",
+      "A",
+      "N",
+      "E",
+      "W"
+    ],
+    [
+      "P",
+      "L",
+      "E",
+      "B",
+      "E",
+      "#",
+      "#",
+      "#",
+      "S",
+      "M",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "R",
+      "E",
+      "O",
+      "L",
+      "A",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "A",
+      "D",
+      "E",
+      "U",
+      "P",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "J",
+      "O",
+      "B",
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "I",
+      "F",
+      "T"
+    ],
+    [
+      "E",
+      "M",
+      "U",
+      "S",
+      "#",
+      "F",
+      "I",
+      "T",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "W",
+      "I",
+      "S",
+      "E",
+      "#",
+      "C",
+      "O",
+      "H",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "T",
+      "H",
+      "E",
+      "#",
+      "S",
+      "N",
+      "A",
+      "R",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "CABBED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CUSP",
+      "clue": "Point formed by two intersecting arcs (as from the intrados of a Gothic arch)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Point formed by two intersecting arcs (as from the intrados of a Gothic arch)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "APPL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BLUE",
+      "clue": "Any of numerous small butterflies of the family Lycaenidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous small butterflies of the family Lycaenidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "BARBARA",
+      "clue": "First word in certain mnemonic lines which represent the various forms of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First word in certain mnemonic lines which represent the various forms of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "ENTERED",
+      "clue": "Past tense of enter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of enter",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "DDS",
+      "clue": "Doctor's degree in dental surgery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in dental surgery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ANA",
+      "clue": "Collection of anecdotes about a person or place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of anecdotes about a person or place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "CONSTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "TEEM",
+      "clue": "Pour",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be full to overflowing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "UPLAND",
+      "clue": "Elevated (e.g., mountainous) land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elevated (e.g., mountainous) land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "NOES",
+      "clue": "Plural of no",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of no",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "SWA",
+      "clue": "So",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "SPURTS",
+      "clue": "Plural of spurt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of spurt",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Over again",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PLEBE",
+      "clue": "Military trainee (as at a military academy)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Military trainee (as at a military academy)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "SMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "ARDENT",
+      "clue": "Glowing or shining like fire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very enthusiastic or passionate",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Female deer or antelope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "ELUSION",
+      "clue": "Act of eluding",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Evasion.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "NAPHTHA",
+      "clue": "Complex mixture of volatile, liquid, inflammable hydrocarbons,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A light, colorless, volatile, inflammable oil used as a solvent, as in",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "AREOLAR",
+      "clue": "Relating to or like or divided into areolae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or like or divided into areolae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "AMBUSH",
+      "clue": "Act of concealing yourself and lying in wait to attack by surprise",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The act or state of lying concealed for the purpose of surprising or attacking",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "MADEUP",
+      "clue": "Polyglot",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "POLYGLOT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cmade up\u201d defines polyglot",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "JOB",
+      "clue": "Damaging piece of work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Damaging piece of work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "JEW",
+      "clue": "Person belonging to the worldwide group claiming descent from Jacob (or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person belonging to the worldwide group claiming descent from Jacob (or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OMIT",
+      "clue": "Leave undone or leave out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leave undone or leave out",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "SHIFT",
+      "clue": "Act of changing one thing or position for another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing one thing or position for another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ITER",
+      "clue": "Passage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passage",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "FERE",
+      "clue": "Mate or companion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mate or companion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TRES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "EMUS",
+      "clue": "Plural of emu",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of emu",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "FITTER",
+      "clue": "Someone who fits a garment to a particular person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who fits a garment to a particular person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "FCS",
+      "clue": "Cooperative nationwide system of banks and associations providing credit to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cooperative nationwide system of banks and associations providing credit to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "WISE",
+      "clue": "Astute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ASTUTE",
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of astute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "COHERE",
+      "clue": "Come or be in close contact with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To stick together.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SNARES",
+      "clue": "Plural of snar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of snar",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "date": "2027-03-05",
+  "number": 1063,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "G",
+      "U",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "B",
+      "A",
+      "B",
+      "U"
+    ],
+    [
+      "A",
+      "L",
+      "S",
+      "O",
+      "#",
+      "S",
+      "T",
+      "A",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "G",
+      "O",
+      "D",
+      "U",
+      "N",
+      "T",
+      "O",
+      "T",
+      "H",
+      "E",
+      "E"
+    ],
+    [
+      "E",
+      "P",
+      "A",
+      "#",
+      "A",
+      "U",
+      "T",
+      "H",
+      "O",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "U",
+      "T",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "U",
+      "S",
+      "T",
+      "E",
+      "R",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "N",
+      "E",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "Y",
+      "W",
+      "A",
+      "R",
+      "E",
+      "#",
+      "S",
+      "H",
+      "U"
+    ],
+    [
+      "I",
+      "L",
+      "L",
+      "I",
+      "T",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "U",
+      "S",
+      "E",
+      "D",
+      "#",
+      "M",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "S",
+      "A",
+      "M",
+      "E",
+      "#",
+      "#",
+      "#",
+      "A",
+      "P",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Rope, chain, or rod attached to anything to steady it",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GLOP",
+      "clue": "Writing or music that is excessively sweet and sentimental",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Writing or music that is excessively sweet and sentimental",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "USDA",
+      "clue": "Federal department that administers programs that provide services to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal department that administers programs that provide services to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "BABU",
+      "clue": "Used as a Hindi courtesy title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used as a Hindi courtesy title",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "BATHER",
+      "clue": "Person who takes a bath",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who takes a bath",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ASHORE",
+      "clue": "Towards the shore from the water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Towards the shore from the water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BIER",
+      "clue": "Stand to support a corpse or a coffin prior to burial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A horizontal framework with two handles at each end for carrying a corpse to the",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "USES",
+      "clue": "Plural of us",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of us",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALSO",
+      "clue": "In addition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In addition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "STASIS",
+      "clue": "Inactivity resulting from a static balance between opposing forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inactivity resulting from a static balance between opposing forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "STUTTERED",
+      "clue": "Past tense of stutter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of stutter",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "TOTTERER",
+      "clue": "Someone who walks unsteadily as if about to fall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who walks unsteadily as if about to fall",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "GODUNTOTHEE",
+      "clue": "Covenant",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "COVENANT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cGod unto thee\u201d defines covenant",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "NAUSEATE",
+      "clue": "Become squeamish",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cause to loathe.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "EPA",
+      "clue": "Independent federal agency established to coordinate programs aimed at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency established to coordinate programs aimed at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "AUTHORS",
+      "clue": "Plural of author",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of author",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "UTTER",
+      "clue": "Articulate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Articulate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Practicing great self-denial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "ASYLUM",
+      "clue": "Hospital for mentally incompetent or unbalanced person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hospital for mentally incompetent or unbalanced person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "UNWISE",
+      "clue": "Not wise",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Foolish.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SNEER",
+      "clue": "Facial expression of contempt or scorn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Facial expression of contempt or scorn",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "SPYWARE",
+      "clue": "Computer software that obtains information from a user's computer without the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer software that obtains information from a user's computer without the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SIRS",
+      "clue": "Plural of sir",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sir",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "PLEA",
+      "clue": "That which is alleged by a party in support of his cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An argument to obtain some desired action.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SHU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "HERE",
+      "clue": "Present location",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present location",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ILLITERATES",
+      "clue": "Plural of illiterate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of illiterate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "REUSED",
+      "clue": "Past tense of reuse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of reuse",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "MERE",
+      "clue": "Small pond of standing water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small pond of standing water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SAME",
+      "clue": "Language of nomadic Lapps in northern Scandinavia and the Kola Peninsula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language of nomadic Lapps in northern Scandinavia and the Kola Peninsula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    }
+  ]
+}

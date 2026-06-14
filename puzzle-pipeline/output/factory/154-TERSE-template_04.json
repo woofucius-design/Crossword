@@ -1,0 +1,717 @@
+{
+  "date": "2027-06-03",
+  "number": 1153,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "I",
+      "N",
+      "F",
+      "E",
+      "R",
+      "#",
+      "C",
+      "U",
+      "P",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "A",
+      "L",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "P",
+      "S",
+      "I",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "H",
+      "E",
+      "R",
+      "#",
+      "S",
+      "E",
+      "R",
+      "A",
+      "I"
+    ],
+    [
+      "#",
+      "M",
+      "E",
+      "L",
+      "E",
+      "#",
+      "C",
+      "H",
+      "A",
+      "S",
+      "M"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "O",
+      "S",
+      "#",
+      "H",
+      "A",
+      "V",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "T",
+      "W",
+      "A",
+      "S",
+      "#",
+      "A",
+      "R",
+      "I",
+      "D",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "O",
+      "D",
+      "O",
+      "#",
+      "E",
+      "D",
+      "O",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "I",
+      "R",
+      "E",
+      "S",
+      "O",
+      "M",
+      "E",
+      "L",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "L",
+      "R",
+      "#",
+      "W",
+      "I",
+      "N",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "D",
+      "S",
+      "#",
+      "L",
+      "A",
+      "S",
+      "T",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "2,1": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,6": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,6": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,5": {
+      "number": 25
+    },
+    "8,9": {
+      "number": 26
+    },
+    "9,1": {
+      "number": 27
+    },
+    "9,5": {
+      "number": 28
+    },
+    "10,1": {
+      "number": 29
+    },
+    "10,5": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "INFER",
+      "clue": "Believe to be the case",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Believe to be the case",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "NETHERWORLD",
+      "clue": "World of the dead",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "World of the dead",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "FREELOADERS",
+      "clue": "Plural of freeloader",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of freeloader",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 9,
+      "answer": "ESPRESSOS",
+      "clue": "Plural of espresso",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of espresso",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "RES",
+      "clue": "Widely distributed system consisting of all the cells able to ingest bacteria...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Widely distributed system consisting of all the cells able to ingest bacteria...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "CUP",
+      "clue": "Small open container usually used for drinking",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small open container usually used for drinking",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CASEHARDENS",
+      "clue": "Plural of caseharden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of caseharden",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "ULTRAVIOLET",
+      "clue": "Radiation lying in the ultraviolet range",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radiation lying in the ultraviolet range",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 7,
+      "answer": "PLEASED",
+      "clue": "Experiencing or manifesting pleasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Experiencing or manifesting pleasure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Briefly and cleanly expressed; curt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "STEPSISTER",
+      "clue": "Sister who has only one parent in common with you",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sister who has only one parent in common with you",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 9,
+      "answer": "ISCHAEMIA",
+      "clue": "Local anemia in a given body part sometimes resulting from vasoconstriction or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local anemia in a given body part sometimes resulting from vasoconstriction or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "RIMS",
+      "clue": "Plural of rim",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rim",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 3,
+      "answer": "HER",
+      "clue": "Form of the objective and the possessive case of the personal pronoun she",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the objective and the possessive case of the personal pronoun she",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SERAI",
+      "clue": "Palace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Palace",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 4,
+      "answer": "MELE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 7,
+      "answer": "METRICS",
+      "clue": "Study of poetic meter and the art of versification",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Study of poetic meter and the art of versification",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "CHASM",
+      "clue": "Deep opening made by disruption, as a breach in the earth or a rock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A yawning hollow, as in the earth's surface.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "HEROS",
+      "clue": "Plural of hero",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of hero",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "HEFT",
+      "clue": "Property of being large in mass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property of being large in mass",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "HAVES",
+      "clue": "Plural of have",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of have",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ETWAS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 4,
+      "answer": "ARID",
+      "clue": "Exhausted of moisture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very dry.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "FRODO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Capital and largest city of Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "TIRESOMELY",
+      "clue": "Tiresome",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TIRESOME"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cTire some ly\u201d defines tiresome",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "OWL",
+      "clue": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nocturnal bird of prey with hawk-like beak and claws and large head with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "YDS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "CLR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 5,
+      "answer": "WINED",
+      "clue": "Past tense of win",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of win",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "SDS",
+      "clue": "Plural of sd",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sd",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "LASTS",
+      "clue": "Plural of last",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of last",
+      "clueSource": "inflection"
+    }
+  ]
+}

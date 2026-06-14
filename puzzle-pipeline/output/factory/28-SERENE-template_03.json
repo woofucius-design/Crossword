@@ -1,0 +1,822 @@
+{
+  "date": "2027-01-28",
+  "number": 1027,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "C",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "F",
+      "F"
+    ],
+    [
+      "G",
+      "E",
+      "M",
+      "#",
+      "P",
+      "K",
+      "T",
+      "#",
+      "B",
+      "A",
+      "I"
+    ],
+    [
+      "A",
+      "L",
+      "P",
+      "#",
+      "R",
+      "I",
+      "O",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "S",
+      "O",
+      "N",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "M",
+      "S",
+      "#",
+      "A",
+      "B",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "H",
+      "R",
+      "O",
+      "W",
+      "O",
+      "V",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "O",
+      "B",
+      "E",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "M",
+      "E",
+      "L",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "B",
+      "L",
+      "U",
+      "E",
+      "D",
+      "A",
+      "Y",
+      "#",
+      "E",
+      "S",
+      "P"
+    ],
+    [
+      "I",
+      "T",
+      "S",
+      "#",
+      "O",
+      "N",
+      "S",
+      "#",
+      "C",
+      "E",
+      "O"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "H",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Serve that the receiver is unable to reach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serve that the receiver is unable to reach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AGAR",
+      "clue": "Colloidal extract of algae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colloidal extract of algae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "CELESTA",
+      "clue": "Musical instrument consisting of graduated steel plates that are struck by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical instrument consisting of graduated steel plates that are struck by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "EMPATHY",
+      "clue": "Understanding and entering into another's feelings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Understanding and entering into another's feelings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OFF",
+      "clue": "In a general sense, denoting from or away from",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Farther or more distant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OBI",
+      "clue": "Religious belief of African origin involving witchcraft and sorcery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Religious belief of African origin involving witchcraft and sorcery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "FAN",
+      "clue": "Device for creating a current of air by movement of a surface or surfaces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device for creating a current of air by movement of a surface or surfaces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "FIG",
+      "clue": "Diagram or picture illustrating textual material",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diagram or picture illustrating textual material",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "GEM",
+      "clue": "Art highly prized for its beauty or perfection",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Art highly prized for its beauty or perfection",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "PKT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "PROMO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "KINSWOMAN",
+      "clue": "Female relative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female relative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TOE",
+      "clue": "Part of footwear that provides a covering for the toes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of footwear that provides a covering for the toes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "BAI",
+      "clue": "Tibeto-Burman language spoken in the Dali region of Yunnan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tibeto-Burman language spoken in the Dali region of Yunnan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ALP",
+      "clue": "Any high mountain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any high mountain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "RIOTING",
+      "clue": "State of disorder involving group violence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of disorder involving group violence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "TRAVEL",
+      "clue": "Self-propelled movement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-propelled movement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "REASONER",
+      "clue": "Someone who reasons logically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who reasons logically",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Completely clear and fine",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "STEMS",
+      "clue": "Plural of stem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stem",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ABD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "BESEECH",
+      "clue": "Ask or entreat with urgency",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To implore.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "DRESSES",
+      "clue": "Plural of dress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dress",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "THROWOVER",
+      "clue": "Overthrow",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OVERTHROW"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cthrow over\u201d defines overthrow",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OBEYS",
+      "clue": "Plural of obey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of obey",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "OBESE",
+      "clue": "Excessively corpulent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Exceedingly fat.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "NAMELESS",
+      "clue": "Without a name",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having no fame or reputation.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SPOT",
+      "clue": "Pick out or notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "BLUEDAY",
+      "clue": "Disconsolate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DISCONSOLATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cblue day\u201d defines disconsolate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "BIG",
+      "clue": "Conspicuous in position or importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conspicuous in position or importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "LTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ESP",
+      "clue": "Apparent power to perceive things that are not present to the senses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apparent power to perceive things that are not present to the senses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ONS",
+      "clue": "Plural of on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of on",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "CEO",
+      "clue": "Corporate executive responsible for the operations of the firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive responsible for the operations of the firm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "GRE",
+      "clue": "See Gree, a step",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Gree, a step",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "HST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

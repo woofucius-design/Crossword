@@ -1,0 +1,818 @@
+{
+  "date": "2027-02-09",
+  "number": 1039,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "H",
+      "A",
+      "R",
+      "O",
+      "S",
+      "#",
+      "H",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "R",
+      "A",
+      "D",
+      "I",
+      "U",
+      "S",
+      "#",
+      "A",
+      "C",
+      "H",
+      "E"
+    ],
+    [
+      "E",
+      "L",
+      "E",
+      "C",
+      "T",
+      "S",
+      "#",
+      "J",
+      "U",
+      "A",
+      "N"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "K",
+      "S",
+      "#",
+      "#",
+      "#",
+      "M",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "E",
+      "P",
+      "P",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "H",
+      "A",
+      "G",
+      "R",
+      "I",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "L",
+      "A",
+      "Y",
+      "O",
+      "U",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "Y",
+      "O",
+      "U",
+      "#",
+      "#",
+      "#",
+      "D",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "L",
+      "M",
+      "S",
+      "#",
+      "L",
+      "E",
+      "P",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "S",
+      "O",
+      "#",
+      "E",
+      "N",
+      "A",
+      "M",
+      "O",
+      "R"
+    ],
+    [
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "A",
+      "T",
+      "T",
+      "E",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "PHAROS",
+      "clue": "Tower with a light that gives warning of shoals to passing ships",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tower with a light that gives warning of shoals to passing ships",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "PREM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "HALO",
+      "clue": "Indication of radiant light drawn around the head of a saint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indication of radiant light drawn around the head of a saint",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ADEN",
+      "clue": "Important port of Yemen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Important port of Yemen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "RICKSHA",
+      "clue": "Small two-wheeled cart for one passenger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small two-wheeled cart for one passenger",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "OUTSTAY",
+      "clue": "Surpass in staying power",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surpass in staying power",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Independent federal agency that administers compulsory military service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that administers compulsory military service",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "HAT",
+      "clue": "Informal term for a person's role",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for a person's role",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "HAJ",
+      "clue": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ACUMEN",
+      "clue": "Shrewdness shown by keen insight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Quickness of intellectual insight, or discernment; keenness of discrimination.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "THAI",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "RADIUS",
+      "clue": "Support consisting of a radial member of a wheel joining the hub to the rim",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Support consisting of a radial member of a wheel joining the hub to the rim",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Name given to several species of plants",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ELECTS",
+      "clue": "Plural of elect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of elect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "JUAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "MONKS",
+      "clue": "Plural of monk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of monk",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "MID",
+      "clue": "Denoting the middle part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Denoting the middle part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "STEPPE",
+      "clue": "One of the vast plains in Southeastern Europe and in Asia, generally...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One of the extensive plains in Russia and Siberia.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EGO",
+      "clue": "Conscious mind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conscious mind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "PITAPAT",
+      "clue": "In a flutter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a flutter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "CHAGRIN",
+      "clue": "Strong feelings of embarrassment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Keen vexation, annoyance, or mortification, as at one's failures or errors.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "CLUMSY",
+      "clue": "Stiff or benumbed, as with cold",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Awkward of movement.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "LAYOUT",
+      "clue": "Expend",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EXPEND"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clay out\u201d defines expend",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "YEA",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OLLA",
+      "clue": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "DATES",
+      "clue": "Plural of dat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TAME",
+      "clue": "Correct by punishment or discipline",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Correct by punishment or discipline",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "EGOS",
+      "clue": "Plural of ego",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ego",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SERT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ELMS",
+      "clue": "Plural of elm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of elm",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "SOE",
+      "clue": "Large wooden vessel for holding water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large wooden vessel for holding water",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LEPAGE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Measure of yarn",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ALSO",
+      "clue": "In addition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In addition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ENAMOR",
+      "clue": "Inflame with love",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To inspire with ardent love.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ATTEST",
+      "clue": "Bear witness to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To certify as accurate, genuine, or true.",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

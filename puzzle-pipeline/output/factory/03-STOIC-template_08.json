@@ -1,0 +1,819 @@
+{
+  "date": "2027-01-03",
+  "number": 1002,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "A",
+      "L",
+      "A",
+      "R",
+      "#",
+      "E",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "A",
+      "C",
+      "E",
+      "#",
+      "P",
+      "L",
+      "E",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "R",
+      "A",
+      "L",
+      "#",
+      "A",
+      "W",
+      "R",
+      "Y"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "I",
+      "R",
+      "W",
+      "A",
+      "Y",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "T",
+      "A",
+      "Y",
+      "E",
+      "R",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "I",
+      "B",
+      "I",
+      "D",
+      "#",
+      "S",
+      "H",
+      "E",
+      "L",
+      "V",
+      "E"
+    ],
+    [
+      "T",
+      "I",
+      "N",
+      "Y",
+      "#",
+      "M",
+      "E",
+      "S",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "E",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "S",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SCALAR",
+      "clue": "Variable quantity that cannot be resolved into components",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variable quantity that cannot be resolved into components",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SPAS",
+      "clue": "Plural of spa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of spa",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CANT",
+      "clue": "Talk in a singsong, preaching tone with affected solemnity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To talk in a singsong, preaching tone with affected solemnity.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "LARIATS",
+      "clue": "Plural of lariat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lariat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "ACACIAS",
+      "clue": "Plural of acacia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of acacia",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "REL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "EAT",
+      "clue": "Cause to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "EPA",
+      "clue": "Independent federal agency established to coordinate programs aimed at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency established to coordinate programs aimed at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ALWAYS",
+      "clue": "At all times",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At all times",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "TERR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "PALACE",
+      "clue": "Official residence of an exalted person (as a sovereign)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official residence of an exalted person (as a sovereign)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "PLEA",
+      "clue": "Argument to obtain some desired action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An argument to obtain some desired action.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ANTRAL",
+      "clue": "Relating to an antrum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to an antrum",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "AWRY",
+      "clue": "Turned or twisted toward one side",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "& adj. Out of the proper form, direction, or position.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Disciple of the philosopher Zeno",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "AIRWAY",
+      "clue": "Commercial enterprise that provides scheduled flights for passengers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commercial enterprise that provides scheduled flights for passengers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RYE",
+      "clue": "Whiskey distilled from rye or rye and malt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whiskey distilled from rye or rye and malt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "WENCHES",
+      "clue": "Plural of wench",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of wench",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "ARTLESS",
+      "clue": "Ingenuous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Ingenuous.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "STAYERS",
+      "clue": "Plural of stayer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of stayer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SALINE",
+      "clue": "Constituting or consisting of salt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Constituting or consisting of salt.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ASSENT",
+      "clue": "Express agreement with a statement or matter of opinion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To express agreement with a statement or matter of opinion.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "IBIS",
+      "clue": "Wading birds of warm regions having long slender down-curved bills",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wading birds of warm regions having long slender down-curved bills",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CLEAR",
+      "clue": "Lucid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LUCID",
+        "VIVID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of lucid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "Other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Other",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AVES",
+      "clue": "Class of birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Class of birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "REDS",
+      "clue": "Plural of red",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of red",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "IBID",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "DYE",
+      "clue": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually soluble substance for staining or coloring e.g. fabrics or hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SHELVE",
+      "clue": "Place on a shelf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place on a shelf",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "TINY",
+      "clue": "Very small",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very small",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "MESSED",
+      "clue": "Past tense of mess",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of mess",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ASSESS",
+      "clue": "Determine the amount of (a tax or other sum to be paid)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To determine the amount of (a tax or other sum to be paid).",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

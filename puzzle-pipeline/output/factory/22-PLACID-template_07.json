@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-22",
+  "number": 1021,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "K",
+      "I",
+      "F",
+      "F",
+      "#",
+      "O",
+      "P",
+      "E",
+      "N",
+      "S"
+    ],
+    [
+      "A",
+      "U",
+      "D",
+      "I",
+      "O",
+      "#",
+      "R",
+      "E",
+      "P",
+      "E",
+      "L"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "C",
+      "R",
+      "E",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "S",
+      "U",
+      "L",
+      "A",
+      "#",
+      "P",
+      "L",
+      "A",
+      "C",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "L",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "O",
+      "L",
+      "Y",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "W",
+      "L",
+      "E",
+      "G",
+      "#",
+      "A",
+      "L",
+      "S",
+      "O"
+    ],
+    [
+      "U",
+      "N",
+      "R",
+      "E",
+      "A",
+      "S",
+      "O",
+      "N",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "B",
+      "L",
+      "E",
+      "S",
+      "T",
+      "#",
+      "D",
+      "I",
+      "N",
+      "A",
+      "R"
+    ],
+    [
+      "S",
+      "Y",
+      "N",
+      "T",
+      "H",
+      "#",
+      "E",
+      "L",
+      "O",
+      "P",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SKIFF",
+      "clue": "Small, light boat. The pilot of some small night-foundered skiff....",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Usually, a small light boat propelled by oars.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SAPS",
+      "clue": "Plural of sap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sap",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "KURU",
+      "clue": "Progressive disease of the central nervous system marked by increasing lack...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Progressive disease of the central nervous system marked by increasing lack...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "IDOL",
+      "clue": "Material effigy that is worshipped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material effigy that is worshipped",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "FICA",
+      "clue": "Tax on employees and employers that is used to fund the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tax on employees and employers that is used to fund the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "OPENS",
+      "clue": "Plural of open",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of open",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "ORALLY",
+      "clue": "By spoken rather than written means",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By spoken rather than written means",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "PETALS",
+      "clue": "Plural of petal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of petal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "NEVI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SLED",
+      "clue": "Vehicle mounted on runners and pulled by horses or dogs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle mounted on runners and pulled by horses or dogs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "AUDIO",
+      "clue": "Sound elements of television",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound elements of television",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "REPEL",
+      "clue": "Drive back",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To force or keep back in a manner, physically or mentally.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PROCREATIVE",
+      "clue": "Producing new life or offspring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Producing new life or offspring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "EPILOGS",
+      "clue": "Plural of epilog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of epilog",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "SULA",
+      "clue": "Type genus of the Sulidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Sulidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Calm and peaceful, free from disturbance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ILL",
+      "clue": "Often persistent bodily disorder or disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Often persistent bodily disorder or disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "POLYS",
+      "clue": "Plural of poly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of poly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "PALEST",
+      "clue": "Superlative of pal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Superlative of pal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "ODEATH",
+      "clue": "Eloquent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ELOQUENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cO Death\u201d defines eloquent",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BOWLEG",
+      "clue": "Leg bowed outward at the knee (or below the knee)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leg bowed outward at the knee (or below the knee)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BUBS",
+      "clue": "Plural of bub",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of bub",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ONLY",
+      "clue": "Exclusive of anyone or anything else",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclusive of anyone or anything else",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "WREN",
+      "clue": "Any of several small active brown birds of the northern hemisphere with short...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small active brown birds of the northern hemisphere with short...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ALSO",
+      "clue": "In addition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In addition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ANIL",
+      "clue": "Shrub of West Indies and South America that is a source of indigo dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrub of West Indies and South America that is a source of indigo dye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LINO",
+      "clue": "Floor covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Floor covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SNAP",
+      "clue": "Putting the ball in play by passing it (between the legs) to a back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Putting the ball in play by passing it (between the legs) to a back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Imaginary monster, or hideous giant of fairy tales, who lived on...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNREASONING",
+      "clue": "Not based on reason or evidence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not based on reason or evidence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "BLEST",
+      "clue": "Highly favored or fortunate (as e.g. by divine grace)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highly favored or fortunate (as e.g. by divine grace)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "DINAR",
+      "clue": "Basic unit of money in Algeria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Algeria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "SYNTH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "ELOPE",
+      "clue": "Run away secretly with one's beloved",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run away secretly with one's beloved",
+      "clueSource": "wordnet"
+    }
+  ]
+}

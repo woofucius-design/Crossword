@@ -1,0 +1,860 @@
+{
+  "date": "2027-01-01",
+  "number": 1000,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "A",
+      "S",
+      "H",
+      "E",
+      "S",
+      "#",
+      "A",
+      "A",
+      "S"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "C",
+      "E",
+      "N",
+      "T",
+      "#",
+      "S",
+      "K",
+      "Y"
+    ],
+    [
+      "P",
+      "U",
+      "T",
+      "A",
+      "W",
+      "A",
+      "Y",
+      "#",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "A",
+      "B",
+      "U",
+      "T",
+      "#",
+      "C",
+      "L",
+      "I",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "S",
+      "E",
+      "T",
+      "T",
+      "#",
+      "T",
+      "E",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "E",
+      "S",
+      "#",
+      "S",
+      "T",
+      "E",
+      "R",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "E",
+      "#",
+      "I",
+      "L",
+      "E",
+      "A"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "S",
+      "P",
+      "S",
+      "#",
+      "F",
+      "A",
+      "W",
+      "N"
+    ],
+    [
+      "A",
+      "A",
+      "H",
+      "#",
+      "E",
+      "S",
+      "T",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "I",
+      "R",
+      "E",
+      "#",
+      "R",
+      "A",
+      "I",
+      "D",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "M",
+      "#",
+      "B",
+      "Y",
+      "P",
+      "A",
+      "S",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "DASHES",
+      "clue": "Plural of dash",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of dash",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "DAUBER",
+      "clue": "Unskilled painter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unskilled painter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "SCATTERS",
+      "clue": "Plural of scatter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of scatter",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "HEW",
+      "clue": "Strike with an axe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strike with an axe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ENACT",
+      "clue": "Decree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make into law, as by legislative act.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "STYLES",
+      "clue": "Plural of style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of style",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AAS",
+      "clue": "Associate degree in applied science",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Associate degree in applied science",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ASSE",
+      "clue": "Small foxlike animal (Vulpes cama) of South Africa, valued for its fur",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small foxlike animal (Vulpes cama) of South Africa, valued for its fur",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SYST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "ASCENT",
+      "clue": "Act of rising",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rising, soaring, or climbing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SKY",
+      "clue": "Atmosphere and outer space as viewed from the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Atmosphere and outer space as viewed from the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "PUTAWAY",
+      "clue": "Repudiate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "REPUDIATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cput away\u201d defines repudiate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "PAST",
+      "clue": "Verb tense that expresses actions or states in the past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Verb tense that expresses actions or states in the past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "SIS",
+      "clue": "Female person who has the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female person who has the same parents as another person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ABUT",
+      "clue": "Project",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To touch at the end or boundary line.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CLIENT",
+      "clue": "Any computer that is hooked up to a computer network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any computer that is hooked up to a computer network",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "INTIFADA",
+      "clue": "Uprising by Palestinian Arabs (in both the Gaza Strip and the West Bank)...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uprising by Palestinian Arabs (in both the Gaza Strip and the West Bank)...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "SETT",
+      "clue": "Rectangular paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangular paving stone with curved top",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TEN",
+      "clue": "One of four playing cards in a deck with ten pips on the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck with ten pips on the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "TREES",
+      "clue": "Plural of tree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of tree",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "SUPERB",
+      "clue": "Grand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Sumptuously elegant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "STERN",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "AUSTERE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ELATES",
+      "clue": "Plural of elate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of elate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "REWEDS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "NANS",
+      "clue": "Plural of nan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nan",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ESSAY",
+      "clue": "Tentative attempt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tentative attempt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "GRASPS",
+      "clue": "Plural of grasp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of grasp",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "GAIT",
+      "clue": "Going",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Carriage of the body in going.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RARE",
+      "clue": "Not widely distributed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not widely distributed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "AHEM",
+      "clue": "Utterance of a sound similar to clearing the throat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Utterance of a sound similar to clearing the throat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "FAWN",
+      "clue": "Young deer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A young deer.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Express admiration and pleasure by uttering `ooh' or `aah'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "ESTATES",
+      "clue": "Plural of estate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of estate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "TIP",
+      "clue": "Indication of potential opportunity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indication of potential opportunity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "RAIDED",
+      "clue": "Past tense of raid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of raid",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "TEM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "BYPASS",
+      "clue": "Highway that encircles an urban area so that traffic does not have to pass...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highway that encircles an urban area so that traffic does not have to pass...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

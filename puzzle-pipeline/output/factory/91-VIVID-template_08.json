@@ -1,0 +1,812 @@
+{
+  "date": "2027-04-01",
+  "number": 1090,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "H",
+      "A",
+      "R",
+      "P",
+      "S",
+      "#",
+      "I",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "V",
+      "E",
+      "A",
+      "T",
+      "#",
+      "C",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "B",
+      "O",
+      "A",
+      "R",
+      "D",
+      "#",
+      "E",
+      "A",
+      "C",
+      "H"
+    ],
+    [
+      "R",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "N",
+      "S",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "S",
+      "S",
+      "R",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "I",
+      "C",
+      "H",
+      "A",
+      "E",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "T",
+      "S",
+      "E",
+      "L",
+      "F",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D"
+    ],
+    [
+      "B",
+      "O",
+      "L",
+      "A",
+      "#",
+      "S",
+      "O",
+      "L",
+      "A",
+      "C",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "P",
+      "#",
+      "M",
+      "E",
+      "L",
+      "L",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "A",
+      "T",
+      "E",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "N",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SHARPS",
+      "clue": "Plural of sharp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sharp",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAR",
+      "clue": "Indication of damage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indication of damage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "HABE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AVON",
+      "clue": "County in southwestern England",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "County in southwestern England",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "READMIT",
+      "clue": "Admit again or anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Admit again or anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "PARSECS",
+      "clue": "Plural of parsec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of parsec",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Possessive form of the pronoun it. See It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possessive form of the pronoun it. See It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink with a floor of ice for ice hockey or ice skating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rink with a floor of ice for ice hockey or ice skating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "TRANSL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "SECS",
+      "clue": "Plural of sec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sec",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "CAVEAT",
+      "clue": "Formal notice filed with a court or officer to suspend a proceeding until...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formal notice filed with a court or officer to suspend a proceeding until...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "CRED",
+      "clue": "Credibility among young fashionable urban individuals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Credibility among young fashionable urban individuals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "DHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ABOARD",
+      "clue": "On first or second or third base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On first or second or third base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "EACH",
+      "clue": "Or from every one of two or more (considered individually)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Or from every one of two or more (considered individually)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RENDS",
+      "clue": "Plural of rend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of rend",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "United States cryptologic organization that coordinates and directs highly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States cryptologic organization that coordinates and directs highly...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "MESSRS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "SALVOES",
+      "clue": "Plural of salvo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of salvo",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "REFILLS",
+      "clue": "Plural of refill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of refill",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "MICHAEL",
+      "clue": "Guardian archangel of the Jews",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Guardian archangel of the Jews",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "MILLET",
+      "clue": "Name of several cereal and forage grasses which bear an abundance...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A grass cultivated for forage and cereal.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "ITSELF",
+      "clue": "Neuter reciprocal pronoun of It",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Neuter reciprocal pronoun of It",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "NBS",
+      "clue": "Plural of nb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nb",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "Ninth letter of the Greek alphabet (i) corresponding with the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "True to the life",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "VALE",
+      "clue": "Tract of low ground, or of land between hills",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Level or low land between hills.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Image or representation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DENT",
+      "clue": "Impression in a surface (as made by a blow)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Impression in a surface (as made by a blow)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "BOLA",
+      "clue": "Rope with weights attached to the ends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rope with weights attached to the ends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Any of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various primates with short tails or no tail at all",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SOLACE",
+      "clue": "Comfort in grief",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Comfort in grief, trouble, or calamity.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "MELLON",
+      "clue": "United States financier and philanthropist (1855-1937)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States financier and philanthropist (1855-1937)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ASSENT",
+      "clue": "Admit a thing as true",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To express agreement with a statement or matter of opinion.",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "date": "2027-04-20",
+  "number": 1109,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "C",
+      "G",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "P",
+      "O",
+      "A",
+      "#",
+      "M",
+      "I",
+      "T",
+      "#",
+      "R",
+      "U",
+      "A"
+    ],
+    [
+      "I",
+      "L",
+      "L",
+      "#",
+      "U",
+      "N",
+      "S",
+      "P",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "C",
+      "O",
+      "L",
+      "O",
+      "S",
+      "S",
+      "A",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "M",
+      "E",
+      "R",
+      "C",
+      "I",
+      "#",
+      "A",
+      "D",
+      "O",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "O",
+      "T",
+      "A",
+      "N",
+      "I",
+      "C",
+      "A",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "O",
+      "N",
+      "E",
+      "#",
+      "U",
+      "N",
+      "I",
+      "T",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "G",
+      "R",
+      "A",
+      "N",
+      "D",
+      "A",
+      "M",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "A",
+      "N",
+      "T",
+      "E",
+      "#",
+      "B",
+      "P",
+      "I"
+    ],
+    [
+      "V",
+      "I",
+      "E",
+      "#",
+      "A",
+      "E",
+      "R",
+      "#",
+      "L",
+      "I",
+      "T"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "C",
+      "U"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ECG",
+      "clue": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "COLOMBO",
+      "clue": "Capital and largest city of Sri Lanka",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Sri Lanka",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "GALLEON",
+      "clue": "Large square-rigged sailing ship with three or more masts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large square-rigged sailing ship with three or more masts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Lyric poem with complex stanza forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Of a dull greyish brown to brownish grey color",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "EAT",
+      "clue": "Cause to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "POA",
+      "clue": "Chiefly perennial grasses of cool temperate regions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chiefly perennial grasses of cool temperate regions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "MIT",
+      "clue": "Engineering university in Cambridge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engineering university in Cambridge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "MUSCA",
+      "clue": "Type genus of the Muscidae: houseflies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Muscidae: houseflies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "INSINUATE",
+      "clue": "Give to understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To imply.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Agency established in 2001 to safeguard United States transportation systems...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency established in 2001 to safeguard United States transportation systems...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RUA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ILL",
+      "clue": "Often persistent bodily disorder or disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Often persistent bodily disorder or disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "UNSPENT",
+      "clue": "Not spent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not spent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Calm and peaceful, free from disturbance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "COLOSSAL",
+      "clue": "So great in size or force or extent as to elicit awe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So great in size or force or extent as to elicit awe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "ORTEGA",
+      "clue": "Nicaraguan statesman (born in 1945)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nicaraguan statesman (born in 1945)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "MERCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "DATABLE",
+      "clue": "That can be given a date",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That can be given a date",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "OLYMPIC",
+      "clue": "Of or relating to the Olympic Games",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the Olympic Games",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "BOTANICAL",
+      "clue": "Of or relating to plants or botany",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Connected with the study or cultivation of plants.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "INNER",
+      "clue": "Inside or closer to the inside of the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inside or closer to the inside of the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "UNITY",
+      "clue": "Quality of being united into one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being united into one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "GRANDAMS",
+      "clue": "Plural of grandam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of grandam",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "RNA",
+      "clue": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer of nucleotides found in the nucleus but mainly in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SITU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "ANDANTE",
+      "clue": "Musical composition or musical passage to be performed moderately slow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition or musical passage to be performed moderately slow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "AVA",
+      "clue": "Same as Kava",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Kava",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "BPI",
+      "clue": "Measure of how densely information is packed on a storage medium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of how densely information is packed on a storage medium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Compete for something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "AER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LIT",
+      "clue": "Humanistic study of a body of literature",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Humanistic study of a body of literature",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ECU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

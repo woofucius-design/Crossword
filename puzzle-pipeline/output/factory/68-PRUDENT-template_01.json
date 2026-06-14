@@ -1,0 +1,885 @@
+{
+  "date": "2027-03-09",
+  "number": 1067,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "M",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "W",
+      "N"
+    ],
+    [
+      "P",
+      "R",
+      "U",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "S",
+      "H",
+      "U"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "O",
+      "C",
+      "I",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "B",
+      "E",
+      "#",
+      "T",
+      "R",
+      "O",
+      "V",
+      "E"
+    ],
+    [
+      "L",
+      "E",
+      "A",
+      "R",
+      "N",
+      "#",
+      "O",
+      "S",
+      "C",
+      "A",
+      "R"
+    ],
+    [
+      "O",
+      "C",
+      "T",
+      "E",
+      "T",
+      "#",
+      "L",
+      "E",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "R",
+      "I",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "S",
+      "T",
+      "I",
+      "N",
+      "G",
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "#",
+      "C",
+      "O",
+      "Y",
+      "O",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "N",
+      "I",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "T",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EMMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "EPA",
+      "clue": "Independent federal agency established to coordinate programs aimed at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency established to coordinate programs aimed at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "MRS",
+      "clue": "Form of address for a married woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of address for a married woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "MUS",
+      "clue": "Type genus of the Muridae: common house mice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Muridae: common house mice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OWN",
+      "clue": "Have ownership or possession of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have ownership or possession of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "WHO",
+      "clue": "United Nations agency to coordinate international health activities and to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United Nations agency to coordinate international health activities and to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "NUN",
+      "clue": "14th letter of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "14th letter of the Hebrew alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "ECCENTRIC",
+      "clue": "Not having a common center",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Peculiar.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "TAUTOLOGY",
+      "clue": "Useless repetition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Useless repetition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SHU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ASSOCIATION",
+      "clue": "Act of consorting with or joining with others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of consorting with or joining with others",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Brief and to the point",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "CLUE",
+      "clue": "Evidence that helps to solve a problem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evidence that helps to solve a problem",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "PROBE",
+      "clue": "Investigation conducted using a flexible surgical instrument to explore an...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To search through and through.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "PLO",
+      "clue": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "REC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "OAT",
+      "clue": "Seed of the annual grass Avena sativa (spoken of primarily in the plural as...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seed of the annual grass Avena sativa (spoken of primarily in the plural as...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "BRETT",
+      "clue": "Same as Britzska",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Britzska",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "TROVE",
+      "clue": "Treasure of unknown ownership found hidden (usually in the earth)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Treasure of unknown ownership found hidden (usually in the earth)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "OCA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "VAV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "LEARN",
+      "clue": "Gain knowledge or skills",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gain knowledge or skills",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OSCAR",
+      "clue": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "OCTET",
+      "clue": "Musical composition written for eight performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition written for eight performers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "LEAVE",
+      "clue": "Act of departing politely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of departing politely",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "TRIO",
+      "clue": "Musical composition for three performers",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Three things grouped or associated together.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "INO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CASTINGDOWN",
+      "clue": "Dejection",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DEJECTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccasting down\u201d defines dejection",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "CAN",
+      "clue": "Airtight sealed metal container for food or drink or paint etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airtight sealed metal container for food or drink or paint etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "DOA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "OTC",
+      "clue": "Not traded on a stock exchange",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not traded on a stock exchange",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "WET",
+      "clue": "Wetness caused by water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wetness caused by water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "United States cryptologic organization that coordinates and directs highly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States cryptologic organization that coordinates and directs highly...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "General name for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for beer made with a top fermenting yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "COYOTES",
+      "clue": "Plural of coyote",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of coyote",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ACTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

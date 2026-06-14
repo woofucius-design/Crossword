@@ -1,0 +1,740 @@
+{
+  "date": "2027-05-27",
+  "number": 1146,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "F",
+      "F",
+      "#",
+      "#",
+      "#",
+      "S",
+      "G",
+      "M",
+      "L"
+    ],
+    [
+      "E",
+      "C",
+      "O",
+      "L",
+      "#",
+      "O",
+      "P",
+      "P",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "S",
+      "H",
+      "R",
+      "U",
+      "B",
+      "B",
+      "E",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "E",
+      "M",
+      "#",
+      "A",
+      "S",
+      "K",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "I",
+      "N",
+      "G",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "G",
+      "E",
+      "I",
+      "N",
+      "G",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "B",
+      "E",
+      "N",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "N",
+      "E",
+      "A",
+      "S",
+      "#",
+      "B",
+      "A",
+      "A"
+    ],
+    [
+      "C",
+      "L",
+      "O",
+      "I",
+      "S",
+      "T",
+      "E",
+      "R",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "C",
+      "L",
+      "A",
+      "U",
+      "S",
+      "E",
+      "#",
+      "U",
+      "R",
+      "G",
+      "E"
+    ],
+    [
+      "L",
+      "A",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AFF",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "FORM",
+      "clue": "Spatial arrangement of something as distinct from its substance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spatial arrangement of something as distinct from its substance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "FLU",
+      "clue": "Acute febrile highly contagious viral disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acute febrile highly contagious viral disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "SGML",
+      "clue": "Standardized language for the descriptive markup of documents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standardized language for the descriptive markup of documents",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "SPRANG",
+      "clue": "Imp. of Spring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. of Spring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "GOINGS",
+      "clue": "Plural of going",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of going",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "MSEC",
+      "clue": "One thousandth (10^-3) of a second",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One thousandth (10^-3) of a second",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "LESE",
+      "clue": "Lose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lose",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ECOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OPPOSE",
+      "clue": "Be against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be against",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Pertinaciously adhering to an opinion, purpose, or course",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "PEKINESE",
+      "clue": "Chinese breed of small short-legged dogs with a long silky coat and broad...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chinese breed of small short-legged dogs with a long silky coat and broad...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SHRUBBERIES",
+      "clue": "Plural of shrubbery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of shrubbery",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "BASENESS",
+      "clue": "Unworthiness by virtue of lacking higher values",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unworthiness by virtue of lacking higher values",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "TEM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "ASKANCE",
+      "clue": "With a side or indirect glance or meaning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "With a side or indirect glance or meaning.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "STING",
+      "clue": "Swindle in which you cheat at gambling or persuade a person to buy worthless...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swindle in which you cheat at gambling or persuade a person to buy worthless...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "AGEINGS",
+      "clue": "Plural of ageing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ageing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "ABROAD",
+      "clue": "In a foreign country",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a foreign country",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "GENIUS",
+      "clue": "Unusual mental ability",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unusual mental ability",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "BENNE",
+      "clue": "East Indian annual erect herb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "East Indian annual erect herb",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "CORNEAS",
+      "clue": "Plural of cornea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of cornea",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CCCL",
+      "clue": "Roman numeral for 350",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 350",
+      "clueSource": "roman"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OLLA",
+      "clue": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "BAA",
+      "clue": "Cry made by sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cry made by sheep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "BIRR",
+      "clue": "Sound of something in rapid motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound of something in rapid motion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CLOISTERING",
+      "clue": "Present participle of cloister",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present participle of cloister",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "CLAUSE",
+      "clue": "Expression including a subject and predicate but not constituting a complete...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expression including a subject and predicate but not constituting a complete...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "URGE",
+      "clue": "Strong restless desire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong restless desire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "LADS",
+      "clue": "Plural of lad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of lad",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    }
+  ]
+}

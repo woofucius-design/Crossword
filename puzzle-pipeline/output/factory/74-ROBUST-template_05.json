@@ -1,0 +1,855 @@
+{
+  "date": "2027-03-15",
+  "number": 1073,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "R",
+      "A",
+      "I",
+      "N",
+      "#",
+      "O",
+      "P",
+      "E",
+      "#"
+    ],
+    [
+      "G",
+      "O",
+      "O",
+      "G",
+      "L",
+      "E",
+      "#",
+      "B",
+      "E",
+      "A",
+      "U"
+    ],
+    [
+      "U",
+      "N",
+      "B",
+      "E",
+      "L",
+      "I",
+      "E",
+      "V",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "Y",
+      "O",
+      "U",
+      "#",
+      "#",
+      "G",
+      "R",
+      "I",
+      "L",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "R",
+      "S",
+      "V",
+      "#",
+      "H",
+      "A",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "P",
+      "#",
+      "S",
+      "U",
+      "C",
+      "H",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "E",
+      "#",
+      "S",
+      "H",
+      "E",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "R",
+      "B",
+      "R",
+      "A",
+      "#",
+      "#",
+      "A",
+      "H",
+      "A"
+    ],
+    [
+      "U",
+      "P",
+      "H",
+      "O",
+      "L",
+      "S",
+      "T",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "S",
+      "#",
+      "E",
+      "U",
+      "D",
+      "O",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "D",
+      "A",
+      "E",
+      "#",
+      "D",
+      "I",
+      "O",
+      "N",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DRAIN",
+      "clue": "Emptying something accomplished by allowing liquid to run out of it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Emptying something accomplished by allowing liquid to run out of it",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "DONORS",
+      "clue": "Plural of donor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of donor",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong, healthy, and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ILL",
+      "clue": "Often persistent bodily disorder or disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Often persistent bodily disorder or disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "NEIGH",
+      "clue": "Characteristic sounds made by a horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characteristic sounds made by a horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "OPE",
+      "clue": "Open",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "OBVIOUS",
+      "clue": "Lucid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LUCID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of lucid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "PEEL",
+      "clue": "Rind of a fruit or vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rind of a fruit or vegetable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EARL",
+      "clue": "British peer ranking below a marquess and above a viscount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British peer ranking below a marquess and above a viscount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "GOOGLE",
+      "clue": "Widely used search engine that uses text-matching techniques to find web...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Widely used search engine that uses text-matching techniques to find web...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "Man who is the lover of a girl or young woman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An escort or lover.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNBELIEVERS",
+      "clue": "Plural of unbeliever",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of unbeliever",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "Plural of era",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of era",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "GRILLE",
+      "clue": "Framework of metal bars used as a partition or a grate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Framework of metal bars used as a partition or a grate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "RSV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using or expressed in more words than are needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HAO",
+      "clue": "10 hao equal 1 dong in Vietnam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "10 hao equal 1 dong in Vietnam",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "PURL",
+      "clue": "Basic knitting stitch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cause to whirl, as in an eddy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "SUCH",
+      "clue": "So extreme a degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So extreme a degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "CHARON",
+      "clue": "Ferryman who brought the souls of the dead across the river Styx or the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ferryman who brought the souls of the dead across the river Styx or the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "HEHERE",
+      "clue": "Cudgel",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CUDGEL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201che here\u201d defines cudgel",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Street or road in France",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "EASED",
+      "clue": "Made easier to bear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made easier to bear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BARBRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "BUS",
+      "clue": "Vehicle carrying many passengers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle carrying many passengers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "APED",
+      "clue": "Past tense of ape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of ape",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RHEA",
+      "clue": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Larger of two tall fast-running flightless birds similar to ostriches but...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressing, by different intonations, triumph, mixed with...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ADA",
+      "clue": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UPHOLSTERED",
+      "clue": "Past tense of upholster",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past tense of upholster",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "TUI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Capital and largest city of Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Plural of se",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of se",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EUDORA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "DAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "DIONE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

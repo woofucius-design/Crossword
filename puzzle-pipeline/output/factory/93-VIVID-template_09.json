@@ -1,0 +1,814 @@
+{
+  "date": "2027-04-03",
+  "number": 1092,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "P",
+      "#",
+      "S",
+      "C",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "T",
+      "H",
+      "E",
+      "R",
+      "#",
+      "L",
+      "I",
+      "R",
+      "A",
+      "#"
+    ],
+    [
+      "L",
+      "E",
+      "E",
+      "R",
+      "Y",
+      "#",
+      "A",
+      "C",
+      "O",
+      "M",
+      "A"
+    ],
+    [
+      "A",
+      "V",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "N",
+      "E",
+      "W"
+    ],
+    [
+      "M",
+      "E",
+      "R",
+      "C",
+      "H",
+      "A",
+      "N",
+      "D",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "L",
+      "E",
+      "G",
+      "I",
+      "A",
+      "C",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "I",
+      "R",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "P",
+      "R",
+      "I",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "H",
+      "O"
+    ],
+    [
+      "M",
+      "A",
+      "C",
+      "A",
+      "W",
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "T",
+      "E",
+      "#",
+      "I",
+      "R",
+      "E",
+      "N",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "L",
+      "E",
+      "E",
+      "#",
+      "E",
+      "E",
+      "L",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,6": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,1": {
+      "number": 32
+    },
+    "9,6": {
+      "number": 33
+    },
+    "10,2": {
+      "number": 34
+    },
+    "10,6": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "STEVE",
+      "clue": "Pack or stow, as cargo in a ship's hold. See Steeve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pack or stow, as cargo in a ship's hold. See Steeve",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "THEORETICAL",
+      "clue": "Directed toward knowledge for its own sake without respect to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Directed toward knowledge for its own sake without respect to",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "PRY",
+      "clue": "Heavy iron lever with one end forged into a wedge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavy iron lever with one end forged into a wedge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "CICADAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "IRONICNOVEL",
+      "clue": "Wry",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "WRY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cironic novel\u201d defines wry",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "OTHER",
+      "clue": "Very unusual",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very unusual",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "OLAM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "LIRA",
+      "clue": "Formerly the basic unit of money in Italy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formerly the basic unit of money in Italy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 4,
+      "answer": "AMES",
+      "clue": "Plural of am",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of am",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "LEERY",
+      "clue": "Openly distrustful and unwilling to confide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Openly distrustful and unwilling to confide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "ACOMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "AWE",
+      "clue": "Overwhelming feeling of wonder or admiration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overwhelming feeling of wonder or admiration",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "100 avos equal 1 pataca in Macao",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "100 avos equal 1 pataca in Macao",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Once more",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 11,
+      "answer": "MERCHANDISE",
+      "clue": "Commodities offered for sale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commodities offered for sale",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CLIMATE",
+      "clue": "Weather in some location averaged over some long period of time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Weather in some location averaged over some long period of time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "answer": "HER",
+      "clue": "Form of the objective and the possessive case of the personal pronoun she",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the objective and the possessive case of the personal pronoun she",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "answer": "NIM",
+      "clue": "Game in which matchsticks are arranged in rows and players alternately remove...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game in which matchsticks are arranged in rows and players alternately remove...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "ELEGIAC",
+      "clue": "Expressing sorrow often for something past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expressing sorrow often for something past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 11,
+      "answer": "RETIREMENTS",
+      "clue": "Plural of retirement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of retirement",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "RPM",
+      "clue": "Rate of revolution of a motor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rate of revolution of a motor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "Plural of era",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of era",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "THINS",
+      "clue": "Plural of thin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of thin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "SODA",
+      "clue": "Sweet drink containing carbonated water and flavoring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweet drink containing carbonated water and flavoring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PRIM",
+      "clue": "Stiffly proper",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stiffly proper.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "OHO",
+      "clue": "Exclamation of surprise, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation of surprise, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "MACAW",
+      "clue": "Long-tailed brilliantly colored parrot of Central America and South America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long-tailed brilliantly colored parrot of Central America and South America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very small",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very small.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Strikingly bright or clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "Contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To contend.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "SATE",
+      "clue": "Fill to satisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill to satisfaction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "IRENA",
+      "clue": "Type genus of the Irenidae: fairy bluebirds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Irenidae: fairy bluebirds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "EELS",
+      "clue": "Plural of eel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of eel",
+      "clueSource": "inflection"
+    }
+  ]
+}

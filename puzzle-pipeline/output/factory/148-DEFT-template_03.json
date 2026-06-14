@@ -1,0 +1,821 @@
+{
+  "date": "2027-05-28",
+  "number": 1147,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "A",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "B"
+    ],
+    [
+      "E",
+      "G",
+      "O",
+      "#",
+      "A",
+      "S",
+      "B",
+      "#",
+      "Y",
+      "O",
+      "U"
+    ],
+    [
+      "F",
+      "E",
+      "Z",
+      "#",
+      "T",
+      "U",
+      "R",
+      "R",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "T",
+      "I",
+      "L",
+      "L",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "E",
+      "R",
+      "S",
+      "#",
+      "A",
+      "B",
+      "M",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "Y",
+      "P",
+      "I",
+      "C",
+      "A",
+      "L",
+      "L",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "W",
+      "A",
+      "#",
+      "R",
+      "U",
+      "M",
+      "O",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "G",
+      "A",
+      "I",
+      "N",
+      "S",
+      "A",
+      "I",
+      "D"
+    ],
+    [
+      "E",
+      "X",
+      "C",
+      "E",
+      "R",
+      "P",
+      "T",
+      "#",
+      "T",
+      "A",
+      "U"
+    ],
+    [
+      "A",
+      "M",
+      "P",
+      "#",
+      "A",
+      "T",
+      "S",
+      "#",
+      "E",
+      "D",
+      "S"
+    ],
+    [
+      "U",
+      "L",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DAM",
+      "clue": "Female parent of an animal especially domestic livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female parent of an animal especially domestic livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Skillful in physical movements",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "AGEISTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "MOZLEYW",
+      "clue": "Corporeal",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CORPOREAL",
+        "INITIATE",
+        "PARISH",
+        "ASSESSOR",
+        "ERRANT",
+        "CABINET",
+        "IMPROPER",
+        "PENSION",
+        "INQUISITOR",
+        "DIVEST",
+        "PRESENTMENT",
+        "DUPLEX",
+        "PERQUISITE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cMozley W\u201d defines corporeal",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALB",
+      "clue": "White linen liturgical vestment with sleeves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White linen liturgical vestment with sleeves",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "LOT",
+      "clue": "Anything (straws or pebbles etc.) taken or chosen at random",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anything (straws or pebbles etc.) taken or chosen at random",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "BUS",
+      "clue": "Vehicle carrying many passengers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle carrying many passengers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "EGO",
+      "clue": "Conscious mind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conscious mind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ASB",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "ATARI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SUBSCRIPT",
+      "clue": "Character or symbol set or printed or written beneath or slightly below and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Character or symbol set or printed or written beneath or slightly below and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "BRL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "FEZ",
+      "clue": "Felt cap (usually red) for a man",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A brimless felt cap in the shape of a truncated cone, usually red with a black",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "TURRETS",
+      "clue": "Plural of turret",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of turret",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "REALMS",
+      "clue": "Plural of realm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of realm",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "TILLABLE",
+      "clue": "Capable of being farmed productively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of being farmed productively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "LEPAGE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "SEERS",
+      "clue": "Plural of seer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of seer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "ABM",
+      "clue": "Defensive missile designed to shoot down incoming intercontinental ballistic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Defensive missile designed to shoot down incoming intercontinental ballistic...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "BLOATED",
+      "clue": "Distended beyond the natural or usual size, as by the presence of water, serum,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distended beyond the natural or usual size, as by the presence of water, serum,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "MYRIADS",
+      "clue": "Plural of myriad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of myriad",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "TYPICALLY",
+      "clue": "In a typical manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a typical manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AUNTS",
+      "clue": "Plural of aunt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of aunt",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "SWA",
+      "clue": "So",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "RUMOR",
+      "clue": "Gossip (usually a mixture of truth and untruth) passed around by word of mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gossip (usually a mixture of truth and untruth) passed around by word of mouth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "GAINSAID",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ARA",
+      "clue": "Macaws",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macaws",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DUST",
+      "clue": "Fine powdery material such as dry earth or pollen that can be blown about in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fine powdery material such as dry earth or pollen that can be blown about in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "EXCERPT",
+      "clue": "Select",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An extract or selection from written or printed matter.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "EAU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "XML",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "CPT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "TAU",
+      "clue": "19th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "19th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "AMP",
+      "clue": "Basic unit of electric current adopted under the Systeme International...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of electric current adopted under the Systeme International...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "ATS",
+      "clue": "Plural of at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of at",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ULT",
+      "clue": "In or of the month preceding the present one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the month preceding the present one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "DST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

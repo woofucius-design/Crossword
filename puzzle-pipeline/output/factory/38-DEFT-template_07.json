@@ -1,0 +1,784 @@
+{
+  "date": "2027-02-07",
+  "number": 1037,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "D",
+      "O",
+      "R",
+      "#",
+      "A",
+      "L",
+      "I",
+      "A",
+      "S"
+    ],
+    [
+      "L",
+      "I",
+      "E",
+      "G",
+      "E",
+      "#",
+      "V",
+      "A",
+      "L",
+      "V",
+      "E"
+    ],
+    [
+      "A",
+      "F",
+      "F",
+      "E",
+      "C",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "E",
+      "#",
+      "O",
+      "T",
+      "T",
+      "A",
+      "W",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "W",
+      "H",
+      "I",
+      "R",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "G",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "A",
+      "M",
+      "I",
+      "S",
+      "H",
+      "#",
+      "H",
+      "E",
+      "R",
+      "O"
+    ],
+    [
+      "I",
+      "M",
+      "I",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "O",
+      "F"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "H",
+      "I",
+      "#",
+      "A",
+      "L",
+      "O",
+      "O",
+      "F"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "E",
+      "D",
+      "#",
+      "N",
+      "E",
+      "S",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,5": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,6": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,6": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ARDOR",
+      "clue": "Feelings of great warmth and intensity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Intensity of passion or affection.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAR",
+      "clue": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RIFE",
+      "clue": "Excessively abundant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Abundant.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Neatly skillful and quick in movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "OGEE",
+      "clue": "Molding that (in section) has the shape of an S with the convex part above...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Molding that (in section) has the shape of an S with the convex part above...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "REC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ALIAS",
+      "clue": "Name that has been assumed temporarily",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An assumed name.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "AVATAR",
+      "clue": "Manifestation of a Hindu deity (especially Vishnu) in human or superhuman...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Manifestation of a Hindu deity (especially Vishnu) in human or superhuman...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "LATTER",
+      "clue": "Second of two or the second mentioned of two",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second of two or the second mentioned of two",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "AVOW",
+      "clue": "Admit openly and bluntly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To declare openly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SENA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "LIEGE",
+      "clue": "Owing or owed feudal allegiance and service",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Sovereign.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "VALVE",
+      "clue": "One of the paired hinged shells of certain molluscs and of brachiopods",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the paired hinged shells of certain molluscs and of brachiopods",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "AFFECTATION",
+      "clue": "Deliberate pretense or exaggerated display",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A studied or ostentatious pretense or attempt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "TONIGHT",
+      "clue": "Present or immediately coming night",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present or immediately coming night",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "RETE",
+      "clue": "Network of intersecting blood vessels or intersecting nerves or intersecting...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Network of intersecting blood vessels or intersecting nerves or intersecting...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "OTTAWA",
+      "clue": "Capital of Canada (located in southeastern Ontario across the Ottawa river...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Canada (located in southeastern Ontario across the Ottawa river...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "WHIRR",
+      "clue": "Sound of something in rapid motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound of something in rapid motion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "WRITHE",
+      "clue": "Move in a twisting or contorted motion, (especially when struggling)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To twist the body, face, or limbs or as in pain or distress.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "HESAID",
+      "clue": "Ought",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OUGHT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cHe said\u201d defines ought",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "REG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "FAMISH",
+      "clue": "Die of food deprivation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To suffer extremity of hunger or thirst.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "FIDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AMEN",
+      "clue": "Primeval Egyptian personification of air and breath",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Primeval Egyptian personification of air and breath",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "MILD",
+      "clue": "Placid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLACID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of placid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HERO",
+      "clue": "Principal character in a play or movie or novel or poem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal character in a play or movie or novel or poem",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HOLE",
+      "clue": "Opening deliberately made in or through something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Opening deliberately made in or through something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ENOS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ROOT",
+      "clue": "Part of a tooth that is embedded in the jaw and serves as support",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a tooth that is embedded in the jaw and serves as support",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "OFFS",
+      "clue": "Plural of off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of off",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "IMITATIONOF",
+      "clue": "Diminution",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DIMINUTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cimitation of\u201d defines diminution",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "IAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "DELHI",
+      "clue": "City in north central India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in north central India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "ALOOF",
+      "clue": "Remote in manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not in sympathy with or desiring to associate with others.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "ENDED",
+      "clue": "Having come or been brought to a conclusion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having come or been brought to a conclusion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "NESTS",
+      "clue": "Plural of nest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of nest",
+      "clueSource": "inflection"
+    }
+  ]
+}

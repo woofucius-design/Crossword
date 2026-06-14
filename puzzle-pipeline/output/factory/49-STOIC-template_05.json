@@ -1,0 +1,861 @@
+{
+  "date": "2027-02-18",
+  "number": 1048,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "T",
+      "O",
+      "I",
+      "C",
+      "#",
+      "P",
+      "E",
+      "A",
+      "#"
+    ],
+    [
+      "Q",
+      "U",
+      "A",
+      "D",
+      "R",
+      "A",
+      "#",
+      "L",
+      "I",
+      "S",
+      "A"
+    ],
+    [
+      "U",
+      "N",
+      "S",
+      "E",
+      "E",
+      "N",
+      "P",
+      "E",
+      "R",
+      "I",
+      "L"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "O",
+      "R",
+      "D",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "E",
+      "E",
+      "L",
+      "#",
+      "N",
+      "A",
+      "G",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "S",
+      "A",
+      "R",
+      "#",
+      "Y",
+      "E",
+      "A",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "T",
+      "#",
+      "E",
+      "Y",
+      "E",
+      "#"
+    ],
+    [
+      "P",
+      "U",
+      "R",
+      "D",
+      "A",
+      "H",
+      "#",
+      "#",
+      "M",
+      "A",
+      "Y"
+    ],
+    [
+      "F",
+      "R",
+      "O",
+      "M",
+      "D",
+      "I",
+      "S",
+      "E",
+      "A",
+      "S",
+      "E"
+    ],
+    [
+      "C",
+      "I",
+      "M",
+      "A",
+      "#",
+      "C",
+      "A",
+      "R",
+      "R",
+      "O",
+      "T"
+    ],
+    [
+      "#",
+      "C",
+      "E",
+      "N",
+      "#",
+      "K",
+      "O",
+      "R",
+      "A",
+      "N",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SUNSET",
+      "clue": "Daily event of the sun sinking below the horizon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Daily event of the sun sinking below the horizon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "TASTES",
+      "clue": "Plural of taste",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of taste",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "CANON",
+      "clue": "Law or rule. Or that the Everlasting had not fixed His canon...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any rule or law.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "PEA",
+      "clue": "Seed of a pea plant used for food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seed of a pea plant used for food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PLEDGEE",
+      "clue": "One to whom a pledge is given, or to whom property pledged is...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The person to whom anything is pledged.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EIRE",
+      "clue": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ASIA",
+      "clue": "Nations of the Asian continent collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nations of the Asian continent collectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "QUADRA",
+      "clue": "Plinth, or lowest member, of any pedestal, podium, water table, or the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plinth, or lowest member, of any pedestal, podium, water table, or the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "QUE",
+      "clue": "Half farthing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Half farthing",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "LISA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNSEENPERIL",
+      "clue": "Ambush",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "AMBUSH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cUnseen peril\u201d defines ambush",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "PRAY",
+      "clue": "Call upon in supplication",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Call upon in supplication",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ORDEAL",
+      "clue": "Anything that severely tests courage, strength, patience, conscience",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Anything that severely tests courage, strength, patience, conscience, etc.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "EEL",
+      "clue": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Voracious snakelike marine or freshwater fishes with smooth slimy usually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "LANDMAN",
+      "clue": "Person who lives and works on land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who lives and works on land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NAG",
+      "clue": "Old or over-worked horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old or over-worked horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "READ",
+      "clue": "Something that is read",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that is read",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "YEAR",
+      "clue": "Body of students who graduate together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of students who graduate together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "AYMARA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "REASON",
+      "clue": "Capacity for rational thought or inference or discrimination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capacity for rational thought or inference or discrimination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "NET",
+      "clue": "Computer network consisting of a worldwide network of computer networks that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer network consisting of a worldwide network of computer networks that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "THICK",
+      "clue": "Location of something surrounded by other things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location of something surrounded by other things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "EYE",
+      "clue": "Small hole or loop (as in a needle)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small hole or loop (as in a needle)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PURDAH",
+      "clue": "Screen used in India to separate women from men or strangers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Screen used in India to separate women from men or strangers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "PFC",
+      "clue": "Powerful greenhouse gas emitted during the production of aluminum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powerful greenhouse gas emitted during the production of aluminum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "URIC",
+      "clue": "In or relating to or obtained from urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or relating to or obtained from urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ROME",
+      "clue": "Leadership of the Roman Catholic Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leadership of the Roman Catholic Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "MAY",
+      "clue": "Thorny Eurasian shrub of small tree having dense clusters of white to scarlet...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thorny Eurasian shrub of small tree having dense clusters of white to scarlet...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "FROMDISEASE",
+      "clue": "Immune",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "IMMUNE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cfrom disease\u201d defines immune",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "SAO",
+      "clue": "Any marine annelid of the genus Hyalin\u00e6cia, especially H. tubicola of Europe,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any marine annelid of the genus Hyalin\u00e6cia, especially H. tubicola of Europe,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ERR",
+      "clue": "Make a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a mistake or be incorrect",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "CIMA",
+      "clue": "Kind of molding. See Cyma",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of molding. See Cyma",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "CARROT",
+      "clue": "Promise of reward as in \"carrot and stick\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Promise of reward as in \"carrot and stick\"",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "CEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "KORAN",
+      "clue": "Sacred writings of Islam revealed by God to the prophet Muhammad during his...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sacred writings of Islam revealed by God to the prophet Muhammad during his...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

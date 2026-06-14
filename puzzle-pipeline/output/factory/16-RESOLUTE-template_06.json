@@ -1,0 +1,855 @@
+{
+  "date": "2027-01-16",
+  "number": 1015,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "A",
+      "T",
+      "R",
+      "A",
+      "P",
+      "#",
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "O",
+      "E",
+      "B",
+      "A",
+      "#",
+      "R",
+      "U",
+      "E"
+    ],
+    [
+      "B",
+      "U",
+      "I",
+      "L",
+      "D",
+      "U",
+      "P",
+      "#",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "N",
+      "E",
+      "#",
+      "J",
+      "A",
+      "R",
+      "G",
+      "O",
+      "N"
+    ],
+    [
+      "B",
+      "E",
+      "E",
+      "R",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "#",
+      "A",
+      "S",
+      "H",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "A",
+      "#",
+      "O",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "N",
+      "E",
+      "C",
+      "T",
+      "A",
+      "R",
+      "#",
+      "L",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "#",
+      "S",
+      "H",
+      "O",
+      "U",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "R",
+      "D",
+      "S",
+      "#",
+      "T",
+      "A",
+      "R",
+      "T",
+      "A",
+      "R",
+      "#"
+    ],
+    [
+      "M",
+      "Y",
+      "S",
+      "#",
+      "S",
+      "T",
+      "E",
+      "E",
+      "L",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SATRAP",
+      "clue": "Governor of a province in ancient Persia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governor of a province in ancient Persia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SAUCES",
+      "clue": "Plural of sauce",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of sauce",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "AMINES",
+      "clue": "Plural of amine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of amine",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "TOLERANT",
+      "clue": "Inclined to tolerate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Indulgent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RED",
+      "clue": "Red color or pigment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Red color or pigment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ABUJA",
+      "clue": "Capital of Nigeria in the center of the country",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Nigeria in the center of the country",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "PAPAYA",
+      "clue": "Large oval melon-like tropical fruit with yellowish flesh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large oval melon-like tropical fruit with yellowish flesh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CAB",
+      "clue": "Car driven by a person whose job is to take passengers where they want to go...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Car driven by a person whose job is to take passengers where they want to go...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "CRAG",
+      "clue": "Steep, rugged rock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rugged, rocky projection on a cliff or ledge.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "AUTO",
+      "clue": "Motor vehicle with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicle with four wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "BEEN",
+      "clue": "Past participle of Be. In old authors it is also the pr. tense plural of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Past participle of Be. In old authors it is also the pr. tense plural of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "AMOEBA",
+      "clue": "Naked freshwater or marine or parasitic protozoa that form temporary pseudopods...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Naked freshwater or marine or parasitic protozoa that form temporary pseudopods...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "BUILDUP",
+      "clue": "Edify",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EDIFY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbuild up\u201d defines edify",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "BABA",
+      "clue": "Small cake leavened with yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cake leavened with yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "JARGON",
+      "clue": "Confused, unintelligible language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Confused, unintelligible speech or highly technical speech.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "RESOLUTE",
+      "clue": "Characterized by quickness and firmness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "admirably purposeful and determined",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "BEER",
+      "clue": "General name for alcoholic beverages made by fermenting a cereal (or mixture...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for alcoholic beverages made by fermenting a cereal (or mixture...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ASSAY",
+      "clue": "Trial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The chemical analysis or testing of an alloy ore.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "YEASTS",
+      "clue": "Plural of yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of yeast",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Of or pertaining to the ash tree. \"Ashen poles.\" Dryden. Consisting...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pale.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "HIATAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ESTERS",
+      "clue": "Plural of ester",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ester",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "NEED",
+      "clue": "Psychological feature that arouses an organism to action toward a desired...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Psychological feature that arouses an organism to action toward a desired...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ARHAT",
+      "clue": "Buddhist who has attained nirvana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Buddhist who has attained nirvana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "OISE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "NECTAR",
+      "clue": "Drink of the gods (as ambrosia was their food)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any especially sweet and delicious drink.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "NORM",
+      "clue": "Rule or authoritative standard",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A model.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EDDY",
+      "clue": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "CESS",
+      "clue": "Rate or tax",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rate or tax",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LATE",
+      "clue": "Being or occurring at an advanced period of time or after a usual or expected...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being or occurring at an advanced period of time or after a usual or expected...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "SHOUTED",
+      "clue": "In a vehement outcry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a vehement outcry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "RDS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "TARTAR",
+      "clue": "Incrustation that forms on the teeth and gums",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Incrustation that forms on the teeth and gums",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "MYS",
+      "clue": "Plural of my",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of my",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "STEELS",
+      "clue": "Plural of steel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of steel",
+      "clueSource": "inflection"
+    }
+  ]
+}

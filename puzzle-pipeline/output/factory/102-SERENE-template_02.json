@@ -1,0 +1,740 @@
+{
+  "date": "2027-04-12",
+  "number": 1101,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "L",
+      "L",
+      "#",
+      "#",
+      "#",
+      "G",
+      "E",
+      "O",
+      "G"
+    ],
+    [
+      "B",
+      "R",
+      "A",
+      "E",
+      "#",
+      "T",
+      "H",
+      "O",
+      "R",
+      "P",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "V",
+      "A",
+      "R",
+      "I",
+      "A",
+      "B",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "N",
+      "A",
+      "E",
+      "#",
+      "I",
+      "M",
+      "P",
+      "L",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "E",
+      "P",
+      "I",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "H",
+      "A",
+      "P",
+      "I",
+      "N",
+      "G",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "E",
+      "R",
+      "I",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "R",
+      "B",
+      "I",
+      "E",
+      "S",
+      "#",
+      "T",
+      "A",
+      "U"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "R",
+      "A",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E",
+      "#",
+      "R",
+      "O",
+      "T",
+      "E"
+    ],
+    [
+      "K",
+      "N",
+      "E",
+      "W",
+      "#",
+      "#",
+      "#",
+      "E",
+      "K",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,7": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,4": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,4": {
+      "number": 14
+    },
+    "4,4": {
+      "number": 15
+    },
+    "5,2": {
+      "number": 16
+    },
+    "5,3": {
+      "number": 17
+    },
+    "6,2": {
+      "number": 18
+    },
+    "7,0": {
+      "number": 19
+    },
+    "7,1": {
+      "number": 20
+    },
+    "7,8": {
+      "number": 21
+    },
+    "7,9": {
+      "number": 22
+    },
+    "7,10": {
+      "number": 23
+    },
+    "8,0": {
+      "number": 24
+    },
+    "8,7": {
+      "number": 25
+    },
+    "9,0": {
+      "number": 26
+    },
+    "9,7": {
+      "number": 27
+    },
+    "10,0": {
+      "number": 28
+    },
+    "10,7": {
+      "number": 29
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ARNA",
+      "clue": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "LAVE",
+      "clue": "Wash or bathe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To wash or bathe.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "GEOG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "GOBLIN",
+      "clue": "Small grotesque supernatural creature that makes trouble for human beings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small grotesque supernatural creature that makes trouble for human beings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ERLANG",
+      "clue": "Unit of traffic intensity in a telephone system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of traffic intensity in a telephone system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "OPEN",
+      "clue": "Information that has become public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Information that has become public",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "GEST",
+      "clue": "Guest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Guest",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BRAE",
+      "clue": "Slope or hillside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Hillside.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "BIN",
+      "clue": "Container",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Container",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "THORPE",
+      "clue": "Outstanding United States athlete (1888-1953)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outstanding United States athlete (1888-1953)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "TIMEPIECE",
+      "clue": "Measuring instrument or device for keeping time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instrument or device for keeping time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 8,
+      "answer": "HAPPIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INVARIABLES",
+      "clue": "Plural of invariable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of invariable",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 8,
+      "answer": "RIPARIAN",
+      "clue": "Of or relating to or located on the banks of a river or stream",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or located on the banks of a river or stream",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "IMPLANT",
+      "clue": "Prosthesis placed permanently in tissue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prosthesis placed permanently in tissue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "PEPIN",
+      "clue": "King of the Franks and father of Charlemagne who defended papal interests and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "King of the Franks and father of Charlemagne who defended papal interests and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "SHAPING",
+      "clue": "Act of fabricating something in a particular shape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of fabricating something in a particular shape",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SARTRE",
+      "clue": "French writer and existentialist philosopher (1905-1980)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French writer and existentialist philosopher (1905-1980)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "HEBREW",
+      "clue": "Ancient Canaanitic language of the Hebrews that has been revived as the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient Canaanitic language of the Hebrews that has been revived as the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AERIE",
+      "clue": "Any habitation at a high altitude",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any habitation at a high altitude",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BARBIES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BASK",
+      "clue": "Make warm by genial heat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make warm by genial heat.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ATEN",
+      "clue": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "TAU",
+      "clue": "19th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "19th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TOOK",
+      "clue": "Imp. of Take",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. of Take",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "In the game of poker, to put up a stake before the cards are dealt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ATTRACTIONS",
+      "clue": "Plural of attraction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of attraction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Calm, peaceful, and untroubled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ROTE",
+      "clue": "Repetition of words or sounds as a means of learning them, with slight attention",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Repetition of words or sounds as a means of learning them, with slight attention.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "KNEW",
+      "clue": "Of Know",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of Know",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EKE",
+      "clue": "Increase",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increase",
+      "clueSource": "webster"
+    }
+  ]
+}

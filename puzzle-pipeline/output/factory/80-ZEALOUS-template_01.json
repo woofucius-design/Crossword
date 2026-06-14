@@ -1,0 +1,884 @@
+{
+  "date": "2027-03-21",
+  "number": 1079,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "B",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "K"
+    ],
+    [
+      "Z",
+      "E",
+      "A",
+      "L",
+      "O",
+      "U",
+      "S",
+      "#",
+      "W",
+      "E",
+      "E"
+    ],
+    [
+      "O",
+      "P",
+      "A",
+      "L",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "G",
+      "O",
+      "#",
+      "N",
+      "I",
+      "H",
+      "I",
+      "L"
+    ],
+    [
+      "U",
+      "S",
+      "U",
+      "R",
+      "P",
+      "#",
+      "A",
+      "F",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "N",
+      "A",
+      "H",
+      "#",
+      "R",
+      "Y",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "S",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "O",
+      "O",
+      "D",
+      "L",
+      "O",
+      "O",
+      "K",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "U",
+      "S",
+      "U",
+      "#",
+      "E",
+      "S",
+      "S",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "Y",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "O",
+      "O",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ARBA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "AZO",
+      "clue": "Relating to or containing the azo radical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or containing the azo radical",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "REP",
+      "clue": "Fabric with prominent rounded crosswise ribs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fabric with prominent rounded crosswise ribs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "BAA",
+      "clue": "Cry made by sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cry made by sheep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASK",
+      "clue": "Make a request or demand for something to somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a request or demand for something to somebody",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AWN",
+      "clue": "Slender bristlelike appendage found on the bracts of grasses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slender bristlelike appendage found on the bracts of grasses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "KEE",
+      "clue": "See Kie, Ky, and Kine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Kie, Ky, and Kine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Marked by active interest and enthusiasm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "OENOPHILE",
+      "clue": "Someone who appreciates wine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who appreciates wine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "SCENARIOS",
+      "clue": "Plural of scenario",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of scenario",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very early",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very small.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OPALESCENCE",
+      "clue": "Visual property of something having a milky brightness and a play of colors...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The property of combined refraction and reflection of light, resulting in",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "EDIFY",
+      "clue": "Make understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To build up, or strengthen, especially in morals or religion.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "NEED",
+      "clue": "Psychological feature that arouses an organism to action toward a desired...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Psychological feature that arouses an organism to action toward a desired...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "CONGO",
+      "clue": "Black tea grown in China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tea grown in China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "CUD",
+      "clue": "Wad of something chewable as tobacco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wad of something chewable as tobacco",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "NUN",
+      "clue": "14th letter of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "14th letter of the Hebrew alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "GRAND",
+      "clue": "Piano with the strings on a horizontal harp-shaped frame",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piano with the strings on a horizontal harp-shaped frame",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "NIHIL",
+      "clue": "Nil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "HID",
+      "clue": "Imp. & p. p. of Hide. See Hidden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. & p. p. of Hide. See Hidden",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "LER",
+      "clue": "Sea personified",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sea personified",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "USURP",
+      "clue": "Seize and take control without authority and possibly with force",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To take possession of by force.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AFIRE",
+      "clue": "On fire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "& adj. On fire, literally or figuratively.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DINAH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "RYDER",
+      "clue": "Clause added to a document",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clause added to a document",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Not final or absolute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not final or absolute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "SOS",
+      "clue": "Internationally recognized distress signal in radio code",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internationally recognized distress signal in radio code",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "GOODLOOKING",
+      "clue": "Likely",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LIKELY",
+        "COMELY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cgood looking\u201d defines likely",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "OSE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "OUT",
+      "clue": "Failure by a batter or runner to reach a base safely in baseball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Failure by a batter or runner to reach a base safely in baseball",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "KEN",
+      "clue": "Range of vision",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Range of vision",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "INO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "NCO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "GEN",
+      "clue": "Informal term for information",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for information",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "USU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "ESSENCE",
+      "clue": "Toiletry that emits and diffuses a fragrant odor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That which makes a thing to be what it is.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "NOON",
+      "clue": "Middle of the day",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Middle of the day",
+      "clueSource": "wordnet"
+    }
+  ]
+}

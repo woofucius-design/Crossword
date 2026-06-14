@@ -275,6 +275,7 @@ def main() -> None:
         saved.append({
             "rank": rank,
             "file": fname,
+            "template": c["template"],
             "date": date_str,
             "number": cur_num,
             "size": c["size"],

@@ -1,0 +1,823 @@
+{
+  "date": "2027-04-24",
+  "number": 1113,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "H",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "R",
+      "A"
+    ],
+    [
+      "H",
+      "A",
+      "N",
+      "#",
+      "C",
+      "N",
+      "S",
+      "#",
+      "D",
+      "U",
+      "N"
+    ],
+    [
+      "A",
+      "I",
+      "D",
+      "#",
+      "L",
+      "I",
+      "P",
+      "R",
+      "E",
+      "A",
+      "D"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "C",
+      "Y",
+      "C",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "A",
+      "U",
+      "D",
+      "A",
+      "#",
+      "G",
+      "P",
+      "U",
+      "#"
+    ],
+    [
+      "#",
+      "U",
+      "N",
+      "D",
+      "E",
+      "R",
+      "W",
+      "R",
+      "E",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "A",
+      "G",
+      "#",
+      "A",
+      "R",
+      "E",
+      "N",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "D",
+      "G",
+      "E",
+      "W",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "Z",
+      "E",
+      "A",
+      "L",
+      "O",
+      "U",
+      "S",
+      "#",
+      "S",
+      "K",
+      "Y"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "#",
+      "E",
+      "A",
+      "T",
+      "#",
+      "E",
+      "E",
+      "C"
+    ],
+    [
+      "O",
+      "P",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "D",
+      "K"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CHI",
+      "clue": "22nd letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "22nd letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CHAT",
+      "clue": "Songbirds having a chattering call",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Songbirds having a chattering call",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "HAIRCUT",
+      "clue": "Act of cutting the hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of cutting the hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "INDIANA",
+      "clue": "State in midwestern United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in midwestern United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IRA",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IDE",
+      "clue": "Same as Id",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Id",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "RUA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "HAN",
+      "clue": "Imperial dynasty that ruled China (most of the time from 206 BC to AD 220) and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperial dynasty that ruled China (most of the time from 206 BC to AD 220) and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "CNS",
+      "clue": "Portion of the vertebrate nervous system consisting of the brain and spinal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portion of the vertebrate nervous system consisting of the brain and spinal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "CLYDE",
+      "clue": "River in western Scotland that flows from the southern uplands into the Firth...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River in western Scotland that flows from the southern uplands into the Firth...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "NICARAGUA",
+      "clue": "Republic in Central America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in Central America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "SPL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Make a demand or repeated demands on for payment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AID",
+      "clue": "Work of providing treatment for or attending to someone or something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Work of providing treatment for or attending to someone or something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "LIPREAD",
+      "clue": "Interpret by lipreading",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interpret by lipreading",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "REGREW",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "TRICYCLE",
+      "clue": "Three-wheeled vehicle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A three-wheeled vehicle.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "CUDGEL",
+      "clue": "Short thick stick used as a club",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A short thick stick used as a club.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "CAUDA",
+      "clue": "Any taillike structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any taillike structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "GPU",
+      "clue": "Graphics processor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphics processor",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "PENISES",
+      "clue": "Plural of penis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of penis",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "UNASKED",
+      "clue": "Not asked for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not asked for",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "UNDERWREN",
+      "clue": "Superb",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SUPERB"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cunder Wren\u201d defines superb",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "WREST",
+      "clue": "Pull or force away by or as by violent twisting or wringing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To pull or force away by or as by violent twisting or wringing.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "TAG",
+      "clue": "Act of touching a player in a game (which changes their status in the game)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of touching a player in a game (which changes their status in the game)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ARENA",
+      "clue": "Playing field where sports events take place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing field where sports events take place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "EDGEWISE",
+      "clue": "With the edge forward or on, by, or toward the edge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "With the edge forward or on, by, or toward the edge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Female of the deer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EYCK",
+      "clue": "Flemish painter who was a founder of the Flemish school of painting and who...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flemish painter who was a founder of the Flemish school of painting and who...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Having great energy or enthusiasm for a cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ZOO",
+      "clue": "Facility where wild animals are housed for exhibition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Facility where wild animals are housed for exhibition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "EDP",
+      "clue": "Automatic data processing by electronic means without the use of tabulating...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Automatic data processing by electronic means without the use of tabulating...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "AES",
+      "clue": "Plural of ae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of ae",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "SKY",
+      "clue": "Atmosphere and outer space as viewed from the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Atmosphere and outer space as viewed from the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "EAT",
+      "clue": "Cause to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "EEC",
+      "clue": "International organization of European countries formed after World War II...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization of European countries formed after World War II...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "OPS",
+      "clue": "Goddess of abundance and fertility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of abundance and fertility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SDK",
+      "clue": "Developer's toolkit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developer's toolkit",
+      "clueSource": "abbrev_curated"
+    }
+  ]
+}
