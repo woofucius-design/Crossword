@@ -28,6 +28,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+from morphology import clue_leaks as _clue_leaks
+
 HERE = Path(__file__).parent
 MIN_RUN = 3
 NODE_LIMIT = 80_000     # backtracking nodes per restart
@@ -416,10 +418,22 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
         #   none               -> empty
         if sat:
             alts = alt_clues.get(answer, [])
+            # Rotate by puzzle.number across alts, but skip any whose text
+            # contains a morphological form of the answer. The first alt
+            # that doesn't leak wins; if all leak, fall back to the rotated
+            # pick (better any clue than none).
             if alts:
-                pick = alts[number % len(alts)]
-                clue = pick["text"]
-                source = f"sat:{pick.get('source','?')}"
+                start = number % len(alts)
+                chosen = None
+                for offset in range(len(alts)):
+                    pick = alts[(start + offset) % len(alts)]
+                    if not _clue_leaks(answer, pick["text"]):
+                        chosen = pick
+                        break
+                if chosen is None:
+                    chosen = alts[start]
+                clue = chosen["text"]
+                source = f"sat:{chosen.get('source','?')}"
             else:
                 clue = sat["clue"]
                 source = "sat"
@@ -440,9 +454,18 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             source = "hand"
         elif answer in definitions:
             d = definitions[answer]
-            clue = d["definition"]
-            definition = d["definition"]
-            source = d.get("source", "definition")
+            cand = d["definition"]
+            # Reject a fill definition that leaks the answer's root — we
+            # have only one definition per fill word, so the alternative
+            # is blanking the clue (better unclued than a giveaway).
+            if cand and _clue_leaks(answer, cand):
+                clue = ""
+                definition = ""
+                source = ""
+            else:
+                clue = cand
+                definition = cand
+                source = d.get("source", "definition")
         else:
             clue = ""
             definition = ""

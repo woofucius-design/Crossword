@@ -31,6 +31,8 @@ from pathlib import Path
 import lemminflect
 import nltk
 
+from morphology import clue_leaks
+
 # Ensure the POS tagger model is available (no-op if already downloaded).
 for _pkg in ("averaged_perceptron_tagger_eng", "averaged_perceptron_tagger"):
     try:
@@ -264,7 +266,9 @@ def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
             if kind is None:
                 continue
             clue = inflect_definition(entry.get("definition", ""), kind)
-            if clue:
+            # Reject if the clue leaks any morphological form of the answer
+            # — "Acts of grasping" for GRASPS would name the answer's root.
+            if clue and not clue_leaks(word, clue):
                 return base, clue
     return None
 
