@@ -131,49 +131,95 @@ def main() -> None:
     webster = json.loads(WEBSTER_SRC.read_text())
     webster_upper = {k.upper(): v for k, v in webster.items()}
 
-    out: dict[str, dict] = {}
+    # Collect EVERY available source per word. We rank them later by leak
+    # status so the primary stored in definitions.json is always non-
+    # leaking when at least one source is, and the rest are kept as
+    # alternates the generator (or enrich) can fall back to.
+    from collections import defaultdict
+    by_word: dict[str, list[dict]] = defaultdict(list)
 
-    # SAT bank — highest priority (curated clues).
     for entry in sat:
         word = entry["word"].upper()
-        out[word] = {
-            "definition": entry.get("definition", "").strip(),
-            "source": "sat",
-            "pos": entry.get("partOfSpeech", ""),
-        }
+        clue = (entry.get("clue") or "").strip()
+        defn = (entry.get("definition") or "").strip()
+        if clue:
+            by_word[word].append({
+                "definition": clue,
+                "source": "sat",
+                "pos": entry.get("partOfSpeech", ""),
+            })
+        if defn and defn != clue:
+            by_word[word].append({
+                "definition": format_clue(defn),
+                "source": "sat_def",
+                "pos": entry.get("partOfSpeech", ""),
+            })
 
-    # WordNet — modern, concise.
     wn_added = 0
     for path in WN_FILES:
         if not path.exists():
             continue
         for word, (pos, gloss) in parse_wordnet_file(path).items():
-            if word in out:
-                continue
-            out[word] = {
+            by_word[word].append({
                 "definition": gloss,
                 "source": "wordnet",
                 "pos": pos,
-            }
+            })
             wn_added += 1
 
-    # Webster — archaic fallback for remaining words.
     webster_added = 0
     for word, raw in webster_upper.items():
-        if word in out:
-            continue
         if not raw or not isinstance(raw, str):
             continue
         defn = format_clue(clean_webster(raw))
         if defn:
-            out[word] = {
+            by_word[word].append({
                 "definition": defn,
                 "source": "webster",
                 "pos": "",
-            }
+            })
             webster_added += 1
 
+    # Promote the first non-leaking candidate to primary; rest become
+    # alternates. Iteration order = original priority (SAT > WordNet >
+    # Webster) so within the non-leaking set we still favor the curated
+    # source.
+    from morphology import clue_leaks
+    out: dict[str, dict] = {}
+    n_promoted = 0
+    n_all_leak = 0
+    for word, candidates in by_word.items():
+        # Dedupe by definition text so identical SAT clue / SAT def don't
+        # both consume slots.
+        seen_text: set[str] = set()
+        unique: list[dict] = []
+        for c in candidates:
+            key = c["definition"].lower().strip()
+            if not key or key in seen_text:
+                continue
+            seen_text.add(key)
+            unique.append(c)
+        non_leaking = [c for c in unique if not clue_leaks(word, c["definition"])]
+        leaking = [c for c in unique if clue_leaks(word, c["definition"])]
+        if non_leaking:
+            primary = non_leaking[0]
+            alternates = non_leaking[1:] + leaking
+            if primary is not unique[0]:
+                n_promoted += 1
+        elif unique:
+            primary = unique[0]
+            alternates = unique[1:]
+            n_all_leak += 1
+        else:
+            continue
+        out[word] = {
+            **primary,
+            "alternates": alternates,
+        }
+
     OUT_PATH.write_text(json.dumps(out, indent=1))
+    print(f"  alt source promoted to primary (avoided leak): {n_promoted:,}")
+    print(f"  all sources leak (kept best primary anyway):   {n_all_leak:,}")
 
     if POOL_SRC.exists():
         pool = json.loads(POOL_SRC.read_text())

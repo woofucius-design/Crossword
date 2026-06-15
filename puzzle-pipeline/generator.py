@@ -454,18 +454,27 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             source = "hand"
         elif answer in definitions:
             d = definitions[answer]
-            cand = d["definition"]
-            # Reject a fill definition that leaks the answer's root — we
-            # have only one definition per fill word, so the alternative
-            # is blanking the clue (better unclued than a giveaway).
-            if cand and _clue_leaks(answer, cand):
+            # Try primary, then every alternate, picking the first that
+            # doesn't leak the answer's root. build_definitions promotes
+            # non-leaking sources to primary at build time, so this loop
+            # only walks more when ALL stored sources leak for this word
+            # (rare — onomatopoeia, very self-referential dictionary
+            # entries like AAHED). In that case we blank rather than
+            # ship a giveaway.
+            chosen = None
+            for cand_dict in [d] + d.get("alternates", []):
+                cand = cand_dict.get("definition", "")
+                if cand and not _clue_leaks(answer, cand):
+                    chosen = cand_dict
+                    break
+            if chosen:
+                clue = chosen["definition"]
+                definition = chosen["definition"]
+                source = chosen.get("source", "definition")
+            else:
                 clue = ""
                 definition = ""
                 source = ""
-            else:
-                clue = cand
-                definition = cand
-                source = d.get("source", "definition")
         else:
             clue = ""
             definition = ""

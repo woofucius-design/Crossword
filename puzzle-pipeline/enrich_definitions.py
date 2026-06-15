@@ -246,8 +246,14 @@ def inflect_definition(definition: str, kind: str) -> str | None:
 
 def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
     """Find a defined base form via suffix stripping, then build a clue by
-    inflecting the BASE's definition (not naming the base) so the clue reads
-    in crossword style and never leaks the answer's root."""
+    inflecting the BASE's definition (not naming the base) so the clue
+    reads in crossword style and never leaks the answer's root.
+
+    Iterates EVERY source the base has (primary + alternates) so when one
+    of the base's definitions inflects into a leaky clue, we try a
+    different sense before giving up — GRASP's noun gloss 'Act of
+    grasping' leaks GRASPS, but its verb gloss 'Hold firmly' inflects
+    cleanly to 'Holds firmly'."""
     for suffix, additions in INFLECTION_RULES:
         if not word.endswith(suffix):
             continue
@@ -258,18 +264,18 @@ def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
             base = stem + add
             if base == word or base not in defs:
                 continue
-            entry = defs[base]
-            # don't chain off another inflection-derived clue
-            if entry.get("source") == "inflection":
-                continue
-            kind = _resolve_kind(suffix, entry.get("pos", ""))
-            if kind is None:
-                continue
-            clue = inflect_definition(entry.get("definition", ""), kind)
-            # Reject if the clue leaks any morphological form of the answer
-            # — "Acts of grasping" for GRASPS would name the answer's root.
-            if clue and not clue_leaks(word, clue):
-                return base, clue
+            base_entry = defs[base]
+            candidates = [base_entry] + base_entry.get("alternates", [])
+            for cand in candidates:
+                # don't chain off another inflection-derived clue
+                if cand.get("source") == "inflection":
+                    continue
+                kind = _resolve_kind(suffix, cand.get("pos", ""))
+                if kind is None:
+                    continue
+                clue = inflect_definition(cand.get("definition", ""), kind)
+                if clue and not clue_leaks(word, clue):
+                    return base, clue
     return None
 
 
@@ -282,26 +288,40 @@ def main() -> None:
     print(f"missing:             {len(pool - defined):,}")
 
     added_inflection = 0
+    rescued_leaks = 0
     added_roman = 0
     added_abbrev = 0
     skipped_truly_missing = 0
 
-    # Inflectional enrichment
-    for word in sorted(pool - defined):
-        if word in defs:
+    # Inflectional enrichment.
+    # Two cases get an inflection clue:
+    #   (a) The word has no definition at all.
+    #   (b) Build_definitions left it with a leaking primary (e.g. AAHED's
+    #       only WordNet gloss embeds 'aah'). If we can synthesize a
+    #       non-leaking clue by inflecting one of the base's senses, promote
+    #       that as the new primary and demote the leaker to alternates.
+    for word in sorted(pool):
+        existing = defs.get(word)
+        if existing and not clue_leaks(word, existing.get("definition", "")):
             continue
-        # Build the clue by inflecting the base word's DEFINITION (passing
-        # the full defs dict so we can read the base's pos + definition).
         result = lemmatize(word, defs)
-        if result is not None:
-            base, clue = result
-            defs[word] = {
-                "definition": clue,
-                "source": "inflection",
-                "pos": "",
-                "base": base,
-            }
+        if result is None:
+            continue
+        base, clue = result
+        new_primary = {
+            "definition": clue,
+            "source": "inflection",
+            "pos": "",
+            "base": base,
+        }
+        if existing:
+            old = {k: v for k, v in existing.items() if k != "alternates"}
+            new_primary["alternates"] = [old] + existing.get("alternates", [])
+            rescued_leaks += 1
+        else:
+            new_primary["alternates"] = []
             added_inflection += 1
+        defs[word] = new_primary
 
     # Roman numerals
     for word in sorted(pool - defs.keys()):
@@ -519,6 +539,7 @@ def main() -> None:
     DEFS_PATH.write_text(json.dumps(defs, indent=1))
     print()
     print(f"added inflection clues:    {added_inflection:,}")
+    print(f"rescued leaking primaries:  {rescued_leaks:,}")
     print(f"added Roman numerals:      {added_roman:,}")
     print(f"added curated abbrevs:     {added_abbrev:,}")
     print(f"still missing:             {skipped_truly_missing:,} "
