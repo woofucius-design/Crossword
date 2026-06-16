@@ -50,8 +50,21 @@ def load_sat() -> list[dict]:
 
 @functools.lru_cache(maxsize=1)
 def load_fill_clues() -> dict:
+    """Hand-authored fill clues. Merges two files:
+      data/fill_clues.json     — original small hand set
+      data/fill_clues_ai.json  — AI-authored clues for pool words that no
+                                 dictionary source covered (Latin plurals,
+                                 abbreviations, proper nouns, irregular
+                                 verb forms: ILEA, UTERI, NCO, ELSA, KNELT).
+    fill_clues.json wins on conflict (treated as the manual override)."""
+    out: dict = {}
+    ai_path = HERE / "data" / "fill_clues_ai.json"
+    if ai_path.exists():
+        out.update(json.loads(ai_path.read_text()))
     path = HERE / "data" / "fill_clues.json"
-    return json.loads(path.read_text()) if path.exists() else {}
+    if path.exists():
+        out.update(json.loads(path.read_text()))
+    return out
 
 
 @functools.lru_cache(maxsize=1)
