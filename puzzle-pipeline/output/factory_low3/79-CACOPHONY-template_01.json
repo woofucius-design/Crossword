@@ -1,0 +1,786 @@
+{
+  "date": "2027-03-20",
+  "number": 1078,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "A",
+      "S",
+      "S",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#",
+      "C",
+      "C",
+      "I",
+      "#"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "E",
+      "R",
+      "A",
+      "#",
+      "E",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "A",
+      "P",
+      "#",
+      "C",
+      "A",
+      "L",
+      "M",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "O",
+      "L",
+      "L",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "I",
+      "P",
+      "L",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "A",
+      "R",
+      "C",
+      "H",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "A",
+      "V",
+      "A",
+      "H",
+      "O",
+      "#",
+      "S",
+      "T",
+      "O",
+      "L"
+    ],
+    [
+      "K",
+      "N",
+      "O",
+      "W",
+      "#",
+      "N",
+      "E",
+      "A",
+      "R",
+      "L",
+      "Y"
+    ],
+    [
+      "#",
+      "E",
+      "R",
+      "S",
+      "#",
+      "Y",
+      "E",
+      "G",
+      "O",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "N",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "MASSA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "MAHA",
+      "clue": "Member of the Siouan people formerly living in the Missouri river valley in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the Siouan people formerly living in the Missouri river valley in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACES",
+      "clue": "Electrics current that reverses direction sinusoidally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrics current that reverses direction sinusoidally",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SERA",
+      "clue": "Antibody-rich fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "Travel via aircraft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel via aircraft",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ACETIC",
+      "clue": "Of a pertaining to vinegar",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of, pertaining to, or of the nature of vinegar.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CACOPHONY",
+      "clue": "Uncouth or disagreable sound of words, owing to the concurrence of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a harsh, discordant mixture of sounds",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "CCI",
+      "clue": "Roman numeral for 201",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 201",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "CELLI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "CUMIN",
+      "clue": "Dwarf umbelliferous plant, somewhat resembling fennel (Cuminum Cyminum),...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dwarf umbelliferous plant, somewhat resembling fennel (Cuminum Cyminum),...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "IRENE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "HERERA",
+      "clue": "Elizabethan",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ELIZABETHAN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cher era\u201d defines elizabethan",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "EURE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ERGS",
+      "clue": "Cgs units of work or energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cgs units of work or energy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ASAP",
+      "clue": "As soon as possible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "As soon as possible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CALMER",
+      "clue": "More free from storm or wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More free from storm or wind",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "ALLY",
+      "clue": "Unite, or form a connection between, as between families by...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A person or thing connected with another, usually in some relation of helpfulness.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ROLLING",
+      "clue": "Propelling something on wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Propelling something on wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "RICH",
+      "clue": "Opulent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OPULENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of opulent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DISCIPLINES",
+      "clue": "Trains to obedience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trains to obedience",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "DANK",
+      "clue": "Unpleasantly cool and humid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unpleasantly cool and humid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "INANE",
+      "clue": "Without contents",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Silly.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "SAVOR",
+      "clue": "That property of a thing which affects the organs of taste or smell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To perceive by taste or smell.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CRAWS",
+      "clue": "Pouches in many birds and some lower animals that resembles a stomach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pouches in many birds and some lower animals that resembles a stomach",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "ANARCHY",
+      "clue": "Absence of government",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Absence or utter disregard of government.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "NAVAHO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "STOL",
+      "clue": "Short-runway aircraft, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TRON",
+      "clue": "See 3d Trone,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See 3d Trone,",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OLDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LYSE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "KNOW",
+      "clue": "Accept (someone) to be what is claimed or accept his power and authority",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accept (someone) to be what is claimed or accept his power and authority",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "NEARLY",
+      "clue": "Slightly short of or not quite accomplished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly short of or not quite accomplished",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "EER",
+      "clue": "Always, to a bard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "YEGODS",
+      "clue": "Havoc",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "HAVOC",
+        "DENIZEN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cYe gods\u201d defines havoc",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "RENEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

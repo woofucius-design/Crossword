@@ -1,0 +1,709 @@
+{
+  "date": "2027-07-02",
+  "number": 1182,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "R",
+      "S",
+      "T",
+      "#",
+      "#",
+      "I",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "M",
+      "E",
+      "O",
+      "W",
+      "#",
+      "#",
+      "S",
+      "O",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "T",
+      "E",
+      "L",
+      "E",
+      "S",
+      "C",
+      "O",
+      "P",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "F",
+      "I",
+      "R",
+      "M",
+      "A",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "A",
+      "R",
+      "E",
+      "S",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "P",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "U",
+      "S",
+      "T",
+      "E",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "U",
+      "N",
+      "N",
+      "E",
+      "L",
+      "I",
+      "N",
+      "G",
+      "S",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "C",
+      "O",
+      "N",
+      "S",
+      "C",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "R",
+      "E",
+      "#",
+      "#",
+      "A",
+      "M",
+      "P",
+      "S"
+    ],
+    [
+      "H",
+      "Y",
+      "P",
+      "E",
+      "D",
+      "#",
+      "#",
+      "C",
+      "A",
+      "P",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "EMT",
+      "clue": "First responder, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First responder, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "REEF",
+      "clue": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SOLI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TWERP",
+      "clue": "Someone who is regarded as contemptible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who is regarded as contemptible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "IRATE",
+      "clue": "Moved to anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Moved to anger.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "ISOMETRIC",
+      "clue": "Of or involving muscular contraction in which tension increases while length...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or involving muscular contraction in which tension increases while length...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "ROPES",
+      "clue": "Street nameses for flunitrazepan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street nameses for flunitrazepan",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALINE",
+      "clue": "Place in a line or arrange so as to be parallel or straight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place in a line or arrange so as to be parallel or straight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TENTS",
+      "clue": "Portable shelters (usually of canvas stretched over supporting poles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portable shelters (usually of canvas stretched over supporting poles",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ERGS",
+      "clue": "Cgs units of work or energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cgs units of work or energy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MEOW",
+      "clue": "Sound made by a cat (or any sound resembling this)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound made by a cat (or any sound resembling this)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "SOLER",
+      "clue": "Loft or garret. See Solar, n. Sir W",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loft or garret. See Solar, n. Sir W",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TELESCOPING",
+      "clue": "Driving together so that one slides into the another like the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Driving together so that one slides into the another like the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "SMARTENED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "CARPELS",
+      "clue": "Simple pistil or one elements of a compound pistil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Simple pistil or one elements of a compound pistil",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "FIRMAMENTS",
+      "clue": "Apparent surfaces of the imaginary sphere on which celestial bodies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apparent surfaces of the imaginary sphere on which celestial bodies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "PARESES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "RPT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Sour and astringent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AUNTY",
+      "clue": "Sister of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sister of your father or mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "UNCAP",
+      "clue": "Remove a cap or cover from",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove a cap or cover from",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "SNORE",
+      "clue": "Breathe noisily during one's sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Breathe noisily during one's sleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "ENIAC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "TUNNELINGS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TUSH",
+      "clue": "Fleshy part of the human body that you sit on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy part of the human body that you sit on",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "GOMA",
+      "clue": "City in eastern Congo at the northern end of Lake Kivu near the border with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in eastern Congo at the northern end of Lake Kivu near the border with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SUPP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNCONSCIOUS",
+      "clue": "Not cognizant of objects, actions, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not cognizant of objects, actions, etc.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass point midway between south and southeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "STARE",
+      "clue": "Fixed look with eyes open wide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fixed look with eyes open wide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "AMPS",
+      "clue": "Basic units of electric current adopted under the Systeme International",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic units of electric current adopted under the Systeme International",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "HYPED",
+      "clue": "Publicized in an exaggerated and often misleading manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Publicized in an exaggerated and often misleading manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "CAPE",
+      "clue": "Sleeveless garment like a cloak but shorter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sleeveless garment like a cloak but shorter",
+      "clueSource": "wordnet"
+    }
+  ]
+}

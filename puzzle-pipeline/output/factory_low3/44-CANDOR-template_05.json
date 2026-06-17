@@ -1,0 +1,786 @@
+{
+  "date": "2027-02-13",
+  "number": 1043,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "G",
+      "P",
+      "O",
+      "#",
+      "J",
+      "O",
+      "C",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "N",
+      "#",
+      "P",
+      "L",
+      "A",
+      "N",
+      "T",
+      "A"
+    ],
+    [
+      "D",
+      "I",
+      "V",
+      "E",
+      "R",
+      "G",
+      "E",
+      "N",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "O",
+      "B",
+      "E",
+      "S",
+      "E",
+      "#",
+      "A",
+      "D",
+      "E",
+      "P",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "N",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "O",
+      "M",
+      "D",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "F",
+      "I",
+      "N",
+      "#",
+      "R",
+      "E",
+      "C",
+      "T",
+      "A"
+    ],
+    [
+      "F",
+      "A",
+      "I",
+      "N",
+      "T",
+      "E",
+      "S",
+      "T",
+      "R",
+      "A",
+      "Y"
+    ],
+    [
+      "F",
+      "I",
+      "N",
+      "G",
+      "E",
+      "R",
+      "#",
+      "C",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "E",
+      "D",
+      "S",
+      "#",
+      "H",
+      "G",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "GPO",
+      "clue": "Agency of the legislative branch that provides printing and binding services...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency of the legislative branch that provides printing and binding services...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GLIB",
+      "clue": "Eloquent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ELOQUENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of eloquent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PAVE",
+      "clue": "Setting with precious stones so closely set that no metal shows",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Setting with precious stones so closely set that no metal shows",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "JOCOSE",
+      "clue": "Characterized by jokes and good humor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Done or made in jest.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "JPG",
+      "clue": "Image file format",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Image file format",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "OLEANDERS",
+      "clue": "Ornamental but poisonous flowering shrub having narrow evergreens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ornamental but poisonous flowering shrub having narrow evergreens",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Quality of being honest and straightforward in attitude and speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ONCE",
+      "clue": "On one occasion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On one occasion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "EAST",
+      "clue": "Location in the eastern part of a country, region, or city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location in the eastern part of a country, region, or city",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAN",
+      "clue": "Wolfhound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wolfhound",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "PLANTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DIVERGENCES",
+      "clue": "Acts of moving away in different direction from a common point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of moving away in different direction from a common point",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "REMOUNTED",
+      "clue": "Provided with fresh horses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provided with fresh horses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OBESE",
+      "clue": "Excessively fat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Exceedingly fat.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Having or showing knowledge and skill and aptitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "MONO",
+      "clue": "Acute disease characterized by fever and swollen lymph nodes and an abnormal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acute disease characterized by fever and swollen lymph nodes and an abnormal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Meditation mantras",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "COMDR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CRINGE",
+      "clue": "Draw back, as with fear or pain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Draw back, as with fear or pain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "RUSE",
+      "clue": "Deceptive maneuver (especially to avoid capture)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deceptive maneuver (especially to avoid capture)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ELFIN",
+      "clue": "Small and delicate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small and delicate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "EFFS",
+      "clue": "Has sexual intercourse with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Has sexual intercourse with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LAIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "FINE",
+      "clue": "Money extracted as a penalty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money extracted as a penalty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RECTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ETCH",
+      "clue": "Selectively dissolve the surface of (a semiconductor or printed circuit) with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Selectively dissolve the surface of (a semiconductor or printed circuit) with a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "CRAG",
+      "clue": "Steep rugged rock or cliff",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rugged, rocky projection on a cliff or ledge.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TART",
+      "clue": "Pastry cup with a filling of fruit or custard and no top crust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pastry cup with a filling of fruit or custard and no top crust",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "FAINTESTRAY",
+      "clue": "Scintilla",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SCINTILLA"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cfaintest ray\u201d defines scintilla",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "FINGER",
+      "clue": "One of the five terminating members of the hand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the five terminating members of the hand",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "CARE",
+      "clue": "Activity involved in maintaining something in good working order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity involved in maintaining something in good working order",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "STEEDS",
+      "clue": "Spirited horses for state or war",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited horses for state or war",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "HGT",
+      "clue": "Altitude: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

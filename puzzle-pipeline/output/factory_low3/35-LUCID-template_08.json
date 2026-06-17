@@ -1,0 +1,730 @@
+{
+  "date": "2027-02-04",
+  "number": 1034,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "G",
+      "A",
+      "#",
+      "#",
+      "P",
+      "E",
+      "K",
+      "O",
+      "E"
+    ],
+    [
+      "#",
+      "W",
+      "A",
+      "I",
+      "T",
+      "#",
+      "R",
+      "A",
+      "I",
+      "D",
+      "S"
+    ],
+    [
+      "C",
+      "A",
+      "U",
+      "S",
+      "E",
+      "T",
+      "O",
+      "S",
+      "T",
+      "O",
+      "P"
+    ],
+    [
+      "H",
+      "I",
+      "G",
+      "H",
+      "T",
+      "A",
+      "S",
+      "T",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "A",
+      "R",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "O",
+      "U",
+      "P",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "U",
+      "P",
+      "S",
+      "T",
+      "A",
+      "R",
+      "T",
+      "R",
+      "U",
+      "L",
+      "E"
+    ],
+    [
+      "S",
+      "O",
+      "P",
+      "H",
+      "I",
+      "S",
+      "T",
+      "I",
+      "C",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "L",
+      "O",
+      "A",
+      "N",
+      "#",
+      "O",
+      "M",
+      "I",
+      "T",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "I",
+      "E",
+      "#",
+      "#",
+      "O",
+      "D",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,7": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,4": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,5": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "5,4": {
+      "number": 16
+    },
+    "6,4": {
+      "number": 17
+    },
+    "6,7": {
+      "number": 18
+    },
+    "6,8": {
+      "number": 19
+    },
+    "6,9": {
+      "number": 20
+    },
+    "6,10": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,6": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AGA",
+      "clue": "Title for a civil or military leader (especially in Turkey)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Title for a civil or military leader (especially in Turkey)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AWAIT",
+      "clue": "Look forward to the probable occurrence of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Look forward to the probable occurrence of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "GAUGE",
+      "clue": "Measuring instrument for measuring and indicating a quantity such as the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An instrument for measuring.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "AISHA",
+      "clue": "Tyler's daughter, in TV's 'Family Matters'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "PEKOE",
+      "clue": "Superior grade of black tea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Superior grade of black tea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 10,
+      "answer": "PROSCIUTTO",
+      "clue": "Italian salt-cured ham usually sliced paper thin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian salt-cured ham usually sliced paper thin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "EAST",
+      "clue": "Location in the eastern part of a country, region, or city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location in the eastern part of a country, region, or city",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "KITE",
+      "clue": "Any of several small graceful hawks of the family Accipitridae having long...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small graceful hawks of the family Accipitridae having long...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "WAIT",
+      "clue": "Look forward to the probable occurrence of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Look forward to the probable occurrence of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 10,
+      "answer": "TETRACAINE",
+      "clue": "Crystalline compound used in the form of a hydrochloride as a local anesthetic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Crystalline compound used in the form of a hydrochloride as a local anesthetic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RAIDS",
+      "clue": "Attempts by speculators to defraud investors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Attempts by speculators to defraud investors",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CAUSETOSTOP",
+      "clue": "Rein",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "REIN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccause to stop\u201d defines rein",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "CHS",
+      "clue": "Bk. divisions: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "TAILORS",
+      "clue": "Persons whose occupation is making and altering garments",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons whose occupation is making and altering garments",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "HIGHTASTERY",
+      "clue": "Usage",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "USAGE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cHight Astery\u201d defines usage",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "STEARIC",
+      "clue": "Of or relating to or composed of fat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or composed of fat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "COUPLED",
+      "clue": "Connected by a link, as railway cars or trailer trucks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Connected by a link, as railway cars or trailer trucks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "PRIMO",
+      "clue": "Principal part of a duet (especially a piano duet)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal part of a duet (especially a piano duet)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Shining",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ELATE",
+      "clue": "Fill with high spirits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill with high spirits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "UPSTARTRULE",
+      "clue": "Neocracy",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NEOCRACY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cupstart rule\u201d defines neocracy",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "USSR",
+      "clue": "Former communist country in eastern Europe and northern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former communist country in eastern Europe and northern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "POLE",
+      "clue": "Long (usually round) rod of wood or metal or plastic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long (usually round) rod of wood or metal or plastic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "SPOT",
+      "clue": "Pick out or notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "THAI",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SOPHISTICAL",
+      "clue": "Plausible but misleading",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fallacious.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "SLOAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "OMIT",
+      "clue": "Leave undone or leave out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leave undone or leave out",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "RETIE",
+      "clue": "Tie again or anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tie again or anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Lyric poem with complex stanza forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

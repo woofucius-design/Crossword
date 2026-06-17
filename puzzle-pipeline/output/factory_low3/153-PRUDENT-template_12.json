@@ -1,0 +1,757 @@
+{
+  "date": "2027-06-02",
+  "number": 1152,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "G",
+      "#",
+      "P",
+      "L",
+      "U",
+      "M",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "L",
+      "O",
+      "R",
+      "A",
+      "T",
+      "U",
+      "R",
+      "A",
+      "S"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "B",
+      "U",
+      "T",
+      "A",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "B",
+      "I",
+      "D",
+      "E",
+      "#",
+      "K",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "E",
+      "R",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "N",
+      "I",
+      "P",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "N",
+      "P",
+      "K",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "C",
+      "L",
+      "I",
+      "#",
+      "T",
+      "O",
+      "I",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "H",
+      "I",
+      "N",
+      "O",
+      "I",
+      "S",
+      "E",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "U",
+      "M",
+      "E",
+      "R",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "C",
+      "L",
+      "O",
+      "T",
+      "T",
+      "E",
+      "D",
+      "#",
+      "O",
+      "M",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,3": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,4": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,3": {
+      "number": 24
+    },
+    "7,5": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,4": {
+      "number": 28
+    },
+    "8,9": {
+      "number": 29
+    },
+    "8,10": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,8": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ALG",
+      "clue": "Math branch: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LOR",
+      "clue": "Mild British exclamation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GLIB",
+      "clue": "Eloquent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ELOQUENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of eloquent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "PLUMAGE",
+      "clue": "Light horny waterproof structure forming the external covering of birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light horny waterproof structure forming the external covering of birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible about the future",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 11,
+      "answer": "LATERINTIME",
+      "clue": "Posterior",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "POSTERIOR"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cLater in time\u201d defines posterior",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "UTA",
+      "clue": "Reptile genus of Iguanidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reptile genus of Iguanidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "MURK",
+      "clue": "Atmosphere in which visibility is reduced because of a cloud of some...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Atmosphere in which visibility is reduced because of a cloud of some...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ARIA",
+      "clue": "Elaborate song for solo voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elaborate song for solo voice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "COLORATURAS",
+      "clue": "Singings with florid ornamentation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Singings with florid ornamentation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 5,
+      "answer": "OBITS",
+      "clue": "Notices of someone's death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Notices of someone's death",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TRIBUTARIES",
+      "clue": "Branches that flows into the main stream",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches that flows into the main stream",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 4,
+      "answer": "BIDE",
+      "clue": "Await",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To await.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "KALE",
+      "clue": "Coarse curly-leafed cabbage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse curly-leafed cabbage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "TERA",
+      "clue": "Three-tone Chadic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Three-tone Chadic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "APPOSED",
+      "clue": "Placed in apposition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Placed in apposition",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SNIPS",
+      "clue": "Hand shears for cutting sheet metal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hand shears for cutting sheet metal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "answer": "SKIER",
+      "clue": "Someone who skis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who skis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "TNPK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DCLI",
+      "clue": "Roman numeral for 651",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 651",
+      "clueSource": "roman"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DCCC",
+      "clue": "Roman numeral for 800",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 800",
+      "clueSource": "roman"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CHOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "LINO",
+      "clue": "Floor covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Floor covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "INST",
+      "clue": "In or of the present month",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the present month",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 4,
+      "answer": "TOIT",
+      "clue": "Bestir oneself (as in 'go on a ___')",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TRIO",
+      "clue": "Three things grouped or associated together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Three things grouped or associated together.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CHINOISERIE",
+      "clue": "Style in art reflecting Chinese influence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Style in art reflecting Chinese influence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "OUT",
+      "clue": "Failure by a batter or runner to reach a base safely in baseball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Failure by a batter or runner to reach a base safely in baseball",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ISM",
+      "clue": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "EMS",
+      "clue": "Linear unit (1/6 inches) used in printing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Linear unit (1/6 inches) used in printing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "CONSUMERISM",
+      "clue": "Movement advocating greater protection of the interests of consumers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Movement advocating greater protection of the interests of consumers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "CLOTTED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Meditation mantras",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

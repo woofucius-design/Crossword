@@ -1,0 +1,773 @@
+{
+  "date": "2027-04-06",
+  "number": 1095,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "Q",
+      "U",
+      "A",
+      "#",
+      "F",
+      "U",
+      "N",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "P",
+      "U",
+      "N",
+      "Y",
+      "#",
+      "I",
+      "N",
+      "E",
+      "R",
+      "T"
+    ],
+    [
+      "S",
+      "P",
+      "A",
+      "R",
+      "E",
+      "#",
+      "D",
+      "I",
+      "C",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "R",
+      "I",
+      "E",
+      "#",
+      "B",
+      "E",
+      "C",
+      "K",
+      "S",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "L",
+      "L",
+      "A",
+      "R",
+      "L",
+      "E",
+      "S",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "M",
+      "A",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "E",
+      "N",
+      "E",
+      "V",
+      "O",
+      "L",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "I",
+      "N",
+      "T",
+      "R",
+      "O",
+      "#",
+      "U",
+      "T",
+      "A",
+      "H"
+    ],
+    [
+      "B",
+      "O",
+      "R",
+      "I",
+      "C",
+      "#",
+      "A",
+      "L",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "T",
+      "O",
+      "N",
+      "E",
+      "#",
+      "N",
+      "A",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "G",
+      "A",
+      "N",
+      "G",
+      "S",
+      "#",
+      "A",
+      "R",
+      "M",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AQUA",
+      "clue": "Shade of blue tinged with green",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shade of blue tinged with green",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "APPRO",
+      "clue": "Informal British abbreviation of approval",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal British abbreviation of approval",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "QUAIL",
+      "clue": "Small gallinaceous game birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small gallinaceous game birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "UNRELENTING",
+      "clue": "Never-ceasing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Never-ceasing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "FUNDS",
+      "clue": "Assets in the form of money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assets in the form of money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "FIDELIO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "UNICELLULAR",
+      "clue": "Consisting of a single cell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Consisting of a single cell.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "NECKS",
+      "clue": "Kisses, embrace, or fondle with sexual passion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kisses, embrace, or fondle with sexual passion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "DRESS",
+      "clue": "Clothing in general",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clothing in general",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "PUNY",
+      "clue": "Of inferior size",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of inferior size",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "INERT",
+      "clue": "Inanimate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Inanimate.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "SPARE",
+      "clue": "Score in tenpins",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Score in tenpins",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "DICED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Pennsylvania Great Lake port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "BECKS",
+      "clue": "Gives a signal to, by nod or gesture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gives a signal to, by nod or gesture",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "BRAVO",
+      "clue": "Well done",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Well done.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "COLLARLESS",
+      "clue": "Without a collar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Without a collar",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "AMERCES",
+      "clue": "Punishes by a fine imposed arbitrarily by the discretion of the court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Punishes by a fine imposed arbitrarily by the discretion of the court",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "EMAIL",
+      "clue": "System of world-wide electronic communication in which a computer user can...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "System of world-wide electronic communication in which a computer user can...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "BENEVOLENT",
+      "clue": "Generous in assistance to the poor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "well meaning and kindly",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BIOTA",
+      "clue": "All the plant and animal life of a particular region",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "All the plant and animal life of a particular region",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ENRON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ETIAM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "NANNY",
+      "clue": "Female goat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female goat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "INTRO",
+      "clue": "Brief introductory passage to a piece of popular music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief introductory passage to a piece of popular music",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "UTAH",
+      "clue": "State in the western United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the western United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "BORIC",
+      "clue": "Of or relating to or derived from or containing boron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or derived from or containing boron",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "BAG",
+      "clue": "Activity that you like or at which you are superior",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity that you like or at which you are superior",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "ALINE",
+      "clue": "Place in a line or arrange so as to be parallel or straight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place in a line or arrange so as to be parallel or straight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ANA",
+      "clue": "Collection of anecdotes about a person or place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of anecdotes about a person or place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ATONE",
+      "clue": "Make amends for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make amends for.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "NAAN",
+      "clue": "Leavened bread baked in a clay oven in India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leavened bread baked in a clay oven in India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "GANGS",
+      "clue": "Tool consistings of a combination of implements arranged to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tool consistings of a combination of implements arranged to work",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ARMY",
+      "clue": "Large number of people united for some specific purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number of people united for some specific purpose",
+      "clueSource": "wordnet"
+    }
+  ]
+}

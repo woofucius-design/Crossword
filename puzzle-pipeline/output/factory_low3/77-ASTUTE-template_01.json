@@ -1,0 +1,777 @@
+{
+  "date": "2027-03-18",
+  "number": 1076,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "E",
+      "S",
+      "L",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "T",
+      "U",
+      "T",
+      "E",
+      "#",
+      "A",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "O",
+      "P",
+      "E",
+      "N",
+      "E",
+      "D",
+      "#",
+      "B",
+      "R",
+      "O",
+      "W"
+    ],
+    [
+      "S",
+      "Y",
+      "N",
+      "E",
+      "#",
+      "I",
+      "M",
+      "B",
+      "I",
+      "B",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "O",
+      "O",
+      "P",
+      "E",
+      "D"
+    ],
+    [
+      "H",
+      "E",
+      "L",
+      "I",
+      "C",
+      "O",
+      "P",
+      "T",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "U",
+      "V",
+      "U",
+      "L",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "I",
+      "M",
+      "I",
+      "N",
+      "I",
+      "#",
+      "B",
+      "A",
+      "R",
+      "S"
+    ],
+    [
+      "S",
+      "A",
+      "P",
+      "A",
+      "#",
+      "A",
+      "V",
+      "E",
+      "N",
+      "U",
+      "E"
+    ],
+    [
+      "#",
+      "N",
+      "Y",
+      "C",
+      "#",
+      "L",
+      "A",
+      "C",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "K",
+      "I",
+      "N",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TESLA",
+      "clue": "United States electrical engineer and inventor (born in Croatia but of Serbian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States electrical engineer and inventor (born in Croatia but of Serbian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TAOS",
+      "clue": "Artist colony in northern New Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artist colony in northern New Mexico",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "STEN",
+      "clue": "British submachine gun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LUNE",
+      "clue": "Moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The moon.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "EDITORIAL",
+      "clue": "Article in a periodical written by the editor and published as an",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An article in a periodical written by the editor and published as an official",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ATS",
+      "clue": "Email-address symbols",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ABBOT",
+      "clue": "Superior of an abbey of monks",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The superior of a community of monks.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "TRIPE",
+      "clue": "Nonsensical talk or writing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nonsensical talk or writing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "SOBER",
+      "clue": "Lacking brightness or color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lacking brightness or color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "OPENED",
+      "clue": "Made available",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made available",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "BROW",
+      "clue": "Arch of hair above each eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arch of hair above each eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "WEDS",
+      "clue": "Fourth days of the week",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth days of the week",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "SYNE",
+      "clue": "Afterwards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Afterwards",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "Receive into the mind and retain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink or take in.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "MOPS",
+      "clue": "Cleaning implement consistings of absorbent material fastened to a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cleaning implement consistings of absorbent material fastened to a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "STOOPED",
+      "clue": "Having the back and shoulders rounded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the back and shoulders rounded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SCAN",
+      "clue": "Obtain data from magnetic tapes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtain data from magnetic tapes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "HELICOPTERS",
+      "clue": "Aircrafts without wings that obtains its lift from the rotation of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aircrafts without wings that obtains its lift from the rotation of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "HUBS",
+      "clue": "Central parts of a car wheel (or fan or propeller etc) through which",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central parts of a car wheel (or fan or propeller etc) through which",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EVIAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "LUMPY",
+      "clue": "Having lumps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having lumps",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ILIAC",
+      "clue": "Of or relating to the ilium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the ilium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "UVULARS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "BIMINI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "BARS",
+      "clue": "Gymnastic apparatus consisting of two parallel wooden rods supported on uprights",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gymnastic apparatus consisting of two parallel wooden rods supported on uprights",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "BECK",
+      "clue": "Beckoning gesture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To give a signal to, by nod or gesture.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "RUIN",
+      "clue": "Act of falling or tumbling down",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of falling or tumbling down",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SECS",
+      "clue": "Independent federal agencies that oversees the exchange of securities to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agencies that oversees the exchange of securities to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SAPA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "AVENUE",
+      "clue": "Line of approach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Line of approach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "VAS",
+      "clue": "Tube in which a body fluid circulates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tube in which a body fluid circulates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "NYC",
+      "clue": "Big Apple, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LACTIC",
+      "clue": "Of or relating to or obtained from milk (especially sour milk or whey)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to milk.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "SKINS",
+      "clue": "Bodies covering of a living animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bodies covering of a living animal",
+      "clueSource": "inflection"
+    }
+  ]
+}

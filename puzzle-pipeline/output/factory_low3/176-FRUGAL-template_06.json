@@ -1,0 +1,742 @@
+{
+  "date": "2027-06-25",
+  "number": 1175,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "A",
+      "G",
+      "O",
+      "D",
+      "A",
+      "#",
+      "#",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "D",
+      "I",
+      "S",
+      "P",
+      "O",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "E",
+      "M",
+      "B",
+      "E",
+      "R",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "S",
+      "I",
+      "#",
+      "T",
+      "A",
+      "S",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "U",
+      "L",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "K",
+      "E",
+      "P",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "A",
+      "N",
+      "#",
+      "O",
+      "M",
+      "S",
+      "K",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "O",
+      "R",
+      "D",
+      "I",
+      "N",
+      "A",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "G",
+      "G",
+      "L",
+      "O",
+      "M",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "O",
+      "S",
+      "#",
+      "#",
+      "F",
+      "R",
+      "U",
+      "G",
+      "A",
+      "L"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "PAGODA",
+      "clue": "Asian temple",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Asian temple",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "PPR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Part of a structure having some specific characteristic or function",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a structure having some specific characteristic or function",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GEMS",
+      "clue": "Chamois",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chamois",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ODES",
+      "clue": "Right eyes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Right eyes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "DIMINUENDO",
+      "clue": "Gradual decrease in loudness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gradual decrease in loudness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ASB",
+      "clue": "Insulation material, once: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ISIS",
+      "clue": "Egyptian goddess of fertility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Egyptian goddess of fertility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "RENT",
+      "clue": "Engage for service under a term of contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engage for service under a term of contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "PREDISPOSED",
+      "clue": "Made susceptible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made susceptible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "PETITIONER",
+      "clue": "One praying humbly for something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One praying humbly for something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Stage in psychosexual development when the child's interest is concentrated...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REMEMBERING",
+      "clue": "Recalling knowledge from memory",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recalling knowledge from memory",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "ASSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "TASTE",
+      "clue": "Kind of sensing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of sensing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "NAIL",
+      "clue": "Thin pointed piece of metal that is hammered into materials as a fastener",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin pointed piece of metal that is hammered into materials as a fastener",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ALP",
+      "clue": "Any high mountain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any high mountain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ULT",
+      "clue": "In or of the month preceding the present one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the month preceding the present one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "KEPI",
+      "clue": "Cap with a flat circular top and a visor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cap with a flat circular top and a visor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "KARL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ALLAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LOGO",
+      "clue": "Company emblem or device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Company emblem or device",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "LOGS",
+      "clue": "Measuring instruments that consists of a float that trails from a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instruments that consists of a float that trails from a ship",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "OMSK",
+      "clue": "City in the Asian part of Russia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in the Asian part of Russia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "MARU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STAG",
+      "clue": "Adult male deer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult male deer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "KOTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "COORDINATOR",
+      "clue": "Someone whose task is to see that work goes harmoniously",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone whose task is to see that work goes harmoniously",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IMF",
+      "clue": "United Nations agency to promote trade by increasing the exchange stability...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United Nations agency to promote trade by increasing the exchange stability...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "AGGLOMERATE",
+      "clue": "Clustered together but not coherent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To pile or heap together.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DOS",
+      "clue": "Operating system that is on a disk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Operating system that is on a disk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "FRUGAL",
+      "clue": "Avoiding waste",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "sparing or economical with money or food",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

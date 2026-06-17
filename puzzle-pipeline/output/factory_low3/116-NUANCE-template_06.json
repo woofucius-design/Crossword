@@ -1,0 +1,753 @@
+{
+  "date": "2027-04-26",
+  "number": 1115,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E",
+      "#",
+      "#",
+      "C",
+      "F",
+      "O"
+    ],
+    [
+      "O",
+      "S",
+      "C",
+      "I",
+      "L",
+      "L",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "T",
+      "I",
+      "A",
+      "R",
+      "Y",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "E",
+      "P",
+      "#",
+      "T",
+      "R",
+      "O",
+      "Y",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "R",
+      "I",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "S",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "A",
+      "S",
+      "E",
+      "R",
+      "#",
+      "E",
+      "L",
+      "S",
+      "A",
+      "#"
+    ],
+    [
+      "E",
+      "X",
+      "P",
+      "E",
+      "D",
+      "I",
+      "T",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "U",
+      "T",
+      "S",
+      "C",
+      "H",
+      "L",
+      "A",
+      "N",
+      "D"
+    ],
+    [
+      "S",
+      "S",
+      "N",
+      "#",
+      "#",
+      "H",
+      "E",
+      "A",
+      "R",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or opinion or attitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "NOT",
+      "clue": "Negation of a word or group of words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negation of a word or group of words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "NITE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "CLIPBOARDS",
+      "clue": "Small writing boards with a clip at the top for holding papers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small writing boards with a clip at the top for holding papers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CFO",
+      "clue": "Corporate executive having financial authority to make appropriations and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive having financial authority to make appropriations and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "CIAO",
+      "clue": "Acknowledgment that can be used to say hello or goodbye (aloha is Hawaiian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acknowledgment that can be used to say hello or goodbye (aloha is Hawaiian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "FOGY",
+      "clue": "Someone whose style is out of fashion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone whose style is out of fashion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "OSCILLATION",
+      "clue": "Single complete execution of a periodically repeated phenomenon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single complete execution of a periodically repeated phenomenon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "ARTICLETHE",
+      "clue": "Definite",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DEFINITE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201carticle the\u201d defines definite",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "TYRO",
+      "clue": "Someone new to a field or activity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One slightly skilled in or acquainted with any trade or profession.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TERTIARYAGE",
+      "clue": "Crag",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CRAG"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cTertiary age\u201d defines crag",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "DEEP",
+      "clue": "Literary term for an ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Literary term for an ocean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "TROYS",
+      "clue": "Ancient cities in Asia Minor that was the site of the Trojan War",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient cities in Asia Minor that was the site of the Trojan War",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "BRIO",
+      "clue": "Quality of being active or spirited or alive and vigorous",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being active or spirited or alive and vigorous",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RSI",
+      "clue": "Repetitive strain ailment, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "OSC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MAIL",
+      "clue": "Flexible armor made of interlinked metal rings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flexible armor made of interlinked metal rings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MEET",
+      "clue": "Contend against an opponent in a sport, game, or battle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contend against an opponent in a sport, game, or battle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "LASER",
+      "clue": "Acronym for light amplification by stimulated emission of radiation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acronym for light amplification by stimulated emission of radiation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "LEDS",
+      "clue": "Diodes such that light emitted at a p-n junction is proportional to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diodes such that light emitted at a p-n junction is proportional to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AXES",
+      "clue": "Edge tools with a heavy bladed head mounted across a handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edge tools with a heavy bladed head mounted across a handle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "SPUN",
+      "clue": "Whirled around",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ELSA",
+      "clue": "\"Frozen\" queen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LILA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SOAR",
+      "clue": "Act of rising upward into the air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of rising upward into the air",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AUNT",
+      "clue": "Sister of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sister of your father or mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EXPEDITIOUS",
+      "clue": "Marked by speed and efficiency",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Speedy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ICH",
+      "clue": "I",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "I",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SDS",
+      "clue": "States in north central United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in north central United States",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "DEUTSCHLAND",
+      "clue": "Republic in central Europe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in central Europe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "HEARTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

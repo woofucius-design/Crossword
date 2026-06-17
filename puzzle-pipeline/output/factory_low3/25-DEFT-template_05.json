@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-25",
+  "number": 1024,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "L",
+      "I",
+      "#",
+      "R",
+      "I",
+      "B",
+      "A",
+      "L",
+      "D"
+    ],
+    [
+      "R",
+      "E",
+      "I",
+      "D",
+      "#",
+      "A",
+      "N",
+      "O",
+      "M",
+      "I",
+      "E"
+    ],
+    [
+      "A",
+      "F",
+      "F",
+      "E",
+      "C",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "A",
+      "L",
+      "#",
+      "N",
+      "A",
+      "N",
+      "N",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "K",
+      "I",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "M",
+      "I",
+      "T",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "D",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "A",
+      "P",
+      "I",
+      "R",
+      "#",
+      "E",
+      "A",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "O",
+      "M",
+      "I",
+      "N",
+      "O",
+      "U",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "P",
+      "I",
+      "L",
+      "E",
+      "U",
+      "S",
+      "#",
+      "T",
+      "O",
+      "P",
+      "I"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "S",
+      "S",
+      "A",
+      "#",
+      "A",
+      "M",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "DLI",
+      "clue": "Roman numeral for 551",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 551",
+      "clueSource": "roman"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Quick and neatly skillful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "LIFE",
+      "clue": "Living things collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Living things collectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "RIBALD",
+      "clue": "Low, vulgar, brutal, foul-mouthed wretch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Indulging in or manifesting coarse indecency or obscenity.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "RAT",
+      "clue": "Any of various long-tailed rodents similar to but larger than a mouse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various long-tailed rodents similar to but larger than a mouse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "INANITIES",
+      "clue": "Total lacks of meaning or ideas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Total lacks of meaning or ideas",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "BOTANY",
+      "clue": "Science which treats of the structure of plants, the functions of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The science that treats of plants.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AMIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LION",
+      "clue": "Large gregarious predatory feline of Africa and India having a tawny coat with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large gregarious predatory feline of Africa and India having a tawny coat with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DENY",
+      "clue": "Declare untrue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declare untrue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "REID",
+      "clue": "Scottish philosopher of common sense who opposed the ideas of David Hume...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scottish philosopher of common sense who opposed the ideas of David Hume...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "RAS",
+      "clue": "Network in the reticular formation that serves an alerting or arousal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Network in the reticular formation that serves an alerting or arousal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ANOMIE",
+      "clue": "Lack of moral standards in a society",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lack of moral standards in a society",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "AFFECTATION",
+      "clue": "Attempt to assume or exhibit what is not natural or real",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A studied or ostentatious pretense or attempt.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "CLAMOROUS",
+      "clue": "Speaking and repeating loud words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Urgent in complaint or demand.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STEAL",
+      "clue": "Handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Handle",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NANNY",
+      "clue": "Female goat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female goat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "KID",
+      "clue": "Young goat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young goat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "AMITY",
+      "clue": "Friendship, in a general sense, between individuals, societies, or...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Friendship.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "AMINES",
+      "clue": "Compounds derived from ammonia by replacing hydrogen atoms by univalent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compounds derived from ammonia by replacing hydrogen atoms by univalent",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MODI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "TAPIR",
+      "clue": "Large inoffensive chiefly nocturnal ungulate of tropical America and southeast...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large inoffensive chiefly nocturnal ungulate of tropical America and southeast...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TOPO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AMID",
+      "clue": "See Amidst. In the midst or middle of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Amidst. In the midst or middle of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "PILE",
+      "clue": "Nuclear reactor that uses controlled nuclear fission to generate energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nuclear reactor that uses controlled nuclear fission to generate energy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "EAGER",
+      "clue": "Zealous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of zealous",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ANTA",
+      "clue": "Species of pier produced by thickening a wall at its termination, treated...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Species of pier produced by thickening a wall at its termination, treated...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "GEOM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "RSI",
+      "clue": "Repetitive strain ailment, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "OMINOUSNESS",
+      "clue": "Ominous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OMINOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cOm i nous ness\u201d defines ominous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Army of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Army of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "PILEUS",
+      "clue": "Fruiting structure resembling an umbrella or a cone that forms the top of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fruiting structure resembling an umbrella or a cone that forms the top of a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TOPI",
+      "clue": "Large South African antelope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large South African antelope",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ODESSA",
+      "clue": "Port city of south central Ukraine on an arm of the Black Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city of south central Ukraine on an arm of the Black Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "AMY",
+      "clue": "Friend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Friend",
+      "clueSource": "webster"
+    }
+  ]
+}

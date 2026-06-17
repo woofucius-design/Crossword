@@ -1,0 +1,757 @@
+{
+  "date": "2027-06-26",
+  "number": 1176,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "R",
+      "E",
+      "V",
+      "I",
+      "S",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O"
+    ],
+    [
+      "B",
+      "U",
+      "S",
+      "I",
+      "N",
+      "E",
+      "S",
+      "S",
+      "M",
+      "E",
+      "N"
+    ],
+    [
+      "L",
+      "E",
+      "A",
+      "D",
+      "C",
+      "A",
+      "P",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "#",
+      "D",
+      "U",
+      "E",
+      "L",
+      "#",
+      "L",
+      "U",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "V",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "R",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "V",
+      "I",
+      "V",
+      "I",
+      "D",
+      "#",
+      "H",
+      "U",
+      "S",
+      "H",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "T",
+      "T",
+      "E",
+      "N",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "T",
+      "O",
+      "R",
+      "I",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "S",
+      "Y",
+      "N",
+      "#",
+      "#",
+      "E",
+      "C",
+      "H",
+      "O",
+      "I",
+      "C"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "BREVIS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "BBL",
+      "clue": "Any of various units of capacity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various units of capacity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RUED",
+      "clue": "Regretted extremely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regretted extremely",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ESAU",
+      "clue": "Eldest son of Isaac who would have inherited the covenant that God made...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eldest son of Isaac who would have inherited the covenant that God made...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "VIDE",
+      "clue": "Imperative sing. of L. videre, to see",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperative sing. of L. videre, to see",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "INCLINEDTO",
+      "clue": "Martial",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MARTIAL",
+        "SOCIABLE",
+        "CONSUMPTIVE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cinclined to\u201d defines martial",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SEA",
+      "clue": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AMIR",
+      "clue": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "DEVE",
+      "clue": "Deaf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deaf",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "BUSINESSMEN",
+      "clue": "Body of individuals who manage businesses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of individuals who manage businesses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "SPLANCHNIC",
+      "clue": "Relating to or affecting the viscera",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or affecting the viscera",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "STUN",
+      "clue": "Make senseless or dizzy by or as if by a blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make senseless or dizzy by or as if by a blow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "LEADCAPTIVE",
+      "clue": "Captivate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CAPTIVATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clead captive\u201d defines captivate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "DUEL",
+      "clue": "Any struggle between two skillful opponents (individuals or groups)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any struggle between two skillful opponents (individuals or groups)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LURES",
+      "clue": "Provokes someone to do something through (often false or exaggerated)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provokes someone to do something through (often false or exaggerated)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "IVAN",
+      "clue": "Russian tsar called \"the Terrible\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "VAR",
+      "clue": "Unit of electrical power in an AC circuit equal to the power dissipated when...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of electrical power in an AC circuit equal to the power dissipated when...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NAN",
+      "clue": "Leavened bread baked in a clay oven in India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leavened bread baked in a clay oven in India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MERC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MITT",
+      "clue": "Handwear used by fielders in playing baseball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Handwear used by fielders in playing baseball",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Strikingly bright or clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "VIES",
+      "clue": "Contends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contends",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "INDY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "VAIN",
+      "clue": "Unproductive of success",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unproductive of success",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "HUSH",
+      "clue": "Tranquil silence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tranquil silence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "UTAH",
+      "clue": "State in the western United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the western United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SILO",
+      "clue": "Cylindrical tower used for storing silage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cylindrical tower used for storing silage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "HOLI",
+      "clue": "Hindu festival of colors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INATTENTION",
+      "clue": "Lack of attention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lack of attention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "NYC",
+      "clue": "Big Apple, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "EDITORIALLY",
+      "clue": "By means of an editorial",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By means of an editorial",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "Thesaurus abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ECHOIC",
+      "clue": "Formed in imitation of a natural sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formed in imitation of a natural sound",
+      "clueSource": "wordnet"
+    }
+  ]
+}

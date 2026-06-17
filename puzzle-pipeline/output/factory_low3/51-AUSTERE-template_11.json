@@ -1,0 +1,794 @@
+{
+  "date": "2027-02-20",
+  "number": 1050,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "L",
+      "P",
+      "S",
+      "#",
+      "A",
+      "E",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "#",
+      "G",
+      "A",
+      "R",
+      "Y",
+      "#",
+      "U",
+      "N",
+      "D",
+      "U",
+      "E"
+    ],
+    [
+      "O",
+      "R",
+      "D",
+      "E",
+      "R",
+      "#",
+      "S",
+      "T",
+      "E",
+      "R",
+      "N"
+    ],
+    [
+      "H",
+      "E",
+      "L",
+      "P",
+      "#",
+      "S",
+      "T",
+      "E",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "A",
+      "S",
+      "P",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "O",
+      "R",
+      "G",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "V",
+      "E",
+      "N",
+      "K",
+      "E",
+      "E",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "T",
+      "I",
+      "E",
+      "#",
+      "N",
+      "O",
+      "L",
+      "O"
+    ],
+    [
+      "B",
+      "A",
+      "S",
+      "H",
+      "O",
+      "#",
+      "S",
+      "T",
+      "R",
+      "I",
+      "P"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "E",
+      "R",
+      "#",
+      "S",
+      "L",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "A",
+      "M",
+      "S",
+      "#",
+      "D",
+      "Y",
+      "N",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ALPS",
+      "clue": "Large mountain system in south-central Europe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large mountain system in south-central Europe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AGREE",
+      "clue": "In good part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In good part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LADLE",
+      "clue": "Cuplike spoon, often of large size, with a long handle, used in...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A cup-shaped vessel with a long handle, intended for dipping up and pouring",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PREPARETHEM",
+      "clue": "Thesis",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "THESIS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cprepare them\u201d defines thesis",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "AEONS",
+      "clue": "Divine powers or natures emanating from the Supreme Being and playing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine powers or natures emanating from the Supreme Being and playing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Sour and astringent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "ENTERGENTLY",
+      "clue": "Insinuate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INSINUATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201center gently\u201d defines insinuate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ODETS",
+      "clue": "United States playwright (1906-1963)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States playwright (1906-1963)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "NURSE",
+      "clue": "Woman who is the custodian of children",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Woman who is the custodian of children",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SEN",
+      "clue": "Fractional monetary unit of Japan and Indonesia and Cambodia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fractional monetary unit of Japan and Indonesia and Cambodia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "GARY",
+      "clue": "City in northwest Indiana on Lake Michigan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northwest Indiana on Lake Michigan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "UNDUE",
+      "clue": "More than sufficient",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "More than sufficient.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ORDER",
+      "clue": "Act of putting things in a sequential arrangement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of putting things in a sequential arrangement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "OHS",
+      "clue": "Midwestern states in north central United States in the Great Lakes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Midwestern states in north central United States in the Great Lakes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "STERN",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "AUSTERE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "HELP",
+      "clue": "Activity of contributing to the fulfillment of a need or furtherance of an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity of contributing to the fulfillment of a need or furtherance of an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "STETS",
+      "clue": "Printings: direct that a matter marked for omission or correction is",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Printings: direct that a matter marked for omission or correction is",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "SPOKE",
+      "clue": "One of the crosspieces that form the steps of a ladder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the crosspieces that form the steps of a ladder",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "SEEASPERSE",
+      "clue": "Defame",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DEFAME"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Asperse\u201d defines defame",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "SENIORS",
+      "clue": "Persons who is older than you are",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons who is older than you are",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "REORG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "EVENKEELED",
+      "clue": "Placid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLACID"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cEVEN KEELED\u201d defines placid",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "VESTA",
+      "clue": "Brightest asteroid but the fourth to be discovered",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brightest asteroid but the fourth to be discovered",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LORAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ELITE",
+      "clue": "Group or class of persons enjoying superior intellectual or social or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group or class of persons enjoying superior intellectual or social or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "DOP",
+      "clue": "Little copper cup in which a diamond is held while being cut. To dip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little copper cup in which a diamond is held while being cut. To dip",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "RETIE",
+      "clue": "Tie again or anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tie again or anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NOLO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "BASHO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "BET",
+      "clue": "Act of gambling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of gambling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "STRIP",
+      "clue": "Form of erotic entertainment in which a dancer gradually undresses to music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of erotic entertainment in which a dancer gradually undresses to music",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ESTER",
+      "clue": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "SLAT",
+      "clue": "Thin strip (wood or metal)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin strip (wood or metal)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "TEAMS",
+      "clue": "Two or more draft animalses that work together to pull something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Two or more draft animalses that work together to pull something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "DYNE",
+      "clue": "Unit of force, in the C. G. S. (Centimeter Gram Second) system of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The force which, applied to a mass of one gram for 1 second, would give it a",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

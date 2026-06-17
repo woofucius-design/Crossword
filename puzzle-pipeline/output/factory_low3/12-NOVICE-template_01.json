@@ -1,0 +1,784 @@
+{
+  "date": "2027-01-12",
+  "number": 1011,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "A",
+      "G",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "N",
+      "E",
+      "M",
+      "I",
+      "A",
+      "#",
+      "V",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "B",
+      "E",
+      "N",
+      "I",
+      "G",
+      "N",
+      "#",
+      "I",
+      "N",
+      "I",
+      "T"
+    ],
+    [
+      "S",
+      "W",
+      "A",
+      "T",
+      "#",
+      "N",
+      "O",
+      "V",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "G",
+      "I",
+      "M",
+      "E",
+      "N"
+    ],
+    [
+      "K",
+      "E",
+      "Y",
+      "B",
+      "O",
+      "A",
+      "R",
+      "D",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "E",
+      "Q",
+      "U",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "U",
+      "C",
+      "L",
+      "E",
+      "I",
+      "#",
+      "G",
+      "A",
+      "M",
+      "S"
+    ],
+    [
+      "T",
+      "A",
+      "C",
+      "K",
+      "#",
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "L",
+      "A",
+      "Y",
+      "#",
+      "G",
+      "R",
+      "I",
+      "N",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "I",
+      "L",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "LAGER",
+      "clue": "Camp defended by a circular formation of wagons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Camp defended by a circular formation of wagons",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LABS",
+      "clue": "Workplaces for the conduct of scientific research",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Workplaces for the conduct of scientific research",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Once more",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GENA",
+      "clue": "Cheek",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cheek",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RIG",
+      "clue": "Act of swindling by some fraudulent scheme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of swindling by some fraudulent scheme",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ANEMIA",
+      "clue": "Genus of terrestrial or lithophytic ferns having pinnatifid fronds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Deficiency of blood or red corpuscles.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ANNEALING",
+      "clue": "Hardening something by heat treatment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hardening something by heat treatment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "VAN",
+      "clue": "Truck with an enclosed cargo space",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Truck with an enclosed cargo space",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Having the highest saturation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "ANIME",
+      "clue": "Any of various resins or oleoresins",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various resins or oleoresins",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "NICER",
+      "clue": "More exhibiting courtesy and politeness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More exhibiting courtesy and politeness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "BENIGN",
+      "clue": "Good and kind of heart",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Good and kind of heart.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "INIT",
+      "clue": "Sign here, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "TENS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "SWAT",
+      "clue": "Sharp blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp blow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Someone new to a field or activity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "REGIMEN",
+      "clue": "Systematic plan for therapy (often including diet)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A systematized order or course of living with reference to food, clothing and",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ROBE",
+      "clue": "Outerwear consisting of a long flowing garment used for official or ceremonial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outerwear consisting of a long flowing garment used for official or ceremonial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "KEYBOARDERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "KENT",
+      "clue": "County in southeastern England on the English Channel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "County in southeastern England on the English Channel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EQUAL",
+      "clue": "Having the requisite qualities or resources to meet a task",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the requisite qualities or resources to meet a task",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "YUCCA",
+      "clue": "See Flicker, n.,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Flicker, n.,",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BALKY",
+      "clue": "Obstinate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OBSTINATE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of obstinate",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "EQUABLE",
+      "clue": "Not easily irritated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not easily irritated",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "NUCLEI",
+      "clue": "Atomic cores",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GAMS",
+      "clue": "Herds of whales",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Herds of whales",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GAIA",
+      "clue": "Goddess of the earth and mother of Cronus and the Titans in ancient mythology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of the earth and mother of Cronus and the Titans in ancient mythology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ANNI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "MCDL",
+      "clue": "Roman numeral for 1450",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1450",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SESS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TACK",
+      "clue": "Small sharp-pointed nail",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small sharp-pointed nail.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or opinion or attitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "URN",
+      "clue": "Large vase that usually has a pedestal or feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large vase that usually has a pedestal or feet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "LAY",
+      "clue": "Narrative poem of popular origin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrative poem of popular origin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "GRINDS",
+      "clue": "Reduces to small pieces or particles by pounding or abrading",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reduces to small pieces or particles by pounding or abrading",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "NAILS",
+      "clue": "Thins pointed piece of metal that is hammered into materials as a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thins pointed piece of metal that is hammered into materials as a",
+      "clueSource": "inflection"
+    }
+  ]
+}

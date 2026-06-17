@@ -1,0 +1,776 @@
+{
+  "date": "2027-03-21",
+  "number": 1079,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "A",
+      "U",
+      "L",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "U",
+      "T",
+      "A",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "D",
+      "U",
+      "S",
+      "A",
+      "#",
+      "R",
+      "A",
+      "L",
+      "L"
+    ],
+    [
+      "A",
+      "D",
+      "A",
+      "D",
+      "#",
+      "S",
+      "H",
+      "A",
+      "B",
+      "B",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "Z",
+      "E",
+      "A",
+      "L",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "U",
+      "N",
+      "W",
+      "H",
+      "O",
+      "L",
+      "E",
+      "S",
+      "O",
+      "M",
+      "E"
+    ],
+    [
+      "M",
+      "O",
+      "R",
+      "O",
+      "N",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "V",
+      "E",
+      "N",
+      "#",
+      "O",
+      "A",
+      "F",
+      "S"
+    ],
+    [
+      "S",
+      "A",
+      "T",
+      "E",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "H",
+      "E",
+      "R",
+      "#",
+      "S",
+      "O",
+      "L",
+      "E",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "T",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "FAULT",
+      "clue": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FAMA",
+      "clue": "Roman goddess of rumor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "USDA",
+      "clue": "Federal department that administers programs that provide services to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal department that administers programs that provide services to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LOUD",
+      "clue": "Characterized by or producing sound of great volume or intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by or producing sound of great volume or intensity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "TRS",
+      "clue": "Pants: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Cause to become one with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "BASELINES",
+      "clue": "Lines a baseball players must follow while running the bases",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lines a baseball players must follow while running the bases",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "UTA",
+      "clue": "Reptile genus of Iguanidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reptile genus of Iguanidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "URALS",
+      "clue": "Mountain range in western Russia extending from the Arctic to the Caspian Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain range in western Russia extending from the Arctic to the Caspian Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "TABOO",
+      "clue": "Inhibition or ban resulting from social custom or emotional aversion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inhibition or ban resulting from social custom or emotional aversion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "Book of blank pages with pockets or envelopes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "MEDUSA",
+      "clue": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RALL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "LYSE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ADAD",
+      "clue": "Babylonian god of storms and wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Babylonian god of storms and wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "SHABBY",
+      "clue": "Mean and unworthy and despicable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mean and unworthy and despicable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "HAEC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Marked by active interest and enthusiasm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ZONE",
+      "clue": "Any encircling or beltlike structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any encircling or beltlike structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "UNWHOLESOME",
+      "clue": "Detrimental to physical or moral well-being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Detrimental to physical or moral well-being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "UMPS",
+      "clue": "Officials at a baseball game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Officials at a baseball game",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "NORAH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "WROTE",
+      "clue": "Root with the snout. See 1st Root",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Root with the snout. See 1st Root",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "HOVER",
+      "clue": "Hang in the air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hang in the air",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "MORONIC",
+      "clue": "Having a mental age of between eight and twelve years",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having a mental age of between eight and twelve years",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PROVEN",
+      "clue": "Established beyond doubt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Established beyond doubt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OAFS",
+      "clue": "Awkward stupid persons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Awkward stupid persons",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OILS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Assist or encourage, usually in some wrongdoing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "FLUE",
+      "clue": "Conduit to carry off smoke",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A smoke-duct in a chimney.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SESS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SATE",
+      "clue": "Fill to satisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill to satisfaction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Suitable for use as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Mature female of mammals of which the male is called `buck'",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "HER",
+      "clue": "Form of the objective and the possessive case of the personal pronoun she",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the objective and the possessive case of the personal pronoun she",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SOLEUS",
+      "clue": "Broad flat muscle in the calf of the leg under the gastrocnemius muscle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broad flat muscle in the calf of the leg under the gastrocnemius muscle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "ESTES",
+      "clue": "Standard times in the 5th time zone west of Greenwich, reckoned at the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard times in the 5th time zone west of Greenwich, reckoned at the",
+      "clueSource": "inflection"
+    }
+  ]
+}

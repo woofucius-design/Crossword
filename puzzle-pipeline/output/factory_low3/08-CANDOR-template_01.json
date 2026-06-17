@@ -1,0 +1,786 @@
+{
+  "date": "2027-01-08",
+  "number": 1007,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "T",
+      "A",
+      "I",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "#",
+      "A",
+      "S",
+      "P",
+      "#"
+    ],
+    [
+      "S",
+      "N",
+      "E",
+      "E",
+      "Z",
+      "E",
+      "#",
+      "L",
+      "A",
+      "U",
+      "D"
+    ],
+    [
+      "I",
+      "O",
+      "W",
+      "A",
+      "#",
+      "A",
+      "S",
+      "T",
+      "U",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "R",
+      "I",
+      "A",
+      "D",
+      "I",
+      "C"
+    ],
+    [
+      "F",
+      "O",
+      "O",
+      "D",
+      "O",
+      "R",
+      "D",
+      "R",
+      "I",
+      "N",
+      "K"
+    ],
+    [
+      "L",
+      "A",
+      "M",
+      "I",
+      "N",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "U",
+      "S",
+      "E",
+      "D",
+      "I",
+      "N",
+      "#",
+      "O",
+      "D",
+      "D",
+      "S"
+    ],
+    [
+      "B",
+      "E",
+      "G",
+      "S",
+      "#",
+      "G",
+      "A",
+      "T",
+      "E",
+      "A",
+      "U"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "T",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "C",
+      "T",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "STAID",
+      "clue": "Characterized by dignity and propriety",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of a steady and sober character.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCSI",
+      "clue": "Interface consisting of a standard port between a computer and its peripherals...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interface consisting of a standard port between a computer and its peripherals...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "TANO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Again but in a new or different way",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DOZ",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Quality of being honest and straightforward in attitude and speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "REARRANGE",
+      "clue": "Put into a new order or arrangement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To arrange again or in a different order.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ASP",
+      "clue": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ALTAR",
+      "clue": "Raised structure on which gifts or sacrifices to a god are made",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any raised place or structure on which sacrifices may be offered or incense",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "SAUDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "PUTIN",
+      "clue": "Russian statesman chosen as president of the Russian Federation in 2000",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian statesman chosen as president of the Russian Federation in 2000",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "SNEEZE",
+      "clue": "Symptom consisting of the involuntary expulsion of air from the nose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Symptom consisting of the involuntary expulsion of air from the nose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "LAUD",
+      "clue": "Praise, glorify, or honor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To praise in words or song.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "DECK",
+      "clue": "Any of various platforms built into a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various platforms built into a vessel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "IOWA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Marked by practical hardheaded intelligence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "SIDE",
+      "clue": "Extended outer surface of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extended outer surface of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "TRIADIC",
+      "clue": "Having the characteristics of a triad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the characteristics of a triad",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "TONI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "FOODORDRINK",
+      "clue": "Assay",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ASSAY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cfood or drink\u201d defines assay",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "FLUB",
+      "clue": "Embarrassing mistake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Embarrassing mistake",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "OASES",
+      "clue": "Association including most countrieses in the western hemisphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Association including most countrieses in the western hemisphere",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "OMEGA",
+      "clue": "Last (24th) letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Last (24th) letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DIDST",
+      "clue": ", the 2d pers. sing. imp. of Do",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": ", the 2d pers. sing. imp. of Do",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "LAMINAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "USEDIN",
+      "clue": "Colloquial",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "COLLOQUIAL",
+        "RISIBLE",
+        "BATTER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cused in\u201d defines colloquial",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ODDS",
+      "clue": "Likelihood of a thing occurring rather than not occurring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Likelihood of a thing occurring rather than not occurring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OTIC",
+      "clue": "Of or relating to near the ear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to near the ear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "DEBT",
+      "clue": "Obligation to pay or do something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obligation to pay or do something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "DALE",
+      "clue": "Open river valley (in a hilly area)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open river valley (in a hilly area)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SUET",
+      "clue": "Hard fat around the kidneys and loins in beef and sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hard fat around the kidneys and loins in beef and sheep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "BEGS",
+      "clue": "Calls upon in supplication",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Calls upon in supplication",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "GATEAU",
+      "clue": "Any of various rich and elaborate cakes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various rich and elaborate cakes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SAT",
+      "clue": "Seventh and last day of the week",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seventh and last day of the week",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Suitable for use as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "OCTET",
+      "clue": "Musical composition written for eight performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition written for eight performers",
+      "clueSource": "wordnet"
+    }
+  ]
+}

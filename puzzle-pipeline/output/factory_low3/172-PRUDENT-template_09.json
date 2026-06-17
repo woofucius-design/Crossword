@@ -1,0 +1,741 @@
+{
+  "date": "2027-06-21",
+  "number": 1171,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "T",
+      "M",
+      "A",
+      "#",
+      "#",
+      "T",
+      "R",
+      "A",
+      "M",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "I",
+      "T",
+      "#",
+      "#",
+      "R",
+      "A",
+      "N",
+      "D",
+      "I"
+    ],
+    [
+      "A",
+      "C",
+      "C",
+      "O",
+      "M",
+      "P",
+      "A",
+      "N",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "F",
+      "O",
+      "R",
+      "M",
+      "E",
+      "R",
+      "T",
+      "I",
+      "M",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "S",
+      "A",
+      "#",
+      "T",
+      "U",
+      "T",
+      "S",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "M",
+      "A",
+      "T",
+      "E",
+      "R",
+      "#",
+      "S",
+      "S",
+      "S"
+    ],
+    [
+      "M",
+      "E",
+      "C",
+      "H",
+      "A",
+      "N",
+      "I",
+      "S",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "I",
+      "M",
+      "M",
+      "O",
+      "R",
+      "T",
+      "A",
+      "L",
+      "I",
+      "Z",
+      "E"
+    ],
+    [
+      "S",
+      "O",
+      "I",
+      "L",
+      "S",
+      "#",
+      "#",
+      "O",
+      "P",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "S",
+      "I",
+      "D",
+      "I",
+      "#",
+      "#",
+      "B",
+      "E",
+      "D",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ATMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ABAFT",
+      "clue": "At or near or toward the stern of a ship or tail of an airplane",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or near or toward the stern of a ship or tail of an airplane",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TACOS",
+      "clue": "Tortillas rolled cupped around a filling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tortillas rolled cupped around a filling",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MICRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ATOM",
+      "clue": "Tiny piece of anything",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiny piece of anything",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "TRAM",
+      "clue": "Wheeled vehicle that runs on rails and is propelled by electricity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wheeled vehicle that runs on rails and is propelled by electricity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "TRATTORIA",
+      "clue": "Casual Italian eatery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "RANIS",
+      "clue": "Hindu princess or the wives of a raja",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu princess or the wives of a raja",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ANIMI",
+      "clue": "Souls, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "MDSE",
+      "clue": "Goods for sale: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BAIT",
+      "clue": "Something used to lure fish or other animals into danger so they can be trapped...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something used to lure fish or other animals into danger so they can be trapped...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RANDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Branches of engineering that deals with the use of computers and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of engineering that deals with the use of computers and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ACCOMPANIST",
+      "clue": "Person who provides musical accompaniment (usually on a piano)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who or that which accompanies.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "METATARSI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "FORMERTIMES",
+      "clue": "Occident",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OCCIDENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cformer times\u201d defines occident",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Agency established in 2001 to safeguard United States transportation systems...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency established in 2001 to safeguard United States transportation systems...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "TUTSI",
+      "clue": "Member of a Bantu speaking people living in Rwanda and Burundi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a Bantu speaking people living in Rwanda and Burundi",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MATER",
+      "clue": "Informal use of the Latin word for mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal use of the Latin word for mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MCMII",
+      "clue": "Roman numeral for 1902",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1902",
+      "clueSource": "roman"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "AHOLD",
+      "clue": "Near the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near the wind",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Independent federal agency that administers compulsory military service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that administers compulsory military service",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "STIPE",
+      "clue": "Supporting stalk or stem-like structure especially of a pistil or fern frond or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Supporting stalk or stem-like structure especially of a pistil or fern frond or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "SIZED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "SCENE",
+      "clue": "Graphic art consisting of the graphic or photographic representation of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphic art consisting of the graphic or photographic representation of a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "MECHANISTIC",
+      "clue": "Explained in terms of physical forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Explained in terms of physical forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MIS",
+      "clue": "Wrong",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EMOS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SLOB",
+      "clue": "Coarse obnoxious person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse obnoxious person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "IMMORTALIZE",
+      "clue": "Render immortal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cause to last or to be known or remembered throughout a great or",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "SOILS",
+      "clue": "Geographical areas under the jurisdiction of a sovereign state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Geographical areas under the jurisdiction of a sovereign state",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "OPEN",
+      "clue": "Information that has become public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Information that has become public",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "SIDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "BEDE",
+      "clue": "English monk and scholar (672-735)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English monk and scholar (672-735)",
+      "clueSource": "wordnet"
+    }
+  ]
+}

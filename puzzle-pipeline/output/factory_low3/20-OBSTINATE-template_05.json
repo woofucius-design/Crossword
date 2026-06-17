@@ -1,0 +1,786 @@
+{
+  "date": "2027-01-20",
+  "number": 1019,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "F",
+      "B",
+      "I",
+      "#",
+      "F",
+      "A",
+      "R",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "H",
+      "A",
+      "E",
+      "C",
+      "#",
+      "O",
+      "V",
+      "E",
+      "R",
+      "L",
+      "Y"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "B",
+      "O",
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "L",
+      "U",
+      "M",
+      "B",
+      "#",
+      "L",
+      "I",
+      "G",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "O",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "Z",
+      "I",
+      "N",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "R",
+      "U",
+      "N",
+      "#",
+      "H",
+      "E",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "A",
+      "V",
+      "E",
+      "S",
+      "S",
+      "E",
+      "L"
+    ],
+    [
+      "N",
+      "A",
+      "V",
+      "E",
+      "T",
+      "E",
+      "#",
+      "P",
+      "L",
+      "U",
+      "S"
+    ],
+    [
+      "G",
+      "L",
+      "A",
+      "S",
+      "E",
+      "R",
+      "#",
+      "Y",
+      "E",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "FBI",
+      "clue": "Federal law enforcement agency that is the principal investigative arm of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal law enforcement agency that is the principal investigative arm of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "FALL",
+      "clue": "Act of surrendering (usually under agreed conditions)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of surrendering (usually under agreed conditions)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "Man who is the lover of a girl or young woman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An escort or lover.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ICBM",
+      "clue": "Ballistic missile that is capable of traveling from one continent to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ballistic missile that is capable of traveling from one continent to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "FARTED",
+      "clue": "Expelled intestinal gases through the anus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expelled intestinal gases through the anus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "AVALANCHE",
+      "clue": "Sudden appearance of an overwhelming number of things",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The fall or sliding of a mass of snow or ice down a mountain-slope, often",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "RETIRE",
+      "clue": "Prepare for sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepare for sleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "TRIG",
+      "clue": "Mathematics of triangles and trigonometric functions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mathematics of triangles and trigonometric functions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ELON",
+      "clue": "Tech mogul Musk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DYNE",
+      "clue": "Unit of force equal to the force that imparts an acceleration of 1 cm/sec/sec...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The force which, applied to a mass of one gram for 1 second, would give it a",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "HAEC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "HEP",
+      "clue": "Informed about the latest trends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informed about the latest trends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OVERLY",
+      "clue": "A degree exceeding normal or proper limits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A degree exceeding normal or proper limits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ELABORATION",
+      "clue": "Developing in intricate and painstaking detail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developing in intricate and painstaking detail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Resistant to guidance or discipline",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PLUMB",
+      "clue": "Exactly vertical",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A weight suspended by a line to test the verticality of something.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LIGNE",
+      "clue": "Linear unit (1/40 inch) used to measure diameter of buttons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Linear unit (1/40 inch) used to measure diameter of buttons",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SEAR",
+      "clue": "Having lost all moisture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To burn on the surface.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EON",
+      "clue": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ATONE",
+      "clue": "Turn away from sin or do penitence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make amends for.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "AZURES",
+      "clue": "Colors of the sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colors of the sky",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ZINC",
+      "clue": "Bluish-white lustrous metallic element",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bluish-white lustrous metallic element",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "RERUN",
+      "clue": "Program that is broadcast again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program that is broadcast again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "RONG",
+      "clue": "Imp. & p. p. of Ring. Chaucer. Rung (of a ladder)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imp. & p. p. of Ring. Chaucer. Rung (of a ladder)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EVAL",
+      "clue": "Relating to time or duration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to time or duration",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "REVA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "HEINE",
+      "clue": "German poet Heinrich",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Small island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "NEUT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ELS",
+      "clue": "Railways that is powered by electricity and that runs on a track that",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railways that is powered by electricity and that runs on a track that",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "OVERAVESSEL",
+      "clue": "Breach",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BREACH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cover a vessel\u201d defines breach",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "VER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "NAVETE",
+      "clue": "Grimace",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "GRIMACE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cna vete\u201d defines grimace",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "PLUS",
+      "clue": "Arithmetic operation of summing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arithmetic operation of summing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "GLASER",
+      "clue": "United States physicist who invented the bubble chamber to study subatomic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States physicist who invented the bubble chamber to study subatomic...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "YET",
+      "clue": "A greater degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A greater degree or extent",
+      "clueSource": "wordnet"
+    }
+  ]
+}

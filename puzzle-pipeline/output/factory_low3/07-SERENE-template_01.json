@@ -1,0 +1,777 @@
+{
+  "date": "2027-01-07",
+  "number": 1006,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "R",
+      "A",
+      "I",
+      "N",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "P",
+      "D",
+      "T",
+      "#"
+    ],
+    [
+      "N",
+      "E",
+      "L",
+      "L",
+      "I",
+      "E",
+      "#",
+      "O",
+      "A",
+      "R",
+      "S"
+    ],
+    [
+      "I",
+      "D",
+      "E",
+      "A",
+      "#",
+      "L",
+      "A",
+      "R",
+      "V",
+      "A",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "I",
+      "N",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "C",
+      "O",
+      "I",
+      "D",
+      "O",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "I",
+      "T",
+      "A",
+      "L",
+      "I",
+      "C",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "B",
+      "I",
+      "N",
+      "O",
+      "#",
+      "A",
+      "R",
+      "A",
+      "B"
+    ],
+    [
+      "M",
+      "A",
+      "I",
+      "N",
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "S",
+      "D",
+      "K",
+      "#",
+      "E",
+      "N",
+      "M",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "Y",
+      "N",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "RAINS",
+      "clue": "Anythings happening rapidly or in quick successive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anythings happening rapidly or in quick successive",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RANI",
+      "clue": "Hindu princess or the wife of a raja",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu princess or the wife of a raja",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "See Aisle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "NOLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Swallow up",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "BELLICOSE",
+      "clue": "Inclined to war or contention",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Warlike.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "PDT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "PORNO",
+      "clue": "Creative activity (writing or pictures or films etc.) of no literary or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Creative activity (writing or pictures or films etc.) of no literary or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "DAVIS",
+      "clue": "United States film actress (1908-1989)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States film actress (1908-1989)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "TRACI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "NELLIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "OARS",
+      "clue": "Implements used to propel or steer a boat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Implements used to propel or steer a boat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "SESS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "LARVAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "AIDS",
+      "clue": "Serious (often fatal) disease of the immune system transmitted through blood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serious (often fatal) disease of the immune system transmitted through blood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "CLINICS",
+      "clue": "Healthcare facilities for outpatient care",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Healthcare facilities for outpatient care",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "COIN",
+      "clue": "Flat metal piece (usually a disc) used as money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat metal piece (usually a disc) used as money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SARCOIDOSIS",
+      "clue": "Chronic disease of unknown cause marked by the formation of nodules in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chronic disease of unknown cause marked by the formation of nodules in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "SIAM",
+      "clue": "Country of southeastern Asia that extends southward along the Isthmus of Kra...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Country of southeastern Asia that extends southward along the Isthmus of Kra...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "ATLAS",
+      "clue": "Figure of a man used as a supporting column",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Figure of a man used as a supporting column",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "RABID",
+      "clue": "Furious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Affected with rabies or hydrophobia.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CLINK",
+      "clue": "Correctional institution used to detain persons who are in the lawful custody...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Correctional institution used to detain persons who are in the lawful custody...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "ITALICS",
+      "clue": "Styles of handwriting with the letters slanting to the right",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Styles of handwriting with the letters slanting to the right",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ALBINO",
+      "clue": "Person, whether negro, Indian, or white, in whom by some defect of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A person with milky white skin and hair, and eyes with bright red pupil and",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARAB",
+      "clue": "Spirited graceful and intelligent riding horse native to Arabia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited graceful and intelligent riding horse native to Arabia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARMY",
+      "clue": "Large number of people united for some specific purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number of people united for some specific purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "REIN",
+      "clue": "Strap of a bridle, fastened to the curb or snaffle on each side,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A step attached to the bit for controlling a horse or other draft-animal.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "BEYS",
+      "clue": "Governors of a district or province in the Ottoman Empire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governors of a district or province in the Ottoman Empire",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "MAIN",
+      "clue": "Principal pipe in a system that distributes water or gas or electricity or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal pipe in a system that distributes water or gas or electricity or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Bright",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SDK",
+      "clue": "Developer's toolkit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developer's toolkit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ENMITY",
+      "clue": "Quality of being an enemy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Hatred.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "DYNES",
+      "clue": "Forces which, applied to a mass of one gram for 1 second, would",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forces which, applied to a mass of one gram for 1 second, would",
+      "clueSource": "inflection"
+    }
+  ]
+}

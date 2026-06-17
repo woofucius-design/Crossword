@@ -1,0 +1,786 @@
+{
+  "date": "2027-01-22",
+  "number": 1021,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "G",
+      "P",
+      "S",
+      "#",
+      "P",
+      "A",
+      "T",
+      "R",
+      "O",
+      "L"
+    ],
+    [
+      "A",
+      "L",
+      "O",
+      "E",
+      "#",
+      "E",
+      "N",
+      "R",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "L",
+      "A",
+      "P",
+      "I",
+      "D",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "O",
+      "B",
+      "E",
+      "S",
+      "E",
+      "#",
+      "R",
+      "I",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "P",
+      "O",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "E",
+      "M",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "I",
+      "P",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "I",
+      "C",
+      "#",
+      "D",
+      "I",
+      "E",
+      "G",
+      "O"
+    ],
+    [
+      "C",
+      "O",
+      "G",
+      "N",
+      "I",
+      "Z",
+      "A",
+      "N",
+      "T",
+      "O",
+      "F"
+    ],
+    [
+      "A",
+      "B",
+      "R",
+      "A",
+      "D",
+      "E",
+      "#",
+      "G",
+      "O",
+      "L",
+      "F"
+    ],
+    [
+      "R",
+      "E",
+      "E",
+      "L",
+      "E",
+      "D",
+      "#",
+      "A",
+      "N",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "GPS",
+      "clue": "Navigational system involving satellites and computers that can determine the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navigational system involving satellites and computers that can determine the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GLIB",
+      "clue": "Eloquent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ELOQUENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of eloquent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "POLE",
+      "clue": "Long (usually round) rod of wood or metal or plastic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long (usually round) rod of wood or metal or plastic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SEAS",
+      "clue": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "PATROL",
+      "clue": "Activity of going around or through an area at regular intervals for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity of going around or through an area at regular intervals for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "PEI",
+      "clue": "United States architect (born in China in 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States architect (born in China in 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "ANDROMEDA",
+      "clue": "Constellation in the northern hemisphere between Cassiopeia and Pegasus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Constellation in the northern hemisphere between Cassiopeia and Pegasus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "TRAITS",
+      "clue": "Distinguishing features or qualities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinguishing features or qualities",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "RATS",
+      "clue": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "OGEE",
+      "clue": "Molding that (in section) has the shape of an S with the convex part above...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Molding that (in section) has the shape of an S with the convex part above...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "LEDS",
+      "clue": "Diodes such that light emitted at a p-n junction is proportional to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diodes such that light emitted at a p-n junction is proportional to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ENRAGE",
+      "clue": "Fill with rage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To infuriate.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DILAPIDATED",
+      "clue": "Decayed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fallen into decay or partial ruin.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "PESTICIDE",
+      "clue": "Chemical used to kill pests (as rodents or insects)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chemical used to kill pests (as rodents or insects)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OBESE",
+      "clue": "Excessively corpulent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Exceedingly fat.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "RISES",
+      "clue": "Acts of changing location in an upward direction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of changing location in an upward direction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SPOT",
+      "clue": "Pick out or notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PEP",
+      "clue": "Liveliness and energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liveliness and energy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "STEMS",
+      "clue": "Turns made in skiing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turns made in skiing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "SPINAL",
+      "clue": "Anesthesia of the lower half of the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anesthesia of the lower half of the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "PIPE",
+      "clue": "A tube that carries water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Enduring hardship without showing feelings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAR",
+      "clue": "Indication of damage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indication of damage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TOBE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Imaginary monster, or hideous giant of fairy tales, who lived on...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "DIEGO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "INGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ETON",
+      "clue": "Posh British school",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GOLD",
+      "clue": "Deep yellow color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deep yellow color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "OFF",
+      "clue": "In a general sense, denoting from or away from",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Farther or more distant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "COGNIZANTOF",
+      "clue": "Acquaint",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACQUAINT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccognizant of\u201d defines acquaint",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ZED",
+      "clue": "26th letter of the Roman alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "26th letter of the Roman alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ABRADE",
+      "clue": "Rub or wear off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To wear away the surface or some part of by friction.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "GOLF",
+      "clue": "Game played on a large open course with 9 or 18 holes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game played on a large open course with 9 or 18 holes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "REELED",
+      "clue": "Staggered dizzily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    }
+  ]
+}

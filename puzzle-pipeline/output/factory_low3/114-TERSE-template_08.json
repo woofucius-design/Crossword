@@ -1,0 +1,719 @@
+{
+  "date": "2027-04-24",
+  "number": 1113,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "N",
+      "I",
+      "T",
+      "#",
+      "#",
+      "R",
+      "I",
+      "L",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "E",
+      "N",
+      "#",
+      "E",
+      "N",
+      "V",
+      "O",
+      "I"
+    ],
+    [
+      "E",
+      "M",
+      "B",
+      "R",
+      "O",
+      "C",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "R",
+      "E",
+      "E",
+      "S",
+      "T",
+      "A",
+      "B",
+      "L",
+      "I",
+      "S",
+      "H"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "G",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "E",
+      "R",
+      "R",
+      "O",
+      "R",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "S",
+      "T",
+      "U",
+      "R",
+      "B",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "C",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "L",
+      "A",
+      "#",
+      "D",
+      "E",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "P",
+      "A",
+      "L",
+      "#",
+      "#",
+      "D",
+      "R",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,7": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,4": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,5": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "5,4": {
+      "number": 16
+    },
+    "6,4": {
+      "number": 17
+    },
+    "6,7": {
+      "number": 18
+    },
+    "6,8": {
+      "number": 19
+    },
+    "6,9": {
+      "number": 20
+    },
+    "6,10": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,6": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "NAMED",
+      "clue": "Determined or distinguished the nature of a problem or an illness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Determined or distinguished the nature of a problem or an illness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "IMBED",
+      "clue": "Fix or set securely or deeply",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fix or set securely or deeply",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Briefly and cleanly expressed; curt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "RILLS",
+      "clue": "Small channels (as one formed by soil erosion)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small channels (as one formed by soil erosion)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 10,
+      "answer": "REABSORBED",
+      "clue": "Underwent resorption",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Underwent resorption",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "INTL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "LVII",
+      "clue": "Being seven more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being seven more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LOOS",
+      "clue": "Austrian architect (1870-1933)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Austrian architect (1870-1933)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SINH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "AMEN",
+      "clue": "Primeval Egyptian personification of air and breath",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Primeval Egyptian personification of air and breath",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 10,
+      "answer": "NOTNATURAL",
+      "clue": "Unnatural",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "UNNATURAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cNot natural\u201d defines unnatural",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ENVOI",
+      "clue": "Brief stanza concluding certain forms of poetry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief stanza concluding certain forms of poetry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EMBROCATION",
+      "clue": "Medicinal liquid that is rubbed into the skin to relieve muscular stiffness...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Medicinal liquid that is rubbed into the skin to relieve muscular stiffness...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "CADGERS",
+      "clue": "Someones who mooches or cadges (tries to get something free)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someones who mooches or cadges (tries to get something free)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "REESTABLISH",
+      "clue": "Restore",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To restore.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "ADDENDS",
+      "clue": "Numbers that is added to another number (the augend)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Numbers that is added to another number (the augend)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "AGO",
+      "clue": "Gone by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gone by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "TERRORS",
+      "clue": "Uses of extreme fear in order to coerce people (especially for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of extreme fear in order to coerce people (especially for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "RACED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OTTER",
+      "clue": "Freshwater carnivorous mammal having webbed and clawed feet and dark brown fur",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freshwater carnivorous mammal having webbed and clawed feet and dark brown fur",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "REEDY",
+      "clue": "Resembling a reed in being upright and slender",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resembling a reed in being upright and slender",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "MASTURBATES",
+      "clue": "Gets sexual gratification through self-stimulation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gets sexual gratification through self-stimulation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "MISS",
+      "clue": "Form of address for an unmarried woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of address for an unmarried woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "In the game of poker, to put up a stake before the cards are dealt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "TELA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERSECTED",
+      "clue": "Met at a point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Met at a point",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "STELA",
+      "clue": "Ancient upright stone slab bearing markings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient upright stone slab bearing markings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "DEED",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "SEPAL",
+      "clue": "One of the green parts that form the calyx of a flower",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the green parts that form the calyx of a flower",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "DRY",
+      "clue": "Reformer who opposes the use of intoxicating beverages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reformer who opposes the use of intoxicating beverages",
+      "clueSource": "wordnet"
+    }
+  ]
+}

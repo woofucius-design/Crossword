@@ -1,0 +1,791 @@
+{
+  "date": "2027-01-23",
+  "number": 1022,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "S",
+      "P",
+      "#",
+      "S",
+      "E",
+      "P",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "U",
+      "#",
+      "S",
+      "P",
+      "L",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "G",
+      "R",
+      "A",
+      "T",
+      "I",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "R",
+      "N",
+      "#",
+      "S",
+      "C",
+      "O",
+      "W",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "N",
+      "T",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "L",
+      "I",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "O",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "R",
+      "A",
+      "I",
+      "G",
+      "#",
+      "I",
+      "S",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "H",
+      "E",
+      "I",
+      "N",
+      "O",
+      "U",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "A",
+      "I",
+      "R",
+      "G",
+      "U",
+      "N",
+      "#",
+      "A",
+      "L",
+      "P",
+      "S"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "S",
+      "S",
+      "A",
+      "#",
+      "P",
+      "A",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "Recipe meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "TENT",
+      "clue": "Portable shelter (usually of canvas stretched over supporting poles and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portable shelter (usually of canvas stretched over supporting poles and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "PURR",
+      "clue": "Low vibrating sound typical of a contented cat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Low vibrating sound typical of a contented cat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "SEPTAL",
+      "clue": "Of or relating to a septum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to a septum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SST",
+      "clue": "Bygone fast flier",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "EPISTASIS",
+      "clue": "Suppression of a gene by the effect of an unrelated gene",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suppression of a gene by the effect of an unrelated gene",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Pleased",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "TITO",
+      "clue": "Yugoslav statesman who led the resistance to German occupation during World War...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yugoslav statesman who led the resistance to German occupation during World War...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Again but in a new or different way",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "LEDS",
+      "clue": "Diodes such that light emitted at a p-n junction is proportional to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diodes such that light emitted at a p-n junction is proportional to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "Man who is the lover of a girl or young woman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An escort or lover.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "BIS",
+      "clue": "Twice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Twice",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "SPLINE",
+      "clue": "Thin strip (wood or metal)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin strip (wood or metal)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INGRATIATED",
+      "clue": "Won confidence or good graces for oneself",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Won confidence or good graces for oneself",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "ANALOGOUS",
+      "clue": "Having analogy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Corresponding (to some other) in certain respects, as in form, proportion...",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STERN",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "AUSTERE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SCOWS",
+      "clue": "Barge carrying bulk materialses in an open hold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Barge carrying bulk materialses in an open hold",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ILIAD",
+      "clue": "Greek epic poem (attributed to Homer) describing the siege of Troy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A Greek epic poem describing scenes from the siege of Troy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "ICINGS",
+      "clue": "Acts of shooting the puck from within your own defensive area the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of shooting the puck from within your own defensive area the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "COLS",
+      "clue": "Passes between mountain peaks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passes between mountain peaks",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "CRAIG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CHAO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "REID",
+      "clue": "Scottish philosopher of common sense who opposed the ideas of David Hume...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scottish philosopher of common sense who opposed the ideas of David Hume...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "AIRE",
+      "clue": "River in northern England that flows southeast through West Yorkshire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River in northern England that flows southeast through West Yorkshire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ISLES",
+      "clue": "Islands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Islands",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SNAP",
+      "clue": "Putting the ball in play by passing it (between the legs) to a back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Putting the ball in play by passing it (between the legs) to a back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LELA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Independent federal agency that administers compulsory military service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that administers compulsory military service",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "HEINOUSNESS",
+      "clue": "Heinous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "HEINOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cHei nous ness\u201d defines heinous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "UNA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "AIRGUN",
+      "clue": "Gun that propels a projectile by compressed air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gun that propels a projectile by compressed air",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ALPS",
+      "clue": "Large mountain system in south-central Europe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large mountain system in south-central Europe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ODESSA",
+      "clue": "Port city of south central Ukraine on an arm of the Black Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city of south central Ukraine on an arm of the Black Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "PAY",
+      "clue": "Something that remunerates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that remunerates",
+      "clueSource": "wordnet"
+    }
+  ]
+}

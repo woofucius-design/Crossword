@@ -1,0 +1,714 @@
+{
+  "date": "2027-05-02",
+  "number": 1121,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "I",
+      "S",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "N",
+      "O",
+      "M",
+      "I",
+      "C",
+      "#",
+      "S",
+      "L",
+      "I",
+      "D"
+    ],
+    [
+      "R",
+      "A",
+      "C",
+      "E",
+      "M",
+      "E",
+      "#",
+      "T",
+      "A",
+      "R",
+      "O"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "N",
+      "A",
+      "R",
+      "#",
+      "O",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "N",
+      "C",
+      "O",
+      "#",
+      "G",
+      "A",
+      "M",
+      "I",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "U",
+      "P",
+      "R",
+      "E",
+      "M",
+      "A",
+      "C",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "A",
+      "I",
+      "S",
+      "I",
+      "N",
+      "#",
+      "A",
+      "O",
+      "R"
+    ],
+    [
+      "R",
+      "A",
+      "T",
+      "S",
+      "#",
+      "S",
+      "T",
+      "A",
+      "P",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "H",
+      "E",
+      "#",
+      "T",
+      "E",
+      "M",
+      "P",
+      "U",
+      "S"
+    ],
+    [
+      "W",
+      "Y",
+      "S",
+      "S",
+      "#",
+      "S",
+      "L",
+      "E",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "S",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ISO",
+      "clue": "Standards-setting org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "INACCURACY",
+      "clue": "Quality of being inaccurate and having errors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being inaccurate and having errors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "SOCIOPATHS",
+      "clue": "Someones with a sociopathic personality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someones with a sociopathic personality",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "OMEN",
+      "clue": "Sign of something about to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sign of something about to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "GNOMIC",
+      "clue": "Relating to or containing gnomes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or containing gnomes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "GRANS",
+      "clue": "Mothers of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mothers of your father or mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "IMAGES",
+      "clue": "Representations of a person (especially in the form of sculpture)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representations of a person (especially in the form of sculpture)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CERAMISTS",
+      "clue": "Craftsmen who shapes pottery on a potter's wheel and bakes them it a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Craftsmen who shapes pottery on a potter's wheel and bakes them it a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "SLID",
+      "clue": "Glided down a chute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Enduring hardship without showing feelings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "LAGNIAPPES",
+      "clue": "Small gifts (especially one given by a merchant to a customer who",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small gifts (especially one given by a merchant to a customer who",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "IRRESOLUTE",
+      "clue": "Uncertain how to act or proceed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uncertain how to act or proceed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Mature female of mammals of which the male is called `buck'",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "RACEME",
+      "clue": "Usually elongate cluster of flowers along the main stem in which the flowers at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually elongate cluster of flowers along the main stem in which the flowers at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TARO",
+      "clue": "Tropical starchy tuberous root",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tropical starchy tuberous root",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ACINAR",
+      "clue": "Pertaining to the individual parts making up an aggregate fruit like a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the individual parts making up an aggregate fruit like a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "NCO",
+      "clue": "Sgt. or cpl.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "GAMINE",
+      "clue": "Girl of impish appeal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Girl of impish appeal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "MANTEL",
+      "clue": "Facing, sometimes richly ornamented, about a fireplace, including the usual",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The facing, sometimes richly ornamented, about a fireplace, including the usual",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SUPREMACIST",
+      "clue": "Person who advocates the supremacy of some particular group or race over all...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who advocates the supremacy of some particular group or race over all...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "RISES",
+      "clue": "Acts of changing location in an upward direction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of changing location in an upward direction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "TRESS",
+      "clue": "Hairdo formed by braiding or twisting the hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hairdo formed by braiding or twisting the hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "RAISIN",
+      "clue": "Dried grape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dried grape",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "AOR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "RATS",
+      "clue": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "RAW",
+      "clue": "Informal terms for nakedness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for nakedness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "STAPLE",
+      "clue": "Necessary commodity for which demand is constant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Necessary commodity for which demand is constant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "AMES",
+      "clue": "Modulations of the amplitude of the (radio) carrier wave",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Modulations of the amplitude of the (radio) carrier wave",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Dull persistent (usually moderately intense) pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "TEMPUS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "WYSS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SLEETS",
+      "clue": "Partiallies melted snow (or a mixture of rain and snow)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Partiallies melted snow (or a mixture of rain and snow)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass point midway between south and southeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southeast",
+      "clueSource": "wordnet"
+    }
+  ]
+}

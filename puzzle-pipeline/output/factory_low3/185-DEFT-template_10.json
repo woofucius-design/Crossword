@@ -1,0 +1,715 @@
+{
+  "date": "2027-07-04",
+  "number": 1184,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "H",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "W",
+      "H",
+      "I",
+      "L",
+      "S",
+      "T",
+      "#",
+      "E",
+      "P",
+      "I",
+      "C"
+    ],
+    [
+      "H",
+      "A",
+      "G",
+      "G",
+      "A",
+      "I",
+      "#",
+      "N",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "H",
+      "A",
+      "L",
+      "E",
+      "#",
+      "I",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "M",
+      "G",
+      "R",
+      "#",
+      "A",
+      "B",
+      "L",
+      "A",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "C",
+      "A",
+      "R",
+      "A",
+      "C",
+      "A",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "A",
+      "L",
+      "L",
+      "M",
+      "E",
+      "N",
+      "#",
+      "G",
+      "P",
+      "U"
+    ],
+    [
+      "A",
+      "B",
+      "I",
+      "E",
+      "#",
+      "A",
+      "C",
+      "C",
+      "O",
+      "R",
+      "D"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "A",
+      "#",
+      "K",
+      "E",
+      "E",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "D",
+      "E",
+      "F",
+      "T",
+      "#",
+      "S",
+      "T",
+      "R",
+      "A",
+      "T",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "CHO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "CHANGEABLE",
+      "clue": "Such that alteration is possible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Such that alteration is possible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "HIGHRELIEF",
+      "clue": "Prominent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PROMINENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201chigh relief\u201d defines prominent",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "OLGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "WHILST",
+      "clue": "While",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "While",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "WHIMS",
+      "clue": "Odds or fanciful or capricious ideas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Odds or fanciful or capricious ideas",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "SALAAM",
+      "clue": "Deep bow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deep bow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "TIEBREAKS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ENIAC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "PENTAGONAL",
+      "clue": "Of or relating to or shaped like a pentagon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or shaped like a pentagon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "INTERPRETS",
+      "clue": "Makes sense of a language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes sense of a language",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "CEO",
+      "clue": "Corporate executive responsible for the operations of the firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive responsible for the operations of the firm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "HAGGAI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NENE",
+      "clue": "Hawaiian goose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "INHALE",
+      "clue": "Draw in (air)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Draw in (air)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "INTO",
+      "clue": "The inside of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "The inside of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "MGR",
+      "clue": "Team boss: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "ABLATE",
+      "clue": "Remove an organ or bodily structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove an organ or bodily structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "LANCET",
+      "clue": "Surgical knife with a pointed double-edged blade",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surgical knife with a pointed double-edged blade",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SEECARACARA",
+      "clue": "Carrion",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CARRION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Caracara\u201d defines carrion",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CLEAT",
+      "clue": "Strip of wood or metal used to strengthen the surface to which it is attached",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strip of wood or metal used to strengthen the surface to which it is attached",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "AUDRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "ALLMEN",
+      "clue": "Sycophant",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SYCOPHANT",
+        "INVEIGH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201call men\u201d defines sycophant",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "GPU",
+      "clue": "Graphics processor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphics processor",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ABIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "AID",
+      "clue": "Work of providing treatment for or attending to someone or something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Work of providing treatment for or attending to someone or something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ACCORD",
+      "clue": "Sympathetic compatibility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sympathetic compatibility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CERA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "KEENER",
+      "clue": "Professional mourner who wails at a funeral",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Professional mourner who wails at a funeral",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Quick and neatly skillful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "STRATA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ALS",
+      "clue": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

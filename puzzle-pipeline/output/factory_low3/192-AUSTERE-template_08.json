@@ -1,0 +1,709 @@
+{
+  "date": "2027-07-11",
+  "number": 1191,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "S",
+      "W",
+      "#",
+      "#",
+      "S",
+      "I",
+      "C",
+      "K",
+      "O"
+    ],
+    [
+      "#",
+      "H",
+      "E",
+      "R",
+      "A",
+      "#",
+      "E",
+      "N",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "C",
+      "O",
+      "V",
+      "E",
+      "N",
+      "A",
+      "N",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "E",
+      "V",
+      "E",
+      "N",
+      "T",
+      "U",
+      "A",
+      "L",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "S",
+      "I",
+      "S",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "T",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "H",
+      "E",
+      "R",
+      "O",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "T",
+      "O",
+      "R",
+      "I",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "I",
+      "N",
+      "E",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "T",
+      "A",
+      "#",
+      "L",
+      "E",
+      "A",
+      "N",
+      "#"
+    ],
+    [
+      "E",
+      "M",
+      "A",
+      "I",
+      "L",
+      "#",
+      "#",
+      "S",
+      "D",
+      "K",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,7": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,4": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,5": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "5,4": {
+      "number": 16
+    },
+    "6,4": {
+      "number": 17
+    },
+    "6,7": {
+      "number": 18
+    },
+    "6,8": {
+      "number": 19
+    },
+    "6,9": {
+      "number": 20
+    },
+    "6,10": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,6": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SSW",
+      "clue": "Compass point midway between south and southwest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southwest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SHOVE",
+      "clue": "Push roughly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Push roughly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SEVER",
+      "clue": "Cut off from a whole",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cut off from a whole",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "WRENS",
+      "clue": "Anies of several small active brown birds of the northern hemisphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of several small active brown birds of the northern hemisphere",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "SICKO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 10,
+      "answer": "SENATORIAL",
+      "clue": "Of or relating to senators",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to senators",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "INTL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "CDII",
+      "clue": "Roman numeral for 402",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 402",
+      "clueSource": "roman"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "KENT",
+      "clue": "County in southeastern England on the English Channel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "County in southeastern England on the English Channel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ORGY",
+      "clue": "Wild gathering involving excessive drinking and promiscuity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild gathering involving excessive drinking and promiscuity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "HERA",
+      "clue": "Queen of the Olympian gods in ancient Greek mythology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Queen of the Olympian gods in ancient Greek mythology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 10,
+      "answer": "ANTIPHONAL",
+      "clue": "Bound collection of antiphons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bound collection of antiphons",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ENDER",
+      "clue": "One who, or that which, makes an end of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who, or that which, makes an end of something",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "COVENANTING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "CEP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Practicing great self-denial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "EVENTUALITY",
+      "clue": "Possible event or occurrence or result",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Possible event or occurrence or result",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "PERSIST",
+      "clue": "Continue steadfast against opposition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To continue steadfast against opposition.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "PTO",
+      "clue": "Device that transfers power from an engine (as in a tractor or other motor...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device that transfers power from an engine (as in a tractor or other motor...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "HEROICS",
+      "clue": "Ostentatious or vainglorious or extravagant or melodramatic conduct",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ostentatious or vainglorious or extravagant or melodramatic conduct",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "OATES",
+      "clue": "United States writer (born in 1938)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer (born in 1938)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ILIAD",
+      "clue": "Greek epic poem describing scenes from the siege of Troy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A Greek epic poem describing scenes from the siege of Troy.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CLONK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "Thesaurus abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "EDITORIALLY",
+      "clue": "By means of an editorial",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By means of an editorial",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "DERM",
+      "clue": "Integument of animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Integument of animal",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "TITI",
+      "clue": "Small South American monkeys with long beautiful fur and long nonprehensile tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small South American monkeys with long beautiful fur and long nonprehensile tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DELINEATION",
+      "clue": "Representation by drawing or painting etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation by drawing or painting etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "GRETA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "LEAN",
+      "clue": "Property possessed by a line or surface that departs from the vertical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property possessed by a line or surface that departs from the vertical",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "EMAIL",
+      "clue": "System of world-wide electronic communication in which a computer user can...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "System of world-wide electronic communication in which a computer user can...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "SDK",
+      "clue": "Developer's toolkit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developer's toolkit",
+      "clueSource": "abbrev_curated"
+    }
+  ]
+}

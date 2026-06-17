@@ -1,0 +1,758 @@
+{
+  "date": "2027-01-30",
+  "number": 1029,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "A",
+      "N",
+      "A",
+      "C",
+      "H",
+      "#",
+      "#",
+      "M",
+      "A",
+      "C"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "P",
+      "R",
+      "I",
+      "E",
+      "T",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "I",
+      "T",
+      "S",
+      "S",
+      "U",
+      "P",
+      "P",
+      "O",
+      "R",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "E",
+      "S",
+      "#",
+      "I",
+      "N",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "A",
+      "G",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "E",
+      "L",
+      "A",
+      "M",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "L",
+      "A",
+      "C",
+      "T",
+      "I",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "E",
+      "N",
+      "T",
+      "I",
+      "V",
+      "E",
+      "T",
+      "O"
+    ],
+    [
+      "R",
+      "A",
+      "E",
+      "#",
+      "#",
+      "S",
+      "C",
+      "E",
+      "N",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "BANACH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "BPI",
+      "clue": "Measure of how densely information is packed on a storage medium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of how densely information is packed on a storage medium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "NOSE",
+      "clue": "Defeat by a narrow margin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Defeat by a narrow margin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "Domed or vaulted recess or projection on a building especially the east end...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Domed or vaulted recess or projection on a building especially the east end...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "CRUSTACEAN",
+      "clue": "Pertaining to a division of arthropods, containing lobsters, crabs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to a division of arthropods, containing lobsters, crabs...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "HIP",
+      "clue": "Either side of the body below the waist and above the thigh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either side of the body below the waist and above the thigh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Waterproof raincoat made of rubberized fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waterproof raincoat made of rubberized fabric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "MARL",
+      "clue": "Loose and crumbling earthy deposit consisting mainly of calcite or dolomite",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loose and crumbling earthy deposit consisting mainly of calcite or dolomite",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ARTE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "CYST",
+      "clue": "Small anatomically normal sac or bladderlike structure (especially one...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small anatomically normal sac or bladderlike structure (especially one...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "PROPRIETARY",
+      "clue": "Unincorporated business owned by a single person who is responsible for its...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unincorporated business owned by a single person who is responsible for its...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "EPIGENETIC",
+      "clue": "Of or pertaining to the epigenesis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to the epigenesis",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "TONS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ITSSUPPORTS",
+      "clue": "Mantel",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MANTEL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cits supports\u201d defines mantel",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Compass point midways between south and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midways between south and east",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "INLET",
+      "clue": "Small body of water leading into a larger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small body of water leading into a larger.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "TAGS",
+      "clue": "Acts of touching a player in a game (which changes their status in the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of touching a player in a game (which changes their status in the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ADE",
+      "clue": "Sweetened beverage of diluted fruit juice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweetened beverage of diluted fruit juice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Briefly and cleanly expressed; curt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ETTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RATE",
+      "clue": "Relative speed of progress or change",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relative speed of progress or change",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ELAM",
+      "clue": "Ancient country in southwestern Asia to the east of the Tigris River (in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient country in southwestern Asia to the east of the Tigris River (in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LIVE",
+      "clue": "Have firsthand knowledge of states, situations, emotions, or sensations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have firsthand knowledge of states, situations, emotions, or sensations",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ATEN",
+      "clue": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "METE",
+      "clue": "Apportion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To apportion.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "STALACTITES",
+      "clue": "Cylinders of calcium carbonate hanging from the roof of a limestone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cylinders of calcium carbonate hanging from the roof of a limestone",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "CTS",
+      "clue": "Methods of examining body organs by scanning them with X rays and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Methods of examining body organs by scanning them with X rays and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SOS",
+      "clue": "Internationally recognized distress signal in radio code",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internationally recognized distress signal in radio code",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "ATTENTIVETO",
+      "clue": "Imminent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "IMMINENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cattentive to\u201d defines imminent",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "RAE",
+      "clue": "Issa of \"Insecure\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SCENES",
+      "clue": "Graphic art consistings of the graphic or photographic representation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphic art consistings of the graphic or photographic representation",
+      "clueSource": "inflection"
+    }
+  ]
+}

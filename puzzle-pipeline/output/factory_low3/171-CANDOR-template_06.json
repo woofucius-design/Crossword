@@ -1,0 +1,755 @@
+{
+  "date": "2027-06-20",
+  "number": 1170,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "#",
+      "#",
+      "W",
+      "H",
+      "O"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "C",
+      "R",
+      "U",
+      "S",
+      "T",
+      "E",
+      "A",
+      "N"
+    ],
+    [
+      "U",
+      "N",
+      "A",
+      "L",
+      "I",
+      "E",
+      "N",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "A",
+      "M",
+      "B",
+      "O",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "O",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "K",
+      "H",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "H",
+      "A",
+      "T",
+      "#",
+      "A",
+      "T",
+      "O",
+      "M",
+      "#"
+    ],
+    [
+      "B",
+      "I",
+      "T",
+      "T",
+      "E",
+      "R",
+      "W",
+      "O",
+      "R",
+      "D",
+      "S"
+    ],
+    [
+      "I",
+      "M",
+      "M",
+      "E",
+      "D",
+      "I",
+      "A",
+      "T",
+      "E",
+      "L",
+      "Y"
+    ],
+    [
+      "E",
+      "S",
+      "L",
+      "#",
+      "#",
+      "M",
+      "Y",
+      "O",
+      "S",
+      "I",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Whiteness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CPU",
+      "clue": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ARNA",
+      "clue": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "NOAM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "DCLI",
+      "clue": "Roman numeral for 651",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 651",
+      "clueSource": "roman"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "ORIENTATED",
+      "clue": "Adjusted or located in relation to surroundings or circumstances",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adjusted or located in relation to surroundings or circumstances",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "WHO",
+      "clue": "United Nations agency to coordinate international health activities and to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United Nations agency to coordinate international health activities and to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "WEBB",
+      "clue": "English sociologist and economist and a central member of the Fabian Society...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English sociologist and economist and a central member of the Fabian Society...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "HALO",
+      "clue": "Indication of radiant light drawn around the head of a saint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indication of radiant light drawn around the head of a saint",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "PROCRUSTEAN",
+      "clue": "Of or relating to the mythical giant Procrustes or the mode of torture...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the mythical giant Procrustes or the mode of torture...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "SNATCHAWAY",
+      "clue": "Rapt",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RAPT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csnatch away\u201d defines rapt",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "TAME",
+      "clue": "Correct by punishment or discipline",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Correct by punishment or discipline",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNALIENABLE",
+      "clue": "Incapable of being repudiated or transferred to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Incapable of being repudiated or transferred to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "French girlfriend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "AMBOS",
+      "clue": "Platforms raised above the surrounding level to give prominence to the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platforms raised above the surrounding level to give prominence to the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "NOTE",
+      "clue": "Characteristic emotional quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characteristic emotional quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "OIK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TIC",
+      "clue": "Local and habitual twitching especially in the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local and habitual twitching especially in the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "LAKH",
+      "clue": "Cardinal number that is the fifth power of ten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the fifth power of ten",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "LATE",
+      "clue": "Being or occurring at an advanced period of time or after a usual or expected...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being or occurring at an advanced period of time or after a usual or expected...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ARHAT",
+      "clue": "Buddhist who has attained nirvana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Buddhist who has attained nirvana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ABIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RIMS",
+      "clue": "Top edges of a vessel or other container",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Top edges of a vessel or other container",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "HTML",
+      "clue": "Set of tags and rules (conforming to SGML) for using them in developing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set of tags and rules (conforming to SGML) for using them in developing...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ATOM",
+      "clue": "Tiny piece of anything",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiny piece of anything",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "TOTO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ORES",
+      "clue": "Rooms in a hospital equipped for the performance of surgical operations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rooms in a hospital equipped for the performance of surgical operations",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "MDLI",
+      "clue": "Roman numeral for 1551",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1551",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "BITTERWORDS",
+      "clue": "Acrid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACRID"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbitter words\u201d defines acrid",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "RIM",
+      "clue": "Top edge of a vessel or other container",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Top edge of a vessel or other container",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "Thesaurus abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "IMMEDIATELY",
+      "clue": "Without delay or hesitation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Without delay or hesitation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ESL",
+      "clue": "Language class, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language class, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "MYOSIN",
+      "clue": "Commonest protein in muscle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commonest protein in muscle",
+      "clueSource": "wordnet"
+    }
+  ]
+}

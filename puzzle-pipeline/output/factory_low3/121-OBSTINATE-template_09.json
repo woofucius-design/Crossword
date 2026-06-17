@@ -1,0 +1,750 @@
+{
+  "date": "2027-05-01",
+  "number": 1120,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "S",
+      "A",
+      "T",
+      "#",
+      "#",
+      "O",
+      "I",
+      "N",
+      "K",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "N",
+      "E",
+      "#",
+      "#",
+      "B",
+      "R",
+      "O",
+      "I",
+      "L"
+    ],
+    [
+      "M",
+      "A",
+      "K",
+      "E",
+      "V",
+      "I",
+      "S",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "E",
+      "L",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "S",
+      "Y",
+      "R",
+      "#",
+      "R",
+      "H",
+      "I",
+      "N",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "U",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "R",
+      "O",
+      "M",
+      "A",
+      "#",
+      "D",
+      "U",
+      "O"
+    ],
+    [
+      "A",
+      "C",
+      "C",
+      "U",
+      "S",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "L",
+      "E",
+      "T",
+      "B",
+      "E",
+      "N",
+      "E",
+      "D",
+      "I",
+      "C",
+      "K"
+    ],
+    [
+      "D",
+      "R",
+      "O",
+      "L",
+      "L",
+      "#",
+      "#",
+      "E",
+      "L",
+      "L",
+      "A"
+    ],
+    [
+      "#",
+      "T",
+      "R",
+      "E",
+      "Y",
+      "#",
+      "#",
+      "O",
+      "Y",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LSAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "LAMES",
+      "clue": "Small steel plates combined together so as to slide one upon the form a piece...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small steel plates combined together so as to slide one upon the form a piece...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SCALY",
+      "clue": "Having the body covered or partially covered with thin horny plates, as some...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the body covered or partially covered with thin horny plates, as some...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ANKER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "TEEM",
+      "clue": "Pour",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be full to overflowing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "OINK",
+      "clue": "Short low gruff noise of the kind made by hogs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short low gruff noise of the kind made by hogs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Stubbornly set in one's ways",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "IRIAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "NOBLE",
+      "clue": "Titled peer of the realm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Titled peer of the realm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "KILL",
+      "clue": "Destruction of an enemy plane or ship or tank or missile",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Destruction of an enemy plane or ship or tank or missile",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "BROIL",
+      "clue": "Cooking by direct exposure to radiant heat (as over a fire or under a grill)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cooking by direct exposure to radiant heat (as over a fire or under a grill)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "LEY",
+      "clue": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MAKEVISIBLE",
+      "clue": "Visualize",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VISUALIZE",
+        "DISCOVER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cmake visible\u201d defines visualize",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "VERBOSELY",
+      "clue": "In a verbose manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a verbose manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "INHUMAN",
+      "clue": "Destitute of the kindness and tenderness that belong to a human being",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Savage.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "ELEMENTALLY",
+      "clue": "According to elements",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "According to elements",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "RHINE",
+      "clue": "Major European river carrying more traffic than any other river in the world",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major European river carrying more traffic than any other river in the world",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "BUN",
+      "clue": "Small rounded bread either plain or sweet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small rounded bread either plain or sweet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AROMA",
+      "clue": "Quality or principle of plants or other substances which...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An agreeable odor.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ACTOR",
+      "clue": "Theatrical performer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Theatrical performer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "RUBLE",
+      "clue": "Basic unit of money in Russia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Russia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "DUO",
+      "clue": "Musical composition for two performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition for two performers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "DOILY",
+      "clue": "Small round piece of linen placed under a dish or bowl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small round piece of linen placed under a dish or bowl",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "UNCLE",
+      "clue": "Brother of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brother of your father or mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "OSKAR",
+      "clue": "Schindler of the famous list",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "ACCUSATIONS",
+      "clue": "Charges of crime, misdemeanor, or error",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Charges of crime, misdemeanor, or error",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ALD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CERT",
+      "clue": "Absolute certainty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Absolute certainty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "IDEO",
+      "clue": "Famed design firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "LETBENEDICK",
+      "clue": "Inwardly",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INWARDLY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cLet Benedick\u201d defines inwardly",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "DROLL",
+      "clue": "Comical in an odd or whimsical manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Comical in an odd or whimsical manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ELLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "TREY",
+      "clue": "One of four playing cards in a deck having three pips",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of four playing cards in a deck having three pips",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "OYER",
+      "clue": "Hearing or an inspection, as of a deed, bond, etc., as when a defendant in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hearing or an inspection, as of a deed, bond, etc., as when a defendant in...",
+      "clueSource": "webster"
+    }
+  ]
+}

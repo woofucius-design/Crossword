@@ -1,0 +1,778 @@
+{
+  "date": "2027-02-21",
+  "number": 1051,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "C",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "L",
+      "S",
+      "A",
+      "M",
+      "#",
+      "E",
+      "V",
+      "E",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "E",
+      "#",
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "Y",
+      "#",
+      "G",
+      "R",
+      "A",
+      "V",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "W",
+      "A",
+      "I",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "A",
+      "C",
+      "K",
+      "N",
+      "O",
+      "W",
+      "L",
+      "E",
+      "D",
+      "G",
+      "E"
+    ],
+    [
+      "G",
+      "E",
+      "N",
+      "E",
+      "R",
+      "A",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "L",
+      "I",
+      "V",
+      "E",
+      "T",
+      "#",
+      "E",
+      "R",
+      "A",
+      "S"
+    ],
+    [
+      "G",
+      "I",
+      "T",
+      "E",
+      "#",
+      "T",
+      "E",
+      "N",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "S",
+      "#",
+      "S",
+      "T",
+      "O",
+      "G",
+      "I",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "A",
+      "M",
+      "P"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ARCED",
+      "clue": "Forming or resembling an arch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forming or resembling an arch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RALE",
+      "clue": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "CLAN",
+      "clue": "Tribe or collection of families, united under a chieftain, regarded...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A tribe.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DAS",
+      "clue": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BALSAM",
+      "clue": "Resin containing more or less of an essential or volatile oil....",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A medical preparation, aromatic and oily, used for healing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MEGAWATTS",
+      "clue": "Units of power equal to one million watts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of power equal to one million watts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ELATE",
+      "clue": "Fill with high spirits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill with high spirits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Having the highest saturation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "EKING",
+      "clue": "Lengthening or filling piece to make good a deficiency in length. (b) The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lengthening or filling piece to make good a deficiency in length. (b) The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "Slip or glide away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "LIKE",
+      "clue": "Kind of person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "DENY",
+      "clue": "Declare untrue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declare untrue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "GRAVID",
+      "clue": "In an advanced stage of pregnancy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an advanced stage of pregnancy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "RILL",
+      "clue": "Small channel (as one formed by soil erosion)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small channel (as one formed by soil erosion)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "WAITING",
+      "clue": "Being and remaining ready and available for use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being and remaining ready and available for use",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "WORE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ACKNOWLEDGE",
+      "clue": "Accept (someone) to be what is claimed or accept his power and authority",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To recognize; to admit the genuineness or validity of.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "AGOG",
+      "clue": "Highly excited",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highly excited",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "CELIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "KNITS",
+      "clue": "Small particles of ore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small particles of ore",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "NEVES",
+      "clue": "Upper parts of a glacier (beyond the limit of perpetual snow) where",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Upper parts of a glacier (beyond the limit of perpetual snow) where",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "GENERAL",
+      "clue": "Fact about the whole (as opposed to particular)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fact about the whole (as opposed to particular)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "OLIVET",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "Measures of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measures of a pitcher's effectiveness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "RAGA",
+      "clue": "Indian melodic framework",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "GITE",
+      "clue": "Gown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gown",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "TENANT",
+      "clue": "One who holds or possesses lands, or other real estate, by any kind...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An occupant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ETC",
+      "clue": "List-ending abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "STOGIE",
+      "clue": "Cheap cigar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cheap cigar",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "CLAMP",
+      "clue": "Device (generally used by carpenters) that holds things firmly together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device (generally used by carpenters) that holds things firmly together",
+      "clueSource": "wordnet"
+    }
+  ]
+}

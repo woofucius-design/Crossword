@@ -1,0 +1,727 @@
+{
+  "date": "2027-05-10",
+  "number": 1129,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "A",
+      "W",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "U",
+      "P",
+      "I",
+      "N",
+      "S",
+      "#",
+      "A",
+      "P",
+      "S",
+      "E"
+    ],
+    [
+      "A",
+      "P",
+      "P",
+      "L",
+      "E",
+      "T",
+      "#",
+      "D",
+      "R",
+      "E",
+      "W"
+    ],
+    [
+      "B",
+      "E",
+      "L",
+      "T",
+      "E",
+      "R",
+      "#",
+      "M",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "O",
+      "R",
+      "E",
+      "#",
+      "D",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "A",
+      "L",
+      "I",
+      "A",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "A",
+      "R",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "L",
+      "E",
+      "U"
+    ],
+    [
+      "O",
+      "G",
+      "E",
+      "E",
+      "#",
+      "E",
+      "T",
+      "H",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "K",
+      "E",
+      "E",
+      "P",
+      "#",
+      "R",
+      "O",
+      "U",
+      "G",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "S",
+      "T",
+      "#",
+      "S",
+      "O",
+      "R",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "D",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SAW",
+      "clue": "Power tool for cutting wood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Power tool for cutting wood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "SUPEREAGER",
+      "clue": "Zealous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSUPER EAGER\u201d defines zealous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "APPLETREES",
+      "clue": "Viceroy",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VICEROY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201capple trees\u201d defines viceroy",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "WILT",
+      "clue": "Causing to become limp or drooping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causing to become limp or drooping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "LUPINS",
+      "clue": "Any plants of the genus Lupinus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any plants of the genus Lupinus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "LABOR",
+      "clue": "Productive work (especially physical work done for wages)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Productive work (especially physical work done for wages)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "NEEDLE",
+      "clue": "Sharp pointed implement (usually steel)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp pointed implement (usually steel)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "STRAINERS",
+      "clue": "Filters to retain larger pieces while smaller pieces and liquids pass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Filters to retain larger pieces while smaller pieces and liquids pass",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "Domed or vaulted recess or projection on a building especially the east end...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Domed or vaulted recess or projection on a building especially the east end...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ADMIT",
+      "clue": "Suffer to enter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suffer to enter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "PRIVILEGED",
+      "clue": "Confined to an exclusive group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Confined to an exclusive group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "SERENENESS",
+      "clue": "Serenity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serenity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EWE",
+      "clue": "Female sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female sheep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "APPLET",
+      "clue": "Java application",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Java application",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "DREW",
+      "clue": "United States actor (born in Ireland)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States actor (born in Ireland)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "BELTER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "MIRE",
+      "clue": "Soft wet area of low-lying land that sinks underfoot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft wet area of low-lying land that sinks underfoot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Monetary subunit in Denmark and Norway and Sweden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monetary subunit in Denmark and Norway and Sweden",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "DATIVE",
+      "clue": "Category of nouns serving as the indirect object of a verb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Category of nouns serving as the indirect object of a verb",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "TATTOO",
+      "clue": "Practice of making a design on the skin by pricking and staining",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Practice of making a design on the skin by pricking and staining",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "RETALIATING",
+      "clue": "Repaying evil with a similar evil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Repaying evil with a similar evil",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Very skilled or proficient at something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "GUEST",
+      "clue": "Any computer that is hooked up to a computer network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any computer that is hooked up to a computer network",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "ARDENT",
+      "clue": "Very enthusiastic or passionate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very enthusiastic or passionate",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "LEU",
+      "clue": "Basic unit of money in Romania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Romania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "OGEE",
+      "clue": "Molding that (in section) has the shape of an S with the convex part above...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Molding that (in section) has the shape of an S with the convex part above...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "OKE",
+      "clue": "Turkish and Egyptian weight, equal to about 2",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turkish and Egyptian weight, equal to about 2",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ETHENE",
+      "clue": "Flammable colorless gaseous alkene",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flammable colorless gaseous alkene",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HURD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "KEEP",
+      "clue": "Cell in a jail or prison",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cell in a jail or prison",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ROUGES",
+      "clue": "Makeup consistings of a pink or red powder applied to the cheeks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makeup consistings of a pink or red powder applied to the cheeks",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SOREST",
+      "clue": "Most roused to anger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most roused to anger",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "DDS",
+      "clue": "Doctor's degree in dental surgery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in dental surgery",
+      "clueSource": "wordnet"
+    }
+  ]
+}

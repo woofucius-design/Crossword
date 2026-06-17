@@ -1,0 +1,719 @@
+{
+  "date": "2027-04-03",
+  "number": 1092,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "C",
+      "M",
+      "V",
+      "#",
+      "#",
+      "W",
+      "R",
+      "I",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "#",
+      "H",
+      "O",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "M",
+      "I",
+      "N",
+      "N",
+      "E",
+      "S",
+      "I",
+      "N",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "V",
+      "I",
+      "O",
+      "L",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "N",
+      "A",
+      "G",
+      "R",
+      "A",
+      "M",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "G",
+      "A",
+      "R",
+      "I",
+      "O",
+      "U",
+      "S",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "I",
+      "T",
+      "A",
+      "L",
+      "I",
+      "S",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "K",
+      "L",
+      "E",
+      "#",
+      "#",
+      "R",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "B",
+      "A",
+      "S",
+      "E",
+      "D",
+      "#",
+      "#",
+      "E",
+      "D",
+      "D",
+      "Y"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "MCMV",
+      "clue": "Roman numeral for 1905",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1905",
+      "clueSource": "roman"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "MAM",
+      "clue": "Mamma",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mamma",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CMIV",
+      "clue": "Roman numeral for 904",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 904",
+      "clueSource": "roman"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "MINI",
+      "clue": "Very short skirt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very short skirt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "VENOM",
+      "clue": "Poisonous fluid that certain animals secrete",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The poisonous fluid that certain animals secrete.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "WRITE",
+      "clue": "Set down, as legible characters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set down, as legible characters",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "WHITETAIL",
+      "clue": "Common North American deer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common North American deer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "RONIN",
+      "clue": "In Japan, under the feudal system, a samurai who had renounced his clan or who...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Japan, under the feudal system, a samurai who had renounced his clan or who...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "INGOT",
+      "clue": "Metal that is cast in the shape of a block for convenient handling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal that is cast in the shape of a block for convenient handling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TEENS",
+      "clue": "Juveniles between the onset of puberty and maturity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Juveniles between the onset of puberty and maturity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ERRS",
+      "clue": "Makes a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes a mistake or be incorrect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "French girlfriend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "HONER",
+      "clue": "One who makes perfect or complete",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes perfect or complete",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MINNESINGER",
+      "clue": "Love-singer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Love-singer",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "ELONGATED",
+      "clue": "Having notably more length than width",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having notably more length than width",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "SAMARRA",
+      "clue": "See Simar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Simar",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "VIOLATIONS",
+      "clue": "Infringements",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infringements",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "MOMENTS",
+      "clue": "Having important effectses or influences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having important effectses or influences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NAT",
+      "clue": "Not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "ANAGRAM",
+      "clue": "Letters of a word or phrase so transposed as to make a different",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The letters of a word or phrase so transposed as to make a different word or",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ARENA",
+      "clue": "Playing field where sports events take place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing field where sports events take place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "NECKS",
+      "clue": "Kisses, embrace, or fondle with sexual passion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kisses, embrace, or fondle with sexual passion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Able to move or act quickly, physically, or mentally",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "MOIRE",
+      "clue": "Silk fabric with a wavy surface pattern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Silk fabric with a wavy surface pattern",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "GREGARIOUS",
+      "clue": "Fond of company; sociable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fond of company; sociable",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "GRAB",
+      "clue": "Act of catching an object with the hands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of catching an object with the hands",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STAD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RECITALISTS",
+      "clue": "Musicians who gives recitals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musicians who gives recitals",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SLY",
+      "clue": "Marked by skill in deception",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by skill in deception",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ANKLE",
+      "clue": "Gliding joint between the distal ends of the tibia and fibula and the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gliding joint between the distal ends of the tibia and fibula and the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "REAL",
+      "clue": "Old small silver Spanish coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old small silver Spanish coin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "BASED",
+      "clue": "Used as a basis for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used as a basis for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "EDDY",
+      "clue": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

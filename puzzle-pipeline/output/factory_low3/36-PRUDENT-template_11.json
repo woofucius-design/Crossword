@@ -1,0 +1,776 @@
+{
+  "date": "2027-02-05",
+  "number": 1035,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "C",
+      "I",
+      "I",
+      "#",
+      "P",
+      "R",
+      "O",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "C",
+      "O",
+      "N",
+      "C",
+      "#",
+      "R",
+      "A",
+      "L",
+      "P",
+      "H"
+    ],
+    [
+      "A",
+      "C",
+      "U",
+      "T",
+      "E",
+      "#",
+      "U",
+      "N",
+      "D",
+      "U",
+      "E"
+    ],
+    [
+      "Y",
+      "I",
+      "P",
+      "E",
+      "#",
+      "E",
+      "D",
+      "G",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "E",
+      "V",
+      "E",
+      "R",
+      "G",
+      "R",
+      "E",
+      "E",
+      "N",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "L",
+      "A",
+      "N",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "R",
+      "E",
+      "A",
+      "S",
+      "T",
+      "F",
+      "E",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "L",
+      "O",
+      "U",
+      "S",
+      "E",
+      "#",
+      "V",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "R",
+      "A",
+      "N",
+      "K",
+      "S",
+      "#",
+      "M",
+      "I",
+      "D",
+      "I",
+      "S"
+    ],
+    [
+      "E",
+      "D",
+      "D",
+      "I",
+      "E",
+      "#",
+      "B",
+      "E",
+      "E",
+      "F",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "O",
+      "N",
+      "S",
+      "#",
+      "A",
+      "W",
+      "R",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CCII",
+      "clue": "Roman numeral for 202",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 202",
+      "clueSource": "roman"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CCCIV",
+      "clue": "Roman numeral for 304",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 304",
+      "clueSource": "roman"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "COUPE",
+      "clue": "Car with two doors and front seats and a luggage compartment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Car with two doors and front seats and a luggage compartment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "INTERLEUKIN",
+      "clue": "Any of several lymphokines that promote macrophages and killer T cells and B...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several lymphokines that promote macrophages and killer T cells and B...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Water or other fluid frozen or reduced to the solid state by cold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Water or other fluid frozen or reduced to the solid state by cold",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "PROST",
+      "clue": "German cheers!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Careful and sensible",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "RANGEOFVIEW",
+      "clue": "Scope",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SCOPE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201crange of view\u201d defines scope",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "OLDEN",
+      "clue": "Long past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SPUDS",
+      "clue": "Sharp hand shovels for digging out roots and weeds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp hand shovels for digging out roots and weeds",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "THE",
+      "clue": "See Thee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Thee",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "CONC",
+      "clue": "Strength, in chem.: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RALPH",
+      "clue": "Name sometimes given to the raven",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name sometimes given to the raven",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ACUTE",
+      "clue": "Having fine and penetrating discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having fine and penetrating discernment.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expression of assent.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "UNDUE",
+      "clue": "More than sufficient",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "More than sufficient.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "YIPE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "EDGED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "EVERGREENS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "GLASSES",
+      "clue": "Optical instrument consisting of a frame that holds a pair of lenses for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Optical instrument consisting of a frame that holds a pair of lenses for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LLANO",
+      "clue": "Extensive grassy and nearly treeless plain (especially in Latin America)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extensive grassy and nearly treeless plain (especially in Latin America)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "BREASTFEED",
+      "clue": "Give suck to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give suck to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BLADE",
+      "clue": "Flat part of a tool or weapon that (usually) has a cutting edge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat part of a tool or weapon that (usually) has a cutting edge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "RONDO",
+      "clue": "Musical form that is often the last movement of a sonata",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A musical composition during which the first part or subject is repeated several",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "EIDER",
+      "clue": "Duck of the northern hemisphere much valued for the fine soft down of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Duck of the northern hemisphere much valued for the fine soft down of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "EDIFY",
+      "clue": "Build up, or strengthen, especially in morals or religion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To build up, or strengthen, especially in morals or religion.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "LOUSE",
+      "clue": "Small insect parasitic on and sucking the blood of mammals",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small insect parasitic on and sucking the blood of mammals.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "VIDE",
+      "clue": "Imperative sing. of L. videre, to see",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperative sing. of L. videre, to see",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "RANKS",
+      "clue": "Ordinary memberses of an organization (such as the enlisted soldiers of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ordinary memberses of an organization (such as the enlisted soldiers of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "REP",
+      "clue": "Fabric with prominent rounded crosswise ribs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fabric with prominent rounded crosswise ribs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "MIDIS",
+      "clue": "Standard protocols for communication between electronic musical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard protocols for communication between electronic musical",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MBA",
+      "clue": "Master's degree in business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in business",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "EDDIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "BEEF",
+      "clue": "Cattle that are reared for their meat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cattle that are reared for their meat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "PEONS",
+      "clue": "Laborers who is obliged to do menial work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Laborers who is obliged to do menial work",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "AWRY",
+      "clue": "Away from the correct or expected course",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "& adj. Out of the proper form, direction, or position.",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

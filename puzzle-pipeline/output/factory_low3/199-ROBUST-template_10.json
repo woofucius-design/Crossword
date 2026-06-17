@@ -1,0 +1,708 @@
+{
+  "date": "2027-07-18",
+  "number": 1198,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "R",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "N",
+      "A",
+      "S",
+      "#",
+      "A",
+      "C",
+      "L",
+      "U"
+    ],
+    [
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T",
+      "#",
+      "S",
+      "O",
+      "I",
+      "R"
+    ],
+    [
+      "A",
+      "C",
+      "O",
+      "S",
+      "T",
+      "A",
+      "#",
+      "I",
+      "N",
+      "K",
+      "S"
+    ],
+    [
+      "B",
+      "L",
+      "U",
+      "#",
+      "U",
+      "N",
+      "M",
+      "A",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "A",
+      "N",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "I",
+      "D",
+      "L",
+      "E",
+      "S",
+      "T",
+      "#",
+      "M",
+      "E",
+      "A"
+    ],
+    [
+      "C",
+      "M",
+      "I",
+      "I",
+      "#",
+      "L",
+      "I",
+      "K",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "T",
+      "E",
+      "N",
+      "N",
+      "#",
+      "A",
+      "L",
+      "O",
+      "N",
+      "S",
+      "O"
+    ],
+    [
+      "E",
+      "D",
+      "G",
+      "E",
+      "#",
+      "W",
+      "E",
+      "L",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "PRO",
+      "clue": "Argument in favor of a proposal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Argument in favor of a proposal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "PROCLAIMED",
+      "clue": "Declared publicly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declared publicly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "REBOUNDING",
+      "clue": "Returning to a former condition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Returning to a former condition",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ONUS",
+      "clue": "Burden",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A burden or responsibility.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ARENAS",
+      "clue": "Playing field where sports eventses take place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing field where sports eventses take place",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ARABS",
+      "clue": "Spirited graceful and intelligent riding horse natives to Arabia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited graceful and intelligent riding horse natives to Arabia",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Critically discerning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "STANISLAW",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACLU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ASIAN",
+      "clue": "Native or inhabitant of Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native or inhabitant of Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "CONDIMENTS",
+      "clue": "Preparation (a sauces or relish or spice) to enhance flavor or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preparation (a sauces or relish or spice) to enhance flavor or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "LIKENESSES",
+      "clue": "Pictures consisting of a graphic image of a person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pictures consisting of a graphic image of a person or thing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "URS",
+      "clue": "Ancient cities of Sumer located on a former channel of the Euphrates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient cities of Sumer located on a former channel of the Euphrates",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Evincing strength",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "SOIR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ACOSTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "INKS",
+      "clue": "Dark protective fluids ejected into the water by cuttlefish and other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dark protective fluids ejected into the water by cuttlefish and other",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "BLU",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "UNMADE",
+      "clue": "Not having the sheets and blankets set in order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not having the sheets and blankets set in order",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "MOTILE",
+      "clue": "One whose prevailing mental imagery takes the form of inner feelings of action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One whose prevailing mental imagery takes the form of inner feelings of action",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SANCTIONING",
+      "clue": "Approving authoritatively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approving authoritatively",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CLINE",
+      "clue": "American geneticist who succeeded in transferring a functioning gene from one...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American geneticist who succeeded in transferring a functioning gene from one...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "GATOR",
+      "clue": "Either of two amphibious reptiles related to crocodiles but with shorter...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two amphibious reptiles related to crocodiles but with shorter...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "IDLEST",
+      "clue": "Most not in active use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most not in active use",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "MEA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CMII",
+      "clue": "Roman numeral for 902",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 902",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "CTE",
+      "clue": "Brain trauma condition, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "LIKEST",
+      "clue": "Most resembling or similar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most resembling or similar",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "KOLA",
+      "clue": "Chadic language spoken south of Lake Chad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chadic language spoken south of Lake Chad",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TENN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ALONSO",
+      "clue": "Cuban dancer and choreographer (born in 1921)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cuban dancer and choreographer (born in 1921)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "WELTER",
+      "clue": "Confused multitude of things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Confused multitude of things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "date": "2027-01-05",
+  "number": 1004,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "M",
+      "B",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "A",
+      "I",
+      "D",
+      "U",
+      "P",
+      "#",
+      "S",
+      "H",
+      "A",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "T",
+      "O",
+      "M",
+      "A"
+    ],
+    [
+      "M",
+      "I",
+      "E",
+      "N",
+      "#",
+      "A",
+      "R",
+      "O",
+      "U",
+      "N",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "R",
+      "A",
+      "I",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "A",
+      "D",
+      "E",
+      "M",
+      "I",
+      "C",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "J",
+      "O",
+      "I",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "O",
+      "N",
+      "I",
+      "N",
+      "G",
+      "#",
+      "A",
+      "S",
+      "T",
+      "A"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "N",
+      "#",
+      "A",
+      "G",
+      "L",
+      "E",
+      "A",
+      "M"
+    ],
+    [
+      "#",
+      "S",
+      "S",
+      "N",
+      "#",
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "Y",
+      "E",
+      "A",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "EMBED",
+      "clue": "Attach to, as a journalist to a military unit when reporting on a war",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Attach to, as a journalist to a military unit when reporting on a war",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ELAM",
+      "clue": "Ancient country in southwestern Asia to the east of the Tigris River (in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient country in southwestern Asia to the east of the Tigris River (in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "MARI",
+      "clue": "Finnic language spoken by the Cheremis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Finnic language spoken by the Cheremis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BIDE",
+      "clue": "Await",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To await.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "EDEN",
+      "clue": "Beautiful garden where Adam and Eve were placed at the Creation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Beautiful garden where Adam and Eve were placed at the Creation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Of a dull greyish brown to brownish grey color",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "LAIDUP",
+      "clue": "Repository",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "REPOSITORY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201claid up\u201d defines repository",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "PTARMIGAN",
+      "clue": "Large Arctic and subarctic grouse with feathered feet and usually white winter...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Arctic and subarctic grouse with feathered feet and usually white winter...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "SHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "HOURI",
+      "clue": "One of the dark-eyed virgins of perfect beauty believed to live with the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the dark-eyed virgins of perfect beauty believed to live with the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "AMNIA",
+      "clue": "Fetal membranes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ARDENT",
+      "clue": "Burning with enthusiasm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very enthusiastic or passionate",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TOMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ADEN",
+      "clue": "Important port of Yemen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Important port of Yemen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "MIEN",
+      "clue": "Dignified manner or conduct",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The external appearance or manner of a person.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "AROUND",
+      "clue": "Imprecise but fairly close to correct",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imprecise but fairly close to correct",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "RAIN",
+      "clue": "Anything happening rapidly or in quick successive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anything happening rapidly or in quick successive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "PRAIRIE",
+      "clue": "Treeless grassy plain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Treeless grassy plain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "PEON",
+      "clue": "Laborer who is obliged to do menial work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Laborer who is obliged to do menial work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ACADEMICIAN",
+      "clue": "Educator who works at a college or university",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A member of an academy of literature, art, or science.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Dull persistent (usually moderately intense) pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "COOLS",
+      "clue": "Looses heat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Looses heat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "ANNAS",
+      "clue": "Former copper coins of Pakistan and India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former copper coins of Pakistan and India",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DJINN",
+      "clue": "Invisible spirit mentioned in the Koran and believed by Muslims to inhabit...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Invisible spirit mentioned in the Koran and believed by Muslims to inhabit...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "CONJOIN",
+      "clue": "Make contact or come together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To unite.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "HONING",
+      "clue": "Making perfect or complete",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Making perfect or complete",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ASTA",
+      "clue": "\"The Thin Man\" dog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ALAE",
+      "clue": "Winglike parts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SENA",
+      "clue": "Italian river that gives Siena its name",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TACT",
+      "clue": "Fine or ready mental discernment shown in saying or doing the proper",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "AMES",
+      "clue": "Modulations of the amplitude of the (radio) carrier wave",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Modulations of the amplitude of the (radio) carrier wave",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Enthusiastic and assured vigor and liveliness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enthusiastic and assured vigor and liveliness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "AGLEAM",
+      "clue": "Bright with a steady but subdued shining",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bright with a steady but subdued shining",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle shade of meaning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "YEATS",
+      "clue": "Irish poet and dramatist (1865-1939)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Irish poet and dramatist (1865-1939)",
+      "clueSource": "wordnet"
+    }
+  ]
+}

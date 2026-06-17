@@ -1,0 +1,719 @@
+{
+  "date": "2027-05-29",
+  "number": 1148,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "E",
+      "O",
+      "C",
+      "#",
+      "#",
+      "H",
+      "E",
+      "T",
+      "T",
+      "Y"
+    ],
+    [
+      "L",
+      "A",
+      "L",
+      "O",
+      "#",
+      "#",
+      "A",
+      "M",
+      "A",
+      "Z",
+      "E"
+    ],
+    [
+      "F",
+      "R",
+      "E",
+      "N",
+      "C",
+      "H",
+      "W",
+      "O",
+      "M",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "N",
+      "O",
+      "T",
+      "L",
+      "E",
+      "T",
+      "T",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "S",
+      "H",
+      "E",
+      "R",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "H",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "L",
+      "E",
+      "S",
+      "S",
+      "O",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "U",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N",
+      "E",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "S",
+      "C",
+      "O",
+      "R",
+      "E",
+      "K",
+      "E",
+      "E",
+      "P",
+      "E",
+      "R"
+    ],
+    [
+      "T",
+      "I",
+      "L",
+      "E",
+      "S",
+      "#",
+      "#",
+      "M",
+      "I",
+      "N",
+      "A"
+    ],
+    [
+      "A",
+      "D",
+      "E",
+      "P",
+      "T",
+      "#",
+      "#",
+      "S",
+      "C",
+      "A",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EEOC",
+      "clue": "Workplace bias watchdog: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ELF",
+      "clue": "Below 3 kilohertz",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Below 3 kilohertz",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "EARN",
+      "clue": "See Ern, n. Sir W",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Ern, n. Sir W",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "OLEO",
+      "clue": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "CONTR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "HETTY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "HAWTHORNE",
+      "clue": "United States writer of novels and short stories mostly on moral themes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer of novels and short stories mostly on moral themes...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "EMOTE",
+      "clue": "Give expression or emotion to, in a stage or movie role",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give expression or emotion to, in a stage or movie role",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "TAMER",
+      "clue": "One who corrects by punishment or discipline",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who corrects by punishment or discipline",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TZARS",
+      "clue": "Male monarchs or emperors (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarchs or emperors (especially of Russia prior to 1917)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "YENS",
+      "clue": "Yearnings for something or to do something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yearnings for something or to do something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LALO",
+      "clue": "Powdered leaves of the baobab tree, used by the Africans to mix in their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powdered leaves of the baobab tree, used by the Africans to mix in their...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "AMAZE",
+      "clue": "Be a mystery or bewildering to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be a mystery or bewildering to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "FRENCHWOMAN",
+      "clue": "Person of French nationality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person of French nationality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "CLUMSIEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "HESHOOK",
+      "clue": "Convulsion",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CONVULSION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201che shook\u201d defines convulsion",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "NOTLETTERS",
+      "clue": "Numerical",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NUMERICAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cnot letters\u201d defines numerical",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "RUSHERS",
+      "clue": "Persons who rushes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons who rushes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "MHO",
+      "clue": "Unit of conductance equal to the reciprocal of an ohm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of conductance equal to the reciprocal of an ohm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "LESSORS",
+      "clue": "Someones who grants a lease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someones who grants a lease",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clearly expressed; easy to follow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ECOLE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "STREP",
+      "clue": "Spherical Gram-positive bacteria occurring in pairs or chains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spherical Gram-positive bacteria occurring in pairs or chains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "SEEMS",
+      "clue": "Gives a certain impression or have a certain outward aspect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gives a certain impression or have a certain outward aspect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "AUCTIONEER",
+      "clue": "Agent who conducts an auction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agent who conducts an auction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ASTA",
+      "clue": "\"The Thin Man\" dog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "RENA",
+      "clue": "Actress Sofer of soaps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SCOREKEEPER",
+      "clue": "Official who records the score during the progress of a game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official who records the score during the progress of a game",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "RAN",
+      "clue": "Was in charge of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "TILES",
+      "clue": "Flat thin rectangular slabs (as of fired clay or rubber or linoleum)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat thin rectangular slabs (as of fired clay or rubber or linoleum)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "MINA",
+      "clue": "Tropical Asian starlings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tropical Asian starlings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Highly skilled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SCAN",
+      "clue": "Obtain data from magnetic tapes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtain data from magnetic tapes",
+      "clueSource": "wordnet"
+    }
+  ]
+}

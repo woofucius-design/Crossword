@@ -1,0 +1,738 @@
+{
+  "date": "2027-07-06",
+  "number": 1186,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "A",
+      "A",
+      "E",
+      "D",
+      "#",
+      "A",
+      "S",
+      "H",
+      "A",
+      "#"
+    ],
+    [
+      "A",
+      "N",
+      "G",
+      "L",
+      "I",
+      "C",
+      "A",
+      "N",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "B",
+      "E",
+      "N",
+      "E",
+      "V",
+      "O",
+      "L",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "S",
+      "W",
+      "I",
+      "V",
+      "E",
+      "L",
+      "#",
+      "E",
+      "D",
+      "I",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "O",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "N",
+      "U",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "W",
+      "E",
+      "E",
+      "N",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "N",
+      "#",
+      "A",
+      "T",
+      "T",
+      "L",
+      "E",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "F",
+      "E",
+      "D",
+      "E",
+      "R",
+      "A",
+      "C",
+      "Y"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "I",
+      "V",
+      "E",
+      "R",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "S",
+      "Y",
+      "N",
+      "E",
+      "#",
+      "E",
+      "D",
+      "G",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,5": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,1": {
+      "number": 31
+    },
+    "10,6": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "BAAED",
+      "clue": "Cried plaintively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cried plaintively",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BABS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Over again",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AGNI",
+      "clue": "Hindu god of fire in ancient and traditional India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu god of fire in ancient and traditional India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ELEV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "DIVERGE",
+      "clue": "Move or draw apart",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move or draw apart",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "ASHA",
+      "clue": "Bollywood singer Bhosle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "SNEER",
+      "clue": "Facial expression of contempt or scorn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Facial expression of contempt or scorn",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "HINDS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ASCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "ANGLICANISM",
+      "clue": "Faith and doctrine and practice of the Anglican Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Faith and doctrine and practice of the Anglican Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "COLONNADE",
+      "clue": "Structure composed of a series of arches supported by columns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structure composed of a series of arches supported by columns",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "MET",
+      "clue": "NYC opera house, with \"the\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "BENEVOLENCE",
+      "clue": "Disposition to do good",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any act of kindness or well-doing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "SWIVEL",
+      "clue": "Coupling (as in a chain) that has one end that turns on a headed pin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coupling (as in a chain) that has one end that turns on a headed pin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "EDIT",
+      "clue": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepare for publication or presentation by correcting, revising, or adapting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "ROARS",
+      "clue": "Very loud utterances (like the sound of an animal)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very loud utterances (like the sound of an animal)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Sour and astringent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "GNU",
+      "clue": "Large African antelope having a head with horns like an ox and a long tufted...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large African antelope having a head with horns like an ox and a long tufted...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "WEENS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "WANLY",
+      "clue": "In a weak or pale or languid manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a weak or pale or languid manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ENFIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "GRAN",
+      "clue": "Mother of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother of your father or mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "GCD",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ROES",
+      "clue": "Artificial languages for international use that rejects all existing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artificial languages for international use that rejects all existing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ATTLEE",
+      "clue": "British statesman and leader of the Labour Party who instituted the welfare...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British statesman and leader of the Labour Party who instituted the welfare...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "TRAD",
+      "clue": "Traditional jazz as revived in the 1950s",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Traditional jazz as revived in the 1950s",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LANG",
+      "clue": "Long",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ECCE",
+      "clue": "Behold!, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EYES",
+      "clue": "Opinion or judgment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Opinion or judgment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CONFEDERACY",
+      "clue": "League or compact between two or more persons, bodies of men, or...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A number of states or persons in compact or league with each other, as for",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adam's wife in Judeo-Christian mythology: the first woman and mother of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "DELIVERANCE",
+      "clue": "Recovery or preservation from loss or danger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recovery or preservation from loss or danger",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "SYNE",
+      "clue": "Afterwards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Afterwards",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "EDGES",
+      "clue": "Sharp sides formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp sides formed by the intersection of two surfaces of an object",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "date": "2027-07-09",
+  "number": 1189,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "B",
+      "C",
+      "#",
+      "Z",
+      "E",
+      "A",
+      "L",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "M",
+      "O",
+      "N",
+      "S",
+      "E",
+      "N",
+      "S",
+      "E"
+    ],
+    [
+      "N",
+      "O",
+      "X",
+      "I",
+      "O",
+      "U",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "E",
+      "N",
+      "C",
+      "L",
+      "#",
+      "M",
+      "E",
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "D",
+      "L",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "S",
+      "T",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "L",
+      "A",
+      "N",
+      "E",
+      "T",
+      "#",
+      "R",
+      "E",
+      "D",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "D",
+      "E",
+      "L",
+      "I",
+      "V",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "L",
+      "O",
+      "O",
+      "K",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "B",
+      "A",
+      "N",
+      "D",
+      "A",
+      "N",
+      "A",
+      "#",
+      "F",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,3": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,2": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,4": {
+      "number": 19
+    },
+    "6,7": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,8": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ABC",
+      "clue": "Elementary stages of any subject (usually plural)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elementary stages of any subject (usually plural)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "BOON",
+      "clue": "Desirable state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desirable state",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "CMXCI",
+      "clue": "Roman numeral for 991",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 991",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Having great energy or enthusiasm for a cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ZOO",
+      "clue": "Facility where wild animals are housed for exhibition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Facility where wild animals are housed for exhibition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 11,
+      "answer": "ENUMERATION",
+      "clue": "Act of counting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of counting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "ASSERTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "LENS",
+      "clue": "Transparent optical device used to converge or diverge transmitted light and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Transparent optical device used to converge or diverge transmitted light and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "USSR",
+      "clue": "Former communist country in eastern Europe and northern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former communist country in eastern Europe and northern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SESS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "COMMONSENSE",
+      "clue": "Gumption",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "GUMPTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cCommon sense\u201d defines gumption",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "MILD",
+      "clue": "Placid",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLACID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of placid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "NOXIOUSNESS",
+      "clue": "Noxious",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NOXIOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cNox ious ness\u201d defines noxious",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ENCL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "MESSRS",
+      "clue": "Plural courtesy title for men",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "IDLER",
+      "clue": "Person who does no work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who does no work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "LAMELLA",
+      "clue": "Thin plate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin plate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ART",
+      "clue": "Creation of beautiful or significant things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Creation of beautiful or significant things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "MASTS",
+      "clue": "Vertical spars for supporting sails",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vertical spars for supporting sails",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "TREK",
+      "clue": "Any long and difficult trip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any long and difficult trip",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "SERIF",
+      "clue": "Short line at the end of the main strokes of a character",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short line at the end of the main strokes of a character",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PLANET",
+      "clue": "Any of the nine large celestial bodies in the solar system that revolve around...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of the nine large celestial bodies in the solar system that revolve around...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PROB",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LEVA",
+      "clue": "Bulgarian currency units",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ADEN",
+      "clue": "Important port of Yemen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Important port of Yemen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "NERD",
+      "clue": "Intelligent but single-minded expert in a particular technical field or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intelligent but single-minded expert in a particular technical field or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "REDE",
+      "clue": "Give advice to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give advice to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "DENE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "REDELIVERED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "VOA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "OVERLOOKING",
+      "clue": "Used of a height or viewpoint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used of a height or viewpoint",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "BANDANA",
+      "clue": "Large and brightly colored handkerchief",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large and brightly colored handkerchief",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "FEE",
+      "clue": "Interest in land capable of being inherited",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interest in land capable of being inherited",
+      "clueSource": "wordnet"
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "date": "2027-04-14",
+  "number": 1103,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "D",
+      "A",
+      "P",
+      "T",
+      "#",
+      "A",
+      "C",
+      "A",
+      "D",
+      "#"
+    ],
+    [
+      "R",
+      "U",
+      "L",
+      "E",
+      "O",
+      "R",
+      "M",
+      "O",
+      "D",
+      "E",
+      "L"
+    ],
+    [
+      "T",
+      "E",
+      "T",
+      "R",
+      "A",
+      "H",
+      "Y",
+      "M",
+      "E",
+      "N",
+      "A"
+    ],
+    [
+      "E",
+      "L",
+      "O",
+      "I",
+      "S",
+      "E",
+      "#",
+      "A",
+      "P",
+      "E",
+      "X"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "O",
+      "A",
+      "S",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "W",
+      "I",
+      "D",
+      "T",
+      "H",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "C",
+      "#",
+      "A",
+      "I",
+      "L",
+      "E",
+      "E",
+      "N"
+    ],
+    [
+      "R",
+      "E",
+      "G",
+      "I",
+      "S",
+      "T",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "G",
+      "E",
+      "L",
+      "E",
+      "S",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "O",
+      "R",
+      "Y",
+      "X",
+      "#",
+      "T",
+      "E",
+      "N",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,5": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,1": {
+      "number": 31
+    },
+    "10,6": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ADAPT",
+      "clue": "Fitted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fitted",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ARTE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "DUEL",
+      "clue": "Any struggle between two skillful opponents (individuals or groups)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any struggle between two skillful opponents (individuals or groups)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Second highest member of a group",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "PERI",
+      "clue": "Supernatural being descended from fallen angels and excluded from paradise...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Supernatural being descended from fallen angels and excluded from paradise...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "TOASTED",
+      "clue": "Browned over by exposure to heat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Browned over by exposure to heat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AMY",
+      "clue": "Friend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Friend",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "COMAS",
+      "clue": "States of deep and often prolonged unconsciousness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States of deep and often prolonged unconsciousness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Having or showing knowledge and skill and aptitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "DENE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "RULEORMODEL",
+      "clue": "Accuracy",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACCURACY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201crule or model\u201d defines accuracy",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "RHEOSTATS",
+      "clue": "Resistors for regulating current",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resistors for regulating current",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "LAX",
+      "clue": "Emptying easily or excessively",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Not stringent or energetic.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TETRAHYMENA",
+      "clue": "Relative of the paramecium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relative of the paramecium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ELOISE",
+      "clue": "Plaza Hotel girl of fiction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Point on the celestial sphere toward which the sun and solar system appear...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "TOAST",
+      "clue": "Make brown and crisp by heating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make brown and crisp by heating",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "ATHIRST",
+      "clue": "Wanting drink",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wanting water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "WIDTH",
+      "clue": "Extent of something from side to side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extent of something from side to side",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "WAGER",
+      "clue": "Act of gambling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of gambling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ICILY",
+      "clue": "In a cold and icy manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Frigidly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "TRAC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "TRA",
+      "clue": "\"___-la-la\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "REGO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "AILEEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LANE",
+      "clue": "Narrow way or road",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow way or road",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "EBEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "Other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Other",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "NEST",
+      "clue": "Kind of gun emplacement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of gun emplacement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "REGISTRABLE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "SEX",
+      "clue": "Activities associated with sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activities associated with sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "AGELESSNESS",
+      "clue": "Quality of being timeless and eternal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being timeless and eternal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "ORYX",
+      "clue": "Large African antelope with long straight nearly upright horns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large African antelope with long straight nearly upright horns",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "TENET",
+      "clue": "Religious doctrine that is proclaimed as true without proof",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

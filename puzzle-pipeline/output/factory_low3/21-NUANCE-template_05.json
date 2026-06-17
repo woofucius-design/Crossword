@@ -1,0 +1,777 @@
+{
+  "date": "2027-01-21",
+  "number": 1020,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "P",
+      "M",
+      "#",
+      "L",
+      "E",
+      "N",
+      "A",
+      "P",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "E",
+      "#",
+      "I",
+      "N",
+      "U",
+      "L",
+      "I",
+      "N"
+    ],
+    [
+      "D",
+      "E",
+      "C",
+      "A",
+      "P",
+      "I",
+      "T",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "O",
+      "U",
+      "T",
+      "D",
+      "O",
+      "#",
+      "A",
+      "N",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "P",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "Y",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "A",
+      "X",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "R",
+      "S",
+      "#",
+      "N",
+      "O",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "A",
+      "T",
+      "E",
+      "G",
+      "I",
+      "S",
+      "T",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "T",
+      "E",
+      "S",
+      "#",
+      "S",
+      "L",
+      "O",
+      "T"
+    ],
+    [
+      "T",
+      "A",
+      "T",
+      "A",
+      "R",
+      "S",
+      "#",
+      "E",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "BPM",
+      "clue": "Pace of music measured by the number of beats occurring in 60 seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pace of music measured by the number of beats occurring in 60 seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "BLEU",
+      "clue": "Cheese containing a blue mold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cheese containing a blue mold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PACT",
+      "clue": "Covenant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A covenant.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "MEAD",
+      "clue": "Meadow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A meadow.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "LENAPE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "LII",
+      "clue": "Being two more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "ENTAILING",
+      "clue": "Involving",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Involving",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle shade of meaning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "PIED",
+      "clue": "Having sections or patches colored differently and usually brightly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having sections or patches colored differently and usually brightly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ENDE",
+      "clue": "End, in Germany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAE",
+      "clue": "Winglike parts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "INULIN",
+      "clue": "Used to manufacture fructose and in assessing kidney function",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used to manufacture fructose and in assessing kidney function",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DECAPITATED",
+      "clue": "Having had the head cut off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having had the head cut off",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "POETASTER",
+      "clue": "Inferior poet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An inferior poet.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OUTDO",
+      "clue": "Surpass",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To surpass.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "ANODE",
+      "clue": "Point where or path by which a voltaic current enters an",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The point where or path by which a voltaic current enters an electrolyte or the",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PYX",
+      "clue": "Vessel or casket, usually of precious metal, in which the host is",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A vessel or casket, usually of precious metal, in which the host is preserved.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "STYLE",
+      "clue": "Slender bristlelike or tubular process",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slender bristlelike or tubular process",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "STRATA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "TAXI",
+      "clue": "Car driven by a person whose job is to take passengers where they want to go...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Car driven by a person whose job is to take passengers where they want to go...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PEERS",
+      "clue": "Persons who is of equal standing with another in a group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons who is of equal standing with another in a group",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PSST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ETTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ERAT",
+      "clue": "Quod ___ demonstrandum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NOISE",
+      "clue": "Cacophony",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OISE",
+      "clue": "River north of Paris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STOR",
+      "clue": "Strong",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "STRATEGISTS",
+      "clue": "Experts in strategy (especially in warfare)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Experts in strategy (especially in warfare)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "STATES",
+      "clue": "Way somethings is with respect to its main attributes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Way somethings is with respect to its main attributes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "SLOT",
+      "clue": "Small slit (as for inserting a coin or depositing mail)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small slit (as for inserting a coin or depositing mail)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "TATARS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EER",
+      "clue": "Always, to a bard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

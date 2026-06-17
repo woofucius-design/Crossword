@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-18",
+  "number": 1017,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "W",
+      "A",
+      "S",
+      "H",
+      "#",
+      "Z",
+      "O",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "H",
+      "U",
+      "T",
+      "U",
+      "#",
+      "E",
+      "R",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "L",
+      "I",
+      "R",
+      "A",
+      "S",
+      "#",
+      "A",
+      "D",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "L",
+      "#",
+      "C",
+      "L",
+      "E",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "A",
+      "T",
+      "L",
+      "O",
+      "R",
+      "D",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "G",
+      "H",
+      "O",
+      "U",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "D",
+      "M",
+      "I",
+      "S",
+      "S",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "#",
+      "N",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "V",
+      "I",
+      "R",
+      "T",
+      "U",
+      "#",
+      "P",
+      "E",
+      "L",
+      "T",
+      "S"
+    ],
+    [
+      "I",
+      "S",
+      "L",
+      "E",
+      "S",
+      "#",
+      "I",
+      "S",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "L",
+      "E",
+      "A",
+      "S",
+      "E",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "WASH",
+      "clue": "Work of cleansing (usually with soap and water)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Work of cleansing (usually with soap and water)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "WHIRR",
+      "clue": "Sound of something in rapid motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound of something in rapid motion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AURAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "STALAGMITES",
+      "clue": "Cylinders of calcium carbonate projecting upward from the floor of a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cylinders of calcium carbonate projecting upward from the floor of a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "HUS",
+      "clue": "Czechoslovakian religious reformer who anticipated the Reformation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Czechoslovakian religious reformer who anticipated the Reformation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ZONES",
+      "clue": "Any encirclings or beltlike structures",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any encirclings or beltlike structures",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Having great energy or enthusiasm for a cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "ORDERLINESS",
+      "clue": "Quality of appreciating method and system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of appreciating method and system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "NOMAD",
+      "clue": "Having no fixed abode",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having no fixed abode.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "EDITS",
+      "clue": "Prepares for publication or presentation by correcting, revising, or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepares for publication or presentation by correcting, revising, or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "HUTU",
+      "clue": "Member of a Bantu people living in Rwanda and Burundi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a Bantu people living in Rwanda and Burundi",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ERODE",
+      "clue": "Remove soil or rock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove soil or rock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "LIRAS",
+      "clue": "Formerly the basic units of money in Italy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formerly the basic units of money in Italy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "LOG",
+      "clue": "Measuring instrument that consists of a float that trails from a ship by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instrument that consists of a float that trails from a ship by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "ADMIT",
+      "clue": "Suffer to enter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suffer to enter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered through the mouth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "CLEAT",
+      "clue": "Strip of wood or metal used to strengthen the surface to which it is attached",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strip of wood or metal used to strengthen the surface to which it is attached",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "CLOSE",
+      "clue": "Concluding part of any performance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Concluding part of any performance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "GREATLORDS",
+      "clue": "Imperious",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "IMPERIOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cgreat lords\u201d defines imperious",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "THISUSE",
+      "clue": "Psychic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PSYCHIC"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cthis use\u201d defines psychic",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "GHOUL",
+      "clue": "Evil spirit or ghost",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evil spirit or ghost",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "ADMISSIBLE",
+      "clue": "Having the right or privilege of entry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having the right or privilege of entry.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ARISE",
+      "clue": "Get up and out of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get up and out of bed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "DARLA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "BELLE",
+      "clue": "Woman who is a center of attraction because of her beauty, accomplishments",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A woman who is a center of attraction because of her beauty, accomplishments...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "LATED",
+      "clue": "Belated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belated",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "RAISE",
+      "clue": "Cause to become alive again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to become alive again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NEAR",
+      "clue": "Move towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move towards",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "VIRTU",
+      "clue": "Rare, curious, or beautiful quality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Rare, curious, or beautiful quality.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "VIL",
+      "clue": "Small settlement: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "PELTS",
+      "clue": "Bodies covering of a living animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bodies covering of a living animal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "PIU",
+      "clue": "Little more",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little more",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ISLES",
+      "clue": "Islands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Islands",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "LEASE",
+      "clue": "Contract granting use or occupation of property during a specified time for a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contract granting use or occupation of property during a specified time for a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

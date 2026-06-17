@@ -1,0 +1,748 @@
+{
+  "date": "2027-05-09",
+  "number": 1128,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "O",
+      "W",
+      "#",
+      "#",
+      "D",
+      "U",
+      "M",
+      "B",
+      "#"
+    ],
+    [
+      "T",
+      "O",
+      "P",
+      "O",
+      "#",
+      "#",
+      "I",
+      "L",
+      "I",
+      "A",
+      "C"
+    ],
+    [
+      "O",
+      "B",
+      "S",
+      "O",
+      "L",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "I",
+      "R",
+      "I",
+      "D",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "#",
+      "T",
+      "S",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "P",
+      "E",
+      "N",
+      "D",
+      "#",
+      "O",
+      "B",
+      "A"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "C",
+      "E",
+      "S",
+      "S",
+      "O",
+      "R"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "A",
+      "M",
+      "E",
+      "D",
+      "I",
+      "C",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "L",
+      "A",
+      "#",
+      "#",
+      "V",
+      "A",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "O",
+      "P",
+      "E",
+      "N",
+      "#",
+      "#",
+      "A",
+      "R",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCOW",
+      "clue": "Barge carrying bulk materials in an open hold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Barge carrying bulk materials in an open hold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "COBRA",
+      "clue": "Venomous Asiatic and African elapid snakes that can expand the skin of the neck...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Venomous Asiatic and African elapid snakes that can expand the skin of the neck...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "OPSIN",
+      "clue": "Retinal protein formed by the action of light on rhodopsin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Retinal protein formed by the action of light on rhodopsin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "WOOD",
+      "clue": "Golf club with a long shaft used to hit long shots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Golf club with a long shaft used to hit long shots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "DUMB",
+      "clue": "Unable to speak because of hereditary deafness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unable to speak because of hereditary deafness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "DISCARDED",
+      "clue": "Thrown away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thrown away",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "ULCER",
+      "clue": "Circumscribed inflammatory and often suppurating lesion on the skin or an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Circumscribed inflammatory and often suppurating lesion on the skin or an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "MIENS",
+      "clue": "External appearances or manners of a person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "External appearances or manners of a person",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BANC",
+      "clue": "Bench",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bench",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "TOPO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ILIAC",
+      "clue": "Of or relating to the ilium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the ilium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "CTE",
+      "clue": "Brain trauma condition, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OBSOLESCENT",
+      "clue": "Passing out of use, as a word",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Passing out of use, as a word.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "LETTERMAN",
+      "clue": "Athlete who has earned a letter in a school sport",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Athlete who has earned a letter in a school sport",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "ESSENCE",
+      "clue": "That which makes a thing to be what it is",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That which makes a thing to be what it is.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "IRIDESCENCE",
+      "clue": "Many-colored appearance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A many-colored appearance.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "CAN",
+      "clue": "Airtight sealed metal container for food or drink or paint etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airtight sealed metal container for food or drink or paint etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "TSARS",
+      "clue": "Male monarchs or emperors (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarchs or emperors (especially of Russia prior to 1917)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TER",
+      "clue": "Three: Prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SPEND",
+      "clue": "Pay out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pay out",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "STREP",
+      "clue": "Spherical Gram-positive bacteria occurring in pairs or chains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spherical Gram-positive bacteria occurring in pairs or chains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "PEALE",
+      "clue": "Portraitist Charles Willson",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "OBA",
+      "clue": "African royal title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OSCAR",
+      "clue": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "BOAST",
+      "clue": "Speaking of yourself in superlatives",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Speaking of yourself in superlatives",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ARLES",
+      "clue": "Money given by a buyer to a seller to bind a contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money given by a buyer to a seller to bind a contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERCESSOR",
+      "clue": "Mediator",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A mediator.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "IPS",
+      "clue": "Scienceses concerned with gathering, manipulating, storing, retrieving,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scienceses concerned with gathering, manipulating, storing, retrieving,",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "NATO",
+      "clue": "International organization created in 1949 by the North Atlantic Treaty for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization created in 1949 by the North Atlantic Treaty for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SIVA",
+      "clue": "Destroyer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Destroyer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PARAMEDICAL",
+      "clue": "Person trained to assist medical professionals and to give emergency medical...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person trained to assist medical professionals and to give emergency medical...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "STELA",
+      "clue": "Ancient upright stone slab bearing markings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient upright stone slab bearing markings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "VASE",
+      "clue": "Open jar of glass or porcelain used as an ornament or to hold flowers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open jar of glass or porcelain used as an ornament or to hold flowers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "OPEN",
+      "clue": "Information that has become public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Information that has become public",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

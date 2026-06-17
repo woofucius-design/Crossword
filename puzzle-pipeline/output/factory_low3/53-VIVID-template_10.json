@@ -1,0 +1,727 @@
+{
+  "date": "2027-02-22",
+  "number": 1052,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "W",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "C",
+      "H",
+      "U",
+      "S",
+      "S",
+      "#",
+      "V",
+      "E",
+      "N",
+      "A"
+    ],
+    [
+      "A",
+      "C",
+      "O",
+      "S",
+      "T",
+      "A",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "E",
+      "L",
+      "H",
+      "A",
+      "M",
+      "#",
+      "V",
+      "O",
+      "I",
+      "D"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "#",
+      "T",
+      "A",
+      "M",
+      "I",
+      "L",
+      "S",
+      "#"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "P",
+      "E",
+      "R",
+      "A",
+      "D",
+      "O",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "R",
+      "A",
+      "I",
+      "S",
+      "I",
+      "N",
+      "#",
+      "G",
+      "M",
+      "O"
+    ],
+    [
+      "C",
+      "A",
+      "L",
+      "M",
+      "#",
+      "T",
+      "I",
+      "B",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "P",
+      "#",
+      "A",
+      "L",
+      "A",
+      "S",
+      "K",
+      "A"
+    ],
+    [
+      "S",
+      "E",
+      "R",
+      "S",
+      "#",
+      "N",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AWL",
+      "clue": "Pointed tool for marking surfaces or for punching small holes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pointed tool for marking surfaces or for punching small holes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "ACCELERATE",
+      "clue": "Move faster",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move faster.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "WHOLESALER",
+      "clue": "Someone who buys large quantities of goods and resells to merchants rather than...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who buys large quantities of goods and resells to merchants rather than...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LUSH",
+      "clue": "Opulent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OPULENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of opulent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "SCHUSS",
+      "clue": "Ski downhill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ski downhill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SAPID",
+      "clue": "Full of flavor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Affecting the sense of taste.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "STATES",
+      "clue": "Way somethings is with respect to its main attributes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Way somethings is with respect to its main attributes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SAMARITAN",
+      "clue": "Member of the people inhabiting Samaria in biblical times",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the people inhabiting Samaria in biblical times",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "VENA",
+      "clue": "Blood vessel that carries blood from the capillaries toward the heart",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Blood vessel that carries blood from the capillaries toward the heart",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Strikingly bright or clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "ECOLOGISTS",
+      "clue": "Biologists who studies the relation between organisms and their",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Biologists who studies the relation between organisms and their",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "NOISEMAKER",
+      "clue": "Device (such as a clapper or bell or horn) used to make a loud noise at a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device (such as a clapper or bell or horn) used to make a loud noise at a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ACOSTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Conventional religious painting in oil on a small wooden panel",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "PELHAM",
+      "clue": "Bit with a bar mouthpiece that is designed to combine a curb and snaffle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bit with a bar mouthpiece that is designed to combine a curb and snaffle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "VOID",
+      "clue": "Empty area or space",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Empty area or space",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ILE",
+      "clue": "Ear of corn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ear of corn",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "TAMILS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "MANILA",
+      "clue": "Capital and largest city of the Philippines",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of the Philippines",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DESPERADOES",
+      "clue": "Ones without regard for law or life",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones without regard for law or life",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "PIMPS",
+      "clue": "Arranges for sexual partners for others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arranges for sexual partners for others",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SOLAR",
+      "clue": "Relating to or derived from the sun or utilizing the energies of the sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the sun.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "RAISIN",
+      "clue": "Dried grape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dried grape",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "GMO",
+      "clue": "Engineered food, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engineered food, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CALM",
+      "clue": "Stoic",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "PLACID",
+        "SERENE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Soft silver-white ductile metallic element (liquids at normal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft silver-white ductile metallic element (liquids at normal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "TIBIAL",
+      "clue": "Relating to or located near a tibia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or located near a tibia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "BATE",
+      "clue": "Soak in a special solution to soften and remove chemicals used in previous...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soak in a special solution to soften and remove chemicals used in previous...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ALASKA",
+      "clue": "State in northwestern North America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in northwestern North America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "NATTER",
+      "clue": "Talk socially without exchanging too much information",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Talk socially without exchanging too much information",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ESR",
+      "clue": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

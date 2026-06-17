@@ -1,0 +1,775 @@
+{
+  "date": "2027-03-02",
+  "number": 1060,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "J",
+      "U",
+      "D",
+      "E",
+      "#",
+      "A",
+      "M",
+      "A",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "U",
+      "R",
+      "E",
+      "Y",
+      "#",
+      "F",
+      "A",
+      "D",
+      "E",
+      "D"
+    ],
+    [
+      "F",
+      "R",
+      "A",
+      "M",
+      "E",
+      "#",
+      "F",
+      "L",
+      "I",
+      "C",
+      "K"
+    ],
+    [
+      "I",
+      "O",
+      "T",
+      "A",
+      "#",
+      "C",
+      "A",
+      "P",
+      "E",
+      "T",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "G",
+      "A",
+      "R",
+      "I",
+      "O",
+      "U",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "O",
+      "V",
+      "E",
+      "R",
+      "W",
+      "E",
+      "I",
+      "G",
+      "H",
+      "T"
+    ],
+    [
+      "#",
+      "P",
+      "E",
+      "T",
+      "A",
+      "L",
+      "#",
+      "T",
+      "H",
+      "A",
+      "W"
+    ],
+    [
+      "L",
+      "E",
+      "G",
+      "I",
+      "T",
+      "#",
+      "P",
+      "I",
+      "A",
+      "N",
+      "O"
+    ],
+    [
+      "B",
+      "R",
+      "A",
+      "Z",
+      "E",
+      "#",
+      "T",
+      "O",
+      "N",
+      "G",
+      "#"
+    ],
+    [
+      "W",
+      "A",
+      "N",
+      "E",
+      "D",
+      "#",
+      "A",
+      "N",
+      "A",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "JUDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "JUROR",
+      "clue": "One who serves on a jury or is sworn in for jury duty in a court of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who serves on a jury or is sworn in for jury duty in a court of justice.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "URATE",
+      "clue": "Salt of uric acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Salt of uric acid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "DEMAGNETIZE",
+      "clue": "Deprive of magnetic properties. See Magnetize. If the bar be...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To deprive (a magnet) of magnetism.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "EYE",
+      "clue": "Small hole or loop (as in a needle)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small hole or loop (as in a needle)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "AMASS",
+      "clue": "Collect or gather",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collect or gather",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "AFFAIRE",
+      "clue": "Usually secretive or illicit sexual relationship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually secretive or illicit sexual relationship",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "MALPOSITION",
+      "clue": "Faulty position",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Faulty position",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by; farewell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SECTS",
+      "clue": "Subdivisions of a larger religious group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subdivisions of a larger religious group",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SDK",
+      "clue": "Developer's toolkit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Developer's toolkit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "UREY",
+      "clue": "United States chemist who discovered deuterium (1893-1981)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States chemist who discovered deuterium (1893-1981)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "FADED",
+      "clue": "Having lost freshness or brilliance of color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having lost freshness or brilliance of color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "FRAME",
+      "clue": "One of the ten divisions into which bowling is divided",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the ten divisions into which bowling is divided",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "FIG",
+      "clue": "Diagram or picture illustrating textual material",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diagram or picture illustrating textual material",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "FLICK",
+      "clue": "Form of entertainment that enacts a story by sound and a sequence of images...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of entertainment that enacts a story by sound and a sequence of images...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "Ninth letter of the Greek alphabet (i) corresponding with the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "CAPET",
+      "clue": "King of France elected in 987 and founding the Capetian dynasty (940-996)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "King of France elected in 987 and founding the Capetian dynasty (940-996)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "CRAWL",
+      "clue": "Slow mode of locomotion on hands and knees or dragging the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slow mode of locomotion on hands and knees or dragging the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "GREGARIOUS",
+      "clue": "Habitually living or moving in flocks or herds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fond of company; sociable",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "AERATED",
+      "clue": "Treated by having air passed or bubbled through it for purification",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Treated by having air passed or bubbled through it for purification",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "NEARS",
+      "clue": "Moves towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moves towards",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "OVERWEIGHT",
+      "clue": "Weight over and above what is required by law or custom",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Preponderance.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "OPERA",
+      "clue": "Building where musical dramas are performed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Building where musical dramas are performed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "VEGAN",
+      "clue": "Strict vegetarian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strict vegetarian",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "GHANA",
+      "clue": "Republic in West Africa on the Gulf of Guinea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in West Africa on the Gulf of Guinea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "HANGS",
+      "clue": "Gymnastic exercises performed on the rings or horizontal bar or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gymnastic exercises performed on the rings or horizontal bar or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "TWO",
+      "clue": "Being one more than one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one more than one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "PETAL",
+      "clue": "Part of the perianth that is usually brightly colored",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of the perianth that is usually brightly colored",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "THAW",
+      "clue": "Relaxation or slackening of tensions or reserve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relaxation or slackening of tensions or reserve",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "LEGIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "LBW",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "PIANO",
+      "clue": "Keyboard instrument that is played by depressing keys that cause hammers to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Keyboard instrument that is played by depressing keys that cause hammers to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "PTA",
+      "clue": "School parents' grp.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "BRAZE",
+      "clue": "Solder with hard solder, esp. with an alloy of copper and zinc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make of or ornament with brass.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "TONG",
+      "clue": "Tongue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tongue",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "WANED",
+      "clue": "Became pale and sickly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Became pale and sickly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ANAS",
+      "clue": "Type genus of the Anatidae: freshwater ducks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Anatidae: freshwater ducks",
+      "clueSource": "wordnet"
+    }
+  ]
+}

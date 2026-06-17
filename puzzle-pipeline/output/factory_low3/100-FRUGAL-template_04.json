@@ -1,0 +1,753 @@
+{
+  "date": "2027-04-10",
+  "number": 1099,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "C",
+      "T",
+      "#",
+      "J",
+      "E",
+      "D",
+      "I",
+      "#"
+    ],
+    [
+      "#",
+      "F",
+      "O",
+      "R",
+      "B",
+      "E",
+      "A",
+      "R",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "M",
+      "A",
+      "K",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "C",
+      "P",
+      "S",
+      "#",
+      "C",
+      "E",
+      "T",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "O",
+      "D",
+      "A",
+      "S",
+      "#",
+      "S",
+      "T",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "Y",
+      "R",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "#",
+      "N",
+      "O",
+      "V",
+      "U",
+      "M",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "U",
+      "G",
+      "A",
+      "L",
+      "#",
+      "R",
+      "I",
+      "G",
+      "#"
+    ],
+    [
+      "F",
+      "U",
+      "R",
+      "O",
+      "S",
+      "E",
+      "M",
+      "I",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "O",
+      "R",
+      "T",
+      "S",
+      "C",
+      "A",
+      "S",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "S",
+      "P",
+      "Y",
+      "#",
+      "L",
+      "E",
+      "T",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACCT",
+      "clue": "Bank record: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AFDC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "CORPS",
+      "clue": "Human body, whether living or dead",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A number or body of persons in some way associated or acting together.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "CRESOL",
+      "clue": "Any of three poisonous colorless isomeric phenols",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of three poisonous colorless isomeric phenols",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "JEDI",
+      "clue": "\"Star Wars\" knight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "JAMESIV",
+      "clue": "Enmity",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ENMITY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cJames iv\u201d defines enmity",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ERAT",
+      "clue": "Quod ___ demonstrandum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "DIKES",
+      "clue": "Barriers constructed to contain the flow of water or to keep out the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Barriers constructed to contain the flow of water or to keep out the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "INERT",
+      "clue": "Destitute of the power of moving itself, or of active resistance to...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Inanimate.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "FORBEARING",
+      "clue": "Showing patient and unruffled self-control and restraint under adversity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Showing patient and unruffled self-control and restraint under adversity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ESCAROLES",
+      "clue": "Varieties of endive having leaves with irregular frilled edges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Varieties of endive having leaves with irregular frilled edges",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "GRAD",
+      "clue": "Person who has received a degree from a school (high school or college or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has received a degree from a school (high school or college or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "DRESSMAKER",
+      "clue": "Someone who makes or mends dresses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who makes or mends dresses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "CPS",
+      "clue": "Unit of frequency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of frequency",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CETERA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "SODAS",
+      "clue": "Sweet drink containing carbonated waters and flavorings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweet drink containing carbonated waters and flavorings",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "DYNASTY",
+      "clue": "Sequence of powerful leaders in the same family",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sequence of powerful leaders in the same family",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LYRIC",
+      "clue": "Of or pertaining to a lyre or harp",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fitted for expression in song.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "CURIAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Short poetical composition proper to be set to music or sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "OFFS",
+      "clue": "Kills intentionally and with premeditation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kills intentionally and with premeditation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "DRUPE",
+      "clue": "Fleshy indehiscent fruit with a single seed: e.g. almond",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy indehiscent fruit with a single seed: e.g. almond",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "EUROS",
+      "clue": "Basic monetary units of most members of the European Union (introduced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary units of most members of the European Union (introduced",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "NOVUM",
+      "clue": "Game at dice, properly called novem quinque (L., nine five), the two...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game at dice, properly called novem quinque (L., nine five), the two...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "MIDST",
+      "clue": "Location of something surrounded by other things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location of something surrounded by other things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "FRUGAL",
+      "clue": "Avoiding waste",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "sparing or economical with money or food",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "GORP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "RIG",
+      "clue": "Act of swindling by some fraudulent scheme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of swindling by some fraudulent scheme",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GETS",
+      "clue": "Returns on a shot that seemed impossible to reach and would normally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Returns on a shot that seemed impossible to reach and would normally",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "FUROSEMIDE",
+      "clue": "Commonly used diuretic (trade name Lasix) used to treat hypertension and edema",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commonly used diuretic (trade name Lasix) used to treat hypertension and edema",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MCL",
+      "clue": "Roman numeral for 1150",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1150",
+      "clueSource": "roman"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "SPORTSCAST",
+      "clue": "Broadcast of sports news or commentary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broadcast of sports news or commentary",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "LETS",
+      "clue": "Serves that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves that strikes the net before falling into the receiver's court",
+      "clueSource": "inflection"
+    }
+  ]
+}

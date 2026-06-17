@@ -1,0 +1,757 @@
+{
+  "date": "2027-06-19",
+  "number": 1169,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "N",
+      "I",
+      "L",
+      "#",
+      "G",
+      "U",
+      "F",
+      "F",
+      "#"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "N",
+      "U",
+      "D",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "D",
+      "I",
+      "S",
+      "B",
+      "E",
+      "L",
+      "I",
+      "E",
+      "V",
+      "E"
+    ],
+    [
+      "#",
+      "S",
+      "G",
+      "T",
+      "#",
+      "T",
+      "I",
+      "L",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "H",
+      "E",
+      "G",
+      "E",
+      "L",
+      "#",
+      "D",
+      "A",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "U",
+      "R",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "T",
+      "C",
+      "#",
+      "V",
+      "R",
+      "O",
+      "O",
+      "M",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "H",
+      "R",
+      "I",
+      "N",
+      "E",
+      "#",
+      "B",
+      "A",
+      "D",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "C",
+      "O",
+      "N",
+      "F",
+      "U",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "A",
+      "F",
+      "T",
+      "E",
+      "R",
+      "T",
+      "A",
+      "S",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "E",
+      "D",
+      "S",
+      "#",
+      "S",
+      "T",
+      "E",
+      "P",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ANIL",
+      "clue": "Shrub of West Indies and South America that is a source of indigo dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrub of West Indies and South America that is a source of indigo dye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ADDS",
+      "clue": "Conditions (mostly in boys) characterized by behavioral and learning",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conditions (mostly in boys) characterized by behavioral and learning",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "NEIGH",
+      "clue": "Characteristic sounds made by a horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characteristic sounds made by a horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "INSTEP",
+      "clue": "Part of a shoe or stocking that covers the arch of the foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a shoe or stocking that covers the arch of the foot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "LUB",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "GUFF",
+      "clue": "Unacceptable behavior (especially ludicrously false statements)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unacceptable behavior (especially ludicrously false statements)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "GALILEO",
+      "clue": "Italian astronomer and mathematician who was the first to use a telescope to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian astronomer and mathematician who was the first to use a telescope to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "UTIL",
+      "clue": "Power co. service: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "FIELD",
+      "clue": "Particular kind of commercial enterprise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particular kind of commercial enterprise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "FOVEA",
+      "clue": "Area consisting of a small depression in the retina containing cones and where...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area consisting of a small depression in the retina containing cones and where...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "DENUDATION",
+      "clue": "Removal of covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Removal of covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "DETERRENT",
+      "clue": "Tending to deter",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Hindering from action through fear.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "NERD",
+      "clue": "Intelligent but single-minded expert in a particular technical field or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intelligent but single-minded expert in a particular technical field or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "DISBELIEVE",
+      "clue": "Reject as false",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reject as false",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "SGT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "TILLER",
+      "clue": "Farm implement used to break up the surface of the soil (for aeration and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farm implement used to break up the surface of the soil (for aeration and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "HEGEL",
+      "clue": "German philosopher whose three stage process of dialectical reasoning was...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German philosopher whose three stage process of dialectical reasoning was...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "GUVNORS",
+      "clue": "Bosses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bosses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "DAD",
+      "clue": "Informal term for a father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for a father",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "PURER",
+      "clue": "More in a state of sexual virginity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More in a state of sexual virginity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Strong, healthy, and vigorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "OTC",
+      "clue": "Not traded on a stock exchange",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not traded on a stock exchange",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "OSSA",
+      "clue": "Bones, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "THEFT",
+      "clue": "Act of taking something from someone unlawfully",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of taking something from someone unlawfully",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CRETE",
+      "clue": "Largest Greek island in the Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest Greek island in the Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "VROOM",
+      "clue": "Roaring sound made by a motor that is running at high speed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roaring sound made by a motor that is running at high speed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "MATTE",
+      "clue": "Property of having little or no contrast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property of having little or no contrast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "SHRINE",
+      "clue": "Place of worship hallowed by association with some sacred thing or person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place of worship hallowed by association with some sacred thing or person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ICED",
+      "clue": "Put on the rocks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "BAD",
+      "clue": "That which is below standard or expectations as of ethics or decency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That which is below standard or expectations as of ethics or decency",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "DEEP",
+      "clue": "Literary term for an ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Literary term for an ocean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "SEECONFUTE",
+      "clue": "Refute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "REFUTE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Confute\u201d defines refute",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "FAS",
+      "clue": "Congenital medical condition in which body deformation occurs or facial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Congenital medical condition in which body deformation occurs or facial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "AFTERTASTE",
+      "clue": "Afterimage of a taste",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Afterimage of a taste",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "TEDS",
+      "clue": "Tough youths of 1950's and 1960's wearing Edwardian style clothes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough youths of 1950's and 1960's wearing Edwardian style clothes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    }
+  ]
+}

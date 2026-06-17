@@ -1,0 +1,781 @@
+{
+  "date": "2027-01-26",
+  "number": 1025,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "I",
+      "L",
+      "I",
+      "A",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "B",
+      "U",
+      "F",
+      "F",
+      "#",
+      "P",
+      "I",
+      "T",
+      "#"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "T",
+      "O",
+      "R",
+      "#",
+      "E",
+      "R",
+      "O",
+      "S"
+    ],
+    [
+      "S",
+      "A",
+      "D",
+      "O",
+      "#",
+      "E",
+      "S",
+      "C",
+      "A",
+      "P",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "T",
+      "O",
+      "N",
+      "I",
+      "A"
+    ],
+    [
+      "M",
+      "E",
+      "T",
+      "A",
+      "P",
+      "H",
+      "Y",
+      "S",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "A",
+      "D",
+      "E",
+      "N",
+      "I",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E",
+      "#",
+      "C",
+      "L",
+      "U",
+      "B"
+    ],
+    [
+      "E",
+      "C",
+      "R",
+      "U",
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "E",
+      "S",
+      "L",
+      "#",
+      "S",
+      "N",
+      "A",
+      "T",
+      "C",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "Y",
+      "S",
+      "O",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ILIAC",
+      "clue": "Of or relating to the ilium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the ilium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "IRES",
+      "clue": "Boards of the British government that administers and collects major",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boards of the British government that administers and collects major",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LEDA",
+      "clue": "Queen of Sparta who was raped by Zeus who had taken the form of a swan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Queen of Sparta who was raped by Zeus who had taken the form of a swan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "IBID",
+      "clue": "Footnote word meaning \"same source\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "AUTO",
+      "clue": "Motor vehicle with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicle with four wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "CFO",
+      "clue": "Corporate executive having financial authority to make appropriations and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive having financial authority to make appropriations and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "REBUFF",
+      "clue": "Deliberate discourteous act (usually as an expression of anger or disapproval)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A peremptory or unexpected rejection of advances or approaches.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "FRESHNESS",
+      "clue": "Originality by virtue of being refreshingly novel",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The state, quality, or degree of being fresh.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "PIT",
+      "clue": "Workplace consisting of a coal mine plus all the buildings and equipment...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Workplace consisting of a coal mine plus all the buildings and equipment...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "PECOS",
+      "clue": "Tributary of the Rio Grande that flows southeastward from New Mexico through...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tributary of the Rio Grande that flows southeastward from New Mexico through...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "IRANI",
+      "clue": "Native or inhabitant of Iran",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native or inhabitant of Iran",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "TOPIC",
+      "clue": "Some situation or event that is thought about",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Some situation or event that is thought about",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "EDITOR",
+      "clue": "Program designed to perform such editorial functions as rearrangement or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program designed to perform such editorial functions as rearrangement or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "EROS",
+      "clue": "Desire for sexual intimacy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desire for sexual intimacy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "SEAS",
+      "clue": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "SADO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ESCAPE",
+      "clue": "Issue or leak, as from a small opening",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Issue or leak, as from a small opening",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Infection of the sebaceous gland of the eyelid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infection of the sebaceous gland of the eyelid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ESTONIA",
+      "clue": "Republic in northeastern Europe on the Baltic Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in northeastern Europe on the Baltic Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "METAPHYSICS",
+      "clue": "Philosophical study of being and knowing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The principles of philosophy as applied to explain the methods of any",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "MANE",
+      "clue": "Long hair growing upon and about the neck of certain animals, as the horse and",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The long hair growing upon and about the neck of certain animals, as the horse and",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EDUCE",
+      "clue": "Develop or evolve from a latent or potential state",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To draw out.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "TEARS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ANNUL",
+      "clue": "Cancel officially",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cancel officially",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "ADENINE",
+      "clue": "Purine base found in DNA and RNA",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Purine base found in DNA and RNA",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or expression",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CLUB",
+      "clue": "Spot that is open late at night and that provides entertainment (as singers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spot that is open late at night and that provides entertainment (as singers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CRAY",
+      "clue": "See Crare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Crare",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LETS",
+      "clue": "Serves that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves that strikes the net before falling into the receiver's court",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "UNCO",
+      "clue": "A remarkable degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A remarkable degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "BEHN",
+      "clue": "Centaurea behen, or saw-leaved centaury. (b) The Cucubalus behen, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Centaurea behen, or saw-leaved centaury. (b) The Cucubalus behen, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ECRU",
+      "clue": "Very light brown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very light brown",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Calm, peaceful, and untroubled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "ESL",
+      "clue": "Language class, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language class, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SNATCH",
+      "clue": "Act of catching an object with the hands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of catching an object with the hands",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "DYSON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

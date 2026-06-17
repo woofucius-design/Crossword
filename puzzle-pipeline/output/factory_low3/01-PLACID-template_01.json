@@ -1,0 +1,789 @@
+{
+  "date": "2027-01-01",
+  "number": 1000,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "L",
+      "A",
+      "C",
+      "I",
+      "D",
+      "#",
+      "A",
+      "T",
+      "P",
+      "#"
+    ],
+    [
+      "E",
+      "U",
+      "G",
+      "E",
+      "N",
+      "E",
+      "#",
+      "A",
+      "H",
+      "A",
+      "B"
+    ],
+    [
+      "X",
+      "M",
+      "A",
+      "S",
+      "#",
+      "B",
+      "A",
+      "R",
+      "R",
+      "I",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "A",
+      "B",
+      "O",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "U",
+      "D",
+      "I",
+      "T",
+      "E",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "L",
+      "I",
+      "P",
+      "R",
+      "E",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "E",
+      "G",
+      "G",
+      "S"
+    ],
+    [
+      "N",
+      "E",
+      "E",
+      "M",
+      "#",
+      "L",
+      "A",
+      "R",
+      "I",
+      "A",
+      "T"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "C",
+      "E",
+      "A",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ASSAY",
+      "clue": "Trial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The chemical analysis or testing of an alloy ore.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Tip, top, point, or angular summit of anything",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SLUM",
+      "clue": "District of a city marked by poverty and inferior living conditions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "District of a city marked by poverty and inferior living conditions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SAGA",
+      "clue": "Narrative telling the adventures of a hero or a family",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrative telling the adventures of a hero or a family",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ACES",
+      "clue": "Electrics current that reverses direction sinusoidally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrics current that reverses direction sinusoidally",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "YIN",
+      "clue": "Dark negative feminine principle in Chinese dualistic cosmology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dark negative feminine principle in Chinese dualistic cosmology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Calm and untroubled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "DEBATABLE",
+      "clue": "Liable to be debated",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Subject to contention or dispute.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "AARON",
+      "clue": "Elder brother of Moses and first high priest of the Israelites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elder brother of Moses and first high priest of the Israelites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "THROE",
+      "clue": "Severe spasm of pain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Severe spasm of pain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "PAINS",
+      "clue": "Effortful attempt to attain a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Effortful attempt to attain a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "EUGENE",
+      "clue": "City in western Oregon on the Willamette River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Oregon on the Willamette River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "AHAB",
+      "clue": "According to the Old Testament he was a pagan king of Israel and husband of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "According to the Old Testament he was a pagan king of Israel and husband of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "BOSS",
+      "clue": "Circular rounded projection or protuberance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Circular rounded projection or protuberance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "XMAS",
+      "clue": "Christian holiday celebrating the birth of Christ",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Christian holiday celebrating the birth of Christ",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "BARRIO",
+      "clue": "Urban area in a Spanish-speaking country",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urban area in a Spanish-speaking country",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "BABOONS",
+      "clue": "Large terrestrial monkeys having doglike muzzleses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large terrestrial monkeys having doglike muzzleses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "BIER",
+      "clue": "Horizontal framework with two handles at each end for carrying a",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A horizontal framework with two handles at each end for carrying a corpse to the",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ERUDITENESS",
+      "clue": "Erudite",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ERUDITE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cEr u dite ness\u201d defines erudite",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Enthusiastic and assured vigor and liveliness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enthusiastic and assured vigor and liveliness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "RIBES",
+      "clue": "Flowering shrub bearing currants or gooseberries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flowering shrub bearing currants or gooseberries",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "UPSET",
+      "clue": "Improbable and unexpected victory",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Improbable and unexpected victory",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DROME",
+      "clue": "Airfield equipped with control tower and hangars as well as accommodations...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airfield equipped with control tower and hangars as well as accommodations...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "LIPREAD",
+      "clue": "Understand by watching the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Swallow up",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "EGGS",
+      "clue": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Cast reproaches and sneering expressions",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GALA",
+      "clue": "Gay festivity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gay festivity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STEN",
+      "clue": "British submachine gun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "NEEM",
+      "clue": "Large semi-evergreen tree of the East Indies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large semi-evergreen tree of the East Indies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LARIAT",
+      "clue": "Long noosed rope used to catch animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long noosed rope used to catch animals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "STE",
+      "clue": "Saint, in Quebec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Fit to be eaten as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Large body of water constituting a principal part of the hydrosphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large body of water constituting a principal part of the hydrosphere",
+      "clueSource": "wordnet"
+    }
+  ]
+}

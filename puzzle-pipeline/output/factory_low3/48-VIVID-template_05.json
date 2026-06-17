@@ -1,0 +1,773 @@
+{
+  "date": "2027-02-17",
+  "number": 1047,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "G",
+      "U",
+      "Y",
+      "#",
+      "A",
+      "C",
+      "C",
+      "E",
+      "P",
+      "T"
+    ],
+    [
+      "L",
+      "I",
+      "R",
+      "A",
+      "#",
+      "V",
+      "O",
+      "O",
+      "D",
+      "O",
+      "O"
+    ],
+    [
+      "A",
+      "B",
+      "A",
+      "N",
+      "D",
+      "O",
+      "N",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "B",
+      "E",
+      "L",
+      "A",
+      "Y",
+      "#",
+      "D",
+      "E",
+      "N",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "U",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "P",
+      "O",
+      "C",
+      "H",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "R",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "S",
+      "S",
+      "O",
+      "#",
+      "V",
+      "I",
+      "V",
+      "I",
+      "D"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "N",
+      "E",
+      "C",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "W",
+      "I",
+      "E",
+      "N",
+      "I",
+      "E",
+      "#",
+      "O",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "P",
+      "E",
+      "C",
+      "T",
+      "#",
+      "N",
+      "I",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stay-rope.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Utter taunts or reproaches",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "URAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "YANA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ACCEPT",
+      "clue": "Take when offered",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To take when offered.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "CONDUCIVE",
+      "clue": "Contributing to an end",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Contributing to an end.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "COMETH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EDEN",
+      "clue": "Beautiful garden where Adam and Eve were placed at the Creation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Beautiful garden where Adam and Eve were placed at the Creation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "PONS",
+      "clue": "Band of nerve fibers linking the medulla oblongata and the cerebellum with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Band of nerve fibers linking the medulla oblongata and the cerebellum with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "TOTE",
+      "clue": "Capacious bag or basket",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capacious bag or basket",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LIRA",
+      "clue": "Formerly the basic unit of money in Italy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formerly the basic unit of money in Italy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "LAB",
+      "clue": "Workplace for the conduct of scientific research",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Workplace for the conduct of scientific research",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "VOODOO",
+      "clue": "Charm superstitiously believed to embody magical powers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Charm superstitiously believed to embody magical powers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ABANDONMENT",
+      "clue": "Withdrawing support or help despite allegiance or responsibility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Withdrawing support or help despite allegiance or responsibility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "DYSPHORIC",
+      "clue": "Generalized feeling of distress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Generalized feeling of distress",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "BELAY",
+      "clue": "Make fast, as a rope, by winding round a cleat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make fast, as a rope, by winding round a cleat.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "DENSE",
+      "clue": "Slow to learn or understand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slow to learn or understand",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SHUT",
+      "clue": "Move so that an opening or passage is obstructed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move so that an opening or passage is obstructed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HOR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "EPOCH",
+      "clue": "Interval of time, memorable for extraordinary events",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A interval of time, memorable for extraordinary events.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "ESSENE",
+      "clue": "Member of an ascetic Jewish sect around the time of Jesus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of an ascetic Jewish sect around the time of Jesus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "SHRI",
+      "clue": "Indian title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "BASSO",
+      "clue": "Lowest adult male singing voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lowest adult male singing voice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BIWA",
+      "clue": "Japan's largest freshwater lake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ANIS",
+      "clue": "Black tropical American cuckoos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoos",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Having the highest saturation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "VIII",
+      "clue": "Cardinal number that is the sum of seven and one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the sum of seven and one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "INST",
+      "clue": "In or of the present month",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the present month",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "River through Aberdeen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERNECINE",
+      "clue": "Characterized by bloodshed and carnage for both sides",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by bloodshed and carnage for both sides",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NET",
+      "clue": "Computer network consisting of a worldwide network of computer networks that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer network consisting of a worldwide network of computer networks that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "WIENIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "OISE",
+      "clue": "River north of Paris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ASPECT",
+      "clue": "Feelings expressed on a person's face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feelings expressed on a person's face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "date": "2027-05-04",
+  "number": 1123,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "A",
+      "M",
+      "A",
+      "#",
+      "#",
+      "R",
+      "U",
+      "T",
+      "A",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "O",
+      "N",
+      "#",
+      "#",
+      "E",
+      "N",
+      "O",
+      "C",
+      "H"
+    ],
+    [
+      "P",
+      "O",
+      "R",
+      "T",
+      "R",
+      "A",
+      "I",
+      "T",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "T",
+      "H",
+      "R",
+      "E",
+      "E",
+      "U",
+      "N",
+      "I",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "H",
+      "A",
+      "O",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "R",
+      "#",
+      "E",
+      "E",
+      "C"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "V",
+      "E",
+      "R",
+      "T",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "S",
+      "L",
+      "O",
+      "U",
+      "D"
+    ],
+    [
+      "M",
+      "A",
+      "R",
+      "A",
+      "T",
+      "#",
+      "#",
+      "I",
+      "N",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "L",
+      "E",
+      "N",
+      "S",
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DAMA",
+      "clue": "Fallow deer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fallow deer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "DEPTH",
+      "clue": "Quality of being deep",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Deepness.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ALOHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MORRO",
+      "clue": "Round hill or point of land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Round hill or point of land",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "RUTA",
+      "clue": "Type genus of the Rutaceae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Rutaceae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "REINSERTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "UNTIE",
+      "clue": "Undo the ties of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undo the ties of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "TOUTS",
+      "clue": "Ones who sells advice about gambling or speculation (especially at the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones who sells advice about gambling or speculation (especially at the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ELON",
+      "clue": "Tech mogul Musk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ENOCH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "HED",
+      "clue": "Contraction in poetry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PORTRAITURE",
+      "clue": "Activity of making portraits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity of making portraits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "REARRESTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "AUSTERE",
+      "clue": "Practicing great self-denial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "severe or strict in manner; plain and unadorned",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "THREEUNITED",
+      "clue": "Trio",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TRIO"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cthree united\u201d defines trio",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "HAO",
+      "clue": "Vietnamese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "ASSES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SERER",
+      "clue": "West African language closely related to Fula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "West African language closely related to Fula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SNARE",
+      "clue": "Trap for birds or small mammals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trap for birds or small mammals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "EVIAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "EEC",
+      "clue": "International organization of European countries formed after World War II...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "International organization of European countries formed after World War II...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "EBONY",
+      "clue": "Very dark black",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very dark black",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ELUDE",
+      "clue": "Avoid slyly, by artifice, stratagem, or dexterity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To evade the search or pursuit of by dexterity or artifice.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "CEDES",
+      "clue": "Passes title to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passes title to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "CONVERTIBLE",
+      "clue": "Capable of being converted",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Interchangeable.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "CPM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered by the mouth, or in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PRAISESLOUD",
+      "clue": "Sacrifice",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SACRIFICE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cpraises loud\u201d defines sacrifice",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "MARAT",
+      "clue": "French revolutionary leader (born in Switzerland) who was a leader in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French revolutionary leader (born in Switzerland) who was a leader in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "INDE",
+      "clue": "Azure-colored",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Azure-colored",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "LENS",
+      "clue": "Transparent optical device used to converge or diverge transmitted light and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Transparent optical device used to converge or diverge transmitted light and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "AYES",
+      "clue": "Yes votes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

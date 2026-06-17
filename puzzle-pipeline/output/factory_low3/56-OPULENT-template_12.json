@@ -1,0 +1,761 @@
+{
+  "date": "2027-02-25",
+  "number": 1055,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "S",
+      "#",
+      "S",
+      "C",
+      "R",
+      "A",
+      "P",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "L",
+      "F",
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "I",
+      "T"
+    ],
+    [
+      "H",
+      "A",
+      "I",
+      "R",
+      "A",
+      "N",
+      "D",
+      "H",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "E",
+      "P",
+      "T",
+      "#",
+      "E",
+      "L",
+      "E",
+      "M"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "U",
+      "R",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "L",
+      "I",
+      "P",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "B",
+      "U",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "A",
+      "D",
+      "#",
+      "U",
+      "L",
+      "A",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "G",
+      "I",
+      "S",
+      "T",
+      "E",
+      "R",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "O",
+      "P",
+      "E",
+      "N",
+      "H",
+      "O",
+      "N",
+      "E",
+      "S",
+      "T",
+      "Y"
+    ],
+    [
+      "R",
+      "E",
+      "S",
+      "T",
+      "A",
+      "R",
+      "T",
+      "#",
+      "I",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,3": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,2": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,4": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,2": {
+      "number": 23
+    },
+    "7,3": {
+      "number": 24
+    },
+    "7,5": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,4": {
+      "number": 28
+    },
+    "8,9": {
+      "number": 29
+    },
+    "8,10": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,8": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ALS",
+      "clue": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thickening of tissue in the motor tracts of the lateral columns and anterior...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A field.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SLID",
+      "clue": "Glided down a chute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SCRAPES",
+      "clue": "Acts of fighting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of fighting",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SCAPULA",
+      "clue": "Either of two flat triangular bones one on each side of the shoulder in human...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two flat triangular bones one on each side of the shoulder in human...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 11,
+      "answer": "CONTRIBUTOR",
+      "clue": "Writer whose work is published in a newspaper or magazine or as part of a book",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who gives or furnishes, in common with others, for a common purpose.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "RND",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Dull persistent (usually moderately intense) pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "PEAL",
+      "clue": "Deep prolonged sound (as of thunder or large bells)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deep prolonged sound (as of thunder or large bells)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EIRE",
+      "clue": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic consisting of 26 of 32 counties comprising the island of Ireland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "STEM",
+      "clue": "Turn made in skiing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turn made in skiing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "SELFCONCEIT",
+      "clue": "Egotism",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "EGOTISM"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSelf conceit\u201d defines egotism",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 5,
+      "answer": "FREES",
+      "clue": "Makes (assets) available",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes (assets) available",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "HAIRANDHARE",
+      "clue": "Paronymous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PARONYMOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201chair and hare\u201d defines paronymous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 2,
+      "length": 4,
+      "answer": "DEPT",
+      "clue": "Store division: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ELEM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Basic monetary unit of most members of the European Union (introduced in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary unit of most members of the European Union (introduced in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Rich and superior in quality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SLIPS",
+      "clue": "Acts of avoiding capture (especially by cunning)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of avoiding capture (especially by cunning)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 5,
+      "answer": "STARE",
+      "clue": "Fixed look with eyes open wide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fixed look with eyes open wide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "ABUT",
+      "clue": "Lie adjacent to another or share a boundary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To touch at the end or boundary line.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AMOR",
+      "clue": "God of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CAPE",
+      "clue": "Sleeveless garment like a cloak but shorter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sleeveless garment like a cloak but shorter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "AGES",
+      "clue": "Soft white precious univalent metallic elements having the highest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft white precious univalent metallic elements having the highest",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "DINT",
+      "clue": "Interchangeable with `means' in the expression `by means of'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interchangeable with `means' in the expression `by means of'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 4,
+      "answer": "ULAN",
+      "clue": "See Uhlan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Uhlan",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Not final or absolute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not final or absolute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MAGISTERIAL",
+      "clue": "Used of a person's appearance or behavior",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having an air of authority.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "SHA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "ATS",
+      "clue": "Email-address symbols",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "LYE",
+      "clue": "Strong solution of sodium or potassium hydroxide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong solution of sodium or potassium hydroxide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "OPENHONESTY",
+      "clue": "Candor",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CANDOR"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cOPEN HONESTY\u201d defines candor",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "RESTART",
+      "clue": "Take up or begin anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take up or begin anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ISE",
+      "clue": "Japan's grand shrine site",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "date": "2027-01-04",
+  "number": 1003,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "O",
+      "R",
+      "#",
+      "T",
+      "A",
+      "M",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "N",
+      "U",
+      "D",
+      "E",
+      "#",
+      "U",
+      "R",
+      "I",
+      "N",
+      "A",
+      "L"
+    ],
+    [
+      "I",
+      "N",
+      "O",
+      "F",
+      "F",
+      "E",
+      "N",
+      "S",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "O",
+      "L",
+      "M",
+      "E",
+      "C"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "L",
+      "I",
+      "L",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "W",
+      "O",
+      "R",
+      "D",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "N",
+      "E",
+      "W",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "T",
+      "R",
+      "I",
+      "#",
+      "A",
+      "I",
+      "M",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "M",
+      "O",
+      "R",
+      "O",
+      "U",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "C",
+      "E",
+      "R",
+      "E",
+      "U",
+      "S",
+      "#",
+      "K",
+      "E",
+      "P",
+      "T"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "N",
+      "S",
+      "P",
+      "#",
+      "S",
+      "T",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "LOR",
+      "clue": "Mild British exclamation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LUNE",
+      "clue": "Anything in the shape of a half moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The moon.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "REFS",
+      "clue": "Chief officials (as in boxing or American football) who is expected to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief officials (as in boxing or American football) who is expected to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "TAMALE",
+      "clue": "Corn and cornmeal dough stuffed with a meat mixture then wrapped in corn husks...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corn and cornmeal dough stuffed with a meat mixture then wrapped in corn husks...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "TUE",
+      "clue": "Parson bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Parson bird",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "ARNOLDWAS",
+      "clue": "Bellicose",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BELLICOSE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cArnold was\u201d defines bellicose",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "MISLAY",
+      "clue": "Lay in a wrong place",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To misplace.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ANIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LAVE",
+      "clue": "Wash",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To wash or bathe.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ELEC",
+      "clue": "Power co. offering: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "NUDE",
+      "clue": "Bare",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Naked.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "URINAL",
+      "clue": "Plumbing fixture (usually attached to the wall) used by men to urinate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plumbing fixture (usually attached to the wall) used by men to urinate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INOFFENSIVE",
+      "clue": "Giving no offense, or provocation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Causing nothing displeasing or disturbing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "FELONIOUS",
+      "clue": "Having the quality of felony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Showing criminal or evil purpose.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Brief and to the point",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "OLMEC",
+      "clue": "Member of an early Mesoamerican civilization centered around Veracruz that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of an early Mesoamerican civilization centered around Veracruz that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "LILA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "WORDY",
+      "clue": "Verbose",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VERBOSE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of verbose",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "WARREN",
+      "clue": "Colony of rabbits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colony of rabbits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Over again",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Once more.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PETRI",
+      "clue": "___ dish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PACT",
+      "clue": "Agreement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A covenant.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EMER",
+      "clue": "Critical: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "TORA",
+      "clue": "Law",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Law",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "AIMEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "INKS",
+      "clue": "Dark protective fluids ejected into the water by cuttlefish and other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dark protective fluids ejected into the water by cuttlefish and other",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MEET",
+      "clue": "Contend against an opponent in a sport, game, or battle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contend against an opponent in a sport, game, or battle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "AMOROUSNESS",
+      "clue": "Arousal of feelings of sexual desire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arousal of feelings of sexual desire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "USP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "CEREUS",
+      "clue": "Genus of much-branched treelike or shrubby cacti with pronounced ribs and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of much-branched treelike or shrubby cacti with pronounced ribs and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "KEPT",
+      "clue": "Not violated or disregarded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not violated or disregarded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "TRANSP",
+      "clue": "Conveyance: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "STY",
+      "clue": "Pen for swine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pen for swine",
+      "clueSource": "wordnet"
+    }
+  ]
+}

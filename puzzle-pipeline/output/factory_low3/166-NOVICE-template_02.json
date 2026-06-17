@@ -1,0 +1,752 @@
+{
+  "date": "2027-06-15",
+  "number": 1165,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "L",
+      "U",
+      "R",
+      "S",
+      "#",
+      "C",
+      "A",
+      "M",
+      "S",
+      "#"
+    ],
+    [
+      "C",
+      "I",
+      "N",
+      "E",
+      "M",
+      "A",
+      "S",
+      "C",
+      "O",
+      "P",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "I",
+      "M",
+      "A",
+      "L",
+      "C",
+      "U",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "N",
+      "O",
+      "V",
+      "I",
+      "C",
+      "E",
+      "#",
+      "T",
+      "A",
+      "C",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "K",
+      "U",
+      "G",
+      "E",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "T",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "A",
+      "D",
+      "I",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "O",
+      "G",
+      "#",
+      "A",
+      "N",
+      "G",
+      "E",
+      "L",
+      "O"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "A",
+      "I",
+      "N",
+      "F",
+      "I",
+      "X",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "I",
+      "N",
+      "S",
+      "U",
+      "L",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "F",
+      "O",
+      "N",
+      "T",
+      "#",
+      "L",
+      "A",
+      "M",
+      "A",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "7,0": {
+      "number": 21
+    },
+    "7,1": {
+      "number": 22
+    },
+    "7,5": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,1": {
+      "number": 31
+    },
+    "10,6": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SLURS",
+      "clue": "Blemishes made by dirt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Blemishes made by dirt",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAN",
+      "clue": "Obtain data from magnetic tapes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtain data from magnetic tapes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LINO",
+      "clue": "Floor covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Floor covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "UNIV",
+      "clue": "College: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "REMI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SMACKED",
+      "clue": "Pressed (the lips) together and opened (the lips) noisily, as in eating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pressed (the lips) together and opened (the lips) noisily, as in eating",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "CAMS",
+      "clue": "Rotating disks shaped to convert circular into linear motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rotating disks shaped to convert circular into linear motion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "CSC",
+      "clue": "Trig ratio, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "ACUTE",
+      "clue": "Sharp at the end",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having fine and penetrating discernment.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "MOLAL",
+      "clue": "Designating a solution containing one mole of solute per kilogram of solvent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Designating a solution containing one mole of solute per kilogram of solvent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "SPEC",
+      "clue": "Detailed description of design criteria for a piece of work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Detailed description of design criteria for a piece of work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "CINEMASCOPE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ALEUTIANS",
+      "clue": "Archipelago in the North Pacific extending southwest from Alaska",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Archipelago in the North Pacific extending southwest from Alaska",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ANIMALCULES",
+      "clue": "Animals of microscopic smallness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animals of microscopic smallness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Person new to and inexperienced in a field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "TACT",
+      "clue": "Fine or ready mental discernment shown in saying or doing the proper thing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "KUGEL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "GAINFUL",
+      "clue": "Yielding a fair profit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yielding a fair profit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "RADII",
+      "clue": "Spokes from a center",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ROMEO",
+      "clue": "Ardent male lover",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ardent male lover",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "AGAIN",
+      "clue": "Anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "FROG",
+      "clue": "Any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "FRS",
+      "clue": "Central bank of the United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central bank of the United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "REEF",
+      "clue": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ANGELO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GILA",
+      "clue": "River that rises in western New Mexico and flows westward through southern...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River that rises in western New Mexico and flows westward through southern...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "EXAM",
+      "clue": "Set of questions or exercises evaluating skill or knowledge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set of questions or exercises evaluating skill or knowledge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "LETA",
+      "clue": "Pseudonym of Wonder Woman creator",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ODES",
+      "clue": "Right eyes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Right eyes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "REMAINFIXED",
+      "clue": "Adhere",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ADHERE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cremain fixed\u201d defines adhere",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "INT",
+      "clue": "Gram. case for objects, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "SEEINSULATE",
+      "clue": "Isolate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ISOLATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Insulate\u201d defines isolate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "FONT",
+      "clue": "Bowl for baptismal water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bowl for baptismal water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "LAMAS",
+      "clue": "Llamases",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Llamases",
+      "clueSource": "inflection"
+    }
+  ]
+}

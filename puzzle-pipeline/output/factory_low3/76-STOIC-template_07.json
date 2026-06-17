@@ -1,0 +1,717 @@
+{
+  "date": "2027-03-17",
+  "number": 1075,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "A",
+      "S",
+      "#",
+      "#",
+      "S",
+      "E",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "D",
+      "E",
+      "F",
+      "T",
+      "#",
+      "#",
+      "L",
+      "X",
+      "X",
+      "X",
+      "I"
+    ],
+    [
+      "A",
+      "E",
+      "R",
+      "O",
+      "S",
+      "T",
+      "A",
+      "T",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "#",
+      "T",
+      "O",
+      "I",
+      "L",
+      "E",
+      "T",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "U",
+      "R",
+      "T",
+      "A",
+      "I",
+      "L",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "H",
+      "A",
+      "G",
+      "G",
+      "A",
+      "R",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "P",
+      "L",
+      "A",
+      "N",
+      "N",
+      "I",
+      "N",
+      "G",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "E",
+      "S",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "S",
+      "N",
+      "E",
+      "A",
+      "D",
+      "#",
+      "#",
+      "C",
+      "L",
+      "A",
+      "Y"
+    ],
+    [
+      "E",
+      "A",
+      "R",
+      "N",
+      "S",
+      "#",
+      "#",
+      "H",
+      "E",
+      "W",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAS",
+      "clue": "By bad luck",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By bad luck",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ADA",
+      "clue": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LEET",
+      "clue": "Of Let, to allow. Chaucer. A portion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of Let, to allow. Chaucer. A portion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AFRO",
+      "clue": "Rounded thickly curled hairdo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rounded thickly curled hairdo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Seeming unaffected by pleasure or pain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "SEDER",
+      "clue": "Ceremonial dinner on the first night (or both nights) of Passover",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ceremonial dinner on the first night (or both nights) of Passover",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "SLATTERNS",
+      "clue": "Dirty untidy women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dirty untidy women",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "EXTRA",
+      "clue": "Something additional of the same kind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something additional of the same kind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "DXIII",
+      "clue": "Roman numeral for 513",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 513",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "EXCEL",
+      "clue": "Go beyond or surpass in good qualities or laudable deeds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be superior or distinguished.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "RISS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Skillful in physical movements",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LXXXI",
+      "clue": "Being one more than eighty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one more than eighty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "AEROSTATICS",
+      "clue": "Science that treats of the equilibrium of elastic fluids, or that...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The branch of pneumatics that treats of the equilibrium, pressure, and",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "SLUGGARDS",
+      "clue": "Persons habitually lazy or idle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons habitually lazy or idle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "TERRANE",
+      "clue": "Group of rocks having a common age or origin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of rocks having a common age or origin",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "TOILETRIES",
+      "clue": "Artifactses used in making your toilet (washing and taking care of your",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artifactses used in making your toilet (washing and taking care of your",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CURTAIL",
+      "clue": "Cut off the end or tail, or any part, of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cut off or cut short.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "GRE",
+      "clue": "See Gree, a step",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Gree, a step",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "HAGGARD",
+      "clue": "Wild or intractable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Worn and gaunt in appearance.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "HENNA",
+      "clue": "Reddish brown dye used especially on hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reddish brown dye used especially on hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "APTER",
+      "clue": "More being of striking appropriateness and pertinence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More being of striking appropriateness and pertinence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "GLEAN",
+      "clue": "Gather, as of natural products",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gather, as of natural products",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "DITCH",
+      "clue": "Long narrow excavation in the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long narrow excavation in the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "REPLANNING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "RISE",
+      "clue": "Act of changing location in an upward direction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing location in an upward direction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "NILE",
+      "clue": "World's longest river (4150 miles)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "World's longest river (4150 miles)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GNAW",
+      "clue": "Become ground down or deteriorate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become ground down or deteriorate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERESTING",
+      "clue": "Arousing or holding the attention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arousing or holding the attention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "GYN",
+      "clue": "Begin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Begin",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "SNEAD",
+      "clue": "United States golfer known for the graceful arc of his swing (1912-2002)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States golfer known for the graceful arc of his swing (1912-2002)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "CLAY",
+      "clue": "Dead body of a human being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dead body of a human being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "EARNS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "HEWN",
+      "clue": "Cut or shaped with hard blows of a heavy cutting instrument like an ax or chisel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cut or shaped with hard blows of a heavy cutting instrument like an ax or chisel",
+      "clueSource": "wordnet"
+    }
+  ]
+}

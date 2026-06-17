@@ -1,0 +1,768 @@
+{
+  "date": "2027-01-02",
+  "number": 1001,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "G",
+      "A",
+      "R",
+      "#",
+      "D",
+      "R",
+      "A",
+      "B",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "U",
+      "P",
+      "E",
+      "R",
+      "E",
+      "A",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "H",
+      "A",
+      "L",
+      "L",
+      "E",
+      "L",
+      "U",
+      "I",
+      "A",
+      "H"
+    ],
+    [
+      "#",
+      "A",
+      "V",
+      "O",
+      "#",
+      "C",
+      "A",
+      "L",
+      "L",
+      "T",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "M",
+      "P",
+      "L",
+      "Y",
+      "#",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "R",
+      "I",
+      "E",
+      "F",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "B",
+      "S",
+      "#",
+      "U",
+      "N",
+      "D",
+      "U",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E",
+      "#",
+      "M",
+      "C",
+      "C",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "O",
+      "P",
+      "E",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "N",
+      "I",
+      "N",
+      "S",
+      "U",
+      "L",
+      "A",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "C",
+      "T",
+      "#",
+      "F",
+      "E",
+      "T",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AGAR",
+      "clue": "Colloidal extract of algae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colloidal extract of algae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ASHA",
+      "clue": "Bollywood singer Bhosle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "GUAVA",
+      "clue": "Tropical fruit having yellow skin and pink pulp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tropical fruit having yellow skin and pink pulp",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "APLOMB",
+      "clue": "Great coolness and composure under strain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Great coolness and composure under strain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "DRAB",
+      "clue": "Dull greyish to yellowish or light olive brown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dull greyish to yellowish or light olive brown",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "DELAYED",
+      "clue": "Not as far along as normal in development",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not as far along as normal in development",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "RAUL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Moving quickly and lightly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "BEATS",
+      "clue": "United States youth subculture of the 1950s",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States youth subculture of the 1950s",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "SUPEREAGER",
+      "clue": "Zealous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSUPER EAGER\u201d defines zealous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "RECLINERS",
+      "clue": "Armchairs whose back can be lowered and foot can be raised to allow the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Armchairs whose back can be lowered and foot can be raised to allow the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "RHOS",
+      "clue": "17th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "17th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "HALLELUIAH",
+      "clue": "Praise ye Jehovah",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Praise ye Jehovah",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CALLTO",
+      "clue": "Reclaim",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RECLAIM"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccall to\u201d defines reclaim",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "AMPLY",
+      "clue": "In an ample manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Sufficiently.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "PRUDENT",
+      "clue": "Acting with care and thought for the future",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "acting with care and thought for the future",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BRIEF",
+      "clue": "Terse",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TERSE",
+        "EPHEMERAL"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of terse",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "FUMBLE",
+      "clue": "Dropping the ball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dropping the ball",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "TRIP",
+      "clue": "Unintentional but embarrassing blunder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unintentional but embarrassing blunder",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BENES",
+      "clue": "Mountains or tall hills",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountains or tall hills",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SCONE",
+      "clue": "Small biscuit (rich with cream and eggs) cut into diamonds or sticks and baked...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small biscuit (rich with cream and eggs) cut into diamonds or sticks and baked...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "UNDUE",
+      "clue": "Not yet payable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "More than sufficient.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ECLAT",
+      "clue": "Brilliant or conspicuous success or effect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brilliant or conspicuous success or effect",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "RECEDE",
+      "clue": "Become faint or more distant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move back or away.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "MCC",
+      "clue": "Roman numeral for 1200",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1200",
+      "clueSource": "roman"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "CERE",
+      "clue": "Fleshy, waxy covering at the base of the upper beak of some birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy, waxy covering at the base of the upper beak of some birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "INOPERABLE",
+      "clue": "Not suitable for surgery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not suitable for surgery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "AUF",
+      "clue": "Changeling or elf child,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changeling or elf child,",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "PENINSULAR",
+      "clue": "Of or forming or resembling a peninsula",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to a piece of land almost surrounded by water.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "SECT",
+      "clue": "Subdivision of a larger religious group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subdivision of a larger religious group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "FETE",
+      "clue": "Organized series of acts and performances (usually in one place)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A festival or feast.",
+      "clueSource": "sat:wordnet"
+    }
+  ]
+}

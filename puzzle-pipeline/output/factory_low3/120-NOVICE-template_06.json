@@ -1,0 +1,756 @@
+{
+  "date": "2027-04-30",
+  "number": 1119,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "N",
+      "O",
+      "V",
+      "I",
+      "C",
+      "E",
+      "#",
+      "#",
+      "G",
+      "P",
+      "A"
+    ],
+    [
+      "I",
+      "T",
+      "I",
+      "N",
+      "E",
+      "R",
+      "A",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "L",
+      "I",
+      "T",
+      "E",
+      "R",
+      "A",
+      "T",
+      "U",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "C",
+      "A",
+      "S",
+      "E",
+      "#",
+      "T",
+      "H",
+      "O",
+      "R",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "R",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "N",
+      "K",
+      "H",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "C",
+      "C",
+      "C",
+      "I",
+      "#",
+      "E",
+      "U",
+      "L",
+      "A",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "M",
+      "Y",
+      "A",
+      "N",
+      "D",
+      "N",
+      "A",
+      "V",
+      "Y"
+    ],
+    [
+      "G",
+      "U",
+      "I",
+      "L",
+      "L",
+      "O",
+      "T",
+      "I",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "O",
+      "S",
+      "I",
+      "#",
+      "#",
+      "V",
+      "O",
+      "T",
+      "E",
+      "R",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Someone new to a field or activity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "OTIC",
+      "clue": "Of or relating to near the ear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to near the ear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "VITA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "INES",
+      "clue": "States in midwestern United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in midwestern United States",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "CEREMONIAL",
+      "clue": "Characterized by outward form or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Characterized by outward form or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "GPA",
+      "clue": "Measure of a student's academic achievement at a college or university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a student's academic achievement at a college or university",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "GIRO",
+      "clue": "British financial system in which a bank or a post office transfers money...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British financial system in which a bank or a post office transfers money...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "PEER",
+      "clue": "Person who is of equal standing with another in a group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is of equal standing with another in a group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "Org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "ITINERARIES",
+      "clue": "Detailed accounts or diaries of a journey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Detailed accounts or diaries of a journey",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "ATTACHEDTO",
+      "clue": "Arboreal",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARBOREAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cAttached to\u201d defines arboreal",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "RUHR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "LITERATURES",
+      "clue": "Writtens or printed productions of the human mind collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Writtens or printed productions of the human mind collectively",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "CASE",
+      "clue": "Comprehensive term for any proceeding in a court of law whereby an individual...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Comprehensive term for any proceeding in a court of law whereby an individual...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "THORN",
+      "clue": "Something that causes irritation and annoyance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that causes irritation and annoyance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "MAAR",
+      "clue": "Flat-bottomed volcanic crater that was formed by an explosion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat-bottomed volcanic crater that was formed by an explosion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ARK",
+      "clue": "Boat built by Noah to save his family and animals from the flood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boat built by Noah to save his family and animals from the flood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ORC",
+      "clue": "Grampus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grampus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ANKH",
+      "clue": "Tau cross with a loop at the top, used as an attribute or sacred emblem,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tau cross with a loop at the top, used as an attribute or sacred emblem,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ACYL",
+      "clue": "Any group or radical of the form RCO- where R is an organic group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any group or radical of the form RCO- where R is an organic group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DCCCI",
+      "clue": "Roman numeral for 801",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 801",
+      "clueSource": "roman"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DAGO",
+      "clue": "Offensive term for a person of Italian descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for a person of Italian descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CRUS",
+      "clue": "Leg from the knee to foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leg from the knee to foot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "CMII",
+      "clue": "Roman numeral for 902",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 902",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "EULA",
+      "clue": "End user license agreement, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "UNIT",
+      "clue": "Assemblage of parts that is regarded as a single entity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assemblage of parts that is regarded as a single entity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LANE",
+      "clue": "Narrow way or road",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow way or road",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ARMYANDNAVY",
+      "clue": "Martial",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MARTIAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201carmy and navy\u201d defines martial",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NOV",
+      "clue": "Month following October and preceding December",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following October and preceding December",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "YDS",
+      "clue": "Football gains: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "GUILLOTINED",
+      "clue": "Beheaded, in revolutionary France",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "Networking model, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "VOTERS",
+      "clue": "Citizens who has a legal right to vote",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Citizens who has a legal right to vote",
+      "clueSource": "inflection"
+    }
+  ]
+}

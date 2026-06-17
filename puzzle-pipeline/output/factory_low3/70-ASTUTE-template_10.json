@@ -1,0 +1,722 @@
+{
+  "date": "2027-03-11",
+  "number": 1069,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "H",
+      "I",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "T",
+      "N",
+      "E",
+      "T",
+      "#",
+      "A",
+      "C",
+      "N",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "S",
+      "I",
+      "D",
+      "E",
+      "#",
+      "G",
+      "A",
+      "O",
+      "L"
+    ],
+    [
+      "P",
+      "O",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#",
+      "A",
+      "R",
+      "N",
+      "A"
+    ],
+    [
+      "E",
+      "R",
+      "S",
+      "#",
+      "T",
+      "H",
+      "E",
+      "T",
+      "I",
+      "S",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "O",
+      "N",
+      "N",
+      "E",
+      "C",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "F",
+      "E",
+      "R",
+      "R",
+      "I",
+      "C",
+      "#",
+      "A",
+      "A",
+      "H"
+    ],
+    [
+      "F",
+      "I",
+      "N",
+      "E",
+      "#",
+      "C",
+      "A",
+      "S",
+      "T",
+      "R",
+      "O"
+    ],
+    [
+      "E",
+      "C",
+      "C",
+      "E",
+      "#",
+      "A",
+      "S",
+      "T",
+      "U",
+      "T",
+      "E"
+    ],
+    [
+      "U",
+      "S",
+      "E",
+      "D",
+      "#",
+      "L",
+      "E",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "HIS",
+      "clue": "Belonging or pertaining to him",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belonging or pertaining to him",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "HONORIFICS",
+      "clue": "Expressions of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expressions of respect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "ITSESSENCE",
+      "clue": "Inimical",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INIMICAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cits essence\u201d defines inimical",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SNIT",
+      "clue": "State of agitated irritation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of agitated irritation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BOTNET",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BIPED",
+      "clue": "Two-footed animal, as man. Having two feet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An animal having two feet.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "EDITOR",
+      "clue": "Program designed to perform such editorial functions as rearrangement or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program designed to perform such editorial functions as rearrangement or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "TECHNICAL",
+      "clue": "Foul that can be assessed on a player or a coach or a team for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Foul that can be assessed on a player or a coach or a team for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "AGATE",
+      "clue": "Impure form of quartz consisting of banded chalcedony",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Impure form of quartz consisting of banded chalcedony",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "CARICATURE",
+      "clue": "Picture or description in which natural characteristics are exaggerated or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a picture or description in which natural characteristics are exaggerated or",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "NONSTARTER",
+      "clue": "Horse that fails to run in a race for which it has been entered",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horse that fails to run in a race for which it has been entered",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "INSIDE",
+      "clue": "Inner or enclosed surface of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner or enclosed surface of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "GAOL",
+      "clue": "Correctional institution used to detain persons who are in the lawful custody...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Correctional institution used to detain persons who are in the lawful custody...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "POETIC",
+      "clue": "Of or pertaining to poetry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to poetry.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ARNA",
+      "clue": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild buffalo of India (Bos, or Bubalus, arni), larger than the domestic...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "THETIS",
+      "clue": "One of the 50 Nereids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the 50 Nereids",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "ENCASE",
+      "clue": "Enclose in, or as if in, a case",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enclose in, or as if in, a case",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DISCONNECTS",
+      "clue": "Undoes or dissolves the connection or association of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undoes or dissolves the connection or association of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CREED",
+      "clue": "Definite summary of what is believed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A formal summary of fundamental points of religious belief.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SHOED",
+      "clue": "Wearing footgear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wearing footgear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "FERRIC",
+      "clue": "Of or relating to or containing iron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or containing iron",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "\"Now I get it!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "FINE",
+      "clue": "Money extracted as a penalty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money extracted as a penalty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "FEU",
+      "clue": "Free and gratuitous right to lands made to one for service to be performed by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Free and gratuitous right to lands made to one for service to be performed by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "CASTRO",
+      "clue": "Cuban socialist leader who overthrew a dictator in 1959 and established a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cuban socialist leader who overthrew a dictator in 1959 and established a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ECCE",
+      "clue": "Behold!, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Having sharp judgment; shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LEERED",
+      "clue": "Looked suggestively or obliquely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Looked suggestively or obliquely",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "PER",
+      "clue": "Through",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Through",
+      "clueSource": "webster"
+    }
+  ]
+}

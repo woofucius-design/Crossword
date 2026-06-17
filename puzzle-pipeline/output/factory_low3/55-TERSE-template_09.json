@@ -1,0 +1,757 @@
+{
+  "date": "2027-02-24",
+  "number": 1054,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "A",
+      "S",
+      "S",
+      "#",
+      "#",
+      "B",
+      "A",
+      "L",
+      "A",
+      "#"
+    ],
+    [
+      "E",
+      "S",
+      "P",
+      "Y",
+      "#",
+      "#",
+      "E",
+      "V",
+      "A",
+      "N",
+      "S"
+    ],
+    [
+      "R",
+      "H",
+      "I",
+      "N",
+      "O",
+      "P",
+      "L",
+      "A",
+      "S",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "C",
+      "L",
+      "O",
+      "I",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "#",
+      "F",
+      "R",
+      "E",
+      "T",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "V",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "F",
+      "A",
+      "C",
+      "I",
+      "E",
+      "#",
+      "S",
+      "H",
+      "E"
+    ],
+    [
+      "E",
+      "L",
+      "E",
+      "C",
+      "T",
+      "O",
+      "R",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "N",
+      "O",
+      "T",
+      "C",
+      "O",
+      "N",
+      "S",
+      "T",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "R",
+      "R",
+      "#",
+      "#",
+      "O",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "S",
+      "L",
+      "A",
+      "Y",
+      "#",
+      "#",
+      "M",
+      "E",
+      "I",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TASS",
+      "clue": "Old Soviet news agency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Appearing as if rubbed or wiped off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Anemic looking from illness or emotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pale.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SPIED",
+      "clue": "Secretlied collect sensitive or classified information",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secretlied collect sensitive or classified information",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SYNC",
+      "clue": "Make synchronous and adjust in time or manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make synchronous and adjust in time or manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "BALA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "BELIEVERS",
+      "clue": "Persons who has religious faith",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons who has religious faith",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "AVAST",
+      "clue": "Cease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cease",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "LASTS",
+      "clue": "Person's dying acts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person's dying acts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EVANS",
+      "clue": "British archaeologist who excavated the palace of Knossos in Crete to find what...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British archaeologist who excavated the palace of Knossos in Crete to find what...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "RHINOPLASTY",
+      "clue": "Cosmetic surgery to improve the appearance of your nose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cosmetic surgery to improve the appearance of your nose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "OLFACTORY",
+      "clue": "Of, pertaining to, or connected with, the sense of smell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "of or pertaining to the sense of smell.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "PORTION",
+      "clue": "Allotment of some amount by dividing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Allotment of some amount by dividing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "SEECLOISTER",
+      "clue": "Nunnery",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NUNNERY",
+        "ABBEY",
+        "PRIORY",
+        "MONASTERY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Cloister\u201d defines nunnery",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "FRETS",
+      "clue": "Small bars of metal across the fingerboard of a musical instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small bars of metal across the fingerboard of a musical instrument",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ATV",
+      "clue": "Off-road vehicle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Off-road vehicle",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "FACIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "FETAL",
+      "clue": "Of or relating to a fetus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to a fetus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ACCRA",
+      "clue": "Capital and largest city of Ghana with a deep-water port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Ghana with a deep-water port",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "STAGE",
+      "clue": "Section or portion of a journey or course",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Section or portion of a journey or course",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "HENRI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ESTER",
+      "clue": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "ELECTORATES",
+      "clue": "Bodies of enfranchised citizens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bodies of enfranchised citizens",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ENS",
+      "clue": "Entity, being, or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Entity, being, or existence",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LOTS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ATOM",
+      "clue": "Tiny piece of anything",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiny piece of anything",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "NOTCONSTANT",
+      "clue": "Inconstant",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INCONSTANT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cNot constant\u201d defines inconstant",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "STARR",
+      "clue": "Rock star and drummer for the Beatles (born in 1940)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rock star and drummer for the Beatles (born in 1940)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Imaginary monster, or hideous giant of fairy tales, who lived on...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "SLAY",
+      "clue": "Kill intentionally and with premeditation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kill intentionally and with premeditation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "MEIR",
+      "clue": "Israeli statesman (born in Russia) (1898-1978)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Israeli statesman (born in Russia) (1898-1978)",
+      "clueSource": "wordnet"
+    }
+  ]
+}

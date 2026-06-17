@@ -1,0 +1,723 @@
+{
+  "date": "2027-06-05",
+  "number": 1155,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "G",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "R",
+      "I",
+      "V",
+      "E",
+      "#",
+      "D",
+      "C",
+      "L",
+      "I"
+    ],
+    [
+      "M",
+      "D",
+      "E",
+      "C",
+      "I",
+      "N",
+      "#",
+      "R",
+      "O",
+      "O",
+      "D"
+    ],
+    [
+      "B",
+      "E",
+      "G",
+      "O",
+      "N",
+      "E",
+      "#",
+      "A",
+      "N",
+      "S",
+      "A"
+    ],
+    [
+      "O",
+      "N",
+      "A",
+      "#",
+      "I",
+      "R",
+      "V",
+      "I",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "A",
+      "N",
+      "G",
+      "E",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "Z",
+      "I",
+      "N",
+      "G",
+      "E",
+      "R",
+      "#",
+      "C",
+      "P",
+      "A"
+    ],
+    [
+      "G",
+      "E",
+      "O",
+      "G",
+      "#",
+      "T",
+      "O",
+      "M",
+      "T",
+      "I",
+      "T"
+    ],
+    [
+      "P",
+      "A",
+      "U",
+      "L",
+      "#",
+      "I",
+      "N",
+      "D",
+      "I",
+      "R",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "S",
+      "O",
+      "#",
+      "C",
+      "A",
+      "L",
+      "V",
+      "I",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "V",
+      "E",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AGR",
+      "clue": "Farming: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "ARDENTZEAL",
+      "clue": "Fervor",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "FERVOR"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cardent zeal\u201d defines fervor",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "GREGARIOUS",
+      "clue": "Fond of company; sociable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fond of company; sociable",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "RICO",
+      "clue": "Law intended to eradicate organized crime by establishing strong sanctions and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Law intended to eradicate organized crime by establishing strong sanctions and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ARRIVE",
+      "clue": "Reach a destination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reach a destination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "AMBOS",
+      "clue": "Platforms raised above the surrounding level to give prominence to the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platforms raised above the surrounding level to give prominence to the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "VINING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ENERGETIC",
+      "clue": "Working vigorously",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Working vigorously.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "DCLI",
+      "clue": "Roman numeral for 651",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 651",
+      "clueSource": "roman"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "DRAIN",
+      "clue": "Emptying something accomplished by allowing liquid to run out of it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Emptying something accomplished by allowing liquid to run out of it",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "CONNECTIVE",
+      "clue": "Instrumentality that connects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instrumentality that connects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "LOSESPIRIT",
+      "clue": "Despond",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DESPOND"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201close spirit\u201d defines despond",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "IDA",
+      "clue": "Agency of the United Nations affiliated with the World Bank",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency of the United Nations affiliated with the World Bank",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "MDECIN",
+      "clue": "Medicine",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MEDICINE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cm decin\u201d defines medicine",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ROOD",
+      "clue": "Representation of the cross on which Jesus died",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of the cross on which Jesus died",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "BEGONE",
+      "clue": "Go away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Go away",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ANSA",
+      "clue": "Name given to either of the projecting ends of Saturn's ring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name given to either of the projecting ends of Saturn's ring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ONA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "IRVINE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "VERONA",
+      "clue": "City in Veneto on the River Adige",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Veneto on the River Adige",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "STRANGENESS",
+      "clue": "Unusualness as a consequence of not being well known",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unusualness as a consequence of not being well known",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ANGLO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SATAN",
+      "clue": "Chief spirit of evil and adversary of God",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief spirit of evil and adversary of God",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "ZINGER",
+      "clue": "Striking or amusing or caustic remark",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Striking or amusing or caustic remark",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "CPA",
+      "clue": "Accountant who has passed certain examinations and met all other statutory...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accountant who has passed certain examinations and met all other statutory...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "GEOG",
+      "clue": "Map sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "GPA",
+      "clue": "Measure of a student's academic achievement at a college or university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a student's academic achievement at a college or university",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "TOMTIT",
+      "clue": "Widely distributed European titmouse with bright cobalt blue wings and tail and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Widely distributed European titmouse with bright cobalt blue wings and tail and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "MDLV",
+      "clue": "Roman numeral for 1555",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1555",
+      "clueSource": "roman"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "PAUL",
+      "clue": "Christian missionary to the Gentiles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Christian missionary to the Gentiles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "INDIRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ALSO",
+      "clue": "In addition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In addition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "CALVIN",
+      "clue": "Swiss theologian (born in France) whose tenets (predestination and the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swiss theologian (born in France) whose tenets (predestination and the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "VET",
+      "clue": "Person who has served in the armed forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has served in the armed forces",
+      "clueSource": "wordnet"
+    }
+  ]
+}

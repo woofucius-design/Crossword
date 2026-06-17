@@ -1,0 +1,785 @@
+{
+  "date": "2027-01-24",
+  "number": 1023,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "V",
+      "G",
+      "A",
+      "#",
+      "A",
+      "B",
+      "L",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "M",
+      "I",
+      "E",
+      "N",
+      "#",
+      "T",
+      "E",
+      "E",
+      "P",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "O",
+      "T",
+      "H",
+      "E",
+      "R",
+      "T",
+      "I",
+      "M",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "M",
+      "E",
+      "O",
+      "#",
+      "L",
+      "U",
+      "C",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "I",
+      "P",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "U",
+      "N",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "I",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "L",
+      "L",
+      "#",
+      "R",
+      "E",
+      "C",
+      "T",
+      "A"
+    ],
+    [
+      "D",
+      "O",
+      "N",
+      "E",
+      "I",
+      "N",
+      "S",
+      "T",
+      "E",
+      "A",
+      "D"
+    ],
+    [
+      "O",
+      "P",
+      "O",
+      "R",
+      "T",
+      "O",
+      "#",
+      "A",
+      "L",
+      "T",
+      "O"
+    ],
+    [
+      "R",
+      "E",
+      "L",
+      "A",
+      "Y",
+      "S",
+      "#",
+      "S",
+      "T",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "VGA",
+      "clue": "Old monitor standard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "VINA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GEOM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "In the game of poker, to put up a stake before the cards are dealt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ABLEST",
+      "clue": "Most having the necessary means or skill or know-how or authority to do",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most having the necessary means or skill or know-how or authority to do",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ATE",
+      "clue": "Goddess of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of criminal rashness and its punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "BERLINERS",
+      "clue": "Inhabitants of Berlin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inhabitants of Berlin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "LETUPS",
+      "clue": "Pauses during which things are calm or activities are diminished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pauses during which things are calm or activities are diminished",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Very imposing or impressive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "SEMI",
+      "clue": "Trailer having wheels only in the rear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trailer having wheels only in the rear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "TEED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MIEN",
+      "clue": "External appearance or manner of a person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The external appearance or manner of a person.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Waterproof raincoat made of rubberized fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waterproof raincoat made of rubberized fabric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "TEEPEE",
+      "clue": "Native American tent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native American tent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ANOTHERTIME",
+      "clue": "Anew",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ANEW",
+        "ALIAS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201canother time\u201d defines anew",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "HOSTILITY",
+      "clue": "Enmity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Enmity.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "CAMEO",
+      "clue": "Any small engraved or carved work in relief",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any small engraved or carved work in relief.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Transparently clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SHIP",
+      "clue": "Vessel that carries passengers or freight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vessel that carries passengers or freight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HUT",
+      "clue": "Small crude shelter used as a dwelling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small crude shelter used as a dwelling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "STUNS",
+      "clue": "Makes senseless or dizzy by or as if by a blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes senseless or dizzy by or as if by a blow",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "SCLERA",
+      "clue": "Whitish fibrous membrane (albuginea) that with the cornea forms the outer...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whitish fibrous membrane (albuginea) that with the cornea forms the outer...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "Refer to specifically",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To refer to specifically.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ODELL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "DOPE",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RECTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "7th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "CELT",
+      "clue": "Member of a European people who once occupied Britain and Spain and Gaul...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a European people who once occupied Britain and Spain and Gaul...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TATE",
+      "clue": "United States poet and critic (1899-1979)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States poet and critic (1899-1979)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DONEINSTEAD",
+      "clue": "Alternative",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ALTERNATIVE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cdone instead\u201d defines alternative",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NOS",
+      "clue": "Negatives",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negatives",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "OPORTO",
+      "clue": "Port city in northwest Portugal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city in northwest Portugal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "RELAYS",
+      "clue": "Acts of passing something along from one person or group to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of passing something along from one person or group to another",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "STE",
+      "clue": "Saint, in Quebec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "date": "2027-03-05",
+  "number": 1063,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "N",
+      "I",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "L",
+      "S",
+      "A",
+      "M",
+      "#",
+      "A",
+      "D",
+      "P",
+      "#"
+    ],
+    [
+      "E",
+      "N",
+      "I",
+      "G",
+      "M",
+      "A",
+      "#",
+      "N",
+      "C",
+      "A",
+      "A"
+    ],
+    [
+      "D",
+      "E",
+      "A",
+      "R",
+      "#",
+      "K",
+      "N",
+      "E",
+      "L",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "W",
+      "E",
+      "E",
+      "N",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "B",
+      "A",
+      "R",
+      "K",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "O",
+      "P",
+      "U",
+      "L",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "O",
+      "R",
+      "E",
+      "N",
+      "O",
+      "#",
+      "L",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "E",
+      "C",
+      "R",
+      "U",
+      "#",
+      "W",
+      "R",
+      "I",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "H",
+      "O",
+      "T",
+      "#",
+      "N",
+      "U",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ANIMA",
+      "clue": "Inner self (not the external persona) that is in touch with the unconscious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner self (not the external persona) that is in touch with the unconscious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "NANE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "MSGR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AAM",
+      "clue": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BALSAM",
+      "clue": "Resin containing more or less of an essential or volatile oil....",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A medical preparation, aromatic and oily, used for healing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MAKEKNOWN",
+      "clue": "Discover",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DISCOVER"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cmake known\u201d defines discover",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ADP",
+      "clue": "Data processing by a computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Data processing by a computer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ANENT",
+      "clue": "Over against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Over against",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "DCLII",
+      "clue": "Roman numeral for 652",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 652",
+      "clueSource": "roman"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "PALEO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ENIGMA",
+      "clue": "Dark, obscure, or inexplicable saying",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A riddle.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NCAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "Org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "DEAR",
+      "clue": "Beloved person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Beloved person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "KNELLS",
+      "clue": "Sounds of a bell rung slowly to announce a death or a funeral or the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sounds of a bell rung slowly to announce a death or a funeral or the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "NEAT",
+      "clue": "Free from clumsiness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Free from clumsiness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "WEENIES",
+      "clue": "Smooth-textured sausages of minced beef or pork usually smoked",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smooth-textured sausages of minced beef or pork usually smoked",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "WREN",
+      "clue": "Any of several small active brown birds of the northern hemisphere with short...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small active brown birds of the northern hemisphere with short...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DEBARKATION",
+      "clue": "Act of passengers and crew getting off of a ship or aircraft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of passengers and crew getting off of a ship or aircraft",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "DOME",
+      "clue": "Hemispherical roof",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hemispherical roof",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EPOCH",
+      "clue": "Fixed point of time, established in history by the occurrence of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A interval of time, memorable for extraordinary events.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "BURRO",
+      "clue": "Small donkey used as a pack animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small donkey used as a pack animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ALEUT",
+      "clue": "Aleutian Islander",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Rich and superior in quality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "MORENO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LEST",
+      "clue": "Listen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Listen",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LIAR",
+      "clue": "Person who has lied or who lies repeatedly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has lied or who lies repeatedly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ETNA",
+      "clue": "Gas burner used in laboratories",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gas burner used in laboratories",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SECS",
+      "clue": "Independent federal agencies that oversees the exchange of securities to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agencies that oversees the exchange of securities to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TREE",
+      "clue": "English actor and theatrical producer noted for his lavish productions of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English actor and theatrical producer noted for his lavish productions of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ECRU",
+      "clue": "Very light brown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very light brown",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "WRITER",
+      "clue": "Author",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "HOT",
+      "clue": "Ardent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of ardent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "NUANCE",
+      "clue": "Subtle difference in meaning or opinion or attitude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a subtle difference in meaning or expression",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    }
+  ]
+}

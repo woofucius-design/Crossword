@@ -1,0 +1,720 @@
+{
+  "date": "2027-04-11",
+  "number": 1100,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "V",
+      "A",
+      "S",
+      "#",
+      "#",
+      "A",
+      "N",
+      "N",
+      "U",
+      "L"
+    ],
+    [
+      "#",
+      "I",
+      "R",
+      "I",
+      "S",
+      "#",
+      "D",
+      "O",
+      "U",
+      "S",
+      "E"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "C",
+      "L",
+      "O",
+      "U",
+      "D",
+      "E",
+      "D"
+    ],
+    [
+      "L",
+      "I",
+      "T",
+      "E",
+      "R",
+      "A",
+      "L",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "A",
+      "D",
+      "E",
+      "N",
+      "I",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "T",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "C",
+      "A",
+      "B",
+      "R",
+      "E"
+    ],
+    [
+      "C",
+      "H",
+      "I",
+      "C",
+      "A",
+      "N",
+      "E",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "O",
+      "R",
+      "G",
+      "A",
+      "N",
+      "I",
+      "Z",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "R",
+      "T",
+      "I",
+      "E",
+      "#",
+      "T",
+      "E",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "B",
+      "S",
+      "#",
+      "#",
+      "S",
+      "T",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,7": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,4": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,5": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "5,4": {
+      "number": 16
+    },
+    "6,4": {
+      "number": 17
+    },
+    "6,7": {
+      "number": 18
+    },
+    "6,8": {
+      "number": 19
+    },
+    "6,9": {
+      "number": 20
+    },
+    "6,10": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,6": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "VAS",
+      "clue": "Tube in which a body fluid circulates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tube in which a body fluid circulates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Strikingly bright or clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ARETE",
+      "clue": "Sharp narrow ridge found in rugged mountains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp narrow ridge found in rugged mountains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "SIREN",
+      "clue": "Sea-nymph, described by Homer as dwelling between the island of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A sea-nymph, described by Homer as dwelling between the island of Circe and",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ANNUL",
+      "clue": "Cancel officially",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cancel officially",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 10,
+      "answer": "ADOLESCENT",
+      "clue": "Juvenile between the onset of puberty and maturity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Juvenile between the onset of puberty and maturity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "NOUN",
+      "clue": "Word class that can serve as the subject or object of a verb, the object of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word class that can serve as the subject or object of a verb, the object of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "NUDE",
+      "clue": "Completely unclothed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Naked.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "USES",
+      "clue": "North American republic containing 50 stateses - 48 conterminous states",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "North American republic containing 50 stateses - 48 conterminous states",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "LEDS",
+      "clue": "Diodes such that light emitted at a p-n junction is proportional to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diodes such that light emitted at a p-n junction is proportional to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "IRIS",
+      "clue": "Diaphragm consisting of thin overlapping plates that can be adjusted to change...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diaphragm consisting of thin overlapping plates that can be adjusted to change...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 10,
+      "answer": "SCRIMMAGES",
+      "clue": "Noisy riotous fights",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Noisy riotous fights",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "DOUSE",
+      "clue": "Cover with liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cover with liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OVERCLOUDED",
+      "clue": "Made obscure or unclear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made obscure or unclear",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "OLA",
+      "clue": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "LANTANA",
+      "clue": "Flowering shrub",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flowering shrub",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "LITERALNESS",
+      "clue": "Adhereing to the concrete construal of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adhereing to the concrete construal of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "ADENINE",
+      "clue": "Purine base found in DNA and RNA",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Purine base found in DNA and RNA",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "MTS",
+      "clue": "Uses of computers to translate from one language to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of computers to translate from one language to another",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "MACABRE",
+      "clue": "Shockingly repellent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shockingly repellent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "ARIES",
+      "clue": "First sign of the zodiac which the sun enters at the vernal equinox",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First sign of the zodiac which the sun enters at the vernal equinox",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "BIZET",
+      "clue": "French composer best known for his operas (1838-1875)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French composer best known for his operas (1838-1875)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "REESE",
+      "clue": "Actress Witherspoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "CHICANERIES",
+      "clue": "Uses of tricks to deceive someone (usually to extract money from them)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of tricks to deceive someone (usually to extract money from them)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CRAG",
+      "clue": "Steep rugged rock or cliff",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rugged, rocky projection on a cliff or ledge.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "HERR",
+      "clue": "German courtesy title or form of address for a man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German courtesy title or form of address for a man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "9th letter of the Greek alphabet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "CRIB",
+      "clue": "Card game (usually for two players) in which each player is dealt six cards...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Card game (usually for two players) in which each player is dealt six cards...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "REORGANIZES",
+      "clue": "Changes to a more satisfactory form of organization",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Changes to a more satisfactory form of organization",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ARTIE",
+      "clue": "Bandleader Shaw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "TEES",
+      "clue": "Syllable naming the seventh (subtonic) notes of any musical scale in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the seventh (subtonic) notes of any musical scale in",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "GRABS",
+      "clue": "Acts of catching an object with the hands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of catching an object with the hands",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "STE",
+      "clue": "Saint, in Quebec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "date": "2027-06-24",
+  "number": 1174,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "H",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "A",
+      "I",
+      "S",
+      "E",
+      "S",
+      "#",
+      "B",
+      "U",
+      "R",
+      "S"
+    ],
+    [
+      "E",
+      "U",
+      "G",
+      "E",
+      "N",
+      "E",
+      "#",
+      "A",
+      "P",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "C",
+      "A",
+      "N",
+      "#",
+      "S",
+      "H",
+      "P",
+      "T"
+    ],
+    [
+      "L",
+      "E",
+      "E",
+      "#",
+      "M",
+      "O",
+      "N",
+      "R",
+      "O",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "T",
+      "O",
+      "R",
+      "I",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "R",
+      "I",
+      "C",
+      "#",
+      "S",
+      "L",
+      "A"
+    ],
+    [
+      "M",
+      "O",
+      "H",
+      "R",
+      "#",
+      "T",
+      "E",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "S",
+      "#",
+      "A",
+      "S",
+      "C",
+      "E",
+      "N",
+      "D"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "E",
+      "#",
+      "S",
+      "T",
+      "A",
+      "R",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "S",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "CHN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "CAUSEASORE",
+      "clue": "Rankle",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RANKLE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccause a sore\u201d defines rankle",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "HIGHERTHAN",
+      "clue": "Surmount",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SURMOUNT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201chigher than\u201d defines surmount",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "NSEC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "DAISES",
+      "clue": "Platforms raised above the surrounding level to give prominence to the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platforms raised above the surrounding level to give prominence to the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "DEALS",
+      "clue": "Acts of apportioning or distributing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of apportioning or distributing something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "ENAMOR",
+      "clue": "Inflame with love",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To inspire with ardent love.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SENORITAS",
+      "clue": "Spanish titles or forms of address used to or of an unmarried girl or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish titles or forms of address used to or of an unmarried girl or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "BURS",
+      "clue": "Small bits used in dentistry or surgery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small bits used in dentistry or surgery",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "BASRA",
+      "clue": "Second largest city in Iraq",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second largest city in Iraq",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "UPHOLSTERS",
+      "clue": "Provides furniture with padding, springs, webbing, and covers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provides furniture with padding, springs, webbing, and covers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "REPELLENTS",
+      "clue": "Powers to repel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powers to repel",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "SST",
+      "clue": "Bygone fast flier",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "EUGENE",
+      "clue": "City in western Oregon on the Willamette River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Oregon on the Willamette River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "APES",
+      "clue": "Anies of various primates with short tails or no tail at all",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of various primates with short tails or no tail at all",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ASHCAN",
+      "clue": "Bin that holds rubbish until it is collected",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bin that holds rubbish until it is collected",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "SHPT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Side of something that is sheltered from the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Side of something that is sheltered from the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "MONROE",
+      "clue": "Town in north central Louisiana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town in north central Louisiana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "NICEST",
+      "clue": "Most exhibiting courtesy and politeness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most exhibiting courtesy and politeness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SARTORIALLY",
+      "clue": "In a of or relating to a tailor or to tailoring manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a of or relating to a tailor or to tailoring manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Appearing as if rubbed or wiped off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "YARDS",
+      "clue": "Enclosures for animals (as chicken or livestock)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enclosures for animals (as chicken or livestock)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "STERIC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "1970s radical group, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "MOHR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MED",
+      "clue": "Master's degree in education",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in education",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "TESTER",
+      "clue": "Flat canopy (especially one over a four-poster bed)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat canopy (especially one over a four-poster bed)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SCAM",
+      "clue": "Fraudulent business scheme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fraudulent business scheme",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "Measures of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measures of a pitcher's effectiveness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ASCEND",
+      "clue": "Move upward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move upward",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DENE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "STARTS",
+      "clue": "Takes the first step or steps in carrying out an action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Takes the first step or steps in carrying out an action",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "MSS",
+      "clue": "Forms of address for a woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forms of address for a woman",
+      "clueSource": "inflection"
+    }
+  ]
+}

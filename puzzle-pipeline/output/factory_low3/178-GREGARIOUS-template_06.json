@@ -1,0 +1,746 @@
+{
+  "date": "2027-06-27",
+  "number": 1177,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "I",
+      "M",
+      "P",
+      "U",
+      "G",
+      "N",
+      "#",
+      "#",
+      "S",
+      "C",
+      "I"
+    ],
+    [
+      "R",
+      "A",
+      "I",
+      "L",
+      "R",
+      "O",
+      "A",
+      "D",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "C",
+      "R",
+      "E",
+      "N",
+      "E",
+      "L",
+      "L",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "C",
+      "R",
+      "A",
+      "G",
+      "#",
+      "I",
+      "B",
+      "S",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "M",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "J",
+      "I",
+      "N",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "R",
+      "I",
+      "O",
+      "#",
+      "T",
+      "A",
+      "B",
+      "S",
+      "#"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "B",
+      "U",
+      "T",
+      "A",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "U",
+      "N",
+      "D",
+      "E",
+      "S",
+      "I",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "E",
+      "#",
+      "#",
+      "M",
+      "Y",
+      "L",
+      "I",
+      "F",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "IMPUGN",
+      "clue": "Attack by words or arguments",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assail with arguments, insinuations, or accusations.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "IRC",
+      "clue": "Old online chat system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "MARC",
+      "clue": "Made from residue of grapes or apples after pressing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made from residue of grapes or apples after pressing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PIER",
+      "clue": "Platform built out from the shore into the water and supported by piles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platform built out from the shore into the water and supported by piles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "GREGARIOUS",
+      "clue": "Habitually living or moving in flocks or herds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fond of company; sociable",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "NOL",
+      "clue": "___ pros (legal dismissal)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "Lab class, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "SETS",
+      "clue": "Several exerciseses intended to be done in series",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Several exerciseses intended to be done in series",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "CREE",
+      "clue": "Indigenous Canadian people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ISDN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "RAILROADERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "ALIMENTARY",
+      "clue": "Of or providing nourishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or providing nourishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "DABS",
+      "clue": "Light touches or strokes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light touches or strokes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CRENELLATED",
+      "clue": "Supplied with battlements",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Supplied with battlements",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "CRAG",
+      "clue": "Steep, rugged rock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rugged, rocky projection on a cliff or ledge.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "IBSEN",
+      "clue": "Realistic Norwegian author who wrote plays on social and political themes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Realistic Norwegian author who wrote plays on social and political themes...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ARMS",
+      "clue": "Official symbols of a family, state, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official symbols of a family, state, etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RUN",
+      "clue": "Become undone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become undone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Perennial suffrutescent plant (Ruta graveolens), having a strong,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "JINN",
+      "clue": "See Jinnee. \"Solomon is said to have had power over the jin.\" Balfour (Cyc. of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Jinnee. \"Solomon is said to have had power over the jin.\" Balfour (Cyc. of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "JIBE",
+      "clue": "Aggressive remark directed at a person like a missile and intended to have a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aggressive remark directed at a person like a missile and intended to have a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "SERIO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "STUD",
+      "clue": "Poker in which each player receives hole cards and the remainder are dealt face...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Poker in which each player receives hole cards and the remainder are dealt face...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ERNE",
+      "clue": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RIDE",
+      "clue": "Journey in a vehicle (usually an automobile)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Journey in a vehicle (usually an automobile)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "TABS",
+      "clue": "Doses of medicine in the form of a small pellet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doses of medicine in the form of a small pellet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARAL",
+      "clue": "Shrinking Asian sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "BIBI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SELF",
+      "clue": "Your consciousness of your own identity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Your consciousness of your own identity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "TRIBUTARIES",
+      "clue": "Branches that flows into the main stream",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches that flows into the main stream",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "TIM",
+      "clue": "Apple CEO Cook",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Seat within a bishop's diocese where his cathedral is located",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seat within a bishop's diocese where his cathedral is located",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "UNDESIRABLE",
+      "clue": "Not wanted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not wanted",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "River through Aberdeen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "MYLIFE",
+      "clue": "Sacrifice",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SACRIFICE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cMy life\u201d defines sacrifice",
+      "clueSource": "sat_short_def"
+    }
+  ]
+}

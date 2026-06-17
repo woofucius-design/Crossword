@@ -1,0 +1,779 @@
+{
+  "date": "2027-01-11",
+  "number": 1010,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "E",
+      "B",
+      "R",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "U",
+      "R",
+      "E",
+      "K",
+      "A",
+      "#",
+      "A",
+      "A",
+      "M",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "U",
+      "G",
+      "A",
+      "L",
+      "#",
+      "P",
+      "L",
+      "U",
+      "G"
+    ],
+    [
+      "T",
+      "O",
+      "T",
+      "O",
+      "#",
+      "A",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "B",
+      "D",
+      "O",
+      "M",
+      "E",
+      "N"
+    ],
+    [
+      "M",
+      "I",
+      "S",
+      "D",
+      "I",
+      "A",
+      "G",
+      "N",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "I",
+      "M",
+      "M",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "O",
+      "I",
+      "S",
+      "T",
+      "#",
+      "G",
+      "A",
+      "E",
+      "L"
+    ],
+    [
+      "E",
+      "G",
+      "G",
+      "S",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "E",
+      "S",
+      "T",
+      "#",
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "E",
+      "T",
+      "A",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "DEBRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Apt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Basic monetary unit of most members of the European Union (introduced in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary unit of most members of the European Union (introduced in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BRUT",
+      "clue": "Extremely dry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extremely dry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "REGO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AKA",
+      "clue": "Also known as",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also known as",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "EUREKA",
+      "clue": "Town in northwest California on an arm of the Pacific Ocean",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "I have found it.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ALABASTER",
+      "clue": "White or delicately tinted fine-grained gypsum",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A white or delicately tinted fine-grained gypsum.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "AAM",
+      "clue": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "APRON",
+      "clue": "Garment of cloth or leather or plastic that is tied about the waist and worn...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Garment of cloth or leather or plastic that is tied about the waist and worn...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "ALAMO",
+      "clue": "Siege and massacre at a mission in San Antonio in 1836",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Siege and massacre at a mission in San Antonio in 1836",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "MUTES",
+      "clue": "Devices used to soften the tone of a musical instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Devices used to soften the tone of a musical instrument",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "FRUGAL",
+      "clue": "Economical in the use or appropriation of resources",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "sparing or economical with money or food",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "PLUG",
+      "clue": "Old or over-worked horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old or over-worked horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "GENE",
+      "clue": "Segment of DNA that is involved in producing a polypeptide chain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Segment of DNA that is involved in producing a polypeptide chain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "TOTO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "AERATE",
+      "clue": "Impregnate, combine, or supply with oxygen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Impregnate, combine, or supply with oxygen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ABDOMEN",
+      "clue": "Belly, or that part of the body between the thorax and the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In mammals, the visceral cavity between the diaphragm and the pelvic floor; the",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "AIRS",
+      "clue": "Affected manners intended to impress others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affected manners intended to impress others",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "MISDIAGNOSE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "MIME",
+      "clue": "Performance using gestures and body movements without words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Performance using gestures and body movements without words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "IMAGE",
+      "clue": "Representation of a person (especially in the form of sculpture)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of a person (especially in the form of sculpture)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "SMOGS",
+      "clue": "Air pollutions by a mixture of smoke and fog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air pollutions by a mixture of smoke and fog",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DEIST",
+      "clue": "Of or relating to deism",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who believes in God, but denies supernatural revelation.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "IMMERSE",
+      "clue": "Devote (oneself) fully to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To plunge or dip entirely under water or other fluid.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "MAOIST",
+      "clue": "Advocate of Maoism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Advocate of Maoism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Aggressive remark directed at a person like a missile and intended to have a...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ABUT",
+      "clue": "Lie adjacent to another or share a boundary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To touch at the end or boundary line.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ELSA",
+      "clue": "\"Frozen\" queen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LETS",
+      "clue": "Serves that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves that strikes the net before falling into the receiver's court",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "EGGS",
+      "clue": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Suitable for use as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "DOB",
+      "clue": "Form field, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form field, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Evincing strength",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "BETAS",
+      "clue": "2nd letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "2nd letters of the Greek alphabet",
+      "clueSource": "inflection"
+    }
+  ]
+}

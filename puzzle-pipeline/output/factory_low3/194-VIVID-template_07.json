@@ -1,0 +1,705 @@
+{
+  "date": "2027-07-13",
+  "number": 1193,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "T",
+      "A",
+      "T",
+      "#",
+      "#",
+      "R",
+      "E",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "H",
+      "A",
+      "B",
+      "E",
+      "#",
+      "#",
+      "E",
+      "L",
+      "L",
+      "I",
+      "E"
+    ],
+    [
+      "E",
+      "X",
+      "E",
+      "R",
+      "C",
+      "I",
+      "S",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "D",
+      "M",
+      "O",
+      "N",
+      "I",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "D",
+      "D",
+      "E",
+      "N",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "B",
+      "I",
+      "A",
+      "S",
+      "I",
+      "N",
+      "G",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "E",
+      "N",
+      "T",
+      "R",
+      "I",
+      "C",
+      "#"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "I",
+      "N",
+      "G",
+      "S",
+      "U",
+      "G",
+      "A",
+      "R"
+    ],
+    [
+      "T",
+      "H",
+      "I",
+      "N",
+      "E",
+      "#",
+      "#",
+      "N",
+      "O",
+      "V",
+      "O"
+    ],
+    [
+      "V",
+      "I",
+      "V",
+      "I",
+      "D",
+      "#",
+      "#",
+      "T",
+      "R",
+      "E",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "STAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "This or that female",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "This or that female",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "TAXA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TERMS",
+      "clue": "Amount of money needed to purchase something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amount of money needed to purchase something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "REALS",
+      "clue": "Old small silver Spanish coins",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old small silver Spanish coins",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "RESIDENTS",
+      "clue": "Physician (especially an interns) who lives in a hospital and cares for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Physician (especially an interns) who lives in a hospital and cares for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "ELATE",
+      "clue": "Fill with high spirits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill with high spirits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALBIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "LILOS",
+      "clue": "Types of inflatable air mattress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Types of inflatable air mattress",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SEEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "HABE",
+      "clue": "Have, in German",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ELLIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EXERCISABLE",
+      "clue": "That may be exercised, used, or exerted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That may be exercised, used, or exerted",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "COARSENED",
+      "clue": "Made coarse or crude by lack of skill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made coarse or crude by lack of skill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "INDUING",
+      "clue": "Giving qualities or abilities to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Giving qualities or abilities to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "ADMONITION",
+      "clue": "Cautionary advice about something imminent (especially imminent danger or other...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Gentle reproof.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "SADDENS",
+      "clue": "Makes unhappy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes unhappy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Street or road in France",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To regret extremely.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "BIASING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BODHI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "INDIV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "Grape-cluster-shaped gland sacs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "GRUNT",
+      "clue": "Make a deep, short noise, as a hog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a deep, short noise, as a hog",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "CONCENTRIC",
+      "clue": "Having a common center",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having a common center",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CATV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "IGOR",
+      "clue": "Mad scientist's helper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "CAVE",
+      "clue": "Geological formation consisting of an underground enclosure with access from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Geological formation consisting of an underground enclosure with access from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ADDINGSUGAR",
+      "clue": "Liqueur",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LIQUEUR"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cadding sugar\u201d defines liqueur",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "ROE",
+      "clue": "Eggs or egg-laden ovary of a fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eggs or egg-laden ovary of a fish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "THINE",
+      "clue": "Form of the possessive case of the pronoun thou, now superseded in common...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the pronoun thou, now superseded in common...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "NOVO",
+      "clue": "De ___ (anew)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "VIVID",
+      "clue": "Producing strong, clear images in the mind",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "producing strong, clear images in the mind",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "TREE",
+      "clue": "English actor and theatrical producer noted for his lavish productions of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English actor and theatrical producer noted for his lavish productions of...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

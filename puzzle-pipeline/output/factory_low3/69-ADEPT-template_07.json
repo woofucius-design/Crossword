@@ -1,0 +1,723 @@
+{
+  "date": "2027-03-10",
+  "number": 1068,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "L",
+      "D",
+      "G",
+      "#",
+      "#",
+      "C",
+      "L",
+      "A",
+      "R",
+      "A"
+    ],
+    [
+      "B",
+      "O",
+      "O",
+      "R",
+      "#",
+      "#",
+      "L",
+      "A",
+      "Z",
+      "A",
+      "R"
+    ],
+    [
+      "L",
+      "A",
+      "P",
+      "I",
+      "S",
+      "L",
+      "A",
+      "Z",
+      "U",
+      "L",
+      "I"
+    ],
+    [
+      "#",
+      "M",
+      "A",
+      "N",
+      "E",
+      "U",
+      "V",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "C",
+      "I",
+      "D",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "C",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "G",
+      "R",
+      "A",
+      "V",
+      "E",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "D",
+      "E",
+      "C",
+      "E",
+      "I",
+      "V",
+      "E",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "E",
+      "S",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "P",
+      "S",
+      "#",
+      "#",
+      "E",
+      "D",
+      "D",
+      "A"
+    ],
+    [
+      "S",
+      "M",
+      "O",
+      "T",
+      "E",
+      "#",
+      "#",
+      "S",
+      "E",
+      "S",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BLDG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "BBL",
+      "clue": "Any of various units of capacity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various units of capacity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LOAM",
+      "clue": "Non-coherent mixture of sand and clay",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A non-coherent mixture of sand and clay.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DOPA",
+      "clue": "Amino acid that is formed in the liver and converted into dopamine in the brain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amino acid that is formed in the liver and converted into dopamine in the brain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "GRIND",
+      "clue": "Reduce to small pieces or particles by pounding or abrading",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reduce to small pieces or particles by pounding or abrading",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "CLARA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "CLAVICLES",
+      "clue": "Bone linking the scapulae and sternums",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bone linking the scapulae and sternums",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "LAZED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AZURE",
+      "clue": "Color of the sky",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The color of the sky.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RALES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ARID",
+      "clue": "Very dry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Very dry.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BOOR",
+      "clue": "Crude uncouth ill-bred person lacking culture or refinement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Crude uncouth ill-bred person lacking culture or refinement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LAZAR",
+      "clue": "Person afflicted with leprosy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person afflicted with leprosy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "LAPISLAZULI",
+      "clue": "Azure",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "AZURE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clapis lazuli\u201d defines azure",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "SEEAVERSE",
+      "clue": "Reluctant",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RELUCTANT",
+        "ADVERSE",
+        "AVERSION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Averse\u201d defines reluctant",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "LUCRECE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "MANEUVERED",
+      "clue": "Made adroit or artful moves: manage affairs by strategy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made adroit or artful moves: manage affairs by strategy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "DECIDES",
+      "clue": "Reaches, make, or come to a decision about something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reaches, make, or come to a decision about something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ARC",
+      "clue": "Electrical conduction through a gas in an applied electric field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrical conduction through a gas in an applied electric field",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "GRAVELS",
+      "clue": "Rocks fragmentses and pebbleses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rocks fragmentses and pebbleses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "GENOM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "RETRO",
+      "clue": "Fashion reminiscent of the past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fashion reminiscent of the past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Highly skilled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "SITES",
+      "clue": "Serves in a specific professional capacity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves in a specific professional capacity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "SEEDECEIVE",
+      "clue": "Delude",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DELUDE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Deceive\u201d defines delude",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SICS",
+      "clue": "Urges to attack someone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urges to attack someone",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "VIDE",
+      "clue": "Imperative sing. of L. videre, to see",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperative sing. of L. videre, to see",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ENDS",
+      "clue": "Positions on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Positions on the line of scrimmage",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERESTING",
+      "clue": "Arousing or holding the attention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arousing or holding the attention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "GAS",
+      "clue": "Pedal that controls the throttle valve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pedal that controls the throttle valve",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "CORPS",
+      "clue": "Number or body of persons in some way associated or acting together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A number or body of persons in some way associated or acting together.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "EDDA",
+      "clue": "Either of two distinct works in Old Icelandic dating from the late 13th century...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two distinct works in Old Icelandic dating from the late 13th century...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "SMOTE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SESS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    }
+  ]
+}

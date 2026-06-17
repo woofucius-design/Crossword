@@ -1,0 +1,781 @@
+{
+  "date": "2027-02-03",
+  "number": 1033,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "G",
+      "A",
+      "T",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "I",
+      "G",
+      "U",
+      "A",
+      "N",
+      "A",
+      "#",
+      "P",
+      "C",
+      "B",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "L",
+      "S",
+      "A",
+      "M",
+      "#",
+      "H",
+      "E",
+      "E",
+      "L"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "T",
+      "#",
+      "A",
+      "P",
+      "O",
+      "L",
+      "L",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "R",
+      "A",
+      "T",
+      "E",
+      "L",
+      "Y"
+    ],
+    [
+      "D",
+      "E",
+      "E",
+      "P",
+      "L",
+      "Y",
+      "L",
+      "O",
+      "B",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "N",
+      "T",
+      "A",
+      "I",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "U",
+      "G",
+      "A",
+      "L",
+      "#",
+      "A",
+      "M",
+      "A",
+      "R"
+    ],
+    [
+      "T",
+      "O",
+      "D",
+      "A",
+      "#",
+      "I",
+      "M",
+      "B",
+      "I",
+      "B",
+      "E"
+    ],
+    [
+      "#",
+      "L",
+      "E",
+      "N",
+      "#",
+      "S",
+      "E",
+      "E",
+      "D",
+      "E",
+      "F"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "D",
+      "I",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "GATED",
+      "clue": "Restricted (school boys') movement to the dormitory or campus as a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Restricted (school boys') movement to the dormitory or campus as a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Cast reproaches and sneering expressions",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AGAR",
+      "clue": "Colloidal extract of algae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colloidal extract of algae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "TULA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "EAST",
+      "clue": "Location in the eastern part of a country, region, or city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location in the eastern part of a country, region, or city",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "IGUANA",
+      "clue": "Large herbivorous tropical American arboreal lizards with a spiny crest along...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large herbivorous tropical American arboreal lizards with a spiny crest along...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "AMARYLLIS",
+      "clue": "Bulbous plant having showy white to reddish flowers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bulbous plant having showy white to reddish flowers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "PCB",
+      "clue": "Banned industrial pollutant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "PHOTO",
+      "clue": "Representation of a person or scene in the form of a print or transparent...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of a person or scene in the form of a print or transparent...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "CELEB",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "BELLE",
+      "clue": "Woman who is a center of attraction because of her beauty, accomplishments",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A woman who is a center of attraction because of her beauty, accomplishments...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "BALSAM",
+      "clue": "Resin containing more or less of an essential or volatile oil....",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A medical preparation, aromatic and oily, used for healing.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "HEEL",
+      "clue": "Bottom of a shoe or boot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bottom of a shoe or boot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "LOYD",
+      "clue": "Game inventor Sam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ERAT",
+      "clue": "Quod ___ demonstrandum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "APOLLO",
+      "clue": "Greek god of light",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek god of light",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "PALS",
+      "clue": "Close friends who accompanies his buddies in their activities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Close friends who accompanies his buddies in their activities",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "IRATELY",
+      "clue": "In an irate manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an irate manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DEEPLYLOBED",
+      "clue": "Hawthorn",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "HAWTHORN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cdeeply lobed\u201d defines hawthorn",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Neatly skillful and quick in movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "ENROL",
+      "clue": "Register formally as a participant or member",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Register formally as a participant or member",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "ETUDE",
+      "clue": "Short composition for a solo instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short composition for a solo instrument",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "PAGAN",
+      "clue": "One who worships false goods",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A worshiper of false gods.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "ENTAILS",
+      "clue": "Involves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Involves",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "FRUGAL",
+      "clue": "Sparing or economical with money or food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "sparing or economical with money or food",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "AMAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MIDI",
+      "clue": "Standard protocol for communication between electronic musical instruments...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard protocol for communication between electronic musical instruments...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Instigate or encourage by aid or countenance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "REFS",
+      "clue": "Chief officials (as in boxing or American football) who is expected to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief officials (as in boxing or American football) who is expected to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TODA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "Drink in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink or take in.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MEE",
+      "clue": "Asian noodle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "LEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SEEDEF",
+      "clue": "Stigma",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STIGMA"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee def\u201d defines stigma",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "EDITS",
+      "clue": "Prepares for publication or presentation by correcting, revising, or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepares for publication or presentation by correcting, revising, or",
+      "clueSource": "inflection"
+    }
+  ]
+}

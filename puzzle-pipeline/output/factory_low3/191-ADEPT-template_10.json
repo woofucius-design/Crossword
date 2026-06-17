@@ -1,0 +1,709 @@
+{
+  "date": "2027-07-10",
+  "number": 1190,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "S",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "O",
+      "U",
+      "S",
+      "E",
+      "#",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "D",
+      "A",
+      "R",
+      "R",
+      "E",
+      "N",
+      "#",
+      "P",
+      "R",
+      "O",
+      "P"
+    ],
+    [
+      "E",
+      "V",
+      "O",
+      "L",
+      "V",
+      "E",
+      "#",
+      "P",
+      "I",
+      "C",
+      "A"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "#",
+      "E",
+      "R",
+      "R",
+      "A",
+      "T",
+      "A",
+      "#"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "A",
+      "N",
+      "G",
+      "U",
+      "L",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "A",
+      "S",
+      "I",
+      "S",
+      "#",
+      "N",
+      "I",
+      "S"
+    ],
+    [
+      "P",
+      "A",
+      "I",
+      "R",
+      "#",
+      "S",
+      "T",
+      "E",
+      "N",
+      "O",
+      "S"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "O",
+      "#",
+      "E",
+      "L",
+      "A",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "N",
+      "#",
+      "D",
+      "E",
+      "C",
+      "C",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "H",
+      "A",
+      "L",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "Recipe meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "TRAVERSALS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "SORORITIES",
+      "clue": "Social clubs for female undergraduates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social clubs for female undergraduates",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "PURL",
+      "clue": "Basic knitting stitch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To cause to whirl, as in an eddy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "AROUSE",
+      "clue": "Stop sleeping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stop sleeping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "One fully skilled or well versed in anything",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "SEVENS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ENERGISED",
+      "clue": "Caused to be alert and energetic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Caused to be alert and energetic",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ABLE",
+      "clue": "Adept",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ADEPT",
+        "DEFT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of adept",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "APPAL",
+      "clue": "Fill with apprehension or alarm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fill with apprehension or alarm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "BRITANNICA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "LOCATIONAL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "EPA",
+      "clue": "Independent federal agency established to coordinate programs aimed at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency established to coordinate programs aimed at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "DARREN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "PROP",
+      "clue": "Propeller that rotates to push against air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Propeller that rotates to push against air",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "EVOLVE",
+      "clue": "Undergo development or evolution",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To unfold or expand.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "PICA",
+      "clue": "Magpies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Magpies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "PER",
+      "clue": "Through",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Through",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "ERRATA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "RUSTLE",
+      "clue": "Light noise, like the noise of silk clothing or leaves blowing in the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light noise, like the noise of silk clothing or leaves blowing in the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "TRIANGULATE",
+      "clue": "Survey by triangulation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Survey by triangulation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "AARON",
+      "clue": "Elder brother of Moses and first high priest of the Israelites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elder brother of Moses and first high priest of the Israelites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSEN",
+      "clue": "City in western Germany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "STASIS",
+      "clue": "Inactivity resulting from a static balance between opposing forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inactivity resulting from a static balance between opposing forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "NIS",
+      "clue": "Is not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Is not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PAIR",
+      "clue": "Poker hand with 2 cards of the same value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Poker hand with 2 cards of the same value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "POA",
+      "clue": "Chiefly perennial grasses of cool temperate regions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chiefly perennial grasses of cool temperate regions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "STENOS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "EACH",
+      "clue": "Or from every one of two or more (considered individually)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Or from every one of two or more (considered individually)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "OLEO",
+      "clue": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ELAINE",
+      "clue": "Same as Olein",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Olein",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "Org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "DECCAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "HAL",
+      "clue": "\"2001\" computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

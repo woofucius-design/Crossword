@@ -1,0 +1,785 @@
+{
+  "date": "2027-01-27",
+  "number": 1026,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "R",
+      "A",
+      "P",
+      "T",
+      "#",
+      "A",
+      "C",
+      "M",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "E",
+      "U",
+      "R",
+      "O",
+      "#",
+      "S",
+      "H",
+      "A",
+      "M",
+      "E"
+    ],
+    [
+      "A",
+      "P",
+      "R",
+      "O",
+      "N",
+      "#",
+      "H",
+      "A",
+      "R",
+      "D",
+      "Y"
+    ],
+    [
+      "H",
+      "E",
+      "A",
+      "T",
+      "#",
+      "D",
+      "A",
+      "N",
+      "C",
+      "E",
+      "#"
+    ],
+    [
+      "S",
+      "L",
+      "E",
+      "E",
+      "P",
+      "I",
+      "N",
+      "G",
+      "I",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "R",
+      "T",
+      "E",
+      "R",
+      "I",
+      "O",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "D",
+      "E",
+      "I",
+      "T",
+      "Y",
+      "#",
+      "V",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "M",
+      "I",
+      "L",
+      "N",
+      "E",
+      "#",
+      "F",
+      "E",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "D",
+      "E",
+      "I",
+      "G",
+      "N",
+      "#",
+      "A",
+      "R",
+      "U",
+      "M",
+      "#"
+    ],
+    [
+      "L",
+      "U",
+      "C",
+      "I",
+      "D",
+      "#",
+      "E",
+      "S",
+      "P",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RAPT",
+      "clue": "Enraptured",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Enraptured.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "REPEL",
+      "clue": "Force or keep back in a manner, physically or mentally",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To force or keep back in a manner, physically or mentally.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AURAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PROTECTINGI",
+      "clue": "Demulcent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "DEMULCENT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cprotecting i\u201d defines demulcent",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "TON",
+      "clue": "British unit of weight equivalent to 2240 pounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British unit of weight equivalent to 2240 pounds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ACMES",
+      "clue": "Highest points, or summit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highest points, or summit",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "ASHANTI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CHANGEOVERS",
+      "clue": "Events that results in a transformation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Events that results in a transformation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "MARCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "EMDEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SEY",
+      "clue": "Of See",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of See",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Basic monetary unit of most members of the European Union (introduced in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary unit of most members of the European Union (introduced in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "SHAME",
+      "clue": "Unfortunate development",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unfortunate development",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "APRON",
+      "clue": "Garment of cloth or leather or plastic that is tied about the waist and worn...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Garment of cloth or leather or plastic that is tied about the waist and worn...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AHS",
+      "clue": "Sounds of amazement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "HARDY",
+      "clue": "Robust",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ROBUST"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of robust",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "HEAT",
+      "clue": "Utility to warm a building",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Utility to warm a building",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "DANCE",
+      "clue": "Taking a series of rhythmical steps (and movements) in time to music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Taking a series of rhythmical steps (and movements) in time to music",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "DIARY",
+      "clue": "Personal journal (as a physical object)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Personal journal (as a physical object)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "SLEEPINGIN",
+      "clue": "Berth",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BERTH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201csleeping in\u201d defines berth",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "PRETEND",
+      "clue": "Enactment of a pretense",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enactment of a pretense",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CRATE",
+      "clue": "Rugged box (usually made of wood)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rugged box (usually made of wood)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "ARTERIOLES",
+      "clue": "Ones of the small thin-walled arteries that end in capillaries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones of the small thin-walled arteries that end in capillaries",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "RELIC",
+      "clue": "Something of sentimental value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of sentimental value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LETUP",
+      "clue": "Pause during which things are calm or activities are diminished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pause during which things are calm or activities are diminished",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ENEMY",
+      "clue": "Any hostile group of people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any hostile group of people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "DEITY",
+      "clue": "God, goddess, or divine person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A god, goddess, or divine person.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "VENT",
+      "clue": "Activity that frees or expresses creative energy or emotion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity that frees or expresses creative energy or emotion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "MILNE",
+      "clue": "English writer of stories for children (1882-1956)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English writer of stories for children (1882-1956)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "MDL",
+      "clue": "Roman numeral for 1550",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1550",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "FETED",
+      "clue": "Had a celebration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Had a celebration",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "FAE",
+      "clue": "Device consisting of a container of fuel and two explosive charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device consisting of a container of fuel and two explosive charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "DEIGN",
+      "clue": "Deem worthy of notice or account",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To deem worthy of notice or account.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "ARUM",
+      "clue": "Any plant of the family Araceae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any plant of the family Araceae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Shining",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    }
+  ]
+}

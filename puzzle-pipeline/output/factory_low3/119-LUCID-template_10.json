@@ -1,0 +1,714 @@
+{
+  "date": "2027-04-29",
+  "number": 1118,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "S",
+      "W",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "C",
+      "O",
+      "O",
+      "P",
+      "S",
+      "#",
+      "S",
+      "P",
+      "U",
+      "R"
+    ],
+    [
+      "O",
+      "R",
+      "M",
+      "O",
+      "L",
+      "U",
+      "#",
+      "U",
+      "L",
+      "N",
+      "A"
+    ],
+    [
+      "D",
+      "U",
+      "N",
+      "L",
+      "O",
+      "P",
+      "#",
+      "G",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "O",
+      "T",
+      "O",
+      "#",
+      "V",
+      "I",
+      "S",
+      "A",
+      "G",
+      "E",
+      "#"
+    ],
+    [
+      "M",
+      "I",
+      "L",
+      "L",
+      "E",
+      "N",
+      "A",
+      "R",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "N",
+      "E",
+      "U",
+      "R",
+      "A",
+      "L",
+      "#",
+      "A",
+      "V",
+      "O"
+    ],
+    [
+      "Z",
+      "I",
+      "N",
+      "C",
+      "#",
+      "T",
+      "I",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "S",
+      "C",
+      "I",
+      "#",
+      "O",
+      "N",
+      "L",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "D",
+      "#",
+      "R",
+      "A",
+      "M",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "SSW",
+      "clue": "Compass point midway between south and southwest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southwest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "SCRUTINISE",
+      "clue": "Examine carefully for accuracy with the intent of verification",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Examine carefully for accuracy with the intent of verification",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "SOMNOLENCE",
+      "clue": "Very sleepy state",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Oppressive drowsiness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "WOOL",
+      "clue": "Outer coat of especially sheep and yaks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outer coat of especially sheep and yaks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "SCOOPS",
+      "clue": "Large ladles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large ladles",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SODOM",
+      "clue": "Ancient city near the Dead Sea that (along with Gomorrah) was destroyed by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient city near the Dead Sea that (along with Gomorrah) was destroyed by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "PLOVER",
+      "clue": "Any of numerous chiefly shorebirds of relatively compact build having straight...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous chiefly shorebirds of relatively compact build having straight...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SUPINATOR",
+      "clue": "Muscle (especially in the forearm) that produces or assists in supination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Muscle (especially in the forearm) that produces or assists in supination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "SPUR",
+      "clue": "Railway line connected to a trunk line",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railway line connected to a trunk line",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "SUGAR",
+      "clue": "White crystalline carbohydrate used as a sweetener and preservative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White crystalline carbohydrate used as a sweetener and preservative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "PLAGIARIST",
+      "clue": "Someone who uses another person's words or ideas as if they were his own",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who uses another person's words or ideas as if they were his own",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "UNLEAVENED",
+      "clue": "Made without leavening",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made without leavening",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "RAE",
+      "clue": "Issa of \"Insecure\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ORMOLU",
+      "clue": "Brass that looks like gold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brass that looks like gold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "DUNLOP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "GALE",
+      "clue": "Strong wind moving 45-90 knots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong wind moving 45-90 knots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "OTO",
+      "clue": "Native American Missouri-Valley people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "VISAGE",
+      "clue": "Appearance conveyed by a person's face",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The face, countenance, or look of a person.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "SALINA",
+      "clue": "Town in central Kansas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town in central Kansas",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "MILLENARIAN",
+      "clue": "Person who believes in the coming of the millennium (a time of great peace...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who believes in the coming of the millennium (a time of great peace...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Shining",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "NODES",
+      "clue": "Acts of nodding the head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of nodding the head",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "NEURAL",
+      "clue": "Of or relating to neurons",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the nerves or nervous system.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ZINC",
+      "clue": "Bluish-white lustrous metallic element",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bluish-white lustrous metallic element",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ZAP",
+      "clue": "Sudden event that imparts energy or excitement, usually with a dramatic impact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sudden event that imparts energy or excitement, usually with a dramatic impact",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "TIERED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ELMS",
+      "clue": "Anies of various trees of the genus Ulmus: important timber or shade",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of various trees of the genus Ulmus: important timber or shade",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ASCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ONLINE",
+      "clue": "Being in progress now",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being in progress now",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "PEED",
+      "clue": "Eliminated urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eliminated urine",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "RAMSES",
+      "clue": "Any of 12 kings of ancient Egypt between 1315 and 1090 BC",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of 12 kings of ancient Egypt between 1315 and 1090 BC",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "date": "2027-03-23",
+  "number": 1081,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "L",
+      "U",
+      "E",
+      "#",
+      "S",
+      "O",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "U",
+      "N",
+      "N",
+      "I",
+      "N",
+      "G",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "A",
+      "C",
+      "C",
+      "E",
+      "L",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "N",
+      "I",
+      "L",
+      "#",
+      "L",
+      "E",
+      "E",
+      "R",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "E",
+      "F",
+      "E",
+      "R",
+      "#",
+      "Y",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "G",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "V",
+      "T",
+      "#",
+      "R",
+      "I",
+      "D",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "B",
+      "O",
+      "B",
+      "#",
+      "T",
+      "E",
+      "A",
+      "#"
+    ],
+    [
+      "I",
+      "S",
+      "R",
+      "A",
+      "E",
+      "L",
+      "I",
+      "T",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "A",
+      "R",
+      "S",
+      "E",
+      "N",
+      "E",
+      "S",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "I",
+      "D",
+      "E",
+      "#",
+      "F",
+      "R",
+      "E",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SLUE",
+      "clue": "Move obliquely or sideways, usually in an uncontrolled manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move obliquely or sideways, usually in an uncontrolled manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SCAN",
+      "clue": "Obtain data from magnetic tapes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtain data from magnetic tapes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clear, coherent; easy to understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "UNCLES",
+      "clue": "Brothers of your father or mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brothers of your father or mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point midway between northeast and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between northeast and east",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "SOLE",
+      "clue": "Right-eyed flatfish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Right-eyed flatfish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "SNEERED",
+      "clue": "Smiled contemptuously",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smiled contemptuously",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Imaginary monster, or hideous giant of fairy tales, who lived on...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "LEARY",
+      "clue": "United States psychologist who experimented with psychoactive drugs (including...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States psychologist who experimented with psychoactive drugs (including...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ESTER",
+      "clue": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "CUNNINGEST",
+      "clue": "Most showing inventiveness and skill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most showing inventiveness and skill",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "ILLEGIBLE",
+      "clue": "Incapable of being read",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Undecipherable.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "TEDS",
+      "clue": "Tough youths of 1950's and 1960's wearing Edwardian style clothes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough youths of 1950's and 1960's wearing Edwardian style clothes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "ACCELERATE",
+      "clue": "Cause to move faster",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move faster.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Will not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "LEERED",
+      "clue": "Looked suggestively or obliquely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Looked suggestively or obliquely",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "DEFER",
+      "clue": "Put off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To delay or put off to some other time.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "FAROESE",
+      "clue": "Scandinavian language (closely related to Icelandic) that is spoken on the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scandinavian language (closely related to Icelandic) that is spoken on the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "YRS",
+      "clue": "Periods of time containing 365 (or 366) days",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Periods of time containing 365 (or 366) days",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SAGES",
+      "clue": "Droops, sink, or settle from or as if from pressure or loss of tautness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Droops, sink, or settle from or as if from pressure or loss of tautness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "SETTER",
+      "clue": "Long-haired dog formerly trained to crouch on finding game but now to point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long-haired dog formerly trained to crouch on finding game but now to point",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "PVT",
+      "clue": "Army newbie: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "PSIS",
+      "clue": "23rd letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "VESPA",
+      "clue": "Type genus of the Vespidae: various hornets and yellow jackets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Vespidae: various hornets and yellow jackets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "TERAI",
+      "clue": "Foothill region of Nepal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "RIDER",
+      "clue": "Clause that is appended to a legislative bill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clause that is appended to a legislative bill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "REESE",
+      "clue": "Actress Witherspoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "SEEBOB",
+      "clue": "Plumb",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLUMB"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Bob\u201d defines plumb",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "BARD",
+      "clue": "Ornamental caparison for a horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ornamental caparison for a horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Prepared leaves of a shrub, or small tree (Thea, or Camellia, Chinensis)....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepared leaves of a shrub, or small tree (Thea, or Camellia, Chinensis)....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ASST",
+      "clue": "Helper: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "ISRAELITES",
+      "clue": "Ethnic group claiming descent from Abraham and Isaac (especially from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ethnic group claiming descent from Abraham and Isaac (especially from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "INF",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "SPARSENESS",
+      "clue": "Property of being scanty or scattered",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property of being scanty or scattered",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "AIDE",
+      "clue": "Officer who acts as military assistant to a more senior officer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Officer who acts as military assistant to a more senior officer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "FRET",
+      "clue": "Small bar of metal across the fingerboard of a musical instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small bar of metal across the fingerboard of a musical instrument",
+      "clueSource": "wordnet"
+    }
+  ]
+}

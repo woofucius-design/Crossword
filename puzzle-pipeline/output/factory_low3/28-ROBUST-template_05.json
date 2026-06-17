@@ -1,0 +1,780 @@
+{
+  "date": "2027-01-28",
+  "number": 1027,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "B",
+      "S",
+      "#",
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B"
+    ],
+    [
+      "T",
+      "H",
+      "E",
+      "O",
+      "#",
+      "U",
+      "R",
+      "E",
+      "M",
+      "I",
+      "A"
+    ],
+    [
+      "W",
+      "O",
+      "R",
+      "L",
+      "D",
+      "L",
+      "I",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "O",
+      "U",
+      "T",
+      "D",
+      "O",
+      "#",
+      "T",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "R",
+      "A",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "R",
+      "I",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "U",
+      "P",
+      "O",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "P",
+      "P",
+      "R",
+      "O",
+      "#",
+      "I",
+      "M",
+      "A",
+      "G",
+      "O"
+    ],
+    [
+      "M",
+      "O",
+      "L",
+      "E",
+      "S",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "A",
+      "T",
+      "E",
+      "#",
+      "G",
+      "R",
+      "E",
+      "E"
+    ],
+    [
+      "R",
+      "O",
+      "B",
+      "U",
+      "S",
+      "T",
+      "#",
+      "E",
+      "S",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "THOU",
+      "clue": "Cardinal number that is the product of 10 and 100",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the product of 10 and 100",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BERT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SOLD",
+      "clue": "Disposed of to a purchaser",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disposed of to a purchaser",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Swallow up",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "AUL",
+      "clue": "Caucasus Mountain village",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "BRITANNIA",
+      "clue": "White-metal alloy of tin, antimony, bismuth, copper, etc. It...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The United Kingdom of Great Britain.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "SENILE",
+      "clue": "Of or pertaining to old age",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Peculiar to or proceeding from the weakness or infirmity of old age.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "OMEN",
+      "clue": "Sign of something about to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sign of something about to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "RISE",
+      "clue": "Act of changing location in an upward direction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing location in an upward direction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "BASS",
+      "clue": "Having or denoting a low vocal or instrumental range",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Low in tone or compass.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "THEO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "TWO",
+      "clue": "Being one more than one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one more than one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "UREMIA",
+      "clue": "Accumulation in the blood of nitrogenous waste products (urea) that are usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accumulation in the blood of nitrogenous waste products (urea) that are usually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "WORLDLINESS",
+      "clue": "Concern with worldly affairs to the neglect of spiritual needs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Concern with worldly affairs to the neglect of spiritual needs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "DOORPOSTS",
+      "clue": "Jambs for a door",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Jambs for a door",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OUTDO",
+      "clue": "Go beyond in performance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To surpass.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "TINES",
+      "clue": "Airtights sealed metal container for food or drink or paint etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airtights sealed metal container for food or drink or paint etc",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered by the mouth, or in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RIO",
+      "clue": "Former capital and 2nd largest city of Brazil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former capital and 2nd largest city of Brazil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BRINE",
+      "clue": "Water saturated or strongly inpregnated with salt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Water saturated with salt.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "BUREAU",
+      "clue": "Originally, a desk or writing table with drawers for papers",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A chest of drawers for clothing, etc.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "UPON",
+      "clue": "On",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "APPRO",
+      "clue": "Informal British abbreviation of approval",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal British abbreviation of approval",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AMOR",
+      "clue": "God of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "POLO",
+      "clue": "Game similar to field hockey but played on horseback using long-handled...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game similar to field hockey but played on horseback using long-handled...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "PLEB",
+      "clue": "One of the common people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the common people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "IMAGO",
+      "clue": "Adult insect produced after metamorphosis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult insect produced after metamorphosis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "MTGE",
+      "clue": "Home loan: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AIRS",
+      "clue": "Affected manners intended to impress others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affected manners intended to impress others",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GOES",
+      "clue": "Board games for two players who place counters on a grid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Board games for two players who place counters on a grid",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MOLESTATION",
+      "clue": "Act of tormenting by continued persistent attacks and criticism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of tormenting by continued persistent attacks and criticism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "TET",
+      "clue": "New Year in Vietnam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "New Year in Vietnam",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "GREE",
+      "clue": "Good will",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Good will",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ROBUST",
+      "clue": "Rough and crude",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "strong, healthy, and vigorous",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    }
+  ]
+}

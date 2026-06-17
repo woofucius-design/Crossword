@@ -1,0 +1,748 @@
+{
+  "date": "2027-04-16",
+  "number": 1105,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "H",
+      "P",
+      "T",
+      "#",
+      "#",
+      "P",
+      "T",
+      "A",
+      "H",
+      "#"
+    ],
+    [
+      "N",
+      "O",
+      "A",
+      "H",
+      "#",
+      "#",
+      "R",
+      "E",
+      "L",
+      "I",
+      "C"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "V",
+      "E",
+      "N",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "O",
+      "U",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "#",
+      "B",
+      "R",
+      "I",
+      "T",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "B",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "D",
+      "I",
+      "O",
+      "S",
+      "#",
+      "F",
+      "A",
+      "E"
+    ],
+    [
+      "R",
+      "O",
+      "T",
+      "I",
+      "S",
+      "S",
+      "E",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "P",
+      "H",
+      "E",
+      "S",
+      "I",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "S",
+      "E",
+      "#",
+      "#",
+      "E",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "#",
+      "L",
+      "E",
+      "O",
+      "S",
+      "#",
+      "#",
+      "L",
+      "I",
+      "E",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SHPT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SNIDE",
+      "clue": "Expressive of contempt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expressive of contempt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "HONER",
+      "clue": "One who makes perfect or complete",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes perfect or complete",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "PATNA",
+      "clue": "Bihar state capital, India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "THEO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "PTAH",
+      "clue": "Major Egyptian god",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major Egyptian god",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "PREMISSES",
+      "clue": "Statements that is assumed to be true and from which a conclusion can",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Statements that is assumed to be true and from which a conclusion can",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "TENET",
+      "clue": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALINE",
+      "clue": "Place in a line or arrange so as to be parallel or straight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place in a line or arrange so as to be parallel or straight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "HINT",
+      "clue": "Nuance",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "NUANCE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of nuance",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "NOAH",
+      "clue": "Hebrew patriarch who saved himself and his family and the animals by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hebrew patriarch who saved himself and his family and the animals by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RELIC",
+      "clue": "Something of sentimental value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of sentimental value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "CGS",
+      "clue": "System of measurement based on centimeters and grams and seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "System of measurement based on centimeters and grams and seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERVENING",
+      "clue": "Occurring or falling between events or points in time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Occurring or falling between events or points in time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "RUBBISHES",
+      "clue": "Nonsensical talks or writing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nonsensical talks or writing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using or expressed in more words than are needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "DENOUEMENTS",
+      "clue": "That parts of a play or story in which the mystery is cleared up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That parts of a play or story in which the mystery is cleared up",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "BRITE",
+      "clue": "Be or become overripe, as wheat, barley, or hops",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be or become overripe, as wheat, barley, or hops",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "BBS",
+      "clue": "Computer that is running software that allows users to leave messages and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer that is running software that allows users to leave messages and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ADIOS",
+      "clue": "Farewell remark",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farewell remark",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ATONE",
+      "clue": "Set at one",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make amends for.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "DIPSO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "FAE",
+      "clue": "Device consisting of a container of fuel and two explosive charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device consisting of a container of fuel and two explosive charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "FIERI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "AERIE",
+      "clue": "Any habitation at a high altitude",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any habitation at a high altitude",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSEN",
+      "clue": "City in western Germany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "ROTISSERIES",
+      "clue": "Restaurants that specializes in roasted and barbecued meats",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Restaurants that specializes in roasted and barbecued meats",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "RPM",
+      "clue": "Rate of revolution of a motor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rate of revolution of a motor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered by the mouth, or in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "RIEL",
+      "clue": "Basic unit of money in Cambodia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Cambodia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PROPHESIERS",
+      "clue": "Authoritative persons who divines the future",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Authoritative persons who divines the future",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "MANSE",
+      "clue": "Residence of a clergyman (especially a Presbyterian clergyman)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Residence of a clergyman (especially a Presbyterian clergyman)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Pennsylvania Great Lake port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "LEOS",
+      "clue": "Fifth signs of the zodiac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fifth signs of the zodiac",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "LIEN",
+      "clue": "Of Lie. See lain. Ps. lxviii",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A legal claim or hold on property, as security for a debt or charge.",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

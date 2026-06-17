@@ -1,0 +1,779 @@
+{
+  "date": "2027-02-07",
+  "number": 1037,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "H",
+      "A",
+      "F",
+      "F",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "A",
+      "L",
+      "L",
+      "O",
+      "O",
+      "#",
+      "A",
+      "G",
+      "T",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "L",
+      "E",
+      "H",
+      "I"
+    ],
+    [
+      "M",
+      "E",
+      "O",
+      "W",
+      "#",
+      "S",
+      "W",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "T",
+      "H",
+      "E",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "C",
+      "I",
+      "E",
+      "N",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "O",
+      "P",
+      "U",
+      "L",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "D",
+      "U",
+      "S",
+      "A",
+      "#",
+      "P",
+      "I",
+      "T",
+      "A"
+    ],
+    [
+      "E",
+      "N",
+      "G",
+      "R",
+      "#",
+      "T",
+      "A",
+      "R",
+      "S",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "P",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "M",
+      "N",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "CHAFF",
+      "clue": "Foil in thin strips",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Foil in thin strips",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CHAM",
+      "clue": "Chew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chew",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "HABE",
+      "clue": "Have, in German",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ALSO",
+      "clue": "In addition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In addition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "FLOW",
+      "clue": "Undergo menstruation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undergo menstruation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the most general sense, indicating that in consideration of, in view of, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "HALLOO",
+      "clue": "Shout to attract attention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shout to attract attention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Stubbornly refusing to change one's opinion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "AGT",
+      "clue": "Hollywood rep, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ALIEN",
+      "clue": "Being or from or characteristic of another place or part of the world",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who owes allegiance to a foreign government.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "GENIC",
+      "clue": "Of or relating to or produced by or being a gene",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or produced by or being a gene",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "THESE",
+      "clue": "Plural of this. See This",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plural of this. See This",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Cause to become one with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "LEHI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ISMS",
+      "clue": "Beliefs (or systems of beliefs) accepted as authoritative by some group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Beliefs (or systems of beliefs) accepted as authoritative by some group",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "MEOW",
+      "clue": "Sound made by a cat (or any sound resembling this)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound made by a cat (or any sound resembling this)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "SWINES",
+      "clue": "Stout-bodied short-legged omnivorous animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stout-bodied short-legged omnivorous animals",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "WHET",
+      "clue": "Sharpen by rubbing, as on a whetstone",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make more keen or eager.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ATHEISM",
+      "clue": "Lack of belief in the existence of God or gods",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The denial of the existence of God.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ACES",
+      "clue": "Electrics current that reverses direction sinusoidally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrics current that reverses direction sinusoidally",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "CONSCIENCES",
+      "clue": "Faculties in man by which he distinguishes between right and wrong",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Faculties in man by which he distinguishes between right and wrong",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "COME",
+      "clue": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thick white fluid containing spermatozoa that is ejaculated by the male...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "OPENS",
+      "clue": "Informations that has become public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informations that has become public",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "NUDGE",
+      "clue": "Slight push or shake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slight push or shake",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SLURP",
+      "clue": "Eat noisily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eat noisily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "OPULENT",
+      "clue": "Showing great wealth; lavish; luxurious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "showing great wealth; lavish; luxurious",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "MEDUSA",
+      "clue": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "PITA",
+      "clue": "Usually small round bread that can open into a pocket for filling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually small round bread that can open into a pocket for filling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "PRIM",
+      "clue": "Exaggeratedly proper",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Stiffly proper.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ISBN",
+      "clue": "Book ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TALE",
+      "clue": "Trivial lie",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trivial lie",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "States in the southeastern United States on the Gulf of Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in the southeastern United States on the Gulf of Mexico",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ENGR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "TARSAL",
+      "clue": "Any bone of the tarsus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any bone of the tarsus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Rapid active commotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SEP",
+      "clue": "Month following August and preceding October",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following August and preceding October",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Suitable for use as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "OMNES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

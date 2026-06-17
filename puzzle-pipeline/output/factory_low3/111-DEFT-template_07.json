@@ -1,0 +1,715 @@
+{
+  "date": "2027-04-21",
+  "number": 1110,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "E",
+      "F",
+      "T",
+      "#",
+      "#",
+      "P",
+      "R",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "O",
+      "G",
+      "R",
+      "E",
+      "#",
+      "#",
+      "L",
+      "E",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "E",
+      "G",
+      "A",
+      "L",
+      "I",
+      "T",
+      "A",
+      "R",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "S",
+      "P",
+      "I",
+      "R",
+      "I",
+      "T",
+      "U",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "A",
+      "D",
+      "E",
+      "N",
+      "C",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "R",
+      "I",
+      "N",
+      "G",
+      "T",
+      "I",
+      "M",
+      "E",
+      "#"
+    ],
+    [
+      "A",
+      "I",
+      "R",
+      "L",
+      "E",
+      "S",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "K",
+      "S",
+      "#",
+      "#",
+      "G",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "A",
+      "E",
+      "D",
+      "E",
+      "S",
+      "#",
+      "#",
+      "S",
+      "T",
+      "Y",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Apt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "DOE",
+      "clue": "Female of the deer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The female of the deer.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "EGGS",
+      "clue": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "FRAP",
+      "clue": "Take up the slack of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take up the slack of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TELIC",
+      "clue": "Denoting the final end or purpose, as distinguished from ecbatic. See Ecbatic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Denoting the final end or purpose, as distinguished from ecbatic. See Ecbatic",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "PRESS",
+      "clue": "Ask for or request earnestly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ask for or request earnestly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "PLATELETS",
+      "clue": "Tiny bitses of protoplasm found in vertebrate blood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiny bitses of protoplasm found in vertebrate blood",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "RERUN",
+      "clue": "Program that is broadcast again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program that is broadcast again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ENIAC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "STALE",
+      "clue": "Urinate, of cattle and horses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urinate, of cattle and horses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SONS",
+      "clue": "Divine words of God",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine words of God",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LENTO",
+      "clue": "Slow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EGALITARIAN",
+      "clue": "Person who believes in the equality of all people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who believes in the equality of all people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "IRATENESS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "TIDINGS",
+      "clue": "Information about recent and important events",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Information about recent and important events",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "SPIRITUALS",
+      "clue": "Kinds of religious song originated by Blacks in the southern United",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kinds of religious song originated by Blacks in the southern United",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CADENCE",
+      "clue": "Act or state of declining or sinking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Rhythmical or measured flow or movement, as in poetry or the time and pace of",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TIL",
+      "clue": "See Till",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Till",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "SERENER",
+      "clue": "More calm and untroubled",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More calm and untroubled",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "SPIRE",
+      "clue": "Tall tower that forms the superstructure of a building (usually a church or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tall tower that forms the superstructure of a building (usually a church or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ERRED",
+      "clue": "Made a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made a mistake or be incorrect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "RILKE",
+      "clue": "German poet (born in Austria) whose imagery and mystic lyricism influenced...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German poet (born in Austria) whose imagery and mystic lyricism influenced...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "RINGS",
+      "clue": "Gymnastic apparatus consisting of a pair of heavy metal circles (usually...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gymnastic apparatus consisting of a pair of heavy metal circles (usually...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "SPRINGTIME",
+      "clue": "Season of growth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Season of growth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SATA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MEAT",
+      "clue": "Choicest or most essential or most vital part of some idea or experience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Choicest or most essential or most vital part of some idea or experience",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "AIRLESSNESS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass point midway between south and southeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "TREKS",
+      "clue": "Any long and difficult trips",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any long and difficult trips",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "GAPS",
+      "clue": "Acts of delaying or interrupting the continuity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of delaying or interrupting the continuity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "AEDES",
+      "clue": "Yellow-fever mosquitos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yellow-fever mosquitos",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Infection of the sebaceous gland of the eyelid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infection of the sebaceous gland of the eyelid",
+      "clueSource": "wordnet"
+    }
+  ]
+}

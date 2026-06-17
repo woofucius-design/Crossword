@@ -1,0 +1,723 @@
+{
+  "date": "2027-02-16",
+  "number": 1046,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "C",
+      "#",
+      "#",
+      "D",
+      "A",
+      "M",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "N",
+      "O",
+      "E",
+      "S",
+      "#",
+      "I",
+      "N",
+      "A",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "I",
+      "M",
+      "L",
+      "E",
+      "S",
+      "S",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "A",
+      "T",
+      "E",
+      "L",
+      "E",
+      "C",
+      "T",
+      "A",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "T",
+      "A",
+      "D",
+      "O",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "I",
+      "M",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "F",
+      "I",
+      "C",
+      "I",
+      "O",
+      "N",
+      "A",
+      "D",
+      "O",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "C",
+      "O",
+      "M",
+      "P",
+      "O",
+      "S",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "A",
+      "R",
+      "O",
+      "M",
+      "A",
+      "#",
+      "R",
+      "A",
+      "P",
+      "T",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "N",
+      "A",
+      "L",
+      "#",
+      "#",
+      "I",
+      "T",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,7": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,4": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,5": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "5,4": {
+      "number": 16
+    },
+    "6,4": {
+      "number": 17
+    },
+    "6,7": {
+      "number": 18
+    },
+    "6,8": {
+      "number": 19
+    },
+    "6,9": {
+      "number": 20
+    },
+    "6,10": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,6": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ACC",
+      "clue": "Command that is the primary provider of air combat weapon systems to the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Command that is the primary provider of air combat weapon systems to the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ANITA",
+      "clue": "Singer Baker",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "COMET",
+      "clue": "Relatively small extraterrestrial body consisting of a frozen mass that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relatively small extraterrestrial body consisting of a frozen mass that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "CELLA",
+      "clue": "Part inclosed within the walls of an ancient temple, as distinguished from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part inclosed within the walls of an ancient temple, as distinguished from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "DAMAN",
+      "clue": "Small herbivorous mammal of the genus Hyrax. The species found in Palestine...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small herbivorous mammal of the genus Hyrax. The species found in Palestine...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 10,
+      "answer": "DISTRAINOR",
+      "clue": "One who subjects a person to distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who subjects a person to distress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ANNA",
+      "clue": "Former copper coin of Pakistan and India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former copper coin of Pakistan and India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "MAES",
+      "clue": "Master's degree in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANSI",
+      "clue": "U.S. standards body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "NESS",
+      "clue": "Strip of land projecting into a body of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strip of land projecting into a body of water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "NOES",
+      "clue": "Negatives",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negatives",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 10,
+      "answer": "SEEDECIMAL",
+      "clue": "Circulate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CIRCULATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Decimal\u201d defines circulate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "INANE",
+      "clue": "Devoid of intelligence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Silly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "AIMLESSNESS",
+      "clue": "Quality of lacking any definite purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of lacking any definite purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AAM",
+      "clue": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "SCOLLOP",
+      "clue": "Edible marine bivalve having a fluted fan-shaped shell that swim by expelling...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edible marine bivalve having a fluted fan-shaped shell that swim by expelling...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "ATELECTASIS",
+      "clue": "Collapse of an expanded lung (especially in infants)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collapse of an expanded lung (especially in infants)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "MATADOR",
+      "clue": "Principal bullfighter who is appointed to make the final passes and kill...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal bullfighter who is appointed to make the final passes and kill...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "CLIMATE",
+      "clue": "Weather in some location averaged over some long period of time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Weather in some location averaged over some long period of time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "MASAI",
+      "clue": "Nilotic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nilotic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "One fully skilled or well versed in anything",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "TORTS",
+      "clue": "Any wrongdoings for which an action for damages may be brought",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any wrongdoings for which an action for damages may be brought",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "AFICIONADOS",
+      "clue": "Serious devotees of some particular music genre or musical performer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serious devotees of some particular music genre or musical performer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ADAR",
+      "clue": "Sixth month of the civil year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sixth month of the civil year",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "FERE",
+      "clue": "Mate or companion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mate or companion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "Conventional religious painting in oil on a small wooden panel",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An image or likeness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "COMA",
+      "clue": "State of deep and often prolonged unconsciousness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of deep and often prolonged unconsciousness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DECOMPOSERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "AROMA",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An agreeable odor.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "RAPT",
+      "clue": "Feeling great rapture or delight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Enraptured.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "RENAL",
+      "clue": "Of or relating to the kidneys",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the kidneys",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Branches of engineering that deals with the use of computers and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of engineering that deals with the use of computers and",
+      "clueSource": "inflection"
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "date": "2027-03-19",
+  "number": 1077,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "A",
+      "C",
+      "E",
+      "#",
+      "S",
+      "C",
+      "A",
+      "M",
+      "S"
+    ],
+    [
+      "#",
+      "E",
+      "N",
+      "O",
+      "L",
+      "#",
+      "A",
+      "R",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "E",
+      "T",
+      "A",
+      "L",
+      "#",
+      "T",
+      "O",
+      "I",
+      "L",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "I",
+      "L",
+      "#",
+      "C",
+      "I",
+      "S",
+      "C",
+      "O",
+      "#"
+    ],
+    [
+      "R",
+      "A",
+      "C",
+      "E",
+      "H",
+      "O",
+      "R",
+      "S",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "H",
+      "I",
+      "B",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "M",
+      "I",
+      "C",
+      "R",
+      "O",
+      "C",
+      "O",
+      "S",
+      "M",
+      "S"
+    ],
+    [
+      "#",
+      "A",
+      "G",
+      "E",
+      "R",
+      "S",
+      "#",
+      "W",
+      "H",
+      "O",
+      "A"
+    ],
+    [
+      "S",
+      "U",
+      "N",
+      "N",
+      "I",
+      "#",
+      "A",
+      "M",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "L",
+      "I",
+      "C",
+      "E",
+      "#",
+      "D",
+      "E",
+      "F",
+      "T",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "E",
+      "T",
+      "#",
+      "O",
+      "N",
+      "T",
+      "O",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "DACE",
+      "clue": "Small European freshwater fish with a slender bluish-green body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small European freshwater fish with a slender bluish-green body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DEENA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ANTIC",
+      "clue": "Grotesque, ludicrous, or fantastic action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A grotesque, ludicrous, or fantastic action.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "COALESCENCE",
+      "clue": "Act or process of coming together so as to form one body, combination",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The act or process of coming together so as to form one body, combination...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ELL",
+      "clue": "Extension at the end and at right angles to the main building",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extension at the end and at right angles to the main building",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "SCAMS",
+      "clue": "Fraudulent business schemes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fraudulent business schemes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "SATIRIC",
+      "clue": "Resembling poetry, in which vice, incapacity ,or corruption is held up to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Resembling poetry, in which vice, incapacity ,or corruption is held up to",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CROSSBOWMEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALICE",
+      "clue": "Wonderland visitor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "MELOS",
+      "clue": "Greek island of the Venus statue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Independent federal agency that administers compulsory military service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that administers compulsory military service",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ARLES",
+      "clue": "Money given by a buyer to a seller to bind a contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money given by a buyer to a seller to bind a contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "METAL",
+      "clue": "Element that forms a base by combining with oxygen, is usually hard, heavy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An element that forms a base by combining with oxygen, is usually hard, heavy...",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MAR",
+      "clue": "Mark or flaw that spoils the appearance of something (especially on a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mark or flaw that spoils the appearance of something (especially on a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "TOILS",
+      "clue": "Productive work (especially physical works done for wages)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Productive work (especially physical works done for wages)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ANIL",
+      "clue": "Shrub of West Indies and South America that is a source of indigo dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrub of West Indies and South America that is a source of indigo dye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "CISCO",
+      "clue": "Important food fish of cold deep lakes of North America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Important food fish of cold deep lakes of North America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "COHOS",
+      "clue": "Small salmons of northern Pacific coasts and the Great Lakes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small salmons of northern Pacific coasts and the Great Lakes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "RACEHORSES",
+      "clue": "Horses bred for racing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horses bred for racing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "HARRIET",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SAHIB",
+      "clue": "Formerly a term of respect for important white Europeans in colonial India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formerly a term of respect for important white Europeans in colonial India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "MICROCOSMS",
+      "clue": "Worlds or universes on a small scale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Worlds or universes on a small scale",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "MAULS",
+      "clue": "Heavies long-handled hammer used to drive stakes or wedges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavies long-handled hammer used to drive stakes or wedges",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "IGNIS",
+      "clue": "Latin for fire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "SHIFT",
+      "clue": "Act of changing one thing or position for another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing one thing or position for another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "MOTTO",
+      "clue": "Expressive word or pithy sentence enunciating some guiding rule of life, or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An expressive word or pithy sentence enunciating some guiding rule of life, or",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "SAY",
+      "clue": "Chance to speak",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chance to speak",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "AGERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "WHOA",
+      "clue": "Stop",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stop",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "SUNNI",
+      "clue": "One of the two main branches of orthodox Islam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the two main branches of orthodox Islam",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "SSA",
+      "clue": "Independent government agency responsible for the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent government agency responsible for the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "AMITY",
+      "clue": "Friendship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Friendship.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "SLICE",
+      "clue": "Golf shot that curves to the right for a right-handed golfer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Golf shot that curves to the right for a right-handed golfer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Neatly skillful and quick in movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "ASSET",
+      "clue": "Useful or valuable quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Useful or valuable quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ONTO",
+      "clue": "On the top of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On the top of",
+      "clueSource": "webster"
+    }
+  ]
+}

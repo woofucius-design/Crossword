@@ -1,0 +1,711 @@
+{
+  "date": "2027-07-14",
+  "number": 1194,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "K",
+      "A",
+      "B",
+      "O",
+      "O",
+      "M",
+      "#",
+      "A",
+      "M",
+      "I",
+      "D"
+    ],
+    [
+      "R",
+      "U",
+      "S",
+      "T",
+      "L",
+      "E",
+      "#",
+      "R",
+      "A",
+      "R",
+      "A"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "H",
+      "E",
+      "R",
+      "#",
+      "M",
+      "U",
+      "I",
+      "R"
+    ],
+    [
+      "B",
+      "E",
+      "E",
+      "#",
+      "A",
+      "C",
+      "C",
+      "O",
+      "R",
+      "D",
+      "#"
+    ],
+    [
+      "S",
+      "A",
+      "N",
+      "C",
+      "T",
+      "U",
+      "A",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "E",
+      "R",
+      "S",
+      "#",
+      "T",
+      "S",
+      "P"
+    ],
+    [
+      "N",
+      "O",
+      "I",
+      "R",
+      "#",
+      "I",
+      "T",
+      "H",
+      "A",
+      "C",
+      "A"
+    ],
+    [
+      "B",
+      "R",
+      "O",
+      "T",
+      "#",
+      "A",
+      "L",
+      "I",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "E",
+      "N",
+      "S",
+      "#",
+      "L",
+      "E",
+      "V",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "A",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "CAD",
+      "clue": "Software used in art and architecture and engineering and manufacturing to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Software used in art and architecture and engineering and manufacturing to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "CAUSEASORE",
+      "clue": "Rankle",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RANKLE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201ccause a sore\u201d defines rankle",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "ABSTENTION",
+      "clue": "Trait of abstaining (especially from alcohol)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trait of abstaining (especially from alcohol)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "DOTH",
+      "clue": "Of Do",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of Do",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "KABOOM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "KREBS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MERCURIAL",
+      "clue": "Having the qualities fabled to belong to the god Mercury",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "subject to sudden or unpredictable mood changes",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "AMID",
+      "clue": "See Amidst. In the midst or middle of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Amidst. In the midst or middle of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ARMOR",
+      "clue": "Tough more-or-less rigid protective covering of an animal or plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough more-or-less rigid protective covering of an animal or plant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "MAURITANIA",
+      "clue": "Country in northwestern Africa with a provisional military government",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Country in northwestern Africa with a provisional military government",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "IRIDESCENT",
+      "clue": "Having colors like the rainbow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Exhibiting changing rainbow-colors due to the interference of the light.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "DAR",
+      "clue": "Patriotic women's org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "RUSTLE",
+      "clue": "Light noise, like the noise of silk clothing or leaves blowing in the wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light noise, like the noise of silk clothing or leaves blowing in the wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RARA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ESTHER",
+      "clue": "Old Testament book telling of a beautiful Jewess who became queen of Persia...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old Testament book telling of a beautiful Jewess who became queen of Persia...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "MUIR",
+      "clue": "United States naturalist (born in England) who advocated the creation of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States naturalist (born in England) who advocated the creation of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "BEE",
+      "clue": "Any of numerous hairy-bodied insects including social and solitary species",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous hairy-bodied insects including social and solitary species",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "ACCORD",
+      "clue": "Sympathetic compatibility",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sympathetic compatibility",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "CASTLE",
+      "clue": "Interchanging the positions of the king and a rook",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interchanging the positions of the king and a rook",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "SANCTUARIES",
+      "clue": "Areas around the altar of a church for the clergy and choir",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Areas around the altar of a church for the clergy and choir",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CERTS",
+      "clue": "Absolute certainties",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Absolute certainties",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SPADE",
+      "clue": "Sturdy hand shovel that can be pushed into the earth with the foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sturdy hand shovel that can be pushed into the earth with the foot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "STEERS",
+      "clue": "Castrated bulls",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Castrated bulls",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "Recipe meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "NOIR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "NBS",
+      "clue": "Latin phrase (or its abbreviations) used to indicate that special",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Latin phrase (or its abbreviations) used to indicate that special",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ITHACA",
+      "clue": "Greek island to the west of Greece",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek island to the west of Greece",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HIVE",
+      "clue": "Man-made receptacle that houses a swarm of bees",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man-made receptacle that houses a swarm of bees",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "BROT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ALINED",
+      "clue": "Placed in a line or arrange so as to be parallel or straight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Placed in a line or arrange so as to be parallel or straight",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SENS",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LEVINE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EAT",
+      "clue": "Cause to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "wordnet"
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "date": "2027-02-06",
+  "number": 1036,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "H",
+      "O",
+      "W",
+      "#",
+      "A",
+      "S",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "#",
+      "T",
+      "A",
+      "P",
+      "E",
+      "#",
+      "P",
+      "H",
+      "E",
+      "B",
+      "E"
+    ],
+    [
+      "T",
+      "O",
+      "V",
+      "A",
+      "R",
+      "#",
+      "P",
+      "A",
+      "N",
+      "E",
+      "L"
+    ],
+    [
+      "V",
+      "I",
+      "O",
+      "L",
+      "#",
+      "D",
+      "A",
+      "M",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "C",
+      "E",
+      "L",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "R",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "C",
+      "C",
+      "R",
+      "E",
+      "T",
+      "I",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "H",
+      "E",
+      "I",
+      "K",
+      "#",
+      "S",
+      "P",
+      "O",
+      "T"
+    ],
+    [
+      "D",
+      "I",
+      "A",
+      "N",
+      "A",
+      "#",
+      "A",
+      "T",
+      "R",
+      "I",
+      "A"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "C",
+      "T",
+      "#",
+      "B",
+      "I",
+      "A",
+      "S",
+      "#"
+    ],
+    [
+      "G",
+      "E",
+      "N",
+      "E",
+      "S",
+      "#",
+      "A",
+      "C",
+      "H",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SHOW",
+      "clue": "Act of publicly exhibiting or entertaining",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of publicly exhibiting or entertaining",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "HAVOC",
+      "clue": "Wide and general destruction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Devastation.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "OPALESCENCE",
+      "clue": "Property of combined refraction and reflection of light",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The property of combined refraction and reflection of light, resulting in",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "WER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ASTOR",
+      "clue": "United States capitalist (born in Germany) who made a fortune in fur trading...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States capitalist (born in Germany) who made a fortune in fur trading...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "APPARAT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SHAMANISTIC",
+      "clue": "Of or relating to shamanism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to shamanism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "TENET",
+      "clue": "Any opinion, principle, dogma, or doctrine that a person believes or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "OBESE",
+      "clue": "Excessively corpulent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Exceedingly fat.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "TAPE",
+      "clue": "Memory device consisting of a long thin plastic strip coated with iron oxide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Memory device consisting of a long thin plastic strip coated with iron oxide",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "PHEBE",
+      "clue": "See Phoebe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Phoebe",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "TOVAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "TVA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "PANEL",
+      "clue": "Sunken compartment with raised margins, molded or otherwise, as in...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A rectangular piece set in or as in a frame.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "VIOL",
+      "clue": "Stringed musical instrument formerly in use, of the same form as...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A stringed instrument of the violin class.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "DAMES",
+      "clue": "Female parents of an animal especially domestic livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female parents of an animal especially domestic livestock",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "DEREK",
+      "clue": "Bo of \"10\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "ACCELERATE",
+      "clue": "Move faster",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move faster.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "LARIATS",
+      "clue": "Long noosed ropes used to catch animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long noosed ropes used to catch animals",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SARAN",
+      "clue": "Any of various thermoplastic resins used to make things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various thermoplastic resins used to make things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "ACCRETIONS",
+      "clue": "Increases in a beneficiary's share in an estate (as when a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increases in a beneficiary's share in an estate (as when a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ASIDE",
+      "clue": "Message that departs from the main subject",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Message that departs from the main subject",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CHAIN",
+      "clue": "Series of (usually metal) rings or links fitted into one another to make a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Series of (usually metal) rings or links fitted into one another to make a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OPRAH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "NOISE",
+      "clue": "Cacophony",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "STA",
+      "clue": "Train stop: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "SHEIK",
+      "clue": "Man who is much concerned with his dress and appearance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who is much concerned with his dress and appearance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SPOT",
+      "clue": "Pick out or notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "DIANA",
+      "clue": "Virgin goddess of the hunt and the Moon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Virgin goddess of the hunt and the Moon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "DEG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "ATRIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ABA",
+      "clue": "Fabric woven from goat hair and camel hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fabric woven from goat hair and camel hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "EDICT",
+      "clue": "Public command or ordinance by the sovereign power",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That which is uttered or proclaimed by authority as a rule of action.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "BIAS",
+      "clue": "Partiality that prevents objective consideration of an issue or situation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Partiality that prevents objective consideration of an issue or situation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "GENES",
+      "clue": "Informal terms for information",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for information",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "Name given to several species of plants",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

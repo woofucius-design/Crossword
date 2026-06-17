@@ -1,0 +1,754 @@
+{
+  "date": "2027-03-31",
+  "number": 1089,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "S",
+      "C",
+      "I",
+      "#",
+      "D",
+      "A",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "P",
+      "T",
+      "A",
+      "R",
+      "M",
+      "I",
+      "G",
+      "A",
+      "N",
+      "S"
+    ],
+    [
+      "#",
+      "P",
+      "A",
+      "S",
+      "S",
+      "A",
+      "G",
+      "E",
+      "W",
+      "A",
+      "Y"
+    ],
+    [
+      "#",
+      "S",
+      "I",
+      "S",
+      "#",
+      "G",
+      "R",
+      "E",
+      "E",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "I",
+      "A",
+      "N",
+      "A",
+      "#",
+      "S",
+      "T",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "D",
+      "E",
+      "P",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "S",
+      "#",
+      "A",
+      "S",
+      "H",
+      "E",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "A",
+      "T",
+      "A",
+      "M",
+      "I",
+      "#",
+      "R",
+      "O",
+      "E",
+      "#"
+    ],
+    [
+      "I",
+      "D",
+      "O",
+      "L",
+      "A",
+      "T",
+      "R",
+      "E",
+      "S",
+      "S",
+      "#"
+    ],
+    [
+      "L",
+      "I",
+      "K",
+      "E",
+      "N",
+      "E",
+      "S",
+      "S",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "S",
+      "T",
+      "#",
+      "V",
+      "A",
+      "S",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ASCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "STAID",
+      "clue": "Of a steady and sober character",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of a steady and sober character.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "CASSIA",
+      "clue": "Chinese tree with aromatic bark",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chinese tree with aromatic bark",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "IRS",
+      "clue": "Bureau of the Treasury Department responsible for tax collections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bureau of the Treasury Department responsible for tax collections",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "DADE",
+      "clue": "Hold up by leading strings or by the hand, as a child while he toddles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hold up by leading strings or by the hand, as a child while he toddles",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "DIGRAPH",
+      "clue": "Union of two characters representing a single sound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A union of two characters representing a single sound.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AGEE",
+      "clue": "United States novelist (1909-1955)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States novelist (1909-1955)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "DAWES",
+      "clue": "American patriot who rode with Paul Revere to warn that the British were...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American patriot who rode with Paul Revere to warn that the British were...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ENACT",
+      "clue": "Make into law, as by legislative act",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make into law, as by legislative act.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "PTARMIGANS",
+      "clue": "Large Arctic and subarctic grouses with feathered feet and usually",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Arctic and subarctic grouses with feathered feet and usually",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MAGNESITE",
+      "clue": "White mineral consisting of magnesium carbonate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White mineral consisting of magnesium carbonate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "SYED",
+      "clue": "Pakistani Islamic title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "PASSAGEWAY",
+      "clue": "Access",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACCESS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cpassage way\u201d defines access",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "SIS",
+      "clue": "Female person who has the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female person who has the same parents as another person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "GREECE",
+      "clue": "Republic in southeastern Europe on the southern part of the Balkan peninsula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in southeastern Europe on the southern part of the Balkan peninsula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "DIANA",
+      "clue": "Virgin goddess of the hunt and the Moon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Virgin goddess of the hunt and the Moon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ADAMANT",
+      "clue": "Any substance of exceeding hardness or impenetrability",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any substance of exceeding hardness or impenetrability.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Doctor's degree in theology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in theology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Very skilled or proficient at something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "TERESA",
+      "clue": "Indian nun and missionary in the Roman Catholic Church (born of Albanian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indian nun and missionary in the Roman Catholic Church (born of Albanian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "UNS",
+      "clue": "Organizations of independent states formed in 1945 to promote",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organizations of independent states formed in 1945 to promote",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "UTIL",
+      "clue": "Power co. service: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "NADIR",
+      "clue": "Point below the observer that is directly opposite the zenith on the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Point below the observer that is directly opposite the zenith on the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "STOKE",
+      "clue": "Stir up or tend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stir up or tend",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Pale",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pale.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "NOSES",
+      "clue": "Defeats by a narrow margin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Defeats by a narrow margin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "TATAMI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "States in the southeastern United States on the Gulf of Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in the southeastern United States on the Gulf of Mexico",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "ROE",
+      "clue": "Eggs or egg-laden ovary of a fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eggs or egg-laden ovary of a fish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "IDOLATRESS",
+      "clue": "Female worshiper of idols",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female worshiper of idols",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RSV",
+      "clue": "Bible version: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "LIKENESSES",
+      "clue": "Pictures consisting of a graphic image of a person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pictures consisting of a graphic image of a person or thing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "REST",
+      "clue": "Freedom from activity (work or strain or responsibility)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freedom from activity (work or strain or responsibility)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "VASE",
+      "clue": "Open jar of glass or porcelain used as an ornament or to hold flowers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open jar of glass or porcelain used as an ornament or to hold flowers",
+      "clueSource": "wordnet"
+    }
+  ]
+}

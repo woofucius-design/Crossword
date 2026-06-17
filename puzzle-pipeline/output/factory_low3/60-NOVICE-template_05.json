@@ -1,0 +1,783 @@
+{
+  "date": "2027-03-01",
+  "number": 1059,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "O",
+      "B",
+      "A",
+      "#",
+      "N",
+      "O",
+      "V",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "A",
+      "D",
+      "A",
+      "R",
+      "#",
+      "I",
+      "B",
+      "E",
+      "R",
+      "I",
+      "A"
+    ],
+    [
+      "N",
+      "O",
+      "T",
+      "T",
+      "O",
+      "L",
+      "E",
+      "R",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "#",
+      "D",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "C",
+      "O",
+      "I",
+      "F",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "W",
+      "I",
+      "L",
+      "E",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "U",
+      "D",
+      "A",
+      "L",
+      "L",
+      "#",
+      "C",
+      "A",
+      "S",
+      "T",
+      "E"
+    ],
+    [
+      "F",
+      "U",
+      "N",
+      "D",
+      "A",
+      "M",
+      "E",
+      "N",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "O",
+      "C",
+      "T",
+      "E",
+      "T",
+      "S",
+      "#",
+      "N",
+      "E",
+      "C",
+      "K"
+    ],
+    [
+      "S",
+      "E",
+      "I",
+      "N",
+      "E",
+      "S",
+      "#",
+      "A",
+      "P",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "OBA",
+      "clue": "African royal title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BATE",
+      "clue": "Soak in a special solution to soften and remove chemicals used in previous...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soak in a special solution to soften and remove chemicals used in previous...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "NOVICE",
+      "clue": "Someone new to a field or activity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a person new to and inexperienced in a field",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Nothing",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "OBEDIENCE",
+      "clue": "Behavior intended to please your parents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Behavior intended to please your parents",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "VERIFY",
+      "clue": "Prove to be true, exact, or accurate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To prove to be true, exact, or accurate.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "IRAN",
+      "clue": "Theocratic Islamic republic in the Middle East in western Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Theocratic Islamic republic in the Middle East in western Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "CINE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "EATS",
+      "clue": "Informal terms for a meal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for a meal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ADAR",
+      "clue": "Sixth month of the civil year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sixth month of the civil year",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "IBERIA",
+      "clue": "Peninsula in southwestern Europe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Peninsula in southwestern Europe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "NOTTOLERANT",
+      "clue": "Intolerant",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INTOLERANT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cnot tolerant\u201d defines intolerant",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "OSCILLATE",
+      "clue": "Swing back and forth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To swing back and forth.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "DRESS",
+      "clue": "Clothing in general",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clothing in general",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "DINES",
+      "clue": "Acts of making a noisy disturbance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of making a noisy disturbance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "COIF",
+      "clue": "Skullcap worn by nuns under a veil or by soldiers under a hood of mail or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Skullcap worn by nuns under a veil or by soldiers under a hood of mail or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "OLA",
+      "clue": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leaf or strip from a leaf of the talipot palm used in India for writing paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "WILEY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "WALDEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ALAN",
+      "clue": "Wolfhound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wolfhound",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "UDALL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "UFOS",
+      "clue": "(apparentlies) flying object whose nature is unknown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "(apparentlies) flying object whose nature is unknown",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "DUCE",
+      "clue": "Leader",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leader",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CASTE",
+      "clue": "Division of society on artificial grounds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The division of society on artificial grounds.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ANNA",
+      "clue": "Former copper coin of Pakistan and India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former copper coin of Pakistan and India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TACT",
+      "clue": "Consideration in dealing with others and avoiding giving offense",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ELK",
+      "clue": "Common deer of temperate Europe and Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common deer of temperate Europe and Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "FUNDAMENTAL",
+      "clue": "Basal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Basal.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MSS",
+      "clue": "Forms of address for a woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forms of address for a woman",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "OCTETS",
+      "clue": "Musical compositions written for eight performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical compositions written for eight performers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "NECK",
+      "clue": "Kiss, embrace, or fondle with sexual passion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kiss, embrace, or fondle with sexual passion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SEINES",
+      "clue": "Large fishnets that hangs vertically, with floats at the top and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large fishnets that hangs vertically, with floats at the top and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "APT",
+      "clue": "Being of striking appropriateness and pertinence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being of striking appropriateness and pertinence",
+      "clueSource": "wordnet"
+    }
+  ]
+}

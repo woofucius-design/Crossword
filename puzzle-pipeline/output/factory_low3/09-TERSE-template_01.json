@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-09",
+  "number": 1008,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "A",
+      "G",
+      "A",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "B",
+      "E",
+      "S",
+      "#",
+      "N",
+      "I",
+      "T",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "T",
+      "U",
+      "T",
+      "E",
+      "#",
+      "I",
+      "D",
+      "E",
+      "A"
+    ],
+    [
+      "Y",
+      "E",
+      "S",
+      "T",
+      "#",
+      "E",
+      "N",
+      "T",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "M",
+      "O",
+      "R",
+      "O",
+      "S",
+      "O"
+    ],
+    [
+      "G",
+      "E",
+      "N",
+      "T",
+      "L",
+      "E",
+      "W",
+      "O",
+      "M",
+      "E",
+      "N"
+    ],
+    [
+      "E",
+      "V",
+      "E",
+      "R",
+      "E",
+      "T",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "A",
+      "R",
+      "E",
+      "S",
+      "T",
+      "#",
+      "E",
+      "G",
+      "G",
+      "S"
+    ],
+    [
+      "E",
+      "D",
+      "D",
+      "Y",
+      "#",
+      "L",
+      "A",
+      "R",
+      "I",
+      "A",
+      "T"
+    ],
+    [
+      "#",
+      "E",
+      "S",
+      "S",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "O",
+      "C",
+      "E",
+      "A",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SAGAS",
+      "clue": "Narrative telling the adventureses of a hero or a family",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrative telling the adventureses of a hero or a family",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "STAY",
+      "clue": "Remain in place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ARSE",
+      "clue": "Vulgar slang for anus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vulgar slang for anus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GITS",
+      "clue": "Persons who is deemed to be despicable or contemptible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persons who is deemed to be despicable or contemptible",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ABUT",
+      "clue": "Touch at the end or boundary line",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To touch at the end or boundary line.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "TRIBES",
+      "clue": "Groups of people related by blood or marriage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Groups of people related by blood or marriage",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SEEMETTLE",
+      "clue": "Metal",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "METAL"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Mettle\u201d defines metal",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "NITRO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "IDIOM",
+      "clue": "Use of words peculiar to a particular language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A use of words peculiar to a particular language.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Brief to the point of bluntness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "AEON",
+      "clue": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine power or nature emanating from the Supreme Being and playing various...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "YEST",
+      "clue": "See Yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Yeast",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ENTIRE",
+      "clue": "Uncastrated adult male horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uncastrated adult male horse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "NOWT",
+      "clue": "Neat cattle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Neat cattle",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "AMOROSO",
+      "clue": "Lover",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lover",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "States in the southeastern United States on the Gulf of Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in the southeastern United States on the Gulf of Mexico",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "GENTLEWOMEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "GERE",
+      "clue": "Gear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gear",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EVADE",
+      "clue": "Avoid by artifice",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To avoid by artifice.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "NERDS",
+      "clue": "Intelligents but single-minded expert in a particular technical field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intelligents but single-minded expert in a particular technical field",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "TREYS",
+      "clue": "Ones of four playing cards in a deck having three pips",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones of four playing cards in a deck having three pips",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "EVERETT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "RAREST",
+      "clue": "Most not widely distributed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most not widely distributed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "EGGS",
+      "clue": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Utter taunts or reproaches",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GALA",
+      "clue": "Gay festivity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gay festivity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STEN",
+      "clue": "British submachine gun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "EDDY",
+      "clue": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Miniature whirlpool or whirlwind resulting when the current of a fluid...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LARIAT",
+      "clue": "Long noosed rope used to catch animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long noosed rope used to catch animals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Suitable to be eaten",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Large body of water constituting a principal part of the hydrosphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large body of water constituting a principal part of the hydrosphere",
+      "clueSource": "wordnet"
+    }
+  ]
+}

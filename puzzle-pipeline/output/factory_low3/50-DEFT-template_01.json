@@ -1,0 +1,779 @@
+{
+  "date": "2027-02-19",
+  "number": 1049,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "A",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "G",
+      "E",
+      "L",
+      "D",
+      "E",
+      "R",
+      "#",
+      "B",
+      "R",
+      "O",
+      "W"
+    ],
+    [
+      "I",
+      "D",
+      "E",
+      "A",
+      "#",
+      "I",
+      "M",
+      "B",
+      "I",
+      "B",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "O",
+      "O",
+      "P",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "D",
+      "M",
+      "I",
+      "N",
+      "I",
+      "S",
+      "T",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "D",
+      "U",
+      "C",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "I",
+      "R",
+      "O",
+      "G",
+      "I",
+      "#",
+      "T",
+      "O",
+      "D",
+      "D"
+    ],
+    [
+      "S",
+      "E",
+      "A",
+      "L",
+      "#",
+      "S",
+      "P",
+      "I",
+      "R",
+      "E",
+      "A"
+    ],
+    [
+      "#",
+      "D",
+      "N",
+      "S",
+      "#",
+      "M",
+      "O",
+      "D",
+      "I",
+      "F",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "N",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "RAISE",
+      "clue": "Cause to become alive again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to become alive again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RAGI",
+      "clue": "East Indian cereal grass whose seed yield a somewhat bitter flour, a staple in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "East Indian cereal grass whose seed yield a somewhat bitter flour, a staple in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Small island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SODA",
+      "clue": "Sweet drink containing carbonated water and flavoring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweet drink containing carbonated water and flavoring",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Before",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Cause to become one with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "BRITICISM",
+      "clue": "Word, idiom, or phrase characteristic of great britain or the british",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A word, idiom, or phrase characteristic of Great Britain or the British.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ATS",
+      "clue": "Email-address symbols",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ABBOT",
+      "clue": "Superior of an abbey of monks",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The superior of a community of monks.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "TRIPE",
+      "clue": "Nonsensical talk or writing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nonsensical talk or writing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "SOBER",
+      "clue": "Lacking brightness or color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lacking brightness or color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "GELDER",
+      "clue": "One who cuts off the testicles (of male animals such as horses)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who cuts off the testicles (of male animals such as horses)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "BROW",
+      "clue": "Arch of hair above each eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arch of hair above each eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "WEDS",
+      "clue": "Fourth days of the week",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth days of the week",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Approximate calculation of quantity or degree or worth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Approximate calculation of quantity or degree or worth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "Receive into the mind and retain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink or take in.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "MOST",
+      "clue": "Slightly short of or not quite accomplished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly short of or not quite accomplished",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "STOOPED",
+      "clue": "Having the back and shoulders rounded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the back and shoulders rounded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SNUG",
+      "clue": "Small secluded room",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small secluded room",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ADMINISTERS",
+      "clue": "Gives or applies (medications)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gives or applies (medications)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "DRIED",
+      "clue": "Preserved by removing natural moisture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preserved by removing natural moisture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "MORAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "IDOLS",
+      "clue": "Material effigies that is worshipped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material effigies that is worshipped",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "PRODUCT",
+      "clue": "Commodities offered for sale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commodities offered for sale",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PIROGI",
+      "clue": "Small fruit or meat turnover baked or fried",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small fruit or meat turnover baked or fried",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "TODD",
+      "clue": "Fictional character in a play by George Pitt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fictional character in a play by George Pitt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "TIDE",
+      "clue": "Periodic rise and fall of the sea level under the gravitational pull of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Periodic rise and fall of the sea level under the gravitational pull of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ORIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Neatly skillful and quick in movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DAYS",
+      "clue": "Time during which someone's life continues",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time during which someone's life continues",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SEAL",
+      "clue": "Any of numerous marine mammals that come on shore to breed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous marine mammals that come on shore to breed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SPIREA",
+      "clue": "Any rosaceous plant of the genus Spiraea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any rosaceous plant of the genus Spiraea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "POR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "DNS",
+      "clue": "Internet directory, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internet directory, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "MODIFY",
+      "clue": "Cause to change",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make somewhat different.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "RENTS",
+      "clue": "Engages for service under a term of contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engages for service under a term of contract",
+      "clueSource": "inflection"
+    }
+  ]
+}

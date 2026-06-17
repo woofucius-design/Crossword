@@ -1,0 +1,788 @@
+{
+  "date": "2027-03-08",
+  "number": 1066,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "G",
+      "U",
+      "N",
+      "#",
+      "C",
+      "A",
+      "S",
+      "A",
+      "B",
+      "A"
+    ],
+    [
+      "N",
+      "I",
+      "S",
+      "I",
+      "#",
+      "O",
+      "P",
+      "E",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "E",
+      "N",
+      "T",
+      "E",
+      "E",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "V",
+      "E",
+      "R",
+      "S",
+      "A",
+      "#",
+      "N",
+      "A",
+      "S",
+      "T",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "N",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "P",
+      "I",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "E",
+      "T",
+      "#",
+      "E",
+      "D",
+      "I",
+      "C",
+      "T"
+    ],
+    [
+      "C",
+      "H",
+      "I",
+      "N",
+      "O",
+      "I",
+      "S",
+      "E",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "A",
+      "R",
+      "D",
+      "E",
+      "N",
+      "T",
+      "#",
+      "M",
+      "O",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "E",
+      "S",
+      "E",
+      "S",
+      "#",
+      "O",
+      "N",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "GUN",
+      "clue": "Discharge of a firearm as signal or as a salute in military ceremonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Discharge of a firearm as signal or as a salute in military ceremonies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "Cast reproaches and sneering expressions",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "USSR",
+      "clue": "Former communist country in eastern Europe and northern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former communist country in eastern Europe and northern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "NIES",
+      "clue": "Hard malleable ductile silvery metallic elements that is resistant to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hard malleable ductile silvery metallic elements that is resistant to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "CASABA",
+      "clue": "Melon having yellowish rind and whitish flesh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Melon having yellowish rind and whitish flesh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "COT",
+      "clue": "Small bed that folds up for storage or transport",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small bed that folds up for storage or transport",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "APENNINES",
+      "clue": "Mountain range extending the length of the Italian peninsula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain range extending the length of the Italian peninsula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "SEEADD",
+      "clue": "Annex",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ANNEX"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Add\u201d defines annex",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ANIS",
+      "clue": "Black tropical American cuckoos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoos",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BEST",
+      "clue": "Supreme effort one can make",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Supreme effort one can make",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ARMY",
+      "clue": "Large number of people united for some specific purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number of people united for some specific purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Not final or absolute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not final or absolute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "NAV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OPENER",
+      "clue": "One who makes available",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes available",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ABSENTEEISM",
+      "clue": "Habitual absence from work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Habitual absence from work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "NASALTONE",
+      "clue": "Whine",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "WHINE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cnasal tone\u201d defines whine",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "VERSA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NASTY",
+      "clue": "Disgustingly dirty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disgustingly dirty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "SEND",
+      "clue": "Broadcast over the airwaves, as in radio or television",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broadcast over the airwaves, as in radio or television",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EPA",
+      "clue": "Independent federal agency established to coordinate programs aimed at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency established to coordinate programs aimed at...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SAPID",
+      "clue": "Having the power of affecting the organs of taste",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Affecting the sense of taste.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "SCENES",
+      "clue": "Graphic art consistings of the graphic or photographic representation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphic art consistings of the graphic or photographic representation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "CLAN",
+      "clue": "Tribe or collection of families, united under a chieftain, regarded...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A tribe.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ASSET",
+      "clue": "Useful or valuable quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Useful or valuable quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "SHRI",
+      "clue": "Indian title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "SIDE",
+      "clue": "Extended outer surface of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extended outer surface of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "EDICT",
+      "clue": "Public command or ordinance by the sovereign power",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "That which is uttered or proclaimed by authority as a rule of action.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "DEMO",
+      "clue": "Visual presentation showing how something works",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Visual presentation showing how something works",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "IRON",
+      "clue": "Home appliance consisting of a flat metal base that is heated and used to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Home appliance consisting of a flat metal base that is heated and used to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "Call upon officially or authoritatively to appear, as before a...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To refer to specifically.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "TEE",
+      "clue": "Short peg put into the ground to hold a golf ball off the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short peg put into the ground to hold a golf ball off the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CHINOISERIE",
+      "clue": "Style in art reflecting Chinese influence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Style in art reflecting Chinese influence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Branches of engineering that deals with the use of computers and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of engineering that deals with the use of computers and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ARDENT",
+      "clue": "Hot or burning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very enthusiastic or passionate",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "MOTE",
+      "clue": "Tiny piece of anything",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiny piece of anything",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "DIESES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    }
+  ]
+}

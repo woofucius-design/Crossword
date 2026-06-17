@@ -1,0 +1,771 @@
+{
+  "date": "2027-01-10",
+  "number": 1009,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "A",
+      "U",
+      "L",
+      "T",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "S",
+      "O",
+      "R",
+      "B",
+      "#",
+      "A",
+      "L",
+      "L",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "D",
+      "U",
+      "S",
+      "A",
+      "#",
+      "G",
+      "U",
+      "Y",
+      "S"
+    ],
+    [
+      "A",
+      "D",
+      "A",
+      "D",
+      "#",
+      "T",
+      "R",
+      "I",
+      "C",
+      "I",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "W",
+      "H",
+      "A",
+      "L",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "A",
+      "C",
+      "K",
+      "N",
+      "O",
+      "W",
+      "L",
+      "E",
+      "D",
+      "G",
+      "E"
+    ],
+    [
+      "P",
+      "L",
+      "E",
+      "U",
+      "R",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "L",
+      "E",
+      "T",
+      "#",
+      "L",
+      "A",
+      "O",
+      "S"
+    ],
+    [
+      "S",
+      "I",
+      "L",
+      "L",
+      "#",
+      "E",
+      "D",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "M",
+      "Y",
+      "S",
+      "#",
+      "R",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "E",
+      "T",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "FAULT",
+      "clue": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FAMA",
+      "clue": "Roman goddess of rumor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed; on a bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "USDA",
+      "clue": "Federal department that administers programs that provide services to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal department that administers programs that provide services to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LOUD",
+      "clue": "Characterized by or producing sound of great volume or intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by or producing sound of great volume or intensity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "TRS",
+      "clue": "Pants: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Swallow up",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "BATHWATER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Having the faculty of quick motion in the limbs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clear, coherent; easy to understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "LYING",
+      "clue": "Deliberate act of deviating from the truth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Untruthfulness.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "MEDUSA",
+      "clue": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of two forms that coelenterates take: it is the free-swimming sexual phase...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "GUYS",
+      "clue": "Stay-rope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stay-rope",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ADAD",
+      "clue": "Babylonian god of storms and wind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Babylonian god of storms and wind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "TRICIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "RALE",
+      "clue": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "WHALING",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "WORE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ACKNOWLEDGE",
+      "clue": "Recognize; to admit the genuineness or validity of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To recognize; to admit the genuineness or validity of.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "CLAIM",
+      "clue": "Demand for something as rightful or due",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Demand for something as rightful or due",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "KELLY",
+      "clue": "United States dancer who performed in many musical films (1912-1996)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States dancer who performed in many musical films (1912-1996)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "NULLS",
+      "clue": "Quantities of no importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quantities of no importance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "PLEURAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PALLET",
+      "clue": "Board that provides a flat surface on which artists mix paints and the range of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Board that provides a flat surface on which artists mix paints and the range of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LAOS",
+      "clue": "Mountainous landlocked communist state in southeastern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountainous landlocked communist state in southeastern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LICE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Instigate or encourage by aid or countenance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OLDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SEER",
+      "clue": "Sore",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A prophet.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SILL",
+      "clue": "Structural member consisting of a continuous horizontal timber forming the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structural member consisting of a continuous horizontal timber forming the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "EDIBLE",
+      "clue": "Fit to be eaten as food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Suitable to be eaten.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "DEP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "MYS",
+      "clue": "Whodunits, in publishing slang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "RECEDE",
+      "clue": "Move back",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To move back or away.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "PETER",
+      "clue": "Common baptismal name for a man. The name of one of the apostles,...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To fail or lose power, efficiency, or value.",
+      "clueSource": "sat:webster"
+    }
+  ]
+}

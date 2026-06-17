@@ -1,0 +1,778 @@
+{
+  "date": "2027-02-14",
+  "number": 1044,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "A",
+      "D",
+      "S",
+      "#",
+      "V",
+      "E",
+      "R",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "E",
+      "V",
+      "E",
+      "S",
+      "#",
+      "E",
+      "Q",
+      "U",
+      "A",
+      "L"
+    ],
+    [
+      "Y",
+      "I",
+      "E",
+      "L",
+      "D",
+      "#",
+      "R",
+      "U",
+      "S",
+      "T",
+      "S"
+    ],
+    [
+      "O",
+      "G",
+      "R",
+      "E",
+      "#",
+      "A",
+      "B",
+      "A",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "S",
+      "C",
+      "H",
+      "O",
+      "O",
+      "L",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "O",
+      "R",
+      "S",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "C",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "O",
+      "U",
+      "T",
+      "T",
+      "A",
+      "#",
+      "L",
+      "O",
+      "O",
+      "P"
+    ],
+    [
+      "E",
+      "L",
+      "L",
+      "I",
+      "E",
+      "#",
+      "M",
+      "I",
+      "N",
+      "U",
+      "S"
+    ],
+    [
+      "C",
+      "A",
+      "P",
+      "O",
+      "S",
+      "#",
+      "A",
+      "K",
+      "I",
+      "N",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "N",
+      "T",
+      "#",
+      "S",
+      "E",
+      "C",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "DADS",
+      "clue": "Informal terms for a father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for a father",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DEIGN",
+      "clue": "Deem worthy of notice or account",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To deem worthy of notice or account.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AVERS",
+      "clue": "Asserts as a fact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Asserts as a fact",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "DELECTATION",
+      "clue": "Delight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Delight.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "VERSE",
+      "clue": "Piece of poetry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of poetry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Using far more words than needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "EQUALORLIKE",
+      "clue": "Comparison",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "COMPARISON"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cequal or like\u201d defines comparison",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "RUSSE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SATED",
+      "clue": "Filled to satisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Filled to satisfaction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ELS",
+      "clue": "Railways that is powered by electricity and that runs on a track that",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railways that is powered by electricity and that runs on a track that",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "EVES",
+      "clue": "Units of energy equal to the work done by an electron accelerated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of energy equal to the work done by an electron accelerated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EQUAL",
+      "clue": "Having the requisite qualities or resources to meet a task",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the requisite qualities or resources to meet a task",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "YIELD",
+      "clue": "Production of a certain amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Production of a certain amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "RUSTS",
+      "clue": "Becomes coated with oxide",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes coated with oxide",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "ABASE",
+      "clue": "Lower in position, estimation, or the like",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To lower in position, estimation, or the like; degrade.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "AORTA",
+      "clue": "Large trunk artery that carries blood from the left ventricle of the heart...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large trunk artery that carries blood from the left ventricle of the heart...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "UNSCHOOLED",
+      "clue": "Lacking in schooling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lacking in schooling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "HOTTEST",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "TORSO",
+      "clue": "Body excluding the head and neck and limbs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body excluding the head and neck and limbs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "SCATTERING",
+      "clue": "Going or falling in various directions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Going or falling in various directions",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "SOLAR",
+      "clue": "Pertaining to the sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the sun.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CULPA",
+      "clue": "Negligence or fault, as distinguishable from dolus (deceit, fraud), which...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negligence or fault, as distinguishable from dolus (deceit, fraud), which...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "IONIC",
+      "clue": "Dialect of Ancient Greek spoken and written in Attica and Athens and Ionia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dialect of Ancient Greek spoken and written in Attica and Athens and Ionia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "NOUNS",
+      "clue": "Word classes that can serve as the subject or object of a verb, the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word classes that can serve as the subject or object of a verb, the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "GPS",
+      "clue": "Navigational system involving satellites and computers that can determine the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navigational system involving satellites and computers that can determine the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "OUTTA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LOOP",
+      "clue": "Flight maneuver",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flight maneuver",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "ELLIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "ECG",
+      "clue": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical recording of the cardiac cycle produced by an electrocardiograph",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "MINUS",
+      "clue": "Arithmetic operation in which the difference between two numbers is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arithmetic operation in which the difference between two numbers is...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MAS",
+      "clue": "Master's degree in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "CAPOS",
+      "clue": "Heads of a branch of an organized crime syndicate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heads of a branch of an organized crime syndicate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "GRANT",
+      "clue": "Act of providing a subsidy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of providing a subsidy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "SECS",
+      "clue": "Independent federal agencies that oversees the exchange of securities to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agencies that oversees the exchange of securities to",
+      "clueSource": "inflection"
+    }
+  ]
+}

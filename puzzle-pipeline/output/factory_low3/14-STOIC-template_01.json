@@ -1,0 +1,781 @@
+{
+  "date": "2027-01-14",
+  "number": 1013,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "C",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "L",
+      "S",
+      "A",
+      "M",
+      "#",
+      "A",
+      "S",
+      "H",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "E",
+      "#",
+      "S",
+      "T",
+      "E",
+      "P"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "Y",
+      "#",
+      "A",
+      "S",
+      "H",
+      "O",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "F",
+      "L",
+      "E",
+      "E",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "E",
+      "X",
+      "P",
+      "E",
+      "R",
+      "I",
+      "E",
+      "N",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "Y",
+      "R",
+      "I",
+      "A",
+      "N",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "L",
+      "A",
+      "G",
+      "U",
+      "E",
+      "#",
+      "C",
+      "L",
+      "U",
+      "B"
+    ],
+    [
+      "N",
+      "E",
+      "T",
+      "H",
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "M",
+      "E",
+      "T",
+      "#",
+      "S",
+      "N",
+      "A",
+      "T",
+      "C",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "Y",
+      "S",
+      "O",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ARCED",
+      "clue": "Forming or resembling an arch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forming or resembling an arch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RALE",
+      "clue": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "CLAN",
+      "clue": "Group of people related by blood or marriage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A tribe.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DAS",
+      "clue": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BALSAM",
+      "clue": "Ointment containing a fragrant resin",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A medical preparation, aromatic and oily, used for healing.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MEALINESS",
+      "clue": "Quality or state of being mealy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality or state of being mealy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Anemic looking from illness or emotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pale.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Enduring hardship without showing feelings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "HERNE",
+      "clue": "Corner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corner",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "Pass by",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Any maneuver made as part of progress toward a goal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any maneuver made as part of progress toward a goal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "PEGS",
+      "clue": "Wooden pins pushed or driven into a surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wooden pins pushed or driven into a surface",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "DENY",
+      "clue": "Declare untrue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declare untrue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ASHORE",
+      "clue": "Towards the shore from the water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Towards the shore from the water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Compass point midways between south and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midways between south and east",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "FLEEING",
+      "clue": "Running away quickly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Running away quickly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "FRAU",
+      "clue": "German courtesy title or form of address for an adult woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German courtesy title or form of address for an adult woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "EXPERIENCES",
+      "clue": "Accumulations of knowledge or skill that results from direct",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accumulations of knowledge or skill that results from direct",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "ESPN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "XYLEM",
+      "clue": "Woody part of plants: the supporting and water-conducting tissue,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Woody part of plants: the supporting and water-conducting tissue,...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "PRATE",
+      "clue": "Idle or foolish and irrelevant talk",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To talk about vainly or foolishly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "EIGHT",
+      "clue": "Being one more than seven",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one more than seven",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "SYRIANS",
+      "clue": "Native or inhabitants of Syria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native or inhabitants of Syria",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PLAGUE",
+      "clue": "Annoyance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annoyance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CLUB",
+      "clue": "Spot that is open late at night and that provides entertainment (as singers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spot that is open late at night and that provides entertainment (as singers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CRAY",
+      "clue": "See Crare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See Crare",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LETS",
+      "clue": "Serves that strikes the net before falling into the receiver's court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves that strikes the net before falling into the receiver's court",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "UNCO",
+      "clue": "A remarkable degree or extent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "A remarkable degree or extent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "BEHN",
+      "clue": "Centaurea behen, or saw-leaved centaury. (b) The Cucubalus behen, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Centaurea behen, or saw-leaved centaury. (b) The Cucubalus behen, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "NETH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Calm, peaceful, and untroubled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "MET",
+      "clue": "NYC opera house, with \"the\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SNATCH",
+      "clue": "Act of catching an object with the hands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of catching an object with the hands",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "DYSON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

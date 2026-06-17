@@ -1,0 +1,716 @@
+{
+  "date": "2027-05-20",
+  "number": 1139,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "A",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "#",
+      "M",
+      "P",
+      "E",
+      "G"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "C",
+      "L",
+      "E",
+      "#",
+      "A",
+      "R",
+      "N",
+      "O"
+    ],
+    [
+      "V",
+      "A",
+      "L",
+      "V",
+      "E",
+      "S",
+      "#",
+      "M",
+      "E",
+      "G",
+      "A"
+    ],
+    [
+      "E",
+      "M",
+      "O",
+      "#",
+      "A",
+      "C",
+      "C",
+      "E",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "N",
+      "E",
+      "G",
+      "O",
+      "T",
+      "I",
+      "A",
+      "T",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "L",
+      "I",
+      "V",
+      "E",
+      "N",
+      "S",
+      "#",
+      "S",
+      "D",
+      "I"
+    ],
+    [
+      "D",
+      "I",
+      "C",
+      "E",
+      "#",
+      "D",
+      "I",
+      "S",
+      "P",
+      "E",
+      "L"
+    ],
+    [
+      "T",
+      "Z",
+      "A",
+      "R",
+      "#",
+      "E",
+      "N",
+      "C",
+      "O",
+      "R",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "L",
+      "T",
+      "#",
+      "D",
+      "O",
+      "U",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "1,0": {
+      "number": 4
+    },
+    "1,4": {
+      "number": 5
+    },
+    "1,5": {
+      "number": 6
+    },
+    "1,7": {
+      "number": 7
+    },
+    "1,8": {
+      "number": 8
+    },
+    "1,9": {
+      "number": 9
+    },
+    "1,10": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "3,0": {
+      "number": 13
+    },
+    "3,7": {
+      "number": 14
+    },
+    "4,0": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,6": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,10": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,8": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,5": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,5": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,5": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "CAM",
+      "clue": "Rotating disk shaped to convert circular into linear motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rotating disk shaped to convert circular into linear motion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 10,
+      "answer": "CARAMELIZE",
+      "clue": "Convert to caramel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Convert to caramel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 10,
+      "answer": "ANALOGICAL",
+      "clue": "Expressing, composed of, or based on an analogy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expressing, composed of, or based on an analogy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "MDCV",
+      "clue": "Roman numeral for 1605",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1605",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "CANDOR",
+      "clue": "Quality of being honest and straightforward in attitude and speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "the quality of being open, honest, and direct",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "COVEN",
+      "clue": "Assembly of witches",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assembly of witches",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "RESCINDED",
+      "clue": "Made void, as an act, by the enacting authority or a superior",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made void, as an act, by the enacting authority or a superior",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "MPEG",
+      "clue": "Set of standards adopted by the moving pictures experts group for the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set of standards adopted by the moving pictures experts group for the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "MAMET",
+      "clue": "United States playwright (born in 1947)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States playwright (born in 1947)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 10,
+      "answer": "PREDISPOSE",
+      "clue": "Make susceptible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make susceptible",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 10,
+      "answer": "ENGENDERED",
+      "clue": "Produced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Produced",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "GOA",
+      "clue": "State of southwestern India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of southwestern India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ORACLE",
+      "clue": "Shrine where an oracular god is consulted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrine where an oracular god is consulted",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ARNO",
+      "clue": "River in central Italy rising in the Apennines and flowing through Florence...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River in central Italy rising in the Apennines and flowing through Florence...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "VALVES",
+      "clue": "Ones of the paired hinged shells of certain molluscs and of brachiopods",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones of the paired hinged shells of certain molluscs and of brachiopods",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "MEGA",
+      "clue": "Combining forms signifying: (a) Great, extended, powerful",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Combining forms signifying: (a) Great, extended, powerful",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "EMO",
+      "clue": "Punk subgenre with emotional lyrics",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 6,
+      "answer": "ACCEDE",
+      "clue": "Agree or express agreement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To agree.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "CASINO",
+      "clue": "Card game in which cards face up on the table are taken with eligible cards...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Card game in which cards face up on the table are taken with eligible cards...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "NEGOTIATING",
+      "clue": "Discussing the terms of an arrangement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Discussing the terms of an arrangement",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "OVERT",
+      "clue": "Open and observable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open and observable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "GILES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 6,
+      "answer": "LIVENS",
+      "clue": "Makes lively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes lively",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DICE",
+      "clue": "Small cube with 1 to 6 spots on the six faces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cube with 1 to 6 spots on the six faces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "DTP",
+      "clue": "Combo immunization, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "DISPEL",
+      "clue": "Force to go away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To drive away by or as by scattering in different directions.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SCUM",
+      "clue": "Film of impurities or vegetation that can form on the surface of a liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Film of impurities or vegetation that can form on the surface of a liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TZAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ENCORE",
+      "clue": "Extra or repeated performance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The call for a repetition, as of some part of a play or performance.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "PELT",
+      "clue": "Body covering of a living animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body covering of a living animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "DOUSES",
+      "clue": "Covers with liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covers with liquid",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "MED",
+      "clue": "Master's degree in education",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in education",
+      "clueSource": "wordnet"
+    }
+  ]
+}

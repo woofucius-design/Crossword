@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-03",
+  "number": 1002,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "A",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "K",
+      "A",
+      "L",
+      "I",
+      "#",
+      "C",
+      "S",
+      "T",
+      "#"
+    ],
+    [
+      "T",
+      "A",
+      "I",
+      "W",
+      "A",
+      "N",
+      "#",
+      "A",
+      "U",
+      "R",
+      "A"
+    ],
+    [
+      "A",
+      "W",
+      "N",
+      "S",
+      "#",
+      "T",
+      "A",
+      "R",
+      "S",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "C",
+      "L",
+      "A",
+      "I",
+      "M"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "A",
+      "I",
+      "N",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "V",
+      "E",
+      "R",
+      "B",
+      "O",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "U",
+      "A",
+      "T",
+      "E",
+      "#",
+      "S",
+      "A",
+      "R",
+      "I"
+    ],
+    [
+      "R",
+      "I",
+      "E",
+      "S",
+      "#",
+      "L",
+      "E",
+      "A",
+      "V",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "C",
+      "R",
+      "E",
+      "#",
+      "Y",
+      "E",
+      "G",
+      "O",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "E",
+      "N",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SCALE",
+      "clue": "Flattened rigid plate forming part of the body covering of many animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flattened rigid plate forming part of the body covering of many animals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SATA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CLAW",
+      "clue": "Bird's foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bird's foot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LAWS",
+      "clue": "Rules enforced by a government",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ALKALI",
+      "clue": "Anything that will neutralize an acid, as lime, magnesia, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Anything that will neutralize an acid, as lime, magnesia, etc.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "INTENSELY",
+      "clue": "In an intense manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an intense manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "CST",
+      "clue": "Standard time in the 6th time zone west of Greenwich, reckoned at the 90th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 6th time zone west of Greenwich, reckoned at the 90th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "CARLE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "SUSAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "TRAIT",
+      "clue": "Distinguishing feature or quality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A distinguishing feature or quality.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "TAIWAN",
+      "clue": "Island in southeastern Asia 100 miles off the coast of mainland China in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Island in southeastern Asia 100 miles off the coast of mainland China in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "AURA",
+      "clue": "Pervasive psychic influence supposed to emanate from persons",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pervasive psychic influence supposed to emanate from persons",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "ALMS",
+      "clue": "Money or goods contributed to the poor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money or goods contributed to the poor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "AWNS",
+      "clue": "Slender bristlelike appendages found on the bracts of grasses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slender bristlelike appendages found on the bracts of grasses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "TARSAL",
+      "clue": "Any bone of the tarsus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any bone of the tarsus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point, or summit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "RECLAIM",
+      "clue": "Demand or to obtain the return or restoration of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To demand or to obtain the return or restoration of.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "RIOT",
+      "clue": "Wild gathering involving excessive drinking and promiscuity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild gathering involving excessive drinking and promiscuity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "ATTAINMENTS",
+      "clue": "Arrivals at a new stage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arrivals at a new stage",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "TELIC",
+      "clue": "Denoting the final end or purpose, as distinguished from ecbatic. See Ecbatic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Denoting the final end or purpose, as distinguished from ecbatic. See Ecbatic",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "TRUER",
+      "clue": "One who makes level, square, balanced, or concentric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes level, square, balanced, or concentric",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ABASE",
+      "clue": "Lower or depress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To lower in position, estimation, or the like; degrade.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "VERBOSE",
+      "clue": "Abounding in words",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "using or expressed in more words than are needed",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "ELUATE",
+      "clue": "Liquid solution that results from elution",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liquid solution that results from elution",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SARI",
+      "clue": "Dress worn primarily by Hindu women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dress worn primarily by Hindu women",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AVON",
+      "clue": "County in southwestern England",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "County in southwestern England",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "REDE",
+      "clue": "Give advice to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give advice to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "INST",
+      "clue": "In or of the present month",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the present month",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "RIES",
+      "clue": "States in New England",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in New England",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LEAVEN",
+      "clue": "Make light by fermentation, as dough",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make light by fermentation, as dough.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "EEG",
+      "clue": "Graphical record of electrical activity of the brain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Graphical record of electrical activity of the brain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "CRE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "YEGODS",
+      "clue": "Havoc",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "HAVOC",
+        "DENIZEN"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cYe gods\u201d defines havoc",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "GENET",
+      "clue": "Agile Old World viverrine having a spotted coat and long ringed tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agile Old World viverrine having a spotted coat and long ringed tail",
+      "clueSource": "wordnet"
+    }
+  ]
+}

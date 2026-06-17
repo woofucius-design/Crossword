@@ -1,0 +1,788 @@
+{
+  "date": "2027-01-19",
+  "number": 1018,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "M",
+      "E",
+      "#",
+      "O",
+      "B",
+      "A",
+      "M",
+      "A"
+    ],
+    [
+      "#",
+      "D",
+      "O",
+      "O",
+      "R",
+      "#",
+      "S",
+      "O",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "I",
+      "C",
+      "R",
+      "A",
+      "#",
+      "M",
+      "O",
+      "I",
+      "L",
+      "S"
+    ],
+    [
+      "C",
+      "E",
+      "C",
+      "A",
+      "#",
+      "G",
+      "O",
+      "R",
+      "G",
+      "E",
+      "#"
+    ],
+    [
+      "G",
+      "U",
+      "I",
+      "L",
+      "L",
+      "O",
+      "T",
+      "I",
+      "N",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "L",
+      "I",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "C",
+      "R",
+      "E",
+      "E",
+      "C",
+      "H",
+      "O",
+      "W",
+      "L"
+    ],
+    [
+      "#",
+      "C",
+      "H",
+      "A",
+      "S",
+      "M",
+      "#",
+      "N",
+      "C",
+      "A",
+      "A"
+    ],
+    [
+      "N",
+      "A",
+      "O",
+      "M",
+      "I",
+      "#",
+      "D",
+      "E",
+      "A",
+      "T",
+      "H"
+    ],
+    [
+      "I",
+      "L",
+      "I",
+      "A",
+      "D",
+      "#",
+      "I",
+      "S",
+      "L",
+      "E",
+      "#"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "T",
+      "S",
+      "A",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,1": {
+      "number": 19
+    },
+    "6,2": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,7": {
+      "number": 25
+    },
+    "8,0": {
+      "number": 26
+    },
+    "8,6": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,6": {
+      "number": 29
+    },
+    "10,0": {
+      "number": 30
+    },
+    "10,6": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Top or highest point",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by; farewell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "COCCI",
+      "clue": "Any spherical or nearly spherical bacteria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any spherical or nearly spherical bacteria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MORALDRAMAS",
+      "clue": "Iniquity",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INIQUITY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cmoral dramas\u201d defines iniquity",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Measure of a pitcher's effectiveness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a pitcher's effectiveness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "OBAMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "OSMOTIC",
+      "clue": "Of or relating to osmosis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to osmosis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "BOORISHNESS",
+      "clue": "Boorish",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BOORISH"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cBoor ish ness\u201d defines boorish",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALIGN",
+      "clue": "Place in a line or arrange so as to be parallel or straight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place in a line or arrange so as to be parallel or straight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "MELEE",
+      "clue": "Noisy riotous fight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Noisy riotous fight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Slang for sexual intercourse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slang for sexual intercourse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 4,
+      "answer": "DOOR",
+      "clue": "Swinging or sliding barrier that will close the entrance to a room or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swinging or sliding barrier that will close the entrance to a room or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "SOLES",
+      "clue": "Suns",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suns",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "MICRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MCG",
+      "clue": "One millionth (1/1,000,000) gram",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One millionth (1/1,000,000) gram",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "MOILS",
+      "clue": "Moistens or soil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moistens or soil",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "CECA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "GORGE",
+      "clue": "Passage between the pharynx and the stomach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passage between the pharynx and the stomach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15D",
+      "number": 15,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "GOLEM",
+      "clue": "Mechanism that can move automatically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mechanism that can move automatically",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 10,
+      "answer": "GUILLOTINE",
+      "clue": "Instrument of execution that consists of a weighted blade between two vertical...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instrument of execution that consists of a weighted blade between two vertical...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "LEESIDE",
+      "clue": "Leeward",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "LEEWARD"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clee side\u201d defines leeward",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DELIS",
+      "clue": "Shop selling ready-to-eat food productses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shop selling ready-to-eat food productses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 10,
+      "answer": "SCREECHOWL",
+      "clue": "Shriek",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SHRIEK"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cscreech owl\u201d defines shriek",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "SCALE",
+      "clue": "Flattened rigid plate forming part of the body covering of many animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flattened rigid plate forming part of the body covering of many animals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CHOIR",
+      "clue": "Area occupied by singers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area occupied by singers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OCALA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "WATER",
+      "clue": "Fluid which descends from the clouds in rain, and which forms rivers,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fluid which descends from the clouds in rain, and which forms rivers,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "LAH",
+      "clue": "Syllable naming the sixth (submediant) note of a major or minor scale in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the sixth (submediant) note of a major or minor scale in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 1,
+      "length": 5,
+      "answer": "CHASM",
+      "clue": "Deep opening made by disruption, as a breach in the earth or a rock",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A yawning hollow, as in the earth's surface.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "NCAA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "NAOMI",
+      "clue": "Mother-in-law of Ruth whose story is told in the Book of Ruth in the Old...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother-in-law of Ruth whose story is told in the Book of Ruth in the Old...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "DEATH",
+      "clue": "Act of killing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of killing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "DIT",
+      "clue": "Shorter of the two telegraphic signals used in Morse code",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shorter of the two telegraphic signals used in Morse code",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "ILIAD",
+      "clue": "Celebrated Greek epic poem, in twenty-four books, on the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A Greek epic poem describing scenes from the siege of Troy.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "See Aisle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Appearing as if rubbed or wiped off",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    }
+  ]
+}

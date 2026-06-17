@@ -1,0 +1,748 @@
+{
+  "date": "2027-05-31",
+  "number": 1150,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "E",
+      "#",
+      "#",
+      "C",
+      "H",
+      "A"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "G",
+      "I",
+      "N",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "N",
+      "O",
+      "T",
+      "E",
+      "N",
+      "D",
+      "U",
+      "R",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "#",
+      "T",
+      "A",
+      "I",
+      "G",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "R",
+      "O",
+      "P",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "M",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "E",
+      "S",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "A",
+      "N",
+      "#",
+      "B",
+      "A",
+      "B",
+      "A",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "U",
+      "R",
+      "T",
+      "L",
+      "I",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "N",
+      "O",
+      "N",
+      "C",
+      "H",
+      "A",
+      "L",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "E",
+      "K",
+      "E",
+      "#",
+      "#",
+      "C",
+      "E",
+      "L",
+      "T",
+      "I",
+      "C"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SERENE",
+      "clue": "Bright",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm, peaceful, and untroubled",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SON",
+      "clue": "Divine word of God",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine word of God",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "EROS",
+      "clue": "Desire for sexual intimacy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desire for sexual intimacy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "RITE",
+      "clue": "Any customary observance or practice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any customary observance or practice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "EGER",
+      "clue": "Sharp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "NINETEENTH",
+      "clue": "Position 19 in a countable series of things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position 19 in a countable series of things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CHA",
+      "clue": "Tea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tea",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "CIII",
+      "clue": "Roman numeral for 103",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 103",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "HONG",
+      "clue": "Mercantile establishment or factory for foreign trade in China, as formerly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mercantile establishment or factory for foreign trade in China, as formerly...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ANGA",
+      "clue": "Yoga limb (one of eight)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "ORIGINATION",
+      "clue": "Act of starting something for the first time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of starting something for the first time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "AUTOMOBILE",
+      "clue": "Motor vehicle with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicle with four wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "TRAP",
+      "clue": "Act of concealing yourself and lying in wait to attack by surprise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of concealing yourself and lying in wait to attack by surprise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "NOTENDURING",
+      "clue": "Transitory",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TRANSITORY",
+        "INTOLERANT"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cnot enduring\u201d defines transitory",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "SERE",
+      "clue": "Having lost all moisture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having lost all moisture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "TAIGA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "TROP",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RMS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "EMM",
+      "clue": "Mid-alphabet trio's middle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "PESO",
+      "clue": "Basic unit of money in Chile",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Chile",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "PARC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ALLAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "LOOK",
+      "clue": "Act of directing the eyes toward something and perceiving it visually",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of directing the eyes toward something and perceiving it visually",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "LUNE",
+      "clue": "Moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The moon.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "BABA",
+      "clue": "Small cake leavened with yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cake leavened with yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ANAL",
+      "clue": "Stage in psychosexual development when the child's interest is concentrated...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stage in psychosexual development when the child's interest is concentrated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "BENT",
+      "clue": "Special way of doing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Special way of doing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ASCI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "COURTLINESS",
+      "clue": "Elegance suggestive of a royal court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elegance suggestive of a royal court",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "LAC",
+      "clue": "One hundred thousand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One hundred thousand",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Independent federal agency that oversees the exchange of securities to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency that oversees the exchange of securities to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "NONCHALANCE",
+      "clue": "Indifference",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A state of mind indicating lack of interest.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EKE",
+      "clue": "Increase",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increase",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "CELTIC",
+      "clue": "Branch of the Indo-European languages that (judging from inscriptions and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Indo-European languages that (judging from inscriptions and...",
+      "clueSource": "wordnet"
+    }
+  ]
+}

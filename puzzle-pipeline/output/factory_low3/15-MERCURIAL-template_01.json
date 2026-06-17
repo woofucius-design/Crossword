@@ -1,0 +1,781 @@
+{
+  "date": "2027-01-15",
+  "number": 1014,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "C",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "A",
+      "L",
+      "S",
+      "A",
+      "M",
+      "#",
+      "M",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "E",
+      "#",
+      "E",
+      "R",
+      "I",
+      "K"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "Y",
+      "#",
+      "R",
+      "E",
+      "N",
+      "E",
+      "G",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "A",
+      "D",
+      "E",
+      "M",
+      "Y"
+    ],
+    [
+      "O",
+      "F",
+      "T",
+      "E",
+      "N",
+      "U",
+      "S",
+      "E",
+      "D",
+      "A",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "E",
+      "N",
+      "T",
+      "R",
+      "Y",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "L",
+      "X",
+      "V",
+      "I",
+      "I",
+      "#",
+      "B",
+      "R",
+      "O",
+      "S"
+    ],
+    [
+      "A",
+      "L",
+      "T",
+      "O",
+      "#",
+      "A",
+      "R",
+      "E",
+      "O",
+      "L",
+      "A"
+    ],
+    [
+      "#",
+      "S",
+      "S",
+      "I",
+      "#",
+      "L",
+      "A",
+      "C",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "K",
+      "I",
+      "N",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ARCED",
+      "clue": "Forming or resembling an arch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forming or resembling an arch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RALE",
+      "clue": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "CLAN",
+      "clue": "Tribe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A tribe.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Keep close watch",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "DAS",
+      "clue": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small ungulate mammals of Africa and Asia with rodent-like...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BALSAM",
+      "clue": "Medical preparation, aromatic and oily, used for healing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A medical preparation, aromatic and oily, used for healing.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "MERCURIAL",
+      "clue": "Having the qualities fabled to belong to the god Mercury",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "subject to sudden or unpredictable mood changes",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "MTS",
+      "clue": "Uses of computers to translate from one language to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of computers to translate from one language to another",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "MENDE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "TREED",
+      "clue": "Forced to turn and face attackers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forced to turn and face attackers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "SIGMA",
+      "clue": "18th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "18th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "Quietly terminate: said of time",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ERIK",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "KEYS",
+      "clue": "Metal devices shaped in such a way that when it is inserted into the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal devices shaped in such a way that when it is inserted into the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "DENY",
+      "clue": "Declare untrue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declare untrue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "RENEGE",
+      "clue": "Mistake of not following suit when able to do so",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mistake of not following suit when able to do so",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "EASY",
+      "clue": "Obtained with little effort or sacrifice, often obtained illegally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtained with little effort or sacrifice, often obtained illegally",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ACADEMY",
+      "clue": "Any institution where the higher branches of learning are taught",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Any institution where the higher branches of learning are taught.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "OFTENUSEDAS",
+      "clue": "Tribune",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TRIBUNE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201coften used as\u201d defines tribune",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "ORCA",
+      "clue": "Predatory black-and-white toothed whale with large dorsal fin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Predatory black-and-white toothed whale with large dorsal fin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "FELLS",
+      "clue": "Causes to fall by or as if by delivering a blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causes to fall by or as if by delivering a blow",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "TEXTS",
+      "clue": "Wordses of something written",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wordses of something written",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ENVOI",
+      "clue": "Brief stanza concluding certain forms of poetry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief stanza concluding certain forms of poetry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "REENTRY",
+      "clue": "Act of entering again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of entering again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "CLXVII",
+      "clue": "Roman numeral for 167",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 167",
+      "clueSource": "roman"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "BROS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "BECK",
+      "clue": "Give a signal to, by nod or gesture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To give a signal to, by nod or gesture.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ROTI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "OLIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SACS",
+      "clue": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "Lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "AREOLA",
+      "clue": "Small circular area such as that around the human nipple or an inflamed area...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small circular area such as that around the human nipple or an inflamed area...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RAS",
+      "clue": "Network in the reticular formation that serves an alerting or arousal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Network in the reticular formation that serves an alerting or arousal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SSI",
+      "clue": "Disability program: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LACTIC",
+      "clue": "Pertaining to milk",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to milk.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "SKINS",
+      "clue": "Bodies covering of a living animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bodies covering of a living animal",
+      "clueSource": "inflection"
+    }
+  ]
+}

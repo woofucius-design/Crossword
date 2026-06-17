@@ -1,0 +1,717 @@
+{
+  "date": "2027-06-09",
+  "number": 1159,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "#",
+      "S",
+      "T",
+      "E",
+      "V",
+      "E"
+    ],
+    [
+      "D",
+      "A",
+      "T",
+      "A",
+      "#",
+      "#",
+      "P",
+      "A",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "M",
+      "A",
+      "K",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "#",
+      "C",
+      "R",
+      "E",
+      "T",
+      "A",
+      "C",
+      "E",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "M",
+      "E",
+      "N",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "R",
+      "M",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "Z",
+      "E",
+      "A",
+      "L",
+      "O",
+      "U",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "A",
+      "L",
+      "I",
+      "T",
+      "I",
+      "O",
+      "N",
+      "S",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "S",
+      "I",
+      "G",
+      "H",
+      "T",
+      "L",
+      "I",
+      "E",
+      "R"
+    ],
+    [
+      "B",
+      "E",
+      "E",
+      "C",
+      "H",
+      "#",
+      "#",
+      "A",
+      "N",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "E",
+      "T",
+      "#",
+      "#",
+      "R",
+      "E",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,1": {
+      "number": 15
+    },
+    "4,3": {
+      "number": 16
+    },
+    "5,4": {
+      "number": 17
+    },
+    "6,1": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,7": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,8": {
+      "number": 23
+    },
+    "7,9": {
+      "number": 24
+    },
+    "8,0": {
+      "number": 25
+    },
+    "8,10": {
+      "number": 26
+    },
+    "9,0": {
+      "number": 27
+    },
+    "9,7": {
+      "number": 28
+    },
+    "10,0": {
+      "number": 29
+    },
+    "10,7": {
+      "number": 30
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "French girlfriend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "ADD",
+      "clue": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "MARC",
+      "clue": "Made from residue of grapes or apples after pressing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made from residue of grapes or apples after pressing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ITER",
+      "clue": "Passage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passage",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "EASEL",
+      "clue": "Upright tripod for displaying something (usually an artist's canvas)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Upright tripod for displaying something (usually an artist's canvas)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "STEVE",
+      "clue": "Pack or stow, as cargo in a ship's hold. See Steeve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pack or stow, as cargo in a ship's hold. See Steeve",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "SPACESUIT",
+      "clue": "Pressure suit worn by astronauts while in outer space",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pressure suit worn by astronauts while in outer space",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "TAKEN",
+      "clue": "Be affected with an indisposition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be affected with an indisposition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ELIOT",
+      "clue": "British writer of novels characterized by realistic analysis of provincial...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British writer of novels characterized by realistic analysis of provincial...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "VENUS",
+      "clue": "Type genus of the family Veneridae: genus of edible clams with thick oval shells",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the family Veneridae: genus of edible clams with thick oval shells",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ERGS",
+      "clue": "Cgs units of work or energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cgs units of work or energy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "DATA",
+      "clue": "Collection of facts from which conclusions may be drawn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of facts from which conclusions may be drawn",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "PALER",
+      "clue": "One who becomes friends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who becomes friends",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DRESSMAKING",
+      "clue": "Craft of making dresses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Craft of making dresses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "STARLIGHT",
+      "clue": "Light of the stars",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light of the stars",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "MAMMOTH",
+      "clue": "Any of numerous extinct elephants widely distributed in the Pleistocene",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous extinct elephants widely distributed in the Pleistocene",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 10,
+      "answer": "CRETACEOUS",
+      "clue": "From 135 million to 63 million years ago",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "From 135 million to 63 million years ago",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "LAMENTS",
+      "clue": "Mournful poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mournful poems",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "RMS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 7,
+      "answer": "ZEALOUS",
+      "clue": "Marked by active interest and enthusiasm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "having great energy or enthusiasm for a cause",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ZONES",
+      "clue": "Any encirclings or beltlike structures",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any encirclings or beltlike structures",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "EASES",
+      "clue": "Federal warning systems that is activated by FEMA",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal warning systems that is activated by FEMA",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ALICE",
+      "clue": "Wonderland visitor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "SOLAR",
+      "clue": "Loft or upper chamber",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the sun.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 10,
+      "answer": "COALITIONS",
+      "clue": "Combinations in a body or mass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Combinations in a body or mass",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CUBA",
+      "clue": "Largest island in the West Indies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest island in the West Indies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "NINE",
+      "clue": "Denoting a quantity consisting of one more than eight and one less than ten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Denoting a quantity consisting of one more than eight and one less than ten",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SETS",
+      "clue": "Several exerciseses intended to be done in series",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Several exerciseses intended to be done in series",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNSIGHTLIER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "RET",
+      "clue": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "BEECH",
+      "clue": "Any of several large deciduous trees with rounded spreading crowns and smooth...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several large deciduous trees with rounded spreading crowns and smooth...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "ASSET",
+      "clue": "Useful or valuable quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Useful or valuable quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "REST",
+      "clue": "Freedom from activity (work or strain or responsibility)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freedom from activity (work or strain or responsibility)",
+      "clueSource": "wordnet"
+    }
+  ]
+}

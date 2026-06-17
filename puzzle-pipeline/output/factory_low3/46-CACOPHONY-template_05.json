@@ -1,0 +1,779 @@
+{
+  "date": "2027-02-15",
+  "number": 1045,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "D",
+      "F",
+      "#",
+      "I",
+      "C",
+      "E",
+      "M",
+      "A",
+      "N"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "L",
+      "#",
+      "S",
+      "A",
+      "L",
+      "I",
+      "V",
+      "A"
+    ],
+    [
+      "I",
+      "N",
+      "S",
+      "O",
+      "M",
+      "E",
+      "C",
+      "A",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "D",
+      "I",
+      "E",
+      "U",
+      "#",
+      "O",
+      "P",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "I",
+      "P",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "I",
+      "C",
+      "H",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "C",
+      "H",
+      "O",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "N",
+      "I",
+      "#",
+      "N",
+      "E",
+      "W",
+      "E",
+      "R"
+    ],
+    [
+      "M",
+      "E",
+      "T",
+      "A",
+      "P",
+      "H",
+      "Y",
+      "S",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "E",
+      "D",
+      "E",
+      "M",
+      "A",
+      "S",
+      "#",
+      "P",
+      "R",
+      "O",
+      "V"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "E",
+      "L",
+      "T",
+      "#",
+      "Y",
+      "E",
+      "N",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "PDF",
+      "clue": "Document file format",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Document file format",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "PEND",
+      "clue": "Oil cake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oil cake",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DESI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "FLOE",
+      "clue": "Flat mass of ice (smaller than an ice field) floating at sea",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A collection of tabular masses of floating polar ice.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ICEMAN",
+      "clue": "Professional killer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Professional killer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ISE",
+      "clue": "Japan's grand shrine site",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "CACOPHONY",
+      "clue": "Harsh, discordant mixture of sounds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "a harsh, discordant mixture of sounds",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "Slip or glide away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "MISE",
+      "clue": "Issue in a writ of right",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Issue in a writ of right",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Work horse, or working ox",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "NASA",
+      "clue": "Independent agency of the United States government responsible for aviation...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent agency of the United States government responsible for aviation...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "PEEL",
+      "clue": "Rind of a fruit or vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rind of a fruit or vegetable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "PIA",
+      "clue": "Perennial herb of East Indies to Polynesia and Australia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Perennial herb of East Indies to Polynesia and Australia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "SALIVA",
+      "clue": "Clear liquid secreted into the mouth by the salivary glands and mucous glands...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clear liquid secreted into the mouth by the salivary glands and mucous glands...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INSOMECASES",
+      "clue": "Injunction",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "INJUNCTION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cinsome cases\u201d defines injunction",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "MUNICIPAL",
+      "clue": "Of or pertaining to a city or a corporation having the right of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a town or city, or to its corporate or local",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by; farewell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "OPERA",
+      "clue": "Building where musical dramas are performed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Building where musical dramas are performed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "NIPS",
+      "clue": "Small sharp bites or snips",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small sharp bites or snips",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ICH",
+      "clue": "I",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "I",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "RICHE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "RENAME",
+      "clue": "Assign a new name to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assign a new name to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "ECHO",
+      "clue": "Sound reflected back to you",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "Grape-cluster-shaped gland sacs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AMER",
+      "clue": "U.S. modifier, in dictionaries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "CEDE",
+      "clue": "Yield or surrender",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To pass title to.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ITEM",
+      "clue": "Whole individual unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole individual unit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NEWER",
+      "clue": "More unfamiliar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More unfamiliar",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ESPY",
+      "clue": "Catch sight of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To keep close watch.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "WIRE",
+      "clue": "Ligament made of metal and used to fasten things or make cages or fences etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ligament made of metal and used to fasten things or make cages or fences etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ECON",
+      "clue": "Dismal sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "RSV",
+      "clue": "Bible version: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "METAPHYSICS",
+      "clue": "Science of real as distinguished from phenomenal being",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The principles of philosophy as applied to explain the methods of any",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "HST",
+      "clue": "Whistle-stop campaign pres.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "EDEMAS",
+      "clue": "Swellings from excessive accumulation of watery fluid in cells,",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swellings from excessive accumulation of watery fluid in cells,",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "PROV",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "REMELT",
+      "clue": "Melt again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Melt again",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "YEN",
+      "clue": "Yearning for something or to do something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yearning for something or to do something",
+      "clueSource": "wordnet"
+    }
+  ]
+}

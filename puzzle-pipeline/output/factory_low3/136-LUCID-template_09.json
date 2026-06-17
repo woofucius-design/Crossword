@@ -1,0 +1,738 @@
+{
+  "date": "2027-05-16",
+  "number": 1135,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "L",
+      "I",
+      "V",
+      "#",
+      "#",
+      "A",
+      "N",
+      "T",
+      "A",
+      "#"
+    ],
+    [
+      "H",
+      "U",
+      "M",
+      "E",
+      "#",
+      "#",
+      "V",
+      "I",
+      "O",
+      "L",
+      "A"
+    ],
+    [
+      "A",
+      "C",
+      "A",
+      "D",
+      "E",
+      "M",
+      "I",
+      "C",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "R",
+      "I",
+      "G",
+      "A",
+      "M",
+      "A",
+      "R",
+      "O",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "#",
+      "B",
+      "R",
+      "U",
+      "L",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "I",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "A",
+      "R",
+      "N",
+      "E",
+      "#",
+      "M",
+      "I",
+      "A"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "R",
+      "R",
+      "A",
+      "N",
+      "G",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "F",
+      "A",
+      "N",
+      "T",
+      "A",
+      "S",
+      "T",
+      "I",
+      "C",
+      "A",
+      "L"
+    ],
+    [
+      "C",
+      "R",
+      "O",
+      "S",
+      "S",
+      "#",
+      "#",
+      "M",
+      "A",
+      "N",
+      "O"
+    ],
+    [
+      "#",
+      "L",
+      "E",
+      "Y",
+      "S",
+      "#",
+      "#",
+      "P",
+      "H",
+      "E",
+      "W"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,2": {
+      "number": 19
+    },
+    "6,3": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "6,9": {
+      "number": 22
+    },
+    "6,10": {
+      "number": 23
+    },
+    "7,0": {
+      "number": 24
+    },
+    "7,1": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "9,0": {
+      "number": 28
+    },
+    "9,7": {
+      "number": 29
+    },
+    "10,1": {
+      "number": 30
+    },
+    "10,7": {
+      "number": 31
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CLIV",
+      "clue": "Roman numeral for 154",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 154",
+      "clueSource": "roman"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "CHARA",
+      "clue": "Green algae common in freshwater lakes of limestone districts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Green algae common in freshwater lakes of limestone districts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Transparently clear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "IMAGO",
+      "clue": "Adult insect produced after metamorphosis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult insect produced after metamorphosis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "VEDA",
+      "clue": "Any of the most ancient sacred writings of Hinduism written in early Sanskrit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of the most ancient sacred writings of Hinduism written in early Sanskrit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "ANTA",
+      "clue": "Species of pier produced by thickening a wall at its termination, treated...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Species of pier produced by thickening a wall at its termination, treated...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "AVIRULENT",
+      "clue": "Not virulent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not virulent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 5,
+      "answer": "NICOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "TOILE",
+      "clue": "Patterned French fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ALAE",
+      "clue": "Winglike parts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "HUME",
+      "clue": "Scottish philosopher whose sceptical philosophy restricted human knowledge to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scottish philosopher whose sceptical philosophy restricted human knowledge to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "VIOLA",
+      "clue": "Genus of polypetalous herbaceous plants, including all kinds of...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A musical instrument somewhat larger than a violin.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "ANS",
+      "clue": "Part of the nervous system of vertebrates that controls involuntary actions...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of the nervous system of vertebrates that controls involuntary actions...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ACADEMICIAN",
+      "clue": "Member of an academy, or society for promoting science, art, or...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A member of an academy of literature, art, or science.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "EMBARRASS",
+      "clue": "Hinder from freedom of thought, speech, or action by something...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To render flustered or agitated.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 5,
+      "length": 7,
+      "answer": "MARINAS",
+      "clue": "Fancy docks for small yachts and cabin cruisers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fancy docks for small yachts and cabin cruisers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 11,
+      "answer": "RIGAMAROLES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 5,
+      "answer": "BRULE",
+      "clue": "Member of a group of Siouan people who constituted a division of the Teton...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a group of Siouan people who constituted a division of the Teton...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "AIL",
+      "clue": "Aromatic bulb used as seasoning",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aromatic bulb used as seasoning",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CARNE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CANOE",
+      "clue": "Small and light boat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small and light boat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 5,
+      "answer": "ARTSY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "MIA",
+      "clue": "Lost soldier, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lost soldier, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "MICAH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "INANE",
+      "clue": "Without contents",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Silly.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "AGLOW",
+      "clue": "In a glow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a glow",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 11,
+      "answer": "REARRANGING",
+      "clue": "Arranging again or in a different order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arranging again or in a different order",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "RFC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EARL",
+      "clue": "British peer ranking below a marquess and above a viscount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British peer ranking below a marquess and above a viscount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "GIMP",
+      "clue": "Disability of walking due to crippling of the legs or feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disability of walking due to crippling of the legs or feet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "FANTASTICAL",
+      "clue": "Ludicrously odd",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ludicrously odd",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "CROSS",
+      "clue": "Act of mixing different species or varieties of animals or plants and thus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of mixing different species or varieties of animals or plants and thus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "MANO",
+      "clue": "Muller, or crushing and grinding stone, used in grinding corn on a metate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Muller, or crushing and grinding stone, used in grinding corn on a metate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "LEYS",
+      "clue": "Fields covered with grass or herbage and suitable for grazing by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fields covered with grass or herbage and suitable for grazing by",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "PHEW",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ]
+}

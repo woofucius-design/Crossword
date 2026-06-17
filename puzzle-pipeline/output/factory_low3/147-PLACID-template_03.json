@@ -1,0 +1,753 @@
+{
+  "date": "2027-05-27",
+  "number": 1146,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "R",
+      "F",
+      "S",
+      "#",
+      "S",
+      "I",
+      "G",
+      "N",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "S",
+      "T",
+      "R",
+      "O",
+      "P",
+      "H",
+      "E"
+    ],
+    [
+      "S",
+      "M",
+      "I",
+      "T",
+      "H",
+      "S",
+      "O",
+      "N",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "C",
+      "#",
+      "P",
+      "L",
+      "A",
+      "C",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "H",
+      "A",
+      "R",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "B",
+      "O",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "P",
+      "R",
+      "I",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "O",
+      "P",
+      "L",
+      "E",
+      "#",
+      "D",
+      "I",
+      "V",
+      "A"
+    ],
+    [
+      "R",
+      "U",
+      "L",
+      "E",
+      "O",
+      "R",
+      "M",
+      "O",
+      "D",
+      "E",
+      "L"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "E",
+      "N",
+      "T",
+      "A",
+      "L",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "K",
+      "E",
+      "Y",
+      "S",
+      "#",
+      "A",
+      "T",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,3": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,2": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,4": {
+      "number": 19
+    },
+    "6,7": {
+      "number": 20
+    },
+    "6,8": {
+      "number": 21
+    },
+    "7,0": {
+      "number": 22
+    },
+    "7,1": {
+      "number": 23
+    },
+    "7,2": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,7": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,8": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "RFS",
+      "clue": "Complex neural networks in the central core of the brainstem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Complex neural networks in the central core of the brainstem",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RASP",
+      "clue": "Coarse file with sharp pointed projections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse file with sharp pointed projections",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "FNMA",
+      "clue": "Federally chartered corporation that purchases mortgages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federally chartered corporation that purchases mortgages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "STIRS",
+      "clue": "Rapid active commotions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid active commotions",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SIGNETS",
+      "clue": "Seals (especially one used to mark documents officially)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seals (especially one used to mark documents officially)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SSH",
+      "clue": "Hushing sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 11,
+      "answer": "ITSPROPERTY",
+      "clue": "Appropriate",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "APPROPRIATE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cits property\u201d defines appropriate",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "GROLIER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "NONA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "Narrated in a grand style",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "THAI",
+      "clue": "Branch of the Tai languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branch of the Tai languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SEND",
+      "clue": "Broadcast over the airwaves, as in radio or television",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broadcast over the airwaves, as in radio or television",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "ANTISTROPHE",
+      "clue": "Inversion of terms in successive classes, as in \"the home of joy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The inversion of terms in successive classes, as in \"the home of joy",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "ITCH",
+      "clue": "Irritating cutaneous sensation that produces a desire to scratch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Irritating cutaneous sensation that produces a desire to scratch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SMITHSONIAN",
+      "clue": "Of or pertaining to the Englishman J.L.M. Smithson, or to the national...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to the Englishman J.L.M. Smithson, or to the national...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "PARC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "PLACID",
+      "clue": "Pleased",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "calm and peaceful, free from disturbance",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "SHARI",
+      "clue": "African river that flows northwest into Lake Chad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "African river that flows northwest into Lake Chad",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "ABALONE",
+      "clue": "Any of various large edible marine gastropods of the genus Haliotis having an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various large edible marine gastropods of the genus Haliotis having an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "BOE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "APRIL",
+      "clue": "Month following March and preceding May",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following March and preceding May",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "IDOL",
+      "clue": "Material effigy that is worshipped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material effigy that is worshipped",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LIDIA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "PEOPLE",
+      "clue": "Any group of human beings (men or women or children) collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any group of human beings (men or women or children) collectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PROM",
+      "clue": "Formal ball held for a school class toward the end of the academic year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formal ball held for a school class toward the end of the academic year",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Basic monetary unit of most members of the European Union (introduced in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary unit of most members of the European Union (introduced in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OLIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "PEEK",
+      "clue": "Secret look",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secret look",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "DIVA",
+      "clue": "Distinguished female operatic singer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinguished female operatic singer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "VEST",
+      "clue": "Collarless men's undergarment for the upper part of the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collarless men's undergarment for the upper part of the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ALTA",
+      "clue": "Canadian prov.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RULEORMODEL",
+      "clue": "Accuracy",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ACCURACY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201crule or model\u201d defines accuracy",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MAS",
+      "clue": "Master's degree in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "ORIENTALIST",
+      "clue": "Inhabitant of the Eastern parts of the world",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inhabitant of the Eastern parts of the world",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "MONKEYS",
+      "clue": "Anies of various long-tailed primates (excluding the prosimians)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anies of various long-tailed primates (excluding the prosimians)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "ATA",
+      "clue": "Airline-trade-group abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "date": "2027-01-29",
+  "number": 1028,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "H",
+      "U",
+      "M",
+      "#",
+      "S",
+      "A",
+      "C",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "C",
+      "O",
+      "N",
+      "T",
+      "R",
+      "A",
+      "V",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "L",
+      "A",
+      "R",
+      "G",
+      "E",
+      "M",
+      "E",
+      "D",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "I",
+      "R",
+      "E",
+      "#",
+      "C",
+      "U",
+      "R",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "D",
+      "E",
+      "C",
+      "O",
+      "R",
+      "#",
+      "D",
+      "E",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "U",
+      "N",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "C",
+      "C",
+      "#",
+      "I",
+      "V",
+      "I",
+      "E",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "U",
+      "R",
+      "O",
+      "R",
+      "E",
+      "#",
+      "C",
+      "C",
+      "U",
+      "#"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "G",
+      "A",
+      "R",
+      "I",
+      "O",
+      "U",
+      "S",
+      "#"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "S",
+      "T",
+      "R",
+      "I",
+      "D",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "E",
+      "K",
+      "E",
+      "S",
+      "#",
+      "S",
+      "L",
+      "I",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CHUM",
+      "clue": "Large Pacific salmon with small spots on its back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Pacific salmon with small spots on its back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CCLI",
+      "clue": "Roman numeral for 251",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 251",
+      "clueSource": "roman"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "HOARD",
+      "clue": "Secret store of valuables or money",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To gather and store away for the sake of accumulation.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "UNREEL",
+      "clue": "Unwind from or as if from a reel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unwind from or as if from a reel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "MTG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "SACS",
+      "clue": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tribe of Indians, which, together with the Foxes, formerly occupied the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "SAMURAI",
+      "clue": "Feudal Japanese military aristocracy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feudal Japanese military aristocracy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Declare or affirm solemnly and formally as true",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "CEDED",
+      "clue": "Passed title to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passed title to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SNARE",
+      "clue": "Trap for birds or small mammals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trap for birds or small mammals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "CONTRAVENE",
+      "clue": "Deny the truth of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To prevent or obstruct the operation of.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "RECONVERT",
+      "clue": "Convert back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Convert back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "Other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Other",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "LARGEMEDAL",
+      "clue": "Medallion",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "MEDALLION"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201clarge medal\u201d defines medallion",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CURERS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "DECOR",
+      "clue": "Decoration consisting of the layout and furnishings of a livable interior",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Decoration consisting of the layout and furnishings of a livable interior",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "CUIRASS",
+      "clue": "Medieval body armor that covers the chest and back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Medieval body armor that covers the chest and back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "River through Aberdeen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LUNAR",
+      "clue": "Of or relating to or associated with the moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the moon.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "RECOIL",
+      "clue": "Movement back from an impact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To start back as in dismay, loathing, or dread.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "DCC",
+      "clue": "Roman numeral for 700",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 700",
+      "clueSource": "roman"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "DAGO",
+      "clue": "Offensive term for a person of Italian descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for a person of Italian descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "CURVE",
+      "clue": "Bent without angles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bent without angles",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CREEK",
+      "clue": "Natural stream of water smaller than a river (and often a tributary of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Natural stream of water smaller than a river (and often a tributary of a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "IVIES",
+      "clue": "Old World vines with lobed evergreen leaves and black berrylike fruits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old World vines with lobed evergreen leaves and black berrylike fruits",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "SCUDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "AURORE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "CCU",
+      "clue": "Hosp. heart ward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "GREGARIOUS",
+      "clue": "Instinctively or temperamentally seeking and enjoying the company of others",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "fond of company; sociable",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "IRS",
+      "clue": "Bureau of the Treasury Department responsible for tax collections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bureau of the Treasury Department responsible for tax collections",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "OVERSTRIDE",
+      "clue": "Step beyond",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To step beyond.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "EKES",
+      "clue": "Squeezes (out)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "SLID",
+      "clue": "Glided down a chute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ]
+}
