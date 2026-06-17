@@ -43,7 +43,7 @@ from post_improve import post_improve
 
 
 HERE = Path(__file__).parent
-OUT_DIR = HERE / "output" / "factory"
+DEFAULT_OUT_DIR = HERE / "output" / "factory"
 
 
 def score_puzzle(
@@ -54,6 +54,7 @@ def score_puzzle(
     scores: dict[str, int],
     definitions: dict,
 ) -> dict:
+    n = max(len(assign), 1)
     sat_n = sum(1 for w in assign if w in sat_set)
     teach_n = sum(1 for w in assign if w in teaching_set)
     tier3_n = sum(1 for w in assign if scores.get(w, 30) < 50)
@@ -64,19 +65,29 @@ def score_puzzle(
         and w not in teaching_set
         and w not in definitions
     )
-    avg = sum(scores.get(w, 30) for w in assign) / max(len(assign), 1)
+    avg = sum(scores.get(w, 30) for w in assign) / n
+    # Percentage-based scoring rewards SAT *density*, not raw count, so a
+    # template can't game the metric by stuffing in 3-letter slots that
+    # are almost never SAT vocab. 50 puzzles with 30% SAT beats 50 with
+    # 10% SAT even if the raw count is similar.
+    sat_pct = 100 * sat_n / n
+    teach_pct = 100 * teach_n / n
+    tier3_pct = 100 * tier3_n / n
+    unclued_pct = 100 * unclued / n
     score = (
-        1.0 * sat_n
-        + 0.8 * teach_n
-        + 0.5 * tier1_n
-        - 3.0 * tier3_n
-        - 0.4 * unclued
+        1.0 * sat_pct
+        + 0.8 * teach_pct
+        - 3.0 * tier3_pct
+        - 0.4 * unclued_pct
         + 0.02 * avg
     )
     return {
         "score": round(score, 2),
+        "entries": n,
         "sat": sat_n,
+        "sat_pct": round(sat_pct, 1),
         "teach": teach_n,
+        "teach_pct": round(teach_pct, 1),
         "tier1": tier1_n,
         "tier3": tier3_n,
         "unclued": unclued,
@@ -108,9 +119,12 @@ def main() -> None:
     ap.add_argument("--rng-seed", type=int, default=2026)
     ap.add_argument("--start-number", type=int, default=1000)
     ap.add_argument("--start-date", default="2027-01-01")
+    ap.add_argument("--output-dir", default=str(DEFAULT_OUT_DIR.relative_to(HERE)),
+                    help="where to save puzzles + index + report")
     args = ap.parse_args()
 
     G.NODE_LIMIT = args.node_limit
+    OUT_DIR = HERE / args.output_dir
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Collect templates
@@ -279,10 +293,13 @@ def main() -> None:
             "date": date_str,
             "number": cur_num,
             "size": c["size"],
+            "entries": c["entries"],
             "seed": c["seed"],
             "score": c["score"],
             "sat": c["sat"],
+            "sat_pct": c["sat_pct"],
             "teach": c["teach"],
+            "teach_pct": c["teach_pct"],
             "tier1": c["tier1"],
             "tier3": c["tier3"],
             "unclued": c["unclued"],
@@ -303,15 +320,16 @@ def main() -> None:
         f"Solved: {n_solves:,}.  Rejected (tier3 > {args.max_tier3}): "
         f"{n_rejects:,}.",
         f"",
-        f"| # | seed | template | size | score | SAT | teach | tier1 | tier3 | unclued | avg fill |",
-        f"|---|---|---|---|---|---|---|---|---|---|---|",
+        f"| # | seed | template | entries | score | SAT | SAT% | teach | teach% | tier1 | tier3 | unclued |",
+        f"|---|---|---|---|---|---|---|---|---|---|---|---|",
     ]
     for s in saved:
         lines.append(
             f"| {s['rank']} | {s['seed']} | {s['template']} | "
-            f"{s['size']} | {s['score']} | "
-            f"{s['sat']} | {s['teach']} | {s['tier1']} | "
-            f"{s['tier3']} | {s['unclued']} | {s['avg_fill']} |"
+            f"{s['entries']} | {s['score']} | "
+            f"{s['sat']} | {s['sat_pct']}% | "
+            f"{s['teach']} | {s['teach_pct']}% | "
+            f"{s['tier1']} | {s['tier3']} | {s['unclued']} |"
         )
     (OUT_DIR / "_report.md").write_text("\n".join(lines))
     print(f"\nsaved {len(saved)} puzzles -> {OUT_DIR.relative_to(G.HERE)}/")
