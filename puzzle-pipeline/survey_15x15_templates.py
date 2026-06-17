@@ -64,6 +64,7 @@ def main() -> None:
     print(f"trying {args.candidates} grids...", flush=True)
 
     seeds_to_try = ["LUCID", "ASTUTE", "NOVICE", "EPHEMERAL"]
+    rej_build = rej_entries = rej_len3 = rej_dup = rej_fill = 0
 
     for i in range(args.candidates):
         # NYT 15x15 conventions: 15-22% black squares
@@ -71,19 +72,23 @@ def main() -> None:
         max_bk = min_bk + rng.uniform(0.03, 0.06)
         grid = G.build_grid(SIZE, rng, min_bk, max_bk)
         if grid is None:
+            rej_build += 1
             continue
         slots = G.extract_slots(grid)
         if not (args.min_entries <= len(slots) <= args.max_entries):
+            rej_entries += 1
             continue
         by_len = Counter(s.length for s in slots)
         n3 = by_len[3]
         if n3 > args.max_len3:
+            rej_len3 += 1
             continue
         max_len = max(by_len)
         ascii_grid = "\n".join(
             "".join("#" if c == "#" else "." for c in row) for row in grid
         )
         if any(k["ascii"] == ascii_grid for k in kept):
+            rej_dup += 1
             continue
 
         # Fillability — try 2 seeds with the clean pool
@@ -104,6 +109,7 @@ def main() -> None:
             if assign is not None and (time.time() - t0) <= SOLVE_TIMEOUT:
                 ok += 1
         if ok == 0:
+            rej_fill += 1
             continue
 
         kept.append({
@@ -120,6 +126,9 @@ def main() -> None:
         )
         if len(kept) >= args.keep:
             break
+
+    print(f"\nrejections: build_grid={rej_build} entries={rej_entries} "
+          f"len3={rej_len3} dup={rej_dup} fill={rej_fill}", flush=True)
 
     kept.sort(key=lambda k: (-k["fillability"], k["len3"], -k["entries"]))
     for rank, k in enumerate(kept[:args.keep], 1):
