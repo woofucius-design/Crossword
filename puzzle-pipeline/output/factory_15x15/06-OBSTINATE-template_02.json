@@ -1,0 +1,1408 @@
+{
+  "date": "2027-01-06",
+  "number": 1005,
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "solution": [
+    [
+      "#",
+      "#",
+      "A",
+      "A",
+      "C",
+      "H",
+      "E",
+      "N",
+      "#",
+      "#",
+      "G",
+      "A",
+      "L",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "S",
+      "H",
+      "O",
+      "L",
+      "E",
+      "S",
+      "#",
+      "A",
+      "T",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "O",
+      "B",
+      "S",
+      "T",
+      "I",
+      "N",
+      "A",
+      "T",
+      "E",
+      "#",
+      "M",
+      "O",
+      "V",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "R",
+      "N",
+      "#",
+      "#",
+      "#",
+      "T",
+      "A",
+      "B",
+      "L",
+      "E",
+      "A",
+      "U"
+    ],
+    [
+      "R",
+      "I",
+      "N",
+      "#",
+      "#",
+      "E",
+      "T",
+      "C",
+      "#",
+      "S",
+      "O",
+      "L",
+      "E",
+      "M",
+      "N"
+    ],
+    [
+      "S",
+      "C",
+      "A",
+      "M",
+      "#",
+      "T",
+      "R",
+      "A",
+      "N",
+      "S",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "O",
+      "#",
+      "C",
+      "U",
+      "R",
+      "I",
+      "A",
+      "#",
+      "A",
+      "P",
+      "P",
+      "S"
+    ],
+    [
+      "E",
+      "T",
+      "C",
+      "H",
+      "#",
+      "E",
+      "M",
+      "A",
+      "C",
+      "S",
+      "#",
+      "T",
+      "R",
+      "A",
+      "C"
+    ],
+    [
+      "N",
+      "E",
+      "E",
+      "R",
+      "#",
+      "T",
+      "A",
+      "C",
+      "O",
+      "S",
+      "#",
+      "M",
+      "O",
+      "R",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "N",
+      "A",
+      "L",
+      "I",
+      "#",
+      "A",
+      "F",
+      "A",
+      "R"
+    ],
+    [
+      "A",
+      "R",
+      "R",
+      "E",
+      "A",
+      "R",
+      "#",
+      "S",
+      "O",
+      "N",
+      "#",
+      "#",
+      "E",
+      "M",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "B",
+      "R",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#",
+      "V",
+      "I",
+      "S",
+      "O",
+      "R"
+    ],
+    [
+      "H",
+      "E",
+      "B",
+      "E",
+      "I",
+      "#",
+      "N",
+      "A",
+      "R",
+      "C",
+      "I",
+      "S",
+      "S",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "F",
+      "U",
+      "R",
+      "N",
+      "#",
+      "D",
+      "I",
+      "S",
+      "C",
+      "O",
+      "L",
+      "O",
+      "R",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "T",
+      "G",
+      "#",
+      "#",
+      "M",
+      "I",
+      "L",
+      "L",
+      "E",
+      "R",
+      "#",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,2": {
+      "number": 1
+    },
+    "0,3": {
+      "number": 2
+    },
+    "0,4": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "0,11": {
+      "number": 8
+    },
+    "0,12": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "1,13": {
+      "number": 13
+    },
+    "2,0": {
+      "number": 14
+    },
+    "2,10": {
+      "number": 15
+    },
+    "2,14": {
+      "number": 16
+    },
+    "3,0": {
+      "number": 17
+    },
+    "3,8": {
+      "number": 18
+    },
+    "3,9": {
+      "number": 19
+    },
+    "4,0": {
+      "number": 20
+    },
+    "4,5": {
+      "number": 21
+    },
+    "4,6": {
+      "number": 22
+    },
+    "4,7": {
+      "number": 23
+    },
+    "4,9": {
+      "number": 24
+    },
+    "5,0": {
+      "number": 25
+    },
+    "5,3": {
+      "number": 26
+    },
+    "5,5": {
+      "number": 27
+    },
+    "5,8": {
+      "number": 28
+    },
+    "6,0": {
+      "number": 29
+    },
+    "6,5": {
+      "number": 30
+    },
+    "6,11": {
+      "number": 31
+    },
+    "6,12": {
+      "number": 32
+    },
+    "6,13": {
+      "number": 33
+    },
+    "6,14": {
+      "number": 34
+    },
+    "7,0": {
+      "number": 35
+    },
+    "7,5": {
+      "number": 36
+    },
+    "7,11": {
+      "number": 37
+    },
+    "8,0": {
+      "number": 38
+    },
+    "8,5": {
+      "number": 39
+    },
+    "8,11": {
+      "number": 40
+    },
+    "9,4": {
+      "number": 41
+    },
+    "9,11": {
+      "number": 42
+    },
+    "10,0": {
+      "number": 43
+    },
+    "10,1": {
+      "number": 44
+    },
+    "10,2": {
+      "number": 45
+    },
+    "10,3": {
+      "number": 46
+    },
+    "10,7": {
+      "number": 47
+    },
+    "10,12": {
+      "number": 48
+    },
+    "11,0": {
+      "number": 49
+    },
+    "11,6": {
+      "number": 50
+    },
+    "11,10": {
+      "number": 51
+    },
+    "11,11": {
+      "number": 52
+    },
+    "12,0": {
+      "number": 53
+    },
+    "12,6": {
+      "number": 54
+    },
+    "12,7": {
+      "number": 55
+    },
+    "12,8": {
+      "number": 56
+    },
+    "12,9": {
+      "number": 57
+    },
+    "13,1": {
+      "number": 58
+    },
+    "13,6": {
+      "number": 59
+    },
+    "14,2": {
+      "number": 60
+    },
+    "14,7": {
+      "number": 61
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "AACHEN",
+      "clue": "City in western Germany near the Dutch and Belgian borders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany near the Dutch and Belgian borders",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 9,
+      "answer": "ASSONANCE",
+      "clue": "Resemblance or correspondence in sound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Resemblance or correspondence in sound.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ASTR",
+      "clue": "Star sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "CHIN",
+      "clue": "Protruding part of the lower jaw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Protruding part of the lower jaw",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "HON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "NET",
+      "clue": "Computer network consisting of a worldwide network of computer networks that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer network consisting of a worldwide network of computer networks that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "GAL",
+      "clue": "Alliterative term for girl (or woman)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Alliterative term for girl (or woman)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "GAMBOL",
+      "clue": "Playful leaping or frisking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Playful leaping or frisking.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 11,
+      "length": 5,
+      "answer": "ATOLL",
+      "clue": "Island consisting of a circular coral reef surrounding a lagoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Island consisting of a circular coral reef surrounding a lagoon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 12,
+      "length": 5,
+      "answer": "LEVEE",
+      "clue": "Embankment beside a river or stream or an arm of the sea, to prevent overflow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An embankment beside a river or stream or an arm of the sea, to prevent overflow.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 8,
+      "answer": "ASSHOLES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 1,
+      "length": 8,
+      "answer": "ABDICATE",
+      "clue": "Give up (royal power or the like)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To give up (royal power or the like).",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "ATES",
+      "clue": "Goddesses of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddesses of criminal rashness and its punishment",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 1,
+      "col": 13,
+      "length": 4,
+      "answer": "SEAM",
+      "clue": "Joint consisting of a line formed by joining two pieces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Joint consisting of a line formed by joining two pieces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 9,
+      "answer": "OBSTINATE",
+      "clue": "Stubbornly refusing to change one's opinion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "stubbornly refusing to change one's opinion",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "OARSMEN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 2,
+      "col": 10,
+      "length": 5,
+      "answer": "MOVED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 2,
+      "col": 14,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "Make a demand or repeated demands on for payment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ADORN",
+      "clue": "Make more attractive by adding ornament, colour, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make more attractive by adding ornament, colour, etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 7,
+      "answer": "TABLEAU",
+      "clue": "Arrangement of inanimate figures representing a scene from real life",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An arrangement of inanimate figures representing a scene from real life.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 3,
+      "col": 9,
+      "length": 8,
+      "answer": "ASSASSIN",
+      "clue": "One who kills, or tries to kill, treacherously or secretly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who kills, or tries to kill, treacherously or secretly.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "RIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ETC",
+      "clue": "List-ending abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 8,
+      "answer": "ETCETERA",
+      "clue": "Additional unspecified odds and ends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Additional unspecified odds and ends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 6,
+      "answer": "TRUMAN",
+      "clue": "Elected vice president in Roosevelt's 4th term",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elected vice president in Roosevelt's 4th term",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "CARACAS",
+      "clue": "Capital and largest city of Venezuela",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Venezuela",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 4,
+      "col": 9,
+      "length": 6,
+      "answer": "SOLEMN",
+      "clue": "Characterized by a firm and humorless belief in the validity of your opinions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by a firm and humorless belief in the validity of your opinions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAM",
+      "clue": "Fraudulent business scheme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fraudulent business scheme",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "MOHR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 6,
+      "answer": "TRANSL",
+      "clue": "Conversion of language: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "NICOLO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "MANO",
+      "clue": "Muller, or crushing and grinding stone, used in grinding corn on a metate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Muller, or crushing and grinding stone, used in grinding corn on a metate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CURIA",
+      "clue": "Central administration governing the Roman Catholic Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central administration governing the Roman Catholic Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 6,
+      "col": 11,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 6,
+      "col": 11,
+      "length": 4,
+      "answer": "ATMA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 6,
+      "col": 12,
+      "length": 9,
+      "answer": "PROFESSOR",
+      "clue": "Public teacher of the highest grade in a university or college",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A public teacher of the highest grade in a university or college.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 6,
+      "col": 13,
+      "length": 8,
+      "answer": "PARAMOUR",
+      "clue": "One who is unlawfully and immorally a lover or a mistress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "One who is unlawfully and immorally a lover or a mistress.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 6,
+      "col": 14,
+      "length": 7,
+      "answer": "SCORERS",
+      "clue": "Officials who records the score during the progress of a game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Officials who records the score during the progress of a game",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ETCH",
+      "clue": "Selectively dissolve the surface of (a semiconductor or printed circuit) with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Selectively dissolve the surface of (a semiconductor or printed circuit) with a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 5,
+      "answer": "EMACS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 7,
+      "col": 11,
+      "length": 4,
+      "answer": "TRAC",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "NEER",
+      "clue": "Nearer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nearer",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 5,
+      "answer": "TACOS",
+      "clue": "Tortillas rolled cupped around a filling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tortillas rolled cupped around a filling",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 8,
+      "col": 11,
+      "length": 4,
+      "answer": "MORO",
+      "clue": "Member of the predominantly Muslim people in the southern Philippines",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the predominantly Muslim people in the southern Philippines",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "DENALI",
+      "clue": "Mountain in south central Alaska",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain in south central Alaska",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "41D",
+      "number": 41,
+      "direction": "down",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "DARING",
+      "clue": "Brave",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Brave.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "42A",
+      "number": 42,
+      "direction": "across",
+      "row": 9,
+      "col": 11,
+      "length": 4,
+      "answer": "AFAR",
+      "clue": "At or from or to a great distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or from or to a great distance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "43A",
+      "number": 43,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ARREAR",
+      "clue": "Or in the rear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Something overdue and unpaid.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "43D",
+      "number": 43,
+      "direction": "down",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "44D",
+      "number": 44,
+      "direction": "down",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "REEF",
+      "clue": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "45D",
+      "number": 45,
+      "direction": "down",
+      "row": 10,
+      "col": 2,
+      "length": 5,
+      "answer": "REBUS",
+      "clue": "Puzzle where you decode a message consisting of pictures representing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Puzzle where you decode a message consisting of pictures representing...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "46D",
+      "number": 46,
+      "direction": "down",
+      "row": 10,
+      "col": 3,
+      "length": 5,
+      "answer": "EBERT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "47A",
+      "number": 47,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "SON",
+      "clue": "Divine word of God",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divine word of God",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "48A",
+      "number": 48,
+      "direction": "across",
+      "row": 10,
+      "col": 12,
+      "length": 3,
+      "answer": "EME",
+      "clue": "Uncle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uncle",
+      "clueSource": "webster"
+    },
+    {
+      "id": "49A",
+      "number": 49,
+      "direction": "across",
+      "row": 11,
+      "col": 0,
+      "length": 7,
+      "answer": "SEEBRAE",
+      "clue": "Bray",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BRAY"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cSee Brae\u201d defines bray",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "50D",
+      "number": 50,
+      "direction": "down",
+      "row": 11,
+      "col": 6,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "51A",
+      "number": 51,
+      "direction": "across",
+      "row": 11,
+      "col": 10,
+      "length": 5,
+      "answer": "VISOR",
+      "clue": "Brim that projects to the front to shade the eyes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brim that projects to the front to shade the eyes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "51D",
+      "number": 51,
+      "direction": "down",
+      "row": 11,
+      "col": 10,
+      "length": 4,
+      "answer": "VIOL",
+      "clue": "Stringed instrument of the violin class",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A stringed instrument of the violin class.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "52D",
+      "number": 52,
+      "direction": "down",
+      "row": 11,
+      "col": 11,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An island.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "53A",
+      "number": 53,
+      "direction": "across",
+      "row": 12,
+      "col": 0,
+      "length": 5,
+      "answer": "HEBEI",
+      "clue": "Populous province in northeastern China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Populous province in northeastern China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "54A",
+      "number": 54,
+      "direction": "across",
+      "row": 12,
+      "col": 6,
+      "length": 9,
+      "answer": "NARCISSUS",
+      "clue": "Son of the athenian river-god cephisus, fabled to have fallen in love",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The son of the Athenian river-god Cephisus, fabled to have fallen in love",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "55D",
+      "number": 55,
+      "direction": "down",
+      "row": 12,
+      "col": 7,
+      "length": 3,
+      "answer": "AIM",
+      "clue": "Action of directing something at an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Action of directing something at an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "56D",
+      "number": 56,
+      "direction": "down",
+      "row": 12,
+      "col": 8,
+      "length": 3,
+      "answer": "RSI",
+      "clue": "Repetitive strain ailment, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "57D",
+      "number": 57,
+      "direction": "down",
+      "row": 12,
+      "col": 9,
+      "length": 3,
+      "answer": "CCL",
+      "clue": "Roman numeral for 250",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 250",
+      "clueSource": "roman"
+    },
+    {
+      "id": "58A",
+      "number": 58,
+      "direction": "across",
+      "row": 13,
+      "col": 1,
+      "length": 4,
+      "answer": "FURN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "59A",
+      "number": 59,
+      "direction": "across",
+      "row": 13,
+      "col": 6,
+      "length": 8,
+      "answer": "DISCOLOR",
+      "clue": "Stain",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To stain.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "60A",
+      "number": 60,
+      "direction": "across",
+      "row": 14,
+      "col": 2,
+      "length": 3,
+      "answer": "STG",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "61A",
+      "number": 61,
+      "direction": "across",
+      "row": 14,
+      "col": 7,
+      "length": 6,
+      "answer": "MILLER",
+      "clue": "Any of various moths that have powdery wings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various moths that have powdery wings",
+      "clueSource": "wordnet"
+    }
+  ]
+}
