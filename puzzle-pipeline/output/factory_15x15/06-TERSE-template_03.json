@@ -1,0 +1,1409 @@
+{
+  "date": "2027-01-06",
+  "number": 1005,
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "solution": [
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "V",
+      "E",
+      "R",
+      "#",
+      "#",
+      "S",
+      "A",
+      "C",
+      "R",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "O",
+      "Y",
+      "A",
+      "#",
+      "P",
+      "O",
+      "L",
+      "L",
+      "A",
+      "R",
+      "D"
+    ],
+    [
+      "#",
+      "A",
+      "B",
+      "E",
+      "L",
+      "E",
+      "S",
+      "#",
+      "O",
+      "N",
+      "E",
+      "A",
+      "I",
+      "M",
+      "S"
+    ],
+    [
+      "S",
+      "N",
+      "U",
+      "B",
+      "S",
+      "#",
+      "#",
+      "A",
+      "L",
+      "I",
+      "#",
+      "P",
+      "S",
+      "S",
+      "T"
+    ],
+    [
+      "E",
+      "T",
+      "T",
+      "A",
+      "#",
+      "A",
+      "B",
+      "D",
+      "I",
+      "C",
+      "A",
+      "T",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "I",
+      "M",
+      "E",
+      "#",
+      "M",
+      "O",
+      "A",
+      "T",
+      "#",
+      "D",
+      "R",
+      "O",
+      "P",
+      "#"
+    ],
+    [
+      "U",
+      "S",
+      "O",
+      "#",
+      "S",
+      "I",
+      "M",
+      "#",
+      "#",
+      "D",
+      "E",
+      "A",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "T",
+      "U",
+      "R",
+      "B",
+      "#",
+      "R",
+      "I",
+      "P",
+      "P",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "A",
+      "P",
+      "S",
+      "#",
+      "#",
+      "E",
+      "S",
+      "T",
+      "#",
+      "I",
+      "R",
+      "A"
+    ],
+    [
+      "#",
+      "A",
+      "S",
+      "T",
+      "R",
+      "#",
+      "F",
+      "D",
+      "I",
+      "C",
+      "#",
+      "A",
+      "F",
+      "A",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "T",
+      "A",
+      "L",
+      "I",
+      "A",
+      "N",
+      "S",
+      "#",
+      "M",
+      "T",
+      "G",
+      "E"
+    ],
+    [
+      "M",
+      "E",
+      "M",
+      "O",
+      "#",
+      "I",
+      "B",
+      "M",
+      "#",
+      "#",
+      "M",
+      "O",
+      "U",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "M",
+      "P",
+      "O",
+      "W",
+      "E",
+      "R",
+      "#",
+      "G",
+      "R",
+      "O",
+      "U",
+      "P",
+      "S",
+      "#"
+    ],
+    [
+      "M",
+      "I",
+      "L",
+      "E",
+      "A",
+      "G",
+      "E",
+      "#",
+      "P",
+      "O",
+      "R",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "E",
+      "R",
+      "S",
+      "E",
+      "#",
+      "#",
+      "A",
+      "B",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,3": {
+      "number": 1
+    },
+    "0,4": {
+      "number": 2
+    },
+    "0,5": {
+      "number": 3
+    },
+    "0,6": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "0,11": {
+      "number": 7
+    },
+    "0,12": {
+      "number": 8
+    },
+    "0,13": {
+      "number": 9
+    },
+    "1,3": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "1,14": {
+      "number": 12
+    },
+    "2,1": {
+      "number": 13
+    },
+    "2,2": {
+      "number": 14
+    },
+    "2,8": {
+      "number": 15
+    },
+    "3,0": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "3,11": {
+      "number": 18
+    },
+    "4,0": {
+      "number": 19
+    },
+    "4,5": {
+      "number": 20
+    },
+    "4,6": {
+      "number": 21
+    },
+    "4,10": {
+      "number": 22
+    },
+    "5,0": {
+      "number": 23
+    },
+    "5,5": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "5,13": {
+      "number": 26
+    },
+    "6,0": {
+      "number": 27
+    },
+    "6,4": {
+      "number": 28
+    },
+    "6,9": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,3": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,14": {
+      "number": 33
+    },
+    "8,1": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "8,12": {
+      "number": 36
+    },
+    "9,1": {
+      "number": 37
+    },
+    "9,6": {
+      "number": 38
+    },
+    "9,7": {
+      "number": 39
+    },
+    "9,11": {
+      "number": 40
+    },
+    "10,2": {
+      "number": 41
+    },
+    "10,5": {
+      "number": 42
+    },
+    "10,11": {
+      "number": 43
+    },
+    "11,0": {
+      "number": 44
+    },
+    "11,1": {
+      "number": 45
+    },
+    "11,5": {
+      "number": 46
+    },
+    "11,10": {
+      "number": 47
+    },
+    "12,0": {
+      "number": 48
+    },
+    "12,4": {
+      "number": 49
+    },
+    "12,8": {
+      "number": 50
+    },
+    "12,9": {
+      "number": 51
+    },
+    "13,0": {
+      "number": 52
+    },
+    "13,8": {
+      "number": 53
+    },
+    "14,1": {
+      "number": 54
+    },
+    "14,8": {
+      "number": 55
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "Assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To assert as a fact.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "AMEBAE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "VOLS",
+      "clue": "Library set, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "EYE",
+      "clue": "Small hole or loop (as in a needle)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small hole or loop (as in a needle)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "RAS",
+      "clue": "Network in the reticular formation that serves an alerting or arousal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Network in the reticular formation that serves an alerting or arousal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SACRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SONIC",
+      "clue": "Relating to audible sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to audible sound",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "General name for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General name for beer made with a top fermenting yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 11,
+      "length": 8,
+      "answer": "CLAPTRAP",
+      "clue": "Pompous or pretentious talk or writing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pompous or pretentious talk or writing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 12,
+      "length": 13,
+      "answer": "RAISEORLIFTUP",
+      "clue": "Enhance",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ENHANCE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201craise or lift up\u201d defines enhance",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 13,
+      "length": 4,
+      "answer": "ARMS",
+      "clue": "Official symbols of a family, state, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official symbols of a family, state, etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 3,
+      "length": 4,
+      "answer": "MOYA",
+      "clue": "Mud poured out from volcanoes during eruptions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mud poured out from volcanoes during eruptions",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 7,
+      "answer": "POLLARD",
+      "clue": "Usually horned animal that has either shed its horns or had them removed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually horned animal that has either shed its horns or had them removed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "POLIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 14,
+      "length": 3,
+      "answer": "DST",
+      "clue": "Clock-shifting std.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 6,
+      "answer": "ABELES",
+      "clue": "Cains and Abels were the first children of Adam and Eve born after the",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cains and Abels were the first children of Adam and Eve born after the",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 1,
+      "length": 8,
+      "answer": "ANTISERA",
+      "clue": "Disease-fighting injections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 2,
+      "length": 13,
+      "answer": "BUTMORESIMPLE",
+      "clue": "Sensuous",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SENSUOUS"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cbut more simple\u201d defines sensuous",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 7,
+      "answer": "ONEAIMS",
+      "clue": "Scope",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "SCOPE"
+      ],
+      "satTeachingKind": "short_def",
+      "definition": "\u201cone aims\u201d defines scope",
+      "clueSource": "sat_short_def"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SNUBS",
+      "clue": "Refusals to recognize someone you know",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Refusals to recognize someone you know",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SETUP",
+      "clue": "Act that incriminates someone on a false charge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act that incriminates someone on a false charge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 3,
+      "answer": "ADA",
+      "clue": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enzyme found in mammals that can catalyze the deamination of adenosine into...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 3,
+      "col": 11,
+      "length": 4,
+      "answer": "PSST",
+      "clue": "\"Hey, you!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ETTA",
+      "clue": "Singer James",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 8,
+      "answer": "ABDICATE",
+      "clue": "Give up (royal power or the like)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To give up (royal power or the like).",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "answer": "AMIRS",
+      "clue": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 4,
+      "answer": "BOMB",
+      "clue": "Hollow projectile containing an explosive material",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A hollow projectile containing an explosive material.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Very skilled or proficient at something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "TIME",
+      "clue": "Continuum of experience in which events pass from the future through the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Continuum of experience in which events pass from the future through the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 5,
+      "length": 4,
+      "answer": "MOAT",
+      "clue": "Ditch on the outside of a fortress wall",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A ditch on the outside of a fortress wall.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "DROP",
+      "clue": "Give birth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give birth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 5,
+      "col": 13,
+      "length": 8,
+      "answer": "PEERAGES",
+      "clue": "Nobilities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nobilities",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "USO",
+      "clue": "Troop-entertaining org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 3,
+      "answer": "SIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "SUPRA",
+      "clue": "At an earlier place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At an earlier place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DEARE",
+      "clue": "Variant of Dere, v. t. & n",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variant of Dere, v. t. & n",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DISCS",
+      "clue": "Flat circular plates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat circular plates",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PERTURB",
+      "clue": "Disturb greatly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To disturb greatly.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "TATTOOER",
+      "clue": "One who stains (skin) with indelible color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who stains (skin) with indelible color",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 7,
+      "answer": "RIPPLET",
+      "clue": "Small ripple",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A small ripple, as of water.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "REIN",
+      "clue": "Step attached to the bit for controlling a horse or other draft-animal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A step attached to the bit for controlling a horse or other draft-animal.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 14,
+      "length": 5,
+      "answer": "TARES",
+      "clue": "Men who serves as a sailor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Men who serves as a sailor",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 1,
+      "length": 5,
+      "answer": "REAPS",
+      "clue": "Gathers, as of natural products",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gathers, as of natural products",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "EST",
+      "clue": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 5th time zone west of Greenwich, reckoned at the 75th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 12,
+      "length": 3,
+      "answer": "IRA",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "ASTR",
+      "clue": "Star sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 4,
+      "answer": "FDIC",
+      "clue": "Federally sponsored corporation that insures accounts in national banks and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federally sponsored corporation that insures accounts in national banks and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38D",
+      "number": 38,
+      "direction": "down",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "FIBRE",
+      "clue": "Leatherlike material made by compressing layers of paper or cloth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leatherlike material made by compressing layers of paper or cloth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39D",
+      "number": 39,
+      "direction": "down",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "DAM",
+      "clue": "Female parent of an animal especially domestic livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female parent of an animal especially domestic livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 9,
+      "col": 11,
+      "length": 4,
+      "answer": "AFAR",
+      "clue": "At or from or to a great distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or from or to a great distance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40D",
+      "number": 40,
+      "direction": "down",
+      "row": 9,
+      "col": 11,
+      "length": 6,
+      "answer": "AMOUNT",
+      "clue": "How much there is or how many there are of something that you can quantify",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How much there is or how many there are of something that you can quantify",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 8,
+      "answer": "ITALIANS",
+      "clue": "Romance languages spoken in Italy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Romance languages spoken in Italy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "42D",
+      "number": 42,
+      "direction": "down",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "LIEGE",
+      "clue": "Owing or owed feudal allegiance and service",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Sovereign.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "43A",
+      "number": 43,
+      "direction": "across",
+      "row": 10,
+      "col": 11,
+      "length": 4,
+      "answer": "MTGE",
+      "clue": "Home loan: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "44A",
+      "number": 44,
+      "direction": "across",
+      "row": 11,
+      "col": 0,
+      "length": 4,
+      "answer": "MEMO",
+      "clue": "Written proposal or reminder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Written proposal or reminder",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "44D",
+      "number": 44,
+      "direction": "down",
+      "row": 11,
+      "col": 0,
+      "length": 3,
+      "answer": "MEM",
+      "clue": "13th letter of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "13th letter of the Hebrew alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "45D",
+      "number": 45,
+      "direction": "down",
+      "row": 11,
+      "col": 1,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "Send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To send or give out.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "46A",
+      "number": 46,
+      "direction": "across",
+      "row": 11,
+      "col": 5,
+      "length": 3,
+      "answer": "IBM",
+      "clue": "Big Blue, on the NYSE",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "47A",
+      "number": 47,
+      "direction": "across",
+      "row": 11,
+      "col": 10,
+      "length": 5,
+      "answer": "MOUES",
+      "clue": "Disdainful grimaces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disdainful grimaces",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "47D",
+      "number": 47,
+      "direction": "down",
+      "row": 11,
+      "col": 10,
+      "length": 4,
+      "answer": "MORE",
+      "clue": "English statesman who opposed Henry VIII's divorce from Catherine of Aragon and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English statesman who opposed Henry VIII's divorce from Catherine of Aragon and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "48A",
+      "number": 48,
+      "direction": "across",
+      "row": 12,
+      "col": 0,
+      "length": 7,
+      "answer": "EMPOWER",
+      "clue": "Delegate authority to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To delegate authority to.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "49D",
+      "number": 49,
+      "direction": "down",
+      "row": 12,
+      "col": 4,
+      "length": 3,
+      "answer": "WAS",
+      "clue": "States in northwestern United States on the Pacific",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in northwestern United States on the Pacific",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "50A",
+      "number": 50,
+      "direction": "across",
+      "row": 12,
+      "col": 8,
+      "length": 6,
+      "answer": "GROUPS",
+      "clue": "Any numbers of entities (members) considered as a unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any numbers of entities (members) considered as a unit",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "50D",
+      "number": 50,
+      "direction": "down",
+      "row": 12,
+      "col": 8,
+      "length": 3,
+      "answer": "GPA",
+      "clue": "Measure of a student's academic achievement at a college or university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of a student's academic achievement at a college or university",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "51D",
+      "number": 51,
+      "direction": "down",
+      "row": 12,
+      "col": 9,
+      "length": 3,
+      "answer": "ROB",
+      "clue": "Rip off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rip off",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "52A",
+      "number": 52,
+      "direction": "across",
+      "row": 13,
+      "col": 0,
+      "length": 7,
+      "answer": "MILEAGE",
+      "clue": "Distance in miles",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A distance in miles.",
+      "clueSource": "sat:sat"
+    },
+    {
+      "id": "53A",
+      "number": 53,
+      "direction": "across",
+      "row": 13,
+      "col": 8,
+      "length": 4,
+      "answer": "PORN",
+      "clue": "Creative activity (writing or pictures or films etc.) of no literary or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Creative activity (writing or pictures or films etc.) of no literary or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "54A",
+      "number": 54,
+      "direction": "across",
+      "row": 14,
+      "col": 1,
+      "length": 5,
+      "answer": "TERSE",
+      "clue": "Briefly and cleanly expressed; curt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "briefly and cleanly expressed; curt",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "55A",
+      "number": 55,
+      "direction": "across",
+      "row": 14,
+      "col": 8,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Aid, promote, or encourage the commission of (an offense)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat:sat"
+    }
+  ]
+}
