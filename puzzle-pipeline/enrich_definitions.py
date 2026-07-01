@@ -124,6 +124,9 @@ def _clean_root_def(definition: str) -> str:
     s = re.split(r"[.;]", definition, maxsplit=1)[0]
     s = re.sub(r"^(To|A|An|The)\s+", "", s.strip(), flags=re.IGNORECASE)
     s = re.sub(r"\s+", " ", s).strip(" .")
+    # Drop tokens with no letters (e.g. a stray '*' in "Star-shaped
+    # character * used in printing") so head detection lands on a real noun.
+    s = " ".join(t for t in s.split() if re.search(r"[A-Za-z]", t))
     if len(s) > 70:
         s = s[:70].rsplit(" ", 1)[0]
     return s
