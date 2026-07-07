@@ -78,6 +78,17 @@ INFLECTION_RULES = [
     ("LY",  [""]),
 ]
 
+# Biography/proper-person senses: birth-death years, occupation-led
+# glosses, biblical-figure phrasing. Never a safe base for inflection.
+_BIO_SENSE = re.compile(
+    r"\(\s*\d{4}\s*[-–]\s*\d{4}\s*\)"
+    r"|\b(actor|actress|composer|singer|author|writer|poet|painter"
+    r"|president|senator|king|queen|emperor|prophet|patriarch|deity"
+    r"|god|goddess|saint|apostle)s?\b.*\b(18|19|20)\d\d\b"
+    r"|first (children|son|daughter) of",
+    re.IGNORECASE,
+)
+
 # Tokens we never inflect even at a coordinated head position — particles,
 # prepositions, articles, light verbs — so "rub or wear OFF" keeps "off".
 _NOINFLECT = {
@@ -167,10 +178,32 @@ def _head_indices(tokens: list[str], tags: tuple[str, ...], want: str) -> list[i
     if not span:
         return []
     if want == "verb":
-        idxs = [span[0]]
-        for i in span[1:]:
-            if tags[i].startswith("VB") and tags[i - 1] == "CC":
+        # Walk the coordination chain from the leading verb: 'say, state,
+        # or perform again' must inflect all three. The chain extends
+        # through commas and and/or; span_before_prep cuts at the first
+        # comma so we walk raw tokens here instead. The tagger is
+        # unreliable on fragments, so a token counts as a verb when
+        # lemminflect's lexicon knows it as a base-form verb.
+        # Stop at a preposition/relativizer: past it, or/and joins nouns
+        # ('fasten, as with a rope or chain' must not inflect 'chain').
+        stop_toks = {
+            "as", "with", "by", "from", "into", "than", "that", "which",
+            "who", "when", "while", "without", "upon", "after", "before",
+            "at", "on", "in", "of", "for", "to",
+        }
+        idxs = [0]
+        i = 1
+        while i < len(tokens):
+            low = tokens[i].rstrip(",").lower()
+            if low in stop_toks or (
+                i < len(tags) and tags[i] in ("IN", "TO", "WP", "WDT")
+            ):
+                break
+            prev = tokens[i - 1]
+            joined = prev.endswith(",") or prev.rstrip(",").lower() in ("or", "and")
+            if joined and _is_base_verb(tokens[i]):
                 idxs.append(i)
+            i += 1
         return idxs
     nn_tags = ("NN", "NNS", "NNP", "NNPS")
     nouns = [i for i in span if tags[i] in nn_tags]
@@ -186,20 +219,93 @@ def _head_indices(tokens: list[str], tags: tuple[str, ...], want: str) -> list[i
     return sorted(head)
 
 
-def _apply(tokens: list[str], idxs: list[int], tag: str) -> bool:
+# Pronoun heads pluralize idiomatically, not morphologically.
+_PRONOUN_PLURAL = {
+    "one": "Ones", "someone": "People", "somebody": "People",
+    "anyone": "People", "anybody": "People", "person": "People",
+}
+
+
+def _is_base_verb(token: str) -> bool:
+    """True if lemminflect's lexicon knows this token as a base-form verb
+    (its own VERB lemma). Beats the POS tagger on headless fragments."""
+    core = re.sub(r"[^A-Za-z]", "", token).lower()
+    if not core:
+        return False
+    lemmas = lemminflect.getAllLemmas(core)
+    return "VERB" in lemmas and core in lemmas["VERB"]
+
+
+def _fix_relative_agreement(tokens: list[str], head_idx: int) -> None:
+    """After pluralizing the head noun, a following 'who/that/which VBZ...'
+    relative clause must agree: 'People who works' -> 'People who work'.
+    Converts every 3rd-person-singular verb in the relative clause chain
+    (including or-/and-coordinated ones) back to its plural (lemma) form."""
+    rel = {"who", "that", "which"}
+    i = head_idx + 1
+    if i >= len(tokens) or tokens[i].lower().strip(",") not in rel:
+        return
+    i += 1
+    expect_verb = True
+    while i < len(tokens):
+        core = re.sub(r"[^A-Za-z]", "", tokens[i])
+        low = core.lower()
+        if expect_verb and core:
+            lemmas = lemminflect.getLemma(low, "VERB")
+            if lemmas and lemmas[0] != low and low == (
+                lemminflect.getInflection(lemmas[0], "VBZ") or [""])[0]:
+                tokens[i] = tokens[i].replace(core, lemmas[0], 1)
+        expect_verb = tokens[i].rstrip(",").lower() in ("or", "and")
+        if not expect_verb and tokens[i].endswith(","):
+            expect_verb = True
+        i += 1
+
+
+def _apply(tokens: list[str], idxs: list[int], tag: str,
+           tags: tuple[str, ...] = ()) -> bool:
     """Inflect tokens at idxs in place to Penn `tag`. Returns True if any
-    token actually changed."""
+    token actually changed (or was verified already in the target form)."""
     changed = False
     for i in idxs:
         core = re.sub(r"[^A-Za-z]", "", tokens[i])
         if not core or core.lower() in _NOINFLECT:
             continue
-        forms = lemminflect.getInflection(core.lower(), tag)
-        if forms and forms[0].lower() != core.lower():
+        low = core.lower()
+        if tag == "NNS":
+            # Pronoun-ish heads: 'Someone who...' -> 'People who...'
+            # (before any POS guard — taggers call bare 'one' a number)
+            if low in _PRONOUN_PLURAL:
+                repl = _PRONOUN_PLURAL[low]
+                if core[:1].islower():
+                    repl = repl.lower()
+                tokens[i] = tokens[i].replace(core, repl, 1)
+                _fix_relative_agreement(tokens, i)
+                changed = True
+                continue
+            # Already plural? ('exercises', 'articles') — the definition
+            # already reads correctly for a plural headword; accept as-is
+            # instead of double-pluralizing to 'exerciseses'.
+            lemmas = lemminflect.getLemma(low, "NOUN")
+            if lemmas and lemmas[0] != low and low == (
+                    lemminflect.getInflection(lemmas[0], "NNS") or [""])[0]:
+                changed = True
+                continue
+        # POS guard. Verbs: trust lemminflect's lexicon over the tagger
+        # ('briefly' is never a verb, even when a fragment tagger says so).
+        # Nouns: trust the tagger, which sees context.
+        if tag.startswith("V") and not _is_base_verb(core):
+            continue
+        if tag == "NNS" and tags and i < len(tags) and tags[i] not in (
+                "NN", "NNS", "NNP", "NNPS"):
+            continue
+        forms = lemminflect.getInflection(low, tag)
+        if forms and forms[0].lower() != low:
             infl = forms[0]
             if core[:1].isupper():
                 infl = infl[:1].upper() + infl[1:]
             tokens[i] = tokens[i].replace(core, infl, 1)
+            if tag == "NNS":
+                _fix_relative_agreement(tokens, i)
             changed = True
     return changed
 
@@ -219,7 +325,7 @@ def _inflect_head(clean: str, tag: str) -> str | None:
     idxs = _head_indices(tokens, tags, want) if tags else [0]
     if not idxs:
         idxs = [0]
-    if not _apply(tokens, idxs, tag):
+    if not _apply(tokens, idxs, tag, tags):
         return None
     res = " ".join(tokens)
     return res[:1].upper() + res[1:]
@@ -236,6 +342,11 @@ def inflect_definition(definition: str, kind: str) -> str | None:
         return _inflect_head(clean, _TAG[kind])
     if kind == "agent":
         # ABRADER: "One who wears away the surface..."
+        # If the source definition is already agent-shaped, use it as-is
+        # rather than double-prefixing ('One who one who wears...').
+        if re.match(r"(?:one|ones|someone|somebody|person|people)\s+who\b",
+                    clean, re.IGNORECASE):
+            return clean[:1].upper() + clean[1:]
         third = _inflect_head(clean, "VBZ") or clean
         return f"One who {third[:1].lower() + third[1:]}"
     if kind == "comp":
@@ -273,10 +384,16 @@ def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
                 # don't chain off another inflection-derived clue
                 if cand.get("source") == "inflection":
                     continue
+                # don't pluralize biography senses: TREES must not become
+                # 'English actors...' via the surname Tree, ABELES must not
+                # become 'Cains and Abels...' via the given name.
+                cand_def = cand.get("definition", "")
+                if _BIO_SENSE.search(cand_def):
+                    continue
                 kind = _resolve_kind(suffix, cand.get("pos", ""))
                 if kind is None:
                     continue
-                clue = inflect_definition(cand.get("definition", ""), kind)
+                clue = inflect_definition(cand_def, kind)
                 if clue and not clue_leaks(word, clue):
                     return base, clue
     return None
