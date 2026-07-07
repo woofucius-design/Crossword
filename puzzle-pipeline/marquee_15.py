@@ -91,15 +91,54 @@ def pins_consistent(slots, pins: dict[int, str]) -> bool:
 
 
 def build_pins(slots, pairs, singles, fresh_by_len, rng,
-               min_marquee: int, max_marquee: int) -> dict[int, str] | None:
+               min_marquee: int, max_marquee: int,
+               filler: G.Filler | None = None,
+               probe: int = 40) -> dict[int, str] | None:
     """Choose a crossing-consistent set of fresh SAT words for the marquee
     slots. Long marquee slots cross each other (a 15-across runs through
     the 9-downs), so words are placed longest-first and each later
     candidate is filtered by the letters already fixed at its crossings.
     A pair whose slots can't both be satisfied is dropped whole, keeping
-    180° symmetry intact."""
+    180° symmetry intact.
+
+    When a filler is provided, each candidate is also DOMAIN-CHECKED:
+    every unpinned slot it crosses must retain at least one pool word
+    compatible with all pinned letters — otherwise the fill is doomed
+    before the solver starts (a marquee 'Z' with no ?Z? crossing word).
+    Only the first `probe` shuffled candidates are domain-checked, to
+    bound cost."""
     picks: dict[int, str] = {}
     taken: set[str] = set()
+
+    def crossing_domains_ok(si: int, w: str) -> bool:
+        if filler is None:
+            return True
+        for idx_i, sj, idx_j in slots[si].crossings:
+            if sj in picks:
+                continue
+            dom = None
+            for jdx, sk, kdx in slots[sj].crossings:
+                if sk == si:
+                    letter = w[kdx]
+                elif sk in picks:
+                    letter = picks[sk][kdx]
+                else:
+                    continue
+                allowed = filler.pos_index.get(
+                    (slots[sj].length, jdx, letter), G.EMPTY
+                )
+                dom = allowed if dom is None else dom & allowed
+                if not dom:
+                    return False
+        return True
+
+    # Crossing-friendliness: prefer marquee words made of common letters —
+    # they leave crossing slots far more fill options than rare-letter
+    # monsters like PLENIPOTENTIARY.
+    _FREQ = {c: 12 - i for i, c in enumerate("EARIOTNSLCUDPM")}
+
+    def _friendly(w: str) -> int:
+        return sum(_FREQ.get(c, 0) for c in w)
 
     def fit(si: int) -> str | None:
         length = slots[si].length
@@ -112,15 +151,29 @@ def build_pins(slots, pairs, singles, fresh_by_len, rng,
             if sj in picks
         ]
         order = rng.sample(cands, len(cands))
+        # keep exploration random but tilt toward friendly-letter words
+        order.sort(key=_friendly, reverse=True)
+        order = order[: max(probe * 3, 60)]
+        rng.shuffle(order)
+        checked = 0
         for w in order:
             if w in taken:
                 continue
-            if all(w[a] == letter for a, letter in constraints):
+            if not all(w[a] == letter for a, letter in constraints):
+                continue
+            checked += 1
+            if checked > probe:
+                return None
+            if crossing_domains_ok(si, w):
                 return w
         return None
 
     for _L, i, j in pairs:
         if len(picks) + 2 > max_marquee:
+            continue
+        # Thin fresh supply at this length = rare-letter monsters only;
+        # a forced 15-length pair from 7 candidates dooms the fill.
+        if len(fresh_by_len.get(_L, [])) < 20:
             continue
         w_i = fit(i)
         if w_i is None:
@@ -148,10 +201,12 @@ def build_pins(slots, pairs, singles, fresh_by_len, rng,
 
 
 def multi_pin_solve(slots, pool, sat_count, pins: dict[int, int],
-                    rng: random.Random, restarts: int = 3):
+                    rng: random.Random, restarts: int = 3,
+                    filler: G.Filler | None = None):
     """Full solve with several words pinned (domains forced to singletons).
     Same machinery as seed_15.seed_solve, generalized to N pins."""
-    filler = G.Filler(slots, pool, sat_count)
+    if filler is None:
+        filler = G.Filler(slots, pool, sat_count)
     base: list[set[int]] = []
     for si, slot in enumerate(filler.slots):
         dom = set(filler.length_ids.get(slot.length, ()))
@@ -241,20 +296,25 @@ def main() -> None:
         t0 = time.time()
         solved = None
         featured: list[str] = []
+        pin_filler = G.Filler(slots, pool, len(sat_list))
         for attempt in range(args.attempts_per_puzzle):
             if time.time() - t0 > args.time_budget:
                 break
             # Crossing-aware pin set: longest-first, each candidate filtered
-            # by the letters already fixed where marquee slots cross.
+            # by fixed letters AND by crossing-slot domain survival. Ease
+            # theme density as attempts fail: 6 words, then 5, then 4.
+            max_m = max(args.min_marquee, args.max_marquee - (attempt // 2))
             picks = build_pins(
                 slots, pairs, singles, fresh_by_len, rng,
-                args.min_marquee, args.max_marquee,
+                args.min_marquee, max_m, filler=pin_filler,
             )
             if picks is None:
                 continue
             assert pins_consistent(slots, picks)
             pins = {si: word_to_id[w] for si, w in picks.items()}
-            assign = multi_pin_solve(slots, pool, len(sat_list), pins, rng)
+            assign = multi_pin_solve(
+                slots, pool, len(sat_list), pins, rng, filler=pin_filler,
+            )
             if assign is not None:
                 solved = assign
                 featured = [picks[si] for si in sorted(picks)]
