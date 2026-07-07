@@ -1,0 +1,915 @@
+{
+  "date": "2027-08-04",
+  "number": 3003,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "G",
+      "A",
+      "M",
+      "A",
+      "S",
+      "#",
+      "D",
+      "A",
+      "T"
+    ],
+    [
+      "#",
+      "B",
+      "U",
+      "N",
+      "D",
+      "L",
+      "E",
+      "#",
+      "U",
+      "N",
+      "S"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "#",
+      "E",
+      "T",
+      "A"
+    ],
+    [
+      "M",
+      "A",
+      "R",
+      "E",
+      "#",
+      "U",
+      "S",
+      "U",
+      "R",
+      "E",
+      "R"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "R",
+      "#",
+      "D",
+      "E",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "S",
+      "O",
+      "W",
+      "#",
+      "S",
+      "T",
+      "E",
+      "A",
+      "K"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "E",
+      "R",
+      "#",
+      "E",
+      "N",
+      "C",
+      "L"
+    ],
+    [
+      "M",
+      "A",
+      "U",
+      "M",
+      "E",
+      "E",
+      "#",
+      "R",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "U",
+      "R",
+      "L",
+      "#",
+      "P",
+      "E",
+      "R",
+      "I",
+      "G",
+      "E",
+      "E"
+    ],
+    [
+      "T",
+      "A",
+      "N",
+      "#",
+      "I",
+      "D",
+      "I",
+      "O",
+      "M",
+      "S",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "A",
+      "#",
+      "E",
+      "S",
+      "D",
+      "R",
+      "A",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,8": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,7": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,3": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,1": {
+      "number": 29
+    },
+    "7,2": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,4": {
+      "number": 36
+    },
+    "10,0": {
+      "number": 37
+    },
+    "10,4": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "AGAMAS",
+      "clue": "Small terrestrial lizards of warm regions of the Old World",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small terrestrial lizards of warm regions of the Old World",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ABRADE",
+      "clue": "To wear away the surface or some part of by friction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wear away the surface or some part of by friction",
+        "Rub hard or scrub",
+        "Rub or wear off"
+      ],
+      "definition": "To wear away the surface or some part of by friction.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "GUARDS",
+      "clue": "Body of picked troops",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of picked troops",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 8,
+      "answer": "ANTEROOM",
+      "clue": "A room situated before and opening into another, usually larger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Room situated before and opening into another, usually larger",
+        "Large entrance or reception room or area",
+        "Room before, or forming an entrance to, another"
+      ],
+      "definition": "A room situated before and opening into another, usually larger.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "MDI",
+      "clue": "Sunni organization formed in 1989 and based in Pakistan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sunni organization formed in 1989 and based in Pakistan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ALOUD",
+      "clue": "Using the voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Using the voice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "SENSES",
+      "clue": "Street names for marijuana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for marijuana",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "DAT",
+      "clue": "Digital tape recording of sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Digital tape recording of sound",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "DUER",
+      "clue": "More owed and payable immediately or on demand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More owed and payable immediately or on demand",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In the game of poker, to put up a stake before the cards are dealt"
+      ],
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male monarch or emperor (especially of Russia prior to 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 6,
+      "answer": "BUNDLE",
+      "clue": "Package of several things tied together for carrying or storing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Package of several things tied together for carrying or storing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "UNS",
+      "clue": "Organizations of independent states formed in to promote international",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organizations of independent states formed in to promote international",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 7,
+      "answer": "ORATION",
+      "clue": "An elaborate or formal public speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Elaborate or formal public speech",
+        "Instance of oratory",
+        "Elaborate discourse, delivered in public, treating an important..."
+      ],
+      "definition": "An elaborate or formal public speech.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "OMAR",
+      "clue": "Actor Sharif",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 8,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "MARE",
+      "clue": "Female equine animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female equine animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "USURER",
+      "clue": "Someone who lends money at excessive rates of interest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who lends money at excessive rates of interest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 7,
+      "length": 8,
+      "answer": "ULTERIOR",
+      "clue": "Not so pertinent as something else to the matter spoken of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Coming at a subsequent time or stage",
+        "Situated beyond, or on the farther side"
+      ],
+      "definition": "Not so pertinent as something else to the matter spoken of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ADDR",
+      "clue": "Mailing info, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Share",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Share",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "RESOW",
+      "clue": "Sow again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sow again",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "WEEPIE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "STEAK",
+      "clue": "Slice of meat cut from the fleshy part of an animal or large fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slice of meat cut from the fleshy part of an animal or large fish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ENIGMA",
+      "clue": "A riddle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Riddle",
+        "Something that baffles understanding and cannot be explained",
+        "Dark, obscure, or inexplicable saying"
+      ],
+      "definition": "A riddle.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ACCESS",
+      "clue": "A way of approach or entrance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Way of approach or entrance",
+        "Way of approach or entrance; passage",
+        "Act of approaching or entering",
+        "Coming to, or near approach"
+      ],
+      "definition": "A way of approach or entrance; passage.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 4,
+      "answer": "KLEE",
+      "clue": "Swiss painter influenced by Kandinsky (1879-1940)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swiss painter influenced by Kandinsky (1879-1940)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "OER",
+      "clue": "Above, to a poet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "REEDS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ENCL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "MAUMEE",
+      "clue": "River that meets Lake Erie at Toledo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "MUTE",
+      "clue": "Device used to soften the tone of a musical instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device used to soften the tone of a musical instrument",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ARAL",
+      "clue": "Shrinking Asian sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "RICE",
+      "clue": "Grains used as food either unpolished or more often polished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grains used as food either unpolished or more often polished",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "URL",
+      "clue": "Address of a web page on the world wide web",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Address of a web page on the world wide web",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 8,
+      "col": 4,
+      "length": 7,
+      "answer": "PERIGEE",
+      "clue": "The point in the orbit of the moon when it is nearest the earth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Point in the orbit of the moon when it is nearest the earth",
+        "Periapsis in Earth orbit",
+        "That point in the orbit of the moon which is nearest to the earth"
+      ],
+      "definition": "The point in the orbit of the moon when it is nearest the earth.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RID",
+      "clue": "Relieve from",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relieve from",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "TAN",
+      "clue": "Light brown the color of topaz",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light brown the color of topaz",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 6,
+      "answer": "IDIOMS",
+      "clue": "Uses of words peculiar to a particular language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of words peculiar to a particular language",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 4,
+      "length": 6,
+      "answer": "ESDRAS",
+      "clue": "Apocryphal book",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ANTEROOM",
+      "clue": "A room situated before and opening into another, usually larger",
+      "definition": "A room situated before and opening into another, usually larger.",
+      "id": "3D"
+    },
+    {
+      "word": "ORATION",
+      "clue": "An elaborate or formal public speech",
+      "definition": "An elaborate or formal public speech.",
+      "id": "12A"
+    },
+    {
+      "word": "ULTERIOR",
+      "clue": "Not so pertinent as something else to the matter spoken of",
+      "definition": "Not so pertinent as something else to the matter spoken of.",
+      "id": "16D"
+    },
+    {
+      "word": "PERIGEE",
+      "clue": "The point in the orbit of the moon when it is nearest the earth",
+      "definition": "The point in the orbit of the moon when it is nearest the earth.",
+      "id": "33A"
+    }
+  ]
+}

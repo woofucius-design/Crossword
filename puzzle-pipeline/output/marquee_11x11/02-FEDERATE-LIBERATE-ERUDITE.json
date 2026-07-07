@@ -1,0 +1,886 @@
+{
+  "date": "2027-08-02",
+  "number": 3001,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "O",
+      "W",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "F",
+      "U",
+      "N"
+    ],
+    [
+      "L",
+      "A",
+      "R",
+      "#",
+      "A",
+      "L",
+      "L",
+      "#",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "K",
+      "U",
+      "#",
+      "G",
+      "E",
+      "O",
+      "R",
+      "G",
+      "I",
+      "A"
+    ],
+    [
+      "F",
+      "E",
+      "D",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "M",
+      "I",
+      "X",
+      "E",
+      "R",
+      "#",
+      "H",
+      "A",
+      "T",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "T",
+      "T",
+      "E",
+      "N",
+      "D",
+      "E",
+      "R",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "N",
+      "E",
+      "O",
+      "#",
+      "A",
+      "W",
+      "A",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "I",
+      "B",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "O",
+      "L",
+      "E",
+      "#",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "P",
+      "H",
+      "I",
+      "#",
+      "N",
+      "E",
+      "B",
+      "#",
+      "G",
+      "E",
+      "M"
+    ],
+    [
+      "S",
+      "O",
+      "L",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "S",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "OWE",
+      "clue": "Be in debt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be in debt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "OLAF",
+      "clue": "Frozen snowman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "WAKEMAN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "ERUDITE",
+      "clue": "Having or showing profound knowledge",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very-learned",
+        "Characterized by extensive reading or knowledge"
+      ],
+      "definition": "Very-learned.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "FUN",
+      "clue": "Activities that are enjoyable or amusing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activities that are enjoyable or amusing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "FIG",
+      "clue": "Diagram or picture illustrating textual material",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diagram or picture illustrating textual material",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "URI",
+      "clue": "Spoonbender Geller",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "LAR",
+      "clue": "Tutelary deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tutelary deity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "AGREE",
+      "clue": "In good part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In good part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "LEARNABLE",
+      "clue": "Such as can be learned",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Such as can be learned",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "LOT",
+      "clue": "Anything (straws or pebbles etc.) taken or chosen at random",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anything (straws or pebbles etc.) taken or chosen at random",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "AKU",
+      "clue": "Kwa language spoken by the Yoruba in southwestern Nigeria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kwa language spoken by the Yoruba in southwestern Nigeria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "GEORGIA",
+      "clue": "Republic in Asia Minor on the Black Sea separated from Russia by the Caucasus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in Asia Minor on the Black Sea separated from Russia by the Caucasus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "REHEAR",
+      "clue": "Hear or try a court case anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hear or try a court case anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "FEDERATE",
+      "clue": "League together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To league together",
+        "United under a central government",
+        "United by compact, as sovereignties, states, or nations"
+      ],
+      "definition": "To league together.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "EXTOLS",
+      "clue": "Praises in the highest terms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Praises in the highest terms",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "MIXER",
+      "clue": "One who adds as an additional element or part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who adds as an additional element or part",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "HAT",
+      "clue": "Informal term for a person's role",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for a person's role",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "ARRAIGN",
+      "clue": "Call into court, as a person indicted for crime, and demand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To call into court, as a person indicted for crime, and demand",
+        "Call into court, as a person indicted for crime, and demand whether he",
+        "Accuse of a wrong or an inadequacy",
+        "Call or set as a prisoner at the bar of a court to answer to the..."
+      ],
+      "definition": "To call into court, as a person indicted for crime, and demand whether he",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "TSETSES",
+      "clue": "Bloodsucking African flies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African flies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ATTENDERS",
+      "clue": "People who be present and participate in a meeting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who be present and participate in a meeting",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "DWEEB",
+      "clue": "Insignificant student who is ridiculed as being affected or boringly studious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Insignificant student who is ridiculed as being affected or boringly studious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "NEO",
+      "clue": "Recent or new",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recent or new",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "AWARE",
+      "clue": "Bearing in mind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bearing in mind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "LIBERATE",
+      "clue": "Set free or release from bondage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To set free or release from bondage",
+        "Release (gas or energy) as a result of a chemical reaction or physical...",
+        "Release from restraint or bondage"
+      ],
+      "definition": "To set free or release from bondage.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ION",
+      "clue": "Particle that is electrically charged (positive or negative)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle that is electrically charged (positive or negative)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EMMA",
+      "clue": "Jane Austen heroine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "CONSOLE",
+      "clue": "Comfort",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To comfort",
+        "Housing for electronic instruments, as radio or television",
+        "Cheer in distress or depression"
+      ],
+      "definition": "To comfort.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "CPS",
+      "clue": "Unit of frequency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of frequency",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "OHO",
+      "clue": "Exclamation of surprise, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation of surprise, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Quantity of no importance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Will not"
+      ],
+      "definition": "Nothing",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ISM",
+      "clue": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belief (or system of beliefs) accepted as authoritative by some group or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "PHI",
+      "clue": "21st letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "21st letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "NEB",
+      "clue": "Horny projecting mouth of a bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horny projecting mouth of a bird",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "GEM",
+      "clue": "Art highly prized for its beauty or perfection",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Art highly prized for its beauty or perfection",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "Sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
+      "definition": "The sun.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "United States cryptologic organization that coordinates and directs highly...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States cryptologic organization that coordinates and directs highly...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ERUDITE",
+      "clue": "Having or showing profound knowledge",
+      "definition": "Very-learned.",
+      "id": "3D"
+    },
+    {
+      "word": "FEDERATE",
+      "clue": "League together",
+      "definition": "To league together.",
+      "id": "15A"
+    },
+    {
+      "word": "ARRAIGN",
+      "clue": "Call into court, as a person indicted for crime, and demand",
+      "definition": "To call into court, as a person indicted for crime, and demand whether he",
+      "id": "19D"
+    },
+    {
+      "word": "LIBERATE",
+      "clue": "Set free or release from bondage",
+      "definition": "To set free or release from bondage.",
+      "id": "25A"
+    }
+  ]
+}
