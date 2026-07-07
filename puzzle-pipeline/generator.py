@@ -44,8 +44,26 @@ def load_fill() -> list[str]:
 
 
 @functools.lru_cache(maxsize=1)
+def _tier3_force() -> frozenset[str]:
+    """Hand-curated demotions AND the content blocklist. SAT-bank entries
+    matching these must never reach a puzzle either — the old SAT lists
+    include words (ORGIES) that a student app must not feature."""
+    path = HERE / "data" / "tier3_force.txt"
+    if not path.exists():
+        return frozenset()
+    return frozenset(
+        line.strip().upper() for line in path.read_text().splitlines()
+        if line.strip() and not line.startswith("#")
+    )
+
+
+@functools.lru_cache(maxsize=1)
 def load_sat() -> list[dict]:
-    return json.loads((HERE / "data" / "sat_words.json").read_text())
+    blocked = _tier3_force()
+    return [
+        e for e in json.loads((HERE / "data" / "sat_words.json").read_text())
+        if e["word"].upper() not in blocked
+    ]
 
 
 @functools.lru_cache(maxsize=1)
