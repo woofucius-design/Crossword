@@ -276,6 +276,12 @@ def main() -> None:
     cur_date = date.fromisoformat(args.start_date)
     cur_num = args.start_number
     saved: list[dict] = []
+    # Clear stale puzzle files from earlier sweeps. Filenames encode
+    # rank-seed-template, so a new run's winners don't overwrite a prior
+    # run's orphaned combos — wipe them so the dir reflects only this sweep.
+    for old in OUT_DIR.glob("*.json"):
+        if old.name != "_index.json":
+            old.unlink()
     for rank, c in enumerate(kept, 1):
         grid = c["grid_text"]
         slots = G.extract_slots(grid)
