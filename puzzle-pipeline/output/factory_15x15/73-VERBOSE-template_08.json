@@ -473,15 +473,9 @@
       "col": 2,
       "length": 15,
       "answer": "ACCOUTERMENTSOR",
-      "clue": "Divest",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DIVEST"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201caccouterments or\u201d defines divest",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -613,11 +607,16 @@
       "col": 0,
       "length": 6,
       "answer": "RECANT",
-      "clue": "Withdraw or repudiate formally and publicly (opinions formerly...",
+      "clue": "Withdraw formally one's belief (in something previously believed or",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To withdraw formally one's belief (in something previously believed or",
+        "Formally reject or disavow a formerly held belief, usually under pressure",
+        "Withdraw or repudiate formally and publicly (opinions formerly..."
+      ],
       "definition": "To withdraw formally one's belief (in something previously believed or",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "11D",
@@ -653,11 +652,16 @@
       "col": 7,
       "length": 8,
       "answer": "AGGRIEVE",
-      "clue": "Give pain or sorrow to",
+      "clue": "Give grief or sorrow to",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To give grief or sorrow to",
+        "Cause to feel sorrow",
+        "Give pain or sorrow to"
+      ],
       "definition": "To give grief or sorrow to.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "13D",
@@ -667,11 +671,16 @@
       "col": 7,
       "length": 4,
       "answer": "ACHE",
-      "clue": "Name given to several species of plants",
+      "clue": "Be in pain or distress",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
       "definition": "To be in pain or distress.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "14D",
@@ -681,7 +690,7 @@
       "col": 8,
       "length": 4,
       "answer": "GUTS",
-      "clue": "Tenacity",
+      "clue": "Tenacity?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -851,7 +860,7 @@
       "col": 5,
       "length": 4,
       "answer": "WISE",
-      "clue": "Astute",
+      "clue": "Astute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -980,11 +989,16 @@
       "col": 0,
       "length": 7,
       "answer": "VERBOSE",
-      "clue": "Using far more words than needed",
+      "clue": "Using or expressed in more words than are needed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using far more words than needed",
+        "Using or containing too many words",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "33D",

@@ -445,15 +445,9 @@
       "col": 2,
       "length": 15,
       "answer": "CAUSETOBEINWANT",
-      "clue": "Destitute",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DESTITUTE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccause to be in want\u201d defines destitute",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -519,7 +513,7 @@
       "col": 7,
       "length": 3,
       "answer": "SET",
-      "clue": "Resolute",
+      "clue": "Resolute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -565,11 +559,17 @@
       "col": 11,
       "length": 8,
       "answer": "ORATORIO",
-      "clue": "Composition for solo voices, chorus, and orchestra, generally taken from the",
+      "clue": "A composition for solo voices, chorus, and orchestra, generally taken",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Composition for solo voices, chorus, and orchestra, generally taken",
+        "Composition for solo voices, chorus, and orchestra, generally taken from the",
+        "Musical composition for voices and orchestra based on a religious text",
+        "More or less dramatic text or poem, founded on some Scripture..."
+      ],
       "definition": "A composition for solo voices, chorus, and orchestra, generally taken from the",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -624,11 +624,16 @@
       "col": 2,
       "length": 6,
       "answer": "ASTUTE",
-      "clue": "Having sharp judgment; shrewd and perceptive",
+      "clue": "Shrewd and perceptive",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Having sharp judgment; shrewd and perceptive",
+        "Marked by practical hardheaded intelligence",
+        "Critically discerning"
+      ],
       "definition": "having sharp judgment; shrewd and perceptive",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "13A",
@@ -786,15 +791,9 @@
       "col": 7,
       "length": 7,
       "answer": "HISLORD",
-      "clue": "Homage",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "HOMAGE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201chis lord\u201d defines homage",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "21A",
@@ -831,11 +830,9 @@
       "col": 14,
       "length": 8,
       "answer": "MESDAMES",
-      "clue": "Pl. of Madame and Madam",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Pl. of Madame and Madam",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "24A",
@@ -973,8 +970,12 @@
       "clue": "Deviating from that which is proper or right",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Humorously sarcastic or mocking",
+        "Cover"
+      ],
       "definition": "Deviating from that which is proper or right.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "31A",
@@ -984,15 +985,9 @@
       "col": 0,
       "length": 15,
       "answer": "DEBATABLEGROUND",
-      "clue": "Reprisal",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "REPRISAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cDebatable ground\u201d defines reprisal",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1116,8 +1111,12 @@
       "clue": "Stiffly proper",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Exaggeratedly proper",
+        "Privet"
+      ],
       "definition": "Stiffly proper.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "39D",
@@ -1197,11 +1196,16 @@
       "col": 2,
       "length": 5,
       "answer": "WREAK",
-      "clue": "Inflict, as a revenge or punishment",
+      "clue": "To inflict, as a revenge or punishment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Inflict, as a revenge or punishment",
+        "Cause to happen or to occur as a consequence",
+        "Reck"
+      ],
       "definition": "To inflict, as a revenge or punishment.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "44D",
@@ -1224,10 +1228,10 @@
       "col": 9,
       "length": 6,
       "answer": "KARMAS",
-      "clue": "Effectses of a person's actions that determine his destiny in his next",
+      "clue": "Effects of a person's actions that determine his destiny in his next",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Effectses of a person's actions that determine his destiny in his next",
+      "definition": "Effects of a person's actions that determine his destiny in his next",
       "clueSource": "inflection"
     },
     {

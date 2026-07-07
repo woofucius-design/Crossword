@@ -444,10 +444,10 @@
       "col": 1,
       "length": 4,
       "answer": "ACES",
-      "clue": "Electrics current that reverses direction sinusoidally",
+      "clue": "Serves that the receiver is unable to reach",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Electrics current that reverses direction sinusoidally",
+      "definition": "Serves that the receiver is unable to reach",
       "clueSource": "inflection"
     },
     {
@@ -458,11 +458,15 @@
       "col": 1,
       "length": 8,
       "answer": "ACCURATE",
-      "clue": "Conforming exactly or almost exactly to fact or to a standard or performing...",
+      "clue": "In exact or careful conformity to truth, or to some standard of...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Conforming exactly to truth or to a standard",
+        "Conforming exactly or almost exactly to fact or to a standard or performing..."
+      ],
       "definition": "Conforming exactly to truth or to a standard.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "2D",
@@ -472,10 +476,10 @@
       "col": 2,
       "length": 8,
       "answer": "CORNICES",
-      "clue": "Ornamental molding running round the wallses of a room close to the",
+      "clue": "Ornamental molding running round the walls of a room close to the",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Ornamental molding running round the wallses of a room close to the",
+      "definition": "Ornamental molding running round the walls of a room close to the",
       "clueSource": "inflection"
     },
     {
@@ -513,11 +517,15 @@
       "col": 6,
       "length": 6,
       "answer": "MINUTE",
-      "clue": "Characterized by painstaking care and detailed examination",
+      "clue": "Sixtieth part of an hour",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Exceedingly small in extent or quantity",
+        "Characterized by painstaking care and detailed examination"
+      ],
       "definition": "Exceedingly small in extent or quantity.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "5D",
@@ -610,10 +618,10 @@
       "col": 1,
       "length": 14,
       "answer": "CONTRABASSOONS",
-      "clue": "Bassoons that is the largest instrument in the oboe family",
+      "clue": "Bassoons that be the largest instrument in the oboe family",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Bassoons that is the largest instrument in the oboe family",
+      "definition": "Bassoons that be the largest instrument in the oboe family",
       "clueSource": "inflection"
     },
     {
@@ -679,15 +687,9 @@
       "col": 1,
       "length": 14,
       "answer": "CRAYONORPENCIL",
-      "clue": "Academy",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ACADEMY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccrayon or pencil\u201d defines academy",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "17A",
@@ -807,11 +809,11 @@
       "col": 6,
       "length": 9,
       "answer": "PEPPERING",
-      "clue": "Hot",
+      "clue": "Attacking and bombarding with or as if with missiles",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Hot",
-      "clueSource": "webster"
+      "definition": "Attacking and bombarding with or as if with missiles",
+      "clueSource": "inflection"
     },
     {
       "id": "24D",
@@ -892,8 +894,11 @@
       "clue": "Struck with terror and amazement",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Affright"
+      ],
       "definition": "Struck with terror and amazement.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "30A",
@@ -971,11 +976,11 @@
       "col": 12,
       "length": 8,
       "answer": "MAIDENLY",
-      "clue": "Befitting or characteristic of a maiden",
+      "clue": "Like a maid",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Befitting or characteristic of a maiden",
-      "clueSource": "wordnet"
+      "definition": "Like a maid",
+      "clueSource": "webster"
     },
     {
       "id": "35D",
@@ -1054,11 +1059,16 @@
       "col": 0,
       "length": 9,
       "answer": "OBSTINATE",
-      "clue": "Stubbornly set in one's ways",
+      "clue": "Resistant to guidance or discipline",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Stubbornly set in one's ways",
+        "Stubbornly refusing to change one's opinion",
+        "Pertinaciously adhering to an opinion, purpose, or course"
+      ],
       "definition": "stubbornly refusing to change one's opinion",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "40D",
@@ -1068,11 +1078,15 @@
       "col": 0,
       "length": 5,
       "answer": "OBESE",
-      "clue": "Excessively fat",
+      "clue": "Excessively corpulent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Exceedingly fat",
+        "Excessively fat"
+      ],
       "definition": "Exceedingly fat.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "41D",
@@ -1150,10 +1164,10 @@
       "col": 9,
       "length": 6,
       "answer": "GLADES",
-      "clue": "Anies of numerous plants of the genus Gladiolus native chiefly to",
+      "clue": "Tracts of land with few or no trees in the middle of a wooded area",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Anies of numerous plants of the genus Gladiolus native chiefly to",
+      "definition": "Tracts of land with few or no trees in the middle of a wooded area",
       "clueSource": "inflection"
     },
     {
@@ -1164,10 +1178,10 @@
       "col": 9,
       "length": 4,
       "answer": "GITS",
-      "clue": "Persons who is deemed to be despicable or contemptible",
+      "clue": "People who be deemed to be despicable or contemptible",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who is deemed to be despicable or contemptible",
+      "definition": "People who be deemed to be despicable or contemptible",
       "clueSource": "inflection"
     },
     {
@@ -1273,11 +1287,9 @@
       "col": 0,
       "length": 14,
       "answer": "SERIALIZATIONS",
-      "clue": "Publications in serial form",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Publications in serial form",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "53D",
@@ -1287,11 +1299,15 @@
       "col": 3,
       "length": 3,
       "answer": "IRE",
-      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clue": "Anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "54D",

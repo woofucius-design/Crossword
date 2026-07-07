@@ -475,15 +475,9 @@
       "col": 2,
       "length": 15,
       "answer": "EXECRABLECRIMES",
-      "clue": "Odious",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ODIOUS"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cexecrable crimes\u201d defines odious",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -575,15 +569,9 @@
       "col": 12,
       "length": 15,
       "answer": "DISLOYALTREASON",
-      "clue": "Consort",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "CONSORT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cDisloyal treason\u201d defines consort",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "9D",
@@ -662,11 +650,16 @@
       "col": 7,
       "length": 8,
       "answer": "CHASTISE",
-      "clue": "Inflict pain upon, by means of stripes, or in any other manner,...",
+      "clue": "Subject to punitive measures",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To subject to punitive measures",
+        "Censure severely",
+        "Inflict pain upon, by means of stripes, or in any other manner,..."
+      ],
       "definition": "To subject to punitive measures.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "13D",
@@ -729,11 +722,17 @@
       "col": 0,
       "length": 9,
       "answer": "MECHANICS",
-      "clue": "Technical aspects of doing something",
+      "clue": "Branch of physics that treats the phenomena caused by the action",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The branch of physics that treats the phenomena caused by the action",
+        "Branch of physics that treats the phenomena caused by the action of",
+        "Technical aspects of doing something",
+        "That science, or branch of applied mathematics, which treats of the..."
+      ],
       "definition": "The branch of physics that treats the phenomena caused by the action of",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "18D",
@@ -743,11 +742,15 @@
       "col": 6,
       "length": 5,
       "answer": "INANE",
-      "clue": "Without contents",
+      "clue": "Devoid of intelligence",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Silly",
+        "Without contents"
+      ],
       "definition": "Silly.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "19A",
@@ -771,11 +774,16 @@
       "col": 0,
       "length": 4,
       "answer": "PARE",
-      "clue": "Cut off, or shave off, the superficial substance or extremities of",
+      "clue": "Cut, shave, or remove (the outside) from anything",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To cut, shave, or remove (the outside) from anything",
+        "Decrease gradually or bit by bit",
+        "Cut off, or shave off, the superficial substance or extremities of"
+      ],
       "definition": "To cut, shave, or remove (the outside) from anything.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "21A",
@@ -785,11 +793,15 @@
       "col": 6,
       "length": 3,
       "answer": "NIT",
-      "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
+      "clue": "Egg of a louse or some other insect",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The egg of a louse or some other insect",
+        "Egg or young of an insect parasitic on mammals especially a sucking louse"
+      ],
       "definition": "The egg of a louse or some other insect.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "22A",
@@ -883,10 +895,10 @@
       "col": 13,
       "length": 10,
       "answer": "SHOEMAKERS",
-      "clue": "Persons who makes or repairs shoes",
+      "clue": "People who make or repair shoes",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who makes or repairs shoes",
+      "definition": "People who make or repair shoes",
       "clueSource": "inflection"
     },
     {
@@ -939,10 +951,10 @@
       "col": 9,
       "length": 6,
       "answer": "MYNAHS",
-      "clue": "Tropical Asian starlingses",
+      "clue": "Tropical Asian starlings",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Tropical Asian starlingses",
+      "definition": "Tropical Asian starlings",
       "clueSource": "inflection"
     },
     {
@@ -993,11 +1005,9 @@
       "col": 3,
       "length": 8,
       "answer": "TROOPERS",
-      "clue": "Soldiers mounted on horseback",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Soldiers mounted on horseback",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "34A",
@@ -1091,11 +1101,16 @@
       "col": 8,
       "length": 6,
       "answer": "DISARM",
-      "clue": "Deprive of arms",
+      "clue": "Deprive of weapons",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To deprive of weapons",
+        "Remove offensive capability from",
+        "Deprive of arms"
+      ],
       "definition": "To deprive of weapons.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "40D",
@@ -1105,11 +1120,16 @@
       "col": 11,
       "length": 6,
       "answer": "ASTUTE",
-      "clue": "Marked by practical hardheaded intelligence",
+      "clue": "Having sharp judgment; shrewd and perceptive",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Shrewd and perceptive",
+        "Marked by practical hardheaded intelligence",
+        "Critically discerning"
+      ],
       "definition": "having sharp judgment; shrewd and perceptive",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "41A",
@@ -1146,11 +1166,15 @@
       "col": 6,
       "length": 4,
       "answer": "NUDE",
-      "clue": "Bare",
+      "clue": "Completely unclothed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Naked",
+        "Bare"
+      ],
       "definition": "Naked.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "43D",
@@ -1160,11 +1184,15 @@
       "col": 7,
       "length": 4,
       "answer": "ANEW",
-      "clue": "Over again",
+      "clue": "Again but in a new or different way",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Once more",
+        "Over again"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "44A",
@@ -1174,11 +1202,16 @@
       "col": 11,
       "length": 4,
       "answer": "SEAR",
-      "clue": "[OE. seer, AS. se\u00e1r (assumed) fr. se\u00e1rian to wither",
+      "clue": "Burn on the surface",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To burn on the surface",
+        "Having lost all moisture",
+        "[OE. seer, AS. se\u00e1r (assumed) fr. se\u00e1rian to wither"
+      ],
       "definition": "To burn on the surface.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "45D",
@@ -1327,10 +1360,10 @@
       "col": 9,
       "length": 6,
       "answer": "ROUSES",
-      "clue": "United Stateses pathologist who discovered viruses that cause tumors",
+      "clue": "Causes to become awake or conscious",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "United Stateses pathologist who discovered viruses that cause tumors",
+      "definition": "Causes to become awake or conscious",
       "clueSource": "inflection"
     },
     {
@@ -1355,11 +1388,17 @@
       "col": 9,
       "length": 6,
       "answer": "EXTORT",
-      "clue": "Get or cause to become in a difficult or laborious manner",
+      "clue": "Obtain by violence, threats, compulsion, or the subjection of",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To obtain by violence, threats, compulsion, or the subjection of",
+        "Obtain by violence, threats, compulsion, or the subjection of another to some",
+        "Get or cause to become in a difficult or laborious manner",
+        "Wrest from an unwilling person by physical force, menace, duress,..."
+      ],
       "definition": "To obtain by violence, threats, compulsion, or the subjection of another to some",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "57A",
@@ -1383,10 +1422,10 @@
       "col": 10,
       "length": 4,
       "answer": "YENS",
-      "clue": "Yearnings for something or to do something",
+      "clue": "Has a desire for something or someone who is not present",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Yearnings for something or to do something",
+      "definition": "Has a desire for something or someone who is not present",
       "clueSource": "inflection"
     }
   ]

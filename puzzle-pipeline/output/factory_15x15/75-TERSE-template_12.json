@@ -499,11 +499,9 @@
       "col": 6,
       "length": 3,
       "answer": "REE",
-      "clue": "See Rei. To riddle",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Rei. To riddle",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "6D",
@@ -651,15 +649,9 @@
       "col": 1,
       "length": 9,
       "answer": "MALEVOICE",
-      "clue": "Baritone",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "BARITONE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cmale voice\u201d defines baritone",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "15A",
@@ -809,8 +801,11 @@
       "clue": "One who attacks",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Someone who attacks"
+      ],
       "definition": "One who attacks.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "23D",
@@ -941,11 +936,16 @@
       "col": 10,
       "length": 5,
       "answer": "TERSE",
-      "clue": "Appearing as if rubbed or wiped off",
+      "clue": "Brief to the point of bluntness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Briefly and cleanly expressed; curt",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "30D",
@@ -1001,11 +1001,9 @@
       "col": 9,
       "length": 3,
       "answer": "NOS",
-      "clue": "Negatives",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Negatives",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "34A",
@@ -1122,11 +1120,9 @@
       "col": 0,
       "length": 4,
       "answer": "REED",
-      "clue": "Red",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Red",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "41A",
@@ -1178,10 +1174,10 @@
       "col": 2,
       "length": 5,
       "answer": "SEEDS",
-      "clue": "Thick white fluid containing spermatozoas that is ejaculated by the",
+      "clue": "Thick white fluid containing spermatozoa that is ejaculated by the",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Thick white fluid containing spermatozoas that is ejaculated by the",
+      "definition": "Thick white fluid containing spermatozoa that is ejaculated by the",
       "clueSource": "inflection"
     },
     {
@@ -1276,11 +1272,15 @@
       "col": 7,
       "length": 7,
       "answer": "OVEREAT",
-      "clue": "Eat to excess",
+      "clue": "To eat to excess",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Eat to excess",
+        "Gnaw all over, or on all sides"
+      ],
       "definition": "To eat to excess.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "48D",
@@ -1317,11 +1317,9 @@
       "col": 0,
       "length": 5,
       "answer": "VIZIR",
-      "clue": "See Vizier",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Vizier",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "51A",
@@ -1362,8 +1360,11 @@
       "clue": "Reluctant",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Turned away or backward"
+      ],
       "definition": "Reluctant.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     }
   ]
 }

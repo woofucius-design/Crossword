@@ -504,15 +504,9 @@
       "col": 3,
       "length": 9,
       "answer": "SEECUSTOM",
-      "clue": "Usage",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "USAGE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Custom\u201d defines usage",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "5A",
@@ -608,6 +602,11 @@
       "clue": "Large dark-red oval organ on the left side of the body between the stomach...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A legal claim or hold on property, as security for a debt or charge",
+        "Legal claim or hold on property, as security for a debt or charge",
+        "Of Lie. See lain. Ps. lxviii"
+      ],
       "definition": "A legal claim or hold on property, as security for a debt or charge.",
       "clueSource": "sat:wordnet"
     },
@@ -744,11 +743,15 @@
       "col": 11,
       "length": 3,
       "answer": "NIL",
-      "clue": "Quantity of no importance",
+      "clue": "Will not",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Quantity of no importance"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "19A",
@@ -827,11 +830,16 @@
       "col": 3,
       "length": 5,
       "answer": "STOIC",
-      "clue": "Enduring hardship without showing feelings",
+      "clue": "Seeming unaffected by pleasure or pain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unmoved by pain or hardship",
+        "Enduring hardship without showing feelings",
+        "Disciple of the philosopher Zeno"
+      ],
       "definition": "enduring hardship without showing feelings",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "24D",
@@ -844,6 +852,11 @@
       "clue": "Conventional religious painting in oil on a small wooden panel",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "An image or likeness",
+        "Image or likeness",
+        "Image or representation"
+      ],
       "definition": "An image or likeness.",
       "clueSource": "sat:wordnet"
     },
@@ -980,6 +993,12 @@
       "clue": "Person or thing connected with another, usually in some relation of helpfulness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A person or thing connected with another, usually in some relation of",
+        "Person or thing connected with another, usually in some relation of",
+        "Friendly nation",
+        "Unite, or form a connection between, as between families by..."
+      ],
       "definition": "A person or thing connected with another, usually in some relation of helpfulness.",
       "clueSource": "sat:sat_def"
     },
@@ -1064,11 +1083,15 @@
       "col": 6,
       "length": 9,
       "answer": "NEOLITHIC",
-      "clue": "Of or relating to the most recent period of the Stone Age (following the...",
+      "clue": "Of or pertaining to, or designating, an era characterized by late...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Pertaining to the later stone age",
+        "Of or relating to the most recent period of the Stone Age (following the..."
+      ],
       "definition": "Pertaining to the later stone age.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "38A",
@@ -1148,10 +1171,10 @@
       "col": 5,
       "length": 5,
       "answer": "TIROS",
-      "clue": "Someones new to a field or activity",
+      "clue": "People new to a field or activity",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Someones new to a field or activity",
+      "definition": "People new to a field or activity",
       "clueSource": "inflection"
     },
     {
@@ -1217,11 +1240,9 @@
       "col": 0,
       "length": 4,
       "answer": "AMID",
-      "clue": "See Amidst. In the midst or middle of",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Amidst. In the midst or middle of",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "47D",
@@ -1248,6 +1269,10 @@
       "clue": "Catch sight of",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To keep close watch",
+        "Keep close watch"
+      ],
       "definition": "To keep close watch.",
       "clueSource": "sat:webster"
     },
@@ -1259,11 +1284,15 @@
       "col": 8,
       "length": 6,
       "answer": "NEUTER",
-      "clue": "Of grammatical gender",
+      "clue": "Neither the one thing nor the other",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Neither masculine nor feminine",
+        "Of grammatical gender"
+      ],
       "definition": "Neither masculine nor feminine.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "49D",
@@ -1301,15 +1330,9 @@
       "col": 0,
       "length": 15,
       "answer": "MYSTERIOUSRITES",
-      "clue": "Participant",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PARTICIPANT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cmysterious rites\u201d defines participant",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "52D",

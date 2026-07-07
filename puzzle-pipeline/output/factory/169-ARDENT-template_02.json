@@ -372,10 +372,10 @@
       "col": 0,
       "length": 4,
       "answer": "TUNS",
-      "clue": "Large cask especially one holding a volume equivalents to 2 butts or",
+      "clue": "Large cask especially one holding a volume equivalents to butts or gals",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Large cask especially one holding a volume equivalents to 2 butts or",
+      "definition": "Large cask especially one holding a volume equivalents to butts or gals",
       "clueSource": "inflection"
     },
     {
@@ -413,15 +413,9 @@
       "col": 5,
       "length": 9,
       "answer": "RIDINGOUT",
-      "clue": "Outride",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "OUTRIDE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201criding out\u201d defines outride",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -542,10 +536,10 @@
       "col": 3,
       "length": 6,
       "answer": "PARTES",
-      "clue": "Actionses and activitieses assigned to or required or expected of a",
+      "clue": "Actions and activities assigned to or required or expected of a",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Actionses and activitieses assigned to or required or expected of a",
+      "definition": "Actions and activities assigned to or required or expected of a",
       "clueSource": "inflection"
     },
     {
@@ -694,11 +688,16 @@
       "col": 0,
       "length": 6,
       "answer": "ARDENT",
-      "clue": "Burning with enthusiasm",
+      "clue": "Very enthusiastic or passionate",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Burning with enthusiasm",
+        "Glowing or shining like fire",
+        "Hot or burning"
+      ],
       "definition": "very enthusiastic or passionate",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "27A",

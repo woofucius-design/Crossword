@@ -444,10 +444,10 @@
       "col": 0,
       "length": 4,
       "answer": "SETS",
-      "clue": "Several exerciseses intended to be done in series",
+      "clue": "Several exercises intended to be done in series",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Several exerciseses intended to be done in series",
+      "definition": "Several exercises intended to be done in series",
       "clueSource": "inflection"
     },
     {
@@ -610,15 +610,9 @@
       "col": 6,
       "length": 7,
       "answer": "CALLOUT",
-      "clue": "Evoke",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "EVOKE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccall out\u201d defines evoke",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "11D",
@@ -654,15 +648,9 @@
       "col": 12,
       "length": 14,
       "answer": "TELLAFALSEHOOD",
-      "clue": "Lying",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "LYING"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ctell a falsehood\u201d defines lying",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "14A",
@@ -675,8 +663,12 @@
       "clue": "Treatment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Accepted or habitual practice",
+        "Act of using"
+      ],
       "definition": "Treatment.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "15A",
@@ -727,10 +719,10 @@
       "col": 5,
       "length": 6,
       "answer": "SPIRES",
-      "clue": "Tall towers that forms the superstructure of a building (usually a",
+      "clue": "Tall towers that form the superstructure of a building (usually a",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Tall towers that forms the superstructure of a building (usually a",
+      "definition": "Tall towers that form the superstructure of a building (usually a",
       "clueSource": "inflection"
     },
     {
@@ -741,11 +733,11 @@
       "col": 12,
       "length": 3,
       "answer": "LAS",
-      "clue": "Lace. See Lace",
+      "clue": "Syllable naming the sixth (submediant) notes of a major or minor scale",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Lace. See Lace",
-      "clueSource": "webster"
+      "definition": "Syllable naming the sixth (submediant) notes of a major or minor scale",
+      "clueSource": "inflection"
     },
     {
       "id": "20D",
@@ -786,8 +778,12 @@
       "clue": "Nothing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "23D",
@@ -797,11 +793,16 @@
       "col": 3,
       "length": 5,
       "answer": "LUCID",
-      "clue": "Shining",
+      "clue": "Clearly expressed; easy to follow",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Clear, coherent; easy to understand",
+        "Transparently clear",
+        "Shining"
+      ],
       "definition": "clear, coherent; easy to understand",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "24A",
@@ -897,8 +898,12 @@
       "clue": "One who cultivates a delicate taste for eating and drinking",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Person devoted to refined sensuous enjoyment (especially good food and drink)",
+        "Follower of Epicurus"
+      ],
       "definition": "One who cultivates a delicate taste for eating and drinking.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "30A",
@@ -922,15 +927,9 @@
       "col": 8,
       "length": 8,
       "answer": "LUCIDAIR",
-      "clue": "Transparent",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TRANSPARENT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201clucid air\u201d defines transparent",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "31D",
@@ -1077,11 +1076,9 @@
       "col": 0,
       "length": 3,
       "answer": "TIL",
-      "clue": "See Till",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Till",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "41A",
@@ -1120,8 +1117,11 @@
       "clue": "Pale",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Anemic looking from illness or emotion"
+      ],
       "definition": "Pale.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "43D",
@@ -1282,8 +1282,12 @@
       "clue": "Protective",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Providing protective supervision",
+        "Having the guardianship or charge of protecting a person or a thing"
+      ],
       "definition": "Protective.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "55A",

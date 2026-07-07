@@ -438,7 +438,7 @@
       "col": 3,
       "length": 4,
       "answer": "CALM",
-      "clue": "Stoic",
+      "clue": "Stoic?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -513,10 +513,10 @@
       "col": 9,
       "length": 5,
       "answer": "SEEMS",
-      "clue": "Gives a certain impression or have a certain outward aspect",
+      "clue": "Gives a certain impression or has a certain outward aspect",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Gives a certain impression or have a certain outward aspect",
+      "definition": "Gives a certain impression or has a certain outward aspect",
       "clueSource": "inflection"
     },
     {
@@ -675,15 +675,9 @@
       "col": 2,
       "length": 13,
       "answer": "OBLIQUESPHERE",
-      "clue": "Ascension",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ASCENSION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201coblique sphere\u201d defines ascension",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "15A",
@@ -788,11 +782,14 @@
       "col": 5,
       "length": 8,
       "answer": "LAUREATE",
-      "clue": "Worthy of the greatest honor or distinction",
+      "clue": "Crowned with laurel, as a mark of distinction",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Worthy of the greatest honor or distinction"
+      ],
       "definition": "Crowned with laurel, as a mark of distinction.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "20D",
@@ -802,11 +799,16 @@
       "col": 5,
       "length": 5,
       "answer": "LOUGH",
-      "clue": "Loch or lake",
+      "clue": "Lake or loch",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A lake or loch",
+        "Irish word for a lake",
+        "Loch or lake"
+      ],
       "definition": "A lake or loch.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "21D",
@@ -858,11 +860,16 @@
       "col": 5,
       "length": 4,
       "answer": "OGRE",
-      "clue": "Imaginary monster, or hideous giant of fairy tales, who lived on...",
+      "clue": "Demon or monster that was supposed to devour human beings",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
       "definition": "A demon or monster that was supposed to devour human beings.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "25A",
@@ -944,8 +951,12 @@
       "clue": "Little island",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A little island",
+        "Small island"
+      ],
       "definition": "A little island.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "29D",
@@ -1090,11 +1101,16 @@
       "col": 6,
       "length": 4,
       "answer": "TACT",
-      "clue": "Sense of touch",
+      "clue": "Fine or ready mental discernment shown in saying or doing the proper thing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Fine or ready mental discernment shown in saying or doing the proper",
+        "Consideration in dealing with others and avoiding giving offense",
+        "Sense of touch"
+      ],
       "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "38D",
@@ -1104,11 +1120,16 @@
       "col": 6,
       "length": 5,
       "answer": "TERSE",
-      "clue": "Appearing as if rubbed or wiped off",
+      "clue": "Briefly and cleanly expressed; curt",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Brief to the point of bluntness",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "39D",
@@ -1121,8 +1142,12 @@
       "clue": "Expression of assent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "An expression of assent",
+        "Yes"
+      ],
       "definition": "An expression of assent.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "40A",
@@ -1160,11 +1185,15 @@
       "col": 2,
       "length": 8,
       "answer": "PURVEYOR",
-      "clue": "One who provides victuals, or whose business is to make provision for...",
+      "clue": "Someone who supplies provisions (especially food)",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One who supplies",
+        "One who provides victuals, or whose business is to make provision for..."
+      ],
       "definition": "one who supplies",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "42D",
@@ -1174,11 +1203,16 @@
       "col": 5,
       "length": 5,
       "answer": "VIOLA",
-      "clue": "Genus of polypetalous herbaceous plants, including all kinds of...",
+      "clue": "Musical instrument somewhat larger than a violin",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A musical instrument somewhat larger than a violin",
+        "Bowed stringed instrument slightly larger than a violin, tuned a fifth lower",
+        "Genus of polypetalous herbaceous plants, including all kinds of..."
+      ],
       "definition": "A musical instrument somewhat larger than a violin.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "43A",
@@ -1243,11 +1277,15 @@
       "col": 5,
       "length": 3,
       "answer": "IRE",
-      "clue": "Anger",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "47A",
@@ -1271,11 +1309,16 @@
       "col": 10,
       "length": 4,
       "answer": "SEAR",
-      "clue": "[OE. seer, AS. se\u00e1r (assumed) fr. se\u00e1rian to wither",
+      "clue": "Burn on the surface",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To burn on the surface",
+        "Having lost all moisture",
+        "[OE. seer, AS. se\u00e1r (assumed) fr. se\u00e1rian to wither"
+      ],
       "definition": "To burn on the surface.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "48A",
@@ -1299,11 +1342,9 @@
       "col": 4,
       "length": 3,
       "answer": "TOL",
-      "clue": "Take away. See Toll",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Take away. See Toll",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "50A",

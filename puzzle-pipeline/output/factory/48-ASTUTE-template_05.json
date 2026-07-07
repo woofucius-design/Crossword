@@ -303,15 +303,9 @@
       "col": 2,
       "length": 6,
       "answer": "ISHALL",
-      "clue": "Material",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "MATERIAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cI shall\u201d defines material",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -375,11 +369,16 @@
       "col": 7,
       "length": 7,
       "answer": "CHATEAU",
-      "clue": "Castle or manor-house",
+      "clue": "A castle or manor-house",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Castle or manor-house",
+        "Impressive country house (or castle) in France",
+        "Castle or a fortress in France"
+      ],
       "definition": "A castle or manor-house.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "7D",
@@ -490,11 +489,16 @@
       "col": 6,
       "length": 4,
       "answer": "BOMB",
-      "clue": "Hollow projectile containing an explosive material",
+      "clue": "A hollow projectile containing an explosive material",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Hollow projectile containing an explosive material",
+        "Explosive device fused to explode under specific conditions",
+        "Great noise"
+      ],
       "definition": "A hollow projectile containing an explosive material.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "14A",
@@ -518,11 +522,16 @@
       "col": 5,
       "length": 6,
       "answer": "ROTATE",
-      "clue": "Cause to turn on or as on its axis, as a wheel",
+      "clue": "To cause to turn on or as on its axis, as a wheel",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Cause to turn on or as on its axis, as a wheel",
+        "Plant or grow in a fixed cyclic order of succession",
+        "Having the parts spreading out like a wheel"
+      ],
       "definition": "To cause to turn on or as on its axis, as a wheel.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "16A",
@@ -546,15 +555,9 @@
       "col": 3,
       "length": 7,
       "answer": "YOUHAVE",
-      "clue": "Odium",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ODIUM"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cYou have\u201d defines odium",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "18A",
@@ -618,11 +621,16 @@
       "col": 8,
       "length": 6,
       "answer": "ASTUTE",
-      "clue": "Marked by practical hardheaded intelligence",
+      "clue": "Shrewd and perceptive",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Having sharp judgment; shrewd and perceptive",
+        "Marked by practical hardheaded intelligence",
+        "Critically discerning"
+      ],
       "definition": "having sharp judgment; shrewd and perceptive",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "23D",
@@ -632,15 +640,9 @@
       "col": 9,
       "length": 6,
       "answer": "SEERUT",
-      "clue": "Rote",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ROTE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Rut\u201d defines rote",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "24A",
@@ -716,10 +718,10 @@
       "col": 1,
       "length": 4,
       "answer": "EELS",
-      "clue": "Voracious snakelikes marines or freshwater fisheses with smooth slimy",
+      "clue": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Voracious snakelikes marines or freshwater fisheses with smooth slimy",
+      "definition": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
       "clueSource": "inflection"
     },
     {
@@ -772,15 +774,9 @@
       "col": 0,
       "length": 11,
       "answer": "SEEAPERTURE",
-      "clue": "Angular",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ANGULAR"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Aperture\u201d defines angular",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "33D",
@@ -836,8 +832,7 @@
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
-        "UPROOT",
-        "ERADICATE"
+        "UPROOT"
       ],
       "satTeachingKind": "short_def",
       "definition": "\u201croot up\u201d defines uproot",
@@ -864,11 +859,16 @@
       "col": 5,
       "length": 5,
       "answer": "TENET",
-      "clue": "Religious doctrine that is proclaimed as true without proof",
+      "clue": "Any opinion, principle, dogma, or doctrine that a person believes or",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
+        "Religious doctrine that is proclaimed as true without proof",
+        "Any opinion, principle, dogma, belief, or doctrine, which a person..."
+      ],
       "definition": "Any opinion, principle, dogma, or doctrine that a person believes or maintains as",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     }
   ]
 }

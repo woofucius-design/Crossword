@@ -279,11 +279,9 @@
       "col": 2,
       "length": 11,
       "answer": "OPERATIONAL",
-      "clue": "Being in effect or operation",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Being in effect or operation",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -362,15 +360,9 @@
       "col": 8,
       "length": 11,
       "answer": "SEEPALLIATE",
-      "clue": "Extenuate",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "EXTENUATE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Palliate\u201d defines extenuate",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "8D",
@@ -502,11 +494,16 @@
       "col": 1,
       "length": 7,
       "answer": "VERBOSE",
-      "clue": "Using or containing too many words",
+      "clue": "Using far more words than needed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using or expressed in more words than are needed",
+        "Using or containing too many words",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "17A",
@@ -571,10 +568,10 @@
       "col": 0,
       "length": 5,
       "answer": "PRIGS",
-      "clue": "Persons regarded as arrogant and annoying",
+      "clue": "People regarded as arrogant and annoying",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons regarded as arrogant and annoying",
+      "definition": "People regarded as arrogant and annoying",
       "clueSource": "inflection"
     },
     {
@@ -694,10 +691,10 @@
       "col": 1,
       "length": 3,
       "answer": "ELS",
-      "clue": "Railways that is powered by electricity and that runs on a track that",
+      "clue": "Railways that be powered by electricity and that runs on a track that",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Railways that is powered by electricity and that runs on a track that",
+      "definition": "Railways that be powered by electricity and that runs on a track that",
       "clueSource": "inflection"
     },
     {

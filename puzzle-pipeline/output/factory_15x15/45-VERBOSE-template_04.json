@@ -560,11 +560,15 @@
       "col": 11,
       "length": 4,
       "answer": "ESPY",
-      "clue": "Keep close watch",
+      "clue": "To keep close watch",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Keep close watch",
+        "Catch sight of"
+      ],
       "definition": "To keep close watch.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "7D",
@@ -630,16 +634,14 @@
       "col": 0,
       "length": 9,
       "answer": "CALLFORTH",
-      "clue": "Engender",
+      "clue": "Enkindle",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
-        "ENGENDER",
-        "AWAKEN",
         "ENKINDLE"
       ],
       "satTeachingKind": "short_def",
-      "definition": "\u201ccall forth\u201d defines engender",
+      "definition": "\u201ccall forth\u201d defines enkindle",
       "clueSource": "sat_short_def"
     },
     {
@@ -664,11 +666,9 @@
       "col": 7,
       "length": 13,
       "answer": "TRANSLUCENTLY",
-      "clue": "In a translucent manner",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "In a translucent manner",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "13D",
@@ -804,8 +804,13 @@
       "clue": "Using far more words than needed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using or expressed in more words than are needed",
+        "Using or containing too many words",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "23D",
@@ -846,8 +851,12 @@
       "clue": "Any especially sweet and delicious drink",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Food and drink of the gods",
+        "Drink of the gods (as ambrosia was their food)"
+      ],
       "definition": "Any especially sweet and delicious drink.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "26D",
@@ -1006,15 +1015,9 @@
       "col": 0,
       "length": 15,
       "answer": "BARBAROUSINNAME",
-      "clue": "Antic",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ANTIC"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cbarbarous in name\u201d defines antic",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "36D",
@@ -1052,11 +1055,16 @@
       "col": 9,
       "length": 4,
       "answer": "ICON",
-      "clue": "Image or likeness",
+      "clue": "An image or likeness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
       "definition": "An image or likeness.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "39A",
@@ -1122,11 +1130,15 @@
       "col": 7,
       "length": 5,
       "answer": "EPODE",
-      "clue": "Species of lyric poems",
+      "clue": "A species of lyric poems",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Species of lyric poems",
+        "After song"
+      ],
       "definition": "A species of lyric poems.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "44A",
@@ -1180,8 +1192,12 @@
       "clue": "Silly",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Devoid of intelligence",
+        "Without contents"
+      ],
       "definition": "Silly.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "48D",
@@ -1221,8 +1237,12 @@
       "clue": "Nothing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "50D",
@@ -1246,11 +1266,16 @@
       "col": 1,
       "length": 4,
       "answer": "ISLE",
-      "clue": "Island",
+      "clue": "An island",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
       "definition": "An island.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "52A",
@@ -1260,11 +1285,16 @@
       "col": 5,
       "length": 4,
       "answer": "ALTO",
-      "clue": "Lowest or deepest female voice or part",
+      "clue": "The lowest or deepest female voice or part",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
       "definition": "The lowest or deepest female voice or part.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "53D",
@@ -1396,11 +1426,9 @@
       "col": 6,
       "length": 9,
       "answer": "CYTOKINES",
-      "clue": "Anies of various protein molecules secreted by cells of the immune",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Anies of various protein molecules secreted by cells of the immune",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "63A",

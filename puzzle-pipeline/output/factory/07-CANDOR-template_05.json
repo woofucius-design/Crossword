@@ -289,11 +289,9 @@
       "col": 1,
       "length": 6,
       "answer": "ANIONS",
-      "clue": "Negativelies charged ion",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Negativelies charged ion",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -303,11 +301,9 @@
       "col": 2,
       "length": 6,
       "answer": "ICONIC",
-      "clue": "Relating to or having the characteristics on an icon",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Relating to or having the characteristics on an icon",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -317,11 +313,9 @@
       "col": 3,
       "length": 3,
       "answer": "TOL",
-      "clue": "Take away. See Toll",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Take away. See Toll",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "4D",
@@ -413,11 +407,16 @@
       "col": 0,
       "length": 6,
       "answer": "ENCORE",
-      "clue": "Once more",
+      "clue": "Call for a repetition, as of some part of a play or performance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The call for a repetition, as of some part of a play or performance",
+        "Extra or repeated performance",
+        "Once more"
+      ],
       "definition": "The call for a repetition, as of some part of a play or performance.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -469,11 +468,16 @@
       "col": 0,
       "length": 11,
       "answer": "VIOLONCELLO",
-      "clue": "Stringed instrument of music",
+      "clue": "Stringed instrument held between the player's knees",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A stringed instrument held between the player's knees",
+        "Large stringed instrument",
+        "Stringed instrument of music"
+      ],
       "definition": "A stringed instrument held between the player's knees.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "13D",
@@ -483,11 +487,15 @@
       "col": 6,
       "length": 4,
       "answer": "CAME",
-      "clue": "Leaden sash-bar or grooved strip for fastening panes in stained-glass windows",
+      "clue": "Leaden sash-bar or grooved strip for fastening panes in",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A leaden sash-bar or grooved strip for fastening panes in",
+        "Leaden sash-bar or grooved strip for fastening panes in stained-glass windows"
+      ],
       "definition": "A leaden sash-bar or grooved strip for fastening panes in stained-glass windows.",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "14A",
@@ -511,11 +519,16 @@
       "col": 5,
       "length": 6,
       "answer": "CANDOR",
-      "clue": "Whiteness",
+      "clue": "Quality of being open, honest, and direct",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Frankness; honesty in expression",
+        "Quality of being honest and straightforward in attitude and speech",
+        "Whiteness"
+      ],
       "definition": "the quality of being open, honest, and direct",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "16A",
@@ -525,11 +538,15 @@
       "col": 1,
       "length": 3,
       "answer": "NIL",
-      "clue": "Will not",
+      "clue": "Quantity of no importance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "17D",
@@ -595,11 +612,17 @@
       "col": 6,
       "length": 4,
       "answer": "EPIC",
-      "clue": "Narrated in a grand style",
+      "clue": "Poem celebrating in formal verse the mythical achievements of great",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A poem celebrating in formal verse the mythical achievements of great",
+        "Poem celebrating in formal verse the mythical achievements of great personages",
+        "Very imposing or impressive",
+        "Narrated in a grand style"
+      ],
       "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "22D",
@@ -623,11 +646,15 @@
       "col": 9,
       "length": 6,
       "answer": "CLUMSY",
-      "clue": "Stiff or benumbed, as with cold",
+      "clue": "Not elegant or graceful in expression",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Awkward of movement",
+        "Stiff or benumbed, as with cold"
+      ],
       "definition": "Awkward of movement.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "24A",
@@ -668,8 +695,12 @@
       "clue": "Sun",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
       "definition": "The sun.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "27A",
@@ -679,11 +710,16 @@
       "col": 0,
       "length": 6,
       "answer": "FOREGO",
-      "clue": "Quit",
+      "clue": "Deny oneself the pleasure or profit of",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To deny oneself the pleasure or profit of",
+        "Lose (s.th.) or lose the right to (s.th.) by some error, offense, or crime",
+        "Quit"
+      ],
       "definition": "To deny oneself the pleasure or profit of.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "27D",
@@ -707,11 +743,16 @@
       "col": 1,
       "length": 4,
       "answer": "ONUS",
-      "clue": "Burden",
+      "clue": "Burden or responsibility",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A burden or responsibility",
+        "Onerous or difficult concern",
+        "Burden"
+      ],
       "definition": "A burden or responsibility.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "29D",
@@ -762,16 +803,9 @@
       "col": 0,
       "length": 11,
       "answer": "ANOTHERTIME",
-      "clue": "Anew",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ANEW",
-        "ALIAS"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201canother time\u201d defines anew",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "33D",
@@ -807,11 +841,16 @@
       "col": 0,
       "length": 4,
       "answer": "BUTT",
-      "clue": "Limit",
+      "clue": "Strike with or as with the head, or horns",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To strike with or as with the head, or horns",
+        "Thick end of the handle",
+        "Limit"
+      ],
       "definition": "To strike with or as with the head, or horns.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "36A",

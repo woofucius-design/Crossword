@@ -479,15 +479,9 @@
       "col": 2,
       "length": 15,
       "answer": "ACTUALRESIDENTS",
-      "clue": "Squatter",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "SQUATTER"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cactual residents\u201d defines squatter",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -716,11 +710,15 @@
       "col": 7,
       "length": 8,
       "answer": "AERONAUT",
-      "clue": "A\u00ebrial navigator",
+      "clue": "Someone who operates an aircraft",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One who navigates the air, a balloonist",
+        "A\u00ebrial navigator"
+      ],
       "definition": "One who navigates the air, a balloonist.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "17A",
@@ -744,11 +742,16 @@
       "col": 6,
       "length": 5,
       "answer": "TERSE",
-      "clue": "Brief and to the point",
+      "clue": "Briefly and cleanly expressed; curt",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Brief to the point of bluntness",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "19A",
@@ -842,11 +845,16 @@
       "col": 4,
       "length": 6,
       "answer": "TWINGE",
-      "clue": "Pull with a twitch",
+      "clue": "Darting momentary local pain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A darting momentary local pain",
+        "Sharp stab of pain",
+        "Pull with a twitch"
+      ],
       "definition": "A darting momentary local pain.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "25D",
@@ -870,11 +878,15 @@
       "col": 10,
       "length": 4,
       "answer": "RIFE",
-      "clue": "Prevailing",
+      "clue": "Excessively abundant",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Abundant",
+        "Prevailing"
+      ],
       "definition": "Abundant.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "27D",
@@ -994,11 +1006,17 @@
       "col": 3,
       "length": 8,
       "answer": "MONOGRAM",
-      "clue": "Graphic symbol consisting of 2 or more letters combined (usually your...",
+      "clue": "Character consisting of two or more letters interwoven into one",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A character consisting of two or more letters interwoven into one",
+        "Character consisting of two or more letters interwoven into one, usually",
+        "Graphic symbol consisting of 2 or more letters combined (usually your...",
+        "Character or cipher composed of two or more letters interwoven or..."
+      ],
       "definition": "A character consisting of two or more letters interwoven into one, usually",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "34A",
@@ -1008,11 +1026,16 @@
       "col": 8,
       "length": 7,
       "answer": "DECAGON",
-      "clue": "Plane figure having ten sides and ten angles",
+      "clue": "Figure with ten sides and ten angles",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A figure with ten sides and ten angles",
+        "Polygon with 10 sides and 10 angles",
+        "Plane figure having ten sides and ten angles"
+      ],
       "definition": "A figure with ten sides and ten angles.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "34D",
@@ -1036,11 +1059,9 @@
       "col": 0,
       "length": 6,
       "answer": "BISONS",
-      "clue": "Anies of several large humped bovids having shaggy manes and large",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Anies of several large humped bovids having shaggy manes and large",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "36A",
@@ -1116,11 +1137,16 @@
       "col": 2,
       "length": 3,
       "answer": "DOE",
-      "clue": "Female deer or antelope",
+      "clue": "Female of the deer",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The female of the deer",
+        "Mature female of mammals of which the male is called `buck'",
+        "Female deer or antelope"
+      ],
       "definition": "The female of the deer.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "42A",
@@ -1147,6 +1173,9 @@
       "clue": "Of the same kin",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Of similar nature or qualities"
+      ],
       "definition": "Of similar nature or qualities.",
       "clueSource": "sat:webster"
     },
@@ -1158,11 +1187,15 @@
       "col": 7,
       "length": 4,
       "answer": "BIDE",
-      "clue": "Dwell",
+      "clue": "Await",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To await",
+        "Dwell"
+      ],
       "definition": "To await.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "44A",
@@ -1241,11 +1274,15 @@
       "col": 6,
       "length": 9,
       "answer": "KILOLITER",
-      "clue": "Measure of capacity equal to a cubic meter, or a thousand liters....",
+      "clue": "Metric unit of volume or capacity equal to 1000 liters",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One thousand liters",
+        "Measure of capacity equal to a cubic meter, or a thousand liters...."
+      ],
       "definition": "One thousand liters.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "49D",

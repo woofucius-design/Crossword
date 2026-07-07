@@ -445,11 +445,9 @@
       "col": 0,
       "length": 4,
       "answer": "SORI",
-      "clue": "Pl. of Sorus",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Pl. of Sorus",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -486,10 +484,10 @@
       "col": 3,
       "length": 3,
       "answer": "HMS",
-      "clue": "Metric units of length equal to 100 meters",
+      "clue": "Metric units of length equal to meters",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Metric units of length equal to 100 meters",
+      "definition": "Metric units of length equal to meters",
       "clueSource": "inflection"
     },
     {
@@ -801,11 +799,16 @@
       "col": 0,
       "length": 5,
       "answer": "LUCID",
-      "clue": "Shining",
+      "clue": "Transparently clear",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Clearly expressed; easy to follow",
+        "Clear, coherent; easy to understand",
+        "Shining"
+      ],
       "definition": "clear, coherent; easy to understand",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "22D",
@@ -913,6 +916,11 @@
       "clue": "Cause to accept or become hardened to",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To harden or toughen by use, exercise, or exposure",
+        "Harden or toughen by use, exercise, or exposure",
+        "Apply in use"
+      ],
       "definition": "To harden or toughen by use, exercise, or exposure.",
       "clueSource": "sat:wordnet"
     },
@@ -952,11 +960,9 @@
       "col": 0,
       "length": 15,
       "answer": "PARENTHETICALLY",
-      "clue": "In a parenthetical manner",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "In a parenthetical manner",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1007,11 +1013,15 @@
       "col": 10,
       "length": 5,
       "answer": "ALIEN",
-      "clue": "Being or from or characteristic of another place or part of the world",
+      "clue": "Not belonging to the same country, land, or government, or to the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One who owes allegiance to a foreign government",
+        "Being or from or characteristic of another place or part of the world"
+      ],
       "definition": "One who owes allegiance to a foreign government.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "36A",
@@ -1024,6 +1034,10 @@
       "clue": "Shallow and rectangular briefcase",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A subordinate member of a diplomatic embassy",
+        "Subordinate member of a diplomatic embassy"
+      ],
       "definition": "A subordinate member of a diplomatic embassy.",
       "clueSource": "sat:wordnet"
     },

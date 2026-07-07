@@ -446,15 +446,9 @@
       "col": 2,
       "length": 15,
       "answer": "PROPERFORMALITY",
-      "clue": "Decency",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DECENCY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cproper formality\u201d defines decency",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -534,7 +528,7 @@
       "col": 10,
       "length": 5,
       "answer": "SMART",
-      "clue": "Astute",
+      "clue": "Astute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -580,15 +574,9 @@
       "col": 12,
       "length": 15,
       "answer": "ATTACHEDTOALINE",
-      "clue": "Plumb",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PLUMB"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cattached to a line\u201d defines plumb",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -643,6 +631,9 @@
       "clue": "Happening at a time subsequent to a reference time",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "At a subsequent time"
+      ],
       "definition": "At a subsequent time.",
       "clueSource": "sat:wordnet"
     },
@@ -749,11 +740,15 @@
       "col": 9,
       "length": 3,
       "answer": "IRE",
-      "clue": "Anger",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "19A",
@@ -763,11 +758,15 @@
       "col": 0,
       "length": 5,
       "answer": "AVERT",
-      "clue": "Turn aside, or away",
+      "clue": "Turn away or aside",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To turn away or aside",
+        "Turn aside, or away"
+      ],
       "definition": "To turn away or aside.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "20A",
@@ -805,11 +804,16 @@
       "col": 11,
       "length": 4,
       "answer": "ACME",
-      "clue": "Top or highest point",
+      "clue": "Highest point, or summit",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The highest point, or summit",
+        "Highest point (of something)",
+        "Top or highest point"
+      ],
       "definition": "The highest point, or summit.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "22D",
@@ -986,15 +990,9 @@
       "col": 0,
       "length": 15,
       "answer": "IWOULDTHOUDIDST",
-      "clue": "Submerge",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "SUBMERGE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cI would thou didst\u201d defines submerge",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1131,6 +1129,11 @@
       "clue": "Calm and peaceful, free from disturbance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and untroubled",
+        "Free from disturbance by heavy waves",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
       "clueSource": "sat:sat_def"
     },
@@ -1249,11 +1252,16 @@
       "col": 0,
       "length": 5,
       "answer": "DEITY",
-      "clue": "Collection of attributes which make up the nature of a god",
+      "clue": "God, goddess, or divine person",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A god, goddess, or divine person",
+        "Any supernatural being worshipped as controlling some part of the world or some...",
+        "Collection of attributes which make up the nature of a god"
+      ],
       "definition": "A god, goddess, or divine person.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "46D",
@@ -1372,11 +1380,16 @@
       "col": 7,
       "length": 6,
       "answer": "ABRADE",
-      "clue": "Rub or wear off",
+      "clue": "Wear away the surface or some part of by friction",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To wear away the surface or some part of by friction",
+        "Rub hard or scrub",
+        "Rub or wear off"
+      ],
       "definition": "To wear away the surface or some part of by friction.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     }
   ]
 }

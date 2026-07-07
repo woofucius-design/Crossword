@@ -445,7 +445,26 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
                     pool_clues.append(a)
             usable = [
                 p for p in pool_clues if not _clue_leaks(answer, p["text"])
-            ] or pool_clues[:1]
+            ]
+            if not usable:
+                # Every curated clue leaks the answer's root (SECRETIVE:
+                # 'keep secret or private'). Try the hand override, then
+                # walk the dictionary senses for a non-leaking gloss
+                # before surrendering to a leak.
+                hand = fill_clues.get(answer, "")
+                if hand and not _clue_leaks(answer, hand):
+                    usable = [{"text": hand, "source": "hand"}]
+            if not usable:
+                d = definitions.get(answer)
+                if d:
+                    for cand_dict in [d] + d.get("alternates", []):
+                        cand = cand_dict.get("definition", "")
+                        if cand and not _clue_leaks(answer, cand):
+                            usable = [{"text": cand, "source":
+                                       cand_dict.get("source", "definition")}]
+                            break
+            if not usable:
+                usable = pool_clues[:1]
             # Rotate by puzzle number for cross-puzzle variety, but only
             # within the curated clue + first two modern alts.
             head = usable[: min(3, len(usable))]

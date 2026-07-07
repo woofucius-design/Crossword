@@ -478,10 +478,10 @@
       "col": 1,
       "length": 4,
       "answer": "RIPS",
-      "clue": "Criticizes or abuse strongly and violently",
+      "clue": "Criticizes or abuses strongly and violently",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Criticizes or abuse strongly and violently",
+      "definition": "Criticizes or abuses strongly and violently",
       "clueSource": "inflection"
     },
     {
@@ -561,11 +561,15 @@
       "col": 9,
       "length": 5,
       "answer": "POLAR",
-      "clue": "Having a pair of equal and opposite charges",
+      "clue": "Of or pertaining to one of the poles of the earth, or of a sphere",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Pertaining to the poles of a sphere, especially of the earth",
+        "Having a pair of equal and opposite charges"
+      ],
       "definition": "Pertaining to the poles of a sphere, especially of the earth.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "8D",
@@ -726,11 +730,16 @@
       "col": 5,
       "length": 6,
       "answer": "ASTUTE",
-      "clue": "Critically discerning",
+      "clue": "Marked by practical hardheaded intelligence",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Shrewd and perceptive",
+        "Having sharp judgment; shrewd and perceptive",
+        "Critically discerning"
+      ],
       "definition": "having sharp judgment; shrewd and perceptive",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "18D",
@@ -810,11 +819,9 @@
       "col": 7,
       "length": 7,
       "answer": "PECTINS",
-      "clue": "Anies of various water-soluble colloidal carbohydrates that occur in",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Anies of various water-soluble colloidal carbohydrates that occur in",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "23A",
@@ -1062,15 +1069,9 @@
       "col": 6,
       "length": 9,
       "answer": "EITHERSEX",
-      "clue": "Paramour",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PARAMOUR"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ceither sex\u201d defines paramour",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "38A",
@@ -1106,11 +1107,9 @@
       "col": 3,
       "length": 5,
       "answer": "GUSTS",
-      "clue": "Strongs current of air",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Strongs current of air",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "40D",
@@ -1258,11 +1257,9 @@
       "col": 8,
       "length": 6,
       "answer": "MOSSES",
-      "clue": "Tinies leafy-stemmed flowerless plants",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Tinies leafy-stemmed flowerless plants",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "49D",
@@ -1289,6 +1286,11 @@
       "clue": "Authoritative person who divines the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A prophet",
+        "Prophet",
+        "Sore"
+      ],
       "definition": "A prophet.",
       "clueSource": "sat:wordnet"
     },

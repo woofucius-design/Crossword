@@ -82,14 +82,40 @@ def _leak_pattern(word: str) -> re.Pattern[str] | None:
     )
 
 
+try:
+    from nltk.stem.snowball import SnowballStemmer
+    _STEMMER = SnowballStemmer("english")
+except Exception:  # pragma: no cover — nltk always present in pipeline env
+    _STEMMER = None
+
+
+@functools.lru_cache(maxsize=65536)
+def _stem(word: str) -> str:
+    if _STEMMER is None:
+        return word.lower()
+    try:
+        return _STEMMER.stem(word.lower())
+    except Exception:
+        return word.lower()
+
+
 def clue_leaks(answer: str, clue: str) -> bool:
     """True if `clue` contains any morphological form of `answer` as a whole
-    word. Used to reject crossword clues that give away the answer's stem
-    ("Acts of grasping" leaks GRASPS; "Expressed admiration by uttering
-    'aah'" leaks AAHED). False for empty clue (nothing to leak)."""
+    word, or a word sharing the answer's derivational ROOT. Inflection
+    catches "Acts of grasping" leaking GRASPS; stemming catches
+    "keep secret or private" leaking SECRETIVE — derived answers must not
+    be clued with their root family. False for empty clue."""
     if not clue:
         return False
     pat = _leak_pattern(answer)
-    if pat is None:
+    if pat is not None and pat.search(clue) is not None:
+        return True
+    # Root-family check via Snowball stems. Guard against tiny stems
+    # (<=3 chars) that would fire on unrelated words.
+    ans_stem = _stem(answer)
+    if len(ans_stem) <= 3:
         return False
-    return pat.search(clue) is not None
+    for tok in re.findall(r"[A-Za-z]+", clue):
+        if len(tok) >= 4 and _stem(tok) == ans_stem:
+            return True
+    return False

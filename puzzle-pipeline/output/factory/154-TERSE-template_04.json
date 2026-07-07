@@ -293,10 +293,10 @@
       "col": 3,
       "length": 11,
       "answer": "FREELOADERS",
-      "clue": "Someones who takes advantage of the generosity of others",
+      "clue": "People who take advantage of the generosity of others",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Someones who takes advantage of the generosity of others",
+      "definition": "People who take advantage of the generosity of others",
       "clueSource": "inflection"
     },
     {
@@ -393,6 +393,11 @@
       "clue": "Briefly and cleanly expressed; curt",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Brief to the point of bluntness",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
       "clueSource": "sat:sat_def"
     },
@@ -515,11 +520,16 @@
       "col": 6,
       "length": 5,
       "answer": "CHASM",
-      "clue": "Deep opening made by disruption, as a breach in the earth or a rock",
+      "clue": "Yawning hollow, as in the earth's surface",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A yawning hollow, as in the earth's surface",
+        "Deep opening in the earth's surface",
+        "Deep opening made by disruption, as a breach in the earth or a rock"
+      ],
       "definition": "A yawning hollow, as in the earth's surface.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "18A",
@@ -557,10 +567,10 @@
       "col": 6,
       "length": 5,
       "answer": "HAVES",
-      "clue": "Persons who possesses great material wealth",
+      "clue": "People who possess great material wealth",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who possesses great material wealth",
+      "definition": "People who possess great material wealth",
       "clueSource": "inflection"
     },
     {
@@ -584,11 +594,15 @@
       "col": 6,
       "length": 4,
       "answer": "ARID",
-      "clue": "Exhausted of moisture",
+      "clue": "Lacking vitality or spirit",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Very dry",
+        "Exhausted of moisture"
+      ],
       "definition": "Very dry.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "22A",
@@ -625,15 +639,11 @@
       "col": 0,
       "length": 10,
       "answer": "TIRESOMELY",
-      "clue": "Tiresome",
+      "clue": "In a tedious manner",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TIRESOME"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cTire some ly\u201d defines tiresome",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false,
+      "definition": "In a tedious manner",
+      "clueSource": "wordnet"
     },
     {
       "id": "25D",

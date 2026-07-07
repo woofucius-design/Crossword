@@ -390,11 +390,9 @@
       "col": 10,
       "length": 3,
       "answer": "KEE",
-      "clue": "See Kie, Ky, and Kine",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Kie, Ky, and Kine",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "8A",
@@ -407,6 +405,11 @@
       "clue": "Marked by active interest and enthusiasm",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Full of energy for a cause",
+        "Having great energy or enthusiasm for a cause",
+        "Filled with, or characterized by, zeal"
+      ],
       "definition": "having great energy or enthusiasm for a cause",
       "clueSource": "sat:wordnet"
     },
@@ -460,11 +463,15 @@
       "col": 8,
       "length": 3,
       "answer": "WEE",
-      "clue": "Very early",
+      "clue": "Little",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Very small",
+        "Very early"
+      ],
       "definition": "Very small.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "13A",
@@ -474,11 +481,17 @@
       "col": 0,
       "length": 11,
       "answer": "OPALESCENCE",
-      "clue": "Visual property of something having a milky brightness and a play of colors...",
+      "clue": "Property of combined refraction and reflection of light, resulting in",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The property of combined refraction and reflection of light",
+        "Property of combined refraction and reflection of light",
+        "Visual property of something having a milky brightness and a play of colors...",
+        "Reflection of a milky or pearly light from the interior of a..."
+      ],
       "definition": "The property of combined refraction and reflection of light, resulting in",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "14D",
@@ -491,6 +504,11 @@
       "clue": "Make understand",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To build up, or strengthen, especially in morals or religion",
+        "Build up, or strengthen, especially in morals or religion",
+        "Build"
+      ],
       "definition": "To build up, or strengthen, especially in morals or religion.",
       "clueSource": "sat:wordnet"
     },
@@ -585,11 +603,9 @@
       "col": 6,
       "length": 5,
       "answer": "NIHIL",
-      "clue": "Nil",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Nil",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "21D",
@@ -612,11 +628,15 @@
       "col": 9,
       "length": 3,
       "answer": "IRE",
-      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clue": "Anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "23D",
@@ -643,6 +663,11 @@
       "clue": "Seize and take control without authority and possibly with force",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To take possession of by force",
+        "Take possession of by force",
+        "Seize, and hold in possession, by force, or without right"
+      ],
       "definition": "To take possession of by force.",
       "clueSource": "sat:wordnet"
     },
@@ -657,6 +682,10 @@
       "clue": "On fire",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "& adj",
+        "& adj. on fire, literally or figuratively"
+      ],
       "definition": "& adj. On fire, literally or figuratively.",
       "clueSource": "sat:webster"
     },
@@ -723,16 +752,9 @@
       "col": 0,
       "length": 11,
       "answer": "GOODLOOKING",
-      "clue": "Likely",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "LIKELY",
-        "COMELY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cgood looking\u201d defines likely",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "30D",
@@ -742,11 +764,15 @@
       "col": 0,
       "length": 3,
       "answer": "GUY",
-      "clue": "Cable, wire, or rope that is used to brace something (especially a tent)",
+      "clue": "Rope, chain, or rod attached to anything to steady it",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Stay-rope",
+        "Cable, wire, or rope that is used to brace something (especially a tent)"
+      ],
       "definition": "Stay-rope.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "31D",
@@ -849,11 +875,15 @@
       "col": 4,
       "length": 7,
       "answer": "ESSENCE",
-      "clue": "Toiletry that emits and diffuses a fragrant odor",
+      "clue": "Constituent elementary notions which constitute a complex notion,...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "That which makes a thing to be what it is",
+        "Toiletry that emits and diffuses a fragrant odor"
+      ],
       "definition": "That which makes a thing to be what it is.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "39A",

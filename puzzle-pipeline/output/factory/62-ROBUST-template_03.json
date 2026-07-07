@@ -269,10 +269,10 @@
       "col": 0,
       "length": 3,
       "answer": "EMS",
-      "clue": "Linear unit (1/6 inches) used in printing",
+      "clue": "Linear unit inches) used in printing",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Linear unit (1/6 inches) used in printing",
+      "definition": "Linear unit inches) used in printing",
       "clueSource": "inflection"
     },
     {
@@ -286,6 +286,12 @@
       "clue": "Poem celebrating in formal verse the mythical achievements of great personages",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A poem celebrating in formal verse the mythical achievements of great",
+        "Poem celebrating in formal verse the mythical achievements of great",
+        "Very imposing or impressive",
+        "Narrated in a grand style"
+      ],
       "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
       "clueSource": "sat:sat_def"
     },
@@ -311,16 +317,9 @@
       "col": 2,
       "length": 7,
       "answer": "SEENAME",
-      "clue": "Denomination",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DENOMINATION",
-        "APPELLATION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Name\u201d defines denomination",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "4A",
@@ -344,11 +343,15 @@
       "col": 8,
       "length": 3,
       "answer": "ADO",
-      "clue": "Rapid active commotion",
+      "clue": "Do",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unnecessary activity or ceremony",
+        "Rapid active commotion"
+      ],
       "definition": "unnecessary activity or ceremony.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "5D",
@@ -358,11 +361,9 @@
       "col": 9,
       "length": 3,
       "answer": "LOS",
-      "clue": "Praise. See Loos",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Praise. See Loos",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "6D",
@@ -458,6 +459,11 @@
       "clue": "Mature female of mammals of which the male is called `buck'",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The female of the deer",
+        "Female of the deer",
+        "Female deer or antelope"
+      ],
       "definition": "The female of the deer.",
       "clueSource": "sat:wordnet"
     },
@@ -469,11 +475,15 @@
       "col": 0,
       "length": 3,
       "answer": "IRE",
-      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clue": "Anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "13A",
@@ -483,15 +493,9 @@
       "col": 4,
       "length": 7,
       "answer": "HEAROSE",
-      "clue": "Benediction",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "BENEDICTION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201che arose\u201d defines benediction",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "14D",
@@ -501,11 +505,16 @@
       "col": 7,
       "length": 6,
       "answer": "ROBUST",
-      "clue": "Strong, healthy, and vigorous",
+      "clue": "Rough and crude",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Strong and vigorous",
+        "Strong, healthy, and vigorous",
+        "Evincing strength"
+      ],
       "definition": "strong, healthy, and vigorous",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "15A",
@@ -518,6 +527,11 @@
       "clue": "Composition for orchestra and a soloist",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A musical composition",
+        "Musical composition",
+        "Composition (usually in symphonic form with three movements) in..."
+      ],
       "definition": "A musical composition.",
       "clueSource": "sat:wordnet"
     },
@@ -736,11 +750,15 @@
       "col": 2,
       "length": 3,
       "answer": "NIL",
-      "clue": "Quantity of no importance",
+      "clue": "Will not",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Quantity of no importance"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "31A",

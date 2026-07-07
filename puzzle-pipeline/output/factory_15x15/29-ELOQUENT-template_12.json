@@ -446,15 +446,9 @@
       "col": 2,
       "length": 15,
       "answer": "EXACTLIMITATION",
-      "clue": "Precision",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PRECISION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cexact limitation\u201d defines precision",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -464,10 +458,10 @@
       "col": 3,
       "length": 6,
       "answer": "YANKED",
-      "clue": "Pulled, or move with a sudden movement",
+      "clue": "Pulled, or moved with a sudden movement",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Pulled, or move with a sudden movement",
+      "definition": "Pulled, or moved with a sudden movement",
       "clueSource": "inflection"
     },
     {
@@ -575,15 +569,9 @@
       "col": 12,
       "length": 15,
       "answer": "LONGESTABLISHED",
-      "clue": "Inveterate",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "INVETERATE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201clong established\u201d defines inveterate",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -648,10 +636,9 @@
       "col": 1,
       "length": 7,
       "answer": "RANDIER",
-      "clue": "Hornier",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "clueSource": "hand"
+      "isSATSynonym": false
     },
     {
       "id": "14D",
@@ -661,11 +648,11 @@
       "col": 1,
       "length": 9,
       "answer": "RESONATOR",
-      "clue": "Any system that resonates",
+      "clue": "Anything which resounds",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Any system that resonates",
-      "clueSource": "wordnet"
+      "definition": "Anything which resounds",
+      "clueSource": "webster"
     },
     {
       "id": "15A",
@@ -689,10 +676,10 @@
       "col": 0,
       "length": 6,
       "answer": "NECKED",
-      "clue": "Kissed, embrace, or fondle with sexual passion",
+      "clue": "Kissed, embraced, or fondled with sexual passion",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Kissed, embrace, or fondle with sexual passion",
+      "definition": "Kissed, embraced, or fondled with sexual passion",
       "clueSource": "inflection"
     },
     {
@@ -730,11 +717,15 @@
       "col": 8,
       "length": 7,
       "answer": "RADICAL",
-      "clue": "Especially of leaves",
+      "clue": "Of or pertaining to the root",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One who holds extreme views or advocates extreme measures",
+        "Especially of leaves"
+      ],
       "definition": "One who holds extreme views or advocates extreme measures.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "18D",
@@ -786,10 +777,10 @@
       "col": 7,
       "length": 7,
       "answer": "WITCHES",
-      "clue": "Beings (usually female) imagined to have special powers derived from",
+      "clue": "Casts a spell over someone or something",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Beings (usually female) imagined to have special powers derived from",
+      "definition": "Casts a spell over someone or something",
       "clueSource": "inflection"
     },
     {
@@ -883,10 +874,10 @@
       "col": 6,
       "length": 7,
       "answer": "SKATERS",
-      "clue": "Someones who skates",
+      "clue": "People who skate",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Someones who skates",
+      "definition": "People who skate",
       "clueSource": "inflection"
     },
     {
@@ -980,15 +971,9 @@
       "col": 0,
       "length": 15,
       "answer": "SAMEASACCESSARY",
-      "clue": "Accessory",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ACCESSORY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSame as Accessary\u201d defines accessory",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -998,11 +983,16 @@
       "col": 3,
       "length": 8,
       "answer": "ELOQUENT",
-      "clue": "Fluent and persuasive in speech",
+      "clue": "Expressing yourself readily, clearly, effectively",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Fluent and persuasive in speech",
+        "Fluent or persuasive in speaking or writing",
+        "Having the power of expressing strong emotions or forcible arguments..."
+      ],
       "definition": "fluent or persuasive in speaking or writing",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "33D",
@@ -1124,11 +1114,16 @@
       "col": 11,
       "length": 6,
       "answer": "PLACID",
-      "clue": "Calm and untroubled",
+      "clue": "Free from disturbance by heavy waves",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and untroubled",
+        "Calm and peaceful, free from disturbance",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "40A",
@@ -1252,6 +1247,10 @@
       "clue": "Farewell remark",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Good-by",
+        "Good-by; farewell"
+      ],
       "definition": "Good-by; farewell.",
       "clueSource": "sat:wordnet"
     },
@@ -1322,6 +1321,11 @@
       "clue": "Street or road in France",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To regret extremely",
+        "Regret extremely",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
       "definition": "To regret extremely.",
       "clueSource": "sat:wordnet"
     },
@@ -1375,15 +1379,9 @@
       "col": 7,
       "length": 6,
       "answer": "SEEADD",
-      "clue": "Annex",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ANNEX"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Add\u201d defines annex",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     }
   ]
 }

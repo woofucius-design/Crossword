@@ -456,11 +456,16 @@
       "col": 2,
       "length": 6,
       "answer": "PLACID",
-      "clue": "Calm and untroubled",
+      "clue": "Calm and peaceful, free from disturbance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and untroubled",
+        "Free from disturbance by heavy waves",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "1D",
@@ -470,10 +475,10 @@
       "col": 2,
       "length": 9,
       "answer": "PETABYTES",
-      "clue": "Units of information equal to 1024 tebibytes or 2^50 bytes",
+      "clue": "Units of information equal to tebibytes or bytes",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Units of information equal to 1024 tebibytes or 2^50 bytes",
+      "definition": "Units of information equal to tebibytes or bytes",
       "clueSource": "inflection"
     },
     {
@@ -498,11 +503,15 @@
       "col": 4,
       "length": 4,
       "answer": "ACID",
-      "clue": "Sour, sharp, or biting to the taste",
+      "clue": "Sour substance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A sour substance",
+        "Sour, sharp, or biting to the taste"
+      ],
       "definition": "A sour substance.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "4D",
@@ -526,11 +535,15 @@
       "col": 6,
       "length": 3,
       "answer": "IRE",
-      "clue": "Anger",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "6D",
@@ -540,11 +553,16 @@
       "col": 7,
       "length": 3,
       "answer": "DOE",
-      "clue": "Female deer or antelope",
+      "clue": "Female of the deer",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The female of the deer",
+        "Mature female of mammals of which the male is called `buck'",
+        "Female deer or antelope"
+      ],
       "definition": "The female of the deer.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "7A",
@@ -554,11 +572,15 @@
       "col": 10,
       "length": 3,
       "answer": "ADO",
-      "clue": "Do",
+      "clue": "Rapid active commotion",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unnecessary activity or ceremony",
+        "Do"
+      ],
       "definition": "unnecessary activity or ceremony.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "7D",
@@ -568,11 +590,9 @@
       "col": 10,
       "length": 6,
       "answer": "ATOMIC",
-      "clue": "Of or pertaining to atoms",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Of or pertaining to atoms",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "8D",
@@ -596,11 +616,14 @@
       "col": 12,
       "length": 5,
       "answer": "OAKEN",
-      "clue": "Consisting of or made of wood of the oak tree",
+      "clue": "Made of or from oak",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Consisting of or made of wood of the oak tree"
+      ],
       "definition": "Made of or from oak.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "10A",
@@ -610,15 +633,9 @@
       "col": 1,
       "length": 8,
       "answer": "SEECAROM",
-      "clue": "Canon",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "CANON"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Carom\u201d defines canon",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -684,11 +701,9 @@
       "col": 0,
       "length": 9,
       "answer": "DETAINEES",
-      "clue": "Somes held in custody",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Somes held in custody",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "14D",
@@ -698,10 +713,10 @@
       "col": 0,
       "length": 7,
       "answer": "DAWDLED",
-      "clue": "Hung (back) or fall (behind) in movement, progress, development, etc",
+      "clue": "Hung (back) or fell (behind) in movement, progress, development, etc",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Hung (back) or fall (behind) in movement, progress, development, etc",
+      "definition": "Hung (back) or fell (behind) in movement, progress, development, etc",
       "clueSource": "inflection"
     },
     {
@@ -712,11 +727,16 @@
       "col": 10,
       "length": 5,
       "answer": "OAKUM",
-      "clue": "Hemp-fiber obtained by untwisting and picking out loosely the yarns",
+      "clue": "Hemp-fiber obtained by untwisting and picking out loosely the yarns of old hemp",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Hemp-fiber obtained by untwisting and picking out loosely the yarns",
+        "Loose hemp or jute fiber obtained by unravelling old ropes",
+        "Material obtained by untwisting and picking into loose fiber old..."
+      ],
       "definition": "Hemp-fiber obtained by untwisting and picking out loosely the yarns of old hemp",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "16D",
@@ -836,11 +856,15 @@
       "col": 7,
       "length": 7,
       "answer": "ARRANGE",
-      "clue": "Put in proper order",
+      "clue": "Put in definite or proper order",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To put in definite or proper order",
+        "Put in proper order"
+      ],
       "definition": "To put in definite or proper order.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "24A",
@@ -864,10 +888,10 @@
       "col": 0,
       "length": 4,
       "answer": "DRYS",
-      "clue": "Reformers who opposes the use of intoxicating beverages",
+      "clue": "Reformers who oppose the use of intoxicating beverages",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Reformers who opposes the use of intoxicating beverages",
+      "definition": "Reformers who oppose the use of intoxicating beverages",
       "clueSource": "inflection"
     },
     {
@@ -905,11 +929,15 @@
       "col": 8,
       "length": 6,
       "answer": "MOROSE",
-      "clue": "Of a sour temper",
+      "clue": "Showing a brooding ill humor",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Gloomy",
+        "Of a sour temper"
+      ],
       "definition": "Gloomy.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "29A",
@@ -1043,11 +1071,9 @@
       "col": 11,
       "length": 4,
       "answer": "SEAN",
-      "clue": "Seine. See Seine",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Seine. See Seine",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "38A",
@@ -1096,15 +1122,9 @@
       "col": 4,
       "length": 6,
       "answer": "KINGSI",
-      "clue": "Recover",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RECOVER"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cKings i\u201d defines recover",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "41D",
@@ -1114,11 +1134,16 @@
       "col": 4,
       "length": 6,
       "answer": "KERNEL",
-      "clue": "Essential part of a seed",
+      "clue": "Grain or seed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A grain or seed",
+        "Choicest or most essential or most vital part of some idea or experience",
+        "Essential part of a seed"
+      ],
       "definition": "A grain or seed.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "42A",
@@ -1181,11 +1206,16 @@
       "col": 2,
       "length": 5,
       "answer": "ABBOT",
-      "clue": "Superior or head of an abbey",
+      "clue": "Superior of a community of monks",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The superior of a community of monks",
+        "Superior of an abbey of monks",
+        "Superior or head of an abbey"
+      ],
       "definition": "The superior of a community of monks.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "46D",
@@ -1235,11 +1265,15 @@
       "col": 0,
       "length": 7,
       "answer": "EMBARGO",
-      "clue": "Edict or order of the government prohibiting the departure of...",
+      "clue": "Government order imposing a trade barrier",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Authoritative stoppage of foreign commerce or of any special trade",
+        "Edict or order of the government prohibiting the departure of..."
+      ],
       "definition": "Authoritative stoppage of foreign commerce or of any special trade.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "50D",
@@ -1249,11 +1283,16 @@
       "col": 6,
       "length": 3,
       "answer": "ODE",
-      "clue": "Short poetical composition proper to be set to music or sung",
+      "clue": "Form of lyric poetry anciently intended to be sung",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The form of lyric poetry anciently intended to be sung",
+        "Lyric poem with complex stanza forms",
+        "Short poetical composition proper to be set to music or sung"
+      ],
       "definition": "The form of lyric poetry anciently intended to be sung.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "51A",
@@ -1290,10 +1329,10 @@
       "col": 11,
       "length": 4,
       "answer": "ATES",
-      "clue": "Goddesses of criminal rashness and its punishment",
+      "clue": "At equal kips in Laos",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Goddesses of criminal rashness and its punishment",
+      "definition": "At equal kips in Laos",
       "clueSource": "inflection"
     },
     {
@@ -1387,11 +1426,16 @@
       "col": 6,
       "length": 8,
       "answer": "ELOQUENT",
-      "clue": "Fluent and persuasive in speech",
+      "clue": "Fluent or persuasive in speaking or writing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Fluent and persuasive in speech",
+        "Expressing yourself readily, clearly, effectively",
+        "Having the power of expressing strong emotions or forcible arguments..."
+      ],
       "definition": "fluent or persuasive in speaking or writing",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "60A",

@@ -447,10 +447,10 @@
       "col": 1,
       "length": 4,
       "answer": "TITS",
-      "clue": "Small insectivorous birdses",
+      "clue": "Small insectivorous birds",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Small insectivorous birdses",
+      "definition": "Small insectivorous birds",
       "clueSource": "inflection"
     },
     {
@@ -475,15 +475,9 @@
       "col": 2,
       "length": 15,
       "answer": "IDENTITYINPITCH",
-      "clue": "Unison",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "UNISON"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cIdentity in pitch\u201d defines unison",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -573,15 +567,9 @@
       "col": 12,
       "length": 15,
       "answer": "SNAILUSEDASFOOD",
-      "clue": "Edible",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "EDIBLE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201csnail used as food\u201d defines edible",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "9D",
@@ -591,11 +579,15 @@
       "col": 13,
       "length": 4,
       "answer": "ACID",
-      "clue": "Sour substance",
+      "clue": "Sour, sharp, or biting to the taste",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A sour substance",
+        "Sour substance"
+      ],
       "definition": "A sour substance.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:webster"
     },
     {
       "id": "10D",
@@ -719,6 +711,11 @@
       "clue": "Legally take something in place of a debt payment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To subject a person to distress",
+        "Subject a person to distress",
+        "Press heavily upon"
+      ],
       "definition": "To subject a person to distress.",
       "clueSource": "sat:wordnet"
     },
@@ -841,10 +838,10 @@
       "col": 4,
       "length": 6,
       "answer": "ARENAS",
-      "clue": "Playing field where sports eventses take place",
+      "clue": "Playing field where sports events take place",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Playing field where sports eventses take place",
+      "definition": "Playing field where sports events take place",
       "clueSource": "inflection"
     },
     {
@@ -1008,11 +1005,16 @@
       "col": 8,
       "length": 7,
       "answer": "PRUDENT",
-      "clue": "Careful and sensible about the future",
+      "clue": "Careful and sensible",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Careful and sensible about the future",
+        "Acting with care and thought for the future",
+        "Sagacious in adapting means to ends"
+      ],
       "definition": "acting with care and thought for the future",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "34D",

@@ -571,15 +571,9 @@
       "col": 12,
       "length": 15,
       "answer": "PHENOMENAOFHEAT",
-      "clue": "Phenomenon",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PHENOMENON"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cphenomena of heat\u201d defines phenomenon",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -753,11 +747,15 @@
       "col": 0,
       "length": 5,
       "answer": "URBAN",
-      "clue": "Of or belonging to a city or town",
+      "clue": "Located in or characteristic of a city or city life",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Of, or pertaining to, or like a city",
+        "Of or belonging to a city or town"
+      ],
       "definition": "Of, or pertaining to, or like a city.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "20A",
@@ -781,10 +779,10 @@
       "col": 7,
       "length": 7,
       "answer": "PILEUPS",
-      "clue": "Multiple collisionses of vehicles",
+      "clue": "Multiple collisions of vehicles",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Multiple collisionses of vehicles",
+      "definition": "Multiple collisions of vehicles",
       "clueSource": "inflection"
     },
     {
@@ -795,7 +793,7 @@
       "col": 11,
       "length": 4,
       "answer": "COOL",
-      "clue": "Stoic",
+      "clue": "Stoic?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -813,11 +811,16 @@
       "col": 13,
       "length": 9,
       "answer": "OBSTINATE",
-      "clue": "Pertinaciously adhering to an opinion, purpose, or course",
+      "clue": "Stubbornly refusing to change one's opinion",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Stubbornly set in one's ways",
+        "Resistant to guidance or discipline",
+        "Pertinaciously adhering to an opinion, purpose, or course"
+      ],
       "definition": "stubbornly refusing to change one's opinion",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "23D",
@@ -939,11 +942,9 @@
       "col": 4,
       "length": 3,
       "answer": "SAI",
-      "clue": "See Capuchin, 3 (a)",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Capuchin, 3 (a)",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "30A",
@@ -981,15 +982,9 @@
       "col": 0,
       "length": 15,
       "answer": "ACTUALRESIDENTS",
-      "clue": "Squatter",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "SQUATTER"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cactual residents\u201d defines squatter",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1106,11 +1101,9 @@
       "col": 11,
       "length": 4,
       "answer": "LONE",
-      "clue": "Lane. See Loanin",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Lane. See Loanin",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "39D",
@@ -1286,11 +1279,16 @@
       "col": 7,
       "length": 7,
       "answer": "PLEDGEE",
-      "clue": "One to whom a pledge is given, or to whom property pledged is...",
+      "clue": "Person to whom anything is pledged",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The person to whom anything is pledged",
+        "Someone to whom a pledge is made or someone with whom something is deposited as...",
+        "One to whom a pledge is given, or to whom property pledged is..."
+      ],
       "definition": "The person to whom anything is pledged.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "48D",
@@ -1327,11 +1325,15 @@
       "col": 0,
       "length": 5,
       "answer": "INEPT",
-      "clue": "Not apt or fit",
+      "clue": "Revealing lack of perceptiveness or judgment or finesse",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Not fit or suitable",
+        "Not apt or fit"
+      ],
       "definition": "Not fit or suitable.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "51A",

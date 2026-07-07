@@ -391,11 +391,9 @@
       "col": 10,
       "length": 3,
       "answer": "KEE",
-      "clue": "See Kie, Ky, and Kine",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Kie, Ky, and Kine",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "8A",
@@ -419,15 +417,9 @@
       "col": 4,
       "length": 9,
       "answer": "JUDGESXIV",
-      "clue": "Carcass",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "CARCASS"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cJudges xiv\u201d defines carcass",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -465,11 +457,15 @@
       "col": 8,
       "length": 3,
       "answer": "WEE",
-      "clue": "Very early",
+      "clue": "Little",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Very small",
+        "Very early"
+      ],
       "definition": "Very small.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "13A",
@@ -592,6 +588,9 @@
       "clue": "Consisting of or made of wood of the oak tree",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Made of or from oak"
+      ],
       "definition": "Made of or from oak.",
       "clueSource": "sat:wordnet"
     },
@@ -603,10 +602,10 @@
       "col": 8,
       "length": 3,
       "answer": "KRS",
-      "clue": "Communist organizations formed in Cambodia in 1970",
+      "clue": "Communist organizations formed in Cambodia in",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Communist organizations formed in Cambodia in 1970",
+      "definition": "Communist organizations formed in Cambodia in",
       "clueSource": "inflection"
     },
     {
@@ -634,6 +633,10 @@
       "clue": "Egg or young of an insect parasitic on mammals especially a sucking louse",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The egg of a louse or some other insect",
+        "Egg of a louse or some other insect"
+      ],
       "definition": "The egg of a louse or some other insect.",
       "clueSource": "sat:wordnet"
     },
@@ -645,11 +648,9 @@
       "col": 0,
       "length": 5,
       "answer": "ENURE",
-      "clue": "See Inure",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Inure",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "25A",
@@ -672,10 +673,10 @@
       "col": 0,
       "length": 5,
       "answer": "TARES",
-      "clue": "Men who serves as a sailor",
+      "clue": "Men who serve as a sailor",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Men who serves as a sailor",
+      "definition": "Men who serve as a sailor",
       "clueSource": "inflection"
     },
     {
@@ -783,10 +784,10 @@
       "col": 7,
       "length": 3,
       "answer": "TBS",
-      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "clue": "Units of information equal to gibibytes or bytes",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "definition": "Units of information equal to gibibytes or bytes",
       "clueSource": "inflection"
     },
     {
@@ -852,11 +853,16 @@
       "col": 4,
       "length": 7,
       "answer": "VERBOSE",
-      "clue": "Using or expressed in more words than are needed",
+      "clue": "Using or containing too many words",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using far more words than needed",
+        "Using or expressed in more words than are needed",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "39A",

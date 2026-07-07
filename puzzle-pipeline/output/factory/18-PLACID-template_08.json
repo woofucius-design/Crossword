@@ -335,17 +335,9 @@
       "col": 4,
       "length": 7,
       "answer": "SAIDESP",
-      "clue": "Taut",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TAUT",
-        "BLAZE",
-        "DISMOUNT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201csaid esp\u201d defines taut",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "6D",
@@ -397,11 +389,16 @@
       "col": 8,
       "length": 6,
       "answer": "APOGEE",
-      "clue": "Climax",
+      "clue": "The climax",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Climax",
+        "Apoapsis in Earth orbit",
+        "That point in the orbit of the moon which is at the greatest distance..."
+      ],
       "definition": "The climax.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -439,11 +436,16 @@
       "col": 7,
       "length": 4,
       "answer": "APEX",
-      "clue": "Highest point, as of a mountain",
+      "clue": "The highest point, as of a mountain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Highest point, as of a mountain",
+        "Point on the celestial sphere toward which the sun and solar system appear...",
+        "Tip, top, point, or angular summit of anything"
+      ],
       "definition": "The highest point, as of a mountain.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "12D",
@@ -466,11 +468,16 @@
       "col": 0,
       "length": 6,
       "answer": "PLACID",
-      "clue": "Calm and peaceful, free from disturbance",
+      "clue": "Calm and untroubled",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and peaceful, free from disturbance",
+        "Free from disturbance by heavy waves",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "14A",
@@ -480,11 +487,16 @@
       "col": 7,
       "length": 4,
       "answer": "NORM",
-      "clue": "Model",
+      "clue": "A model",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Model",
+        "Statistic describing the location of a distribution",
+        "Rule or authoritative standard"
+      ],
       "definition": "A model.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "15A",
@@ -522,7 +534,7 @@
       "col": 3,
       "length": 6,
       "answer": "NEWBIE",
-      "clue": "Novice",
+      "clue": "Novice?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -571,8 +583,12 @@
       "clue": "Low in character or purpose",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Completely lacking nobility in character or quality or purpose",
+        "Of low birth or family"
+      ],
       "definition": "Low in character or purpose.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "21A",
@@ -582,11 +598,17 @@
       "col": 2,
       "length": 7,
       "answer": "ASSUAGE",
-      "clue": "Cause to be less harsh, violent, or severe, as excitement, appetite, pain",
+      "clue": "To cause to be less harsh, violent, or severe, as excitement",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Cause to be less harsh, violent, or severe, as excitement",
+        "Cause to be less harsh, violent, or severe, as excitement, appetite, pain",
+        "Provide physical relief, as from pain",
+        "Soften, in a figurative sense"
+      ],
       "definition": "To cause to be less harsh, violent, or severe, as excitement, appetite, pain...",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "21D",
@@ -599,8 +621,12 @@
       "clue": "Insensibility to emotion or passionate feeling",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Trait of lacking enthusiasm for or interest in things generally",
+        "Want of feeling"
+      ],
       "definition": "Insensibility to emotion or passionate feeling.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "22A",
@@ -705,10 +731,10 @@
       "col": 10,
       "length": 4,
       "answer": "RATS",
-      "clue": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "clue": "Gives away information about somebody",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "definition": "Gives away information about somebody",
       "clueSource": "inflection"
     },
     {
@@ -759,11 +785,16 @@
       "col": 5,
       "length": 3,
       "answer": "LEA",
-      "clue": "Field",
+      "clue": "A field",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
       "definition": "A field.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "32A",
@@ -773,11 +804,16 @@
       "col": 0,
       "length": 4,
       "answer": "ACHE",
-      "clue": "Be in pain or distress",
+      "clue": "To be in pain or distress",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
       "definition": "To be in pain or distress.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "33A",
@@ -787,11 +823,16 @@
       "col": 5,
       "length": 6,
       "answer": "ENLIST",
-      "clue": "Enter voluntarily the military service by formal enrollment",
+      "clue": "To enter voluntarily the military service by formal enrollment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Enter voluntarily the military service by formal enrollment",
+        "Join the military",
+        "Enter on a list"
+      ],
       "definition": "To enter voluntarily the military service by formal enrollment.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "34A",
@@ -801,11 +842,15 @@
       "col": 1,
       "length": 3,
       "answer": "AYE",
-      "clue": "Yes",
+      "clue": "An expression of assent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Expression of assent",
+        "Yes"
+      ],
       "definition": "An expression of assent.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "35A",

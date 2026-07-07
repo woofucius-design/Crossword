@@ -279,7 +279,7 @@
       "col": 1,
       "length": 5,
       "answer": "BLARE",
-      "clue": "Cacophony",
+      "clue": "Cacophony?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -297,15 +297,9 @@
       "col": 2,
       "length": 11,
       "answer": "DOBRAVEACTS",
-      "clue": "Chivalry",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "CHIVALRY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cdo brave acts\u201d defines chivalry",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -371,11 +365,15 @@
       "col": 7,
       "length": 7,
       "answer": "IMMENSE",
-      "clue": "Unusually great in size or amount or degree or especially extent or scope",
+      "clue": "Immeasurable",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Very great in degree, extent, size, or quantity",
+        "Unusually great in size or amount or degree or especially extent or scope"
+      ],
       "definition": "Very great in degree, extent, size, or quantity.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "7D",
@@ -385,15 +383,9 @@
       "col": 8,
       "length": 11,
       "answer": "PRIVEETHIEF",
-      "clue": "Privy",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PRIVY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cprivee thief\u201d defines privy",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "8A",
@@ -487,10 +479,10 @@
       "col": 10,
       "length": 3,
       "answer": "KRS",
-      "clue": "Communist organizations formed in Cambodia in 1970",
+      "clue": "Communist organizations formed in Cambodia in",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Communist organizations formed in Cambodia in 1970",
+      "definition": "Communist organizations formed in Cambodia in",
       "clueSource": "inflection"
     },
     {
@@ -528,15 +520,9 @@
       "col": 0,
       "length": 11,
       "answer": "BEARWITNESS",
-      "clue": "Reluctance",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RELUCTANCE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cBear witness\u201d defines reluctance",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "17D",
@@ -546,11 +532,15 @@
       "col": 3,
       "length": 7,
       "answer": "RESPITE",
-      "clue": "Pause from doing something (as work)",
+      "clue": "Putting off of that which was appointed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Interval of rest",
+        "Pause from doing something (as work)"
+      ],
       "definition": "Interval of rest.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "18D",
@@ -560,11 +550,15 @@
       "col": 4,
       "length": 3,
       "answer": "WRY",
-      "clue": "Humorously sarcastic or mocking",
+      "clue": "Cover",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Deviating from that which is proper or right",
+        "Humorously sarcastic or mocking"
+      ],
       "definition": "Deviating from that which is proper or right.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "19D",
@@ -601,11 +595,16 @@
       "col": 2,
       "length": 7,
       "answer": "VERBOSE",
-      "clue": "Using far more words than needed",
+      "clue": "Using or containing too many words",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using far more words than needed",
+        "Using or expressed in more words than are needed",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "22A",
@@ -615,15 +614,9 @@
       "col": 0,
       "length": 11,
       "answer": "SEESYMMETRY",
-      "clue": "Symmetrical",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "SYMMETRICAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Symmetry\u201d defines symmetrical",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "22D",
@@ -796,11 +789,15 @@
       "col": 6,
       "length": 5,
       "answer": "SHEER",
-      "clue": "Very steep",
+      "clue": "Bright",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Absolute",
+        "Very steep"
+      ],
       "definition": "Absolute.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "34A",
@@ -810,7 +807,7 @@
       "col": 2,
       "length": 3,
       "answer": "SET",
-      "clue": "Resolute",
+      "clue": "Resolute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [

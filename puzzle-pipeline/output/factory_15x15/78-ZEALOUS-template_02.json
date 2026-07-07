@@ -470,10 +470,10 @@
       "col": 2,
       "length": 9,
       "answer": "PIZZERIAS",
-      "clue": "Shop where pizzases are made and sold",
+      "clue": "Shop where pizzas are made and sold",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Shop where pizzases are made and sold",
+      "definition": "Shop where pizzas are made and sold",
       "clueSource": "inflection"
     },
     {
@@ -737,11 +737,16 @@
       "col": 8,
       "length": 7,
       "answer": "ZEALOUS",
-      "clue": "Having great energy or enthusiasm for a cause",
+      "clue": "Full of energy for a cause",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Having great energy or enthusiasm for a cause",
+        "Marked by active interest and enthusiasm",
+        "Filled with, or characterized by, zeal"
+      ],
       "definition": "having great energy or enthusiasm for a cause",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "19D",
@@ -891,11 +896,16 @@
       "col": 8,
       "length": 6,
       "answer": "FRUGAL",
-      "clue": "Sparing or economical with money or food",
+      "clue": "Sparing and economical",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Sparing or economical with money or food",
+        "Avoiding waste",
+        "Economical in the use or appropriation of resources"
+      ],
       "definition": "sparing or economical with money or food",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "29A",
@@ -908,8 +918,12 @@
       "clue": "Three things grouped or associated together",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Musical composition for three performers",
+        "Three, considered collectively"
+      ],
       "definition": "Three things grouped or associated together.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "30A",
@@ -1068,11 +1082,16 @@
       "col": 11,
       "length": 4,
       "answer": "NORM",
-      "clue": "Model",
+      "clue": "A model",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Model",
+        "Statistic describing the location of a distribution",
+        "Rule or authoritative standard"
+      ],
       "definition": "A model.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "41A",
@@ -1152,11 +1171,16 @@
       "col": 1,
       "length": 4,
       "answer": "ICON",
-      "clue": "Image or likeness",
+      "clue": "An image or likeness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
       "definition": "An image or likeness.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "45D",
@@ -1306,11 +1330,9 @@
       "col": 6,
       "length": 9,
       "answer": "USELESSLY",
-      "clue": "In a useless manner",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "In a useless manner",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "55D",

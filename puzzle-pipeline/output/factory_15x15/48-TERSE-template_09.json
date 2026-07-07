@@ -446,10 +446,10 @@
       "col": 0,
       "length": 4,
       "answer": "ARCS",
-      "clue": "Forms an arch or curve",
+      "clue": "Forms an arch or curves",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Forms an arch or curve",
+      "definition": "Forms an arch or curves",
       "clueSource": "inflection"
     },
     {
@@ -589,6 +589,9 @@
       "clue": "Inspiring fear",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Formidable"
+      ],
       "definition": "Formidable.",
       "clueSource": "sat:wordnet"
     },
@@ -670,11 +673,17 @@
       "col": 13,
       "length": 8,
       "answer": "TREATISE",
-      "clue": "Formal exposition",
+      "clue": "An elaborate literary composition presenting a subject in all its",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Elaborate literary composition presenting a subject in all its",
+        "Elaborate literary composition presenting a subject in all its parts",
+        "Formal exposition",
+        "Written composition on a particular subject, in which its..."
+      ],
       "definition": "An elaborate literary composition presenting a subject in all its parts.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "16D",
@@ -753,11 +762,15 @@
       "col": 3,
       "length": 4,
       "answer": "RECK",
-      "clue": "Make account of",
+      "clue": "To have a care or thought for",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Have a care or thought for",
+        "Make account of"
+      ],
       "definition": "To have a care or thought for.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "20D",
@@ -848,11 +861,9 @@
       "col": 2,
       "length": 8,
       "answer": "TEKTITES",
-      "clue": "Thoughts to derive from meteorites",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Thoughts to derive from meteorites",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "25A",
@@ -949,8 +960,12 @@
       "clue": "Once more",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Over again"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "31A",
@@ -960,15 +975,9 @@
       "col": 0,
       "length": 15,
       "answer": "TAKEINANDRETAIN",
-      "clue": "Occlude",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "OCCLUDE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ctake in and retain\u201d defines occlude",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1005,11 +1014,16 @@
       "col": 0,
       "length": 8,
       "answer": "ANTIDOTE",
-      "clue": "Remedy that stops or controls the effects of a poison",
+      "clue": "Anything that will counteract or remove the effects of poison",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Anything that will counteract or remove the effects of poison, disease, or the",
+        "Remedy that stops or controls the effects of a poison",
+        "Remedy to counteract the effects of poison, or of anything noxious..."
+      ],
       "definition": "Anything that will counteract or remove the effects of poison, disease, or the",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "35A",
@@ -1019,11 +1033,16 @@
       "col": 10,
       "length": 5,
       "answer": "TERSE",
-      "clue": "Brief and to the point",
+      "clue": "Brief to the point of bluntness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Briefly and cleanly expressed; curt",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "36A",
@@ -1260,8 +1279,12 @@
       "clue": "Abominable",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Defying expression or description",
+        "Not speakable"
+      ],
       "definition": "Abominable.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "48D",

@@ -446,15 +446,9 @@
       "col": 2,
       "length": 15,
       "answer": "BESTINFORMATION",
-      "clue": "Accessible",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "ACCESSIBLE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cbest information\u201d defines accessible",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -534,11 +528,16 @@
       "col": 10,
       "length": 5,
       "answer": "AMOUR",
-      "clue": "Love",
+      "clue": "Love-affair, especially one of an illicit nature",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A love-affair, especially one of an illicit nature",
+        "Usually secretive or illicit sexual relationship",
+        "Love"
+      ],
       "definition": "A love-affair, especially one of an illicit nature.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "7D",
@@ -576,15 +575,9 @@
       "col": 12,
       "length": 15,
       "answer": "OPENORCONCEALED",
-      "clue": "Dissuade",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DISSUADE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201copen or concealed\u201d defines dissuade",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -635,11 +628,16 @@
       "col": 10,
       "length": 5,
       "answer": "LAPSE",
-      "clue": "Gliding, slipping, or gradual falling",
+      "clue": "Slight deviation from what is right, proper, or just",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A slight deviation from what is right, proper, or just",
+        "Failure to maintain a higher state",
+        "Gliding, slipping, or gradual falling"
+      ],
       "definition": "A slight deviation from what is right, proper, or just.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "14A",
@@ -649,11 +647,16 @@
       "col": 1,
       "length": 7,
       "answer": "ESTUARY",
-      "clue": "Place where water boils up",
+      "clue": "Wide lower part of a tidal river",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A wide lower part of a tidal river",
+        "Wide part of a river where it nears the sea",
+        "Place where water boils up"
+      ],
       "definition": "A wide lower part of a tidal river.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "14D",
@@ -666,6 +669,11 @@
       "clue": "Lasting for a very short time",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Lasting only a very short time",
+        "Lasting a very short time",
+        "Beginning and ending in a day"
+      ],
       "definition": "lasting for a very short time",
       "clueSource": "sat:sat_def"
     },
@@ -705,10 +713,10 @@
       "col": 0,
       "length": 8,
       "answer": "ASPIRATE",
-      "clue": "Consonant pronounced with aspiration",
+      "clue": "Suck in (air)",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Consonant pronounced with aspiration",
+      "definition": "Suck in (air)",
       "clueSource": "wordnet"
     },
     {
@@ -775,10 +783,10 @@
       "col": 7,
       "length": 3,
       "answer": "ELS",
-      "clue": "Railways that is powered by electricity and that runs on a track that",
+      "clue": "Railways that be powered by electricity and that runs on a track that",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Railways that is powered by electricity and that runs on a track that",
+      "definition": "Railways that be powered by electricity and that runs on a track that",
       "clueSource": "inflection"
     },
     {
@@ -789,11 +797,15 @@
       "col": 7,
       "length": 7,
       "answer": "EXTINCT",
-      "clue": "Extinguished",
+      "clue": "Permanently inactive",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Being no longer in existence",
+        "Extinguished"
+      ],
       "definition": "Being no longer in existence.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "21A",
@@ -817,11 +829,15 @@
       "col": 13,
       "length": 9,
       "answer": "INANIMATE",
-      "clue": "Animate",
+      "clue": "Appearing dead",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Destitute of animal life",
+        "Animate"
+      ],
       "definition": "Destitute of animal life.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "23D",
@@ -845,11 +861,11 @@
       "col": 0,
       "length": 4,
       "answer": "PENS",
-      "clue": "Pl. of Penny",
+      "clue": "Female swans",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Pl. of Penny",
-      "clueSource": "webster"
+      "definition": "Female swans",
+      "clueSource": "inflection"
     },
     {
       "id": "25A",
@@ -887,11 +903,16 @@
       "col": 6,
       "length": 7,
       "answer": "ANNUITY",
-      "clue": "Sum of money, payable yearly, to continue for a given number of...",
+      "clue": "Annual allowance, payment, or income",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "An annual allowance, payment, or income",
+        "Income from capital investment paid in a series of regular payments",
+        "Sum of money, payable yearly, to continue for a given number of..."
+      ],
       "definition": "An annual allowance, payment, or income.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "27A",
@@ -1054,11 +1075,15 @@
       "col": 12,
       "length": 3,
       "answer": "NIL",
-      "clue": "Will not",
+      "clue": "Quantity of no importance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "37A",
@@ -1108,11 +1133,16 @@
       "col": 11,
       "length": 4,
       "answer": "ACME",
-      "clue": "Top or highest point",
+      "clue": "Highest point, or summit",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The highest point, or summit",
+        "Highest point (of something)",
+        "Top or highest point"
+      ],
       "definition": "The highest point, or summit.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "39D",
@@ -1177,11 +1207,17 @@
       "col": 10,
       "length": 5,
       "answer": "ALBUM",
-      "clue": "Book whose leaves are so made to form paper frames for holding photographs or",
+      "clue": "Book whose leaves are so made to form paper frames for holding",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A book whose leaves are so made to form paper frames for holding",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
       "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "43A",
@@ -1191,11 +1227,15 @@
       "col": 2,
       "length": 5,
       "answer": "TIPSY",
-      "clue": "Being under the influence of strong drink",
+      "clue": "Slightly intoxicated",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Befuddled with drinks",
+        "Being under the influence of strong drink"
+      ],
       "definition": "Befuddled with drinks.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "44D",
@@ -1331,11 +1371,9 @@
       "col": 0,
       "length": 5,
       "answer": "THOSE",
-      "clue": "Plural of that. See That",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Plural of that. See That",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "51A",
@@ -1373,10 +1411,10 @@
       "col": 7,
       "length": 6,
       "answer": "SEEMED",
-      "clue": "Gave a certain impression or have a certain outward aspect",
+      "clue": "Gave a certain impression or had a certain outward aspect",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Gave a certain impression or have a certain outward aspect",
+      "definition": "Gave a certain impression or had a certain outward aspect",
       "clueSource": "inflection"
     }
   ]

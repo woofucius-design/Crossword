@@ -420,16 +420,9 @@
       "col": 0,
       "length": 6,
       "answer": "ITSUSE",
-      "clue": "Transpire",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TRANSPIRE",
-        "PHONETIC"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cIts use\u201d defines transpire",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "12A",
@@ -520,10 +513,10 @@
       "col": 2,
       "length": 7,
       "answer": "RESIDES",
-      "clue": "Oil productses that remain after petroleum has been distilled",
+      "clue": "Oil products that remain after petroleum has been distilled",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Oil productses that remain after petroleum has been distilled",
+      "definition": "Oil products that remain after petroleum has been distilled",
       "clueSource": "inflection"
     },
     {
@@ -604,15 +597,9 @@
       "col": 0,
       "length": 11,
       "answer": "MADETHEBASS",
-      "clue": "Inversion",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "INVERSION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cmade the bass\u201d defines inversion",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "23D",
@@ -744,11 +731,16 @@
       "col": 5,
       "length": 6,
       "answer": "PLACID",
-      "clue": "Calm and untroubled",
+      "clue": "Calm and peaceful, free from disturbance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and untroubled",
+        "Free from disturbance by heavy waves",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     }
   ]
 }

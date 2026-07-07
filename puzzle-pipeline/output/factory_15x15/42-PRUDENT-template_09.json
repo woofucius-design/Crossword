@@ -446,10 +446,10 @@
       "col": 0,
       "length": 4,
       "answer": "GITS",
-      "clue": "Persons who is deemed to be despicable or contemptible",
+      "clue": "People who be deemed to be despicable or contemptible",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who is deemed to be despicable or contemptible",
+      "definition": "People who be deemed to be despicable or contemptible",
       "clueSource": "inflection"
     },
     {
@@ -463,8 +463,12 @@
       "clue": "Once more",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Over again"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "3D",
@@ -504,8 +508,12 @@
       "clue": "Pertaining to the eye or vision",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Relating to or using sight",
+        "Organ of sight"
+      ],
       "definition": "Pertaining to the eye or vision.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "5D",
@@ -625,15 +633,9 @@
       "col": 0,
       "length": 11,
       "answer": "TENTORTENTS",
-      "clue": "Pavilion",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PAVILION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ctent or tents\u201d defines pavilion",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "14A",
@@ -698,11 +700,9 @@
       "col": 0,
       "length": 3,
       "answer": "SWA",
-      "clue": "So",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "So",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "18A",
@@ -715,8 +715,12 @@
       "clue": "Being in need, want, or poverty",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Demanding or needing attention, affection, or reassurance to an excessive degree",
+        "Distressed by want of the means of living"
+      ],
       "definition": "Being in need, want, or poverty.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "19A",
@@ -740,15 +744,11 @@
       "col": 11,
       "length": 8,
       "answer": "EVERYMAN",
-      "clue": "Innovate",
+      "clue": "Ordinary person",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "INNOVATE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cEvery man\u201d defines innovate",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false,
+      "definition": "Ordinary person",
+      "clueSource": "wordnet"
     },
     {
       "id": "20A",
@@ -868,11 +868,16 @@
       "col": 7,
       "length": 7,
       "answer": "PRUDENT",
-      "clue": "Acting with care and thought for the future",
+      "clue": "Careful and sensible about the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Acting with care and thought for the future",
+        "Careful and sensible",
+        "Sagacious in adapting means to ends"
+      ],
       "definition": "acting with care and thought for the future",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "25D",
@@ -885,6 +890,9 @@
       "clue": "Used primarily as eating apples",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "First"
+      ],
       "definition": "First.",
       "clueSource": "sat:wordnet"
     },
@@ -938,10 +946,10 @@
       "col": 7,
       "length": 8,
       "answer": "RESORTED",
-      "clue": "Moved, travel, or proceed toward some place",
+      "clue": "Moved, traveled, or proceeded toward some place",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Moved, travel, or proceed toward some place",
+      "definition": "Moved, traveled, or proceeded toward some place",
       "clueSource": "inflection"
     },
     {
@@ -966,15 +974,9 @@
       "col": 0,
       "length": 15,
       "answer": "COLLECTIVELYONE",
-      "clue": "Corporate",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "CORPORATE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccollectively one\u201d defines corporate",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "32D",
@@ -1066,11 +1068,17 @@
       "col": 0,
       "length": 5,
       "answer": "WIELD",
-      "clue": "Use, control, or manage, as a weapon, or instrument, especially with full",
+      "clue": "To use, control, or manage, as a weapon, or instrument, especially",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Use, control, or manage, as a weapon, or instrument, especially",
+        "Use, control, or manage, as a weapon, or instrument, especially with full",
+        "Handle effectively",
+        "Govern"
+      ],
       "definition": "To use, control, or manage, as a weapon, or instrument, especially with full",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "38D",
@@ -1122,11 +1130,9 @@
       "col": 9,
       "length": 4,
       "answer": "UNTO",
-      "clue": "To",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "To",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "41A",
@@ -1315,15 +1321,9 @@
       "col": 4,
       "length": 11,
       "answer": "ABLETOSTING",
-      "clue": "Stingy",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "STINGY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cable to sting\u201d defines stingy",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "52A",

@@ -302,15 +302,9 @@
       "col": 2,
       "length": 6,
       "answer": "DARTIN",
-      "clue": "Inject",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "INJECT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cdart in\u201d defines inject",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -320,18 +314,9 @@
       "col": 3,
       "length": 8,
       "answer": "ACTSVIII",
-      "clue": "Believe",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "BELIEVE",
-        "HAVOC",
-        "BITTERNESS",
-        "PERHAPS"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cActs viii\u201d defines believe",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "4D",
@@ -397,11 +382,15 @@
       "col": 8,
       "length": 4,
       "answer": "ANEW",
-      "clue": "Again but in a new or different way",
+      "clue": "Over again",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Once more",
+        "Again but in a new or different way"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "8D",
@@ -428,6 +417,12 @@
       "clue": "Person or thing connected with another, usually in some relation of helpfulness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A person or thing connected with another, usually in some relation of",
+        "Person or thing connected with another, usually in some relation of",
+        "Friendly nation",
+        "Unite, or form a connection between, as between families by..."
+      ],
       "definition": "A person or thing connected with another, usually in some relation of helpfulness.",
       "clueSource": "sat:sat_def"
     },
@@ -453,11 +448,15 @@
       "col": 8,
       "length": 3,
       "answer": "NIL",
-      "clue": "Quantity of no importance",
+      "clue": "Will not",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Quantity of no importance"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "12A",
@@ -509,10 +508,10 @@
       "col": 0,
       "length": 4,
       "answer": "RATS",
-      "clue": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "clue": "Gives away information about somebody",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Anies of various long-tailed rodents similar to but larger than a mouse",
+      "definition": "Gives away information about somebody",
       "clueSource": "inflection"
     },
     {
@@ -577,11 +576,15 @@
       "col": 0,
       "length": 5,
       "answer": "MANIA",
-      "clue": "Irrational but irresistible motive for a belief or action",
+      "clue": "Violent derangement of mind",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Insanity",
+        "Irrational but irresistible motive for a belief or action"
+      ],
       "definition": "Insanity.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "20D",
@@ -594,6 +597,12 @@
       "clue": "Vaulted passageway or street; a roofed passageway having shops, etc., opening",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A vaulted passageway or street",
+        "Vaulted passageway or street",
+        "Structure composed of a series of arches supported by columns",
+        "(a) A series of arches with the columns or piers which support them,..."
+      ],
       "definition": "A vaulted passageway or street; a roofed passageway having shops, etc., opening",
       "clueSource": "sat:sat_def"
     },
@@ -636,7 +645,7 @@
       "isSATVocab": true,
       "isSATSynonym": false,
       "definition": "Of a bright but delicate yellow.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "24D",
@@ -660,11 +669,15 @@
       "col": 3,
       "length": 3,
       "answer": "IRE",
-      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clue": "Anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "26D",
@@ -705,6 +718,12 @@
       "clue": "Person new to and inexperienced in a field",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A beginner at something",
+        "Beginner at something",
+        "Someone new to a field or activity",
+        "One who is new in any business, profession, or calling"
+      ],
       "definition": "a person new to and inexperienced in a field",
       "clueSource": "sat:sat_def"
     },
@@ -744,11 +763,15 @@
       "col": 2,
       "length": 4,
       "answer": "VALE",
-      "clue": "Long depression in the surface of the land that usually contains a river",
+      "clue": "Tract of low ground, or of land between hills",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Level or low land between hills",
+        "Long depression in the surface of the land that usually contains a river"
+      ],
       "definition": "Level or low land between hills.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "31A",
@@ -758,7 +781,7 @@
       "col": 7,
       "length": 4,
       "answer": "HINT",
-      "clue": "Nuance",
+      "clue": "Nuance?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -820,6 +843,10 @@
       "clue": "Syllable naming the fifth (dominant) note of any musical scale in...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The sun",
+        "Sun"
+      ],
       "definition": "The sun.",
       "clueSource": "sat:wordnet"
     },

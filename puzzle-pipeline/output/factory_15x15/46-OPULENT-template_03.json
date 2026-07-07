@@ -479,11 +479,9 @@
       "col": 5,
       "length": 3,
       "answer": "NOS",
-      "clue": "Negatives",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Negatives",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "4D",
@@ -561,15 +559,9 @@
       "col": 12,
       "length": 13,
       "answer": "ELECTRICMOTOR",
-      "clue": "Terminal",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TERMINAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201celectric motor\u201d defines terminal",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "9D",
@@ -645,11 +637,15 @@
       "col": 1,
       "length": 6,
       "answer": "SPARSE",
-      "clue": "Thinly scattered",
+      "clue": "Not dense",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Thinly diffused",
+        "Thinly scattered"
+      ],
       "definition": "Thinly diffused.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "13D",
@@ -673,10 +669,10 @@
       "col": 2,
       "length": 13,
       "answer": "PRESENTIMENTS",
-      "clue": "Forebodings",
+      "clue": "Feelings of evil to come",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Forebodings",
+      "definition": "Feelings of evil to come",
       "clueSource": "inflection"
     },
     {
@@ -690,6 +686,11 @@
       "clue": "Showing great wealth; lavish; luxurious",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Ostentatiously rich and luxurious",
+        "Rich and superior in quality",
+        "Having a large estate or property"
+      ],
       "definition": "showing great wealth; lavish; luxurious",
       "clueSource": "sat:sat_def"
     },
@@ -701,11 +702,15 @@
       "col": 0,
       "length": 5,
       "answer": "LURID",
-      "clue": "Pale yellow",
+      "clue": "Shining with an unnatural red glow as of fire seen through smoke",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Ghastly and sensational",
+        "Pale yellow"
+      ],
       "definition": "Ghastly and sensational.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "16D",
@@ -784,11 +789,16 @@
       "col": 5,
       "length": 8,
       "answer": "FUTURIST",
-      "clue": "One whose chief interests are in what is to come",
+      "clue": "Person of expectant temperament",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A person of expectant temperament",
+        "Of or relating to futurism",
+        "One whose chief interests are in what is to come"
+      ],
       "definition": "A person of expectant temperament.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "20D",
@@ -824,11 +834,15 @@
       "col": 10,
       "length": 5,
       "answer": "ISLET",
-      "clue": "Small island",
+      "clue": "Little island",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A little island",
+        "Small island"
+      ],
       "definition": "A little island.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "23A",
@@ -892,11 +906,15 @@
       "col": 0,
       "length": 3,
       "answer": "IRE",
-      "clue": "Anger",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "28A",
@@ -920,11 +938,9 @@
       "col": 4,
       "length": 5,
       "answer": "ARIAN",
-      "clue": "See Aryan. Pertaining to Arius, a presbyter of the church of Alexandria, in the...",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Aryan. Pertaining to Arius, a presbyter of the church of Alexandria, in the...",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "29A",
@@ -1004,11 +1020,16 @@
       "col": 8,
       "length": 4,
       "answer": "FETE",
-      "clue": "Feat",
+      "clue": "Festival or feast",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A festival or feast",
+        "Organized series of acts and performances (usually in one place)",
+        "Feat"
+      ],
       "definition": "A festival or feast.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "33D",
@@ -1035,6 +1056,11 @@
       "clue": "Enduring hardship without showing feelings",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unmoved by pain or hardship",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
       "definition": "enduring hardship without showing feelings",
       "clueSource": "sat:sat_def"
     },
@@ -1088,11 +1114,16 @@
       "col": 6,
       "length": 4,
       "answer": "IOTA",
-      "clue": "Ninth letter of the Greek alphabet (i) corresponding with the...",
+      "clue": "Small or insignificant mark or part",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
       "definition": "A small or insignificant mark or part.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "38D",
@@ -1186,11 +1217,9 @@
       "col": 11,
       "length": 4,
       "answer": "OTTO",
-      "clue": "See Attar",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Attar",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "44A",
@@ -1378,11 +1407,9 @@
       "col": 1,
       "length": 5,
       "answer": "TSARS",
-      "clue": "Male monarchs or emperors (especially of Russia prior to 1917)",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Male monarchs or emperors (especially of Russia prior to 1917)",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "55A",

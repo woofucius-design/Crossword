@@ -266,11 +266,9 @@
       "col": 1,
       "length": 4,
       "answer": "UPON",
-      "clue": "On",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "On",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "1D",
@@ -510,11 +508,17 @@
       "col": 0,
       "length": 11,
       "answer": "LINGUISTICS",
-      "clue": "Science of languages, or of the origin, signification, and...",
+      "clue": "Science of languages, or of the origin, history, and significance of",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The science of languages, or of the origin, history, and significance",
+        "Science of languages, or of the origin, history, and significance",
+        "Humanistic study of language and literature",
+        "Science of languages, or of the origin, signification, and..."
+      ],
       "definition": "The science of languages, or of the origin, history, and significance of",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "17D",
@@ -566,7 +570,7 @@
       "col": 6,
       "length": 3,
       "answer": "SET",
-      "clue": "Resolute",
+      "clue": "Resolute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -584,11 +588,16 @@
       "col": 2,
       "length": 7,
       "answer": "AUSTERE",
-      "clue": "Sour and astringent",
+      "clue": "Practicing great self-denial",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Severe, strict, and unadorned",
+        "Severe or strict in manner; plain and unadorned",
+        "Sour and astringent"
+      ],
       "definition": "severe or strict in manner; plain and unadorned",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "22A",
@@ -598,10 +607,10 @@
       "col": 0,
       "length": 11,
       "answer": "CONTESTANTS",
-      "clue": "Persons who participates in competitions",
+      "clue": "People who participate in competitions",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who participates in competitions",
+      "definition": "People who participate in competitions",
       "clueSource": "inflection"
     },
     {
@@ -657,6 +666,11 @@
       "clue": "Authoritative person who divines the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A prophet",
+        "Prophet",
+        "Sore"
+      ],
       "definition": "A prophet.",
       "clueSource": "sat:wordnet"
     },
@@ -671,6 +685,11 @@
       "clue": "Written agreement between two states or sovereigns",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A covenant",
+        "Covenant",
+        "Agreement"
+      ],
       "definition": "A covenant.",
       "clueSource": "sat:wordnet"
     },
@@ -682,11 +701,15 @@
       "col": 8,
       "length": 3,
       "answer": "AYE",
-      "clue": "Expression of assent",
+      "clue": "Yes",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "An expression of assent",
+        "Expression of assent"
+      ],
       "definition": "An expression of assent.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:webster"
     },
     {
       "id": "28A",

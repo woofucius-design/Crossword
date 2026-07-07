@@ -317,11 +317,11 @@
       "col": 3,
       "length": 8,
       "answer": "ETERNITY",
-      "clue": "State of eternal existence believed in some religions to characterize the...",
+      "clue": "Infinite duration, without beginning in the past or end in the future",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "State of eternal existence believed in some religions to characterize the...",
-      "clueSource": "wordnet"
+      "definition": "Infinite duration, without beginning in the past or end in the future",
+      "clueSource": "webster"
     },
     {
       "id": "4D",
@@ -348,8 +348,13 @@
       "clue": "Clearly expressed; easy to follow",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Clear, coherent; easy to understand",
+        "Transparently clear",
+        "Shining"
+      ],
       "definition": "clear, coherent; easy to understand",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "6D",
@@ -359,11 +364,16 @@
       "col": 6,
       "length": 6,
       "answer": "ENAMOR",
-      "clue": "Inspire with ardent love",
+      "clue": "To inspire with ardent love",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Inspire with ardent love",
+        "Attract",
+        "Inflame with love"
+      ],
       "definition": "To inspire with ardent love.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "7A",
@@ -373,10 +383,10 @@
       "col": 8,
       "length": 3,
       "answer": "TBS",
-      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "clue": "Units of information equal to gibibytes or bytes",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "definition": "Units of information equal to gibibytes or bytes",
       "clueSource": "inflection"
     },
     {
@@ -401,11 +411,16 @@
       "col": 9,
       "length": 4,
       "answer": "BOMB",
-      "clue": "Hollow projectile containing an explosive material",
+      "clue": "A hollow projectile containing an explosive material",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Hollow projectile containing an explosive material",
+        "Explosive device fused to explode under specific conditions",
+        "Great noise"
+      ],
       "definition": "A hollow projectile containing an explosive material.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -443,7 +458,7 @@
       "col": 8,
       "length": 3,
       "answer": "HOT",
-      "clue": "Ardent",
+      "clue": "Ardent?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -501,11 +516,16 @@
       "col": 0,
       "length": 4,
       "answer": "AVER",
-      "clue": "Assert as a fact",
+      "clue": "To assert as a fact",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
       "definition": "To assert as a fact.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "15A",
@@ -515,11 +535,16 @@
       "col": 5,
       "length": 6,
       "answer": "IMBIBE",
-      "clue": "Drink or take in",
+      "clue": "To drink or take in",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Drink or take in",
+        "Receive into the mind and retain",
+        "Drink in"
+      ],
       "definition": "To drink or take in.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "16D",
@@ -557,11 +582,16 @@
       "col": 5,
       "length": 3,
       "answer": "DOE",
-      "clue": "Female of the deer",
+      "clue": "The female of the deer",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Female of the deer",
+        "Mature female of mammals of which the male is called `buck'",
+        "Female deer or antelope"
+      ],
       "definition": "The female of the deer.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "19A",
@@ -693,15 +723,9 @@
       "col": 0,
       "length": 6,
       "answer": "CANYOU",
-      "clue": "Relent",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RELENT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cCan you\u201d defines relent",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "28D",
@@ -739,11 +763,16 @@
       "col": 2,
       "length": 4,
       "answer": "NORM",
-      "clue": "Model",
+      "clue": "A model",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Model",
+        "Statistic describing the location of a distribution",
+        "Rule or authoritative standard"
+      ],
       "definition": "A model.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "31A",
@@ -770,8 +799,12 @@
       "clue": "Unnecessary activity or ceremony",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Rapid active commotion",
+        "Do"
+      ],
       "definition": "unnecessary activity or ceremony.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "33A",

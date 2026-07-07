@@ -294,15 +294,9 @@
       "col": 2,
       "length": 11,
       "answer": "COMMONCHORD",
-      "clue": "Triad",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TRIAD"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccommon chord\u201d defines triad",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -325,11 +319,9 @@
       "col": 4,
       "length": 3,
       "answer": "NOS",
-      "clue": "Negatives",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Negatives",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "5A",
@@ -379,15 +371,9 @@
       "col": 8,
       "length": 11,
       "answer": "TENINSPIRED",
-      "clue": "Possess",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "POSSESS"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cten inspired\u201d defines possess",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "8A",
@@ -441,6 +427,11 @@
       "clue": "Neatly skillful and quick in movement",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Quick and neatly skillful",
+        "Skillful in physical movements",
+        "Apt"
+      ],
       "definition": "neatly skillful and quick in movement",
       "clueSource": "sat:sat_def"
     },
@@ -507,11 +498,15 @@
       "col": 7,
       "length": 4,
       "answer": "RIFE",
-      "clue": "Prevailing",
+      "clue": "Excessively abundant",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Abundant",
+        "Prevailing"
+      ],
       "definition": "Abundant.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "16A",
@@ -521,11 +516,9 @@
       "col": 0,
       "length": 11,
       "answer": "PROPELLANTS",
-      "clue": "Any substances that propels",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Any substances that propels",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "17D",
@@ -589,10 +582,10 @@
       "col": 2,
       "length": 7,
       "answer": "NUDISTS",
-      "clue": "Persons who practices nudity for reasons of health or religion",
+      "clue": "People who practice nudity for reasons of health or religion",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who practices nudity for reasons of health or religion",
+      "definition": "People who practice nudity for reasons of health or religion",
       "clueSource": "inflection"
     },
     {
@@ -603,11 +596,11 @@
       "col": 0,
       "length": 11,
       "answer": "MICROSCOPIC",
-      "clue": "Of or pertaining to the microscope or to microscopy",
+      "clue": "Adapted to or characterized by minute observation",
       "isSATVocab": true,
       "isSATSynonym": false,
       "definition": "Adapted to or characterized by minute observation.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "22D",
@@ -630,11 +623,16 @@
       "col": 1,
       "length": 4,
       "answer": "IOTA",
-      "clue": "Ninth letter of the Greek alphabet (i) corresponding with the...",
+      "clue": "Small or insignificant mark or part",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
       "definition": "A small or insignificant mark or part.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "24D",
@@ -644,11 +642,15 @@
       "col": 9,
       "length": 5,
       "answer": "IRATE",
-      "clue": "Angry",
+      "clue": "Feeling or showing extreme anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Moved to anger",
+        "Angry"
+      ],
       "definition": "Moved to anger.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "25D",
@@ -658,11 +660,16 @@
       "col": 10,
       "length": 4,
       "answer": "CEDE",
-      "clue": "Yield or surrender",
+      "clue": "Pass title to",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To pass title to",
+        "Relinquish possession or control over",
+        "Yield or surrender"
+      ],
       "definition": "To pass title to.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "26A",
@@ -686,11 +693,15 @@
       "col": 8,
       "length": 3,
       "answer": "IRE",
-      "clue": "Anger",
+      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "28A",
@@ -703,6 +714,11 @@
       "clue": "Enduring hardship without showing feelings",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unmoved by pain or hardship",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
       "definition": "enduring hardship without showing feelings",
       "clueSource": "sat:sat_def"
     },
@@ -796,11 +812,16 @@
       "col": 2,
       "length": 3,
       "answer": "DUN",
-      "clue": "Mound or small hill. To cure, as codfish, in a particular manner,...",
+      "clue": "Make a demand or repeated demands on for payment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To make a demand or repeated demands on for payment",
+        "Of a dull greyish brown to brownish grey color",
+        "Mound or small hill. To cure, as codfish, in a particular manner,..."
+      ],
       "definition": "To make a demand or repeated demands on for payment.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "35A",

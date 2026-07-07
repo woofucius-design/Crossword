@@ -275,7 +275,7 @@
       "col": 1,
       "length": 6,
       "answer": "ACTIVE",
-      "clue": "Diligent",
+      "clue": "Diligent?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -347,11 +347,16 @@
       "col": 5,
       "length": 5,
       "answer": "VIVID",
-      "clue": "Strikingly bright or clear",
+      "clue": "Having the highest saturation",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Strikingly bright or clear",
+        "Producing strong, clear images in the mind",
+        "True to the life"
+      ],
       "definition": "producing strong, clear images in the mind",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "6D",
@@ -375,10 +380,10 @@
       "col": 8,
       "length": 3,
       "answer": "TBS",
-      "clue": "Units of information equal to 1024 gibibytes or 2^40",
+      "clue": "Units of information equal to gibibytes or bytes",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Units of information equal to 1024 gibibytes or 2^40",
+      "definition": "Units of information equal to gibibytes or bytes",
       "clueSource": "inflection"
     },
     {
@@ -406,6 +411,11 @@
       "clue": "Explosive device fused to explode under specific conditions",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A hollow projectile containing an explosive material",
+        "Hollow projectile containing an explosive material",
+        "Great noise"
+      ],
       "definition": "A hollow projectile containing an explosive material.",
       "clueSource": "sat:wordnet"
     },
@@ -445,7 +455,7 @@
       "col": 8,
       "length": 3,
       "answer": "HOT",
-      "clue": "Ardent",
+      "clue": "Ardent?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -466,6 +476,11 @@
       "clue": "Let off the hook",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To free from sin or its penalties",
+        "Free from sin or its penalties",
+        "Set free, or release, as from some obligation, debt, or..."
+      ],
       "definition": "To free from sin or its penalties.",
       "clueSource": "sat:wordnet"
     },
@@ -522,6 +537,11 @@
       "clue": "Receive into the mind and retain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To drink or take in",
+        "Drink or take in",
+        "Drink in"
+      ],
       "definition": "To drink or take in.",
       "clueSource": "sat:wordnet"
     },
@@ -616,11 +636,11 @@
       "col": 8,
       "length": 6,
       "answer": "INTONE",
-      "clue": "Recite with musical intonation",
+      "clue": "Utter with a musical or prolonged note or tone",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Recite with musical intonation",
-      "clueSource": "wordnet"
+      "definition": "Utter with a musical or prolonged note or tone",
+      "clueSource": "webster"
     },
     {
       "id": "23D",
@@ -658,11 +678,15 @@
       "col": 3,
       "length": 3,
       "answer": "NIL",
-      "clue": "Quantity of no importance",
+      "clue": "Will not",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Quantity of no importance"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "26D",
@@ -743,6 +767,11 @@
       "clue": "Statistic describing the location of a distribution",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A model",
+        "Model",
+        "Rule or authoritative standard"
+      ],
       "definition": "A model.",
       "clueSource": "sat:wordnet"
     },
@@ -768,11 +797,15 @@
       "col": 0,
       "length": 3,
       "answer": "ADO",
-      "clue": "Rapid active commotion",
+      "clue": "Do",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unnecessary activity or ceremony",
+        "Rapid active commotion"
+      ],
       "definition": "unnecessary activity or ceremony.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "33A",

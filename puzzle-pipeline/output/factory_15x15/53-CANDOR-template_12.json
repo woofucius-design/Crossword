@@ -446,15 +446,9 @@
       "col": 2,
       "length": 15,
       "answer": "PRECEDESANEVENT",
-      "clue": "Precursor",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PRECURSOR"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cprecedes an event\u201d defines precursor",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -571,11 +565,15 @@
       "col": 12,
       "length": 15,
       "answer": "CONTEMPORANEOUS",
-      "clue": "Of the same period",
+      "clue": "Living, existing, or occurring at the same time",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Living, occurring, or existing at the same time",
+        "Of the same period"
+      ],
       "definition": "Living, occurring, or existing at the same time.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "10D",
@@ -613,10 +611,10 @@
       "col": 2,
       "length": 6,
       "answer": "RETIED",
-      "clue": "Tied again or anewed",
+      "clue": "Tied again or anew",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Tied again or anewed",
+      "definition": "Tied again or anew",
       "clueSource": "inflection"
     },
     {
@@ -681,11 +679,15 @@
       "col": 0,
       "length": 6,
       "answer": "RECURE",
-      "clue": "Cure again",
+      "clue": "Arrive at",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To cure again",
+        "Cure again"
+      ],
       "definition": "To cure again.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:webster"
     },
     {
       "id": "16D",
@@ -724,6 +726,11 @@
       "clue": "Complete and impressive array",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A full set of armor",
+        "Full set of armor",
+        "Defensive armor in general"
+      ],
       "definition": "A full set of armor.",
       "clueSource": "sat:wordnet"
     },
@@ -886,11 +893,9 @@
       "col": 11,
       "length": 4,
       "answer": "AMID",
-      "clue": "See Amidst. In the midst or middle of",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Amidst. In the midst or middle of",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "28A",
@@ -942,11 +947,15 @@
       "col": 10,
       "length": 5,
       "answer": "TIPSY",
-      "clue": "Slightly intoxicated",
+      "clue": "Being under the influence of strong drink",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Befuddled with drinks",
+        "Slightly intoxicated"
+      ],
       "definition": "Befuddled with drinks.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "30D",
@@ -970,10 +979,10 @@
       "col": 0,
       "length": 15,
       "answer": "BUSINESSPERSONS",
-      "clue": "Capitalists who engages in industrial commercial enterprise",
+      "clue": "Capitalists who engage in industrial commercial enterprise",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Capitalists who engages in industrial commercial enterprise",
+      "definition": "Capitalists who engage in industrial commercial enterprise",
       "clueSource": "inflection"
     },
     {
@@ -1094,11 +1103,15 @@
       "col": 11,
       "length": 4,
       "answer": "CAME",
-      "clue": "Leaden sash-bar or grooved strip for fastening panes in",
+      "clue": "Leaden sash-bar or grooved strip for fastening panes in stained-glass windows",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A leaden sash-bar or grooved strip for fastening panes in",
+        "Leaden sash-bar or grooved strip for fastening panes in"
+      ],
       "definition": "A leaden sash-bar or grooved strip for fastening panes in stained-glass windows.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "39D",
@@ -1108,11 +1121,16 @@
       "col": 11,
       "length": 6,
       "answer": "CANDOR",
-      "clue": "Frankness; honesty in expression",
+      "clue": "Quality of being honest and straightforward in attitude and speech",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Frankness; honesty in expression",
+        "Quality of being open, honest, and direct",
+        "Whiteness"
+      ],
       "definition": "the quality of being open, honest, and direct",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "40A",
@@ -1135,11 +1153,15 @@
       "col": 5,
       "length": 3,
       "answer": "IRE",
-      "clue": "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+      "clue": "Anger",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "42A",
@@ -1164,6 +1186,11 @@
       "clue": "Vast multitude",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A gathered multitude of human beings",
+        "Gathered multitude of human beings",
+        "Wandering troop or gang"
+      ],
       "definition": "A gathered multitude of human beings.",
       "clueSource": "sat:wordnet"
     },
@@ -1202,10 +1229,10 @@
       "col": 9,
       "length": 6,
       "answer": "LONERS",
-      "clue": "Persons who avoids the company or assistance of others",
+      "clue": "People who avoid the company or assistance of others",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Persons who avoids the company or assistance of others",
+      "definition": "People who avoid the company or assistance of others",
       "clueSource": "inflection"
     },
     {
@@ -1339,11 +1366,15 @@
       "col": 0,
       "length": 5,
       "answer": "LITHE",
-      "clue": "Moving and bending with ease",
+      "clue": "Listen or listen to",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Supple",
+        "Moving and bending with ease"
+      ],
       "definition": "Supple.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:webster"
     },
     {
       "id": "53A",

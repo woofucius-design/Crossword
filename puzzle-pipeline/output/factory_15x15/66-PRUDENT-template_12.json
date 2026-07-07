@@ -432,10 +432,10 @@
       "col": 2,
       "length": 6,
       "answer": "ENSUES",
-      "clue": "Issues or terminate (in a specified way, state, etc",
+      "clue": "Issues or terminates (in a specified way, state, etc",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Issues or terminate (in a specified way, state, etc",
+      "definition": "Issues or terminates (in a specified way, state, etc",
       "clueSource": "inflection"
     },
     {
@@ -446,15 +446,9 @@
       "col": 2,
       "length": 15,
       "answer": "EQUALTOTWOLONGS",
-      "clue": "Maxim",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "MAXIM"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cequal to two longs\u201d defines maxim",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -464,10 +458,10 @@
       "col": 3,
       "length": 6,
       "answer": "NURSES",
-      "clue": "Women who is the custodian of children",
+      "clue": "Women who be the custodian of children",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Women who is the custodian of children",
+      "definition": "Women who be the custodian of children",
       "clueSource": "inflection"
     },
     {
@@ -647,10 +641,10 @@
       "col": 1,
       "length": 7,
       "answer": "MURDERS",
-      "clue": "Unlawfuls premeditated killing of a human being by a human being",
+      "clue": "Alters so as to make unrecognizable",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Unlawfuls premeditated killing of a human being by a human being",
+      "definition": "Alters so as to make unrecognizable",
       "clueSource": "inflection"
     },
     {
@@ -661,11 +655,16 @@
       "col": 1,
       "length": 9,
       "answer": "METRONOME",
-      "clue": "Instrument for indicating and marking exact time in music",
+      "clue": "An instrument for indicating and marking exact time in music",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Instrument for indicating and marking exact time in music",
+        "Clicking pendulum indicates the exact tempo of a piece of music",
+        "Instrument consisting of a short pendulum with a sliding weight...."
+      ],
       "definition": "An instrument for indicating and marking exact time in music.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "15A",
@@ -729,11 +728,16 @@
       "col": 8,
       "length": 7,
       "answer": "PRUDENT",
-      "clue": "Acting with care and thought for the future",
+      "clue": "Careful and sensible about the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Acting with care and thought for the future",
+        "Careful and sensible",
+        "Sagacious in adapting means to ends"
+      ],
       "definition": "acting with care and thought for the future",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "18D",
@@ -743,11 +747,16 @@
       "col": 9,
       "length": 3,
       "answer": "LEA",
-      "clue": "Field",
+      "clue": "A field",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
       "definition": "A field.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "19A",
@@ -773,8 +782,12 @@
       "clue": "Wrath",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "20D",
@@ -784,11 +797,16 @@
       "col": 7,
       "length": 7,
       "answer": "ICINESS",
-      "clue": "State of being icy",
+      "clue": "The state of being icy",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "State of being icy",
+        "Lack of affection or enthusiasm",
+        "State or quality of being icy or very cold"
+      ],
       "definition": "The state of being icy.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "21A",
@@ -814,6 +832,9 @@
       "clue": "Before birth",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Occurring or existing before birth"
+      ],
       "definition": "Occurring or existing before birth.",
       "clueSource": "sat:webster"
     },
@@ -905,11 +926,9 @@
       "col": 0,
       "length": 3,
       "answer": "HOO",
-      "clue": "See Ho",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Ho",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "29A",
@@ -1074,8 +1093,12 @@
       "clue": "Lacking clearness",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Filled or abounding with fog or mist",
+        "Accompained with mist"
+      ],
       "definition": "Lacking clearness",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "38D",

@@ -275,10 +275,10 @@
       "col": 1,
       "length": 6,
       "answer": "SMEARS",
-      "clue": "Acts that brings discredit to the person who does it",
+      "clue": "Acts that bring discredit to the person who does it",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Acts that brings discredit to the person who does it",
+      "definition": "Acts that bring discredit to the person who does it",
       "clueSource": "inflection"
     },
     {
@@ -292,8 +292,12 @@
       "clue": "One who writes or is skilled in writing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Sharp-pointed awl for marking wood or metal to be cut",
+        "One who writes"
+      ],
       "definition": "One who writes or is skilled in writing.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "2D",
@@ -331,11 +335,15 @@
       "col": 4,
       "length": 3,
       "answer": "AYE",
-      "clue": "Expression of assent",
+      "clue": "An expression of assent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Expression of assent",
+        "Yes"
+      ],
       "definition": "An expression of assent.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "5D",
@@ -345,11 +353,17 @@
       "col": 5,
       "length": 5,
       "answer": "RONDO",
-      "clue": "Musical composition during which the first part or subject is",
+      "clue": "A musical composition during which the first part or subject is",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Musical composition during which the first part or subject is",
+        "Musical composition during which the first part or subject is repeated several",
+        "Musical form that is often the last movement of a sonata",
+        "Composition, vocal or instrumental, commonly of a lively, cheerful..."
+      ],
       "definition": "A musical composition during which the first part or subject is repeated several",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "6D",
@@ -403,8 +417,13 @@
       "clue": "Repetition of words or sounds as a means of learning them, with",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Repetition of words or sounds as a means of learning them, with slight attention",
+        "Memorization by repetition",
+        "Root"
+      ],
       "definition": "Repetition of words or sounds as a means of learning them, with slight attention.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -414,11 +433,16 @@
       "col": 10,
       "length": 4,
       "answer": "APEX",
-      "clue": "Highest point, as of a mountain",
+      "clue": "The highest point, as of a mountain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Highest point, as of a mountain",
+        "Point on the celestial sphere toward which the sun and solar system appear...",
+        "Tip, top, point, or angular summit of anything"
+      ],
       "definition": "The highest point, as of a mountain.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "10A",
@@ -428,15 +452,9 @@
       "col": 1,
       "length": 6,
       "answer": "CANYOU",
-      "clue": "Relent",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RELENT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cCan you\u201d defines relent",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "11A",
@@ -463,8 +481,13 @@
       "clue": "Careful and sensible about the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Acting with care and thought for the future",
+        "Careful and sensible",
+        "Sagacious in adapting means to ends"
+      ],
       "definition": "acting with care and thought for the future",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "12D",
@@ -519,8 +542,12 @@
       "clue": "Having two parts",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Allowing communication in opposite directions simultaneously",
+        "Double"
+      ],
       "definition": "Having two parts.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "16D",
@@ -598,11 +625,9 @@
       "col": 6,
       "length": 5,
       "answer": "ENURE",
-      "clue": "See Inure",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Inure",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "22D",
@@ -612,10 +637,10 @@
       "col": 8,
       "length": 6,
       "answer": "UNIATE",
-      "clue": "Member of the Uniat Church",
+      "clue": "Of or relating to former Eastern Christian or Orthodox churches that have been...",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Member of the Uniat Church",
+      "definition": "Of or relating to former Eastern Christian or Orthodox churches that have been...",
       "clueSource": "wordnet"
     },
     {
@@ -736,11 +761,16 @@
       "col": 2,
       "length": 4,
       "answer": "EMIT",
-      "clue": "Send or give out",
+      "clue": "To send or give out",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
       "definition": "To send or give out.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "31A",
@@ -763,11 +793,9 @@
       "col": 0,
       "length": 3,
       "answer": "HIM",
-      "clue": "Them. See Hem",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Them. See Hem",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "33A",
@@ -817,15 +845,9 @@
       "col": 4,
       "length": 6,
       "answer": "NAVETE",
-      "clue": "Grimace",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "GRIMACE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cna vete\u201d defines grimace",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "37A",

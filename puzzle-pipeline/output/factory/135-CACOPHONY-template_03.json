@@ -351,11 +351,9 @@
       "col": 9,
       "length": 3,
       "answer": "HIM",
-      "clue": "Them. See Hem",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Them. See Hem",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "6D",
@@ -410,8 +408,12 @@
       "clue": "Friendship",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Cordial disposition",
+        "Friendship, in a general sense, between individuals, societies, or..."
+      ],
       "definition": "Friendship.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "9D",
@@ -421,11 +423,17 @@
       "col": 5,
       "length": 9,
       "answer": "CACOPHONY",
-      "clue": "Uncouth or disagreable sound of words, owing to the concurrence of...",
+      "clue": "A harsh jumble of sound",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Harsh jumble of sound",
+        "Harsh, discordant mixture of sounds",
+        "Loud confusing disagreeable sounds",
+        "Uncouth or disagreable sound of words, owing to the concurrence of..."
+      ],
       "definition": "a harsh, discordant mixture of sounds",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "10D",
@@ -435,11 +443,9 @@
       "col": 6,
       "length": 3,
       "answer": "THE",
-      "clue": "See Thee",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Thee",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "11A",
@@ -559,15 +565,9 @@
       "col": 8,
       "length": 7,
       "answer": "ONETIME",
-      "clue": "Rhapsody",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RHAPSODY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cone time\u201d defines rhapsody",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "20D",
@@ -746,8 +746,12 @@
       "clue": "Wrath",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
       "definition": "Wrath.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "32A",
@@ -771,11 +775,15 @@
       "col": 4,
       "length": 3,
       "answer": "AYE",
-      "clue": "Expression of assent",
+      "clue": "An expression of assent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Expression of assent",
+        "Yes"
+      ],
       "definition": "An expression of assent.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "34A",

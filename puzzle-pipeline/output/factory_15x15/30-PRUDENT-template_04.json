@@ -465,15 +465,9 @@
       "col": 1,
       "length": 6,
       "answer": "DOSEEM",
-      "clue": "Neutral",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "NEUTRAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cdo seem\u201d defines neutral",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "1D",
@@ -593,11 +587,11 @@
       "col": 12,
       "length": 9,
       "answer": "DEPOSITOR",
-      "clue": "One who makes a deposit, or has an amount deposited",
+      "clue": "Bank customer with a savings account",
       "isSATVocab": true,
       "isSATSynonym": false,
       "definition": "One who makes a deposit, or has an amount deposited.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:hand"
     },
     {
       "id": "9D",
@@ -635,10 +629,10 @@
       "col": 0,
       "length": 9,
       "answer": "BICUSPIDS",
-      "clue": "Tooth having two cuspses or pointses",
+      "clue": "Tooth having two cusps or points",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Tooth having two cuspses or pointses",
+      "definition": "Tooth having two cusps or points",
       "clueSource": "inflection"
     },
     {
@@ -677,10 +671,10 @@
       "col": 8,
       "length": 4,
       "answer": "SUES",
-      "clue": "French writers whose novels described the sordid side of city life",
+      "clue": "Institutes legal proceedings against",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "French writers whose novels described the sordid side of city life",
+      "definition": "Institutes legal proceedings against",
       "clueSource": "inflection"
     },
     {
@@ -704,15 +698,14 @@
       "col": 0,
       "length": 10,
       "answer": "UTTERALOUD",
-      "clue": "Bray",
+      "clue": "Shriek",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
-        "BRAY",
         "SHRIEK"
       ],
       "satTeachingKind": "short_def",
-      "definition": "\u201cutter a loud\u201d defines bray",
+      "definition": "\u201cutter a loud\u201d defines shriek",
       "clueSource": "sat_short_def"
     },
     {
@@ -737,11 +730,16 @@
       "col": 11,
       "length": 4,
       "answer": "APEX",
-      "clue": "Highest point, as of a mountain",
+      "clue": "The highest point, as of a mountain",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Highest point, as of a mountain",
+        "Point on the celestial sphere toward which the sun and solar system appear...",
+        "Tip, top, point, or angular summit of anything"
+      ],
       "definition": "The highest point, as of a mountain.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "18A",
@@ -819,11 +817,16 @@
       "col": 4,
       "length": 7,
       "answer": "DEPLETE",
-      "clue": "Reduce or lessen, as by use, exhaustion, or waste",
+      "clue": "To reduce or lessen, as by use, exhaustion, or waste",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Reduce or lessen, as by use, exhaustion, or waste",
+        "Use up (resources or materials)",
+        "Empty or unload, as the vessels of human system, by bloodletting..."
+      ],
       "definition": "To reduce or lessen, as by use, exhaustion, or waste.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "24D",
@@ -861,11 +864,9 @@
       "col": 10,
       "length": 7,
       "answer": "RATTLES",
-      "clue": "Looselies connected horny sections at the end of a rattlesnake's tail",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Looselies connected horny sections at the end of a rattlesnake's tail",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "27D",
@@ -875,11 +876,16 @@
       "col": 11,
       "length": 7,
       "answer": "PRUDENT",
-      "clue": "Acting with care and thought for the future",
+      "clue": "Careful and sensible about the future",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Acting with care and thought for the future",
+        "Careful and sensible",
+        "Sagacious in adapting means to ends"
+      ],
       "definition": "acting with care and thought for the future",
-      "clueSource": "sat:sat_def"
+      "clueSource": "sat"
     },
     {
       "id": "28A",
@@ -960,8 +966,12 @@
       "clue": "Favoring, protecting, or propitious influence or guidance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Favorable omen",
+        "Divining or taking of omens by observing birds"
+      ],
       "definition": "favoring, protecting, or propitious influence or guidance.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "33D",
@@ -974,8 +984,12 @@
       "clue": "Once more",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Over again"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "34D",
@@ -985,10 +999,10 @@
       "col": 2,
       "length": 9,
       "answer": "UNLEASHED",
-      "clue": "Released or vent",
+      "clue": "Released or vented",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Released or vent",
+      "definition": "Released or vented",
       "clueSource": "inflection"
     },
     {
@@ -1013,15 +1027,9 @@
       "col": 0,
       "length": 15,
       "answer": "ANNULSANACTDONE",
-      "clue": "Revocation",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "REVOCATION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cannuls an act done\u201d defines revocation",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "36D",
@@ -1072,11 +1080,16 @@
       "col": 0,
       "length": 5,
       "answer": "BELIE",
-      "clue": "Misrepresent",
+      "clue": "To misrepresent",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Misrepresent",
+        "Represent falsely",
+        "Show to be false"
+      ],
       "definition": "To misrepresent.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "40A",
@@ -1131,8 +1144,12 @@
       "clue": "One who owes allegiance to a foreign government",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Being or from or characteristic of another place or part of the world",
+        "Not belonging to the same country, land, or government, or to the..."
+      ],
       "definition": "One who owes allegiance to a foreign government.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "44A",
@@ -1304,11 +1321,16 @@
       "col": 0,
       "length": 4,
       "answer": "ACHE",
-      "clue": "Be in pain or distress",
+      "clue": "To be in pain or distress",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
       "definition": "To be in pain or distress.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "56D",

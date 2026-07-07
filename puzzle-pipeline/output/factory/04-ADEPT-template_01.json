@@ -349,11 +349,9 @@
       "col": 8,
       "length": 3,
       "answer": "LOS",
-      "clue": "Praise. See Loos",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Praise. See Loos",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "5D",
@@ -363,11 +361,11 @@
       "col": 8,
       "length": 3,
       "answer": "LAS",
-      "clue": "Lace. See Lace",
+      "clue": "Syllable naming the sixth (submediant) notes of a major or minor scale",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Lace. See Lace",
-      "clueSource": "webster"
+      "definition": "Syllable naming the sixth (submediant) notes of a major or minor scale",
+      "clueSource": "inflection"
     },
     {
       "id": "6D",
@@ -377,11 +375,16 @@
       "col": 9,
       "length": 3,
       "answer": "ODE",
-      "clue": "Short poetical composition proper to be set to music or sung",
+      "clue": "Form of lyric poetry anciently intended to be sung",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The form of lyric poetry anciently intended to be sung",
+        "Lyric poem with complex stanza forms",
+        "Short poetical composition proper to be set to music or sung"
+      ],
       "definition": "The form of lyric poetry anciently intended to be sung.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "7D",
@@ -391,11 +394,15 @@
       "col": 10,
       "length": 3,
       "answer": "SOL",
-      "clue": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "clue": "Sun",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
       "definition": "The sun.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "8A",
@@ -408,6 +415,9 @@
       "clue": "In good time",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "In good season or time"
+      ],
       "definition": "In good season or time.",
       "clueSource": "sat:wordnet"
     },
@@ -419,15 +429,9 @@
       "col": 4,
       "length": 9,
       "answer": "MAKEAMARK",
-      "clue": "Scribe",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "SCRIBE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cmake a mark\u201d defines scribe",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "10D",
@@ -451,15 +455,9 @@
       "col": 6,
       "length": 9,
       "answer": "SEEMETTLE",
-      "clue": "Metal",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "METAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Mettle\u201d defines metal",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "12A",
@@ -469,11 +467,15 @@
       "col": 8,
       "length": 3,
       "answer": "ADO",
-      "clue": "Do",
+      "clue": "Rapid active commotion",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Unnecessary activity or ceremony",
+        "Do"
+      ],
       "definition": "unnecessary activity or ceremony.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "13A",
@@ -483,15 +485,9 @@
       "col": 0,
       "length": 11,
       "answer": "OVERAVESSEL",
-      "clue": "Breach",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "BREACH"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cover a vessel\u201d defines breach",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "14D",
@@ -515,7 +511,7 @@
       "col": 4,
       "length": 4,
       "answer": "KEEN",
-      "clue": "Astute",
+      "clue": "Astute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -590,11 +586,16 @@
       "col": 3,
       "length": 5,
       "answer": "ADEPT",
-      "clue": "Having or showing knowledge and skill and aptitude",
+      "clue": "Very skilled or proficient at something",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Highly skilled",
+        "Having or showing knowledge and skill and aptitude",
+        "One fully skilled or well versed in anything"
+      ],
       "definition": "very skilled or proficient at something",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "20A",
@@ -701,11 +702,16 @@
       "col": 6,
       "length": 5,
       "answer": "TERSE",
-      "clue": "Brief and to the point",
+      "clue": "Briefly and cleanly expressed; curt",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Brief to the point of bluntness",
+        "Brief and to the point",
+        "Appearing as if rubbed or wiped off"
+      ],
       "definition": "briefly and cleanly expressed; curt",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "28A",
@@ -715,11 +721,16 @@
       "col": 3,
       "length": 4,
       "answer": "PACT",
-      "clue": "Agreement",
+      "clue": "Covenant",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A covenant",
+        "Written agreement between two states or sovereigns",
+        "Agreement"
+      ],
       "definition": "A covenant.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "29D",
@@ -743,15 +754,9 @@
       "col": 0,
       "length": 11,
       "answer": "CENTRALAXIS",
-      "clue": "Bilateral",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "BILATERAL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccentral axis\u201d defines bilateral",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "30D",
@@ -789,11 +794,15 @@
       "col": 2,
       "length": 3,
       "answer": "NIL",
-      "clue": "Will not",
+      "clue": "Quantity of no importance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Nothing",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "33D",

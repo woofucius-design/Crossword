@@ -461,15 +461,9 @@
       "col": 1,
       "length": 10,
       "answer": "ILLNATURED",
-      "clue": "Fretful",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "FRETFUL"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cill natured\u201d defines fretful",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -479,15 +473,9 @@
       "col": 2,
       "length": 15,
       "answer": "LEASTAPPARENTLY",
-      "clue": "Apology",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "APOLOGY"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cleast apparently\u201d defines apology",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -663,15 +651,9 @@
       "col": 7,
       "length": 8,
       "answer": "AMOSVIII",
-      "clue": "Deceit",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "DECEIT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cAmos viii\u201d defines deceit",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "13D",
@@ -709,11 +691,16 @@
       "col": 0,
       "length": 6,
       "answer": "PLACID",
-      "clue": "Free from disturbance by heavy waves",
+      "clue": "Calm and peaceful, free from disturbance",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Calm and untroubled",
+        "Free from disturbance by heavy waves",
+        "Pleased"
+      ],
       "definition": "calm and peaceful, free from disturbance",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "16A",
@@ -887,10 +874,10 @@
       "col": 13,
       "length": 10,
       "answer": "ALTIMETERS",
-      "clue": "Instruments that measures the height above ground",
+      "clue": "Instruments that measure the height above ground",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Instruments that measures the height above ground",
+      "definition": "Instruments that measure the height above ground",
       "clueSource": "inflection"
     },
     {
@@ -998,11 +985,15 @@
       "col": 3,
       "length": 8,
       "answer": "ACADEMIC",
-      "clue": "One holding the philosophy of Socrates and Plato",
+      "clue": "Hypothetical or theoretical and not expected to produce an immediate or...",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Of or pertaining to an academy, college, or university",
+        "One holding the philosophy of Socrates and Plato"
+      ],
       "definition": "Of or pertaining to an academy, college, or university.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "34A",
@@ -1149,11 +1140,15 @@
       "col": 6,
       "length": 4,
       "answer": "WEAL",
-      "clue": "Mark of a stripe. See Wale. To mark with stripes. See Wale",
+      "clue": "Raised mark on the skin (as produced by the blow of a whip)",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Well-being",
+        "Mark of a stripe. See Wale. To mark with stripes. See Wale"
+      ],
       "definition": "Well-being.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "43D",
@@ -1163,11 +1158,17 @@
       "col": 7,
       "length": 4,
       "answer": "ALLY",
-      "clue": "Friendly nation",
+      "clue": "Person or thing connected with another, usually in some relation of",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A person or thing connected with another, usually in some relation of",
+        "Person or thing connected with another, usually in some relation of helpfulness",
+        "Friendly nation",
+        "Unite, or form a connection between, as between families by..."
+      ],
       "definition": "A person or thing connected with another, usually in some relation of helpfulness.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "44A",
@@ -1247,11 +1248,15 @@
       "col": 6,
       "length": 9,
       "answer": "ELIMINATE",
-      "clue": "Put out of doors",
+      "clue": "Separate and cast aside",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To separate and cast aside",
+        "Put out of doors"
+      ],
       "definition": "To separate and cast aside.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "49D",

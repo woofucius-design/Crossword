@@ -479,15 +479,9 @@
       "col": 2,
       "length": 15,
       "answer": "OTHERREALESTATE",
-      "clue": "Tenant",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TENANT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cother real estate\u201d defines tenant",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -522,11 +516,15 @@
       "col": 9,
       "length": 6,
       "answer": "CONFER",
-      "clue": "Bring together for comparison",
+      "clue": "Bestow",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To bestow",
+        "Bring together for comparison"
+      ],
       "definition": "To bestow.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "5D",
@@ -633,10 +631,10 @@
       "col": 0,
       "length": 4,
       "answer": "LAPS",
-      "clue": "Touchings with the tongue",
+      "clue": "Washes or flows against",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Touchings with the tongue",
+      "definition": "Washes or flows against",
       "clueSource": "inflection"
     },
     {
@@ -879,11 +877,9 @@
       "col": 13,
       "length": 10,
       "answer": "FLUORIDATE",
-      "clue": "Subject to fluoridation",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Subject to fluoridation",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "28A",
@@ -1002,11 +998,16 @@
       "col": 8,
       "length": 7,
       "answer": "ZEALOUS",
-      "clue": "Marked by active interest and enthusiasm",
+      "clue": "Having great energy or enthusiasm for a cause",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Full of energy for a cause",
+        "Marked by active interest and enthusiasm",
+        "Filled with, or characterized by, zeal"
+      ],
       "definition": "having great energy or enthusiasm for a cause",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "34D",
@@ -1030,11 +1031,9 @@
       "col": 0,
       "length": 6,
       "answer": "LILACS",
-      "clue": "Anies of various plants of the genus Syringa having large panicles of",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Anies of various plants of the genus Syringa having large panicles of",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "36A",
@@ -1100,11 +1099,16 @@
       "col": 11,
       "length": 6,
       "answer": "PAPACY",
-      "clue": "Office and dignity of the pope, or pontiff, of Rome",
+      "clue": "Official head of the Roman Catholic Church",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The official head of the Roman Catholic Church",
+        "Government of the Roman Catholic Church",
+        "Office and dignity of the pope, or pontiff, of Rome"
+      ],
       "definition": "The official head of the Roman Catholic Church.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "41A",
@@ -1238,10 +1242,10 @@
       "col": 6,
       "length": 9,
       "answer": "TETRAPODS",
-      "clue": "Vertebrate animal having four feets or legses or leglike appendageses",
+      "clue": "Vertebrate animal having four feet or legs or leglike appendages",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Vertebrate animal having four feets or legses or leglike appendageses",
+      "definition": "Vertebrate animal having four feet or legs or leglike appendages",
       "clueSource": "inflection"
     },
     {
@@ -1333,10 +1337,10 @@
       "col": 0,
       "length": 8,
       "answer": "PATRIOTS",
-      "clue": "Ones who loves and defends his or her country",
+      "clue": "Ones who love and defend his or her country",
       "isSATVocab": false,
       "isSATSynonym": false,
-      "definition": "Ones who loves and defends his or her country",
+      "definition": "Ones who love and defend his or her country",
       "clueSource": "inflection"
     },
     {
@@ -1375,11 +1379,15 @@
       "col": 10,
       "length": 4,
       "answer": "LYRE",
-      "clue": "Stringed instrument of music",
+      "clue": "Harp used by ancient Greeks for accompaniment",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "One of the most ancient of stringed instruments of the harp class",
+        "Stringed instrument of music"
+      ],
       "definition": "One of the most ancient of stringed instruments of the harp class.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     }
   ]
 }

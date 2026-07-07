@@ -452,16 +452,9 @@
       "col": 3,
       "length": 6,
       "answer": "COMETO",
-      "clue": "Recover",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "RECOVER",
-        "BETIDE"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201ccome to\u201d defines recover",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -568,15 +561,9 @@
       "col": 12,
       "length": 13,
       "answer": "UNDERSTATUTES",
-      "clue": "Injunction",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "INJUNCTION"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cunder statutes\u201d defines injunction",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "9D",
@@ -655,11 +642,16 @@
       "col": 1,
       "length": 6,
       "answer": "BEMOAN",
-      "clue": "Lament",
+      "clue": "To lament",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Lament",
+        "Regret strongly",
+        "Express deep grief for by moaning"
+      ],
       "definition": "To lament",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "13D",
@@ -792,11 +784,11 @@
       "col": 5,
       "length": 8,
       "answer": "NARRATOR",
-      "clue": "One who narrates anything",
+      "clue": "Someone who tells a story",
       "isSATVocab": true,
       "isSATSynonym": false,
       "definition": "One who narrates anything.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "20D",
@@ -809,8 +801,12 @@
       "clue": "Clamorous",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Attracting attention by showiness or bright colors",
+        "Making a noise, esp. a loud sound"
+      ],
       "definition": "Clamorous.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "21D",
@@ -848,11 +844,9 @@
       "col": 0,
       "length": 4,
       "answer": "UNTO",
-      "clue": "To",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "To",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "24A",
@@ -862,11 +856,16 @@
       "col": 5,
       "length": 4,
       "answer": "OGRE",
-      "clue": "Demon or monster that was supposed to devour human beings",
+      "clue": "A demon or monster that was supposed to devour human beings",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
       "definition": "A demon or monster that was supposed to devour human beings.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "25A",
@@ -889,11 +888,9 @@
       "col": 13,
       "length": 8,
       "answer": "HALOGENS",
-      "clue": "Anies of five related nonmetallic elements (fluorine or chlorine or",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Anies of five related nonmetallic elements (fluorine or chlorine or",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "27A",
@@ -916,11 +913,16 @@
       "col": 4,
       "length": 3,
       "answer": "VIE",
-      "clue": "Contend",
+      "clue": "To contend",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Contend",
+        "Compete for something",
+        "Stake a sum upon a hand of cards, as in the old game of gleek. See..."
+      ],
       "definition": "To contend.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "28D",
@@ -972,11 +974,16 @@
       "col": 0,
       "length": 7,
       "answer": "VERBOSE",
-      "clue": "Using or containing too many words",
+      "clue": "Using far more words than needed",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Using or expressed in more words than are needed",
+        "Using or containing too many words",
+        "Abounding in words"
+      ],
       "definition": "using or expressed in more words than are needed",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "31D",
@@ -1086,8 +1093,12 @@
       "clue": "Stretched tight",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Pulled or drawn tight",
+        "Tight"
+      ],
       "definition": "Stretched tight.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "38A",
@@ -1152,15 +1163,9 @@
       "col": 11,
       "length": 6,
       "answer": "HSWEET",
-      "clue": "Nomic",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "NOMIC"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cH Sweet\u201d defines nomic",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "41A",
@@ -1321,11 +1326,16 @@
       "col": 8,
       "length": 6,
       "answer": "ABBESS",
-      "clue": "Lady superior of a nunnery",
+      "clue": "The lady superior of a nunnery",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Lady superior of a nunnery",
+        "Superior of a group of nuns",
+        "Female superior or governess of a nunnery, or convent of nuns,..."
+      ],
       "definition": "The lady superior of a nunnery.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "50D",

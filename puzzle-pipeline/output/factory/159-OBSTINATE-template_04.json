@@ -279,11 +279,9 @@
       "col": 2,
       "length": 11,
       "answer": "EMOTIONALLY",
-      "clue": "With regard to emotions",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "With regard to emotions",
-      "clueSource": "wordnet"
+      "isSATSynonym": false
     },
     {
       "id": "3D",
@@ -416,11 +414,15 @@
       "col": 1,
       "length": 10,
       "answer": "LOCOMOTION",
-      "clue": "Act or power of moving from one place to another",
+      "clue": "The act or power of moving from one place to another",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Act or power of moving from one place to another",
+        "Self-propelled movement"
+      ],
       "definition": "The act or power of moving from one place to another.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "12D",
@@ -430,11 +432,16 @@
       "col": 6,
       "length": 9,
       "answer": "OBSTINATE",
-      "clue": "Pertinaciously adhering to an opinion, purpose, or course",
+      "clue": "Stubbornly set in one's ways",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Stubbornly refusing to change one's opinion",
+        "Resistant to guidance or discipline",
+        "Pertinaciously adhering to an opinion, purpose, or course"
+      ],
       "definition": "stubbornly refusing to change one's opinion",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "13D",
@@ -516,8 +523,11 @@
       "clue": "Of a steady and sober character",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Characterized by dignity and propriety"
+      ],
       "definition": "Of a steady and sober character.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "18A",
@@ -614,8 +624,12 @@
       "clue": "Nothing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
       "definition": "Nothing",
-      "clueSource": "sat:sat"
+      "clueSource": "sat"
     },
     {
       "id": "24A",
@@ -705,11 +719,9 @@
       "col": 5,
       "length": 5,
       "answer": "WELTS",
-      "clue": "Raiseds or strengthened seam",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Raiseds or strengthened seam",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     }
   ]
 }

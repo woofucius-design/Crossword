@@ -401,11 +401,16 @@
       "col": 9,
       "length": 4,
       "answer": "TEEM",
-      "clue": "Pour",
+      "clue": "Be full to overflowing",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To be full to overflowing",
+        "Move in large numbers",
+        "Pour"
+      ],
       "definition": "To be full to overflowing.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "10A",
@@ -429,11 +434,9 @@
       "col": 7,
       "length": 4,
       "answer": "NOES",
-      "clue": "Negatives",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "Negatives",
-      "clueSource": "inflection"
+      "isSATSynonym": false
     },
     {
       "id": "12D",
@@ -443,11 +446,9 @@
       "col": 10,
       "length": 3,
       "answer": "SWA",
-      "clue": "So",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "So",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "13A",
@@ -471,11 +472,15 @@
       "col": 7,
       "length": 4,
       "answer": "ANEW",
-      "clue": "Over again",
+      "clue": "Again but in a new or different way",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Once more",
+        "Over again"
+      ],
       "definition": "Once more.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "15A",
@@ -512,11 +517,16 @@
       "col": 3,
       "length": 6,
       "answer": "ARDENT",
-      "clue": "Glowing or shining like fire",
+      "clue": "Very enthusiastic or passionate",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Burning with enthusiasm",
+        "Glowing or shining like fire",
+        "Hot or burning"
+      ],
       "definition": "very enthusiastic or passionate",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "18D",
@@ -526,11 +536,16 @@
       "col": 5,
       "length": 3,
       "answer": "DOE",
-      "clue": "Female deer or antelope",
+      "clue": "Female of the deer",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The female of the deer",
+        "Mature female of mammals of which the male is called `buck'",
+        "Female deer or antelope"
+      ],
       "definition": "The female of the deer.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "19D",
@@ -540,11 +555,15 @@
       "col": 6,
       "length": 7,
       "answer": "ELUSION",
-      "clue": "Act of eluding",
+      "clue": "Act of avoiding capture (especially by cunning)",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Evasion",
+        "Act of eluding"
+      ],
       "definition": "Evasion.",
-      "clueSource": "sat:webster"
+      "clueSource": "sat:wordnet"
     },
     {
       "id": "20D",
@@ -554,11 +573,16 @@
       "col": 7,
       "length": 7,
       "answer": "NAPHTHA",
-      "clue": "Complex mixture of volatile, liquid, inflammable hydrocarbons,...",
+      "clue": "Light, colorless, volatile, inflammable oil used as a solvent, as in",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A light, colorless, volatile, inflammable oil used as a solvent, as in",
+        "Any of various volatile flammable liquid hydrocarbon mixtures",
+        "Complex mixture of volatile, liquid, inflammable hydrocarbons,..."
+      ],
       "definition": "A light, colorless, volatile, inflammable oil used as a solvent, as in",
-      "clueSource": "sat:webster"
+      "clueSource": "sat"
     },
     {
       "id": "21A",
@@ -582,11 +606,17 @@
       "col": 2,
       "length": 6,
       "answer": "AMBUSH",
-      "clue": "Act of concealing yourself and lying in wait to attack by surprise",
+      "clue": "Act or state of lying concealed for the purpose of surprising or",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "The act or state of lying concealed for the purpose of surprising or",
+        "Act or state of lying concealed for the purpose of surprising or attacking",
+        "Act of concealing yourself and lying in wait to attack by surprise",
+        "Disposition or arrangement of troops for attacking an enemy..."
+      ],
       "definition": "The act or state of lying concealed for the purpose of surprising or attacking",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "22A",
@@ -596,15 +626,9 @@
       "col": 2,
       "length": 6,
       "answer": "MADEUP",
-      "clue": "Polyglot",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "POLYGLOT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cmade up\u201d defines polyglot",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "23A",
@@ -767,7 +791,7 @@
       "col": 0,
       "length": 4,
       "answer": "WISE",
-      "clue": "Astute",
+      "clue": "Astute?",
       "isSATVocab": false,
       "isSATSynonym": true,
       "satSynonymOf": [
@@ -786,11 +810,15 @@
       "col": 5,
       "length": 6,
       "answer": "COHERE",
-      "clue": "Come or be in close contact with",
+      "clue": "Stick together",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "To stick together",
+        "Come or be in close contact with"
+      ],
       "definition": "To stick together.",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat"
     },
     {
       "id": "34A",
@@ -800,11 +828,9 @@
       "col": 1,
       "length": 3,
       "answer": "THE",
-      "clue": "See Thee",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Thee",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "35A",

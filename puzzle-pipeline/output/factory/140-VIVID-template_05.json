@@ -289,15 +289,9 @@
       "col": 1,
       "length": 6,
       "answer": "SEEBOB",
-      "clue": "Plumb",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "PLUMB"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cSee Bob\u201d defines plumb",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "2D",
@@ -404,11 +398,17 @@
       "col": 9,
       "length": 4,
       "answer": "BIER",
-      "clue": "Stand to support a corpse or a coffin prior to burial",
+      "clue": "Horizontal framework with two handles at each end for carrying a corpse to the",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "A horizontal framework with two handles at each end for carrying a",
+        "Horizontal framework with two handles at each end for carrying a",
+        "Stand to support a corpse or a coffin prior to burial",
+        "Handbarrow or portable frame on which a corpse is placed or borne..."
+      ],
       "definition": "A horizontal framework with two handles at each end for carrying a corpse to the",
-      "clueSource": "sat:wordnet"
+      "clueSource": "sat:sat_def"
     },
     {
       "id": "9A",
@@ -502,11 +502,9 @@
       "col": 0,
       "length": 3,
       "answer": "OBE",
-      "clue": "See Obi",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": false,
-      "definition": "See Obi",
-      "clueSource": "webster"
+      "isSATSynonym": false
     },
     {
       "id": "15A",
@@ -611,15 +609,9 @@
       "col": 8,
       "length": 6,
       "answer": "JAMESI",
-      "clue": "Tempt",
+      "clue": "",
       "isSATVocab": false,
-      "isSATSynonym": true,
-      "satSynonymOf": [
-        "TEMPT"
-      ],
-      "satTeachingKind": "short_def",
-      "definition": "\u201cJames i\u201d defines tempt",
-      "clueSource": "sat_short_def"
+      "isSATSynonym": false
     },
     {
       "id": "23D",
@@ -684,11 +676,14 @@
       "col": 0,
       "length": 6,
       "answer": "ACETIC",
-      "clue": "Of, pertaining to, or of the nature of vinegar",
+      "clue": "Of a pertaining to vinegar",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Of, pertaining to, or of the nature of vinegar"
+      ],
       "definition": "Of, pertaining to, or of the nature of vinegar.",
-      "clueSource": "sat:sat"
+      "clueSource": "sat:webster"
     },
     {
       "id": "27D",
@@ -849,6 +844,11 @@
       "clue": "Having the highest saturation",
       "isSATVocab": true,
       "isSATSynonym": false,
+      "altClues": [
+        "Strikingly bright or clear",
+        "Producing strong, clear images in the mind",
+        "True to the life"
+      ],
       "definition": "producing strong, clear images in the mind",
       "clueSource": "sat:wordnet"
     }
