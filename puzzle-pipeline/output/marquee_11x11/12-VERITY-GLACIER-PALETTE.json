@@ -1,0 +1,858 @@
+{
+  "date": "2027-08-12",
+  "number": 3011,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "A",
+      "B",
+      "O",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "T",
+      "I",
+      "C",
+      "#",
+      "E",
+      "T",
+      "A",
+      "#"
+    ],
+    [
+      "V",
+      "E",
+      "R",
+      "I",
+      "T",
+      "Y",
+      "#",
+      "R",
+      "A",
+      "T",
+      "H"
+    ],
+    [
+      "E",
+      "R",
+      "I",
+      "C",
+      "#",
+      "C",
+      "H",
+      "I",
+      "C",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "L",
+      "A",
+      "C",
+      "I",
+      "E",
+      "R"
+    ],
+    [
+      "A",
+      "M",
+      "E",
+      "L",
+      "I",
+      "O",
+      "R",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "E",
+      "T",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "I",
+      "S",
+      "N",
+      "E",
+      "R",
+      "#",
+      "O",
+      "M",
+      "N",
+      "I"
+    ],
+    [
+      "X",
+      "L",
+      "I",
+      "I",
+      "#",
+      "O",
+      "R",
+      "G",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "N",
+      "#",
+      "N",
+      "O",
+      "R",
+      "M",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "E",
+      "R",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "1,0": {
+      "number": 6
+    },
+    "1,5": {
+      "number": 7
+    },
+    "1,7": {
+      "number": 8
+    },
+    "1,8": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,7": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,4": {
+      "number": 17
+    },
+    "5,0": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,2": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,1": {
+      "number": 31
+    },
+    "9,5": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "LABOR",
+      "clue": "Productive work (especially physical work done for wages)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Productive work (especially physical work done for wages)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LAVE",
+      "clue": "Wash one's face and hands",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To wash or bathe",
+        "Wash or bathe",
+        "Wash"
+      ],
+      "definition": "To wash or bathe.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACER",
+      "clue": "Type genus of the Aceraceae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Aceraceae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "BERI",
+      "clue": "First half of a tropical vitamin-deficiency disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "OTIC",
+      "clue": "Of or relating to near the ear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to near the ear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "RIT",
+      "clue": "3d pers. ssing. pres. of Ride, contracted from rideth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "3d pers. ssing. pres. of Ride, contracted from rideth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ACETIC",
+      "clue": "Of a pertaining to vinegar",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of, pertaining to, or of the nature of vinegar"
+      ],
+      "definition": "Of, pertaining to, or of the nature of vinegar.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "CYCLOTRON",
+      "clue": "Accelerator that imparts energies of several million electron-volts to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accelerator that imparts energies of several million electron-volts to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "7th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 5,
+      "answer": "ERICA",
+      "clue": "Genus of shrubby plants, including the heaths, many of them producing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of shrubby plants, including the heaths, many of them producing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 8,
+      "length": 5,
+      "answer": "TACIT",
+      "clue": "Done or made in silence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Understood",
+        "Implied by or inferred from actions or statements"
+      ],
+      "definition": "Understood.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "ATLEE",
+      "clue": "Postwar U.K. PM Clement (var. sp.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "VERITY",
+      "clue": "Quality or state of being true, or real",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Truth",
+        "Enduring or necessary ethical or religious or aesthetic truth"
+      ],
+      "definition": "Truth.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RATH",
+      "clue": "Hill or mound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hill or mound",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 4,
+      "answer": "HERD",
+      "clue": "Group of cattle or sheep or other domestic mammals all of the same kind that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of cattle or sheep or other domestic mammals all of the same kind that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "CHICLE",
+      "clue": "Gum-like substance from the sapodilla",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gum-like substance from the sapodilla",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "HARE",
+      "clue": "Swift timid long-eared mammal larger than a rabbit having a divided upper lip...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swift timid long-eared mammal larger than a rabbit having a divided upper lip...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "GLACIER",
+      "clue": "Slowly moving mass of ice",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A field or stream of ice",
+        "Field or stream of ice",
+        "Immense field or stream of ice, formed in the region of perpetual..."
+      ],
+      "definition": "A field or stream of ice.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "GITE",
+      "clue": "Gown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gown",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "AMELIORATED",
+      "clue": "Relieved, as from pain or hardship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relieved, as from pain or hardship",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 4,
+      "answer": "APEX",
+      "clue": "Point on the celestial sphere toward which the sun and solar system appear...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The highest point, as of a mountain",
+        "Highest point, as of a mountain",
+        "Tip, top, point, or angular summit of anything"
+      ],
+      "definition": "The highest point, as of a mountain.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "MAILS",
+      "clue": "Causes to be directed or transmitted to another place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causes to be directed or transmitted to another place",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 5,
+      "answer": "ELSIE",
+      "clue": "Borden's cow mascot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LENIN",
+      "clue": "Russian founder of the Bolsheviks and leader of the Russian Revolution and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian founder of the Bolsheviks and leader of the Russian Revolution and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 7,
+      "answer": "PALETTE",
+      "clue": "Thin tablet, with a hole for the thumb, upon which artists lay their colors",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A thin tablet, with a hole for the thumb, upon which artists lay",
+        "Thin tablet, with a hole for the thumb, upon which artists lay",
+        "Board that provides a flat surface on which artists mix paints and the range of...",
+        "Thin, oval or square board, or tablet, with a thumb hole at one end..."
+      ],
+      "definition": "A thin tablet, with a hole for the thumb, upon which artists lay their colors",
+      "clueSource": "sat:sat_def",
+      "isMarquee": true
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "EISNER",
+      "clue": "Old Disney CEO Michael",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OMNI",
+      "clue": "All-encompassing prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "Giant who likes to eat human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A demon or monster that was supposed to devour human beings",
+        "Demon or monster that was supposed to devour human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MIME",
+      "clue": "Performance using gestures and body movements without words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Performance using gestures and body movements without words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "NEAR",
+      "clue": "Move towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move towards",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "Small island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An island",
+        "Island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "XLII",
+      "clue": "Being two more than forty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than forty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ORGIES",
+      "clue": "Sacrifice accompanied by certain ceremonies in honor of some pagan...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wild or wanton revelry"
+      ],
+      "definition": "Wild or wanton revelry.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ROD",
+      "clue": "Straight and slender stick",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Straight and slender stick",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 3,
+      "answer": "SEN",
+      "clue": "Fractional monetary unit of Japan and Indonesia and Cambodia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fractional monetary unit of Japan and Indonesia and Cambodia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "NORMAL",
+      "clue": "Something regarded as a normative example",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something regarded as a normative example",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "DEERE",
+      "clue": "United States industrialist who manufactured plows suitable for working the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States industrialist who manufactured plows suitable for working the...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "VERITY",
+      "clue": "Quality or state of being true, or real",
+      "definition": "Truth.",
+      "id": "11A"
+    },
+    {
+      "word": "GLACIER",
+      "clue": "Slowly moving mass of ice",
+      "definition": "A field or stream of ice.",
+      "id": "17A"
+    },
+    {
+      "word": "PALETTE",
+      "clue": "Thin tablet, with a hole for the thumb, upon which artists lay their colors",
+      "definition": "A thin tablet, with a hole for the thumb, upon which artists lay their colors",
+      "id": "22A"
+    },
+    {
+      "word": "ORGIES",
+      "clue": "Sacrifice accompanied by certain ceremonies in honor of some pagan...",
+      "definition": "Wild or wanton revelry.",
+      "id": "29A"
+    }
+  ]
+}
