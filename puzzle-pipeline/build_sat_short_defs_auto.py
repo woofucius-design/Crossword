@@ -110,10 +110,10 @@ def spellcheck(tokens: list[str]) -> bool:
 def phrase_candidates(definition: str) -> list[str]:
     """Viable candidates from one definition string — first clause only."""
     out: list[str] = []
-    if CITATION.search(definition):
-        return out
     clauses = split_clauses(definition)
     for clause in clauses[:1]:  # first clause only: see gate note above
+        if CITATION.search(clause):
+            continue
         first_tok = re.findall(r"[A-Za-z]+", clause)[:1]
         if first_tok and first_tok[0].lower() in LEAD_REJECT:
             continue
