@@ -1,0 +1,874 @@
+{
+  "date": "2027-08-21",
+  "number": 3020,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "D",
+      "A",
+      "M",
+      "#",
+      "H",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "L",
+      "I",
+      "N",
+      "I",
+      "#",
+      "A",
+      "L",
+      "E",
+      "S",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "F",
+      "I",
+      "N",
+      "#",
+      "D",
+      "E",
+      "P",
+      "T",
+      "H"
+    ],
+    [
+      "R",
+      "E",
+      "F",
+      "#",
+      "#",
+      "#",
+      "#",
+      "G",
+      "R",
+      "A",
+      "S"
+    ],
+    [
+      "I",
+      "N",
+      "E",
+      "F",
+      "F",
+      "I",
+      "C",
+      "I",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "E",
+      "A",
+      "C",
+      "H",
+      "E",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "D",
+      "E",
+      "C",
+      "E",
+      "S",
+      "S",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "U",
+      "N",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "T",
+      "R",
+      "I",
+      "#",
+      "C",
+      "A",
+      "B",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "D",
+      "I",
+      "A",
+      "L",
+      "#",
+      "S",
+      "A",
+      "L",
+      "T",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "L",
+      "L",
+      "#",
+      "T",
+      "H",
+      "E",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,6": {
+      "number": 9
+    },
+    "1,9": {
+      "number": 10
+    },
+    "2,0": {
+      "number": 11
+    },
+    "2,6": {
+      "number": 12
+    },
+    "2,10": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,0": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,4": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,1": {
+      "number": 32
+    },
+    "9,6": {
+      "number": 33
+    },
+    "10,2": {
+      "number": 34
+    },
+    "10,6": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ADAM",
+      "clue": "Street names for methylenedioxymethamphetamine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for methylenedioxymethamphetamine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ALLEN",
+      "clue": "Soldier of the American Revolution whose troops helped capture Fort...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soldier of the American Revolution whose troops helped capture Fort...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "DIFFERENTIA",
+      "clue": "Distinguishing characteristics (especially in different species of a genus)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Any essential characteristic of a species by reason of which it",
+        "Any essential characteristic of a species by reason of which it differs",
+        "Formal or distinguishing part of the essence of a species"
+      ],
+      "definition": "Any essential characteristic of a species by reason of which it differs",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Black tropical American cuckoo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "MIN",
+      "clue": "Any of the forms of Chinese spoken in Fukien province",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of the forms of Chinese spoken in Fukien province",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "HER",
+      "clue": "Form of the objective and the possessive case of the personal pronoun she",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the objective and the possessive case of the personal pronoun she",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "Possessed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "ELEGIES",
+      "clue": "Lyric poems lamenting the dead",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lyric poems lamenting the dead",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "REPRESSIBLE",
+      "clue": "Able to be kept under restraint or control",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to be kept under restraint or control.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BLINI",
+      "clue": "Russian pancake of buckwheat flour and yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian pancake of buckwheat flour and yeast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "BERI",
+      "clue": "First half of a tropical vitamin-deficiency disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "States in the southeastern United States on the Gulf of Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in the southeastern United States on the Gulf of Mexico",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 4,
+      "answer": "STAN",
+      "clue": "Devoted fan, in slang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ELFIN",
+      "clue": "Small and delicate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small and delicate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "DEPTH",
+      "clue": "Quality of being deep",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deepness",
+        "Degree of psychological or intellectual profundity"
+      ],
+      "definition": "Deepness.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "HST",
+      "clue": "Whistle-stop campaign pres.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "REF",
+      "clue": "Chief official (as in boxing or American football) who is expected to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief official (as in boxing or American football) who is expected to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "GRAS",
+      "clue": "Mardi ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 11,
+      "answer": "INEFFICIENT",
+      "clue": "Not efficient",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not accomplishing an intended purpose",
+        "Lacking the ability or skill to perform effectively"
+      ],
+      "definition": "Not accomplishing an intended purpose.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "FEDERAL",
+      "clue": "National",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "National",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 3,
+      "answer": "FAE",
+      "clue": "Device consisting of a container of fuel and two explosive charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device consisting of a container of fuel and two explosive charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ICC",
+      "clue": "Former independent federal agency that supervised and set rates for carriers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former independent federal agency that supervised and set rates for carriers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 3,
+      "answer": "CHE",
+      "clue": "Revolutionary Guevara",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "REACHES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 11,
+      "answer": "PREDECESSOR",
+      "clue": "Something that precedes and indicates the approach of something or someone",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An incumbent of a given office previous to another",
+        "Incumbent of a given office previous to another",
+        "One who precedes"
+      ],
+      "definition": "An incumbent of a given office previous to another.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "PAP",
+      "clue": "Small projection of a mammary gland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small projection of a mammary gland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 4,
+      "answer": "RUED",
+      "clue": "Regretted extremely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regretted extremely",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ORATE",
+      "clue": "Talk pompously",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To deliver an elaborate or formal public speech",
+        "Deliver an elaborate or formal public speech"
+      ],
+      "definition": "To deliver an elaborate or formal public speech.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "RELY",
+      "clue": "Have confidence or faith in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have confidence or faith in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AUNE",
+      "clue": "French cloth measure, of different parts of the country (at Paris, 0.95 of an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French cloth measure, of different parts of the country (at Paris, 0.95 of an...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Anger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wrath",
+        "Belligerence aroused by a real or supposed wrong (personified as one of the..."
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "PETRI",
+      "clue": "___ dish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "ILL",
+      "clue": "Often persistent bodily disorder or disease",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Often persistent bodily disorder or disease",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "CABAL",
+      "clue": "Number of persons secretly united for effecting by intrigue some private",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A number of persons secretly united for effecting by intrigue some",
+        "Number of persons secretly united for effecting by intrigue some",
+        "Plot to carry out some harmful or illegal act (especially a political plot)",
+        "Tradition"
+      ],
+      "definition": "A number of persons secretly united for effecting by intrigue some private",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "CST",
+      "clue": "Standard time in the 6th time zone west of Greenwich, reckoned at the 90th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 6th time zone west of Greenwich, reckoned at the 90th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "\"Now I get it!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "DIAL",
+      "clue": "Face of a timepiece",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Face of a timepiece",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "SALTY",
+      "clue": "Containing or filled with salt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Containing or filled with salt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Completely given to or absorbed by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completely given to or absorbed by",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "THEE",
+      "clue": "Thrive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thrive",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DIFFERENTIA",
+      "clue": "Distinguishing characteristics (especially in different species of a genus)",
+      "definition": "Any essential characteristic of a species by reason of which it differs",
+      "id": "2D"
+    },
+    {
+      "word": "REPRESSIBLE",
+      "clue": "Able to be kept under restraint or control",
+      "definition": "Able to be kept under restraint or control.",
+      "id": "7D"
+    },
+    {
+      "word": "INEFFICIENT",
+      "clue": "Not efficient",
+      "definition": "Not accomplishing an intended purpose.",
+      "id": "16A"
+    },
+    {
+      "word": "PREDECESSOR",
+      "clue": "Something that precedes and indicates the approach of something or someone",
+      "definition": "An incumbent of a given office previous to another.",
+      "id": "22A"
+    }
+  ]
+}

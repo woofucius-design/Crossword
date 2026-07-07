@@ -1,0 +1,927 @@
+{
+  "date": "2027-08-17",
+  "number": 3016,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "V",
+      "I",
+      "L",
+      "A",
+      "#",
+      "R",
+      "A",
+      "G",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "A",
+      "S",
+      "E",
+      "R",
+      "#",
+      "E",
+      "L",
+      "O",
+      "N"
+    ],
+    [
+      "D",
+      "E",
+      "C",
+      "L",
+      "A",
+      "R",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "A",
+      "#",
+      "#",
+      "A",
+      "M",
+      "R",
+      "I",
+      "T",
+      "A"
+    ],
+    [
+      "#",
+      "A",
+      "T",
+      "P",
+      "#",
+      "S",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "S",
+      "E",
+      "R",
+      "A",
+      "#",
+      "N",
+      "C",
+      "A",
+      "A",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "B",
+      "S",
+      "#",
+      "E",
+      "D",
+      "S",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "P",
+      "T",
+      "E",
+      "T",
+      "#",
+      "#",
+      "R",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "E",
+      "T",
+      "E",
+      "R",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "S",
+      "L",
+      "A",
+      "G",
+      "#",
+      "L",
+      "I",
+      "M",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "#",
+      "A",
+      "B",
+      "A",
+      "T",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,7": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,5": {
+      "number": 15
+    },
+    "4,1": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "5,1": {
+      "number": 19
+    },
+    "5,4": {
+      "number": 20
+    },
+    "5,6": {
+      "number": 21
+    },
+    "5,8": {
+      "number": 22
+    },
+    "5,9": {
+      "number": 23
+    },
+    "6,3": {
+      "number": 24
+    },
+    "6,5": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,1": {
+      "number": 28
+    },
+    "7,2": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,6": {
+      "number": 33
+    },
+    "8,7": {
+      "number": 34
+    },
+    "9,0": {
+      "number": 35
+    },
+    "9,5": {
+      "number": 36
+    },
+    "10,1": {
+      "number": 37
+    },
+    "10,5": {
+      "number": 38
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AVILA",
+      "clue": "Spanish city of St. Teresa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ARENAS",
+      "clue": "Playing field where sports events take place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing field where sports events take place",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "VACATE",
+      "clue": "Leave",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To leave",
+        "Cancel officially",
+        "Make vacant"
+      ],
+      "definition": "To leave.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ISL",
+      "clue": "Atoll: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "Field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
+      "definition": "A field.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ARRAS",
+      "clue": "Wall hanging of heavy handwoven fabric with pictorial designs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wall hanging of heavy handwoven fabric with pictorial designs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "RAG",
+      "clue": "Boisterous practical joke (especially by college students)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boisterous practical joke (especially by college students)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "RETRACE",
+      "clue": "Follow backward or toward the place of beginning, as a track or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To follow backward or toward the place of beginning, as a track or",
+        "Follow backward or toward the place of beginning, as a track or marking",
+        "Reassemble mentally"
+      ],
+      "definition": "To follow backward or toward the place of beginning, as a track or marking.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALII",
+      "clue": "Et ___ (and others)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "GOVT",
+      "clue": "Uncle Sam's outfit, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "FRASER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "FDA",
+      "clue": "Federal agency in the Department of Health and Human Services established to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Federal agency in the Department of Health and Human Services established to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ELON",
+      "clue": "Tech mogul Musk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DECLARATIVE",
+      "clue": "Containing a formal, positive, or explicit statement or affirmation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Containing a formal, positive, or explicit statement or affirmation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 6,
+      "length": 4,
+      "answer": "AMEN",
+      "clue": "Primeval Egyptian personification of air and breath",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Primeval Egyptian personification of air and breath",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ANA",
+      "clue": "Collection of anecdotes about a person or place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection of anecdotes about a person or place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "AMRITA",
+      "clue": "Immorality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Immorality",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "PROTEGE",
+      "clue": "Person who receives support and protection from an influential patron who...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One specially cared for and favored by another usually older person",
+        "One under the care and protection of another"
+      ],
+      "definition": "One specially cared for and favored by another usually older person.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SEA",
+      "clue": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Division of an ocean or a large body of salt water partially enclosed by land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 4,
+      "answer": "SERA",
+      "clue": "Antibody-rich fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "Aid, promote, or encourage the commission of (an offense)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To aid, promote, or encourage the commission of (an offense)",
+        "Assist or encourage, usually in some wrongdoing",
+        "Instigate or encourage by aid or countenance"
+      ],
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "NCAA",
+      "clue": "March Madness org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ADROIT",
+      "clue": "Quick or skillful or adept in action or thought",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having skill in the use of the bodily or mental powers",
+        "Dexterous in the use of the hands or in the exercise of the mental..."
+      ],
+      "definition": "Having skill in the use of the bodily or mental powers.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ASTUTE",
+      "clue": "Having sharp judgment; shrewd and perceptive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Shrewd and perceptive",
+        "Marked by practical hardheaded intelligence",
+        "Critically discerning"
+      ],
+      "definition": "having sharp judgment; shrewd and perceptive",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "OBS",
+      "clue": "Branches of medicine dealing with childbirth and care of the mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of medicine dealing with childbirth and care of the mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "STELA",
+      "clue": "Ancient upright stone slab bearing markings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient upright stone slab bearing markings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "SEPTET",
+      "clue": "Musical composition written for seven performers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Musical composition written for seven performers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "SDS",
+      "clue": "States in north central United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in north central United States",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "EELS",
+      "clue": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "PLAT",
+      "clue": "Map showing planned or actual features of an area (streets and building lots...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Map showing planned or actual features of an area (streets and building lots...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DELETERIOUS",
+      "clue": "Harmful to living things",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hurtful, morally or physically",
+        "Hurtful"
+      ],
+      "definition": "Hurtful, morally or physically.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RIB",
+      "clue": "Subject to laughter or ridicule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject to laughter or ridicule",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IMA",
+      "clue": "Bandleader Sumac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SLAG",
+      "clue": "Scum formed by oxidation at the surface of molten metals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scum formed by oxidation at the surface of molten metals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LIMITS",
+      "clue": "Greatest possible degrees of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greatest possible degrees of something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "STE",
+      "clue": "Saint, in Quebec",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ABATE",
+      "clue": "Become less in amount or intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become less in amount or intensity",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "VACATE",
+      "clue": "Leave",
+      "definition": "To leave.",
+      "id": "2D"
+    },
+    {
+      "word": "RETRACE",
+      "clue": "Follow backward or toward the place of beginning, as a track or",
+      "definition": "To follow backward or toward the place of beginning, as a track or marking.",
+      "id": "6D"
+    },
+    {
+      "word": "DECLARATIVE",
+      "clue": "Containing a formal, positive, or explicit statement or affirmation",
+      "definition": "Containing a formal, positive, or explicit statement or affirmation.",
+      "id": "12A"
+    },
+    {
+      "word": "PROTEGE",
+      "clue": "Person who receives support and protection from an influential patron who...",
+      "definition": "One specially cared for and favored by another usually older person.",
+      "id": "17D"
+    },
+    {
+      "word": "ADROIT",
+      "clue": "Quick or skillful or adept in action or thought",
+      "definition": "Having skill in the use of the bodily or mental powers.",
+      "id": "22D"
+    },
+    {
+      "word": "DELETERIOUS",
+      "clue": "Harmful to living things",
+      "definition": "Hurtful, morally or physically.",
+      "id": "32A"
+    }
+  ]
+}

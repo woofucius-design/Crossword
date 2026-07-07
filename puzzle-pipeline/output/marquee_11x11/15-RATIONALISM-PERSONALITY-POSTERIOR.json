@@ -1,0 +1,941 @@
+{
+  "date": "2027-08-15",
+  "number": 3014,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "A",
+      "M",
+      "P",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "H"
+    ],
+    [
+      "D",
+      "A",
+      "S",
+      "H",
+      "P",
+      "O",
+      "T",
+      "#",
+      "L",
+      "I",
+      "I"
+    ],
+    [
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "A",
+      "L",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "C",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "L",
+      "A",
+      "T",
+      "T",
+      "#",
+      "T",
+      "E",
+      "S",
+      "L",
+      "A"
+    ],
+    [
+      "R",
+      "A",
+      "N",
+      "E",
+      "E",
+      "#",
+      "I",
+      "L",
+      "I",
+      "A",
+      "D"
+    ],
+    [
+      "S",
+      "H",
+      "I",
+      "R",
+      "R",
+      "#",
+      "C",
+      "L",
+      "A",
+      "R",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "I",
+      "D",
+      "I",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "S",
+      "O",
+      "N",
+      "A",
+      "L",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "R",
+      "A",
+      "N",
+      "C",
+      "O",
+      "U",
+      "R"
+    ],
+    [
+      "D",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "N",
+      "T",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,8": {
+      "number": 5
+    },
+    "0,9": {
+      "number": 6
+    },
+    "0,10": {
+      "number": 7
+    },
+    "1,0": {
+      "number": 8
+    },
+    "1,4": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,2": {
+      "number": 18
+    },
+    "4,3": {
+      "number": 19
+    },
+    "4,6": {
+      "number": 20
+    },
+    "4,8": {
+      "number": 21
+    },
+    "4,9": {
+      "number": 22
+    },
+    "4,10": {
+      "number": 23
+    },
+    "5,0": {
+      "number": 24
+    },
+    "5,6": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,6": {
+      "number": 27
+    },
+    "7,3": {
+      "number": 28
+    },
+    "7,5": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,2": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "8,8": {
+      "number": 34
+    },
+    "8,9": {
+      "number": 35
+    },
+    "8,10": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,4": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,7": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CAMP",
+      "clue": "Temporary living quarters specially built by the army for soldiers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Temporary living quarters specially built by the army for soldiers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CDR",
+      "clue": "Navy rank: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AAA",
+      "clue": "Aneurysm of the abdominal aorta associated with old age and hypertension",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aneurysm of the abdominal aorta associated with old age and hypertension",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 3,
+      "answer": "MST",
+      "clue": "Standard time in the 7th time zone west of Greenwich, reckoned at the 105th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 7th time zone west of Greenwich, reckoned at the 105th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "PHI",
+      "clue": "21st letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "21st letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth caliph of Islam who is considered to be the first caliph by Shiites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "SIS",
+      "clue": "Female person who has the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female person who has the same parents as another person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "HIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "DASHPOT",
+      "clue": "Pneumatic or hydraulic cushion for a falling weight, as in the valve gear of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pneumatic or hydraulic cushion for a falling weight, as in the valve gear of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 9,
+      "answer": "POSTERIOR",
+      "clue": "Coming at a subsequent time or stage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The hinder part",
+        "Hinder part",
+        "Later in time"
+      ],
+      "definition": "The hinder part.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Single person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single person or thing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 9,
+      "answer": "TACTICIAN",
+      "clue": "One versed in tactics",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One who directs affairs with skill and shrewdness",
+        "Person who is skilled at planning tactics"
+      ],
+      "definition": "One who directs affairs with skill and shrewdness.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LII",
+      "clue": "Being two more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "RATIONALISM",
+      "clue": "Formation of opinions by relying upon reason alone, independently of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The formation of opinions by relying upon reason alone, independently",
+        "Formation of opinions by relying upon reason alone, independently",
+        "Doctrine that reason is the right basis for regulating conduct",
+        "Doctrine or system of those who deduce their religious opinions..."
+      ],
+      "definition": "The formation of opinions by relying upon reason alone, independently of",
+      "clueSource": "sat:sat_def",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "LYELL",
+      "clue": "Pioneering geologist Charles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 4,
+      "answer": "SECY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 5,
+      "answer": "PLATT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "PRS",
+      "clue": "Promotions intended to create goodwill for a person or institution",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Promotions intended to create goodwill for a person or institution",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "LAH",
+      "clue": "Syllable naming the sixth (submediant) note of a major or minor scale in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the sixth (submediant) note of a major or minor scale in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 2,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Black tropical American cuckoo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "TERMS",
+      "clue": "Amount of money needed to purchase something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Amount of money needed to purchase something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 6,
+      "length": 5,
+      "answer": "TESLA",
+      "clue": "United States electrical engineer and inventor (born in Croatia but of Serbian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States electrical engineer and inventor (born in Croatia but of Serbian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "SIA",
+      "clue": "Aussie pop singer of 'Chandelier'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 3,
+      "answer": "LAR",
+      "clue": "Tutelary deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tutelary deity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 4,
+      "col": 10,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unnecessary activity or ceremony",
+        "Rapid active commotion"
+      ],
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "RANEE",
+      "clue": "Hindu princess or the wife of a raja",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu princess or the wife of a raja",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ILIAD",
+      "clue": "Greek epic poem (attributed to Homer) describing the siege of Troy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A Greek epic poem describing scenes from the siege of Troy",
+        "Greek epic poem describing scenes from the siege of Troy",
+        "Celebrated Greek epic poem, in twenty-four books, on the..."
+      ],
+      "definition": "A Greek epic poem describing scenes from the siege of Troy.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SHIRR",
+      "clue": "Bake (eggs) in their shells until they are set",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bake (eggs) in their shells until they are set",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 6,
+      "length": 5,
+      "answer": "CLARO",
+      "clue": "Cigar made with light-colored tobacco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cigar made with light-colored tobacco",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "MIDI",
+      "clue": "Standard protocol for communication between electronic musical instruments...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard protocol for communication between electronic musical instruments...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 5,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long linear polymer found in the nucleus of a cell and formed from...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PERSONALITY",
+      "clue": "Attributes, taken collectively, that make up the character and nature",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The attributes, taken collectively, that make up the character and",
+        "Attributes, taken collectively, that make up the character and",
+        "Complex of all the attributes--behavioral, temperamental, emotional and..."
+      ],
+      "definition": "The attributes, taken collectively, that make up the character and nature",
+      "clueSource": "sat:sat_def",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "PAD",
+      "clue": "Fleshy cushion-like underside of an animal's foot or of a human's finger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy cushion-like underside of an animal's foot or of a human's finger",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "RDS",
+      "clue": "Highways: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "LCA",
+      "clue": "Beach assault craft: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ION",
+      "clue": "Particle that is electrically charged (positive or negative)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle that is electrically charged (positive or negative)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 9,
+      "length": 3,
+      "answer": "TUT",
+      "clue": "Be still",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be still",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "YRS",
+      "clue": "Periods of time containing (or days",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Periods of time containing (or days",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "RANCOUR",
+      "clue": "Feeling of deep and bitter anger and ill-will",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feeling of deep and bitter anger and ill-will",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DDS",
+      "clue": "Doctor's degree in dental surgery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in dental surgery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ANTS",
+      "clue": "Social insect livings in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insect livings in organized colonies",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "POSTERIOR",
+      "clue": "Coming at a subsequent time or stage",
+      "definition": "The hinder part.",
+      "id": "9D"
+    },
+    {
+      "word": "TACTICIAN",
+      "clue": "One versed in tactics",
+      "definition": "One who directs affairs with skill and shrewdness.",
+      "id": "11D"
+    },
+    {
+      "word": "RATIONALISM",
+      "clue": "Formation of opinions by relying upon reason alone, independently of",
+      "definition": "The formation of opinions by relying upon reason alone, independently of",
+      "id": "13A"
+    },
+    {
+      "word": "PERSONALITY",
+      "clue": "Attributes, taken collectively, that make up the character and nature",
+      "definition": "The attributes, taken collectively, that make up the character and nature",
+      "id": "30A"
+    }
+  ]
+}
