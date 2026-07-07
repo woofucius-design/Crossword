@@ -429,36 +429,47 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
         #   hand fill_clue     -> editor override (data/fill_clues.json)
         #   sourced definition -> Webster/WordNet/inflection/abbrev/Roman
         #   none               -> empty
+        alt_texts: list[str] = []
         if sat:
+            # Featured vocab teaches the tested meaning: the curated bank
+            # clue leads the rotation, then modern (non-Webster) alts —
+            # Webster's archaic senses (RUE the plant, QUALM 'Sickness')
+            # go last so they only appear as variety, never the default.
+            pool_clues = [{"text": sat["clue"], "source": "sat"}]
             alts = alt_clues.get(answer, [])
-            # Rotate by puzzle.number across alts, but skip any whose text
-            # contains a morphological form of the answer. The first alt
-            # that doesn't leak wins; if all leak, fall back to the rotated
-            # pick (better any clue than none).
-            if alts:
-                start = number % len(alts)
-                chosen = None
-                for offset in range(len(alts)):
-                    pick = alts[(start + offset) % len(alts)]
-                    if not _clue_leaks(answer, pick["text"]):
-                        chosen = pick
-                        break
-                if chosen is None:
-                    chosen = alts[start]
-                clue = chosen["text"]
-                source = f"sat:{chosen.get('source','?')}"
-            else:
-                clue = sat["clue"]
-                source = "sat"
+            ranked = [a for a in alts if a.get("source") != "webster"] + [
+                a for a in alts if a.get("source") == "webster"
+            ]
+            for a in ranked:
+                if a["text"] != sat["clue"]:
+                    pool_clues.append(a)
+            usable = [
+                p for p in pool_clues if not _clue_leaks(answer, p["text"])
+            ] or pool_clues[:1]
+            # Rotate by puzzle number for cross-puzzle variety, but only
+            # within the curated clue + first two modern alts.
+            head = usable[: min(3, len(usable))]
+            chosen = head[number % len(head)]
+            clue = chosen["text"]
+            source = "sat" if chosen["source"] == "sat" else f"sat:{chosen['source']}"
+            # Remaining usable clues ride along for the app: variety on
+            # replay, or a hint mechanic (reveal another clue instead of
+            # revealing letters).
+            alt_texts = [p["text"] for p in usable if p is not chosen][:4]
             definition = sat["definition"]
         elif answer in syn_index:
             tie = syn_index[answer]
             sat_word_for_clue = tie["satWords"][0]
-            clue = sat_word_for_clue.title()
             if tie["kind"] == "short_def":
+                # Answer is a phrase that defines the headword — exact
+                # meaning, no qualifier needed.
+                clue = sat_word_for_clue.title()
                 shown = tie.get("display", answer)
                 definition = f"“{shown}” defines {sat_word_for_clue.lower()}"
             else:
+                # Loose one-word synonym: crossword convention marks a
+                # not-quite-exact clue with '?'.
+                clue = sat_word_for_clue.title() + "?"
                 definition = f"Synonym of {sat_word_for_clue.lower()}"
             source = f"sat_{tie['kind']}"
         elif answer in fill_clues:
@@ -504,6 +515,8 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
             "isSATVocab": bool(sat),
             "isSATSynonym": (not sat) and answer in syn_index,
         }
+        if alt_texts:
+            entry["altClues"] = alt_texts
         if entry["isSATSynonym"]:
             entry["satSynonymOf"] = syn_index[answer]["satWords"]
             entry["satTeachingKind"] = syn_index[answer]["kind"]

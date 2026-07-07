@@ -73,10 +73,50 @@ def trim_leading(clause: str) -> str:
     return " ".join(tokens)
 
 
+# Validity gate. A teaching phrase becomes a GRID ANSWER whose clue is
+# the SAT headword — if the phrase doesn't actually gloss the headword,
+# the solver back-fills a false fact. Mid-definition clauses are where
+# objects and contrast-fragments live ('but more remote' out of
+# IMMINENT's usage note), so only the FIRST clause of a definition is
+# trusted. Citations and clause-initial conjunctions are rejected
+# outright, and every token must spell-check against the wordlist.
+CITATION = re.compile(
+    r"\bSee [A-Z]|\bCf\b"
+    r"|\b(?:Acts|Ps|Gen|Matt|Cor|Rom|Luke|John|Rev|Deut|Exod|Isa|Heb"
+    r"|Sam|Chron|Prov|Eccl)\.? [ivxlc]+\b",
+    re.IGNORECASE,
+)
+LEAD_REJECT = {
+    "but", "than", "nor", "yet", "whereas", "unless", "whilst", "though",
+    "although", "hence", "thus", "also", "etc", "esp", "especially",
+}
+
+
+def _load_wordlist() -> set[str]:
+    words = set()
+    for line in (HERE / "data" / "english_words.txt").read_text().splitlines():
+        words.add(line.strip().lower())
+    return words
+
+
+WORDLIST = _load_wordlist()
+
+
+def spellcheck(tokens: list[str]) -> bool:
+    """Every token must be a known English word (catches 'usullied')."""
+    return all(t.lower() in WORDLIST for t in tokens)
+
+
 def phrase_candidates(definition: str) -> list[str]:
-    """All viable (display, squashed) candidates from one definition string."""
+    """Viable candidates from one definition string — first clause only."""
     out: list[str] = []
-    for clause in split_clauses(definition):
+    if CITATION.search(definition):
+        return out
+    clauses = split_clauses(definition)
+    for clause in clauses[:1]:  # first clause only: see gate note above
+        first_tok = re.findall(r"[A-Za-z]+", clause)[:1]
+        if first_tok and first_tok[0].lower() in LEAD_REJECT:
+            continue
         trimmed = trim_leading(clause)
         if not trimmed:
             continue
@@ -93,6 +133,8 @@ def phrase_candidates(definition: str) -> list[str]:
         # already cover themselves via the dictionary. We want multi-word
         # phrases like EASYTOFOLLOW or KNOWSTHEROPES, not bare nouns.
         if len(tokens) < 2:
+            continue
+        if not spellcheck(tokens):
             continue
         out.append(trimmed)
     return out
@@ -150,8 +192,12 @@ def main() -> None:
 
         candidates: list[str] = []
         seen: set[str] = set()
-        # Manual entries win
+        # Manual entries win, but still pass the validity gate
         for phrase in manual.get(word, []):
+            toks = re.findall(r"[A-Za-z]+", phrase)
+            if CITATION.search(phrase) or not spellcheck(toks):
+                print(f"  manual reject: {word} -> {phrase!r}")
+                continue
             sq = squash(phrase)
             if MIN_LEN <= len(sq) <= MAX_LEN and sq not in seen:
                 candidates.append(phrase)
