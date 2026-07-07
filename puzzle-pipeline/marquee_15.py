@@ -90,6 +90,63 @@ def pins_consistent(slots, pins: dict[int, str]) -> bool:
     return True
 
 
+def build_pins(slots, pairs, singles, fresh_by_len, rng,
+               min_marquee: int, max_marquee: int) -> dict[int, str] | None:
+    """Choose a crossing-consistent set of fresh SAT words for the marquee
+    slots. Long marquee slots cross each other (a 15-across runs through
+    the 9-downs), so words are placed longest-first and each later
+    candidate is filtered by the letters already fixed at its crossings.
+    A pair whose slots can't both be satisfied is dropped whole, keeping
+    180° symmetry intact."""
+    picks: dict[int, str] = {}
+    taken: set[str] = set()
+
+    def fit(si: int) -> str | None:
+        length = slots[si].length
+        cands = fresh_by_len.get(length, [])
+        if not cands:
+            return None
+        constraints = [
+            (idx_i, picks[sj][idx_j])
+            for idx_i, sj, idx_j in slots[si].crossings
+            if sj in picks
+        ]
+        order = rng.sample(cands, len(cands))
+        for w in order:
+            if w in taken:
+                continue
+            if all(w[a] == letter for a, letter in constraints):
+                return w
+        return None
+
+    for _L, i, j in pairs:
+        if len(picks) + 2 > max_marquee:
+            continue
+        w_i = fit(i)
+        if w_i is None:
+            continue
+        picks[i] = w_i
+        taken.add(w_i)
+        w_j = fit(j)
+        if w_j is None:
+            # drop the pair whole — symmetry demands both or neither
+            del picks[i]
+            taken.discard(w_i)
+            continue
+        picks[j] = w_j
+        taken.add(w_j)
+    for _L, i in singles:
+        if len(picks) >= max_marquee:
+            break
+        w = fit(i)
+        if w is not None:
+            picks[i] = w
+            taken.add(w)
+    if len(picks) < min_marquee:
+        return None
+    return picks
+
+
 def multi_pin_solve(slots, pool, sat_count, pins: dict[int, int],
                     rng: random.Random, restarts: int = 3):
     """Full solve with several words pinned (domains forced to singletons).
@@ -169,8 +226,12 @@ def main() -> None:
     cur_date = date.fromisoformat(args.start_date)
     cur_num = args.start_number
     t_idx = 0
+    consecutive_fails = 0
 
     while len(made) < args.puzzles:
+        if consecutive_fails >= 2 * len(templates):
+            print("aborting: no template will host a fresh marquee set")
+            break
         tmpl_path = templates[t_idx % len(templates)]
         t_idx += 1
         grid = json.loads(Path(tmpl_path).read_text())
@@ -183,28 +244,15 @@ def main() -> None:
         for attempt in range(args.attempts_per_puzzle):
             if time.time() - t0 > args.time_budget:
                 break
-            # Build a pin set: walk symmetric pairs longest-first, pin two
-            # fresh SAT words of that length per pair; self-symmetric slots
-            # take one. Stop inside the 4..6 band.
-            picks: dict[int, str] = {}
-            supply = {L: [w for w in ws] for L, ws in fresh_by_len.items()}
-            for L, ws in supply.items():
-                rng.shuffle(ws)
-            for L, i, j in pairs:
-                if len(picks) + 2 > args.max_marquee:
-                    continue
-                if len(supply.get(L, [])) >= 2:
-                    picks[i] = supply[L].pop()
-                    picks[j] = supply[L].pop()
-            for L, i in singles:
-                if len(picks) >= args.max_marquee:
-                    break
-                if supply.get(L):
-                    picks[i] = supply[L].pop()
-            if len(picks) < args.min_marquee:
-                break  # this template can't host a theme from fresh stock
-            if not pins_consistent(slots, picks):
+            # Crossing-aware pin set: longest-first, each candidate filtered
+            # by the letters already fixed where marquee slots cross.
+            picks = build_pins(
+                slots, pairs, singles, fresh_by_len, rng,
+                args.min_marquee, args.max_marquee,
+            )
+            if picks is None:
                 continue
+            assert pins_consistent(slots, picks)
             pins = {si: word_to_id[w] for si, w in picks.items()}
             assign = multi_pin_solve(slots, pool, len(sat_list), pins, rng)
             if assign is not None:
@@ -213,9 +261,11 @@ def main() -> None:
                 break
 
         if solved is None:
+            consecutive_fails += 1
             print(f"{Path(tmpl_path).name}: no marquee fill "
-                  f"({time.time()-t0:.0f}s), next template")
+                  f"({time.time()-t0:.0f}s), next template", flush=True)
             continue
+        consecutive_fails = 0
 
         # Local-search cleanup, then verify no marquee word was swapped out
         improved, _stats = post_improve(
