@@ -1,0 +1,786 @@
+{
+  "date": "2027-08-29",
+  "number": 3028,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "A",
+      "N",
+      "O",
+      "R",
+      "S",
+      "#",
+      "#",
+      "G",
+      "A",
+      "B"
+    ],
+    [
+      "E",
+      "X",
+      "C",
+      "R",
+      "E",
+      "S",
+      "C",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "#",
+      "S",
+      "A",
+      "A",
+      "R",
+      "#",
+      "M",
+      "O",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "M",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "S",
+      "G",
+      "R",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "R",
+      "A",
+      "M",
+      "#",
+      "C",
+      "O",
+      "M",
+      "A",
+      "#"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "C",
+      "I",
+      "P",
+      "I",
+      "T",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "N",
+      "E",
+      "T",
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "W",
+      "A",
+      "#",
+      "#",
+      "C",
+      "L",
+      "O",
+      "M",
+      "P",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "3,1": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,4": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "8,0": {
+      "number": 27
+    },
+    "8,5": {
+      "number": 28
+    },
+    "8,10": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "10,0": {
+      "number": 31
+    },
+    "10,5": {
+      "number": 32
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "MANORS",
+      "clue": "Landed estates of a lord or nobleman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Landed estates of a lord or nobleman",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "MER",
+      "clue": "Sea, in Marseille",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AXES",
+      "clue": "Edge tools with a heavy bladed head mounted across a handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edge tools with a heavy bladed head mounted across a handle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "NCAA",
+      "clue": "March Madness org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ORCA",
+      "clue": "Predatory black-and-white toothed whale with large dorsal fin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Predatory black-and-white toothed whale with large dorsal fin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 10,
+      "answer": "RETRANSMIT",
+      "clue": "Transmit again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Transmit again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SSI",
+      "clue": "Disability program: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "GAB",
+      "clue": "Light informal conversation for social occasions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light informal conversation for social occasions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "GNAT",
+      "clue": "Mosquito",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mosquito",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town and port in northwestern Israel in the eastern Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "BEYS",
+      "clue": "Governors of a district or province in the Ottoman Empire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governors of a district or province in the Ottoman Empire",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 11,
+      "answer": "EXCRESCENCE",
+      "clue": "Any unnatural addition, outgrowth, or development",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Abnormal outgrowth or enlargement of some part of the body"
+      ],
+      "definition": "Any unnatural addition, outgrowth, or development.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 10,
+      "answer": "COMMERCIAL",
+      "clue": "Of or pertaining to commerce",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to commerce",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ENOS",
+      "clue": "Grandson of Adam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REACTIONARY",
+      "clue": "Extremely conservative",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pertaining to, of the nature of, causing, or favoring reaction",
+        "Being, causing, or favoring reaction"
+      ],
+      "definition": "Pertaining to, of the nature of, causing, or favoring reaction.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 4,
+      "answer": "SAAR",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "MOTES",
+      "clue": "Compulsory annual tests of older motor vehicles for safety and exhaust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compulsory annual tests of older motor vehicles for safety and exhaust",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ARMS",
+      "clue": "Official symbols of a family, state, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official symbols of a family, state, etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RAG",
+      "clue": "Boisterous practical joke (especially by college students)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boisterous practical joke (especially by college students)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "No, to a Scot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MSGR",
+      "clue": "Catholic title, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "MACE",
+      "clue": "Ceremonial staff carried as a symbol of office or authority",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ceremonial staff carried as a symbol of office or authority",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ABRAM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "Phone downloads",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "BREW",
+      "clue": "Drink made by steeping and boiling and fermenting rather than distilling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Drink made by steeping and boiling and fermenting rather than distilling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RENA",
+      "clue": "Actress Sofer of soaps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "COMA",
+      "clue": "State of deep and often prolonged unconsciousness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of deep and often prolonged unconsciousness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OTTO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MAIM",
+      "clue": "Injure or wound seriously and leave permanent disfiguration or mutilation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Injure or wound seriously and leave permanent disfiguration or mutilation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ATOP",
+      "clue": "On, to, or at the top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On, to, or at the top",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PRECIPITATE",
+      "clue": "Force forward prematurely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To force forward prematurely",
+        "Done with very great haste and without due deliberation",
+        "Overhasty"
+      ],
+      "definition": "To force forward prematurely.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "PRC",
+      "clue": "Communist nation that covers a vast territory in eastern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Communist nation that covers a vast territory in eastern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 10,
+      "length": 3,
+      "answer": "ENS",
+      "clue": "Entity, being, or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Entity, being, or existence",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 11,
+      "answer": "PENETRATION",
+      "clue": "Discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of entering into or through something"
+      ],
+      "definition": "Discernment.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SWA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "CLOMPS",
+      "clue": "Walks clumsily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Walks clumsily",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "EXCRESCENCE",
+      "clue": "Any unnatural addition, outgrowth, or development",
+      "definition": "Any unnatural addition, outgrowth, or development.",
+      "id": "10A"
+    },
+    {
+      "word": "REACTIONARY",
+      "clue": "Extremely conservative",
+      "definition": "Pertaining to, of the nature of, causing, or favoring reaction.",
+      "id": "13A"
+    },
+    {
+      "word": "PRECIPITATE",
+      "clue": "Force forward prematurely",
+      "definition": "To force forward prematurely.",
+      "id": "27A"
+    },
+    {
+      "word": "PENETRATION",
+      "clue": "Discernment",
+      "definition": "Discernment.",
+      "id": "30A"
+    }
+  ]
+}
