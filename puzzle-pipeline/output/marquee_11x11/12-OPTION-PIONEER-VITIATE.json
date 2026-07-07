@@ -1,0 +1,885 @@
+{
+  "date": "2027-08-12",
+  "number": 3011,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "G",
+      "R",
+      "A",
+      "S",
+      "P",
+      "S",
+      "#",
+      "A",
+      "G",
+      "E",
+      "#"
+    ],
+    [
+      "R",
+      "A",
+      "N",
+      "C",
+      "I",
+      "D",
+      "#",
+      "D",
+      "A",
+      "Y",
+      "S"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "R",
+      "O",
+      "S",
+      "#",
+      "P",
+      "L",
+      "E",
+      "A"
+    ],
+    [
+      "P",
+      "A",
+      "E",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "W",
+      "E",
+      "A",
+      "V",
+      "E",
+      "R",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "O",
+      "N",
+      "E",
+      "T",
+      "I",
+      "M",
+      "E",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "P",
+      "Y",
+      "R",
+      "I",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "T",
+      "#",
+      "#",
+      "#",
+      "I",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "O",
+      "#",
+      "T",
+      "A",
+      "G",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "G",
+      "E",
+      "O",
+      "L",
+      "#",
+      "S",
+      "T",
+      "E",
+      "R",
+      "N",
+      "S"
+    ],
+    [
+      "#",
+      "A",
+      "N",
+      "D",
+      "#",
+      "P",
+      "E",
+      "D",
+      "A",
+      "N",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,8": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "7,0": {
+      "number": 23
+    },
+    "7,1": {
+      "number": 24
+    },
+    "7,6": {
+      "number": 25
+    },
+    "7,8": {
+      "number": 26
+    },
+    "7,9": {
+      "number": 27
+    },
+    "7,10": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,3": {
+      "number": 30
+    },
+    "8,5": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,5": {
+      "number": 33
+    },
+    "10,1": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "GRASPS",
+      "clue": "Gets the meaning of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gets the meaning of something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "GRIP",
+      "clue": "Act of grasping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of grasping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RANA",
+      "clue": "Type genus of the Ranidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Ranidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "Initial contribution that each player makes to the pot",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In the game of poker, to put up a stake before the cards are dealt"
+      ],
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 7,
+      "answer": "SCRAWNY",
+      "clue": "Being very thin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being very thin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "PIONEER",
+      "clue": "Soldier detailed or employed to form roads, dig trenches, and make...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One among the first to explore a country",
+        "One the first colonists or settlers in a new territory"
+      ],
+      "definition": "One among the first to explore a country.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SDS",
+      "clue": "States in north central United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "States in north central United States",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "How long something has existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "How long something has existed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ADP",
+      "clue": "Data processing by a computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Data processing by a computer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "GALORE",
+      "clue": "Plenty",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Abundant"
+      ],
+      "definition": "Abundant.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EYED",
+      "clue": "Looked at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Looked at",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "RANCID",
+      "clue": "Smelling of fermentation or staleness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smelling of fermentation or staleness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "DAYS",
+      "clue": "Time during which someone's life continues",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time during which someone's life continues",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 3,
+      "answer": "SAE",
+      "clue": "Frat letters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "INTROS",
+      "clue": "Brief introductory passages to a piece of popular music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief introductory passages to a piece of popular music",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "PLEA",
+      "clue": "Answer indicating why a suit should be dismissed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An argument to obtain some desired action",
+        "Argument to obtain some desired action",
+        "That which is alleged by a party in support of his cause"
+      ],
+      "definition": "An argument to obtain some desired action.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PAEAN",
+      "clue": "Formal expression of praise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formal expression of praise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Lyric poem with complex stanza forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The form of lyric poetry anciently intended to be sung",
+        "Form of lyric poetry anciently intended to be sung",
+        "Short poetical composition proper to be set to music or sung"
+      ],
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 6,
+      "answer": "WEAVER",
+      "clue": "Finch-like African and Asian colonial birds noted for their elaborately woven...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Finch-like African and Asian colonial birds noted for their elaborately woven...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ATI",
+      "clue": "Bygone graphics card brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "VITIATE",
+      "clue": "Take away the legal force of or render ineffective",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To contaminate",
+        "Contaminate",
+        "Make vicious, faulty, or imperfect"
+      ],
+      "definition": "To contaminate.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 7,
+      "answer": "EMERGED",
+      "clue": "Came into view or into existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Came into view or into existence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 7,
+      "answer": "ONETIME",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "OPTION",
+      "clue": "Act of choosing or selecting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The right, power, or liberty of choosing",
+        "Right, power, or liberty of choosing",
+        "Power of choosing"
+      ],
+      "definition": "The right, power, or liberty of choosing.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 6,
+      "col": 2,
+      "length": 6,
+      "answer": "PYRITE",
+      "clue": "Common mineral (iron disulfide) that has a pale yellow color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common mineral (iron disulfide) that has a pale yellow color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MAT",
+      "clue": "Thick flat pad used as a floor covering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thick flat pad used as a floor covering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "MTG",
+      "clue": "Meeting, on a calendar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Part of a structure having some specific characteristic or function",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a structure having some specific characteristic or function",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "IRATE",
+      "clue": "Angry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moved to anger",
+        "Feeling or showing extreme anger"
+      ],
+      "definition": "Moved to anger.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AGRA",
+      "clue": "City in northern India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northern India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TENN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "At a previous time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a previous time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TRIO",
+      "clue": "Three, considered collectively",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Three things grouped or associated together",
+        "Musical composition for three performers"
+      ],
+      "definition": "Three things grouped or associated together.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "OLD",
+      "clue": "Just preceding something else in time or order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Just preceding something else in time or order",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "TAGGER",
+      "clue": "Computer program that attaches labels to the grammatical constituents of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer program that attaches labels to the grammatical constituents of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "TSP",
+      "clue": "Recipe meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "GEOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "STERNS",
+      "clue": "Rear parts of a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rear parts of a ship",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Particle which expresses the relation of connection or addition. It is used...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle which expresses the relation of connection or addition. It is used...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "PEDANT",
+      "clue": "Person who pays more attention to formal rules and book learning than they...",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A scholar who makes needless and inopportune display of his learning",
+        "Scholar who makes needless and inopportune display of his learning",
+        "Schoolmaster"
+      ],
+      "definition": "A scholar who makes needless and inopportune display of his learning.",
+      "clueSource": "sat:wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PIONEER",
+      "clue": "Soldier detailed or employed to form roads, dig trenches, and make...",
+      "definition": "One among the first to explore a country.",
+      "id": "5D"
+    },
+    {
+      "word": "GALORE",
+      "clue": "Plenty",
+      "definition": "Abundant.",
+      "id": "8D"
+    },
+    {
+      "word": "VITIATE",
+      "clue": "Take away the legal force of or render ineffective",
+      "definition": "To contaminate.",
+      "id": "19D"
+    },
+    {
+      "word": "OPTION",
+      "clue": "Act of choosing or selecting",
+      "definition": "The right, power, or liberty of choosing.",
+      "id": "21D"
+    }
+  ]
+}

@@ -1,0 +1,889 @@
+{
+  "date": "2027-08-08",
+  "number": 3007,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "K",
+      "I",
+      "M",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E"
+    ],
+    [
+      "U",
+      "N",
+      "I",
+      "#",
+      "A",
+      "S",
+      "H",
+      "#",
+      "N",
+      "O",
+      "L"
+    ],
+    [
+      "K",
+      "E",
+      "G",
+      "#",
+      "R",
+      "H",
+      "O",
+      "D",
+      "I",
+      "U",
+      "M"
+    ],
+    [
+      "I",
+      "R",
+      "R",
+      "I",
+      "G",
+      "A",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "A",
+      "B",
+      "O",
+      "R",
+      "#",
+      "C",
+      "T",
+      "S",
+      "#"
+    ],
+    [
+      "#",
+      "I",
+      "T",
+      "I",
+      "N",
+      "E",
+      "R",
+      "A",
+      "R",
+      "Y",
+      "#"
+    ],
+    [
+      "#",
+      "A",
+      "E",
+      "D",
+      "#",
+      "W",
+      "I",
+      "D",
+      "E",
+      "N",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "V",
+      "A",
+      "N",
+      "E",
+      "S",
+      "C",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "M",
+      "O",
+      "R",
+      "S",
+      "#",
+      "T",
+      "O",
+      "L"
+    ],
+    [
+      "R",
+      "U",
+      "N",
+      "#",
+      "W",
+      "E",
+      "E",
+      "#",
+      "L",
+      "P",
+      "M"
+    ],
+    [
+      "F",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "E",
+      "O"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,8": {
+      "number": 4
+    },
+    "0,9": {
+      "number": 5
+    },
+    "0,10": {
+      "number": 6
+    },
+    "1,0": {
+      "number": 7
+    },
+    "1,4": {
+      "number": 8
+    },
+    "1,5": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "4,1": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,1": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,3": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,1": {
+      "number": 29
+    },
+    "8,2": {
+      "number": 30
+    },
+    "8,8": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "9,8": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,8": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "KIM",
+      "clue": "Singer Kardashian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "KUKI",
+      "clue": "Kamarupan languages spoken in western Burma and Bangladesh and easternmost India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kamarupan languages spoken in western Burma and Bangladesh and easternmost India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "INERTIA",
+      "clue": "Disposition to remain inactive or inert",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disposition to remain inactive or inert",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 7,
+      "answer": "MIGRATE",
+      "clue": "Remove or pass from one country, region, or habitat to another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To remove or pass from one country, region, or habitat to another",
+        "Move from one country or region to another and settle there",
+        "Remove from one country or region to another, with a view to..."
+      ],
+      "definition": "To remove or pass from one country, region, or habitat to another.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "Expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An expression of assent",
+        "Yes"
+      ],
+      "definition": "An expression of assent.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Black tropical American cuckoo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoo",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pronoun of the second person, in the nominative, dative, and objective...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ELM",
+      "clue": "Any of various trees of the genus Ulmus: important timber or shade trees",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various trees of the genus Ulmus: important timber or shade trees",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "UNI",
+      "clue": "College, in Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8A",
+      "number": 8,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous pinnate-leaved ornamental or timber trees of the genus...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 1,
+      "col": 4,
+      "length": 5,
+      "answer": "ARGON",
+      "clue": "Colorless and odorless inert gas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colorless and odorless inert gas",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "SHAREWARE",
+      "clue": "Software that is available free of charge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Software that is available free of charge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "HOT",
+      "clue": "Ardent?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of ardent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "NOL",
+      "clue": "___ pros (legal dismissal)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "KEG",
+      "clue": "Small cask or barrel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cask or barrel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "RHODIUM",
+      "clue": "White hard metallic element that is one of the platinum group and is found in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White hard metallic element that is one of the platinum group and is found in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 6,
+      "answer": "DECADE",
+      "clue": "Cardinal number that is the sum of nine and one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the sum of nine and one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 8,
+      "answer": "IRRIGATE",
+      "clue": "Water, as land, by ditches or other artificial means",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To water, as land, by ditches or other artificial means",
+        "Supply with a constant flow or sprinkling of some liquid, for the purpose of...",
+        "Water"
+      ],
+      "definition": "To water, as land, by ditches or other artificial means.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 6,
+      "answer": "IBIDEM",
+      "clue": "In the same place (used when citing a reference)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the same place (used when citing a reference)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 5,
+      "answer": "TABOR",
+      "clue": "Small drum with one head of soft calfskin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small drum with one head of soft calfskin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "CTS",
+      "clue": "Methods of examining body organs by scanning them with X rays and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Methods of examining body organs by scanning them with X rays and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 8,
+      "length": 7,
+      "answer": "TRESTLE",
+      "clue": "Open braced framework for supporting the horizontal stringers of a",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An open braced framework for supporting the horizontal stringers of a",
+        "Sawhorses used in pairs to support a horizontal tabletop",
+        "Movable frame or support for anything, as scaffolding, consisting..."
+      ],
+      "definition": "An open braced framework for supporting the horizontal stringers of a",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "SYNCOPE",
+      "clue": "Loss of sounds from within a word (as in `fo'c'sle' for `forecastle')",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loss of sounds from within a word (as in `fo'c'sle' for `forecastle')",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "ITINERARY",
+      "clue": "Detailed account or diary of a journey",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A detailed account or diary of a journey",
+        "Proposed route of travel",
+        "Itinerant"
+      ],
+      "definition": "A detailed account or diary of a journey.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "RINSE",
+      "clue": "Washing lightly without soap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Washing lightly without soap",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "WIDEN",
+      "clue": "Become broader or wider or more extensive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become broader or wider or more extensive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 3,
+      "length": 8,
+      "answer": "EVANESCE",
+      "clue": "Vanish gradually",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To vanish gradually",
+        "Disappear gradually",
+        "Vanish away"
+      ],
+      "definition": "To vanish gradually.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "VOW",
+      "clue": "Solemn pledge (to oneself or to another or to a deity) to do something or to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Solemn pledge (to oneself or to another or to a deity) to do something or to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ELMO",
+      "clue": "Sesame Street tickler",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "TREMORS",
+      "clue": "Involuntary tremblings or shiverings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Involuntary tremblings or shiverings",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "TRF",
+      "clue": "Hormone released by the hypothalamus that controls the release of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hormone released by the hypothalamus that controls the release of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "Regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To regret extremely",
+        "Street or road in France",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
+      "definition": "To regret extremely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 2,
+      "length": 3,
+      "answer": "END",
+      "clue": "Position on the line of scrimmage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on the line of scrimmage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "TOL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "RUN",
+      "clue": "Become undone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become undone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very early",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very small",
+        "Little"
+      ],
+      "definition": "Very small.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "LPM",
+      "clue": "Pump output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "FED",
+      "clue": "Central bank of the United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central bank of the United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "EEO",
+      "clue": "Workplace fairness, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MIGRATE",
+      "clue": "Remove or pass from one country, region, or habitat to another",
+      "definition": "To remove or pass from one country, region, or habitat to another.",
+      "id": "3D"
+    },
+    {
+      "word": "IRRIGATE",
+      "clue": "Water, as land, by ditches or other artificial means",
+      "definition": "To water, as land, by ditches or other artificial means.",
+      "id": "15A"
+    },
+    {
+      "word": "TRESTLE",
+      "clue": "Open braced framework for supporting the horizontal stringers of a",
+      "definition": "An open braced framework for supporting the horizontal stringers of a",
+      "id": "19D"
+    },
+    {
+      "word": "EVANESCE",
+      "clue": "Vanish gradually",
+      "definition": "To vanish gradually.",
+      "id": "25A"
+    }
+  ]
+}

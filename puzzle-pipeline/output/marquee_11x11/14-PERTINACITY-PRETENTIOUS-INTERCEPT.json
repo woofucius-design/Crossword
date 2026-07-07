@@ -1,0 +1,839 @@
+{
+  "date": "2027-08-14",
+  "number": 3013,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "W",
+      "R",
+      "#",
+      "S",
+      "T",
+      "R",
+      "U",
+      "M",
+      "S"
+    ],
+    [
+      "A",
+      "L",
+      "O",
+      "E",
+      "#",
+      "A",
+      "R",
+      "A",
+      "R",
+      "A",
+      "T"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "T",
+      "I",
+      "N",
+      "A",
+      "C",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "T",
+      "A",
+      "K",
+      "E",
+      "N",
+      "#",
+      "N",
+      "I",
+      "C",
+      "H",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "T",
+      "A",
+      "S",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "L",
+      "I",
+      "M",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "U",
+      "R",
+      "G",
+      "E",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "I",
+      "C",
+      "#",
+      "N",
+      "E",
+      "H",
+      "R",
+      "U"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "T",
+      "E",
+      "N",
+      "T",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "E",
+      "U",
+      "R",
+      "O",
+      "P",
+      "A",
+      "#",
+      "D",
+      "O",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "A",
+      "R",
+      "T",
+      "H",
+      "#",
+      "E",
+      "T",
+      "H",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "PWR",
+      "clue": "Nuclear reactor that uses water as a coolant and moderator",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nuclear reactor that uses water as a coolant and moderator",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "PLEA",
+      "clue": "Argument to obtain some desired action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "An argument to obtain some desired action",
+        "Answer indicating why a suit should be dismissed",
+        "That which is alleged by a party in support of his cause"
+      ],
+      "definition": "An argument to obtain some desired action.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "WORK",
+      "clue": "Activity directed toward making or doing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity directed toward making or doing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "RETE",
+      "clue": "Network of intersecting blood vessels or intersecting nerves or intersecting...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Network of intersecting blood vessels or intersecting nerves or intersecting...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "STRUMS",
+      "clue": "Sounds the strings of (a string instrument)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sounds the strings of (a string instrument)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "TRANSIENT",
+      "clue": "Of a mental act",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One who or that which is only of temporary existence",
+        "Passing before the sight or perception, or, as it were, moving over..."
+      ],
+      "definition": "One who or that which is only of temporary existence.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "RACISM",
+      "clue": "Discriminatory or abusive behavior towards members of another race",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Discriminatory or abusive behavior towards members of another race",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "URIC",
+      "clue": "In or relating to or obtained from urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or relating to or obtained from urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "MATH",
+      "clue": "Science (or group of related sciences) dealing with the logic of quantity and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Science (or group of related sciences) dealing with the logic of quantity and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Infection of the sebaceous gland of the eyelid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infection of the sebaceous gland of the eyelid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "APT",
+      "clue": "Being of striking appropriateness and pertinence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being of striking appropriateness and pertinence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ARARAT",
+      "clue": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PERTINACITY",
+      "clue": "Persistent determination",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unyielding adherence",
+        "Quality or state of being pertinacious"
+      ],
+      "definition": "Unyielding adherence.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "INTERCEPT",
+      "clue": "Interrupt the course of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To interrupt the course of",
+        "Point at which a line intersects a coordinate axis",
+        "Take or seize by the way, or before arrival at the destined place"
+      ],
+      "definition": "To interrupt the course of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TAKEN",
+      "clue": "Be affected with an indisposition",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be affected with an indisposition",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NICHE",
+      "clue": "Enclosure that is set back or indented",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enclosure that is set back or indented",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "TASS",
+      "clue": "Old Soviet news agency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ALG",
+      "clue": "Math branch: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SELIM",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "SUITOR",
+      "clue": "Man who courts a woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who courts a woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "URGE",
+      "clue": "Strong restless desire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong restless desire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ATTIC",
+      "clue": "Low wall at the top of the entablature",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Low wall at the top of the entablature",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "APED",
+      "clue": "Represented in or produce a caricature of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Represented in or produce a caricature of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "TRUE",
+      "clue": "Proper alignment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Proper alignment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "TERA",
+      "clue": "Three-tone Chadic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Three-tone Chadic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NEHRU",
+      "clue": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "EIDE",
+      "clue": "Norwegian foreign minister Espen Barth ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "HOOT",
+      "clue": "Something of little value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of little value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "RUTH",
+      "clue": "Sorrow for the misery of another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sorrow for another's misery"
+      ],
+      "definition": "Sorrow for another's misery.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PRETENTIOUS",
+      "clue": "Intended to attract notice and impress others",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Marked by pretense, conceit, or display",
+        "Full of pretension"
+      ],
+      "definition": "Marked by pretense, conceit, or display.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NAH",
+      "clue": "\"No thanks\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "EUROPA",
+      "clue": "4th largest of Jupiter's satellites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "4th largest of Jupiter's satellites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "DOTE",
+      "clue": "Shower with love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shower with love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "DEARTH",
+      "clue": "Insufficient quantity or number",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Scarcity, as of something customary, essential ,or desirable",
+        "Scarcity which renders dear"
+      ],
+      "definition": "Scarcity, as of something customary, essential ,or desirable.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ETH",
+      "clue": "Old English letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "TRANSIENT",
+      "clue": "Of a mental act",
+      "definition": "One who or that which is only of temporary existence.",
+      "id": "5D"
+    },
+    {
+      "word": "PERTINACITY",
+      "clue": "Persistent determination",
+      "definition": "Unyielding adherence.",
+      "id": "12A"
+    },
+    {
+      "word": "INTERCEPT",
+      "clue": "Interrupt the course of",
+      "definition": "To interrupt the course of.",
+      "id": "13D"
+    },
+    {
+      "word": "PRETENTIOUS",
+      "clue": "Intended to attract notice and impress others",
+      "definition": "Marked by pretense, conceit, or display.",
+      "id": "28A"
+    }
+  ]
+}
