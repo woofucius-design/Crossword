@@ -1,0 +1,820 @@
+{
+  "date": "2027-08-07",
+  "number": 3006,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "P",
+      "P",
+      "#",
+      "S",
+      "E",
+      "R",
+      "E",
+      "N",
+      "A"
+    ],
+    [
+      "A",
+      "M",
+      "I",
+      "E",
+      "#",
+      "O",
+      "X",
+      "A",
+      "L",
+      "I",
+      "C"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "O",
+      "L",
+      "I",
+      "D",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "O",
+      "O",
+      "P",
+      "#",
+      "S",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "E",
+      "T",
+      "T",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "R",
+      "U",
+      "E",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "A",
+      "I",
+      "N",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "I",
+      "G",
+      "O",
+      "T",
+      "#",
+      "C",
+      "O",
+      "Y",
+      "P",
+      "U"
+    ],
+    [
+      "O",
+      "D",
+      "O",
+      "R",
+      "I",
+      "F",
+      "E",
+      "R",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "S",
+      "L",
+      "E",
+      "E",
+      "V",
+      "E",
+      "#",
+      "C",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "S",
+      "E",
+      "Y",
+      "#",
+      "S",
+      "R",
+      "I",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "APP",
+      "clue": "Phone download",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AMOR",
+      "clue": "God of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PINO",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "PESO",
+      "clue": "Basic unit of money in Chile",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Chile",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "SERENA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "The sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
+      "definition": "The sun.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "EXISTENCE",
+      "clue": "Possession or continuance of being",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Possession or continuance of being.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "RADIAL",
+      "clue": "Arranged like rays or radii",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arranged like rays or radii",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Enthusiastic and assured vigor and liveliness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enthusiastic and assured vigor and liveliness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "NITE",
+      "clue": "Late hour, informally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ACES",
+      "clue": "Serves that the receiver is unable to reach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Serves that the receiver is unable to reach",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "French girlfriend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Something that people do or cause to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that people do or cause to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OXALIC",
+      "clue": "Pertaining to, derived from, or contained in, sorrel, or oxalis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to, derived from, or contained in, sorrel, or oxalis",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CONSOLIDATE",
+      "clue": "To combine into one body or system",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Combine into one body or system",
+        "Make firm or secure",
+        "Formed into a solid mass"
+      ],
+      "definition": "To combine into one body or system.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "OPERATIVE",
+      "clue": "Active",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Being in force or having or exerting force",
+        "Having the power of acting"
+      ],
+      "definition": "Active.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TROOP",
+      "clue": "Group of soldiers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of soldiers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SINES",
+      "clue": "Acts that be regarded by theologians as a transgression of God's will",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts that be regarded by theologians as a transgression of God's will",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ETTA",
+      "clue": "Singer James",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TUI",
+      "clue": "New Zealand songbird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CRUEL",
+      "clue": "Able or disposed to inflict pain or suffering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Able or disposed to inflict pain or suffering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CRORES",
+      "clue": "Numbers that be represented as a one followed by zeros",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Numbers that be represented as a one followed by zeros",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "RAIN",
+      "clue": "Anything happening rapidly or in quick successive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anything happening rapidly or in quick successive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "BIGOT",
+      "clue": "Prejudiced person who is intolerant of any opinions differing from his own",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prejudiced person who is intolerant of any opinions differing from his own",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BOSH",
+      "clue": "Pretentious or silly talk or writing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pretentious or silly talk or writing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "IDLE",
+      "clue": "Not in active use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not in active use",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "GOER",
+      "clue": "Someone who leaves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who leaves",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "COYPU",
+      "clue": "Aquatic South American rodent resembling a small beaver",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aquatic South American rodent resembling a small beaver",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ORCS",
+      "clue": "Tolkien baddies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "PURI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Exerting shrewd or devious influence especially for one's own advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exerting shrewd or devious influence especially for one's own advantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ODORIFEROUS",
+      "clue": "Having or diffusing an odor or scent, especially an agreeable one",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having a natural fragrance",
+        "Bearing or yielding an odor"
+      ],
+      "definition": "Having or diffusing an odor or scent, especially an agreeable one.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "FEY",
+      "clue": "Suggestive of an elf in strangeness and otherworldliness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suggestive of an elf in strangeness and otherworldliness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "SLEEVE",
+      "clue": "Part of a garment that is attached at the armhole and that provides a cloth...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a garment that is attached at the armhole and that provides a cloth...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "CURE",
+      "clue": "Care, heed, or attention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Care, heed, or attention",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "HERSEY",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "EXISTENCE",
+      "clue": "Possession or continuance of being",
+      "definition": "Possession or continuance of being.",
+      "id": "5D"
+    },
+    {
+      "word": "CONSOLIDATE",
+      "clue": "To combine into one body or system",
+      "definition": "To combine into one body or system.",
+      "id": "12A"
+    },
+    {
+      "word": "OPERATIVE",
+      "clue": "Active",
+      "definition": "Active.",
+      "id": "13D"
+    },
+    {
+      "word": "ODORIFEROUS",
+      "clue": "Having or diffusing an odor or scent, especially an agreeable one",
+      "definition": "Having or diffusing an odor or scent, especially an agreeable one.",
+      "id": "28A"
+    }
+  ]
+}

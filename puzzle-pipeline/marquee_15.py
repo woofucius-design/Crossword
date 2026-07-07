@@ -33,6 +33,7 @@ from pick_15 import load_scores
 from post_improve import post_improve
 
 HERE = Path(__file__).parent
+# Output dir comes from --output-dir; module-level default kept for imports.
 OUT_DIR = HERE / "output" / "marquee_15x15"
 
 
@@ -239,12 +240,19 @@ def main() -> None:
                     help="seconds per puzzle before giving up")
     ap.add_argument("--node-limit", type=int, default=400_000)
     ap.add_argument("--rng-seed", type=int, default=2027)
+    ap.add_argument("--templates-dir", nargs="+",
+                    default=["data/templates_15"],
+                    help="one or more directories of template_*.json")
+    ap.add_argument("--output-dir", default="output/marquee_15x15")
+    ap.add_argument("--min-marquee-len", type=int, default=7,
+                    help="slots at least this long count as marquee slots")
     ap.add_argument("--start-date", default="2027-07-01")
     ap.add_argument("--start-number", type=int, default=2000)
     args = ap.parse_args()
 
     G.NODE_LIMIT = args.node_limit
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = HERE / args.output_dir
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     sat = G.load_sat()
     sat_lookup = {w["word"]: w for w in sat}
@@ -266,7 +274,11 @@ def main() -> None:
     print("fresh by length:",
           {k: len(v) for k, v in sorted(fresh_by_len.items()) if k >= 7})
 
-    templates = sorted(glob.glob(str(HERE / "data" / "templates_15" / "template_*.json")))
+    templates = sorted(
+        p for d in args.templates_dir
+        for p in glob.glob(str(HERE / d / "template_*.json"))
+    )
+    print(f"{len(templates)} templates from {args.templates_dir}")
     rng = random.Random(args.rng_seed)
     teach_path = HERE / "data" / "sat_synonym_index.json"
     teaching_set: set[str] = (
@@ -291,7 +303,7 @@ def main() -> None:
         t_idx += 1
         grid = json.loads(Path(tmpl_path).read_text())
         slots = G.extract_slots(grid)
-        pairs, singles = symmetric_marquees(grid, slots)
+        pairs, singles = symmetric_marquees(grid, slots, args.min_marquee_len)
 
         t0 = time.time()
         solved = None
@@ -354,7 +366,7 @@ def main() -> None:
         teach_n = sum(1 for w in solved if w in teaching_set)
         unclued = sum(1 for w in puzzle["words"] if not w["clue"])
         fname = f"{len(made)+1:02d}-{'-'.join(featured[:3])}.json"
-        (OUT_DIR / fname).write_text(json.dumps(puzzle, indent=2))
+        (out_dir / fname).write_text(json.dumps(puzzle, indent=2))
         made.append({
             "file": fname, "template": Path(tmpl_path).name,
             "featured": featured, "entries": len(slots),
@@ -372,7 +384,7 @@ def main() -> None:
         cur_date += timedelta(days=1)
         cur_num += 1
 
-    (OUT_DIR / "_index.json").write_text(json.dumps(made, indent=2))
+    (out_dir / "_index.json").write_text(json.dumps(made, indent=2))
     lines = [
         "# Marquee-themed 15x15 puzzles",
         "",
@@ -389,8 +401,8 @@ def main() -> None:
             f"| {m['entries']} | {m['sat']} | {m['sat_pct']}% "
             f"| {m['unclued']} |"
         )
-    (OUT_DIR / "_report.md").write_text("\n".join(lines))
-    print(f"\n{len(made)} puzzles -> {OUT_DIR.relative_to(HERE)}/")
+    (out_dir / "_report.md").write_text("\n".join(lines))
+    print(f"\n{len(made)} puzzles -> {out_dir.relative_to(HERE)}/")
 
 
 if __name__ == "__main__":
