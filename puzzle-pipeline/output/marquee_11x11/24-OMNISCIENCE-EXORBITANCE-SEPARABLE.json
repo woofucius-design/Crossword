@@ -1,0 +1,846 @@
+{
+  "date": "2027-08-24",
+  "number": 3023,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "Y",
+      "S",
+      "#",
+      "F",
+      "I",
+      "C",
+      "K",
+      "L",
+      "E"
+    ],
+    [
+      "S",
+      "C",
+      "O",
+      "W",
+      "#",
+      "A",
+      "T",
+      "R",
+      "I",
+      "U",
+      "M"
+    ],
+    [
+      "O",
+      "M",
+      "N",
+      "I",
+      "S",
+      "C",
+      "I",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "I",
+      "Z",
+      "E",
+      "#",
+      "N",
+      "A",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "#",
+      "P",
+      "O",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "A",
+      "D",
+      "R",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "N",
+      "D",
+      "A",
+      "#",
+      "N",
+      "Y",
+      "A",
+      "S",
+      "A"
+    ],
+    [
+      "E",
+      "X",
+      "O",
+      "R",
+      "B",
+      "I",
+      "T",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "S",
+      "E",
+      "L",
+      "L",
+      "#",
+      "R",
+      "E",
+      "A",
+      "D"
+    ],
+    [
+      "E",
+      "L",
+      "Y",
+      "S",
+      "E",
+      "E",
+      "#",
+      "N",
+      "W",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "6,3": {
+      "number": 19
+    },
+    "7,0": {
+      "number": 20
+    },
+    "7,1": {
+      "number": 21
+    },
+    "7,2": {
+      "number": 22
+    },
+    "7,6": {
+      "number": 23
+    },
+    "7,7": {
+      "number": 24
+    },
+    "7,8": {
+      "number": 25
+    },
+    "7,9": {
+      "number": 26
+    },
+    "7,10": {
+      "number": 27
+    },
+    "8,0": {
+      "number": 28
+    },
+    "8,5": {
+      "number": 29
+    },
+    "9,0": {
+      "number": 30
+    },
+    "9,7": {
+      "number": 31
+    },
+    "10,0": {
+      "number": 32
+    },
+    "10,7": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "AYS",
+      "clue": "Affirmative votes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "Highest point (of something)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The highest point, or summit",
+        "Highest point, or summit",
+        "Top or highest point"
+      ],
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "YONI",
+      "clue": "Symbol under which Sakti, or the personification of the female power in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Symbol under which Sakti, or the personification of the female power in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "SWIZ",
+      "clue": "British slang for a swindle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British slang for a swindle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "FICKLE",
+      "clue": "Not fixed or firm",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unduly changeable in feeling, judgment, or purpose",
+        "Liable to sudden unpredictable change"
+      ],
+      "definition": "Unduly changeable in feeling, judgment, or purpose.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "FAC",
+      "clue": "Large ornamental letter used, esp. by the early printers, at the commencement...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large ornamental letter used, esp. by the early printers, at the commencement...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 9,
+      "answer": "ITINERANT",
+      "clue": "Passing or traveling about a country",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wandering",
+        "Traveling from place to place to work"
+      ],
+      "definition": "Wandering.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "CREATE",
+      "clue": "Make or cause to be or to become",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make or cause to be or to become",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "KIND",
+      "clue": "Benevolent?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "BENEVOLENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of benevolent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LUCE",
+      "clue": "United States playwright and public official (1902-1987)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States playwright and public official (1902-1987)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "EMER",
+      "clue": "Critical: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SCOW",
+      "clue": "Barge carrying bulk materials in an open hold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Barge carrying bulk materials in an open hold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "SOS",
+      "clue": "Internationally recognized distress signal in radio code",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internationally recognized distress signal in radio code",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ATRIUM",
+      "clue": "Central area in a building",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central area in a building",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OMNISCIENCE",
+      "clue": "Unlimited or infinite knowledge",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Unlimited or infinite knowledge.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 9,
+      "answer": "SEPARABLE",
+      "clue": "Capable of being divided or dissociated",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Capable of being disjoined or divided"
+      ],
+      "definition": "Capable of being disjoined or divided.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SEIZE",
+      "clue": "Capture the attention or imagination of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To catch or take hold of suddenly and forcibly",
+        "Catch or take hold of suddenly and forcibly",
+        "Fall or rush upon suddenly and lay hold of"
+      ],
+      "definition": "To catch or take hold of suddenly and forcibly.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NADER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "POET",
+      "clue": "Writer of poems (the term is usually reserved for writers of good poetry)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Writer of poems (the term is usually reserved for writers of good poetry)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "Lyric poem with complex stanza forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The form of lyric poetry anciently intended to be sung",
+        "Form of lyric poetry anciently intended to be sung",
+        "Short poetical composition proper to be set to music or sung"
+      ],
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CADRE",
+      "clue": "Nucleus of military personnel capable of expansion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nucleus of military personnel capable of expansion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "CADRES",
+      "clue": "Nuclei of military personnel capable of expansion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nuclei of military personnel capable of expansion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Part of a structure having some specific characteristic or function",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a structure having some specific characteristic or function",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PANDA",
+      "clue": "Reddish-brown Old World raccoon-like carnivore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reddish-brown Old World raccoon-like carnivore",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PERE",
+      "clue": "Peer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Peer",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AXEL",
+      "clue": "Figure-skating jump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "NOSY",
+      "clue": "Offensively curious or inquisitive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensively curious or inquisitive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NYASA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "YARN",
+      "clue": "Fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Over again",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Once more",
+        "Again but in a new or different way"
+      ],
+      "definition": "Once more.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SCAT",
+      "clue": "Singing jazz",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Singing jazz",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EXORBITANCE",
+      "clue": "Going out of or beyond the usual or due limit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Extravagance or enormity",
+        "Excessive excess"
+      ],
+      "definition": "Extravagance or enormity.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ILE",
+      "clue": "Ear of corn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ear of corn",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "RESELL",
+      "clue": "Sell (something) again after having bought it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sell (something) again after having bought it",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "READ",
+      "clue": "Make sense of a language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make sense of a language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ELYSEE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "NWT",
+      "clue": "Canada's far-north abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ITINERANT",
+      "clue": "Passing or traveling about a country",
+      "definition": "Wandering.",
+      "id": "5D"
+    },
+    {
+      "word": "OMNISCIENCE",
+      "clue": "Unlimited or infinite knowledge",
+      "definition": "Unlimited or infinite knowledge.",
+      "id": "12A"
+    },
+    {
+      "word": "SEPARABLE",
+      "clue": "Capable of being divided or dissociated",
+      "definition": "Capable of being disjoined or divided.",
+      "id": "13D"
+    },
+    {
+      "word": "EXORBITANCE",
+      "clue": "Going out of or beyond the usual or due limit",
+      "definition": "Extravagance or enormity.",
+      "id": "28A"
+    }
+  ]
+}

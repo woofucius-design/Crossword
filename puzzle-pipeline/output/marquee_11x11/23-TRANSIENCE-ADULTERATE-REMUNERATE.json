@@ -1,0 +1,801 @@
+{
+  "date": "2027-08-23",
+  "number": 3022,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "A",
+      "F",
+      "E",
+      "#",
+      "P",
+      "A",
+      "S",
+      "O",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "R",
+      "A",
+      "N",
+      "S",
+      "I",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "A",
+      "D",
+      "U",
+      "L",
+      "T",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "Y",
+      "O",
+      "N",
+      "#",
+      "A",
+      "B",
+      "O",
+      "R",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "A",
+      "S",
+      "T",
+      "A",
+      "#",
+      "E",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "I",
+      "L",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "A",
+      "M",
+      "#",
+      "B",
+      "O",
+      "D",
+      "E",
+      "D",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "V",
+      "I",
+      "D",
+      "I",
+      "N",
+      "#",
+      "D",
+      "I",
+      "I",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "U",
+      "N",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E",
+      "N",
+      "C",
+      "E",
+      "#"
+    ],
+    [
+      "#",
+      "T",
+      "O",
+      "T",
+      "S",
+      "#",
+      "A",
+      "S",
+      "H",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "1,1": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,10": {
+      "number": 11
+    },
+    "2,1": {
+      "number": 12
+    },
+    "3,1": {
+      "number": 13
+    },
+    "3,5": {
+      "number": 14
+    },
+    "4,2": {
+      "number": 15
+    },
+    "4,4": {
+      "number": 16
+    },
+    "4,8": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,7": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,4": {
+      "number": 23
+    },
+    "6,8": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,3": {
+      "number": 26
+    },
+    "7,7": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,6": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "10,1": {
+      "number": 32
+    },
+    "10,6": {
+      "number": 33
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SAFE",
+      "clue": "Contraceptive device consisting of a sheath of thin rubber or latex that is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contraceptive device consisting of a sheath of thin rubber or latex that is...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "STAY",
+      "clue": "Remain in place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ARDOR",
+      "clue": "Feelings of great warmth and intensity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Intensity of passion or affection",
+        "Heat, in a literal sense"
+      ],
+      "definition": "Intensity of passion or affection.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 6,
+      "answer": "FAUNAS",
+      "clue": "Living organisms characterized by voluntary movement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Living organisms characterized by voluntary movement",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ENL",
+      "clue": "Inflammatory complication of leprosy that results in painful skin lesions on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory complication of leprosy that results in painful skin lesions on...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "PASO",
+      "clue": "El ___, Texas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 7,
+      "answer": "PIEBALD",
+      "clue": "Having sections or patches colored differently and usually brightly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having sections or patches colored differently and usually brightly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AERO",
+      "clue": "Flight-related prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SNARE",
+      "clue": "Trap for birds or small mammals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trap for birds or small mammals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "OCTAL",
+      "clue": "Of or pertaining to a number system having 8 as its base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a number system having 8 as its base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 10,
+      "answer": "TRANSIENCE",
+      "clue": "Attribute of being brief or fleeting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Something that is of short duration",
+        "Quality of being transient"
+      ],
+      "definition": "Something that is of short duration.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 5,
+      "length": 9,
+      "answer": "STATIONED",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 4,
+      "answer": "EELS",
+      "clue": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Voracious snakelikes marines or freshwater fishes with smooth slimy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 1,
+      "length": 10,
+      "answer": "ADULTERATE",
+      "clue": "Make impure by the admixture of other or baser ingredients",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To make impure by the admixture of other or baser ingredients",
+        "Mixed with impurities",
+        "Defile by adultery"
+      ],
+      "definition": "To make impure by the admixture of other or baser ingredients.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 3,
+      "col": 1,
+      "length": 3,
+      "answer": "YON",
+      "clue": "At a distance, but within view",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At a distance, but within view",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 5,
+      "length": 6,
+      "answer": "ABORAL",
+      "clue": "Opposite to or away from the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Opposite to or away from the mouth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 5,
+      "answer": "RASTA",
+      "clue": "Follower of Rastafarianism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Follower of Rastafarianism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 7,
+      "answer": "SABINES",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ELS",
+      "clue": "Railways that be powered by electricity and that runs on a track that",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railways that be powered by electricity and that runs on a track that",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SAILS",
+      "clue": "Ocean trips taken for pleasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ocean trips taken for pleasure",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 6,
+      "answer": "SEDANS",
+      "clue": "Cars that be closed and that has front and rear seats and two or four",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cars that be closed and that has front and rear seats and two or four",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "HAM",
+      "clue": "Meat cut from the thigh of a hog (usually smoked)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Meat cut from the thigh of a hog (usually smoked)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "HARP",
+      "clue": "Small rectangular free-reed instrument having a row of free reeds set back in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small rectangular free-reed instrument having a row of free reeds set back in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "Turn away or aside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To turn away or aside",
+        "Turn aside, or away"
+      ],
+      "definition": "To turn away or aside.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MIMEO",
+      "clue": "Rotary duplicator that uses a stencil through which ink is pressed (trade...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rotary duplicator that uses a stencil through which ink is pressed (trade...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 5,
+      "answer": "BODED",
+      "clue": "Indicated by signs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indicated by signs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "DITCH",
+      "clue": "Long narrow excavation in the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long narrow excavation in the earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 6,
+      "answer": "AVIDIN",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "DUCT",
+      "clue": "Enclosed conduit for a fluid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enclosed conduit for a fluid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 3,
+      "answer": "DII",
+      "clue": "Roman numeral for 502",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 502",
+      "clueSource": "roman"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "IEEE",
+      "clue": "Engineering pros' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 10,
+      "answer": "REMUNERATE",
+      "clue": "Pay or pay for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To pay or pay for",
+        "Make payment to",
+        "Pay an equivalent to for any service, loss, expense, or other..."
+      ],
+      "definition": "To pay or pay for.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "REA",
+      "clue": "Singer-guitarist Chris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 10,
+      "answer": "PRECEDENCE",
+      "clue": "Priority in place, time, or rank",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Priority in place, time, or rank.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "TOTS",
+      "clue": "Young children",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young children",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 4,
+      "answer": "ASHE",
+      "clue": "United States tennis player who was the first Black to win United States and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States tennis player who was the first Black to win United States and...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "TRANSIENCE",
+      "clue": "Attribute of being brief or fleeting",
+      "definition": "Something that is of short duration.",
+      "id": "9A"
+    },
+    {
+      "word": "ADULTERATE",
+      "clue": "Make impure by the admixture of other or baser ingredients",
+      "definition": "To make impure by the admixture of other or baser ingredients.",
+      "id": "12A"
+    },
+    {
+      "word": "REMUNERATE",
+      "clue": "Pay or pay for",
+      "definition": "To pay or pay for.",
+      "id": "29A"
+    },
+    {
+      "word": "PRECEDENCE",
+      "clue": "Priority in place, time, or rank",
+      "definition": "Priority in place, time, or rank.",
+      "id": "31A"
+    }
+  ]
+}
