@@ -1,0 +1,287 @@
+"""
+Themed 15x15 generator: deliberately place 4-6 featured SAT words in the
+long/symmetric marquee slots, the way constructed themed puzzles do —
+instead of hoping SAT words land somewhere organically.
+
+  - Marquee slots = the longest slots (>=7), grouped into 180°-symmetric
+    pairs (plus self-symmetric central slots). Theme entries occupy
+    symmetric pairs of equal length, per crossword convention.
+  - Featured words are drawn ONLY from SAT bank words that have never
+    appeared in any previously generated puzzle (fresh vocabulary), and
+    each generated puzzle uses a disjoint featured set.
+  - Fill pool is tier-1+2 only (zero tier-3 by construction), same as
+    puzzle_factory.
+  - Featured entries are marked isMarquee in the JSON and listed in a
+    top-level "featured" array (word + clue + definition) so the app can
+    show a post-solve vocab recap.
+
+Run:  python3 marquee_15.py --puzzles 10
+"""
+from __future__ import annotations
+
+import argparse
+import glob
+import json
+import random
+import time
+from collections import defaultdict
+from datetime import date, timedelta
+from pathlib import Path
+
+import generator as G
+from pick_15 import load_scores
+from post_improve import post_improve
+
+HERE = Path(__file__).parent
+OUT_DIR = HERE / "output" / "marquee_15x15"
+
+
+def used_words_in_outputs() -> set[str]:
+    """Every answer that appears in any previously generated puzzle."""
+    used: set[str] = set()
+    for path in glob.glob(str(HERE / "output" / "**" / "*.json"), recursive=True):
+        name = Path(path).name
+        if name.startswith("_"):
+            continue
+        try:
+            d = json.loads(Path(path).read_text())
+        except Exception:
+            continue
+        words = d.get("words") if isinstance(d, dict) else None
+        if not words:
+            continue
+        for w in words:
+            if isinstance(w, dict) and w.get("answer"):
+                used.add(w["answer"])
+    return used
+
+
+def symmetric_marquees(grid, slots, min_len: int = 7):
+    """(pairs, singles): symmetric slot-index pairs and self-symmetric
+    slot indexes among slots of length >= min_len, longest first."""
+    n = len(grid)
+    by_cells = {tuple(s.cells): i for i, s in enumerate(slots)}
+    pairs: list[tuple[int, int, int]] = []  # (length, i, j)
+    singles: list[tuple[int, int]] = []     # (length, i)
+    seen: set[int] = set()
+    for i, s in enumerate(slots):
+        if s.length < min_len or i in seen:
+            continue
+        twin = tuple((n - 1 - r, n - 1 - c) for (r, c) in reversed(s.cells))
+        j = by_cells.get(twin)
+        if j == i:
+            singles.append((s.length, i))
+            seen.add(i)
+        elif j is not None and slots[j].length == s.length:
+            pairs.append((s.length, i, j))
+            seen.add(i)
+            seen.add(j)
+    pairs.sort(reverse=True)
+    singles.sort(reverse=True)
+    return pairs, singles
+
+
+def pins_consistent(slots, pins: dict[int, str]) -> bool:
+    """Where two pinned slots cross, their letters must agree."""
+    for si, word_i in pins.items():
+        for idx_i, sj, idx_j in slots[si].crossings:
+            if sj in pins and pins[sj][idx_j] != word_i[idx_i]:
+                return False
+    return True
+
+
+def multi_pin_solve(slots, pool, sat_count, pins: dict[int, int],
+                    rng: random.Random, restarts: int = 3):
+    """Full solve with several words pinned (domains forced to singletons).
+    Same machinery as seed_15.seed_solve, generalized to N pins."""
+    filler = G.Filler(slots, pool, sat_count)
+    base: list[set[int]] = []
+    for si, slot in enumerate(filler.slots):
+        dom = set(filler.length_ids.get(slot.length, ()))
+        if si in pins:
+            if pins[si] not in dom:
+                return None
+            dom = {pins[si]}
+        if not dom:
+            return None
+        base.append(dom)
+    for attempt in range(restarts):
+        domains = [set(d) for d in base]
+        assign: list[int | None] = [None] * len(filler.slots)
+        filler.used_ids = set()
+        filler.nodes = 0
+        if filler._bt(domains, assign, rng, noisy=attempt > 0):
+            return [pool[w] for w in assign]
+    return None
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--puzzles", type=int, default=10)
+    ap.add_argument("--min-marquee", type=int, default=4,
+                    help="minimum featured words per puzzle")
+    ap.add_argument("--max-marquee", type=int, default=6)
+    ap.add_argument("--attempts-per-puzzle", type=int, default=12,
+                    help="pin-set attempts before moving to next template")
+    ap.add_argument("--time-budget", type=float, default=240.0,
+                    help="seconds per puzzle before giving up")
+    ap.add_argument("--node-limit", type=int, default=400_000)
+    ap.add_argument("--rng-seed", type=int, default=2027)
+    ap.add_argument("--start-date", default="2027-07-01")
+    ap.add_argument("--start-number", type=int, default=2000)
+    args = ap.parse_args()
+
+    G.NODE_LIMIT = args.node_limit
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    sat = G.load_sat()
+    sat_lookup = {w["word"]: w for w in sat}
+    sat_list = [w["word"] for w in sat]
+    fill = G.load_fill()
+    scores = load_scores()
+    fill_clean = [w for w in fill if scores.get(w, 30) >= 50]
+    pool = sat_list + [w for w in fill_clean if w not in sat_lookup]
+    word_to_id = {w: i for i, w in enumerate(pool)}
+    sat_set = set(sat_list)
+
+    used = used_words_in_outputs()
+    fresh = [w for w in sat_list if w not in used]
+    fresh_by_len: dict[int, list[str]] = defaultdict(list)
+    for w in fresh:
+        fresh_by_len[len(w)].append(w)
+    print(f"SAT bank {len(sat_list):,}; used in prior puzzles "
+          f"{len(sat_set & used):,}; fresh {len(fresh):,}")
+    print("fresh by length:",
+          {k: len(v) for k, v in sorted(fresh_by_len.items()) if k >= 7})
+
+    templates = sorted(glob.glob(str(HERE / "data" / "templates_15" / "template_*.json")))
+    rng = random.Random(args.rng_seed)
+    teach_path = HERE / "data" / "sat_synonym_index.json"
+    teaching_set: set[str] = (
+        set(json.loads(teach_path.read_text())) if teach_path.exists() else set()
+    )
+
+    def tier_of(w: str) -> int:
+        s = scores.get(w, 30)
+        return 0 if s >= 100 else 1 if s >= 80 else 2 if s >= 50 else 3
+
+    made: list[dict] = []
+    cur_date = date.fromisoformat(args.start_date)
+    cur_num = args.start_number
+    t_idx = 0
+
+    while len(made) < args.puzzles:
+        tmpl_path = templates[t_idx % len(templates)]
+        t_idx += 1
+        grid = json.loads(Path(tmpl_path).read_text())
+        slots = G.extract_slots(grid)
+        pairs, singles = symmetric_marquees(grid, slots)
+
+        t0 = time.time()
+        solved = None
+        featured: list[str] = []
+        for attempt in range(args.attempts_per_puzzle):
+            if time.time() - t0 > args.time_budget:
+                break
+            # Build a pin set: walk symmetric pairs longest-first, pin two
+            # fresh SAT words of that length per pair; self-symmetric slots
+            # take one. Stop inside the 4..6 band.
+            picks: dict[int, str] = {}
+            supply = {L: [w for w in ws] for L, ws in fresh_by_len.items()}
+            for L, ws in supply.items():
+                rng.shuffle(ws)
+            for L, i, j in pairs:
+                if len(picks) + 2 > args.max_marquee:
+                    continue
+                if len(supply.get(L, [])) >= 2:
+                    picks[i] = supply[L].pop()
+                    picks[j] = supply[L].pop()
+            for L, i in singles:
+                if len(picks) >= args.max_marquee:
+                    break
+                if supply.get(L):
+                    picks[i] = supply[L].pop()
+            if len(picks) < args.min_marquee:
+                break  # this template can't host a theme from fresh stock
+            if not pins_consistent(slots, picks):
+                continue
+            pins = {si: word_to_id[w] for si, w in picks.items()}
+            assign = multi_pin_solve(slots, pool, len(sat_list), pins, rng)
+            if assign is not None:
+                solved = assign
+                featured = [picks[si] for si in sorted(picks)]
+                break
+
+        if solved is None:
+            print(f"{Path(tmpl_path).name}: no marquee fill "
+                  f"({time.time()-t0:.0f}s), next template")
+            continue
+
+        # Local-search cleanup, then verify no marquee word was swapped out
+        improved, _stats = post_improve(
+            slots, pool, solved, tier_of,
+            max_iters=12, max_cascade_depth=2, verbose=False,
+        )
+        if all(w in improved for w in featured):
+            solved = improved
+
+        date_str = cur_date.isoformat()
+        puzzle = G.to_puzzle(grid, slots, solved, sat_lookup, date_str, cur_num)
+        feat_set = set(featured)
+        featured_meta = []
+        for w in puzzle["words"]:
+            if w["answer"] in feat_set:
+                w["isMarquee"] = True
+                featured_meta.append({
+                    "word": w["answer"],
+                    "clue": w["clue"],
+                    "definition": w.get("definition", ""),
+                    "id": w["id"],
+                })
+        puzzle["featured"] = featured_meta
+
+        sat_n = sum(1 for w in solved if w in sat_set)
+        teach_n = sum(1 for w in solved if w in teaching_set)
+        unclued = sum(1 for w in puzzle["words"] if not w["clue"])
+        fname = f"{len(made)+1:02d}-{'-'.join(featured[:3])}.json"
+        (OUT_DIR / fname).write_text(json.dumps(puzzle, indent=2))
+        made.append({
+            "file": fname, "template": Path(tmpl_path).name,
+            "featured": featured, "entries": len(slots),
+            "sat": sat_n, "sat_pct": round(100 * sat_n / len(slots), 1),
+            "teach": teach_n, "unclued": unclued,
+            "date": date_str, "number": cur_num,
+        })
+        # Featured words now count as used — later puzzles must differ.
+        for w in featured:
+            fresh_by_len[len(w)].remove(w)
+        print(f"puzzle {len(made)}/{args.puzzles} "
+              f"[{Path(tmpl_path).name}] featured={featured} "
+              f"SAT={sat_n} ({100*sat_n/len(slots):.0f}%) "
+              f"unclued={unclued} {time.time()-t0:.0f}s", flush=True)
+        cur_date += timedelta(days=1)
+        cur_num += 1
+
+    (OUT_DIR / "_index.json").write_text(json.dumps(made, indent=2))
+    lines = [
+        "# Marquee-themed 15x15 puzzles",
+        "",
+        "Featured SAT words are pinned into the long symmetric slots",
+        "(themed-puzzle convention); every featured word is fresh —",
+        "never used in any previously generated puzzle.",
+        "",
+        "| # | featured | template | entries | SAT | SAT% | unclued |",
+        "|---|---|---|---|---|---|---|",
+    ]
+    for i, m in enumerate(made, 1):
+        lines.append(
+            f"| {i} | {', '.join(m['featured'])} | {m['template']} "
+            f"| {m['entries']} | {m['sat']} | {m['sat_pct']}% "
+            f"| {m['unclued']} |"
+        )
+    (OUT_DIR / "_report.md").write_text("\n".join(lines))
+    print(f"\n{len(made)} puzzles -> {OUT_DIR.relative_to(HERE)}/")
+
+
+if __name__ == "__main__":
+    main()
