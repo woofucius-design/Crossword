@@ -1,0 +1,928 @@
+{
+  "date": "2027-08-23",
+  "number": 3022,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "N",
+      "I",
+      "M",
+      "A",
+      "#",
+      "#",
+      "J",
+      "A",
+      "T"
+    ],
+    [
+      "E",
+      "M",
+      "A",
+      "N",
+      "A",
+      "T",
+      "E",
+      "#",
+      "A",
+      "V",
+      "O"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "S",
+      "I",
+      "P",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "T",
+      "A",
+      "#",
+      "G",
+      "A",
+      "M",
+      "I",
+      "N"
+    ],
+    [
+      "E",
+      "S",
+      "L",
+      "#",
+      "#",
+      "S",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "O",
+      "R",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "T",
+      "A",
+      "L",
+      "#",
+      "#",
+      "P",
+      "E",
+      "T"
+    ],
+    [
+      "C",
+      "C",
+      "C",
+      "I",
+      "V",
+      "#",
+      "M",
+      "D",
+      "L",
+      "X",
+      "I"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "R",
+      "O",
+      "B",
+      "O",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "#",
+      "C",
+      "U",
+      "R",
+      "A",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "I",
+      "S",
+      "P",
+      "#",
+      "#",
+      "T",
+      "O",
+      "W",
+      "E",
+      "L",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ANIMA",
+      "clue": "Inner self (not the external persona) that is in touch with the unconscious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner self (not the external persona) that is in touch with the unconscious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AMIRS",
+      "clue": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "NASAL",
+      "clue": "Sounding as if the nose were pinched",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pertaining to the nose",
+        "Of or pertaining to the nose"
+      ],
+      "definition": "Pertaining to the nose.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "INST",
+      "clue": "In or of the present month",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or of the present month",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "MAIA",
+      "clue": "Type genus of the Majidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Majidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nucleotide derived from adenosine that occurs in muscle tissue",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "JAT",
+      "clue": "Member of an Indo-European people widely scattered throughout the northwest...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of an Indo-European people widely scattered throughout the northwest...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "JAIME",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "AVOID",
+      "clue": "Stay clear from",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stay clear from",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TONNE",
+      "clue": "Unit of weight equivalent to 1000 kilograms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of weight equivalent to 1000 kilograms",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "EMANATE",
+      "clue": "Flow forth or proceed, as from some source",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To flow forth or proceed, as from some source",
+        "Give out (breath or an odor)",
+        "Issue forth from a source"
+      ],
+      "definition": "To flow forth or proceed, as from some source.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Sharp side formed by the intersection of two surfaces of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp side formed by the intersection of two surfaces of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EAGER",
+      "clue": "Zealous?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of zealous",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DISSIPATION",
+      "clue": "State of being dispersed or scattered",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The state of being dispersed or scattered",
+        "Useless or profitless activity"
+      ],
+      "definition": "The state of being dispersed or scattered.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TACT",
+      "clue": "Fine or ready mental discernment shown in saying or doing the proper thing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fine or ready mental discernment shown in saying or doing the proper",
+        "Consideration in dealing with others and avoiding giving offense",
+        "Sense of touch"
+      ],
+      "definition": "Fine or ready mental discernment shown in saying or doing the proper thing.",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "GRATA",
+      "clue": "Persona non ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "GAMIN",
+      "clue": "Homeless boy who has been abandoned and roams the streets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Homeless boy who has been abandoned and roams the streets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ESL",
+      "clue": "Language class, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language class, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "SECEDE",
+      "clue": "Withdraw from union or association, especially from a political or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To withdraw from union or association, especially from a political or",
+        "Withdraw from union or association, especially from a political or religious",
+        "Withdraw from an organization or communion",
+        "Withdraw from fellowship, communion, or association"
+      ],
+      "definition": "To withdraw from union or association, especially from a political or religious",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "Sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
+      "definition": "The sun.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SHORT",
+      "clue": "Terse?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TERSE",
+        "EPHEMERAL"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of terse",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "STIR",
+      "clue": "Rapid active commotion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid active commotion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "HAVOC",
+      "clue": "Violent and needless disturbance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Devastation",
+        "Wide and general destruction"
+      ],
+      "definition": "Devastation.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "DISTAL",
+      "clue": "Situated farthest from point of attachment or origin, as of a limb or bone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Situated farthest from point of attachment or origin, as of a limb or bone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DCCII",
+      "clue": "Roman numeral for 702",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 702",
+      "clueSource": "roman"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ICONS",
+      "clue": "Images or likenesses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Images or likenesses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SCRAP",
+      "clue": "Act of fighting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of fighting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "PET",
+      "clue": "Using a computerized radiographic technique to examine the metabolic activity...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Using a computerized radiographic technique to examine the metabolic activity...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "PLATE",
+      "clue": "Dental appliance that artificially replaces missing teeth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dental appliance that artificially replaces missing teeth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "EXTOL",
+      "clue": "Praise in the highest terms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To praise in the highest terms",
+        "Praise, glorify, or honor",
+        "Place on high"
+      ],
+      "definition": "To praise in the highest terms.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "TIER",
+      "clue": "One of two or more layers one atop another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of two or more layers one atop another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "CCCIV",
+      "clue": "Roman numeral for 304",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 304",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "MDLXI",
+      "clue": "Roman numeral for 1561",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1561",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "MORO",
+      "clue": "Member of the predominantly Muslim people in the southern Philippines",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the predominantly Muslim people in the southern Philippines",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "DRAW",
+      "clue": "Cause to localize at one point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to localize at one point",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CORROBORATE",
+      "clue": "Strengthen, as proof or conviction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To strengthen, as proof or conviction",
+        "Establish or strengthen as with new evidence or facts",
+        "Make strong, or to give additional strength to"
+      ],
+      "definition": "To strengthen, as proof or conviction.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "BUT",
+      "clue": "And nothing more",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "And nothing more",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "INA",
+      "clue": "Actress Garten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CURATOR",
+      "clue": "Person having charge as of a library or museum",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A person having charge as of a library or museum",
+        "Custodian of a collection (as a museum or library)",
+        "One who has the care and superintendence of anything, as of a museum"
+      ],
+      "definition": "A person having charge as of a library or museum.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ISP",
+      "clue": "Internet access co.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TOWEL",
+      "clue": "Rectangular piece of absorbent cloth (or paper) for drying or wiping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangular piece of absorbent cloth (or paper) for drying or wiping",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "EMANATE",
+      "clue": "Flow forth or proceed, as from some source",
+      "definition": "To flow forth or proceed, as from some source.",
+      "id": "9A"
+    },
+    {
+      "word": "DISSIPATION",
+      "clue": "State of being dispersed or scattered",
+      "definition": "The state of being dispersed or scattered.",
+      "id": "12A"
+    },
+    {
+      "word": "CORROBORATE",
+      "clue": "Strengthen, as proof or conviction",
+      "definition": "To strengthen, as proof or conviction.",
+      "id": "29A"
+    },
+    {
+      "word": "CURATOR",
+      "clue": "Person having charge as of a library or museum",
+      "definition": "A person having charge as of a library or museum.",
+      "id": "32A"
+    }
+  ]
+}
