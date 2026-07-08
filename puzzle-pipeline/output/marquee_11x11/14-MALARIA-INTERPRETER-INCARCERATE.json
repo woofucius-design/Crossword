@@ -1,0 +1,902 @@
+{
+  "date": "2027-08-14",
+  "number": 3013,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "A",
+      "G",
+      "E",
+      "L",
+      "#",
+      "#",
+      "F",
+      "A",
+      "B"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "A",
+      "R",
+      "I",
+      "A",
+      "#",
+      "E",
+      "D",
+      "O"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "P",
+      "R",
+      "E",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "M",
+      "E",
+      "A",
+      "L",
+      "S",
+      "#",
+      "B",
+      "A",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "E",
+      "S",
+      "R",
+      "#",
+      "#",
+      "B",
+      "O",
+      "R",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "U",
+      "S",
+      "U",
+      "R",
+      "P",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "R",
+      "T",
+      "S",
+      "#",
+      "#",
+      "G",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "U",
+      "R",
+      "E",
+      "E",
+      "#",
+      "F",
+      "A",
+      "L",
+      "C",
+      "O"
+    ],
+    [
+      "I",
+      "N",
+      "C",
+      "A",
+      "R",
+      "C",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "E",
+      "#",
+      "N",
+      "E",
+      "U",
+      "T",
+      "R",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "#",
+      "#",
+      "E",
+      "D",
+      "S",
+      "E",
+      "L",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BAGEL",
+      "clue": "Glazed yeast-raised doughnut-shaped roll with hard crust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Glazed yeast-raised doughnut-shaped roll with hard crust",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BANES",
+      "clue": "Decrees that prohibit something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Decrees that prohibit something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ALTAR",
+      "clue": "Any raised place or structure on which sacrifices may be offered or incense",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Any raised place or structure on which sacrifices may be offered or",
+        "Raised structure on which gifts or sacrifices to a god are made",
+        "Raised structure (as a square or oblong erection of stone or wood)..."
+      ],
+      "definition": "Any raised place or structure on which sacrifices may be offered or incense",
+      "clueSource": "sat:sat_def"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ERRS",
+      "clue": "Makes a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes a mistake or be incorrect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "LIP",
+      "clue": "Either the outer margin or the inner margin of the aperture of a gastropod's...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either the outer margin or the inner margin of the aperture of a gastropod's...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "FAB",
+      "clue": "Extremely pleasing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extremely pleasing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "FETID",
+      "clue": "Offensively malodorous",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensively malodorous",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ADELE",
+      "clue": "\"Hello\" singer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "BORER",
+      "clue": "One who wearies by tediousness or dullness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who wearies by tediousness or dullness",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "MALARIA",
+      "clue": "Fever characterized by alternating chills, fever, and sweating",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A fever characterized by alternating chills, fever, and sweating",
+        "Infective disease caused by sporozoan parasites that are transmitted through...",
+        "Air infected with some noxious substance capable of engendering..."
+      ],
+      "definition": "A fever characterized by alternating chills, fever, and sweating.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MIME",
+      "clue": "Performance using gestures and body movements without words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Performance using gestures and body movements without words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ARBOR",
+      "clue": "Tree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A tree",
+        "Framework that supports climbing plants",
+        "Kind of latticework formed of, or covered with, vines, branches of..."
+      ],
+      "definition": "A tree.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Capital and largest city of Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERPRETER",
+      "clue": "Person who makes intelligible the speech of a foreigner by oral",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A person who makes intelligible the speech of a foreigner by oral",
+        "Program that translates and executes source language statements one line at a..."
+      ],
+      "definition": "A person who makes intelligible the speech of a foreigner by oral",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "EARP",
+      "clue": "Wyatt of Tombstone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "MEALS",
+      "clue": "Coarsely ground foodstuffs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarsely ground foodstuffs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "BAILE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ESR",
+      "clue": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Microwave spectroscopy in which there is resonant absorption of radiation by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "BORDER",
+      "clue": "Strip forming the outer edge of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strip forming the outer edge of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "BUS",
+      "clue": "Vehicle carrying many passengers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle carrying many passengers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "USURP",
+      "clue": "Take possession of by force",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To take possession of by force",
+        "Seize and take control without authority and possibly with force",
+        "Seize, and hold in possession, by force, or without right"
+      ],
+      "definition": "To take possession of by force.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "UREA",
+      "clue": "Chief solid component of mammalian urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief solid component of mammalian urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "STERN",
+      "clue": "Stoic?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "AUSTERE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "STARTS",
+      "clue": "Takes the first step or steps in carrying out an action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Takes the first step or steps in carrying out an action",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SPIRA",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "TUNED",
+      "clue": "Adjusted the pitches of (musical instruments)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adjusted the pitches of (musical instruments)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ARCED",
+      "clue": "Forming or resembling an arch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forming or resembling an arch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "GON",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "GLARE",
+      "clue": "Angry stare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angry stare",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "OCTAL",
+      "clue": "Of or pertaining to a number system having 8 as its base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a number system having 8 as its base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "NOEL",
+      "clue": "Period extending from Dec. 24 to Jan. 6",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Period extending from Dec. 24 to Jan. 6",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PUREE",
+      "clue": "Food prepared by cooking and straining or processed in a blender",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Food prepared by cooking and straining or processed in a blender",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "FALCO",
+      "clue": "Genus of Falconidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of Falconidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "FEUD",
+      "clue": "Bitter quarrel between two parties",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter quarrel between two parties",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Studies intended to provide general knowledge and intellectual skills (rather...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INCARCERATE",
+      "clue": "Imprison",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To imprison",
+        "Lock up or confine, in or as in a jail"
+      ],
+      "definition": "To imprison.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "CEE",
+      "clue": "Middling grade",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "REE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "NEUTRAL",
+      "clue": "Having no net electric charge",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belonging to or under control of neither of two contestants",
+        "Not engaged on either side"
+      ],
+      "definition": "Belonging to or under control of neither of two contestants.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ADD",
+      "clue": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "EDSEL",
+      "clue": "Famous Ford flop",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MALARIA",
+      "clue": "Fever characterized by alternating chills, fever, and sweating",
+      "definition": "A fever characterized by alternating chills, fever, and sweating.",
+      "id": "9A"
+    },
+    {
+      "word": "INTERPRETER",
+      "clue": "Person who makes intelligible the speech of a foreigner by oral",
+      "definition": "A person who makes intelligible the speech of a foreigner by oral",
+      "id": "12A"
+    },
+    {
+      "word": "INCARCERATE",
+      "clue": "Imprison",
+      "definition": "To imprison.",
+      "id": "29A"
+    },
+    {
+      "word": "NEUTRAL",
+      "clue": "Having no net electric charge",
+      "definition": "Belonging to or under control of neither of two contestants.",
+      "id": "32A"
+    }
+  ]
+}
