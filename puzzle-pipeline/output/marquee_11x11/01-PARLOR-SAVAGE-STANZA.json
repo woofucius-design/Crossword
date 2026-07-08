@@ -1,0 +1,944 @@
+{
+  "date": "2027-08-01",
+  "number": 3000,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "D",
+      "C",
+      "C",
+      "#",
+      "E",
+      "S",
+      "T",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "R",
+      "C",
+      "O",
+      "#",
+      "S",
+      "I",
+      "E",
+      "R",
+      "R",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "L",
+      "L",
+      "#",
+      "P",
+      "A",
+      "R",
+      "L",
+      "O",
+      "R"
+    ],
+    [
+      "E",
+      "M",
+      "I",
+      "L",
+      "E",
+      "#",
+      "#",
+      "M",
+      "E",
+      "L",
+      "L"
+    ],
+    [
+      "S",
+      "A",
+      "V",
+      "A",
+      "G",
+      "E",
+      "#",
+      "I",
+      "S",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "O",
+      "S",
+      "U",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "K",
+      "O",
+      "#",
+      "S",
+      "T",
+      "A",
+      "N",
+      "Z",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "R",
+      "#",
+      "#",
+      "S",
+      "T",
+      "A",
+      "E",
+      "L"
+    ],
+    [
+      "M",
+      "I",
+      "R",
+      "A",
+      "G",
+      "E",
+      "#",
+      "I",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "M",
+      "A",
+      "T",
+      "T",
+      "E",
+      "D",
+      "#",
+      "O",
+      "N",
+      "A",
+      "N"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "E",
+      "T",
+      "S",
+      "#",
+      "N",
+      "Y",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "MDCC",
+      "clue": "Roman numeral for 1700",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1700",
+      "clueSource": "roman"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "MACES",
+      "clue": "Waterproof raincoats made of rubberized fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waterproof raincoats made of rubberized fabric",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DRAMA",
+      "clue": "Quality of being arresting or highly emotional",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being arresting or highly emotional",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "CCLIV",
+      "clue": "Roman numeral for 254",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 254",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "COLLABORATE",
+      "clue": "To labor or cooperate with another or others, especially in literary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Labor or cooperate with another or others, especially in literary",
+        "Labor or cooperate with another or others, especially in literary or",
+        "Work together on a common enterprise of project"
+      ],
+      "definition": "To labor or cooperate with another or others, especially in literary or",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ESTATE",
+      "clue": "Major social class or order of persons regarded collectively as part of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major social class or order of persons regarded collectively as part of the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ESP",
+      "clue": "Apparent power to perceive things that are not present to the senses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apparent power to perceive things that are not present to the senses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "SIA",
+      "clue": "Aussie pop singer of 'Chandelier'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "TERMINATION",
+      "clue": "The act of ending or concluding",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of ending or concluding",
+        "Act of ending something"
+      ],
+      "definition": "The act of ending or concluding.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ARLES",
+      "clue": "Money given by a buyer to a seller to bind a contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money given by a buyer to a seller to bind a contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TROLL",
+      "clue": "Angling by drawing a baited line through the water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angling by drawing a baited line through the water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "EARLE",
+      "clue": "Singer Steve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ARCO",
+      "clue": "Be played with the bow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be played with the bow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "SIERRA",
+      "clue": "Spanish mackerel of western North America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish mackerel of western North America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "CALL",
+      "clue": "Option to buy a given stock (or stock index or commodity future) at a given...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Option to buy a given stock (or stock index or commodity future) at a given...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "PARLOR",
+      "clue": "A room for reception of callers or entertainment of guests",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Room for reception of callers or entertainment of guests",
+        "Room in a private house or establishment where people can sit and talk and...",
+        "Room for business or social conversation, for the reception of..."
+      ],
+      "definition": "A room for reception of callers or entertainment of guests.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "EMILE",
+      "clue": "Boy whose upbringing was described by Jean-Jacques Rousseau",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boy whose upbringing was described by Jean-Jacques Rousseau",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "EGO",
+      "clue": "Conscious mind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conscious mind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "MELL",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "SAVAGE",
+      "clue": "A wild and uncivilized human being",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wild and uncivilized human being",
+        "Without civilizing influences",
+        "Of or pertaining to the forest"
+      ],
+      "definition": "A wild and uncivilized human being.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Radioactive transuranic elements produced by bombarding plutonium with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "An island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BOSUN",
+      "clue": "Petty officer on a merchant ship who controls the work of other seamen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Petty officer on a merchant ship who controls the work of other seamen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "UTS",
+      "clue": "Syllable naming the first (tonic) notes of any major scale in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the first (tonic) notes of any major scale in",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "MAKO",
+      "clue": "Powerful mackerel shark of the Atlantic and Pacific",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Powerful mackerel shark of the Atlantic and Pacific",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MAMMA",
+      "clue": "Milk-secreting organ of female mammals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Milk-secreting organ of female mammals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ALIAS",
+      "clue": "An assumed name",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assumed name",
+        "Name that has been assumed temporarily",
+        "Otherwise"
+      ],
+      "definition": "An assumed name.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "KARTS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "STANZA",
+      "clue": "A group of rimed lines, usually forming one of a series of similar",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Group of rimed lines, usually forming one of a series of similar",
+        "Group of rimed lines, usually forming one of a series of similar divisions in",
+        "Fixed number of lines of verse forming a unit of a poem",
+        "Number of lines or verses forming a division of a song or poem, and..."
+      ],
+      "definition": "A group of rimed lines, usually forming one of a series of similar divisions in",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "NANNY",
+      "clue": "Female goat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female goat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ZETAS",
+      "clue": "6th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "6th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ALONE",
+      "clue": "Without any others being included or involved",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Without any others being included or involved",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAR",
+      "clue": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chemical sprayed on fruit trees to regulate their growth so the entire crop...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "STAEL",
+      "clue": "French romantic writer (1766-1817)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French romantic writer (1766-1817)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "MIRAGE",
+      "clue": "An optical effect looking like a sheet of water in the desert",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Optical effect looking like a sheet of water in the desert",
+        "Something illusory and unattainable",
+        "Optical effect, sometimes seen on the ocean, but more frequently..."
+      ],
+      "definition": "An optical effect looking like a sheet of water in the desert.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Return on a shot that seemed impossible to reach and would normally have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Return on a shot that seemed impossible to reach and would normally have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid automatic system to detect plastic explosives in passengers' luggage...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "INTO",
+      "clue": "The inside of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "The inside of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "MATTED",
+      "clue": "Tangled in a dense mass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tangled in a dense mass",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ONAN",
+      "clue": "Biblical sinner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ASSETS",
+      "clue": "Property available to pay debts",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Property in general, regarded as applicable to the payment of debts",
+        "Anything of material value or usefulness that is owned by a person or company",
+        "(a) Property of a deceased person, subject by law to the payment of..."
+      ],
+      "definition": "Property in general, regarded as applicable to the payment of debts.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "NYSE",
+      "clue": "Stock exchange in New York",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stock exchange in New York",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "COLLABORATE",
+      "clue": "To labor or cooperate with another or others, especially in literary",
+      "definition": "To labor or cooperate with another or others, especially in literary or",
+      "id": "4D"
+    },
+    {
+      "word": "TERMINATION",
+      "clue": "The act of ending or concluding",
+      "definition": "The act of ending or concluding.",
+      "id": "7D"
+    },
+    {
+      "word": "PARLOR",
+      "clue": "A room for reception of callers or entertainment of guests",
+      "definition": "A room for reception of callers or entertainment of guests.",
+      "id": "14A"
+    },
+    {
+      "word": "SAVAGE",
+      "clue": "A wild and uncivilized human being",
+      "definition": "A wild and uncivilized human being.",
+      "id": "18A"
+    },
+    {
+      "word": "STANZA",
+      "clue": "A group of rimed lines, usually forming one of a series of similar",
+      "definition": "A group of rimed lines, usually forming one of a series of similar divisions in",
+      "id": "26A"
+    },
+    {
+      "word": "MIRAGE",
+      "clue": "An optical effect looking like a sheet of water in the desert",
+      "definition": "An optical effect looking like a sheet of water in the desert.",
+      "id": "32A"
+    }
+  ]
+}

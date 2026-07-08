@@ -1,0 +1,881 @@
+{
+  "date": "2027-08-06",
+  "number": 3005,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "R",
+      "A",
+      "M",
+      "#",
+      "O",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "E",
+      "V",
+      "E",
+      "#",
+      "P",
+      "E",
+      "N",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "T",
+      "M",
+      "O",
+      "S",
+      "#",
+      "T",
+      "E",
+      "T",
+      "R",
+      "A"
+    ],
+    [
+      "C",
+      "E",
+      "O",
+      "#",
+      "H",
+      "E",
+      "I",
+      "D",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "R",
+      "N",
+      "#",
+      "#",
+      "N",
+      "O",
+      "I",
+      "S",
+      "E",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "G",
+      "R",
+      "U",
+      "N",
+      "T",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "S",
+      "T",
+      "E",
+      "E",
+      "R",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "I",
+      "T",
+      "E",
+      "S",
+      "#",
+      "V",
+      "I",
+      "A"
+    ],
+    [
+      "I",
+      "M",
+      "A",
+      "G",
+      "O",
+      "#",
+      "A",
+      "M",
+      "E",
+      "E",
+      "R"
+    ],
+    [
+      "D",
+      "E",
+      "T",
+      "E",
+      "R",
+      "#",
+      "W",
+      "O",
+      "R",
+      "S",
+      "T"
+    ],
+    [
+      "A",
+      "V",
+      "E",
+      "R",
+      "T",
+      "#",
+      "S",
+      "M",
+      "Y",
+      "T",
+      "H"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,6": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,6": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,5": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,9": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,3": {
+      "number": 22
+    },
+    "5,4": {
+      "number": 23
+    },
+    "5,10": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,8": {
+      "number": 26
+    },
+    "7,2": {
+      "number": 27
+    },
+    "7,6": {
+      "number": 28
+    },
+    "7,8": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,1": {
+      "number": 31
+    },
+    "8,6": {
+      "number": 32
+    },
+    "8,7": {
+      "number": 33
+    },
+    "9,0": {
+      "number": 34
+    },
+    "9,6": {
+      "number": 35
+    },
+    "10,0": {
+      "number": 36
+    },
+    "10,6": {
+      "number": 37
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SCRAM",
+      "clue": "Leave immediately",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leave immediately",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SPACED",
+      "clue": "Placed at intervals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Placed at intervals",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 7,
+      "answer": "CETERIS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "REMONSTRATE",
+      "clue": "Present a verbal or written protest to those who have power to right or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To present a verbal or written protest to those who have power to",
+        "Present a verbal or written protest to those who have power to",
+        "Censure severely or angrily",
+        "Point out"
+      ],
+      "definition": "To present a verbal or written protest to those who have power to right or",
+      "clueSource": "sat:sat_def",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "MESH",
+      "clue": "Coordinate in such a way that all parts work together effectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coordinate in such a way that all parts work together effectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 5,
+      "answer": "ORATE",
+      "clue": "Talk pompously",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To deliver an elaborate or formal public speech",
+        "Deliver an elaborate or formal public speech"
+      ],
+      "definition": "To deliver an elaborate or formal public speech.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "OPTION",
+      "clue": "Act of choosing or selecting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "The right, power, or liberty of choosing",
+        "Right, power, or liberty of choosing",
+        "Power of choosing"
+      ],
+      "definition": "The right, power, or liberty of choosing.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 6,
+      "answer": "REEDIT",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "ANTISLAVERY",
+      "clue": "Opposed to slavery",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Opposed to human slavery"
+      ],
+      "definition": "Opposed to human slavery.",
+      "clueSource": "sat:webster",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 3,
+      "answer": "TAR",
+      "clue": "Man who serves as a sailor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who serves as a sailor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 3,
+      "answer": "ELA",
+      "clue": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme leftist terrorist group formed in Greece in 1971 to oppose the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "PEEVE",
+      "clue": "Annoyed or irritated mood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annoyed or irritated mood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "PENAL",
+      "clue": "Subject to punishment by law",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject to punishment by law",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "ATMOS",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "TETRA",
+      "clue": "Brightly colored tropical freshwater fishes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brightly colored tropical freshwater fishes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "CEO",
+      "clue": "Corporate executive responsible for the operations of the firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate executive responsible for the operations of the firm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 5,
+      "answer": "HEIDI",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "ENURE",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ERN",
+      "clue": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 5,
+      "answer": "NOISE",
+      "clue": "Cacophony?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 9,
+      "length": 7,
+      "answer": "EERIEST",
+      "clue": "Most inspiring a feeling of fear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most inspiring a feeling of fear",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 11,
+      "answer": "DISGRUNTLED",
+      "clue": "In a state of sulky dissatisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a state of sulky dissatisfaction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 6,
+      "answer": "GEIGER",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "RETORT",
+      "clue": "Vessel where substances are distilled or decomposed by heat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "A retaliatory speech",
+        "Retaliatory speech",
+        "Bend or curve back"
+      ],
+      "definition": "A retaliatory speech.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 6,
+      "answer": "DEARTH",
+      "clue": "Scarcity which renders dear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Scarcity, as of something customary, essential ,or desirable",
+        "Insufficient quantity or number"
+      ],
+      "definition": "Scarcity, as of something customary, essential ,or desirable.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "STEER",
+      "clue": "Castrated bull",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Castrated bull",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Unit of surface area equal to 100 square meters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of surface area equal to 100 square meters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 2,
+      "length": 5,
+      "answer": "RITES",
+      "clue": "Any customary observances or practices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any customary observances or practices",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "SAWS",
+      "clue": "Power tools for cutting wood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Power tools for cutting wood",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "VIA",
+      "clue": "By way of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "IMAGO",
+      "clue": "Adult insect produced after metamorphosis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult insect produced after metamorphosis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 0,
+      "length": 3,
+      "answer": "IDA",
+      "clue": "Agency of the United Nations affiliated with the World Bank",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency of the United Nations affiliated with the World Bank",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 1,
+      "length": 3,
+      "answer": "MEV",
+      "clue": "Particle energy unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "AMEER",
+      "clue": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "MOM",
+      "clue": "Informal terms for a mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for a mother",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 5,
+      "answer": "DETER",
+      "clue": "Turn away from by persuasion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To frighten away",
+        "Frighten away",
+        "Prevent by fear"
+      ],
+      "definition": "To frighten away.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "WORST",
+      "clue": "Weakest effort or poorest achievement one is capable of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Weakest effort or poorest achievement one is capable of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "Turn aside, or away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "To turn away or aside",
+        "Turn away or aside"
+      ],
+      "definition": "To turn away or aside.",
+      "clueSource": "sat:webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "SMYTH",
+      "clue": "",
+      "isSATVocab": false,
+      "isSATSynonym": false
+    }
+  ],
+  "featured": [
+    {
+      "word": "REMONSTRATE",
+      "clue": "Present a verbal or written protest to those who have power to right or",
+      "definition": "To present a verbal or written protest to those who have power to right or",
+      "id": "3D"
+    },
+    {
+      "word": "OPTION",
+      "clue": "Act of choosing or selecting",
+      "definition": "The right, power, or liberty of choosing.",
+      "id": "6D"
+    },
+    {
+      "word": "ANTISLAVERY",
+      "clue": "Opposed to slavery",
+      "definition": "Opposed to human slavery.",
+      "id": "8D"
+    },
+    {
+      "word": "RETORT",
+      "clue": "Vessel where substances are distilled or decomposed by heat",
+      "definition": "A retaliatory speech.",
+      "id": "23D"
+    }
+  ]
+}
