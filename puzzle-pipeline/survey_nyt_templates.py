@@ -28,6 +28,7 @@ from pathlib import Path
 import generator as G
 from pick_15 import load_scores
 from marquee_15 import symmetric_marquees, build_pins, multi_pin_solve
+from nyt_grid import make_nyt_grid
 
 HERE = Path(__file__).parent
 
@@ -103,10 +104,10 @@ def main() -> None:
 
     for i in range(args.candidates):
         tried += 1
-        # target the NYT band: ~13% up to the cap
-        min_bk = rng.uniform(0.11, 0.14)
-        max_bk = cap / (size * size)
-        grid = G.build_grid(size, rng, min_bk, max_bk)
+        # Direct constructor-style placement (nyt_grid): symmetric small
+        # black units, clump/run/connectivity checked during construction.
+        target = rng.randint(max(4, cap - 8), cap)
+        grid = make_nyt_grid(size, rng, target, args.max_clump)
         if grid is None:
             rej_build += 1
             continue
