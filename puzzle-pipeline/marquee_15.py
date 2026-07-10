@@ -201,6 +201,55 @@ def build_pins(slots, pairs, singles, fresh_by_len, rng,
     return picks
 
 
+_FOREIGN_CLUE = None  # lazy: compiled regex + definitions lookup
+
+
+def _is_foreign(answer: str) -> bool:
+    """True if the answer's primary definition marks it as a foreign-
+    language fragment ('Holy, in French', 'Souls, in Latin')."""
+    global _FOREIGN_CLUE
+    if _FOREIGN_CLUE is None:
+        import re
+        pat = re.compile(
+            r",\s(in|to)\s(French|Latin|Spanish|German|Italian|Paris|"
+            r"Madrid|Rome|Berlin|Lyon|a Scot)\b|\bin (French|Latin|"
+            r"Spanish|German|Italian)$", re.IGNORECASE)
+        defs = G.load_definitions()
+        fills = G.load_fill_clues()
+        _FOREIGN_CLUE = (pat, defs, fills)
+    pat, defs, fills = _FOREIGN_CLUE
+    texts = []
+    if answer in fills:
+        texts.append(fills[answer])
+    if answer in defs:
+        texts.append(defs[answer].get("definition", ""))
+    return any(pat.search(t) for t in texts if t)
+
+
+def foreign_cluster(slots, assign: list[str], limit: int = 3) -> bool:
+    """True if >= `limit` foreign-fragment entries form one connected
+    cluster in the crossing graph."""
+    foreign_idx = {i for i, w in enumerate(assign) if _is_foreign(w)}
+    if len(foreign_idx) < limit:
+        return False
+    seen: set[int] = set()
+    for start in foreign_idx:
+        if start in seen:
+            continue
+        comp, stack = 0, [start]
+        seen.add(start)
+        while stack:
+            si = stack.pop()
+            comp += 1
+            for _a, sj, _b in slots[si].crossings:
+                if sj in foreign_idx and sj not in seen:
+                    seen.add(sj)
+                    stack.append(sj)
+        if comp >= limit:
+            return True
+    return False
+
+
 def multi_pin_solve(slots, pool, sat_count, pins: dict[int, int],
                     rng: random.Random, restarts: int = 3,
                     filler: G.Filler | None = None):
@@ -328,6 +377,11 @@ def main() -> None:
                 slots, pool, len(sat_list), pins, rng, filler=pin_filler,
             )
             if assign is not None:
+                # Fairness gate: reject fills that cluster 3+ foreign-
+                # language entries in one crossing neighborhood (a SAINTE/
+                # ANCIEN/ANIMI corner reads as a difficulty cliff).
+                if foreign_cluster(slots, assign):
+                    continue
                 solved = assign
                 featured = [picks[si] for si in sorted(picks)]
                 break

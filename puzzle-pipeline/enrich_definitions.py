@@ -140,6 +140,14 @@ def _clean_root_def(definition: str) -> str:
     s = " ".join(t for t in s.split() if re.search(r"[A-Za-z]", t))
     if len(s) > 70:
         s = s[:70].rsplit(" ", 1)[0]
+        # A mid-phrase cut can leave a dangling function word or
+        # participle ('...gastropod mollusks usually having'); trim back
+        # to the last contentful token.
+        toks = s.split()
+        while toks and (toks[-1].rstrip(",").lower() in _NP_BOUNDARY
+                        or toks[-1].rstrip(",").lower() in _DANGLE):
+            toks.pop()
+        s = " ".join(toks).rstrip(",")
     return s
 
 
@@ -212,9 +220,12 @@ def _head_indices(tokens: list[str], tags: tuple[str, ...], want: str) -> list[i
     head = {nouns[-1]}
     for i in nouns[:-1]:
         between = tags[i + 1: nouns[-1]]
-        if "CC" in between and all(
-            b in nn_tags or b == "CC" or b == "JJ" for b in between
-        ):
+        # Coordinated noun heads ('grief or sorrow') pluralize together,
+        # but ONLY in a flat noun list. Any adjective in between means
+        # these are coordinated MODIFIERS of the head ('freshwater or
+        # marine or terrestrial gastropod mollusk') — pluralizing them
+        # produced 'marines or terrestrial gastropods mollusk'.
+        if "CC" in between and all(b in nn_tags or b == "CC" for b in between):
             head.add(i)
     return sorted(head)
 
@@ -307,22 +318,89 @@ def _apply(tokens: list[str], idxs: list[int], tag: str,
             if tag == "NNS":
                 _fix_relative_agreement(tokens, i)
             changed = True
+        elif forms and tag == "NNS" and forms[0].lower() == low:
+            # invariant plural (fish, sheep): definition already reads
+            # correctly for the plural headword
+            changed = True
     return changed
 
 
+# Noun-phrase boundary words: past any of these, tokens no longer belong
+# to the head noun group. Closed lists beat the POS tagger on headless
+# definition fragments (it tags 'mollusk' VBP, 'slimy' NNS...).
+_NP_BOUNDARY = {
+    "of", "in", "on", "at", "by", "for", "with", "from", "to", "into",
+    "as", "upon", "over", "under", "between", "among", "through",
+    "during", "without", "within", "against", "about", "around", "near",
+    "off", "along", "across", "behind", "beyond", "concerning",
+    "regarding", "that", "which", "who", "whom", "whose", "when",
+    "where", "having", "used", "characterized", "marked", "found",
+    "living", "growing", "intended", "being", "denoting", "resembling",
+    "consisting", "containing", "serving", "made", "worn", "held",
+}
+_QUANTIFIERS = {"any", "one", "some", "several", "all", "each", "either"}
+
+# Trailing tokens that read as dangling after a mid-phrase cut.
+_DANGLE = {
+    "a", "an", "the", "and", "or", "nor", "but", "usually", "often",
+    "sometimes", "very", "more", "most", "such", "its", "their", "his",
+    "her", "is", "are", "was", "were", "not", "no", "so", "than",
+}
+
+
+def _noun_head_indices(tokens: list[str]) -> list[int]:
+    """Head of the leading noun phrase, via closed-list boundaries: the
+    LAST token before the first preposition / relativizer / participle /
+    -ly adverb / comma. 'Freshwater or marine or terrestrial gastropod
+    mollusk usually having...' -> 'mollusk' (modifiers never pluralize).
+    A pure two-noun coordination ('grief or sorrow' as the entire NP)
+    pluralizes both heads."""
+    window_end = len(tokens)
+    for i, tok in enumerate(tokens):
+        low = tok.rstrip(",").lower()
+        if low in _NP_BOUNDARY or (low.endswith("ly") and len(low) > 4):
+            window_end = i
+            break
+        if tok.endswith(","):
+            window_end = i + 1
+            break
+    window = tokens[:window_end]
+    if not window:
+        return []
+    if len(window) == 1:
+        low0 = window[0].lower()
+        if low0 in _PRONOUN_PLURAL:
+            return [0]  # 'One who...' -> _apply's pronoun branch
+        if low0 in _QUANTIFIERS:
+            return []   # 'Any of various...' — no safe head
+    # flat pair coordination: exactly [N, or/and, N]
+    if (len(window) == 3
+            and window[1].rstrip(",").lower() in ("or", "and")):
+        return [0, 2]
+    return [window_end - 1]
+
+
 def _inflect_head(clean: str, tag: str) -> str | None:
-    """POS-aware head inflection. `tag` is a verb tag (VBD/VBG/VBZ) or NNS;
-    we tag the definition, locate the head verb/noun group, and inflect it.
+    """Head inflection. Verbs use the tagger-assisted coordination walk
+    (backstopped by lemminflect's lexicon); nouns use closed-list
+    boundary detection, which is far more reliable on fragments.
     Returns None if nothing could be inflected (caller may fall back)."""
     tokens = clean.split()
     if not tokens:
         return None
-    want = "noun" if tag == "NNS" else "verb"
+    if tag == "NNS":
+        idxs = _noun_head_indices(tokens)
+        if not idxs:
+            return None
+        if not _apply(tokens, idxs, tag):
+            return None
+        res = " ".join(tokens)
+        return res[:1].upper() + res[1:]
     try:
         tags = _pos_tags(clean)
     except Exception:
         tags = ()
-    idxs = _head_indices(tokens, tags, want) if tags else [0]
+    idxs = _head_indices(tokens, tags, "verb") if tags else [0]
     if not idxs:
         idxs = [0]
     if not _apply(tokens, idxs, tag, tags):

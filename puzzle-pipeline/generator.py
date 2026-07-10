@@ -30,6 +30,32 @@ from pathlib import Path
 
 from morphology import clue_leaks as _clue_leaks
 
+# Dictionary-sourced clues can run to encyclopedia length ("Any of
+# various trees of the genus Ulmus: important timber or shade trees...").
+# Cap them at a clause boundary; a clue is a nudge, not an article.
+_CLUE_LIMIT = 80
+_CLUE_DANGLE = frozenset(
+    "a an the and or nor but of in on at by with for as to into from "
+    "usually often very more most such its their his her is are was "
+    "were not no so than which that who having used".split()
+)
+
+
+def _tighten_clue(text: str) -> str:
+    if len(text) <= _CLUE_LIMIT:
+        return text
+    cut = text[:_CLUE_LIMIT]
+    if "," in cut[40:]:
+        cut = cut.rsplit(",", 1)[0]
+    elif ":" in cut[40:]:
+        cut = cut.rsplit(":", 1)[0]
+    else:
+        cut = cut.rsplit(" ", 1)[0]
+    toks = cut.split()
+    while toks and toks[-1].rstrip(",;:").lower() in _CLUE_DANGLE:
+        toks.pop()
+    return " ".join(toks).rstrip(",;: ") or text[:_CLUE_LIMIT]
+
 HERE = Path(__file__).parent
 MIN_RUN = 3
 NODE_LIMIT = 80_000     # backtracking nodes per restart
@@ -532,7 +558,7 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
                     chosen = cand_dict
                     break
             if chosen:
-                clue = chosen["definition"]
+                clue = _tighten_clue(chosen["definition"])
                 definition = chosen["definition"]
                 source = chosen.get("source", "definition")
             else:

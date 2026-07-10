@@ -68,7 +68,9 @@ def morph_forms(word: str) -> frozenset[str]:
             for tag in _TAG_LIST:
                 for f in _safe_inflect(lemma, tag):
                     forms.add(f.lower())
-    return frozenset(f for f in forms if f and f.isalpha())
+    # Degenerate 1-char lemmas (lemminflect offers 's' for 'sea') would
+    # make every possessive clue a false leak ("Sailor's expanse").
+    return frozenset(f for f in forms if len(f) >= 2 and f.isalpha())
 
 
 @functools.lru_cache(maxsize=65536)
