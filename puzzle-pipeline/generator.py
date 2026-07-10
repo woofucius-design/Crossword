@@ -483,10 +483,13 @@ def to_puzzle(grid, slots, assign, sat_lookup, date, number):
                             break
             if not usable:
                 usable = pool_clues[:1]
-            # Rotate by puzzle number for cross-puzzle variety, but only
-            # within the curated clue + first two modern alts.
-            head = usable[: min(3, len(usable))]
-            chosen = head[number % len(head)]
+            # The default clue is ALWAYS the curated SAT clue (first in
+            # `usable` by construction) — rotation used to promote alt
+            # senses for variety, which surfaced archaic/wrong meanings
+            # as the primary clue (SOLAR 'Loft or upper chamber',
+            # CORONET's horse-hoof sense). Variety belongs to the app
+            # via altClues, never to the taught meaning.
+            chosen = usable[0]
             clue = chosen["text"]
             source = "sat" if chosen["source"] == "sat" else f"sat:{chosen['source']}"
             # Remaining usable clues ride along for the app: variety on
