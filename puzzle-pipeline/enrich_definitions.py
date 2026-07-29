@@ -89,6 +89,20 @@ _BIO_SENSE = re.compile(
     re.IGNORECASE,
 )
 
+# Place names, chemical elements and organization expansions are the other
+# senses that must never be pluralized into a clue. Short abbreviations
+# collide constantly with real plurals under suffix stripping — US -> USES
+# handed USES the gloss for the country, AG -> AGES handed AGES silver's.
+_PROPER_SENSE = re.compile(
+    r"\b(republics?|capital (city|and|of)|(state|city|town|province|county"
+    r"|river|mountain|peak|island|lake|port) (in|of|on)|midwestern|"
+    r"northeastern|southwestern|northwestern|southeastern)\b"
+    r"|\b(metallic|chemical|gaseous|radioactive) element"
+    r"|\bunited states (of|army|cryptolog|agency)"
+    r"|\b(agency|organization|commission|bureau) (that|which|of the)\b",
+    re.IGNORECASE,
+)
+
 # Tokens we never inflect even at a coordinated head position — particles,
 # prepositions, articles, light verbs — so "rub or wear OFF" keeps "off".
 _NOINFLECT = {
@@ -247,6 +261,10 @@ def _is_base_verb(token: str) -> bool:
     return "VERB" in lemmas and core in lemmas["VERB"]
 
 
+# Third-person-plural present forms the VBP tag can't disambiguate.
+_PLURAL_VERB = {"be": "are"}
+
+
 def _fix_relative_agreement(tokens: list[str], head_idx: int) -> None:
     """After pluralizing the head noun, a following 'who/that/which VBZ...'
     relative clause must agree: 'People who works' -> 'People who work'.
@@ -265,7 +283,15 @@ def _fix_relative_agreement(tokens: list[str], head_idx: int) -> None:
             lemmas = lemminflect.getLemma(low, "VERB")
             if lemmas and lemmas[0] != low and low == (
                 lemminflect.getInflection(lemmas[0], "VBZ") or [""])[0]:
-                tokens[i] = tokens[i].replace(core, lemmas[0], 1)
+                # The plural form is VBP, not the bare lemma: 'is' lemmatizes
+                # to 'be', but the clause needs 'are' ("particles that are
+                # charged", never "particles that be charged"). VBP is
+                # ambiguous for the copula — lemminflect offers the
+                # first-person 'am' — so it is pinned here.
+                plural = _PLURAL_VERB.get(lemmas[0]) or (
+                    lemminflect.getInflection(lemmas[0], "VBP") or (lemmas[0],)
+                )[0]
+                tokens[i] = tokens[i].replace(core, plural, 1)
         expect_verb = tokens[i].rstrip(",").lower() in ("or", "and")
         if not expect_verb and tokens[i].endswith(","):
             expect_verb = True
@@ -348,7 +374,13 @@ _DANGLE = {
 }
 
 
-def _noun_head_indices(tokens: list[str]) -> list[int]:
+# Suffixes that mark a word as adjectival with near-certainty. Used to
+# catch post-modifiers the tagger misses; -ent/-ant/-ary are deliberately
+# absent because 'student', 'assistant' and 'library' are nouns.
+_ADJ_SUFFIX = ("able", "ible", "ous", "ful", "ive")
+
+
+def _noun_head_indices(tokens: list[str], tags: tuple[str, ...] = ()) -> list[int]:
     """Head of the leading noun phrase, via closed-list boundaries: the
     LAST token before the first preposition / relativizer / participle /
     -ly adverb / comma. 'Freshwater or marine or terrestrial gastropod
@@ -377,7 +409,17 @@ def _noun_head_indices(tokens: list[str]) -> list[int]:
     if (len(window) == 3
             and window[1].rstrip(",").lower() in ("or", "and")):
         return [0, 2]
-    return [window_end - 1]
+
+    last = window_end - 1
+    # A trailing adjective is a post-modifier, not the head: 'Wrong action
+    # attributable to bad judgment' pluralizes ACTION, not ATTRIBUTABLE.
+    tag_last = tags[last] if last < len(tags) else ""
+    if tag_last == "JJ" or tokens[last].rstrip(",").lower().endswith(_ADJ_SUFFIX):
+        for i in range(last - 1, -1, -1):
+            tag_i = tags[i] if i < len(tags) else ""
+            if tag_i.startswith("NN"):
+                return [i]
+    return [last]
 
 
 def _inflect_head(clean: str, tag: str) -> str | None:
@@ -389,7 +431,11 @@ def _inflect_head(clean: str, tag: str) -> str | None:
     if not tokens:
         return None
     if tag == "NNS":
-        idxs = _noun_head_indices(tokens)
+        try:
+            noun_tags = _pos_tags(clean)
+        except Exception:
+            noun_tags = ()
+        idxs = _noun_head_indices(tokens, noun_tags)
         if not idxs:
             return None
         if not _apply(tokens, idxs, tag):
@@ -466,7 +512,7 @@ def lemmatize(word: str, defs: dict) -> tuple[str, str] | None:
                 # 'English actors...' via the surname Tree, ABELES must not
                 # become 'Cains and Abels...' via the given name.
                 cand_def = cand.get("definition", "")
-                if _BIO_SENSE.search(cand_def):
+                if _BIO_SENSE.search(cand_def) or _PROPER_SENSE.search(cand_def):
                     continue
                 kind = _resolve_kind(suffix, cand.get("pos", ""))
                 if kind is None:

@@ -95,6 +95,19 @@ CLUES: dict[str, str] = {
     "SAA": "TIER3", "ROS": "TIER3", "ULT": "TIER3", "EURO": "Continental currency",
     "ARSE": "TIER3", "LESE": "TIER3", "ANTA": "TIER3",
 
+    # --- round-2 stragglers: common words the dictionaries clued with an
+    # obscure or encyclopedic sense (found by auditing generated puzzles) ---
+    "OVER": "Finished", "EVERY": "Each and all", "TAX": "April burden",
+    "STYLE": "Manner of expression", "SMITH": "Metalworker",
+    "PLATE": "Dinner dish", "DRAW": "Sketch", "SHEET": "Bed linen",
+    "GUN": "Firearm", "NOSE": "Face feature", "OHIO": "Buckeye State",
+    "STORM": "Thunder-and-lightning event", "PHOTO": "Snapshot",
+    "TAIL": "Dog's waggable part", "LASER": "Focused light beam",
+    "CUTE": "Adorable", "ELM": "Shade tree", "ACTS": "Does something",
+    "AGES": "Long spans of time", "USES": "Puts to work",
+    "ERRORS": "Mistakes", "ADAMS": "President John Quincy ___",
+    "MIN": "TIER3", "DAS": "TIER3",
+
     # --- common 4s+ ---
     "AREA": "Length times width", "ALSO": "In addition",
     "LEI": "Luau garland", "STEP": "Stair unit", "EVEN": "Tied, as a score",
