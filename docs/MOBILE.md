@@ -9,11 +9,16 @@ release still needs, and the Android-specific traps already paid for once.
 
 | | iOS | Android | Web |
 |---|---|---|---|
-| Bundles | yes | yes (`expo export --platform android`) | configured, unpolished |
+| Bundles | yes | yes | **no** — see below |
 | Icons / splash | yes | yes, incl. adaptive + monochrome | favicon |
 | Build config | `eas.json` | `eas.json` | `expo export` |
 | Platform fixes | baseline | done (see below) | not started |
 | Store assets | not started | not started | n/a |
+
+Both native targets are verified by `expo export`. **Web is declared in
+`app.json` but does not build**: `react-dom` and `react-native-web` were never
+added as dependencies. Installing them is the first step of the web workstream,
+not a formality — nothing on that target has ever run.
 
 ## Build and run
 
