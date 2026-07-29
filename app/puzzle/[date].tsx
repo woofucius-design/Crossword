@@ -1,5 +1,6 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react';
 import {
+  Alert,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -19,6 +20,7 @@ import { fonts } from '@/theme/typography';
 import { durations } from '@/theme/animations';
 import { getPuzzle, isWordComplete, wordAt, wordCells } from '@/data/puzzles';
 import { useApp } from '@/stores/AppStore';
+import { useAndroidBack } from '@/hooks/useAndroidBack';
 import type { PuzzleWord } from '@/types/models';
 
 type Direction = 'across' | 'down';
@@ -233,12 +235,51 @@ export default function PuzzleScreen() {
     setSelected({ row: w.row, col: w.col });
   };
 
+  // Solving progress lives only in component state, so leaving the screen
+  // discards it. Confirm first — on Android an accidental back-swipe would
+  // otherwise wipe a half-solved grid with no warning.
+  const hasProgress = useMemo(
+    () =>
+      Object.entries(letters).some(
+        ([key, value]) => value && !puzzle.cells[key]?.preFilled,
+      ),
+    [letters, puzzle],
+  );
+
+  const leave = useCallback(() => {
+    if (!hasProgress) {
+      router.back();
+      return;
+    }
+    Alert.alert(
+      'Leave this puzzle?',
+      'Your progress on this grid will be lost.',
+      [
+        { text: 'Keep solving', style: 'cancel' },
+        { text: 'Leave', style: 'destructive', onPress: () => router.back() },
+      ],
+    );
+  }, [hasProgress, router]);
+
+  const onAndroidBack = useCallback(() => {
+    // The collection toast is a plain absolute View, not a Modal, so it
+    // has to be dismissed here before back may leave the screen.
+    if (toastWord) {
+      setToastWord(null);
+      return true;
+    }
+    leave();
+    return true;
+  }, [toastWord, leave]);
+
+  useAndroidBack(onAndroidBack);
+
   return (
     <ScreenBackground floatingWords={false}>
       <View style={{ flex: 1, paddingTop: insets.top + 4 }}>
         {/* Header */}
         <View style={styles.header}>
-          <Pressable onPress={() => router.back()} hitSlop={12} style={styles.back}>
+          <Pressable onPress={leave} hitSlop={12} style={styles.back}>
             <Text style={styles.backText}>←</Text>
           </Pressable>
           <View style={{ flex: 1 }}>

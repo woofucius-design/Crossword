@@ -79,7 +79,7 @@ export default function HomeScreen() {
         <View style={styles.statsRow}>
           <StatTile icon="🔥" value={String(profile?.streak ?? 0)} label="Streak" tint={colors.orange} />
           <StatTile icon="📚" value={String(stats.collected)} label="Collected" tint={colors.yellow} />
-          <StatTile icon="⬟" value={String(stats.mastered)} label="Mastered" tint={colors.masteryMastered} />
+          <StatTile icon="◆" value={String(stats.mastered)} label="Mastered" tint={colors.masteryMastered} />
           <StatTile icon="🏆" value="#3" label="Class Rank" tint={colors.mint} />
         </View>
 

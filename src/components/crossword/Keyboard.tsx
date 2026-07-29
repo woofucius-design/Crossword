@@ -2,6 +2,8 @@ import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors, radius } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
+import { ripple } from '@/theme/platform';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 const ROWS = ['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'];
 
@@ -21,6 +23,8 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
             <Pressable
               key={letter}
               onPress={() => onKey(letter)}
+              android_ripple={ripple()}
+              unstable_pressDelay={0}
               style={({ pressed }) => [styles.key, pressed && styles.keyPressed]}
             >
               <Text style={styles.keyText}>{letter}</Text>
@@ -29,13 +33,15 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
           {i === 2 && (
             <Pressable
               onPress={onDelete}
+              android_ripple={ripple()}
+              unstable_pressDelay={0}
               style={({ pressed }) => [
                 styles.key,
                 styles.keyWide,
                 pressed && styles.keyPressed,
               ]}
             >
-              <Text style={styles.keyText}>⌫</Text>
+              <Ionicons name="backspace-outline" size={20} color={colors.text} />
             </Pressable>
           )}
         </View>
@@ -63,6 +69,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 1,
     borderColor: colors.border,
+    overflow: 'hidden', // keeps the Android ripple inside the rounded key
   },
   keyWide: {
     flex: 1.6,

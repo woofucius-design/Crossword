@@ -44,9 +44,14 @@ export function ScoreRing({
     );
   }, [value, delay, progress]);
 
+  // Round inside the prepare step so the JS thread is only woken when the
+  // displayed integer actually changes. Reacting to the raw value fired
+  // runOnJS every frame, and write.tsx renders three of these at once.
   useAnimatedReaction(
-    () => progress.value,
-    (current) => runOnJS(setDisplay)(Math.round(current)),
+    () => Math.round(progress.value),
+    (current, previous) => {
+      if (current !== previous) runOnJS(setDisplay)(current);
+    },
   );
 
   const animatedProps = useAnimatedProps(() => ({

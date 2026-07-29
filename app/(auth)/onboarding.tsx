@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useMemo, useState } from 'react';
 import {
   Pressable,
   ScrollView,
@@ -19,6 +19,7 @@ import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useApp } from '@/stores/AppStore';
 import { satWords, buildQuiz } from '@/data/satWords';
+import { useAndroidBack } from '@/hooks/useAndroidBack';
 import type {
   Avatar as AvatarType,
   CollectedWord,
@@ -101,6 +102,26 @@ export default function Onboarding() {
     router.replace('/(tabs)/home');
   };
 
+  // Android back walks the steps instead of popping the route — popping
+  // lands on index.tsx, which redirects straight back to step 0 and loses
+  // everything the student just entered.
+  const onAndroidBack = useCallback(() => {
+    if (step === 0) return false; // nothing entered yet; let it exit
+    if (step === 5) return true; // quiz already scored; finish via the button
+    if (step === 4) {
+      // Leaving mid-quiz: reset so re-entry can't double-count the score.
+      setQuizIndex(0);
+      setQuizScore(0);
+      setPicked(null);
+      setStep(3);
+      return true;
+    }
+    setStep((s) => s - 1);
+    return true;
+  }, [step]);
+
+  useAndroidBack(onAndroidBack);
+
   const answerQuiz = (optionIndex: number) => {
     if (picked !== null) return;
     setPicked(optionIndex);
@@ -142,6 +163,7 @@ export default function Onboarding() {
             justifyContent: 'center',
           }}
           showsVerticalScrollIndicator={false}
+          keyboardShouldPersistTaps="handled"
         >
           <Animated.View key={step} entering={FadeIn.duration(260)} exiting={FadeOut.duration(120)}>
             {/* Step 0 — Splash */}
@@ -383,7 +405,6 @@ const styles = StyleSheet.create({
   },
   tagline: {
     fontFamily: fonts.serifItalic,
-    fontStyle: 'italic',
     fontSize: 15,
     color: colors.textMuted,
     marginTop: 8,

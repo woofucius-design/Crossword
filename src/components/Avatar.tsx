@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import type { Avatar as AvatarType } from '@/types/models';
 import { colors } from '@/theme/tokens';
+import { glowFallback } from '@/theme/platform';
 
 export const avatarEmoji: Record<AvatarType, string> = {
   owl: '🦉',
@@ -39,6 +40,10 @@ export function Avatar({ avatar, size = 38, showDot = false, glow = false }: Ava
             shadowOffset: { width: 0, height: 0 },
             elevation: 8,
           },
+          // Android's elevation shadow ignores shadowColor below API 28,
+          // so the purple halo would read as a grey smudge; a hairline
+          // ring of the same hue stands in for it.
+          glow && glowFallback('rgba(168,85,247,0.55)'),
         ]}
       >
         <Text style={{ fontSize: size * 0.52 }}>{avatarEmoji[avatar]}</Text>
@@ -62,8 +67,11 @@ const styles = StyleSheet.create({
   },
   dot: {
     position: 'absolute',
-    top: -2,
-    right: -2,
+    // Flush with the corner rather than overhanging it: Android clips
+    // absolutely-positioned children that fall outside the parent box,
+    // which made the unread dot vanish entirely.
+    top: 0,
+    right: 0,
     backgroundColor: colors.orange,
     borderWidth: 2,
   },

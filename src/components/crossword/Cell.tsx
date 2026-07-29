@@ -10,6 +10,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import { colors, radius } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
+import { tightText } from '@/theme/platform';
 import { durations, easing } from '@/theme/animations';
 
 export interface CellProps {
@@ -147,11 +148,15 @@ const styles = StyleSheet.create({
     fontFamily: fonts.display,
     fontSize: 7,
     lineHeight: 8,
+    // Android pads glyphs vertically inside Text; at this size that pad
+    // is larger than the line box and pushes the number out of the cell.
+    ...tightText,
   },
   letter: {
     fontFamily: fonts.display,
     fontSize: 14,
     color: colors.cellLetterText,
+    ...tightText,
   },
 });
 

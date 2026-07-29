@@ -17,5 +17,7 @@ export const typography = {
   display: { fontFamily: fonts.display } as TextStyle,
   ui: { fontFamily: fonts.body } as TextStyle,
   uiBold: { fontFamily: fonts.bodyBold } as TextStyle,
-  passage: { fontFamily: fonts.serifItalic, fontStyle: 'italic' } as TextStyle,
+  // No fontStyle here: fonts.serifItalic IS the italic cut. Adding
+  // fontStyle on Android skews the already-slanted glyphs a second time.
+  passage: { fontFamily: fonts.serifItalic } as TextStyle,
 };

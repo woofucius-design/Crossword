@@ -31,7 +31,10 @@ export function Button({
         onPress={onPress}
         disabled={disabled}
         style={({ pressed }) => [
-          { opacity: disabled ? 0.45 : pressed ? 0.9 : 1 },
+          // The radius has to be on the shadow-casting view too: Android
+          // derives the elevation shadow from this view's outline, and
+          // without it every rounded button casts a square one.
+          { opacity: disabled ? 0.45 : pressed ? 0.9 : 1, borderRadius: radius.button },
           !disabled && shadows.gold,
           style,
         ]}

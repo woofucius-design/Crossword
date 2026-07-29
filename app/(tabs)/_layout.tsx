@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Tabs } from 'expo-router';
 import type { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
+import { useAndroidBack } from '@/hooks/useAndroidBack';
+import { rippleGold, tightText } from '@/theme/platform';
 
 const TAB_META: Record<string, { label: string; icon: string }> = {
   home: { label: 'Home', icon: '◫' },
@@ -16,6 +18,18 @@ const TAB_META: Record<string, { label: string; icon: string }> = {
 
 function TabBar({ state, navigation }: BottomTabBarProps) {
   const insets = useSafeAreaInsets();
+  const homeIndex = state.routes.findIndex((r) => r.name === 'home');
+
+  // Android convention: back from a secondary tab returns to the first
+  // tab, and only exits the app from there. The default pops the whole
+  // navigator, which quits mid-review with state lost.
+  useAndroidBack(
+    useCallback(() => {
+      if (state.index === homeIndex || homeIndex < 0) return false;
+      navigation.navigate('home' as never);
+      return true;
+    }, [state.index, homeIndex, navigation]),
+  );
 
   return (
     <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, 8) }]}>
@@ -31,6 +45,7 @@ function TabBar({ state, navigation }: BottomTabBarProps) {
             <Pressable
               key={route.key}
               style={styles.tab}
+              android_ripple={rippleGold()}
               onPress={() => {
                 const event = navigation.emit({
                   type: 'tabPress',
@@ -84,6 +99,7 @@ const styles = StyleSheet.create({
   icon: {
     fontSize: 19,
     lineHeight: 22,
+    ...tightText,
   },
   label: {
     fontFamily: fonts.bodyBold,

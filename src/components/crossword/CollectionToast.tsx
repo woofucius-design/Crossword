@@ -20,6 +20,8 @@ interface CollectionToastProps {
 }
 
 const STAR_COUNT = 7;
+/** How far a star rises; also the headroom the wrapper reserves for it. */
+const STAR_TRAVEL = 54;
 
 function Star({ index }: { index: number }) {
   const progress = useSharedValue(0);
@@ -33,7 +35,7 @@ function Star({ index }: { index: number }) {
 
   const style = useAnimatedStyle(() => ({
     transform: [
-      { translateY: -progress.value * 54 },
+      { translateY: -progress.value * STAR_TRAVEL },
       { translateX: (index - STAR_COUNT / 2) * 16 },
       { scale: 1 - progress.value * 0.5 },
     ],
@@ -61,41 +63,51 @@ export function CollectionToast({ word, onDismiss }: CollectionToastProps) {
   const containerStyle = useAnimatedStyle(() => ({
     transform: [{ translateY: translateY.value }],
   }));
+  // scaleX, not an animated width percentage: a percentage string can't be
+  // driven natively, so it forced a JS-thread layout pass every frame.
   const drainStyle = useAnimatedStyle(() => ({
-    width: `${drain.value * 100}%`,
+    transform: [{ scaleX: drain.value }],
   }));
 
+  // The stars fly up out of the card. Android clips children to their
+  // parent's bounds, so they live in a taller transparent wrapper that is
+  // a sibling of the card rather than inside it.
   return (
-    <Animated.View style={[styles.toast, shadows.toast, containerStyle]}>
+    <Animated.View style={[styles.wrap, containerStyle]} pointerEvents="box-none">
       <View style={styles.starField} pointerEvents="none">
         {Array.from({ length: STAR_COUNT }, (_, i) => (
           <Star key={i} index={i} />
         ))}
       </View>
 
-      <Pressable style={styles.close} onPress={onDismiss} hitSlop={10}>
-        <Text style={styles.closeText}>×</Text>
-      </Pressable>
+      <View style={[styles.toast, shadows.toast]}>
+        <Pressable style={styles.close} onPress={onDismiss} hitSlop={10}>
+          <Text style={styles.closeText}>×</Text>
+        </Pressable>
 
-      <Text style={styles.header}>⭐ Added to Collection!</Text>
-      <Text style={styles.word}>{word.answer}</Text>
-      <Text style={styles.definition} numberOfLines={3}>
-        {word.definition}
-      </Text>
+        <Text style={styles.header}>⭐ Added to Collection!</Text>
+        <Text style={styles.word}>{word.answer}</Text>
+        <Text style={styles.definition} numberOfLines={3}>
+          {word.definition}
+        </Text>
 
-      <View style={styles.drainTrack}>
-        <Animated.View style={[styles.drainFill, drainStyle]} />
+        <View style={styles.drainTrack}>
+          <Animated.View style={[styles.drainFill, drainStyle]} />
+        </View>
       </View>
     </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
-  toast: {
+  wrap: {
     position: 'absolute',
     left: 14,
     right: 14,
     bottom: 16,
+    paddingTop: STAR_TRAVEL,
+  },
+  toast: {
     backgroundColor: colors.card,
     borderRadius: radius.modal,
     borderWidth: 1,
@@ -105,7 +117,7 @@ const styles = StyleSheet.create({
   },
   starField: {
     position: 'absolute',
-    top: 0,
+    top: STAR_TRAVEL, // the card's top edge; stars rise into the padding
     left: 0,
     right: 0,
     alignItems: 'center',
@@ -143,7 +155,6 @@ const styles = StyleSheet.create({
   },
   definition: {
     fontFamily: fonts.serifItalic,
-    fontStyle: 'italic',
     fontSize: 13.5,
     color: colors.textMuted,
     marginTop: 4,
@@ -158,6 +169,8 @@ const styles = StyleSheet.create({
   },
   drainFill: {
     height: 3,
+    width: '100%',
+    transformOrigin: 'left',
     backgroundColor: colors.yellow,
   },
 });

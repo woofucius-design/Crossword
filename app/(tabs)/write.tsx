@@ -1,6 +1,9 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   ActivityIndicator,
+  Alert,
+  KeyboardAvoidingView,
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -18,6 +21,7 @@ import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useApp } from '@/stores/AppStore';
 import { gradePassage } from '@/data/ai';
+import { useAndroidBack } from '@/hooks/useAndroidBack';
 import { satWords } from '@/data/satWords';
 import type { PassageSubmission } from '@/types/models';
 
@@ -79,6 +83,8 @@ export default function WriteScreen() {
 
     const { result: grade } = await gradePassage(text, targetWords);
     clearInterval(stepTimer);
+    // Android back can unmount this screen while grading is in flight.
+    if (!mounted.current) return;
 
     const submission: PassageSubmission = {
       id: `sub-${Date.now()}`,
@@ -102,8 +108,45 @@ export default function WriteScreen() {
     setPhase('form');
   };
 
+  const mounted = useRef(true);
+  useEffect(() => {
+    mounted.current = true;
+    return () => {
+      mounted.current = false;
+    };
+  }, []);
+
+  // Back during grading would drop an in-flight AI call; back on results
+  // would silently discard the grade. Both get an explicit decision.
+  const onAndroidBack = useCallback(() => {
+    if (phase === 'grading') return true;
+    if (phase === 'results') {
+      Alert.alert('Discard this passage?', 'Your score and feedback will be lost.', [
+        { text: 'Keep reading', style: 'cancel' },
+        { text: 'Discard', style: 'destructive', onPress: () => router.back() },
+      ]);
+      return true;
+    }
+    if (text.trim().length >= 20) {
+      Alert.alert('Discard this draft?', 'Your unsubmitted passage will be lost.', [
+        { text: 'Keep writing', style: 'cancel' },
+        { text: 'Discard', style: 'destructive', onPress: () => router.back() },
+      ]);
+      return true;
+    }
+    return false;
+  }, [phase, text, router]);
+
+  useAndroidBack(onAndroidBack);
+
   return (
     <ScreenBackground floatingWords={false}>
+      {/* iOS needs explicit padding; Android's windowSoftInputMode=resize
+          already shrinks the window, and 'padding' would double-count it. */}
+      <KeyboardAvoidingView
+        style={{ flex: 1 }}
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      >
       <ScrollView
         contentContainerStyle={{
           paddingTop: insets.top + 8,
@@ -284,6 +327,7 @@ export default function WriteScreen() {
           </>
         )}
       </ScrollView>
+      </KeyboardAvoidingView>
     </ScreenBackground>
   );
 }
@@ -430,7 +474,6 @@ const styles = StyleSheet.create({
   },
   exampleText: {
     fontFamily: fonts.serifItalic,
-    fontStyle: 'italic',
     fontSize: 11.5,
     color: colors.textDim,
     marginTop: 4,

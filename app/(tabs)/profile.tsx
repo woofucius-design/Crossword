@@ -114,7 +114,7 @@ export default function ProfileScreen() {
         <View style={styles.badgeRow}>
           <Badge emoji="🔥" label="7-Day Streak" earned={(profile?.streak ?? 0) >= 7} />
           <Badge emoji="📚" label="20 Words" earned={collectedWords.length >= 20} />
-          <Badge emoji="⬟" label="First Mastery" earned={tierCounts.mastered > 0} />
+          <Badge emoji="◆" label="First Mastery" earned={tierCounts.mastered > 0} />
           <Badge emoji="✍️" label="First Passage" earned={submissions.length > 0} />
         </View>
 

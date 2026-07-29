@@ -50,7 +50,6 @@ const styles = StyleSheet.create({
   },
   vocab: {
     fontFamily: fonts.serifItalic,
-    fontStyle: 'italic',
     color: colors.yellow,
   },
 });

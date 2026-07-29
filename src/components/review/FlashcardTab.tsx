@@ -25,11 +25,16 @@ export function FlashcardTab({ words, onReview }: FlashcardTabProps) {
 
   const card = words[index];
 
+  // backfaceVisibility alone is unreliable on Android — the hidden face
+  // often shows through or renders mirrored mid-flip — so each face is
+  // also switched off by opacity as the card passes 90 degrees.
   const frontStyle = useAnimatedStyle(() => ({
     transform: [{ perspective: 1000 }, { rotateY: `${rotation.value}deg` }],
+    opacity: rotation.value < 90 ? 1 : 0,
   }));
   const backStyle = useAnimatedStyle(() => ({
     transform: [{ perspective: 1000 }, { rotateY: `${rotation.value + 180}deg` }],
+    opacity: rotation.value < 90 ? 0 : 1,
   }));
 
   const flip = () => {
@@ -187,7 +192,6 @@ const styles = StyleSheet.create({
   },
   backDef: {
     fontFamily: fonts.serifItalic,
-    fontStyle: 'italic',
     fontSize: 18,
     color: colors.text,
     textAlign: 'center',
