@@ -21,6 +21,7 @@ import { durations } from '@/theme/animations';
 import { getPuzzle, isWordComplete, wordAt, wordCells } from '@/data/puzzles';
 import { useApp } from '@/stores/AppStore';
 import { useAndroidBack } from '@/hooks/useAndroidBack';
+import { rippleLight } from '@/theme/platform';
 import type { PuzzleWord } from '@/types/models';
 
 type Direction = 'across' | 'down';
@@ -378,6 +379,7 @@ function ClueColumn({
           <Pressable
             key={w.id}
             onPress={() => onSelect(w)}
+            android_ripple={rippleLight()}
             style={[styles.clueRow, active && styles.clueRowActive]}
           >
             <Text style={[styles.clueNum, w.isSATVocab && { color: colors.yellow }]}>
