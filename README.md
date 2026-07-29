@@ -18,6 +18,10 @@ The app runs fully offline out of the box: it ships with demo collection data
 and local fallbacks for every AI feature. To enable the real backend, copy
 `.env.example` to `.env` and fill in your Supabase credentials.
 
+For building and shipping on iOS and Android — EAS profiles, icon generation,
+and the Android-specific behaviour the code deliberately handles — see
+[`docs/MOBILE.md`](docs/MOBILE.md).
+
 ```bash
 npm run typecheck  # tsc --noEmit
 ```
