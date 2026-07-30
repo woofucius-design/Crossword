@@ -1,5 +1,6 @@
 import React from 'react';
-import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Button } from './Button';
 import { RetentionArc } from './RetentionArc';
 import { colors, masteryColor, radius } from '@/theme/tokens';
@@ -22,6 +23,7 @@ const TIER_LABEL: Record<CollectedWord['mastery'], string> = {
 };
 
 export function WordDetailSheet({ word, onClose, onPractice }: WordDetailSheetProps) {
+  const insets = useSafeAreaInsets();
   return (
     <Modal
       visible={word !== null}
@@ -29,11 +31,24 @@ export function WordDetailSheet({ word, onClose, onPractice }: WordDetailSheetPr
       animationType="slide"
       onRequestClose={onClose}
     >
-      <Pressable style={styles.backdrop} onPress={onClose} />
+      <Pressable
+        style={styles.backdrop}
+        onPress={onClose}
+        accessibilityRole="button"
+        accessibilityLabel="Close"
+      />
       {word && (
-        <View style={styles.sheet}>
+        <View
+          style={[styles.sheet, { paddingBottom: insets.bottom + 14 }]}
+          accessibilityViewIsModal
+        >
           <View style={styles.handle} />
 
+          <ScrollView
+            bounces={false}
+            showsVerticalScrollIndicator={false}
+            contentContainerStyle={{ paddingBottom: 4 }}
+          >
           <View style={styles.headerRow}>
             <View style={{ flex: 1 }}>
               <Text style={styles.word}>{word.word}</Text>
@@ -71,6 +86,7 @@ export function WordDetailSheet({ word, onClose, onPractice }: WordDetailSheetPr
               }
             />
           </View>
+          </ScrollView>
 
           <View style={styles.actions}>
             <Button
@@ -105,7 +121,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: radius.modal,
     borderTopRightRadius: radius.modal,
     padding: 20,
-    paddingBottom: 34,
+    maxHeight: '88%',
     borderWidth: 1,
     borderColor: colors.border,
   },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors, radius } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { ripple } from '@/theme/platform';
@@ -80,7 +80,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 1,
     borderColor: colors.border,
-    overflow: 'hidden', // keeps the Android ripple inside the rounded key
+    // Clips the Android ripple to the rounded key. Not applied on iOS,
+    // where it would only add a masking layer per key for nothing.
+    ...Platform.select({ android: { overflow: 'hidden' as const }, default: {} }),
   },
   keyWide: {
     flex: 1.6,

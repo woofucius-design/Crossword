@@ -9,7 +9,12 @@ import { colors } from '@/theme/tokens';
  */
 export function MeshBg() {
   return (
-    <View style={[StyleSheet.absoluteFill, { backgroundColor: colors.bg }]} pointerEvents="none">
+    <View
+      style={[StyleSheet.absoluteFill, { backgroundColor: colors.bg }]}
+      pointerEvents="none"
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
+    >
       <Svg style={StyleSheet.absoluteFill} width="100%" height="100%">
         <Defs>
           <RadialGradient id="indigo" cx="12%" cy="8%" r="55%">

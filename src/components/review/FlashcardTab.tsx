@@ -9,6 +9,7 @@ import { Button } from '@/components/Button';
 import { colors, radius } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { durations, easing } from '@/theme/animations';
+import { NEEDS_BACKFACE_GUARD } from '@/theme/platform';
 import type { CollectedWord } from '@/types/models';
 
 interface FlashcardTabProps {
@@ -26,15 +27,17 @@ export function FlashcardTab({ words, onReview }: FlashcardTabProps) {
   const card = words[index];
 
   // backfaceVisibility alone is unreliable on Android — the hidden face
-  // often shows through or renders mirrored mid-flip — so each face is
-  // also switched off by opacity as the card passes 90 degrees.
+  // often shows through or renders mirrored mid-flip — so there each face
+  // is also switched off by opacity as the card passes 90 degrees. iOS
+  // hands the faces over smoothly on its own, and forcing the same binary
+  // cut there turns the flip into a snap.
   const frontStyle = useAnimatedStyle(() => ({
     transform: [{ perspective: 1000 }, { rotateY: `${rotation.value}deg` }],
-    opacity: rotation.value < 90 ? 1 : 0,
+    opacity: NEEDS_BACKFACE_GUARD ? (rotation.value < 90 ? 1 : 0) : 1,
   }));
   const backStyle = useAnimatedStyle(() => ({
     transform: [{ perspective: 1000 }, { rotateY: `${rotation.value + 180}deg` }],
-    opacity: rotation.value < 90 ? 0 : 1,
+    opacity: NEEDS_BACKFACE_GUARD ? (rotation.value < 90 ? 0 : 1) : 1,
   }));
 
   const flip = () => {

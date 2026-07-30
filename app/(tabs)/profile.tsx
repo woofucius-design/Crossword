@@ -1,11 +1,17 @@
 import React, { useMemo } from 'react';
-import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import Constants from 'expo-constants';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { Avatar } from '@/components/Avatar';
 import { colors, masteryColor, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
+
+// Placeholder host: these must resolve to real pages before submission —
+// App Review follows the privacy link.
+const LEGAL_BASE = 'https://lexicon.app';
+const appVersion = Constants.expoConfig?.version ?? '1.0.0';
 import { useApp } from '@/stores/AppStore';
 import type { MasteryTier } from '@/types/models';
 
@@ -129,9 +135,26 @@ export default function ProfileScreen() {
         <Pressable style={styles.dangerButton} onPress={confirmDelete}>
           <Text style={styles.dangerText}>Delete Account</Text>
         </Pressable>
-        <Text style={styles.legal}>
-          LEXICON v1.0.0 · Privacy Policy · Terms of Service
-        </Text>
+        {/* App Review requires a reachable in-app privacy policy link, so
+            these must be tappable rather than decorative text. */}
+        <View style={styles.legalRow}>
+          <Text style={styles.legal}>LEXICON v{appVersion} · </Text>
+          <Pressable
+            onPress={() => Linking.openURL(`${LEGAL_BASE}/privacy`)}
+            accessibilityRole="link"
+            hitSlop={8}
+          >
+            <Text style={[styles.legal, styles.legalLink]}>Privacy Policy</Text>
+          </Pressable>
+          <Text style={styles.legal}> · </Text>
+          <Pressable
+            onPress={() => Linking.openURL(`${LEGAL_BASE}/terms`)}
+            accessibilityRole="link"
+            hitSlop={8}
+          >
+            <Text style={[styles.legal, styles.legalLink]}>Terms of Service</Text>
+          </Pressable>
+        </View>
       </ScrollView>
     </ScreenBackground>
   );
@@ -321,11 +344,21 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.red,
   },
+  legalRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 18,
+  },
+  legalLink: {
+    color: colors.textMuted,
+    textDecorationLine: 'underline',
+  },
   legal: {
     fontFamily: fonts.body,
     fontSize: 10,
     color: colors.textDim,
     textAlign: 'center',
-    marginTop: 16,
   },
 });

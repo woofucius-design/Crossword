@@ -108,7 +108,14 @@ export function FloatingWords({ opacity = 1, count = 24 }: FloatingWordsProps) {
   const items = seeded.current.items;
 
   return (
-    <Animated.View style={[StyleSheet.absoluteFill, { opacity }]} pointerEvents="none">
+    <Animated.View
+      style={[StyleSheet.absoluteFill, { opacity }]}
+      pointerEvents="none"
+      // pointerEvents does not hide anything from a screen reader: without
+      // this, VoiceOver read all 24 drifting words before the real content.
+      accessibilityElementsHidden
+      importantForAccessibility="no-hide-descendants"
+    >
       {items.map((it, i) => (
         <DriftWord key={i} {...it} />
       ))}

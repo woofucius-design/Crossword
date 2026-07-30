@@ -15,7 +15,7 @@ import { Grid, computeCellSize, type CellRenderState } from '@/components/crossw
 import { Keyboard } from '@/components/crossword/Keyboard';
 import { ClueBar } from '@/components/crossword/ClueBar';
 import { CollectionToast } from '@/components/crossword/CollectionToast';
-import { colors, radius, spacing } from '@/theme/tokens';
+import { colors, maxContentWidth, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { durations } from '@/theme/animations';
 import { getPuzzle, isWordComplete, wordAt, wordCells } from '@/data/puzzles';
@@ -26,6 +26,9 @@ import { vocabCollected, wordSolved } from '@/theme/haptics';
 import type { PuzzleWord } from '@/types/models';
 
 type Direction = 'across' | 'down';
+
+/** Cells stop growing past a comfortable thumb target. */
+const MAX_CELL = 44;
 
 function useTimer() {
   const [seconds, setSeconds] = useState(0);
@@ -55,7 +58,13 @@ export default function PuzzleScreen() {
   const puzzle = useMemo(() => getPuzzle(date ?? ''), [date]);
   const timer = useTimer();
 
-  const cellSize = computeCellSize(width - spacing.screen * 2, puzzle.size.cols);
+  const cellSize = Math.min(
+    computeCellSize(
+      Math.min(width, maxContentWidth) - spacing.screen * 2,
+      puzzle.size.cols,
+    ),
+    MAX_CELL,
+  );
 
   // ── Game state ──────────────────────────────────────────────
   const [letters, setLetters] = useState<Record<string, string>>(() => {
@@ -311,6 +320,10 @@ export default function PuzzleScreen() {
           <View style={[styles.progressFill, { width: `${progress * 100}%` }]} />
         </View>
 
+        <View style={styles.clueBarPinned}>
+          <ClueBar word={activeWord} onToggleDirection={toggleDirection} />
+        </View>
+
         <ScrollView
           contentContainerStyle={{ paddingHorizontal: spacing.screen, paddingBottom: 12 }}
           showsVerticalScrollIndicator={false}
@@ -333,7 +346,6 @@ export default function PuzzleScreen() {
           />
 
           <View style={{ height: 10 }} />
-          <ClueBar word={activeWord} onToggleDirection={toggleDirection} />
 
           {/* Compact clue list */}
           <View style={styles.clueColumns}>
@@ -524,6 +536,10 @@ const styles = StyleSheet.create({
   clueTextDone: {
     textDecorationLine: 'line-through',
     color: colors.textDim,
+  },
+  clueBarPinned: {
+    paddingHorizontal: spacing.screen,
+    paddingBottom: 8,
   },
   keyboardWrap: {
     paddingTop: 8,

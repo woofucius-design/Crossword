@@ -9,6 +9,7 @@ import Animated, {
   withSequence,
   withTiming,
 } from 'react-native-reanimated';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors, radius, shadows } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { durations, easing } from '@/theme/animations';
@@ -47,6 +48,7 @@ function Star({ index }: { index: number }) {
 
 /** Auto-triggered toast when a SAT vocab word is collected from the grid. */
 export function CollectionToast({ word, onDismiss }: CollectionToastProps) {
+  const insets = useSafeAreaInsets();
   const translateY = useSharedValue(140);
   const drain = useSharedValue(1);
 
@@ -73,7 +75,10 @@ export function CollectionToast({ word, onDismiss }: CollectionToastProps) {
   // parent's bounds, so they live in a taller transparent wrapper that is
   // a sibling of the card rather than inside it.
   return (
-    <Animated.View style={[styles.wrap, containerStyle]} pointerEvents="box-none">
+    <Animated.View
+      style={[styles.wrap, { bottom: Math.max(insets.bottom, 16) }, containerStyle]}
+      pointerEvents="box-none"
+    >
       <View style={styles.starField} pointerEvents="none">
         {Array.from({ length: STAR_COUNT }, (_, i) => (
           <Star key={i} index={i} />
@@ -110,7 +115,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     left: 14,
     right: 14,
-    bottom: 16,
     paddingTop: STAR_TRAVEL,
   },
   toast: {

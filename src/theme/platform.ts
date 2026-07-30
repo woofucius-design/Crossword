@@ -38,5 +38,12 @@ export function glowFallback(color: string) {
     : {};
 }
 
+/**
+ * Android's `backfaceVisibility: 'hidden'` is unreliable under rotateY — the
+ * hidden face shows through or renders mirrored — so 3D flips there need an
+ * explicit opacity cut. iOS hands the faces over on its own.
+ */
+export const NEEDS_BACKFACE_GUARD = Platform.OS === 'android';
+
 export const isAndroid = Platform.OS === 'android';
 export { colors };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import type { Avatar as AvatarType } from '@/types/models';
 import { colors } from '@/theme/tokens';
@@ -67,11 +67,13 @@ const styles = StyleSheet.create({
   },
   dot: {
     position: 'absolute',
-    // Flush with the corner rather than overhanging it: Android clips
-    // absolutely-positioned children that fall outside the parent box,
-    // which made the unread dot vanish entirely.
-    top: 0,
-    right: 0,
+    // The badge overhangs the avatar edge, which is the intended look and
+    // works on iOS. Android clips absolutely-positioned children outside
+    // the parent box, so there it sits flush instead of vanishing.
+    ...Platform.select({
+      ios: { top: -2, right: -2 },
+      default: { top: 0, right: 0 },
+    }),
     backgroundColor: colors.orange,
     borderWidth: 2,
   },
