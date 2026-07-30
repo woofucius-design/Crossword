@@ -41,6 +41,8 @@ export function ClueBar({ word, onToggleDirection }: ClueBarProps) {
 
       <Pressable
         onPress={onToggleDirection}
+        accessibilityRole="button"
+        accessibilityLabel="Switch between across and down"
         style={({ pressed }) => [styles.toggle, pressed && { opacity: 0.7 }]}
       >
         <Text style={styles.toggleText}>⇄</Text>

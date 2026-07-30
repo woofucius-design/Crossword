@@ -29,6 +29,8 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
               }}
               android_ripple={ripple()}
               unstable_pressDelay={0}
+              accessibilityRole="button"
+              accessibilityLabel={letter}
               style={({ pressed }) => [styles.key, pressed && styles.keyPressed]}
             >
               <Text style={styles.keyText}>{letter}</Text>
@@ -42,6 +44,8 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
               }}
               android_ripple={ripple()}
               unstable_pressDelay={0}
+              accessibilityRole="button"
+              accessibilityLabel="Delete"
               style={({ pressed }) => [
                 styles.key,
                 styles.keyWide,

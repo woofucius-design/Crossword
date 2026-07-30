@@ -285,7 +285,13 @@ export default function PuzzleScreen() {
       <View style={{ flex: 1, paddingTop: insets.top + 4 }}>
         {/* Header */}
         <View style={styles.header}>
-          <Pressable onPress={leave} hitSlop={12} style={styles.back}>
+          <Pressable
+            onPress={leave}
+            hitSlop={12}
+            style={styles.back}
+            accessibilityRole="button"
+            accessibilityLabel="Back"
+          >
             <Text style={styles.backText}>←</Text>
           </Pressable>
           <View style={{ flex: 1 }}>

@@ -71,7 +71,12 @@ export default function CollectionScreen() {
       >
         <View style={styles.header}>
           <Text style={styles.title}>My Collection</Text>
-          <Pressable hitSlop={10} onPress={() => router.push('/(tabs)/profile')}>
+          <Pressable
+            hitSlop={10}
+            onPress={() => router.push('/(tabs)/profile')}
+            accessibilityRole="button"
+            accessibilityLabel="Settings"
+          >
             <Text style={styles.gear}>⚙</Text>
           </Pressable>
         </View>

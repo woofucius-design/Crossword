@@ -81,7 +81,13 @@ export function CollectionToast({ word, onDismiss }: CollectionToastProps) {
       </View>
 
       <View style={[styles.toast, shadows.toast]}>
-        <Pressable style={styles.close} onPress={onDismiss} hitSlop={10}>
+        <Pressable
+          style={styles.close}
+          onPress={onDismiss}
+          hitSlop={10}
+          accessibilityRole="button"
+          accessibilityLabel="Dismiss"
+        >
           <Text style={styles.closeText}>×</Text>
         </Pressable>
 

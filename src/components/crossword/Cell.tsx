@@ -93,6 +93,8 @@ function CellBase({
   if (isBlack) {
     return (
       <View
+        accessibilityElementsHidden
+        importantForAccessibility="no-hide-descendants"
         style={[
           styles.cell,
           { width: size, height: size, backgroundColor: colors.cellBlack },
@@ -101,6 +103,16 @@ function CellBase({
     );
   }
 
+  // VoiceOver reads position first so a solver can navigate the grid, then
+  // the clue number that starts here, then the letter (or that it's empty).
+  const label = [
+    `Row ${row + 1}, column ${col + 1}`,
+    number !== undefined ? `clue ${number} starts here` : null,
+    letter ? `letter ${letter}` : 'empty',
+  ]
+    .filter(Boolean)
+    .join(', ');
+
   const borderColor = isSelected
     ? colors.cellSelectedBorder
     : isWordHighlight
@@ -108,7 +120,12 @@ function CellBase({
     : colors.cellBorder;
 
   return (
-    <Pressable onPress={() => onPress(row, col)}>
+    <Pressable
+      onPress={() => onPress(row, col)}
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      accessibilityState={{ selected: isSelected }}
+    >
       <Animated.View
         style={[
           styles.cell,
@@ -118,6 +135,7 @@ function CellBase({
       >
         {number !== undefined && (
           <Text
+            maxFontSizeMultiplier={1}
             style={[
               styles.number,
               { color: isSelected ? '#7A5C00' : colors.cellNumberText },
@@ -127,7 +145,9 @@ function CellBase({
           </Text>
         )}
         {letter !== '' && (
-          <Animated.Text style={[styles.letter, letterStyle]}>{letter}</Animated.Text>
+          <Animated.Text maxFontSizeMultiplier={1} style={[styles.letter, letterStyle]}>
+            {letter}
+          </Animated.Text>
         )}
       </Animated.View>
     </Pressable>

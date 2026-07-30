@@ -47,6 +47,9 @@ function TabBar({ state, navigation }: BottomTabBarProps) {
               key={route.key}
               style={styles.tab}
               android_ripple={rippleGold()}
+              accessibilityRole="tab"
+              accessibilityLabel={meta.label}
+              accessibilityState={{ selected: focused }}
               onPress={() => {
                 const event = navigation.emit({
                   type: 'tabPress',
@@ -59,7 +62,9 @@ function TabBar({ state, navigation }: BottomTabBarProps) {
               }}
             >
               <Text style={[styles.icon, { color: tint }]}>{meta.icon}</Text>
-              <Text style={[styles.label, { color: tint }]}>{meta.label}</Text>
+              <Text style={[styles.label, { color: tint }]} maxFontSizeMultiplier={1.3}>
+                {meta.label}
+              </Text>
             </Pressable>
           );
         })}
