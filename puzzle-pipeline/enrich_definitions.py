@@ -248,7 +248,12 @@ def _head_indices(tokens: list[str], tags: tuple[str, ...], want: str) -> list[i
 _PRONOUN_PLURAL = {
     "one": "Ones", "someone": "People", "somebody": "People",
     "anyone": "People", "anybody": "People", "person": "People",
+    # Indefinite pronouns pluralize to 'Things', never 'Anythings'.
+    "anything": "Things", "something": "Things", "everything": "Things",
 }
+
+# A definition opening with one of these is a clause, not a noun phrase.
+_INTERROGATIVE = {"how", "what", "when", "where", "why", "whether"}
 
 
 def _is_base_verb(token: str) -> bool:
@@ -371,6 +376,7 @@ _DANGLE = {
     "a", "an", "the", "and", "or", "nor", "but", "usually", "often",
     "sometimes", "very", "more", "most", "such", "its", "their", "his",
     "her", "is", "are", "was", "were", "not", "no", "so", "than",
+    "has", "have", "had", "either", "both", "each", "other",
 }
 
 
@@ -380,35 +386,87 @@ _DANGLE = {
 _ADJ_SUFFIX = ("able", "ible", "ous", "ful", "ive")
 
 
+@functools.lru_cache(maxsize=8192)
+def _is_participle_form(token: str) -> bool:
+    """True if an -ed/-ing token is a verb form acting as a post-modifier
+    rather than a head noun. lemminflect's lexicon settles it: 'emanating'
+    and 'arranged' are known only as verbs, while 'legging' is known only
+    as a noun. Words it knows as BOTH ('building', 'painting', 'opening')
+    are treated as nouns, which is how definitions overwhelmingly use them.
+    Hyphenated compounds ('sharp-pointed') are compound adjectives sitting
+    before the head, so cutting there would discard the head itself."""
+    low = token.rstrip(",").lower()
+    if len(low) <= 4 or "-" in low or not low.endswith(("ed", "ing")):
+        return False
+    pos = lemminflect.getAllLemmas(low)
+    if not pos:
+        return False
+    return "NOUN" not in pos
+
+
 def _noun_head_indices(tokens: list[str], tags: tuple[str, ...] = ()) -> list[int]:
-    """Head of the leading noun phrase, via closed-list boundaries: the
-    LAST token before the first preposition / relativizer / participle /
-    -ly adverb / comma. 'Freshwater or marine or terrestrial gastropod
-    mollusk usually having...' -> 'mollusk' (modifiers never pluralize).
-    A pure two-noun coordination ('grief or sorrow' as the entire NP)
-    pluralizes both heads."""
+    """Index/indices of the head noun to pluralize.
+
+    Definitions are headless fragments, and the POS tagger is unreliable on
+    them (it reads 'mollusk' as a verb), so the noun phrase is bounded by
+    closed lists plus morphology: the head is the last content token before
+    the first preposition, relativizer, participle, -ly adverb or comma.
+
+      'Freshwater or marine or terrestrial gastropod mollusk usually
+       having a spiral shell'  ->  mollusk   (modifiers never pluralize)
+      'Food mixture either arranged on a plate'  ->  mixture
+      'Divine power or nature emanating from...' ->  power AND nature
+    """
+    # A definition that opens with an interrogative is a nominal clause,
+    # not a noun phrase ('How long something has existed'), and has no
+    # head to pluralize at all.
+    if tokens and tokens[0].rstrip(",").lower() in _INTERROGATIVE:
+        return []
+
     window_end = len(tokens)
     for i, tok in enumerate(tokens):
         low = tok.rstrip(",").lower()
-        if low in _NP_BOUNDARY or (low.endswith("ly") and len(low) > 4):
+        is_participle = i > 0 and _is_participle_form(tok)
+        if low in _NP_BOUNDARY or (low.endswith("ly") and len(low) > 4) or is_participle:
             window_end = i
             break
         if tok.endswith(","):
             window_end = i + 1
             break
+
+    # Trailing function words are never the head ('...mixture either'),
+    # but never strip to nothing: 'One' is both a quantifier and a pronoun
+    # head, and _PRONOUN_PLURAL turns it into 'Ones'.
+    while window_end > 1:
+        low = tokens[window_end - 1].rstrip(",").lower()
+        if low in _DANGLE or low in _QUANTIFIERS:
+            window_end -= 1
+        else:
+            break
+
     window = tokens[:window_end]
     if not window:
         return []
     if len(window) == 1:
-        low0 = window[0].lower()
+        low0 = window[0].rstrip(",").lower()
         if low0 in _PRONOUN_PLURAL:
             return [0]  # 'One who...' -> _apply's pronoun branch
         if low0 in _QUANTIFIERS:
             return []   # 'Any of various...' — no safe head
-    # flat pair coordination: exactly [N, or/and, N]
-    if (len(window) == 3
-            and window[1].rstrip(",").lower() in ("or", "and")):
-        return [0, 2]
+
+    # Coordination is only a shared head when the two nouns sit at the very
+    # end of the phrase ('power or nature'). Mid-phrase conjunctions join
+    # modifiers instead ('freshwater or marine ... mollusk'), and
+    # pluralizing those produced 'marines or terrestrial gastropods'.
+    if len(window) >= 3 and window[-2].rstrip(",").lower() in ("or", "and"):
+        return [window_end - 3, window_end - 1]
+
+    # A phrase whose only candidate is itself a participle has no noun head
+    # at all: 'Motorized wheeled vehicle...' and 'Distinguished from
+    # Bovidae...' open with participial adjectives, and pluralizing those
+    # produced 'Motorizeds' and 'Distinguisheds'.
+    if all(_is_participle_form(t) for t in window):
+        return []
 
     last = window_end - 1
     # A trailing adjective is a post-modifier, not the head: 'Wrong action
