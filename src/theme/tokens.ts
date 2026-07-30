@@ -33,6 +33,14 @@ export const colors = {
   cellLetterText: '#111',
 } as const;
 
+/**
+ * The layout is phone-first. On an iPad or a desktop browser, letting it
+ * stretch to full width blows the crossword cells up to ~98pt and strands
+ * text across the screen, so content is capped and centred while the
+ * background art still fills the window.
+ */
+export const maxContentWidth = 520;
+
 export const spacing = {
   screen: 14,
   cardGap: 8,

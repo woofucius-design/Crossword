@@ -22,6 +22,7 @@ import { getPuzzle, isWordComplete, wordAt, wordCells } from '@/data/puzzles';
 import { useApp } from '@/stores/AppStore';
 import { useAndroidBack } from '@/hooks/useAndroidBack';
 import { rippleLight } from '@/theme/platform';
+import { vocabCollected, wordSolved } from '@/theme/haptics';
 import type { PuzzleWord } from '@/types/models';
 
 type Direction = 'across' | 'down';
@@ -168,6 +169,10 @@ export default function PuzzleScreen() {
       const vocab = newlyDone.find(
         (w) => w.isSATVocab && !collectedIds.has(w.id),
       );
+      // One cue per event: the heavier collection tap would otherwise land
+      // on top of the word-solved tap and read as a single muddy buzz.
+      if (vocab) vocabCollected();
+      else wordSolved();
       if (vocab) {
         setCollectedIds((prev) => new Set(prev).add(vocab.id));
         collectWord(vocab, puzzle.date);

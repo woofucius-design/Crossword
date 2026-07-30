@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Tabs } from 'expo-router';
 import type { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { colors } from '@/theme/tokens';
+import { colors, maxContentWidth } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useAndroidBack } from '@/hooks/useAndroidBack';
 import { rippleGold, tightText } from '@/theme/platform';
@@ -33,6 +33,7 @@ function TabBar({ state, navigation }: BottomTabBarProps) {
 
   return (
     <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, 8) }]}>
+      <View style={styles.barInner}>
       {state.routes
         .filter((r) => TAB_META[r.name])
         .map((route) => {
@@ -62,6 +63,7 @@ function TabBar({ state, navigation }: BottomTabBarProps) {
             </Pressable>
           );
         })}
+      </View>
     </View>
   );
 }
@@ -84,11 +86,18 @@ export default function TabsLayout() {
 
 const styles = StyleSheet.create({
   bar: {
-    flexDirection: 'row',
     backgroundColor: 'rgba(13,27,42,0.96)',
     borderTopWidth: 1,
     borderTopColor: colors.border,
     paddingTop: 8,
+  },
+  // Full-bleed bar, but the tabs themselves stay phone-width so they don't
+  // drift to the far corners of an iPad or a desktop browser.
+  barInner: {
+    flexDirection: 'row',
+    width: '100%',
+    maxWidth: maxContentWidth,
+    alignSelf: 'center',
     paddingHorizontal: 6,
   },
   tab: {

@@ -247,6 +247,14 @@ export default function Onboarding() {
                   selectionColor={colors.yellow}
                   maxLength={16}
                   textAlign="center"
+                  // iOS defaults to a light keyboard, which flashes white
+                  // against this dark theme.
+                  keyboardAppearance="dark"
+                  autoCapitalize="words"
+                  autoCorrect={false}
+                  returnKeyType="done"
+                  textContentType="nickname"
+                  onSubmitEditing={() => username.trim() && setStep(3)}
                 />
                 <Button
                   label={username.trim() ? `Looks good, ${username.trim()}!` : 'Choose a name'}

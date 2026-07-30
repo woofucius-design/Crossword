@@ -200,6 +200,10 @@ export default function WriteScreen() {
                 placeholderTextColor={colors.textDim}
                 selectionColor={colors.yellow}
                 textAlignVertical="top"
+                keyboardAppearance="dark"
+                autoCapitalize="sentences"
+                autoCorrect
+                spellCheck
               />
               <View style={styles.editorFooter}>
                 <Text style={styles.wordCount}>{wordCount} words</Text>

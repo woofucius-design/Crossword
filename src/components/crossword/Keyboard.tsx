@@ -4,6 +4,7 @@ import { colors, radius } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { ripple } from '@/theme/platform';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { tapDelete, tapKey } from '@/theme/haptics';
 
 const ROWS = ['QWERTYUIOP', 'ASDFGHJKL', 'ZXCVBNM'];
 
@@ -22,7 +23,10 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
           {row.split('').map((letter) => (
             <Pressable
               key={letter}
-              onPress={() => onKey(letter)}
+              onPress={() => {
+                tapKey();
+                onKey(letter);
+              }}
               android_ripple={ripple()}
               unstable_pressDelay={0}
               style={({ pressed }) => [styles.key, pressed && styles.keyPressed]}
@@ -32,7 +36,10 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
           ))}
           {i === 2 && (
             <Pressable
-              onPress={onDelete}
+              onPress={() => {
+                tapDelete();
+                onDelete();
+              }}
               android_ripple={ripple()}
               unstable_pressDelay={0}
               style={({ pressed }) => [
