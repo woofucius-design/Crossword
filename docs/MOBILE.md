@@ -12,7 +12,7 @@ release still needs, and the Android-specific traps already paid for once.
 | Bundles | yes | yes | **no** — see below |
 | Icons / splash | yes | yes, incl. adaptive + monochrome | favicon |
 | Build config | `eas.json` | `eas.json` | `expo export` |
-| Platform fixes | baseline | done (see below) | not started |
+| Platform fixes | done (see below) | done (see below) | not started |
 | Store assets | not started | not started | n/a |
 
 Both native targets are verified by `expo export`. **Web is declared in
@@ -53,6 +53,39 @@ in a checked-in native file.
 eas build --profile preview --platform android
 eas build --profile production --platform all
 ```
+
+## iOS specifics already handled
+
+**Privacy manifest.** Apple has required `PrivacyInfo.xcprivacy` since 2024;
+`ios.privacyManifests` in `app.json` declares the required-reason APIs Expo and
+AsyncStorage touch. Adding a library that reads more of them (device
+identifiers, active keyboards, contacts) means adding its category here, or the
+upload is rejected.
+
+**Export compliance.** `ITSAppUsesNonExemptEncryption: false` is correct while
+the app uses only standard HTTPS. Ship real cryptography and that must change,
+along with filing the annual self-classification report.
+
+**Haptics.** `src/theme/haptics.ts` names events (`tapKey`, `vocabCollected`),
+not impact styles, so call sites read as intent. Only one cue fires per event —
+stacking word-solved under vocab-collected reads as a single muddy buzz — and
+every call degrades silently, since haptics are absent on web, on Android
+devices with no vibrator, and when the user has turned them off.
+
+**Wide screens.** `supportsTablet: true`, so the layout must survive 1024pt+.
+`maxContentWidth` caps and centres content while the background art fills the
+window; without it `computeCellSize` divided the full iPad width by the column
+count and produced ~98pt crossword cells. The same cap is what will make
+desktop web look deliberate.
+
+**Dark keyboard.** `keyboardAppearance="dark"` on both text inputs. iOS
+otherwise flashes a white system keyboard against the dark theme.
+
+**Accessibility.** Grid cells announce position, clue number and letter; black
+squares are hidden from VoiceOver instead of announced as empty views. Text
+sized from geometry rather than content (crossword letters, tab labels) pins
+`maxFontSizeMultiplier`, because Dynamic Type would otherwise overflow
+containers whose height is computed.
 
 ## Android differences already handled
 
@@ -109,8 +142,9 @@ Roughly in order.
    queries. Schema, RLS and the two Claude-proxy edge functions already exist.
    Sync matters here: solving on web at school and on a phone at home is the
    actual use case.
-3. **Store requirements.** Privacy policy URL, Apple privacy nutrition labels,
-   Google Data Safety form, screenshots per device class. If under-13 students
+3. **Store requirements.** Privacy policy URL, Apple privacy nutrition labels
+   (distinct from the privacy *manifest*, which is done), Google Data Safety
+   form, screenshots per device class. If under-13 students
    are in scope, COPPA/FERPA obligations change what may be collected — decide
    before writing the forms. Apple requires Sign in with Apple if any other
    social login ships; the account-deletion path is already built.
