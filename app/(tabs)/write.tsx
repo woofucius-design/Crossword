@@ -155,6 +155,7 @@ export default function WriteScreen() {
         }}
         showsVerticalScrollIndicator={false}
         keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="interactive"
       >
         {/* Header */}
         <View style={styles.header}>
@@ -209,6 +210,7 @@ export default function WriteScreen() {
                 autoCapitalize="sentences"
                 autoCorrect
                 spellCheck
+                scrollEnabled={false}
               />
               <View style={styles.editorFooter}>
                 <Text style={styles.wordCount}>{wordCount} words</Text>

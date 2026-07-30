@@ -87,6 +87,24 @@ sized from geometry rather than content (crossword letters, tab labels) pins
 `maxFontSizeMultiplier`, because Dynamic Type would otherwise overflow
 containers whose height is computed.
 
+Note that `pointerEvents="none"` does **not** hide a view from a screen reader.
+The decorative backgrounds need `accessibilityElementsHidden` +
+`importantForAccessibility="no-hide-descendants"`, or VoiceOver opens Home by
+reading 24 drifting background words before any real content.
+
+**`requireFullScreen`.** Portrait-only plus `supportsTablet` fails archive
+validation outright — Apple requires all four orientations unless the app
+declares it needs full screen. Supporting landscape properly is a layout
+project, so the app declares full screen for now.
+
+**Storage.** `AppStore` persists through AsyncStorage, which on iOS is an
+unencrypted SQLite file inside the app container and **is included in device
+and iCloud backups**. A student name plus a word list is low-sensitivity, so
+this is fine today. A Supabase session token is not: put that in
+`expo-secure-store` (already a dependency, currently unused) with
+`keychainAccessible: WHEN_UNLOCKED_THIS_DEVICE_ONLY`, since the default
+migrates through backups onto a new device.
+
 ## Android differences already handled
 
 These are the ones that actually bit, kept here so they don't get
@@ -153,6 +171,25 @@ Roughly in order.
    (the LEXICON wordmark) under the new architecture, radial-gradient banding
    in `MeshBg`, Reanimated layout animations in onboarding, and `Intl` date
    formatting under Hermes.
+
+   Known and deliberately left, in rough priority order:
+
+   - **There is no puzzle-solved state.** `app/puzzle/[date].tsx` computes
+     `progress` and nothing branches on `progress === 1` — no celebration, no
+     summary, no navigation. This is the biggest product hole in the game
+     loop, and it's where the featured-vocab recap belongs.
+   - **"Delete Account" over-promises.** The copy says it permanently erases
+     the profile, collected words and submissions; it calls `resetToDemo()`.
+     Harmless while there is no server account, but this is exactly the flow
+     reviewers test against guideline 5.1.1(v).
+   - Composite cards (e.g. the Home daily card) wrap a dozen `Text` nodes in
+     one `Pressable`, so VoiceOver reads them serially instead of as one
+     summarised control. Progress bars and rings have no accessible value.
+   - `FloatingWords` reseeds on width change, which is right for a phone but
+     restarts on every iPad Split View / Stage Manager resize.
+   - Dynamic Type is bounded on the grid, keyboard and tab bar but not on
+     smaller chrome (clue numbers in a 16pt box, the 32pt back button, the
+     24pt toast close).
 5. **Notifications.** `expo-notifications` for the daily-puzzle habit loop;
    the Android notification silhouette is already generated.
 6. **CI.** No tests exist. The highest-value first check is `tsc --noEmit`

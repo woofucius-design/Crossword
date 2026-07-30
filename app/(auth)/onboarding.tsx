@@ -1,5 +1,7 @@
 import React, { useCallback, useMemo, useState } from 'react';
 import {
+  KeyboardAvoidingView,
+  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -155,6 +157,10 @@ export default function Onboarding() {
           </View>
         )}
 
+        <KeyboardAvoidingView
+          style={{ flex: 1 }}
+          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+        >
         <ScrollView
           contentContainerStyle={{
             flexGrow: 1,
@@ -386,6 +392,7 @@ export default function Onboarding() {
             )}
           </Animated.View>
         </ScrollView>
+        </KeyboardAvoidingView>
       </View>
     </ScreenBackground>
   );

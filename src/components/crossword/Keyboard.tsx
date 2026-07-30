@@ -33,7 +33,9 @@ export function Keyboard({ onKey, onDelete }: KeyboardProps) {
               accessibilityLabel={letter}
               style={({ pressed }) => [styles.key, pressed && styles.keyPressed]}
             >
-              <Text style={styles.keyText}>{letter}</Text>
+              <Text style={styles.keyText} maxFontSizeMultiplier={1.3}>
+                {letter}
+              </Text>
             </Pressable>
           ))}
           {i === 2 && (
