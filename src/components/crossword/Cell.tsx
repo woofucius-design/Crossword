@@ -138,14 +138,21 @@ function CellBase({
             maxFontSizeMultiplier={1}
             style={[
               styles.number,
-              { color: isSelected ? '#7A5C00' : colors.cellNumberText },
+              {
+                color: isSelected ? '#7A5C00' : colors.cellNumberText,
+                fontSize: Math.max(6, size * 0.22),
+                lineHeight: Math.max(7, size * 0.25),
+              },
             ]}
           >
             {number}
           </Text>
         )}
         {letter !== '' && (
-          <Animated.Text maxFontSizeMultiplier={1} style={[styles.letter, letterStyle]}>
+          <Animated.Text
+            maxFontSizeMultiplier={1}
+            style={[styles.letter, { fontSize: size * 0.46 }, letterStyle]}
+          >
             {letter}
           </Animated.Text>
         )}
