@@ -52,6 +52,34 @@ function defaultState(): PersistedState {
   };
 }
 
+/** Calendar day of an ISO timestamp, in the device's local zone — a streak
+ *  is about the user's days, not UTC's. */
+function localDay(iso: string): number {
+  const d = new Date(iso);
+  return Math.floor(
+    new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime() / 86_400_000,
+  );
+}
+
+/**
+ * A streak counts consecutive days solved, so it extends only when the last
+ * solve was yesterday, holds when another puzzle is solved the same day, and
+ * restarts at 1 after any gap. Incrementing per completion would just be a
+ * solve count wearing a flame.
+ */
+function nextStreak(
+  completions: PuzzleCompletion[],
+  current: number,
+  added: PuzzleCompletion,
+): number {
+  if (completions.length === 0) return 1;
+  const today = localDay(added.completedAt);
+  const last = Math.max(...completions.map((c) => localDay(c.completedAt)));
+  if (last === today) return Math.max(current, 1);
+  if (today - last === 1) return current + 1;
+  return 1;
+}
+
 export function AppProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<PersistedState>(defaultState);
   const [hydrated, setHydrated] = useState(false);
@@ -95,7 +123,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     setState((s) => {
       if (s.completions.some((x) => x.puzzleDate === c.puzzleDate)) return s;
       const profile = s.profile
-        ? { ...s.profile, streak: s.profile.streak + 1 }
+        ? { ...s.profile, streak: nextStreak(s.completions, s.profile.streak, c) }
         : s.profile;
       return { ...s, profile, completions: [c, ...s.completions] };
     });
