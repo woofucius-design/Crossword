@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { StoryTab } from '@/components/review/StoryTab';
@@ -22,11 +23,22 @@ export default function ReviewScreen() {
   const insets = useSafeAreaInsets();
   const { collectedWords, profile, reviewWord } = useApp();
   const [tab, setTab] = useState<Tab>('story');
+  // Set when arriving from a solved puzzle, so "Review These Words" actually
+  // reviews those words. They'd otherwise sink to the bottom: urgencyScore
+  // ranks by decay, and a word collected seconds ago is the least urgent
+  // thing in the collection.
+  const { focus } = useLocalSearchParams<{ focus?: string }>();
 
-  const reviewWords = useMemo(
-    () => [...collectedWords].sort((a, b) => urgencyScore(b) - urgencyScore(a)).slice(0, 8),
-    [collectedWords],
-  );
+  const reviewWords = useMemo(() => {
+    const byUrgency = [...collectedWords].sort(
+      (a, b) => urgencyScore(b) - urgencyScore(a),
+    );
+    if (!focus) return byUrgency.slice(0, 8);
+    const wanted = new Set(focus.split(',').filter(Boolean));
+    const focused = byUrgency.filter((w) => wanted.has(w.word));
+    const rest = byUrgency.filter((w) => !wanted.has(w.word));
+    return [...focused, ...rest].slice(0, 8);
+  }, [collectedWords, focus]);
 
   const urgent = reviewWords.slice(0, 2).map((w) => w.word);
 

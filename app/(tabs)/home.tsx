@@ -27,10 +27,17 @@ const DATE_FMT = new Intl.DateTimeFormat('en-US', {
 
 const TICKER_WORDS = ['ELOQUENT', 'CANDOR', 'ASTUTE', 'NUANCE', 'PRUDENT'];
 
+function fmtDuration(total: number): string {
+  const m = Math.floor(total / 60);
+  const s = total % 60;
+  return m > 0 ? `${m}m ${s}s` : `${s}s`;
+}
+
 export default function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { profile, collectedWords } = useApp();
+  const { profile, collectedWords, completionFor } = useApp();
+  const todayDone = completionFor(samplePuzzle.date);
 
   const [tickerIndex, setTickerIndex] = useState(0);
   useEffect(() => {
@@ -97,13 +104,21 @@ export default function HomeScreen() {
                   <View style={styles.dailyBadge}>
                     <Text style={styles.dailyBadgeText}>DAILY</Text>
                   </View>
-                  <View style={styles.newBadge}>
-                    <Text style={styles.newBadgeText}>New Today</Text>
-                  </View>
+                  {todayDone ? (
+                    <View style={styles.solvedBadge}>
+                      <Text style={styles.solvedBadgeText}>✓ Solved</Text>
+                    </View>
+                  ) : (
+                    <View style={styles.newBadge}>
+                      <Text style={styles.newBadgeText}>New Today</Text>
+                    </View>
+                  )}
                 </View>
                 <Text style={styles.puzzleTitle}>Puzzle #{samplePuzzle.number}</Text>
                 <Text style={styles.puzzleMeta}>
-                  {featured.length} SAT words · ~5 min
+                  {todayDone
+                    ? `Solved in ${fmtDuration(todayDone.durationSeconds)}`
+                    : `${featured.length} SAT words · ~5 min`}
                 </Text>
               </View>
               <MiniGrid solution={samplePuzzle.solution} />
@@ -122,7 +137,9 @@ export default function HomeScreen() {
               end={{ x: 1, y: 0 }}
               style={[styles.playButton, shadows.gold]}
             >
-              <Text style={styles.playButtonText}>▶  Play Today's Puzzle</Text>
+              <Text style={styles.playButtonText}>
+                {todayDone ? '↻  Play Again' : "▶  Play Today's Puzzle"}
+              </Text>
             </LinearGradient>
           </LinearGradient>
         </Pressable>
@@ -355,6 +372,20 @@ const styles = StyleSheet.create({
     fontSize: 8.5,
     color: '#3A2A00',
     letterSpacing: 0.6,
+  },
+  solvedBadge: {
+    backgroundColor: 'rgba(52,211,153,0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(52,211,153,0.4)',
+    borderRadius: radius.pill,
+    paddingHorizontal: 7,
+    paddingVertical: 2,
+  },
+  solvedBadgeText: {
+    fontFamily: fonts.bodyExtra,
+    fontSize: 9,
+    color: colors.mint,
+    letterSpacing: 0.3,
   },
   newBadge: {
     backgroundColor: 'rgba(52,211,153,0.16)',

@@ -338,8 +338,11 @@ export default function PuzzleScreen() {
   const goReview = useCallback(() => {
     setShowSummary(false);
     // replace, not push: the finished puzzle shouldn't sit under the review tab.
-    router.replace('/(tabs)/review');
-  }, [router]);
+    router.replace({
+      pathname: '/(tabs)/review',
+      params: { focus: recapWords.map((w) => w.word).join(',') },
+    });
+  }, [router, recapWords]);
 
   const leave = useCallback(() => {
     if (!hasProgress) {
