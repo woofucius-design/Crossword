@@ -15,6 +15,7 @@ import { Grid, computeCellSize, type CellRenderState } from '@/components/crossw
 import { Keyboard } from '@/components/crossword/Keyboard';
 import { ClueBar } from '@/components/crossword/ClueBar';
 import { CollectionToast } from '@/components/crossword/CollectionToast';
+import { CompletionSheet, type RecapWord } from '@/components/crossword/CompletionSheet';
 import { colors, maxContentWidth, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { durations } from '@/theme/animations';
@@ -22,7 +23,7 @@ import { getPuzzle, isWordComplete, wordAt, wordCells } from '@/data/puzzles';
 import { useApp } from '@/stores/AppStore';
 import { useAndroidBack } from '@/hooks/useAndroidBack';
 import { rippleLight } from '@/theme/platform';
-import { vocabCollected, wordSolved } from '@/theme/haptics';
+import { puzzleSolved, vocabCollected, wordSolved } from '@/theme/haptics';
 import type { PuzzleWord } from '@/types/models';
 
 type Direction = 'across' | 'down';
@@ -30,15 +31,20 @@ type Direction = 'across' | 'down';
 /** Cells stop growing past a comfortable thumb target. */
 const MAX_CELL = 44;
 
-function useTimer() {
+/**
+ * How long to hold the finished grid before the summary slides up. Tied to
+ * the word-ripple so the last word visibly finishes flashing first — the win
+ * should read as earned by the grid, not interrupted by a sheet.
+ */
+const SUMMARY_DELAY = durations.wordRippleFlash + 400;
+
+function useTimer(running: boolean) {
   const [seconds, setSeconds] = useState(0);
-  const ref = useRef<ReturnType<typeof setInterval> | null>(null);
   React.useEffect(() => {
-    ref.current = setInterval(() => setSeconds((s) => s + 1), 1000);
-    return () => {
-      if (ref.current) clearInterval(ref.current);
-    };
-  }, []);
+    if (!running) return;
+    const id = setInterval(() => setSeconds((s) => s + 1), 1000);
+    return () => clearInterval(id);
+  }, [running]);
   return seconds;
 }
 
@@ -53,10 +59,9 @@ export default function PuzzleScreen() {
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
   const { date } = useLocalSearchParams<{ date: string }>();
-  const { profile, collectWord } = useApp();
+  const { profile, collectWord, collectedWords, recordCompletion } = useApp();
 
   const puzzle = useMemo(() => getPuzzle(date ?? ''), [date]);
-  const timer = useTimer();
 
   const cellSize = Math.min(
     computeCellSize(
@@ -82,11 +87,20 @@ export default function PuzzleScreen() {
   const [completed, setCompleted] = useState<Set<string>>(new Set());
   const [collectedIds, setCollectedIds] = useState<Set<string>>(new Set());
   const [toastWord, setToastWord] = useState<PuzzleWord | null>(null);
+  const [solved, setSolved] = useState(false);
+  const [showSummary, setShowSummary] = useState(false);
+  /** Answers that this solve actually added to the collection, as opposed to
+   *  ones the student already owned — drives the NEW chips in the recap. */
+  const [newlyCollected, setNewlyCollected] = useState<Set<string>>(new Set());
 
   const popKeys = useRef<Record<string, number>>({});
   const [popVersion, setPopVersion] = useState(0);
   const ripples = useRef<Record<string, { key: number; delay: number; vocab: boolean }>>({});
   const [rippleVersion, setRippleVersion] = useState(0);
+
+  // Stops the moment the grid is finished, so the summary reports solve time
+  // rather than however long the sheet stayed open.
+  const timer = useTimer(!solved);
 
   const isBlack = (r: number, c: number) => puzzle.solution[r][c] === '#';
 
@@ -175,20 +189,40 @@ export default function PuzzleScreen() {
       }
       setRippleVersion((v) => v + 1);
 
+      const finishes = completed.size + newlyDone.length >= puzzle.words.length;
+
       const vocab = newlyDone.find(
         (w) => w.isSATVocab && !collectedIds.has(w.id),
       );
-      // One cue per event: the heavier collection tap would otherwise land
-      // on top of the word-solved tap and read as a single muddy buzz.
-      if (vocab) vocabCollected();
-      else wordSolved();
       if (vocab) {
         setCollectedIds((prev) => new Set(prev).add(vocab.id));
+        // Check ownership BEFORE collecting: collectWord assigns its return
+        // value inside a setState updater, which React defers, so the value
+        // it hands back here is still null.
+        const alreadyOwned = collectedWords.some((w) => w.word === vocab.answer);
         collectWord(vocab, puzzle.date);
+        if (!alreadyOwned) {
+          setNewlyCollected((prev) => new Set(prev).add(vocab.answer));
+        }
+      }
+
+      // One cue per event: stacking these reads as a single muddy buzz.
+      if (finishes) puzzleSolved();
+      else if (vocab) vocabCollected();
+      else wordSolved();
+
+      if (finishes) {
+        setSolved(true);
+        // The toast is suppressed here even for a vocab word: the summary
+        // lists it anyway, and a toast sliding up under a modal is a mess.
+        // The delay lets the final word-ripple finish, so the win reads as
+        // earned by the grid rather than interrupted by a sheet.
+        setTimeout(() => setShowSummary(true), SUMMARY_DELAY);
+      } else if (vocab) {
         setTimeout(() => setToastWord(vocab), 350);
       }
     },
-    [puzzle, completed, collectedIds, collectWord],
+    [puzzle, completed, collectedIds, collectWord, collectedWords],
   );
 
   const advance = useCallback(
@@ -208,6 +242,7 @@ export default function PuzzleScreen() {
 
   const onKey = useCallback(
     (letter: string) => {
+      if (solved) return;
       const key = `${selected.row},${selected.col}`;
       if (isBlack(selected.row, selected.col)) return;
       popKeys.current[key] = (popKeys.current[key] ?? 0) + 1;
@@ -220,10 +255,11 @@ export default function PuzzleScreen() {
       advance(false);
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [selected, advance, checkCompletions],
+    [selected, advance, checkCompletions, solved],
   );
 
   const onDelete = useCallback(() => {
+    if (solved) return;
     const key = `${selected.row},${selected.col}`;
     setLetters((prev) => {
       if (prev[key]) {
@@ -234,7 +270,7 @@ export default function PuzzleScreen() {
       return prev;
     });
     if (!letters[key]) advance(true);
-  }, [selected, letters, advance]);
+  }, [selected, letters, advance, solved]);
 
   const progress = completed.size / puzzle.words.length;
 
@@ -255,11 +291,55 @@ export default function PuzzleScreen() {
   // otherwise wipe a half-solved grid with no warning.
   const hasProgress = useMemo(
     () =>
+      !solved &&
       Object.entries(letters).some(
         ([key, value]) => value && !puzzle.cells[key]?.preFilled,
       ),
-    [letters, puzzle],
+    [letters, puzzle, solved],
   );
+
+  // Recap source: the generator's featured set when present, otherwise every
+  // SAT entry in the grid — the bundled sample puzzle has no featured array.
+  const recapWords = useMemo<RecapWord[]>(() => {
+    const seen = new Set<string>();
+    const rows: RecapWord[] = [];
+    const push = (word: string, definition: string) => {
+      if (!word || seen.has(word)) return;
+      seen.add(word);
+      rows.push({ word, definition, isNew: newlyCollected.has(word) });
+    };
+    if (puzzle.featured?.length) {
+      for (const f of puzzle.featured) push(f.word, f.definition || f.clue);
+    } else {
+      for (const w of puzzle.words) {
+        if (w.isSATVocab) push(w.answer, w.definition || w.clue);
+      }
+    }
+    return rows;
+  }, [puzzle, newlyCollected]);
+
+  // Recorded as soon as the grid is finished rather than when the sheet is
+  // dismissed, so a solve survives the app being killed on the summary.
+  const recorded = useRef(false);
+  React.useEffect(() => {
+    if (!solved || recorded.current) return;
+    recorded.current = true;
+    recordCompletion({
+      puzzleDate: puzzle.date,
+      puzzleNumber: puzzle.number,
+      durationSeconds: timer,
+      wordsCollected: newlyCollected.size,
+      completedAt: new Date().toISOString(),
+    });
+    // timer/newlyCollected are read once at the moment of solving
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [solved]);
+
+  const goReview = useCallback(() => {
+    setShowSummary(false);
+    // replace, not push: the finished puzzle shouldn't sit under the review tab.
+    router.replace('/(tabs)/review');
+  }, [router]);
 
   const leave = useCallback(() => {
     if (!hasProgress) {
@@ -277,6 +357,8 @@ export default function PuzzleScreen() {
   }, [hasProgress, router]);
 
   const onAndroidBack = useCallback(() => {
+    // The summary is a Modal and handles its own back via onRequestClose.
+    if (showSummary) return false;
     // The collection toast is a plain absolute View, not a Modal, so it
     // has to be dismissed here before back may leave the screen.
     if (toastWord) {
@@ -285,7 +367,7 @@ export default function PuzzleScreen() {
     }
     leave();
     return true;
-  }, [toastWord, leave]);
+  }, [showSummary, toastWord, leave]);
 
   useAndroidBack(onAndroidBack);
 
@@ -310,9 +392,21 @@ export default function PuzzleScreen() {
           <View style={styles.streakChip}>
             <Text style={styles.streakText}>🔥 {profile?.streak ?? 0}</Text>
           </View>
-          <View style={styles.timerChip}>
-            <Text style={styles.timerText}>{fmtTime(timer)}</Text>
-          </View>
+          {solved ? (
+            <Pressable
+              style={styles.solvedChip}
+              onPress={() => setShowSummary(true)}
+              accessibilityRole="button"
+              accessibilityLabel="Show puzzle summary"
+              hitSlop={8}
+            >
+              <Text style={styles.solvedText}>✓ {fmtTime(timer)}</Text>
+            </Pressable>
+          ) : (
+            <View style={styles.timerChip}>
+              <Text style={styles.timerText}>{fmtTime(timer)}</Text>
+            </View>
+          )}
         </View>
 
         {/* Progress bar */}
@@ -374,6 +468,20 @@ export default function PuzzleScreen() {
         {toastWord && (
           <CollectionToast word={toastWord} onDismiss={() => setToastWord(null)} />
         )}
+
+        <CompletionSheet
+          visible={showSummary}
+          puzzleNumber={puzzle.number}
+          durationSeconds={timer}
+          words={recapWords}
+          streak={profile?.streak ?? 0}
+          onReview={goReview}
+          onDone={() => {
+            setShowSummary(false);
+            router.back();
+          }}
+          onDismiss={() => setShowSummary(false)}
+        />
       </View>
     </ScreenBackground>
   );
@@ -461,6 +569,20 @@ const styles = StyleSheet.create({
     fontFamily: fonts.bodyExtra,
     fontSize: 11,
     color: colors.orange,
+  },
+  solvedChip: {
+    backgroundColor: 'rgba(52,211,153,0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(52,211,153,0.4)',
+    borderRadius: radius.pill,
+    paddingHorizontal: 9,
+    paddingVertical: 4,
+    marginLeft: 6,
+  },
+  solvedText: {
+    fontFamily: fonts.bodyExtra,
+    fontSize: 11,
+    color: colors.mint,
   },
   timerChip: {
     backgroundColor: colors.card,

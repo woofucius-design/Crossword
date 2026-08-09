@@ -31,6 +31,16 @@ export const wordSolved = () =>
 export const vocabCollected = () =>
   fire(() => Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy));
 
+/** The whole grid is finished. A double beat so it reads as bigger than the
+ *  single tap that fires for each individual word along the way. */
+export const puzzleSolved = () =>
+  fire(async () => {
+    await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
+    setTimeout(() => {
+      void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy).catch(() => {});
+    }, 140);
+  });
+
 /** Quiz/flashcard answer feedback. */
 export const answerCorrect = () =>
   fire(() => Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success));

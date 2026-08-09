@@ -30,6 +30,19 @@ export interface Puzzle {
   solution: string[][]; // '#' = black square
   cells: Record<string, { number?: number; preFilled?: string }>;
   words: PuzzleWord[];
+  /**
+   * The SAT words this puzzle was built around, emitted by the generator
+   * (see puzzle-pipeline/marquee_15.py). Present on pipeline puzzles and
+   * absent on the bundled sample, so the post-solve recap falls back to
+   * every isSATVocab entry.
+   */
+  featured?: FeaturedWord[];
+}
+
+export interface FeaturedWord {
+  word: string;
+  clue: string;
+  definition: string;
 }
 
 export interface PuzzleWord {
@@ -43,6 +56,19 @@ export interface PuzzleWord {
   clue: string;
   isSATVocab: boolean;
   definition?: string;
+  /** Sits in one of the long symmetric theme slots. */
+  isMarquee?: boolean;
+  /** Alternate clues for the same answer — replay variety, or a hint that
+   *  re-clues instead of revealing letters. */
+  altClues?: string[];
+}
+
+export interface PuzzleCompletion {
+  puzzleDate: string; // YYYY-MM-DD
+  puzzleNumber: number;
+  durationSeconds: number;
+  wordsCollected: number;
+  completedAt: string; // ISO timestamp
 }
 
 export type Avatar = 'owl' | 'fox' | 'lion' | 'shark' | 'wolf' | 'eagle';

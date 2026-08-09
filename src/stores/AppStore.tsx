@@ -13,6 +13,7 @@ import type {
   PuzzleWord,
   UserProfile,
 } from '@/types/models';
+import type { PuzzleCompletion } from '@/types/models';
 import { demoCollectedWords, demoUser } from '@/data/demoData';
 import { nextTier } from '@/data/retention';
 
@@ -22,6 +23,7 @@ interface PersistedState {
   profile: UserProfile | null;
   collectedWords: CollectedWord[];
   submissions: PassageSubmission[];
+  completions: PuzzleCompletion[];
   onboarded: boolean;
 }
 
@@ -31,6 +33,10 @@ interface AppStore extends PersistedState {
   collectWord: (word: PuzzleWord, puzzleDate: string) => CollectedWord | null;
   reviewWord: (wordId: number, gotIt: boolean) => void;
   addSubmission: (submission: PassageSubmission) => void;
+  /** Records a solve. Idempotent per puzzle date: re-solving the same
+   *  puzzle keeps the original result rather than inflating the streak. */
+  recordCompletion: (c: PuzzleCompletion) => void;
+  completionFor: (puzzleDate: string) => PuzzleCompletion | undefined;
   resetToDemo: () => void;
 }
 
@@ -41,6 +47,7 @@ function defaultState(): PersistedState {
     profile: demoUser,
     collectedWords: demoCollectedWords,
     submissions: [],
+    completions: [],
     onboarded: true,
   };
 }
@@ -53,7 +60,12 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     (async () => {
       try {
         const raw = await AsyncStorage.getItem(STORAGE_KEY);
-        if (raw) setState(JSON.parse(raw) as PersistedState);
+        if (raw) {
+          const saved = JSON.parse(raw) as PersistedState;
+          // `completions` postdates the first release of this key, so a
+          // stored state from before it is missing the field entirely.
+          setState({ ...defaultState(), ...saved, completions: saved.completions ?? [] });
+        }
       } catch {
         // keep defaults
       } finally {
@@ -78,6 +90,16 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     },
     [],
   );
+
+  const recordCompletion = useCallback((c: PuzzleCompletion) => {
+    setState((s) => {
+      if (s.completions.some((x) => x.puzzleDate === c.puzzleDate)) return s;
+      const profile = s.profile
+        ? { ...s.profile, streak: s.profile.streak + 1 }
+        : s.profile;
+      return { ...s, profile, completions: [c, ...s.completions] };
+    });
+  }, []);
 
   const collectWord = useCallback(
     (word: PuzzleWord, puzzleDate: string): CollectedWord | null => {
@@ -130,6 +152,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   const resetToDemo = useCallback(() => setState(defaultState()), []);
 
+  const completionFor = useCallback(
+    (puzzleDate: string) => state.completions.find((c) => c.puzzleDate === puzzleDate),
+    [state.completions],
+  );
+
   const value = useMemo<AppStore>(
     () => ({
       ...state,
@@ -138,9 +165,12 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       collectWord,
       reviewWord,
       addSubmission,
+      recordCompletion,
+      completionFor,
       resetToDemo,
     }),
-    [state, hydrated, completeOnboarding, collectWord, reviewWord, addSubmission, resetToDemo],
+    [state, hydrated, completeOnboarding, collectWord, reviewWord, addSubmission,
+     recordCompletion, completionFor, resetToDemo],
   );
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
