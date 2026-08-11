@@ -1,6 +1,6 @@
-import React, { useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
+import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { StoryTab } from '@/components/review/StoryTab';
@@ -12,6 +12,10 @@ import { useApp } from '@/stores/AppStore';
 import { urgencyScore } from '@/data/retention';
 
 type Tab = 'story' | 'cards' | 'quiz';
+
+function parseFocus(raw?: string): string[] {
+  return raw ? raw.split(',').filter(Boolean) : [];
+}
 
 const TABS: { key: Tab; icon: string; label: string }[] = [
   { key: 'story', icon: '✨', label: 'Story' },
@@ -28,19 +32,37 @@ export default function ReviewScreen() {
   // ranks by decay, and a word collected seconds ago is the least urgent
   // thing in the collection.
   const { focus } = useLocalSearchParams<{ focus?: string }>();
+  const router = useRouter();
+
+  // Captured into state rather than read straight from the param. Lazily
+  // initialising covers a fresh mount (no frame of unpinned order), and the
+  // effect covers arriving at an already-mounted tab with new params.
+  const [pinned, setPinned] = useState<string[]>(() => parseFocus(focus));
+  useEffect(() => {
+    if (!focus) return;
+    setPinned(parseFocus(focus));
+    // Consume it: the param lives on the tab's route, so leaving it set
+    // would re-pin these words every later visit.
+    router.setParams({ focus: undefined });
+  }, [focus, router]);
+
+  // The pin belongs to the session the student arrived in. Coming back to
+  // Review later should give the normal urgency ordering.
+  useFocusEffect(useCallback(() => () => setPinned([]), []));
 
   const reviewWords = useMemo(() => {
     const byUrgency = [...collectedWords].sort(
       (a, b) => urgencyScore(b) - urgencyScore(a),
     );
-    if (!focus) return byUrgency.slice(0, 8);
-    const wanted = new Set(focus.split(',').filter(Boolean));
-    const focused = byUrgency.filter((w) => wanted.has(w.word));
+    if (pinned.length === 0) return byUrgency.slice(0, 8);
+    const wanted = new Set(pinned);
+    const first = byUrgency.filter((w) => wanted.has(w.word));
     const rest = byUrgency.filter((w) => !wanted.has(w.word));
-    return [...focused, ...rest].slice(0, 8);
-  }, [collectedWords, focus]);
+    return [...first, ...rest].slice(0, 8);
+  }, [collectedWords, pinned]);
 
-  const urgent = reviewWords.slice(0, 2).map((w) => w.word);
+  const focused = pinned.length > 0;
+  const highlight = reviewWords.slice(0, 2).map((w) => w.word);
 
   return (
     <ScreenBackground floatingWords={false}>
@@ -64,11 +86,12 @@ export default function ReviewScreen() {
           </View>
         </View>
 
-        {urgent.length > 0 && (
+        {highlight.length > 0 && (
           <View style={styles.contextBanner}>
-            <Text style={styles.contextIcon}>🧠</Text>
+            <Text style={styles.contextIcon}>{focused ? '✨' : '🧠'}</Text>
             <Text style={styles.contextText}>
-              Most urgent: <Text style={styles.contextWords}>{urgent.join(', ')}</Text>
+              {focused ? 'Just collected: ' : 'Most urgent: '}
+              <Text style={styles.contextWords}>{highlight.join(', ')}</Text>
             </Text>
           </View>
         )}

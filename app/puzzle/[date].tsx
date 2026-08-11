@@ -62,6 +62,7 @@ export default function PuzzleScreen() {
   const { profile, collectWord, collectedWords, recordCompletion } = useApp();
 
   const puzzle = useMemo(() => getPuzzle(date ?? ''), [date]);
+  const puzzleDate = date ?? puzzle.date;
 
   const cellSize = Math.min(
     computeCellSize(
@@ -189,22 +190,34 @@ export default function PuzzleScreen() {
       }
       setRippleVersion((v) => v + 1);
 
-      const finishes = completed.size + newlyDone.length >= puzzle.words.length;
+      const finishes = puzzle.words.every((w) => isWordComplete(w, nextLetters));
 
-      const vocab = newlyDone.find(
+      const vocabDone = newlyDone.filter(
         (w) => w.isSATVocab && !collectedIds.has(w.id),
       );
-      if (vocab) {
-        setCollectedIds((prev) => new Set(prev).add(vocab.id));
+      if (vocabDone.length > 0) {
+        setCollectedIds((prev) => {
+          const next = new Set(prev);
+          for (const w of vocabDone) next.add(w.id);
+          return next;
+        });
         // Check ownership BEFORE collecting: collectWord assigns its return
         // value inside a setState updater, which React defers, so the value
         // it hands back here is still null.
-        const alreadyOwned = collectedWords.some((w) => w.word === vocab.answer);
-        collectWord(vocab, puzzle.date);
-        if (!alreadyOwned) {
-          setNewlyCollected((prev) => new Set(prev).add(vocab.answer));
+        const fresh = vocabDone.filter(
+          (w) => !collectedWords.some((c) => c.word === w.answer),
+        );
+        for (const w of vocabDone) collectWord(w, puzzleDate);
+        if (fresh.length > 0) {
+          setNewlyCollected((prev) => {
+            const next = new Set(prev);
+            for (const w of fresh) next.add(w.answer);
+            return next;
+          });
         }
       }
+      // The toast can only show one; the summary lists them all anyway.
+      const vocab = vocabDone[0];
 
       // One cue per event: stacking these reads as a single muddy buzz.
       if (finishes) puzzleSolved();
@@ -261,16 +274,26 @@ export default function PuzzleScreen() {
   const onDelete = useCallback(() => {
     if (solved) return;
     const key = `${selected.row},${selected.col}`;
-    setLetters((prev) => {
-      if (prev[key]) {
-        const next = { ...prev };
-        delete next[key];
-        return next;
-      }
-      return prev;
-    });
-    if (!letters[key]) advance(true);
-  }, [selected, letters, advance, solved]);
+    if (letters[key]) {
+      const next = { ...letters };
+      delete next[key];
+      setLetters(next);
+      // Clearing a cell un-finishes the words through it. `completed` only
+      // ever grew before, so the progress bar over-reported and a stale
+      // entry could survive.
+      setCompleted((done) => {
+        const kept = new Set(
+          [...done].filter((id) => {
+            const w = puzzle.words.find((x) => x.id === id);
+            return w ? isWordComplete(w, next) : false;
+          }),
+        );
+        return kept.size === done.size ? done : kept;
+      });
+    } else {
+      advance(true);
+    }
+  }, [selected, letters, advance, solved, puzzle]);
 
   const progress = completed.size / puzzle.words.length;
 
@@ -325,7 +348,7 @@ export default function PuzzleScreen() {
     if (!solved || recorded.current) return;
     recorded.current = true;
     recordCompletion({
-      puzzleDate: puzzle.date,
+      puzzleDate,
       puzzleNumber: puzzle.number,
       durationSeconds: timer,
       wordsCollected: newlyCollected.size,

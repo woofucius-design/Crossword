@@ -27,6 +27,14 @@ const DATE_FMT = new Intl.DateTimeFormat('en-US', {
 
 const TICKER_WORDS = ['ELOQUENT', 'CANDOR', 'ASTUTE', 'NUANCE', 'PRUDENT'];
 
+/** Local calendar date, not UTC — "today's puzzle" should turn over at the
+ *  user's midnight. toISOString() would roll early for western zones. */
+function todayISO(): string {
+  const d = new Date();
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
 function fmtDuration(total: number): string {
   const m = Math.floor(total / 60);
   const s = total % 60;
@@ -37,7 +45,11 @@ export default function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { profile, collectedWords, completionFor } = useApp();
-  const todayDone = completionFor(samplePuzzle.date);
+  // Keyed on today's date rather than the bundled sample's baked-in date:
+  // getPuzzle() currently serves that one sample for every date, so using it
+  // would record a single completion for all time and pin Home to "Solved".
+  const today = todayISO();
+  const todayDone = completionFor(today);
 
   const [tickerIndex, setTickerIndex] = useState(0);
   useEffect(() => {
@@ -91,7 +103,7 @@ export default function HomeScreen() {
         </View>
 
         {/* Daily puzzle card */}
-        <Pressable onPress={() => router.push(`/puzzle/${samplePuzzle.date}`)}>
+        <Pressable onPress={() => router.push(`/puzzle/${today}`)}>
           <LinearGradient
             colors={['#1B3A5B', '#16293D']}
             start={{ x: 0, y: 0 }}

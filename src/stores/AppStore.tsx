@@ -52,12 +52,20 @@ function defaultState(): PersistedState {
   };
 }
 
-/** Calendar day of an ISO timestamp, in the device's local zone — a streak
- *  is about the user's days, not UTC's. */
+/**
+ * Day number of an ISO timestamp, read in the device's local zone — a streak
+ * is about the user's days, not UTC's.
+ *
+ * The local Y/M/D is re-projected through Date.UTC rather than dividing a
+ * local-midnight epoch: local midnights are not a fixed distance apart across
+ * a DST change, so in zones near the zero offset the naive version made
+ * consecutive days differ by 0 or 2, silently freezing the streak in spring
+ * and resetting it in autumn.
+ */
 function localDay(iso: string): number {
   const d = new Date(iso);
   return Math.floor(
-    new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime() / 86_400_000,
+    Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86_400_000,
   );
 }
 
@@ -72,7 +80,10 @@ function nextStreak(
   current: number,
   added: PuzzleCompletion,
 ): number {
-  if (completions.length === 0) return 1;
+  // No history yet (a fresh install, or a profile that predates completion
+  // tracking) — hold whatever the profile already claims rather than
+  // demoting it. Onboarding starts a user at 1.
+  if (completions.length === 0) return Math.max(current, 1);
   const today = localDay(added.completedAt);
   const last = Math.max(...completions.map((c) => localDay(c.completedAt)));
   if (last === today) return Math.max(current, 1);
