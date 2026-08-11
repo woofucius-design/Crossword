@@ -274,15 +274,19 @@ export default function PuzzleScreen() {
   const onDelete = useCallback(() => {
     if (solved) return;
     const key = `${selected.row},${selected.col}`;
-    // Functional updater: building `next` from the closure's `letters` would
-    // clobber a keystroke that is queued but not yet committed.
-    setLetters((prev) => {
-      if (!prev[key]) return prev;
-      const next = { ...prev };
-      delete next[key];
-      return next;
-    });
-    if (!letters[key]) advance(true);
+    // Both halves read one snapshot, so a backspace either erases or moves
+    // the cursor and never does both. The delete itself still goes through a
+    // functional updater so it can't clobber an uncommitted keystroke.
+    const hadLetter = !!letters[key];
+    if (hadLetter) {
+      setLetters((prev) => {
+        const next = { ...prev };
+        delete next[key];
+        return next;
+      });
+    } else {
+      advance(true);
+    }
   }, [selected, letters, advance, solved]);
 
   // Clearing a cell un-finishes every word running through it. `completed`

@@ -5,7 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
-import { localISODate } from '@/data/dates';
+import { daysAgoISO } from '@/data/dates';
 import { samplePuzzle } from '@/data/samplePuzzle';
 
 interface ArchiveItem {
@@ -23,8 +23,8 @@ export default function PuzzlesScreen() {
   const archive = useMemo<ArchiveItem[]>(() => {
     const today = new Date();
     return Array.from({ length: 14 }, (_, i) => {
-      const d = new Date(today.getTime() - i * 86_400_000);
-      const iso = localISODate(d);
+      const iso = daysAgoISO(i, today);
+      const d = new Date(`${iso}T12:00:00`);
       return {
         date: iso,
         number: samplePuzzle.number - i,

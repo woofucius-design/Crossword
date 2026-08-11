@@ -21,6 +21,7 @@ import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useApp } from '@/stores/AppStore';
 import { satWords, buildQuiz } from '@/data/satWords';
+import { localISODate } from '@/data/dates';
 import { useAndroidBack } from '@/hooks/useAndroidBack';
 import type {
   Avatar as AvatarType,
@@ -97,7 +98,7 @@ export default function Onboarding() {
         reviewCount: 0,
         collectedAt: new Date().toISOString(),
         lastReviewAt: null,
-        puzzleDate: new Date().toISOString().slice(0, 10),
+        puzzleDate: localISODate(),
       };
     });
     completeOnboarding(profile, starter);
