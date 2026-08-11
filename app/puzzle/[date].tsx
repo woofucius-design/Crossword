@@ -274,26 +274,33 @@ export default function PuzzleScreen() {
   const onDelete = useCallback(() => {
     if (solved) return;
     const key = `${selected.row},${selected.col}`;
-    if (letters[key]) {
-      const next = { ...letters };
+    // Functional updater: building `next` from the closure's `letters` would
+    // clobber a keystroke that is queued but not yet committed.
+    setLetters((prev) => {
+      if (!prev[key]) return prev;
+      const next = { ...prev };
       delete next[key];
-      setLetters(next);
-      // Clearing a cell un-finishes the words through it. `completed` only
-      // ever grew before, so the progress bar over-reported and a stale
-      // entry could survive.
-      setCompleted((done) => {
-        const kept = new Set(
-          [...done].filter((id) => {
-            const w = puzzle.words.find((x) => x.id === id);
-            return w ? isWordComplete(w, next) : false;
-          }),
-        );
-        return kept.size === done.size ? done : kept;
-      });
-    } else {
-      advance(true);
-    }
-  }, [selected, letters, advance, solved, puzzle]);
+      return next;
+    });
+    if (!letters[key]) advance(true);
+  }, [selected, letters, advance, solved]);
+
+  // Clearing a cell un-finishes every word running through it. `completed`
+  // only ever grew before, so the progress bar over-reported and a stale
+  // entry could survive into the finish check. Reconciling against the
+  // committed letters keeps the two in step without a nested setState.
+  React.useEffect(() => {
+    setCompleted((done) => {
+      if (done.size === 0) return done;
+      const kept = new Set(
+        [...done].filter((id) => {
+          const w = puzzle.words.find((x) => x.id === id);
+          return w ? isWordComplete(w, letters) : false;
+        }),
+      );
+      return kept.size === done.size ? done : kept;
+    });
+  }, [letters, puzzle]);
 
   const progress = completed.size / puzzle.words.length;
 
@@ -413,7 +420,7 @@ export default function PuzzleScreen() {
           </Pressable>
           <View style={{ flex: 1 }}>
             <Text style={styles.headerTitle}>Daily Mini #{puzzle.number}</Text>
-            <Text style={styles.headerDate}>SAT Vocabulary · {puzzle.date}</Text>
+            <Text style={styles.headerDate}>SAT Vocabulary · {puzzleDate}</Text>
           </View>
           <View style={styles.streakChip}>
             <Text style={styles.streakText}>🔥 {profile?.streak ?? 0}</Text>

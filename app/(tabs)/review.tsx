@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
+import { useFocusEffect, useLocalSearchParams, useNavigation } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { StoryTab } from '@/components/review/StoryTab';
@@ -32,7 +32,10 @@ export default function ReviewScreen() {
   // ranks by decay, and a word collected seconds ago is the least urgent
   // thing in the collection.
   const { focus } = useLocalSearchParams<{ focus?: string }>();
-  const router = useRouter();
+  // Screen-scoped, not router.setParams: the latter dispatches without a
+  // source, so it lands on the root navigator's focused route rather than
+  // this screen's own params, and the focus string would never clear.
+  const navigation = useNavigation();
 
   // Captured into state rather than read straight from the param. Lazily
   // initialising covers a fresh mount (no frame of unpinned order), and the
@@ -42,9 +45,11 @@ export default function ReviewScreen() {
     if (!focus) return;
     setPinned(parseFocus(focus));
     // Consume it: the param lives on the tab's route, so leaving it set
-    // would re-pin these words every later visit.
-    router.setParams({ focus: undefined });
-  }, [focus, router]);
+    // would re-pin these words every later visit. Cleared to '' rather than
+    // undefined — expo-router runs values through decodeURIComponent, which
+    // turns undefined into the literal string "undefined" and stays truthy.
+    navigation.setParams({ focus: '' } as never);
+  }, [focus, navigation]);
 
   // The pin belongs to the session the student arrived in. Coming back to
   // Review later should give the normal urgency ordering.

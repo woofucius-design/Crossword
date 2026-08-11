@@ -16,6 +16,7 @@ import { WordChip } from '@/components/WordChip';
 import { colors, radius, shadows, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useApp } from '@/stores/AppStore';
+import { localISODate } from '@/data/dates';
 import { samplePuzzle } from '@/data/samplePuzzle';
 import { isSlipping, isDue } from '@/data/retention';
 
@@ -26,14 +27,6 @@ const DATE_FMT = new Intl.DateTimeFormat('en-US', {
 });
 
 const TICKER_WORDS = ['ELOQUENT', 'CANDOR', 'ASTUTE', 'NUANCE', 'PRUDENT'];
-
-/** Local calendar date, not UTC — "today's puzzle" should turn over at the
- *  user's midnight. toISOString() would roll early for western zones. */
-function todayISO(): string {
-  const d = new Date();
-  const pad = (n: number) => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-}
 
 function fmtDuration(total: number): string {
   const m = Math.floor(total / 60);
@@ -48,7 +41,7 @@ export default function HomeScreen() {
   // Keyed on today's date rather than the bundled sample's baked-in date:
   // getPuzzle() currently serves that one sample for every date, so using it
   // would record a single completion for all time and pin Home to "Solved".
-  const today = todayISO();
+  const today = localISODate();
   const todayDone = completionFor(today);
 
   const [tickerIndex, setTickerIndex] = useState(0);
