@@ -94,6 +94,7 @@ export default function PuzzleScreen() {
    *  ones the student already owned — drives the NEW chips in the recap. */
   const [newlyCollected, setNewlyCollected] = useState<Set<string>>(new Set());
 
+  const finishHandled = useRef(false);
   const popKeys = useRef<Record<string, number>>({});
   const [popVersion, setPopVersion] = useState(0);
   const ripples = useRef<Record<string, { key: number; delay: number; vocab: boolean }>>({});
@@ -219,19 +220,30 @@ export default function PuzzleScreen() {
       // The toast can only show one; the summary lists them all anyway.
       const vocab = vocabDone[0];
 
-      // One cue per event: stacking these reads as a single muddy buzz.
-      if (finishes) puzzleSolved();
-      else if (vocab) vocabCollected();
-      else wordSolved();
+      // Exactly once: checkCompletions runs inside a setLetters updater, and
+      // React may invoke an updater more than once for the same change.
+      const firstFinish = finishes && !finishHandled.current;
 
+      // One cue per event: stacking these reads as a single muddy buzz. A
+      // repeat invocation must stay silent rather than fall through to a
+      // different cue.
       if (finishes) {
+        if (firstFinish) puzzleSolved();
+      } else if (vocab) {
+        vocabCollected();
+      } else {
+        wordSolved();
+      }
+
+      if (firstFinish) {
+        finishHandled.current = true;
         setSolved(true);
         // The toast is suppressed here even for a vocab word: the summary
         // lists it anyway, and a toast sliding up under a modal is a mess.
         // The delay lets the final word-ripple finish, so the win reads as
         // earned by the grid rather than interrupted by a sheet.
         setTimeout(() => setShowSummary(true), SUMMARY_DELAY);
-      } else if (vocab) {
+      } else if (!finishes && vocab) {
         setTimeout(() => setToastWord(vocab), 350);
       }
     },
