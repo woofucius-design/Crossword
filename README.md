@@ -57,8 +57,9 @@ design/                     Original design handoff + HTML references
 - **Review** — Story (AI passages), Flashcards (flip animation), Quiz tabs.
 - **Passage Writing** — live score estimates, animated grading, score rings,
   word-by-word breakdown, class leaderboard.
-- **Onboarding / Profile / Puzzle archive** — full flows including the
-  App Store-required account-deletion path.
+- **Onboarding / Profile / Puzzle archive** — full flows.
+- **Post-solve summary** — celebration, solve stats, and a definition recap
+  of the puzzle's SAT words that routes into review.
 - **Supabase** — schema with RLS and two Claude-proxy edge functions.
 
 ## Notes for production

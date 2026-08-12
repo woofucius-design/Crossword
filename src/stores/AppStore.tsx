@@ -37,7 +37,6 @@ interface AppStore extends PersistedState {
    *  puzzle keeps the original result rather than inflating the streak. */
   recordCompletion: (c: PuzzleCompletion) => void;
   completionFor: (puzzleDate: string) => PuzzleCompletion | undefined;
-  resetToDemo: () => void;
 }
 
 const AppContext = createContext<AppStore | null>(null);
@@ -189,8 +188,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     setState((s) => ({ ...s, submissions: [submission, ...s.submissions] }));
   }, []);
 
-  const resetToDemo = useCallback(() => setState(defaultState()), []);
-
   const completionFor = useCallback(
     (puzzleDate: string) => state.completions.find((c) => c.puzzleDate === puzzleDate),
     [state.completions],
@@ -206,10 +203,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       addSubmission,
       recordCompletion,
       completionFor,
-      resetToDemo,
     }),
     [state, hydrated, completeOnboarding, collectWord, reviewWord, addSubmission,
-     recordCompletion, completionFor, resetToDemo],
+     recordCompletion, completionFor],
   );
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

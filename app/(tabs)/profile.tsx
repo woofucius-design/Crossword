@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
-import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
-import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '@/components/ScreenBackground';
 import { Avatar } from '@/components/Avatar';
@@ -24,9 +23,8 @@ const TIERS: { key: MasteryTier; label: string }[] = [
 ];
 
 export default function ProfileScreen() {
-  const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { profile, collectedWords, submissions, resetToDemo } = useApp();
+  const { profile, collectedWords, submissions } = useApp();
 
   const tierCounts = useMemo(() => {
     const counts: Record<MasteryTier, number> = {
@@ -47,24 +45,6 @@ export default function ProfileScreen() {
         collectedWords.reduce((sum, w) => sum + w.retention, 0) / collectedWords.length,
       )
     : 0;
-
-  const confirmDelete = () => {
-    Alert.alert(
-      'Delete Account',
-      'This permanently erases your profile, collected words, and submissions. This cannot be undone.',
-      [
-        { text: 'Cancel', style: 'cancel' },
-        {
-          text: 'Delete',
-          style: 'destructive',
-          onPress: () => {
-            resetToDemo();
-            router.replace('/(auth)/onboarding');
-          },
-        },
-      ],
-    );
-  };
 
   return (
     <ScreenBackground floatingWords={false}>
@@ -132,9 +112,6 @@ export default function ProfileScreen() {
           <SettingRow label="Class" value="English Honors · P2" last />
         </View>
 
-        <Pressable style={styles.dangerButton} onPress={confirmDelete}>
-          <Text style={styles.dangerText}>Delete Account</Text>
-        </Pressable>
         {/* App Review requires a reachable in-app privacy policy link, so
             these must be tappable rather than decorative text. */}
         <View style={styles.legalRow}>
@@ -331,25 +308,12 @@ const styles = StyleSheet.create({
     fontSize: 11.5,
     color: colors.textMuted,
   },
-  dangerButton: {
-    borderWidth: 1,
-    borderColor: 'rgba(239,68,68,0.4)',
-    borderRadius: radius.button,
-    paddingVertical: 13,
-    alignItems: 'center',
-    marginTop: 20,
-  },
-  dangerText: {
-    fontFamily: fonts.bodyExtra,
-    fontSize: 13,
-    color: colors.red,
-  },
   legalRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 18,
+    marginTop: 26,
   },
   legalLink: {
     color: colors.textMuted,

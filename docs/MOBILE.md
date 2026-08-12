@@ -165,7 +165,15 @@ Roughly in order.
    form, screenshots per device class. If under-13 students
    are in scope, COPPA/FERPA obligations change what may be collected — decide
    before writing the forms. Apple requires Sign in with Apple if any other
-   social login ships; the account-deletion path is already built.
+   social login ships.
+
+   **Account deletion is a release blocker the moment sign-in ships.** Apple
+   guideline 5.1.1(v) requires an in-app deletion path from any app that
+   offers account *creation*. The app has no accounts today — everything is
+   local — so the UI was removed rather than left promising a permanent
+   erasure it could not perform. Wiring Supabase auth puts it back on the
+   critical path, and it then has to delete server-side rows, not just clear
+   local state.
 4. **Device testing.** Everything above was verified by typecheck and bundle,
    not on hardware. Specifically unverified on a real device: `MaskedView`
    (the LEXICON wordmark) under the new architecture, radial-gradient banding
@@ -174,14 +182,6 @@ Roughly in order.
 
    Known and deliberately left, in rough priority order:
 
-   - **There is no puzzle-solved state.** `app/puzzle/[date].tsx` computes
-     `progress` and nothing branches on `progress === 1` — no celebration, no
-     summary, no navigation. This is the biggest product hole in the game
-     loop, and it's where the featured-vocab recap belongs.
-   - **"Delete Account" over-promises.** The copy says it permanently erases
-     the profile, collected words and submissions; it calls `resetToDemo()`.
-     Harmless while there is no server account, but this is exactly the flow
-     reviewers test against guideline 5.1.1(v).
    - Composite cards (e.g. the Home daily card) wrap a dozen `Text` nodes in
      one `Pressable`, so VoiceOver reads them serially instead of as one
      summarised control. Progress bars and rings have no accessible value.
