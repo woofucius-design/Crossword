@@ -7,6 +7,7 @@ import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { daysAgoISO } from '@/data/dates';
 import { samplePuzzle } from '@/data/samplePuzzle';
+import { useApp } from '@/stores/AppStore';
 
 interface ArchiveItem {
   date: string;
@@ -16,12 +17,24 @@ interface ArchiveItem {
   satWords: number;
 }
 
+/** Deterministic per-date stand-in for the SAT count, until real puzzles
+ *  land. Math.random() here re-rolled the archive on every remount. */
+function satWordCount(iso: string): number {
+  let h = 0;
+  for (let i = 0; i < iso.length; i++) h = (h * 31 + iso.charCodeAt(i)) | 0;
+  return 5 + (Math.abs(h) % 3);
+}
+
 export default function PuzzlesScreen() {
   const router = useRouter();
+  const { completions } = useApp();
   const insets = useSafeAreaInsets();
 
   const archive = useMemo<ArchiveItem[]>(() => {
     const today = new Date();
+    // Real completions, not a random flag: the archive used to invent solved
+    // states, which now openly contradicts Home and the recorded streak.
+    const done = new Set(completions.map((c) => c.puzzleDate));
     return Array.from({ length: 14 }, (_, i) => {
       const iso = daysAgoISO(i, today);
       const d = new Date(`${iso}T12:00:00`);
@@ -29,11 +42,11 @@ export default function PuzzlesScreen() {
         date: iso,
         number: samplePuzzle.number - i,
         label: d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }),
-        solved: i !== 0 && Math.random() > 0.25,
-        satWords: 5 + (i % 3),
+        solved: done.has(iso),
+        satWords: satWordCount(iso),
       };
     });
-  }, []);
+  }, [completions]);
 
   return (
     <ScreenBackground floatingWords={false}>
