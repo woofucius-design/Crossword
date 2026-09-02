@@ -1,0 +1,913 @@
+{
+  "date": "2027-12-01",
+  "number": 154,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "S",
+      "P",
+      "#",
+      "G",
+      "L",
+      "I",
+      "M",
+      "P",
+      "S",
+      "E"
+    ],
+    [
+      "H",
+      "O",
+      "E",
+      "#",
+      "L",
+      "I",
+      "T",
+      "C",
+      "H",
+      "I",
+      "S"
+    ],
+    [
+      "E",
+      "U",
+      "R",
+      "#",
+      "A",
+      "N",
+      "A",
+      "L",
+      "Y",
+      "S",
+      "T"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "I",
+      "Z",
+      "E",
+      "#",
+      "#",
+      "S",
+      "E",
+      "E"
+    ],
+    [
+      "F",
+      "A",
+      "U",
+      "V",
+      "I",
+      "S",
+      "M",
+      "#",
+      "I",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "#",
+      "O",
+      "H",
+      "O",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "L",
+      "D",
+      "#",
+      "R",
+      "A",
+      "D",
+      "I",
+      "C",
+      "L",
+      "E"
+    ],
+    [
+      "B",
+      "I",
+      "A",
+      "#",
+      "#",
+      "N",
+      "U",
+      "T",
+      "R",
+      "I",
+      "A"
+    ],
+    [
+      "E",
+      "M",
+      "B",
+      "R",
+      "O",
+      "I",
+      "L",
+      "#",
+      "A",
+      "V",
+      "G"
+    ],
+    [
+      "R",
+      "E",
+      "L",
+      "E",
+      "A",
+      "S",
+      "E",
+      "#",
+      "C",
+      "I",
+      "E"
+    ],
+    [
+      "T",
+      "S",
+      "E",
+      "T",
+      "S",
+      "E",
+      "S",
+      "#",
+      "Y",
+      "A",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "SSP",
+      "clue": "Subspecies: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SHEAF",
+      "clue": "Package of several things tied together for carrying or storing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Package of several things tied together for carrying or storing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SOUSA",
+      "clue": "United States bandmaster and composer of military marches (1854-1932)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States bandmaster and composer of military marches (1854-1932)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "PERSUADABLE",
+      "clue": "Capable of influencing to action by entreaty, statement, or anything",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Capable of influencing to action by entreaty, statement, or anything that",
+        "Being susceptible to persuasion"
+      ],
+      "definition": "capable of influencing to action by entreaty, statement, or anything that",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "GLIMPSE",
+      "clue": "A momentary look",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Momentary look",
+        "Quick look",
+        "Sudden flash"
+      ],
+      "definition": "A momentary look.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "GLAZIER",
+      "clue": "One who cuts and fits panes of glass, as for windows",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Someone who cuts flat glass to size"
+      ],
+      "definition": "One who cuts and fits panes of glass, as for windows.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "LINES",
+      "clue": "United States sculptors and architects whose public works include",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States sculptors and architects whose public works include",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ITA",
+      "clue": "Italian-typeface abbreviation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "MCL",
+      "clue": "Roman numeral for 1150",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1150",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PHYSIOCRACY",
+      "clue": "The doctrine that land and its products are the only true wealth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Doctrine that land and its products are the only true wealth"
+      ],
+      "definition": "The doctrine that land and its products are the only true wealth.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SISES",
+      "clue": "Female people who have the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female people who have the same parents as another person",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "ESTES",
+      "clue": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "HOE",
+      "clue": "Tool with a flat blade attached at right angles to a long handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tool with a flat blade attached at right angles to a long handle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "LITCHIS",
+      "clue": "Chinese fruits having a thin brittle shell enclosing a sweet jellylike",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chinese fruits having a thin brittle shell enclosing a sweet jellylike",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "EUR",
+      "clue": "Continent: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "ANALYST",
+      "clue": "One who analyzes or makes use of the analytical method",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Licensed practitioner of psychoanalysis",
+        "One who analyzes"
+      ],
+      "definition": "One who analyzes or makes use of the analytical method.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ASSIZE",
+      "clue": "Assembly of knights and other substantial men, with a bailiff or justice, in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assembly of knights and other substantial men, with a bailiff or justice, in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "IVY",
+      "clue": "Old World vine with lobed evergreen leaves and black berrylike fruits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old World vine with lobed evergreen leaves and black berrylike fruits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "SEE",
+      "clue": "Take a look at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "FAUVISM",
+      "clue": "Art movement launched in 1905 whose work was characterized by bright and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Art movement launched in 1905 whose work was characterized by bright and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "MODULES",
+      "clue": "Self-contained component (units or items) that are used in combination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-contained component (units or items) that are used in combination",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ISS",
+      "clue": "Orbiting lab, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "An expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Expression of assent",
+        "Yes"
+      ],
+      "definition": "An expression of assent.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "OHO",
+      "clue": "Exclamation of surprise, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation of surprise, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "HIT",
+      "clue": "Pay unsolicited and usually unwanted sexual attention to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pay unsolicited and usually unwanted sexual attention to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "ELD",
+      "clue": "Time of life (usually defined in years) at which some particular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time of life (usually defined in years) at which some particular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "EBERT",
+      "clue": "Late film critic Roger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "LIMES",
+      "clue": "Margarita garnishes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "RADICLE",
+      "clue": "Rudimentary stem of a plant which supports the cotyledons in the seed, and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rudimentary stem of a plant which supports the cotyledons in the seed, and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANISE",
+      "clue": "Liquorice-flavored seeds, used medicinally and in cooking and liquors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liquorice-flavored seeds, used medicinally and in cooking and liquors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "LIVIA",
+      "clue": "Empress of Rome",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "EAGER",
+      "clue": "Zealous?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of zealous",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "BIA",
+      "clue": "Tribal-affairs agency: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "NUTRIA",
+      "clue": "Aquatic South American rodent resembling a small beaver",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aquatic South American rodent resembling a small beaver",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "EMBROIL",
+      "clue": "To involve in dissension or strife",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Involve in dissension or strife",
+        "Force into some kind of situation, condition, or course of action",
+        "Throw into confusion or commotion by contention or discord"
+      ],
+      "definition": "To involve in dissension or strife.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "RET",
+      "clue": "Place (flax, hemp, or jute) in liquid so as to promote loosening",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "OAS",
+      "clue": "Association including most countries in the western hemisphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Association including most countries in the western hemisphere",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "AVG",
+      "clue": "Stat for a slugger, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "RELEASE",
+      "clue": "Lease again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lease again",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "CIE",
+      "clue": "French co.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "TSETSES",
+      "clue": "Bloodsucking African flies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African flies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "YAR",
+      "clue": "Nimble, as a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PERSUADABLE",
+      "clue": "Capable of influencing to action by entreaty, statement, or anything",
+      "definition": "capable of influencing to action by entreaty, statement, or anything that",
+      "id": "3D"
+    },
+    {
+      "word": "PHYSIOCRACY",
+      "clue": "The doctrine that land and its products are the only true wealth",
+      "definition": "The doctrine that land and its products are the only true wealth.",
+      "id": "8D"
+    },
+    {
+      "word": "ANALYST",
+      "clue": "One who analyzes or makes use of the analytical method",
+      "definition": "One who analyzes or makes use of the analytical method.",
+      "id": "14A"
+    },
+    {
+      "word": "EMBROIL",
+      "clue": "To involve in dissension or strife",
+      "definition": "To involve in dissension or strife.",
+      "id": "32A"
+    }
+  ]
+}

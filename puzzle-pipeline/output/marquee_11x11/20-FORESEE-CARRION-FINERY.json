@@ -1,0 +1,977 @@
+{
+  "date": "2027-07-20",
+  "number": 20,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "F",
+      "I",
+      "R",
+      "E",
+      "#",
+      "I",
+      "O",
+      "T",
+      "A"
+    ],
+    [
+      "A",
+      "R",
+      "I",
+      "S",
+      "E",
+      "N",
+      "#",
+      "N",
+      "O",
+      "R",
+      "I"
+    ],
+    [
+      "R",
+      "A",
+      "N",
+      "T",
+      "E",
+      "D",
+      "#",
+      "T",
+      "H",
+      "U",
+      "D"
+    ],
+    [
+      "U",
+      "R",
+      "E",
+      "#",
+      "F",
+      "O",
+      "R",
+      "E",
+      "S",
+      "E",
+      "E"
+    ],
+    [
+      "M",
+      "A",
+      "R",
+      "C",
+      "#",
+      "W",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "Y",
+      "L",
+      "E",
+      "#",
+      "W",
+      "I",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "P",
+      "T",
+      "#",
+      "M",
+      "E",
+      "L",
+      "T"
+    ],
+    [
+      "C",
+      "A",
+      "R",
+      "R",
+      "I",
+      "O",
+      "N",
+      "#",
+      "V",
+      "I",
+      "E"
+    ],
+    [
+      "L",
+      "X",
+      "I",
+      "I",
+      "#",
+      "O",
+      "O",
+      "L",
+      "I",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "T",
+      "O",
+      "#",
+      "T",
+      "E",
+      "A",
+      "S",
+      "E",
+      "L"
+    ],
+    [
+      "W",
+      "E",
+      "E",
+      "N",
+      "#",
+      "S",
+      "L",
+      "O",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AFIRE",
+      "clue": "& adj",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "& adj. on fire, literally or figuratively",
+        "On fire"
+      ],
+      "definition": "& adj. On fire, literally or figuratively.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ARARAT",
+      "clue": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "FINERY",
+      "clue": "That which is used to decorate the person or dress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Elaborate or showy attire and accessories",
+        "Fineness"
+      ],
+      "definition": "That which is used to decorate the person or dress.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "IST",
+      "clue": "Suffix for an adherent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "REEF",
+      "clue": "One of several strips across a sail that can be taken in or rolled up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ENDOW",
+      "clue": "Furnish with money or its equivalent, as a permanent fund for support",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Furnish with money or its equivalent, as a permanent fund for support",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "A small or insignificant mark or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "INTERIM",
+      "clue": "Time between acts or periods",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Serving during an intermediate interval of time",
+        "Meantime"
+      ],
+      "definition": "Time between acts or periods.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "OOHS",
+      "clue": "Reacts to fireworks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "TRUE",
+      "clue": "Make level, square, balanced, or concentric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make level, square, balanced, or concentric",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "AIDE",
+      "clue": "Officer who acts as military assistant to a more senior officer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Officer who acts as military assistant to a more senior officer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ARISEN",
+      "clue": "Gotten up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ARUMS",
+      "clue": "Any plants of the family Araceae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any plants of the family Araceae",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "NORI",
+      "clue": "Sushi seaweed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "RANTED",
+      "clue": "Talked in a noisy, excited, or declamatory manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Talked in a noisy, excited, or declamatory manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "THUD",
+      "clue": "Dull sound without resonance, like that produced by striking with, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dull sound without resonance, like that produced by striking with, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "URE",
+      "clue": "Urus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Urus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "FORESEE",
+      "clue": "To discern beforehand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Discern beforehand",
+        "Realize beforehand",
+        "See beforehand"
+      ],
+      "definition": "To discern beforehand.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "RAW",
+      "clue": "Not altered from its natural state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not altered from its natural state",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "MARC",
+      "clue": "Refuse matter which remains after the pressure of fruit, particularly of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Refuse matter which remains after the pressure of fruit, particularly of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CLARION",
+      "clue": "A small shrill trumpet or bugle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small shrill trumpet or bugle",
+        "Loud and clear",
+        "Kind of trumpet, whose note is clear and shrill. He sounds his..."
+      ],
+      "definition": "A small shrill trumpet or bugle.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "WAR",
+      "clue": "Concerted campaign to end something that is injurious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Concerted campaign to end something that is injurious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "STYLE",
+      "clue": "Manner of expression",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "EPI",
+      "clue": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "WIRES",
+      "clue": "Equips for use with electricity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Equips for use with electricity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "REVISE",
+      "clue": "To examine for the correction of errors, or for the purpose of making changes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Examine for the correction of errors, or for the purpose of making changes",
+        "Act of rewriting something",
+        "Look at again for the detection of errors"
+      ],
+      "definition": "To examine for the correction of errors, or for the purpose of making changes.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ELITES",
+      "clue": "Groups or classes of persons enjoying superior intellectual or social or",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Groups or classes of persons enjoying superior intellectual or social or",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "STEEL",
+      "clue": "Variety of iron intermediate in composition and properties between wrought...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variety of iron intermediate in composition and properties between wrought...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "APT",
+      "clue": "Fitting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "TOOTS",
+      "clue": "Makes a loud noise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes a loud noise",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "MELT",
+      "clue": "Process whereby heat changes something from a solid to a liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Process whereby heat changes something from a solid to a liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "CARRION",
+      "clue": "Dead and putrefying flesh",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dead and rotting body of an animal",
+        "Dead and putrefying body or flesh of an animal"
+      ],
+      "definition": "Dead and putrefying flesh.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CLAW",
+      "clue": "Bird's foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bird's foot",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "AXLE",
+      "clue": "Shaft on which a wheel rotates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shaft on which a wheel rotates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RITE",
+      "clue": "Act of performing divine or solemn service, as established by law, precept,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of performing divine or solemn service, as established by law, precept,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "NOEL",
+      "clue": "Period extending from Dec. 24 to Jan. 6",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Period extending from Dec. 24 to Jan. 6",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "To contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Contend",
+        "Compete for something",
+        "Stake a sum upon a hand of cards, as in the old game of gleek. See..."
+      ],
+      "definition": "To contend.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "LXII",
+      "clue": "Being two more than sixty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being two more than sixty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "OOLITE",
+      "clue": "Variety of limestone, consisting of small round grains, resembling the roe of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variety of limestone, consisting of small round grains, resembling the roe of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "LAO",
+      "clue": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "The lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "TEASEL",
+      "clue": "Any of several herbs of the genus Dipsacus native to the Old World having...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several herbs of the genus Dipsacus native to the Old World having...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "WEEN",
+      "clue": "Think",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Think",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SLOES",
+      "clue": "Small sour dark purple fruits of especially the Allegheny plum bush",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small sour dark purple fruits of especially the Allegheny plum bush",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "FINERY",
+      "clue": "That which is used to decorate the person or dress",
+      "definition": "That which is used to decorate the person or dress.",
+      "id": "2D"
+    },
+    {
+      "word": "INTERIM",
+      "clue": "Time between acts or periods",
+      "definition": "Time between acts or periods.",
+      "id": "6D"
+    },
+    {
+      "word": "FORESEE",
+      "clue": "To discern beforehand",
+      "definition": "To discern beforehand.",
+      "id": "15A"
+    },
+    {
+      "word": "CLARION",
+      "clue": "A small shrill trumpet or bugle",
+      "definition": "A small shrill trumpet or bugle.",
+      "id": "18D"
+    },
+    {
+      "word": "REVISE",
+      "clue": "To examine for the correction of errors, or for the purpose of making changes",
+      "definition": "To examine for the correction of errors, or for the purpose of making changes.",
+      "id": "23D"
+    },
+    {
+      "word": "CARRION",
+      "clue": "Dead and putrefying flesh",
+      "definition": "Dead and putrefying flesh.",
+      "id": "29A"
+    }
+  ]
+}

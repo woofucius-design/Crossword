@@ -1,0 +1,902 @@
+{
+  "date": "2028-02-06",
+  "number": 221,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "L",
+      "I",
+      "#",
+      "S",
+      "T",
+      "A",
+      "T",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "L",
+      "I",
+      "N",
+      "#",
+      "C",
+      "H",
+      "A",
+      "P",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "A",
+      "L",
+      "T",
+      "#",
+      "R",
+      "E",
+      "A",
+      "D",
+      "I",
+      "L",
+      "Y"
+    ],
+    [
+      "P",
+      "L",
+      "E",
+      "N",
+      "U",
+      "M",
+      "#",
+      "#",
+      "M",
+      "I",
+      "L"
+    ],
+    [
+      "S",
+      "E",
+      "R",
+      "A",
+      "P",
+      "E",
+      "S",
+      "#",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "P",
+      "L",
+      "#",
+      "U",
+      "S",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "A",
+      "T",
+      "#",
+      "E",
+      "M",
+      "B",
+      "R",
+      "A",
+      "C",
+      "E"
+    ],
+    [
+      "R",
+      "S",
+      "I",
+      "#",
+      "#",
+      "O",
+      "T",
+      "I",
+      "T",
+      "I",
+      "S"
+    ],
+    [
+      "O",
+      "C",
+      "C",
+      "L",
+      "U",
+      "D",
+      "E",
+      "#",
+      "I",
+      "R",
+      "S"
+    ],
+    [
+      "N",
+      "I",
+      "E",
+      "L",
+      "S",
+      "E",
+      "N",
+      "#",
+      "O",
+      "R",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "O",
+      "R",
+      "D",
+      "#",
+      "N",
+      "I",
+      "X"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "CLI",
+      "clue": "Terminal interface, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "CLAPS",
+      "clue": "Variant of Clasp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variant of Clasp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LILLE",
+      "clue": "Industrial city in northern France near the Belgian border",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Industrial city in northern France near the Belgian border",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "INTERSTICES",
+      "clue": "Small openings between things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small openings between things",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "STATERS",
+      "clue": "Residents of a particular state or group of states",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Residents of a particular state or group of states",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SCRUPLE",
+      "clue": "Doubt or uncertainty regarding a question of moral right or duty",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ethical or moral principle that inhibits action",
+        "Weight of twenty grains"
+      ],
+      "definition": "Doubt or uncertainty regarding a question of moral right or duty.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "THEME",
+      "clue": "Subject or topic on which a person writes or speaks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject or topic on which a person writes or speaks",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AAA",
+      "clue": "Roadside-assistance org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "TPD",
+      "clue": "Daily output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "ELIMINATION",
+      "clue": "Act of expelling or throwing off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of expelling or throwing off",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RELIC",
+      "clue": "Something of sentimental value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of sentimental value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "STYLE",
+      "clue": "Manner of expression",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "LIN",
+      "clue": "Yield",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yield",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "CHAPLET",
+      "clue": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flower arrangement consisting of a circular band of foliage or flowers for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ALT",
+      "clue": "Angular distance above the horizon (especially of a celestial object)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular distance above the horizon (especially of a celestial object)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "READILY",
+      "clue": "Without objection or reluctance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In a punctual manner",
+        "In a ready manner"
+      ],
+      "definition": "Without objection or reluctance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "PLENUM",
+      "clue": "That state in which every part of space is supposed to be full of matter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That state in which every part of space is supposed to be full of matter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "NAP",
+      "clue": "Have a short sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have a short sleep",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "MIL",
+      "clue": "Angular unit used in artillery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular unit used in artillery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "SERAPES",
+      "clue": "Long brightly colored shawl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long brightly colored shawl",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "SUBTEND",
+      "clue": "To extend opposite to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Extend opposite to",
+        "Be opposite to",
+        "Extend under, or be opposed to"
+      ],
+      "definition": "To extend opposite to.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "SPL",
+      "clue": "Special: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "USN",
+      "clue": "Navy of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navy of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "FAT",
+      "clue": "Having an (over)abundance of flesh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an (over)abundance of flesh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "FROND",
+      "clue": "Organ formed by the combination or union into one body of stem and leaf,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organ formed by the combination or union into one body of stem and leaf,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ASCII",
+      "clue": "Code for information exchange between computers made by different companies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Code for information exchange between computers made by different companies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "EMBRACE",
+      "clue": "Take up the cause, ideology, practice, method, of someone and use it as one's...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take up the cause, ideology, practice, method, of someone and use it as one's...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MODER",
+      "clue": "Mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mother",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CIRRI",
+      "clue": "Wispy high clouds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSEX",
+      "clue": "County in southeastern England on the North Sea and the Thames estuary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "County in southeastern England on the North Sea and the Thames estuary",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "RSI",
+      "clue": "Repetitive strain ailment, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "OTITIS",
+      "clue": "Inflammation of the ear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammation of the ear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "OCCLUDE",
+      "clue": "To absorb, as a gas by a metal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Absorb, as a gas by a metal",
+        "Block passage through",
+        "Shut up"
+      ],
+      "definition": "To absorb, as a gas by a metal.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "LLC",
+      "clue": "Business entity, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Business entity, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "USO",
+      "clue": "Troop-entertaining org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "IRS",
+      "clue": "Taxing org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "NIELSEN",
+      "clue": "Danish composer (1865-1931)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Danish composer (1865-1931)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "ORE",
+      "clue": "Miner's find",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "DISCORD",
+      "clue": "Absence of harmoniousness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Strife resulting from a lack of agreement",
+        "Want of concord or agreement"
+      ],
+      "definition": "Absence of harmoniousness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "NIX",
+      "clue": "Command against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Command against",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SCRUPLE",
+      "clue": "Doubt or uncertainty regarding a question of moral right or duty",
+      "definition": "Doubt or uncertainty regarding a question of moral right or duty.",
+      "id": "4D"
+    },
+    {
+      "word": "READILY",
+      "clue": "Without objection or reluctance",
+      "definition": "Without objection or reluctance.",
+      "id": "14A"
+    },
+    {
+      "word": "SUBTEND",
+      "clue": "To extend opposite to",
+      "definition": "To extend opposite to.",
+      "id": "19D"
+    },
+    {
+      "word": "OCCLUDE",
+      "clue": "To absorb, as a gas by a metal",
+      "definition": "To absorb, as a gas by a metal.",
+      "id": "32A"
+    }
+  ]
+}

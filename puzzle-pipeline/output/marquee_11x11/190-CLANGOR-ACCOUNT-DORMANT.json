@@ -1,0 +1,900 @@
+{
+  "date": "2028-01-06",
+  "number": 190,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "E",
+      "G",
+      "E",
+      "A",
+      "N",
+      "#",
+      "#",
+      "P",
+      "E",
+      "T"
+    ],
+    [
+      "C",
+      "L",
+      "A",
+      "N",
+      "G",
+      "O",
+      "R",
+      "#",
+      "L",
+      "I",
+      "E"
+    ],
+    [
+      "H",
+      "A",
+      "U",
+      "G",
+      "H",
+      "T",
+      "I",
+      "N",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "E",
+      "N",
+      "L",
+      "#",
+      "A",
+      "C",
+      "C",
+      "O",
+      "U",
+      "N",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "S",
+      "H",
+      "#",
+      "T",
+      "R",
+      "E",
+      "E"
+    ],
+    [
+      "N",
+      "I",
+      "C",
+      "H",
+      "T",
+      "#",
+      "F",
+      "E",
+      "A",
+      "R",
+      "S"
+    ],
+    [
+      "U",
+      "R",
+      "E",
+      "A",
+      "#",
+      "A",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "O",
+      "R",
+      "M",
+      "A",
+      "N",
+      "T",
+      "#",
+      "E",
+      "L",
+      "F"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "N",
+      "T",
+      "I",
+      "O",
+      "N",
+      "A",
+      "L"
+    ],
+    [
+      "T",
+      "E",
+      "E",
+      "#",
+      "D",
+      "I",
+      "S",
+      "R",
+      "O",
+      "B",
+      "E"
+    ],
+    [
+      "Y",
+      "D",
+      "S",
+      "#",
+      "#",
+      "C",
+      "H",
+      "A",
+      "S",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "AEGEAN",
+      "clue": "Of or pertaining to the sea, or arm of the Mediterranean sea, east of Greece....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to the sea, or arm of the Mediterranean sea, east of Greece....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "To be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Stylish flair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GAUL",
+      "clue": "Ancient region of western Europe that included what is now northern Italy...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient region of western Europe that included what is now northern Italy...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ENG",
+      "clue": "Maker of bridges, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "AGHAST",
+      "clue": "Struck with terror and amazement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Affright"
+      ],
+      "definition": "Struck with terror and amazement.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "NOTCH",
+      "clue": "Small cut",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small cut",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PET",
+      "clue": "Preferred above all others and treated with partiality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preferred above all others and treated with partiality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "PLEURA",
+      "clue": "Thin serous membrane around the lungs and inner walls of the chest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin serous membrane around the lungs and inner walls of the chest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "EISNER",
+      "clue": "Old Disney CEO Michael",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "TESTES",
+      "clue": "Male reproductive glands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "CLANGOR",
+      "clue": "Clanking or a ringing, as of arms, chains, or bells",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Clanking or a ringing, as of arms, chains, or bells; clamor",
+        "Loud resonant repeating noise",
+        "Sharp, harsh, ringing sound"
+      ],
+      "definition": "Clanking or a ringing, as of arms, chains, or bells; clamor.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "RIC",
+      "clue": "Singer Ocasek of The Cars",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LIE",
+      "clue": "Fib",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "HAUGHTINESS",
+      "clue": "Overbearing pride evidenced by a superior manner toward inferiors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overbearing pride evidenced by a superior manner toward inferiors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "NOTED",
+      "clue": "Well known by reputation or report",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Well known by reputation or report",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ENL",
+      "clue": "Inflammatory complication of leprosy that results in painful skin lesions on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory complication of leprosy that results in painful skin lesions on...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "ACCOUNT",
+      "clue": "A record or statement of receipts and expenditures, or of business",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Record or statement of receipts and expenditures, or of business",
+        "Quality of taking advantage",
+        "Reckoning"
+      ],
+      "definition": "A record or statement of receipts and expenditures, or of business",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "SSH",
+      "clue": "Hushing sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "SHAME",
+      "clue": "Unfortunate development",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unfortunate development",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "TREE",
+      "clue": "Any perennial woody plant of considerable size (usually over twenty feet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any perennial woody plant of considerable size (usually over twenty feet high)...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "NICHT",
+      "clue": "Not, in Berlin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "NUDITY",
+      "clue": "State of being without clothing or covering of any kind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of being without clothing or covering of any kind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "IRONED",
+      "clue": "Pressed clothes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "CERTES",
+      "clue": "Certainly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Certainly",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FEARS",
+      "clue": "Regards with feelings of respect and reverence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regards with feelings of respect and reverence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "FETISH",
+      "clue": "Material object supposed among certain African tribes to represent in such a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material object supposed among certain African tribes to represent in such a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "UREA",
+      "clue": "Chief solid component of mammalian urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief solid component of mammalian urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANTIC",
+      "clue": "A grotesque, ludicrous, or fantastic action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Grotesque, ludicrous, or fantastic action",
+        "Ludicrously odd",
+        "Old"
+      ],
+      "definition": "A grotesque, ludicrous, or fantastic action.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "DORMANT",
+      "clue": "Being in a state of or resembling sleep",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Inactive but capable of becoming active",
+        "Sleeping"
+      ],
+      "definition": "Being in a state of or resembling sleep.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Plus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ELF",
+      "clue": "Imaginary supernatural being, commonly a little sprite, much like a fairy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imaginary supernatural being, commonly a little sprite, much like a fairy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "ENOS",
+      "clue": "Grandson of Adam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "LABS",
+      "clue": "Workplaces for the conduct of scientific research",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Workplaces for the conduct of scientific research",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "FLEE",
+      "clue": "Run away quickly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run away quickly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTENTIONAL",
+      "clue": "Characterized by conscious design or purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by conscious design or purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "TEE",
+      "clue": "Short peg put into the ground to hold a golf ball off the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short peg put into the ground to hold a golf ball off the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "DISROBE",
+      "clue": "To unclothe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unclothe",
+        "Get undressed",
+        "Divest of a robe"
+      ],
+      "definition": "To unclothe.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YDS",
+      "clue": "Football gains: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "CHASSE",
+      "clue": "Movement in dancing, as across or to the right or left. To make the movement...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Movement in dancing, as across or to the right or left. To make the movement...",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CLANGOR",
+      "clue": "Clanking or a ringing, as of arms, chains, or bells",
+      "definition": "Clanking or a ringing, as of arms, chains, or bells; clamor.",
+      "id": "10A"
+    },
+    {
+      "word": "ACCOUNT",
+      "clue": "A record or statement of receipts and expenditures, or of business",
+      "definition": "A record or statement of receipts and expenditures, or of business",
+      "id": "16A"
+    },
+    {
+      "word": "DORMANT",
+      "clue": "Being in a state of or resembling sleep",
+      "definition": "Being in a state of or resembling sleep.",
+      "id": "25A"
+    },
+    {
+      "word": "DISROBE",
+      "clue": "To unclothe",
+      "definition": "To unclothe.",
+      "id": "33A"
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "date": "2027-07-22",
+  "number": 22,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "O",
+      "I",
+      "L",
+      "E",
+      "#",
+      "#",
+      "A",
+      "M",
+      "B"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "T",
+      "O",
+      "R",
+      "T",
+      "#",
+      "M",
+      "I",
+      "L"
+    ],
+    [
+      "I",
+      "N",
+      "S",
+      "E",
+      "P",
+      "A",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "T",
+      "E",
+      "E",
+      "M",
+      "S",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N",
+      "S"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "R",
+      "A",
+      "M",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "G",
+      "I",
+      "L",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "F",
+      "F",
+      "I",
+      "R",
+      "M",
+      "#",
+      "#",
+      "A",
+      "G",
+      "A"
+    ],
+    [
+      "P",
+      "A",
+      "U",
+      "L",
+      "I",
+      "#",
+      "S",
+      "O",
+      "B",
+      "E",
+      "R"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "S",
+      "E",
+      "N",
+      "T",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "E",
+      "S",
+      "L",
+      "#",
+      "G",
+      "R",
+      "A",
+      "N",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "L",
+      "I",
+      "S",
+      "#",
+      "#",
+      "C",
+      "R",
+      "I",
+      "M",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TOILE",
+      "clue": "Patterned French fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TONES",
+      "clue": "British units of weight equivalent to pounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British units of weight equivalent to pounds",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ONSET",
+      "clue": "An assault, especially of troops, upon an enemy or fortification",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assault, especially of troops, upon an enemy or fortification",
+        "Offensive against an enemy (using weapons)",
+        "Rushing or setting upon"
+      ],
+      "definition": "An assault, especially of troops, upon an enemy or fortification.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ITEM",
+      "clue": "Also",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "LOPS",
+      "clue": "Cultivates, tends, and cuts back the growth of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cultivates, tends, and cuts back the growth of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AMB",
+      "clue": "Diplomatic V.I.P., briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AMBOS",
+      "clue": "Platforms raised above the surrounding level to give prominence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platforms raised above the surrounding level to give prominence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "MILNE",
+      "clue": "English writer of stories for children (1882-1956)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English writer of stories for children (1882-1956)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "BLESS",
+      "clue": "Make or pronounce holy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make or pronounce holy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "CONTORT",
+      "clue": "To twist into a misshapen form",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Twist into a misshapen form",
+        "Twist and press out of shape",
+        "Twist, or twist together"
+      ],
+      "definition": "To twist into a misshapen form.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "To refer to specifically",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Refer to specifically",
+        "Short note recognizing a source of information or of a quoted passage",
+        "Call upon officially or authoritatively to appear, as before a..."
+      ],
+      "definition": "To refer to specifically.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "TRIAL",
+      "clue": "Act of testing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of testing something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "MIL",
+      "clue": "Angular unit used in artillery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular unit used in artillery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "INSEPARABLE",
+      "clue": "That can not be separated",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not capable of being separated",
+        "Not separable"
+      ],
+      "definition": "That can not be separated.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ACME",
+      "clue": "The highest point, or summit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Highest point, or summit",
+        "Highest point (of something)",
+        "Top or highest point"
+      ],
+      "definition": "The highest point, or summit.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TEEMS",
+      "clue": "Moves in large numbers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moves in large numbers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "ICONS",
+      "clue": "Conventional religious paintings in oil on a small wooden panel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conventional religious paintings in oil on a small wooden panel",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "EST",
+      "clue": "NYC clock setting, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "RAMSES",
+      "clue": "Any of 12 kings of ancient Egypt between 1315 and 1090 BC",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of 12 kings of ancient Egypt between 1315 and 1090 BC",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RIM",
+      "clue": "Border, edge, or margin of a thing, usually of something circular or curving",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Border, edge, or margin of a thing, usually of something circular or curving",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Able to move or act quickly, physically, or mentally",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moving quickly and lightly",
+        "Having the faculty of quick motion in the limbs"
+      ],
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "AILS",
+      "clue": "Causes bodily suffering to and make sick or indisposed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causes bodily suffering to and make sick or indisposed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "GRIEG",
+      "clue": "Norwegian composer whose work was often inspired by Norwegian folk music...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Norwegian composer whose work was often inspired by Norwegian folk music...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "AFFIRM",
+      "clue": "Make firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make firm",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "APPEL",
+      "clue": "Tap or stamp of the foot as a warning of intent to attack",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tap or stamp of the foot as a warning of intent to attack",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "FARSI",
+      "clue": "Language of Persia (Iran) in any of its ancient forms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language of Persia (Iran) in any of its ancient forms",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "FUELS",
+      "clue": "Substances that can be consumed to produce energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Substances that can be consumed to produce energy",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "AGA",
+      "clue": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ABEAM",
+      "clue": "On the beam, that is, on a line which forms a right angle with the ship's keel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On the beam, that is, on a line which forms a right angle with the ship's keel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "GENRE",
+      "clue": "Class of art (or artistic endeavor) having a characteristic form or technique",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Class of art (or artistic endeavor) having a characteristic form or technique",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "ARTY",
+      "clue": "Showily imitative of art or artists",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Showily imitative of art or artists",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PAULI",
+      "clue": "United States physicist (born in Austria) who proposed the exclusion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States physicist (born in Austria) who proposed the exclusion principle...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "SOBER",
+      "clue": "Lacking brightness or color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lacking brightness or color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "STAR",
+      "clue": "A point of light in the night sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OMNI",
+      "clue": "All-encompassing prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PRESENTMENT",
+      "clue": "Semblance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Show or display"
+      ],
+      "definition": "Semblance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NRC",
+      "clue": "Independent federal agency created in 1974 to license and regulate nuclear...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency created in 1974 to license and regulate nuclear...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ESL",
+      "clue": "Language class, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language class, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "GRANARY",
+      "clue": "A storehouse for grain after it is thrashed or husked",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Storehouse for grain after it is thrashed or husked",
+        "Storehouse for threshed grain or animal feed",
+        "Storehouse or repository for grain, esp. after it is thrashed or..."
+      ],
+      "definition": "A storehouse for grain after it is thrashed or husked.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "LIS",
+      "clue": "Chinese distance measures",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chinese distance measures",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "CRIME",
+      "clue": "Any violation of law, either divine or human",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any violation of law, either divine or human",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CONTORT",
+      "clue": "To twist into a misshapen form",
+      "definition": "To twist into a misshapen form.",
+      "id": "9A"
+    },
+    {
+      "word": "INSEPARABLE",
+      "clue": "That can not be separated",
+      "definition": "That can not be separated.",
+      "id": "12A"
+    },
+    {
+      "word": "PRESENTMENT",
+      "clue": "Semblance",
+      "definition": "Semblance.",
+      "id": "29A"
+    },
+    {
+      "word": "GRANARY",
+      "clue": "A storehouse for grain after it is thrashed or husked",
+      "definition": "A storehouse for grain after it is thrashed or husked.",
+      "id": "32A"
+    }
+  ]
+}

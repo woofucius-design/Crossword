@@ -1,0 +1,895 @@
+{
+  "date": "2028-01-15",
+  "number": 199,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "D",
+      "U",
+      "M",
+      "A",
+      "S",
+      "#",
+      "#",
+      "U",
+      "G",
+      "H"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "I",
+      "C",
+      "A",
+      "L",
+      "#",
+      "T",
+      "O",
+      "O"
+    ],
+    [
+      "R",
+      "E",
+      "P",
+      "L",
+      "A",
+      "C",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "E",
+      "D",
+      "#",
+      "V",
+      "E",
+      "R",
+      "N",
+      "E"
+    ],
+    [
+      "S",
+      "S",
+      "D",
+      "#",
+      "#",
+      "A",
+      "E",
+      "R",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "G",
+      "R",
+      "E",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "I",
+      "M",
+      "B",
+      "R",
+      "U",
+      "E",
+      "#",
+      "#",
+      "A",
+      "T",
+      "A"
+    ],
+    [
+      "D",
+      "E",
+      "U",
+      "C",
+      "E",
+      "#",
+      "N",
+      "A",
+      "B",
+      "O",
+      "B"
+    ],
+    [
+      "A",
+      "L",
+      "D",
+      "O",
+      "S",
+      "T",
+      "E",
+      "R",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "H",
+      "O",
+      "G",
+      "#",
+      "S",
+      "H",
+      "R",
+      "I",
+      "V",
+      "E",
+      "L"
+    ],
+    [
+      "O",
+      "N",
+      "E",
+      "#",
+      "#",
+      "E",
+      "I",
+      "D",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DUMAS",
+      "clue": "French writer remembered for his swashbuckling historical tales (1802-1870)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French writer remembered for his swashbuckling historical tales (1802-1870)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "DOERS",
+      "clue": "People who act and get things done",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who act and get things done",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "UMPED",
+      "clue": "Called balls and strikes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "MILE",
+      "clue": "Certain measure of distance, being equivalent in England and the United...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Certain measure of distance, being equivalent in England and the United...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SAC",
+      "clue": "Structure resembling a bag in an animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structure resembling a bag in an animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "UGH",
+      "clue": "Exclamation expressive of disgust, horror, or recoil. Its utterance is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressive of disgust, horror, or recoil. Its utterance is...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "UTERI",
+      "clue": "Wombs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "GONNA",
+      "clue": "Going to, casually",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "HOTEL",
+      "clue": "Building where travelers can pay for lodging and meals and other services",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Building where travelers can pay for lodging and meals and other services",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "COMICAL",
+      "clue": "Funny",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Arousing or provoking laughter",
+        "Relating to comedy. They deny it to be tragical because its..."
+      ],
+      "definition": "Funny.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "CRTS",
+      "clue": "Vacuum tubes in which a hot cathode emits a beam of electrons that pass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vacuum tubes in which a hot cathode emits a beam of electrons that pass",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LEVEE",
+      "clue": "An embankment beside a river or stream or an arm of the sea, to prevent overflow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Embankment beside a river or stream or an arm of the sea, to prevent overflow",
+        "Embankment that is built in order to prevent a river from overflowing"
+      ],
+      "definition": "An embankment beside a river or stream or an arm of the sea, to prevent overflow.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TOO",
+      "clue": "As well",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REPLACEMENT",
+      "clue": "Act of furnishing an equivalent person or thing in the place of another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of furnishing an equivalent person or thing in the place of another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "MERE",
+      "clue": "Small pond of standing water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small pond of standing water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TREED",
+      "clue": "Forced to turn and face attackers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forced to turn and face attackers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "VERNE",
+      "clue": "French writer who is considered the father of science fiction (1828-1905)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French writer who is considered the father of science fiction (1828-1905)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "AERIAL",
+      "clue": "Of, pertaining to, or like the air",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by lightness and insubstantiality",
+        "Of or pertaining to the air, or atmosphere"
+      ],
+      "definition": "Of, pertaining to, or like the air.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "AGREE",
+      "clue": "In good part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In good part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ARCO",
+      "clue": "Be played with the bow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be played with the bow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "GUESS",
+      "clue": "Surmise",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Estimate based on little or no information",
+        "Form an opinion concerning, without knowledge or means of knowledge"
+      ],
+      "definition": "Surmise.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "IMBRUE",
+      "clue": "To wet or moisten",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wet or moisten",
+        "Permeate or impregnate"
+      ],
+      "definition": "To wet or moisten.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "IDAHO",
+      "clue": "State in the Rocky Mountains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the Rocky Mountains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "MELON",
+      "clue": "Any of numerous fruits of the gourd family having a hard rind and sweet juicy...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous fruits of the gourd family having a hard rind and sweet juicy...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "BUDGE",
+      "clue": "Move off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move off",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "ATA",
+      "clue": "Airline-trade-group abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ABOVE",
+      "clue": "In or to a higher place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or to a higher place",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "TONER",
+      "clue": "Lotion for cleansing the skin and contracting the pores",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lotion for cleansing the skin and contracting the pores",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "ABEL",
+      "clue": "Adam's second son",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DEUCE",
+      "clue": "One of the four playing cards in a deck that have two spots",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the four playing cards in a deck that have two spots",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NABOB",
+      "clue": "Wealthy man (especially one who made his fortune in the Orient)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wealthy man (especially one who made his fortune in the Orient)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "NERI",
+      "clue": "Composer of opera 'L'avola'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARID",
+      "clue": "Very dry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking vitality or spirit",
+        "Exhausted of moisture"
+      ],
+      "definition": "Very dry.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ALDOSTERONE",
+      "clue": "Corticosteroid hormone that is secreted by the cortex of the adrenal gland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corticosteroid hormone that is secreted by the cortex of the adrenal gland",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "THE",
+      "clue": "Most common English word",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "HOG",
+      "clue": "Take greedily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take greedily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SHRIVEL",
+      "clue": "To draw or be drawn into wrinkles",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Draw or be drawn into wrinkles",
+        "Decrease in size, range, or extent",
+        "Draw, or be drawn, into wrinkles"
+      ],
+      "definition": "To draw or be drawn into wrinkles.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ONE",
+      "clue": "Loneliest number, in song",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "EIDER",
+      "clue": "Duck of the northern hemisphere much valued for the fine soft down of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Duck of the northern hemisphere much valued for the fine soft down of the...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "COMICAL",
+      "clue": "Funny",
+      "definition": "Funny.",
+      "id": "9A"
+    },
+    {
+      "word": "LEVEE",
+      "clue": "An embankment beside a river or stream or an arm of the sea, to prevent overflow",
+      "definition": "An embankment beside a river or stream or an arm of the sea, to prevent overflow.",
+      "id": "10D"
+    },
+    {
+      "word": "GUESS",
+      "clue": "Surmise",
+      "definition": "Surmise.",
+      "id": "19D"
+    },
+    {
+      "word": "SHRIVEL",
+      "clue": "To draw or be drawn into wrinkles",
+      "definition": "To draw or be drawn into wrinkles.",
+      "id": "32A"
+    }
+  ]
+}

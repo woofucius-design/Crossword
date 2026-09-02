@@ -1,0 +1,981 @@
+{
+  "date": "2027-08-14",
+  "number": 45,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "M",
+      "E",
+      "T",
+      "A",
+      "L",
+      "#",
+      "E",
+      "C",
+      "C",
+      "E"
+    ],
+    [
+      "H",
+      "E",
+      "X",
+      "O",
+      "S",
+      "E",
+      "#",
+      "P",
+      "O",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "R",
+      "E",
+      "D",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N"
+    ],
+    [
+      "R",
+      "I",
+      "T",
+      "#",
+      "A",
+      "G",
+      "I",
+      "T",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "D",
+      "#",
+      "E",
+      "M",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "I",
+      "C",
+      "R",
+      "O",
+      "#",
+      "A",
+      "M",
+      "I",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "H",
+      "A",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "O",
+      "L",
+      "E",
+      "#",
+      "B",
+      "E",
+      "Y"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "T",
+      "#",
+      "E",
+      "M",
+      "E",
+      "R",
+      "G",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "I",
+      "#",
+      "R",
+      "E",
+      "V",
+      "U",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "I",
+      "C",
+      "#",
+      "T",
+      "R",
+      "E",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "METAL",
+      "clue": "An element that forms a base by combining with oxygen, is usually hard, heavy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Element that forms a base by combining with oxygen, is usually hard, heavy",
+        "Elementary substance, as sodium, calcium, or copper, whose oxide..."
+      ],
+      "definition": "An element that forms a base by combining with oxygen, is usually hard, heavy...",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "MEDICI",
+      "clue": "Aristocratic Italian family of powerful merchants and bankers who ruled...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aristocratic Italian family of powerful merchants and bankers who ruled...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "EXOTIC",
+      "clue": "Foreign",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Strikingly strange or unusual",
+        "Introduced from a foreign country"
+      ],
+      "definition": "Foreign.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "TOR",
+      "clue": "High rocky hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "High rocky hill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ASEA",
+      "clue": "On the ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "LEDGE",
+      "clue": "Shelf on which articles may be laid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shelf on which articles may be laid",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ECCE",
+      "clue": "Behold!, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "EPITOME",
+      "clue": "A simplified representation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Simplified representation",
+        "Standard or typical example",
+        "Work in which the contents of a former work are reduced within a..."
+      ],
+      "definition": "A simplified representation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "COCA",
+      "clue": "Cola-leaf source",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "COOT",
+      "clue": "Slate-black slow-flying birds somewhat resembling ducks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slate-black slow-flying birds somewhat resembling ducks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ERNE",
+      "clue": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bulky greyish-brown eagle with a short wedge-shaped white tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "HEXOSE",
+      "clue": "Any member of a group of sugars containing six carbon atoms in the molecule....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any member of a group of sugars containing six carbon atoms in the molecule....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "HARAM",
+      "clue": "Forbidden, in Islam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "POOR",
+      "clue": "People without possessions or wealth (considered as a group)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People without possessions or wealth (considered as a group)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ADORED",
+      "clue": "Regarded with deep or rapturous love (especially as if for a god)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regarded with deep or rapturous love (especially as if for a god)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "An image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
+      "definition": "An image or likeness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "RIT",
+      "clue": "3d pers. ssing. pres. of Ride, contracted from rideth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "3d pers. ssing. pres. of Ride, contracted from rideth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "AGITATE",
+      "clue": "To move or excite (the feelings or thoughts)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Move or excite (the feelings or thoughts)",
+        "Change the arrangement or position of",
+        "Move with a violent, irregular action"
+      ],
+      "definition": "To move or excite (the feelings or thoughts).",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "IMA",
+      "clue": "Bandleader Sumac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ACID",
+      "clue": "A sour substance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sour substance",
+        "Sour, sharp, or biting to the taste"
+      ],
+      "definition": "A sour substance.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "DRASTIC",
+      "clue": "Acting vigorously",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Forceful and extreme and rigorous",
+        "Acting rapidly and violently"
+      ],
+      "definition": "Acting vigorously.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EMO",
+      "clue": "Punk subgenre with emotional lyrics",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "MICRO",
+      "clue": "Extremely small in scale or scope or capability",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extremely small in scale or scope or capability",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "OHO",
+      "clue": "Exclamation of surprise, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation of surprise, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AMISS",
+      "clue": "In an imperfect or faulty way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an imperfect or faulty way",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "IMBRUE",
+      "clue": "To wet or moisten",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wet or moisten",
+        "Permeate or impregnate"
+      ],
+      "definition": "To wet or moisten.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "SIEGES",
+      "clue": "Actions of an armed force that surrounds a fortified place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Actions of an armed force that surrounds a fortified place",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "STYES",
+      "clue": "Pens for swine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pens for swine",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Cry of discovery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ALERT",
+      "clue": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "CONSOLE",
+      "clue": "To comfort",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Comfort",
+        "Housing for electronic instruments, as radio or television",
+        "Cheer in distress or depression"
+      ],
+      "definition": "To comfort.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CEDE",
+      "clue": "To pass title to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pass title to",
+        "Relinquish possession or control over",
+        "Yield or surrender"
+      ],
+      "definition": "To pass title to.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ODER",
+      "clue": "European river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "European river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Unless",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unless",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "EMER",
+      "clue": "Critical: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "BEY",
+      "clue": "Governor of a province or district in the Turkish dominions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governor of a province or district in the Turkish dominions",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "EDIT",
+      "clue": "Polish a draft",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "EMERGE",
+      "clue": "To come into view or into existence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Come into view or into existence",
+        "Come out into view, as from concealment",
+        "Rise out of a fluid"
+      ],
+      "definition": "To come into view or into existence.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Night before a holiday",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DESI",
+      "clue": "Lucy's TV husband",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "REVUES",
+      "clue": "Variety shows with topical sketches and songs and dancing and comedians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variety shows with topical sketches and songs and dancing and comedians",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TREES",
+      "clue": "English actor and theatrical producers noted for his lavish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English actor and theatrical producers noted for his lavish",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "EXOTIC",
+      "clue": "Foreign",
+      "definition": "Foreign.",
+      "id": "2D"
+    },
+    {
+      "word": "EPITOME",
+      "clue": "A simplified representation",
+      "definition": "A simplified representation.",
+      "id": "6D"
+    },
+    {
+      "word": "AGITATE",
+      "clue": "To move or excite (the feelings or thoughts)",
+      "definition": "To move or excite (the feelings or thoughts).",
+      "id": "15A"
+    },
+    {
+      "word": "DRASTIC",
+      "clue": "Acting vigorously",
+      "definition": "Acting vigorously.",
+      "id": "18D"
+    },
+    {
+      "word": "IMBRUE",
+      "clue": "To wet or moisten",
+      "definition": "To wet or moisten.",
+      "id": "23D"
+    },
+    {
+      "word": "CONSOLE",
+      "clue": "To comfort",
+      "definition": "To comfort.",
+      "id": "29A"
+    }
+  ]
+}

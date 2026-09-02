@@ -1,0 +1,889 @@
+{
+  "date": "2028-01-27",
+  "number": 211,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "A",
+      "S",
+      "A",
+      "B",
+      "A",
+      "#",
+      "#",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "A",
+      "C",
+      "T",
+      "U",
+      "A",
+      "R",
+      "Y",
+      "#",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "U",
+      "N",
+      "A",
+      "D",
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "L",
+      "E",
+      "Y",
+      "#",
+      "M",
+      "A",
+      "S",
+      "T",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "A",
+      "Y",
+      "#",
+      "E",
+      "L",
+      "S",
+      "E"
+    ],
+    [
+      "O",
+      "F",
+      "T",
+      "E",
+      "N",
+      "#",
+      "S",
+      "I",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "O",
+      "U",
+      "P",
+      "#",
+      "C",
+      "T",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "U",
+      "R",
+      "S",
+      "O",
+      "R",
+      "Y",
+      "#",
+      "S",
+      "T",
+      "D"
+    ],
+    [
+      "A",
+      "N",
+      "N",
+      "I",
+      "H",
+      "I",
+      "L",
+      "A",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "R",
+      "T",
+      "E",
+      "#",
+      "O",
+      "B",
+      "E",
+      "S",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "S",
+      "D",
+      "#",
+      "#",
+      "S",
+      "T",
+      "A",
+      "R",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "CASABA",
+      "clue": "Melon having yellowish rind and whitish flesh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Melon having yellowish rind and whitish flesh",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CAUL",
+      "clue": "Covering of network for the head, worn by women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covering of network for the head, worn by women",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "STAY",
+      "clue": "Remain in place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AUD",
+      "clue": "Theater seating area: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "BADMAN",
+      "clue": "Outlaw of the West",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ARRAY",
+      "clue": "Order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Order",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "EAR",
+      "clue": "Sense organ for hearing and equilibrium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sense organ for hearing and equilibrium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "EASELS",
+      "clue": "Upright tripods for displaying something (usually an artist's canvas)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Upright tripods for displaying something (usually an artist's canvas)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "AVERSE",
+      "clue": "Reluctant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Turned away or backward"
+      ],
+      "definition": "Reluctant.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "REDYES",
+      "clue": "Refreshes a faded color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ACTUARY",
+      "clue": "An officer, as of an insurance company, who calculates and states the risks",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Officer, as of an insurance company, who calculates and states the risks",
+        "Officer, as of an insurance company, who calculates and states the risks and",
+        "Someone versed in the collection and interpretation of numerical data...",
+        "Registar or clerk"
+      ],
+      "definition": "An officer, as of an insurance company, who calculates and states the risks and",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AVE",
+      "clue": "Street crossing, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNADDRESSED",
+      "clue": "Not addressed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not addressed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "STEIN",
+      "clue": "Mug intended for serving beer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mug intended for serving beer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "LEY",
+      "clue": ", & i. To lay",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": ", & i. To lay",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "MASTERY",
+      "clue": "The attainment of superior skill",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Attainment of superior skill",
+        "Act of mastering or subordinating someone",
+        "Position or authority of a master"
+      ],
+      "definition": "The attainment of superior skill.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "PAY",
+      "clue": "Cover, as bottom of a vessel, a seam, a spar, etc., with tar or pitch, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cover, as bottom of a vessel, a seam, a spar, etc., with tar or pitch, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "PEPSI",
+      "clue": "Coke rival",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "If not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "OFTEN",
+      "clue": "Many times at short intervals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Many times at short intervals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "OSCARS",
+      "clue": "Annual awards by the Academy of Motion Picture Arts and Sciences for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual awards by the Academy of Motion Picture Arts and Sciences for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "FOUNTS",
+      "clue": "Plumbing fixtures that provide a flow of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plumbing fixtures that provide a flow of water",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "TURNED",
+      "clue": "In an unpalatable state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an unpalatable state",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "SISES",
+      "clue": "Female people who have the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female people who have the same parents as another person",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "STYLET",
+      "clue": "Small poniard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small poniard",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "SOUP",
+      "clue": "Liquid food of many kinds, usually made by boiling meat and vegetables, or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liquid food of many kinds, usually made by boiling meat and vegetables, or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "CTN",
+      "clue": "Shipping box: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CRIBS",
+      "clue": "Card games (usually for two players) in which each player is dealt six",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Card games (usually for two players) in which each player is dealt six",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "CURSORY",
+      "clue": "Rapid and superficial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hasty and without attention to detail",
+        "Running about"
+      ],
+      "definition": "Rapid and superficial.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "OHO",
+      "clue": "Exclamation of surprise, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation of surprise, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Common, as a feature: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "STIR",
+      "clue": "Mix with a spoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "TOTE",
+      "clue": "Carry with difficulty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Carry with difficulty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DRYS",
+      "clue": "Reformers who oppose the use of intoxicating beverages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reformers who oppose the use of intoxicating beverages",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "ANNIHILATOR",
+      "clue": "Total destroyer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Total destroyer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ASA",
+      "clue": "Botanist Gray",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "OBESITY",
+      "clue": "Excessive fatness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "More than average fatness"
+      ],
+      "definition": "Excessive fatness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "STARES",
+      "clue": "Topologies of a network whose components are connected to a hub",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Topologies of a network whose components are connected to a hub",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ACTUARY",
+      "clue": "An officer, as of an insurance company, who calculates and states the risks",
+      "definition": "An officer, as of an insurance company, who calculates and states the risks and",
+      "id": "10A"
+    },
+    {
+      "word": "MASTERY",
+      "clue": "The attainment of superior skill",
+      "definition": "The attainment of superior skill.",
+      "id": "16A"
+    },
+    {
+      "word": "CURSORY",
+      "clue": "Rapid and superficial",
+      "definition": "Rapid and superficial.",
+      "id": "25A"
+    },
+    {
+      "word": "OBESITY",
+      "clue": "Excessive fatness",
+      "definition": "Excessive fatness.",
+      "id": "33A"
+    }
+  ]
+}

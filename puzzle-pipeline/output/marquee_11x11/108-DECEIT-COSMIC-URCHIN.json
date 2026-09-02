@@ -1,0 +1,935 @@
+{
+  "date": "2027-10-16",
+  "number": 108,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "H",
+      "A",
+      "M",
+      "#",
+      "C",
+      "H",
+      "I",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "A",
+      "#",
+      "P",
+      "E",
+      "N",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "O",
+      "L",
+      "I",
+      "N",
+      "#",
+      "D",
+      "E",
+      "C",
+      "E",
+      "I",
+      "T"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "U",
+      "S",
+      "#",
+      "#",
+      "O",
+      "U",
+      "S",
+      "T"
+    ],
+    [
+      "C",
+      "O",
+      "S",
+      "M",
+      "I",
+      "C",
+      "#",
+      "E",
+      "T",
+      "A",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "N",
+      "C",
+      "U",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "E",
+      "L",
+      "S",
+      "#",
+      "U",
+      "R",
+      "C",
+      "H",
+      "I",
+      "N"
+    ],
+    [
+      "A",
+      "N",
+      "A",
+      "S",
+      "#",
+      "#",
+      "N",
+      "I",
+      "E",
+      "C",
+      "E"
+    ],
+    [
+      "V",
+      "O",
+      "T",
+      "I",
+      "V",
+      "E",
+      "#",
+      "B",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "E",
+      "C",
+      "H",
+      "O",
+      "E",
+      "D",
+      "#",
+      "L",
+      "O",
+      "N",
+      "D"
+    ],
+    [
+      "S",
+      "H",
+      "I",
+      "N",
+      "T",
+      "O",
+      "#",
+      "E",
+      "D",
+      "G",
+      "Y"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SHAM",
+      "clue": "Make believe with the intent to deceive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make believe with the intent to deceive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Enduring hardship without showing feelings",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "HELLO",
+      "clue": "Expression of greeting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expression of greeting",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ARIES",
+      "clue": "First sign of the zodiac which the sun enters at the vernal equinox",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First sign of the zodiac which the sun enters at the vernal equinox",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MANUMISSION",
+      "clue": "Emancipation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Formal act of freeing from slavery",
+        "Act of manumitting, or of liberating a slave from bondage. \"Given..."
+      ],
+      "definition": "Emancipation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "CHILES",
+      "clue": "Very hots and finely tapering pepper of special pungency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very hots and finely tapering pepper of special pungency",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "CPD",
+      "clue": "Mixed substance: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "HEE",
+      "clue": "___-Haw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "INCOERCIBLE",
+      "clue": "Incapable of being forced, constrained, or compelled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not to be coerced"
+      ],
+      "definition": "Incapable of being forced, constrained, or compelled.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "LIEUT",
+      "clue": "Officer, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ELISA",
+      "clue": "Assay that relies on an enzymatic conversion reaction and is used to detect...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Assay that relies on an enzymatic conversion reaction and is used to detect...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SETTS",
+      "clue": "Rectangulars paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangulars paving stone with curved top",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "TERA",
+      "clue": "Three-tone Chadic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Three-tone Chadic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "PENILE",
+      "clue": "Of or relating to the penis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the penis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "OLIN",
+      "clue": "Actress Lena",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "DECEIT",
+      "clue": "Falsehood",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of deceiving",
+        "Attempt or disposition to deceive or lead into error"
+      ],
+      "definition": "Falsehood.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ILEUS",
+      "clue": "Morbid condition due to intestinal obstruction. It is characterized by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Morbid condition due to intestinal obstruction. It is characterized by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SIN",
+      "clue": "Old form of Since",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old form of Since",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "OUST",
+      "clue": "To eject",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Eject",
+        "Remove from a position or office",
+        "See Oast"
+      ],
+      "definition": "To eject.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "COSMIC",
+      "clue": "Pertaining to the universe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Inconceivably extended in space or time",
+        "Pertaining to the universe, and having special reference to universal..."
+      ],
+      "definition": "Pertaining to the universe.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "CCU",
+      "clue": "Hosp. heart ward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "7th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "INCUR",
+      "clue": "Receive a specified treatment (abstract)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Receive a specified treatment (abstract)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "URN",
+      "clue": "Coffee dispenser",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "EELS",
+      "clue": "Slippery swimmers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "EAVES",
+      "clue": "Edges or lower borders of the roof of a building, which overhang the walls,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edges or lower borders of the roof of a building, which overhang the walls,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ENOCH",
+      "clue": "Biblical patriarch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LATHI",
+      "clue": "Club consisting of a heavy stick (often bamboo) bound with iron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Club consisting of a heavy stick (often bamboo) bound with iron",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "URCHIN",
+      "clue": "A roguish, mischievous boy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Roguish, mischievous boy",
+        "Poor and often mischievous city child",
+        "Hedgehog"
+      ],
+      "definition": "A roguish, mischievous boy.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "HEROD",
+      "clue": "King of Judea who (according to the New Testament) tried to kill Jesus by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "King of Judea who (according to the New Testament) tried to kill Jesus by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ICING",
+      "clue": "Act of shooting the puck from within your own defensive area the length of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of shooting the puck from within your own defensive area the length of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "NEEDY",
+      "clue": "Being in need, want, or poverty",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Demanding or needing attention, affection, or reassurance to an excessive degree",
+        "Distressed by want of the means of living"
+      ],
+      "definition": "Being in need, want, or poverty.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ANAS",
+      "clue": "Genus of water fowls, of the order Anseres, including certain species of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of water fowls, of the order Anseres, including certain species of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NIECE",
+      "clue": "Relative, in general",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relative, in general",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "VOTIVE",
+      "clue": "Dedicated by a vow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dedicated in fulfillment of a vow",
+        "Given by vow, or in fulfillment of a vow"
+      ],
+      "definition": "Dedicated by a vow.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "VET",
+      "clue": "Person who has served in the armed forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has served in the armed forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Tokyo, long ago",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "BRIE",
+      "clue": "Soft creamy white cheese",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft creamy white cheese",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ECHOED",
+      "clue": "Said again or imitated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Said again or imitated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "LOND",
+      "clue": "Land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Land",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SHINTO",
+      "clue": "One of the two great systems of religious belief in Japan. Its essence is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the two great systems of religious belief in Japan. Its essence is...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "EDGY",
+      "clue": "Being in a tense state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being in a tense state",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MANUMISSION",
+      "clue": "Emancipation",
+      "definition": "Emancipation.",
+      "id": "4D"
+    },
+    {
+      "word": "INCOERCIBLE",
+      "clue": "Incapable of being forced, constrained, or compelled",
+      "definition": "Incapable of being forced, constrained, or compelled.",
+      "id": "7D"
+    },
+    {
+      "word": "DECEIT",
+      "clue": "Falsehood",
+      "definition": "Falsehood.",
+      "id": "14A"
+    },
+    {
+      "word": "COSMIC",
+      "clue": "Pertaining to the universe",
+      "definition": "Pertaining to the universe.",
+      "id": "18A"
+    },
+    {
+      "word": "URCHIN",
+      "clue": "A roguish, mischievous boy",
+      "definition": "A roguish, mischievous boy.",
+      "id": "26A"
+    },
+    {
+      "word": "VOTIVE",
+      "clue": "Dedicated by a vow",
+      "definition": "Dedicated by a vow.",
+      "id": "32A"
+    }
+  ]
+}

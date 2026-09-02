@@ -1,0 +1,943 @@
+{
+  "date": "2027-08-28",
+  "number": 59,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "L",
+      "A",
+      "M",
+      "#",
+      "E",
+      "D",
+      "I",
+      "S",
+      "O",
+      "N"
+    ],
+    [
+      "T",
+      "A",
+      "L",
+      "A",
+      "#",
+      "M",
+      "A",
+      "S",
+      "E",
+      "R",
+      "U"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "L",
+      "#",
+      "F",
+      "L",
+      "O",
+      "R",
+      "I",
+      "D"
+    ],
+    [
+      "I",
+      "V",
+      "I",
+      "E",
+      "D",
+      "#",
+      "#",
+      "C",
+      "R",
+      "E",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "I",
+      "D",
+      "#",
+      "H",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "N",
+      "N",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "#",
+      "S",
+      "T",
+      "O",
+      "L",
+      "I",
+      "D"
+    ],
+    [
+      "U",
+      "N",
+      "I",
+      "T",
+      "#",
+      "#",
+      "A",
+      "N",
+      "I",
+      "M",
+      "A"
+    ],
+    [
+      "R",
+      "E",
+      "G",
+      "I",
+      "M",
+      "E",
+      "#",
+      "O",
+      "V",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "R",
+      "M",
+      "O",
+      "U",
+      "R",
+      "#",
+      "U",
+      "R",
+      "G",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "N",
+      "D",
+      "S",
+      "#",
+      "S",
+      "E",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SLAM",
+      "clue": "Aggressive remark directed at a person like a missile and intended to have a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aggressive remark directed at a person like a missile and intended to have a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Enduring hardship without showing feelings",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LARVA",
+      "clue": "Any young insect from the time that it hatches from the egg until it becomes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any young insect from the time that it hatches from the egg until it becomes a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ALAIN",
+      "clue": "Author Robbe-Grillet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MALEDICTION",
+      "clue": "The calling down of a curse or curses",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Calling down of a curse or curses",
+        "Act of calling down a curse that invokes evil (and usually serves as an...",
+        "Proclaiming of evil against some one"
+      ],
+      "definition": "The calling down of a curse or curses.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "EDISON",
+      "clue": "United States inventor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States inventor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "EMF",
+      "clue": "Rate at which energy is drawn from a source that produces a flow of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rate at which energy is drawn from a source that produces a flow of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "DAL",
+      "clue": "Metric unit of volume or capacity equal to 10 liters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metric unit of volume or capacity equal to 10 liters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "ISOCHRONOUS",
+      "clue": "Relating to or denoting equal intervals of time",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Equal in duration or interval"
+      ],
+      "definition": "Relating to or denoting equal intervals of time.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SERRA",
+      "clue": "Spanish missionary who founded Franciscan missions in California (1713-1784)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish missionary who founded Franciscan missions in California (1713-1784)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ORIEL",
+      "clue": "Projecting bay window corbeled or cantilevered out from a wall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Projecting bay window corbeled or cantilevered out from a wall",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "NUDES",
+      "clue": "Paintings of a naked human figure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Paintings of a naked human figure",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "TALA",
+      "clue": "Basic unit of money in Western Samoa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Western Samoa",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "MASERU",
+      "clue": "Capital of Lesotho",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Lesotho",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered through the mouth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stage in psychosexual development when the child's interest is concentrated...",
+        "Uttered by the mouth, or in words"
+      ],
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "FLORID",
+      "clue": "Flushed with red",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Inclined to a healthy reddish color often associated with outdoor life",
+        "Covered with flowers"
+      ],
+      "definition": "Flushed with red.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "IVIED",
+      "clue": "Like Princeton's walls",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "DIN",
+      "clue": "Cacophony?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "CREE",
+      "clue": "Indigenous Canadian people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "CANDID",
+      "clue": "Straightforward",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by directness in manner or speech",
+        "White"
+      ],
+      "definition": "Straightforward.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DNS",
+      "clue": "Internet directory, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internet directory, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "HALS",
+      "clue": "Neck or throat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Neck or throat",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "INNER",
+      "clue": "Further in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Further in",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "Arrival guess, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "DISC",
+      "clue": "Flat round plate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat round plate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DURAS",
+      "clue": "Outermost (and toughests) of the meninges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outermost (and toughests) of the meninges",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "INERT",
+      "clue": "Inanimate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slow and apathetic",
+        "Destitute of the power of moving itself, or of active resistance to..."
+      ],
+      "definition": "Inanimate.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SIGMA",
+      "clue": "Greek letter S, or s). It originally had the form of the English C",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek letter S, or s). It originally had the form of the English C",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "STOLID",
+      "clue": "Expressing no power of feeling or perceiving",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or revealing little emotion or sensibility",
+        "Hopelessly insensible or stupid"
+      ],
+      "definition": "Expressing no power of feeling or perceiving.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LIVRE",
+      "clue": "French money of account, afterward a silver coin equal to 20 sous. It is not...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French money of account, afterward a silver coin equal to 20 sous. It is not...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "IMAGE",
+      "clue": "Representation of a person (especially in the form of sculpture)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of a person (especially in the form of sculpture)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "DALES",
+      "clue": "Metric units of volume or capacity equal to liters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metric units of volume or capacity equal to liters",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "UNIT",
+      "clue": "Single thing or person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single thing or person",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ANIMA",
+      "clue": "Inner self (not the external persona) that is in touch with the unconscious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner self (not the external persona) that is in touch with the unconscious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "REGIME",
+      "clue": "Particular conduct or administration of affairs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Systematic plan for therapy (often including diet)",
+        "Mode or system of rule or management"
+      ],
+      "definition": "Particular conduct or administration of affairs.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "MUD",
+      "clue": "Slanderous remarks or charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slanderous remarks or charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "OVAL",
+      "clue": "Rounded like an egg",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rounded like an egg",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ARMOUR",
+      "clue": "Tough more-or-less rigid protective covering of an animal or plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough more-or-less rigid protective covering of an animal or plant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "URGE",
+      "clue": "Press",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Press",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "STANDS",
+      "clue": "Puts up with something or somebody unpleasant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Puts up with something or somebody unpleasant",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Compass point midways between south and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midways between south and east",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MALEDICTION",
+      "clue": "The calling down of a curse or curses",
+      "definition": "The calling down of a curse or curses.",
+      "id": "4D"
+    },
+    {
+      "word": "ISOCHRONOUS",
+      "clue": "Relating to or denoting equal intervals of time",
+      "definition": "Relating to or denoting equal intervals of time.",
+      "id": "7D"
+    },
+    {
+      "word": "FLORID",
+      "clue": "Flushed with red",
+      "definition": "Flushed with red.",
+      "id": "14A"
+    },
+    {
+      "word": "CANDID",
+      "clue": "Straightforward",
+      "definition": "Straightforward.",
+      "id": "18A"
+    },
+    {
+      "word": "STOLID",
+      "clue": "Expressing no power of feeling or perceiving",
+      "definition": "Expressing no power of feeling or perceiving.",
+      "id": "26A"
+    },
+    {
+      "word": "REGIME",
+      "clue": "Particular conduct or administration of affairs",
+      "definition": "Particular conduct or administration of affairs.",
+      "id": "32A"
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "date": "2027-11-29",
+  "number": 152,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "L",
+      "A",
+      "N",
+      "G",
+      "#",
+      "#",
+      "S",
+      "R",
+      "I"
+    ],
+    [
+      "O",
+      "P",
+      "E",
+      "R",
+      "O",
+      "N",
+      "S",
+      "#",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "F",
+      "R",
+      "A",
+      "U",
+      "D",
+      "U",
+      "L",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "F",
+      "A",
+      "R",
+      "M",
+      "S",
+      "#",
+      "A",
+      "G",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "S",
+      "Y",
+      "N",
+      "#",
+      "#",
+      "I",
+      "N",
+      "G",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "I",
+      "N",
+      "T",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "A",
+      "L",
+      "T",
+      "#",
+      "#",
+      "R",
+      "S",
+      "V"
+    ],
+    [
+      "E",
+      "L",
+      "I",
+      "D",
+      "E",
+      "#",
+      "A",
+      "S",
+      "A",
+      "N",
+      "A"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "J",
+      "U",
+      "N",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "C",
+      "P",
+      "U",
+      "#",
+      "M",
+      "O",
+      "L",
+      "E",
+      "S",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "E",
+      "S",
+      "#",
+      "#",
+      "D",
+      "U",
+      "P",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SLANG",
+      "clue": "Characteristic language of a particular group (as among thieves)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characteristic language of a particular group (as among thieves)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SPRAY",
+      "clue": "Small shoot or branch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small shoot or branch",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LEARN",
+      "clue": "Gain knowledge or information of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gain knowledge or information of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ARUM",
+      "clue": "Genus of plants found in central Europe and about the Mediterranean, having...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of plants found in central Europe and about the Mediterranean, having...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "NODS",
+      "clue": "Gives the go-ahead, gesturally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "GNU",
+      "clue": "Bearded antelope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SINGE",
+      "clue": "To burn slightly or superficially",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Burn slightly or superficially",
+        "Surface burn"
+      ],
+      "definition": "To burn slightly or superficially.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RACES",
+      "clue": "Canals for a current of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Canals for a current of water",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "INERT",
+      "clue": "Inanimate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slow and apathetic",
+        "Destitute of the power of moving itself, or of active resistance to..."
+      ],
+      "definition": "Inanimate.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "OPERONS",
+      "clue": "Segments of DNA containing adjacent genes including structural genes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Segments of DNA containing adjacent genes including structural genes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "OFFS",
+      "clue": "Play-___ (postseason games)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "SLANT",
+      "clue": "Be turned or inclined from a right line or level",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be turned or inclined from a right line or level",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "IAN",
+      "clue": "Actor McKellen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "FRAUDULENCE",
+      "clue": "Deceitfulness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Something intended to deceive"
+      ],
+      "definition": "Deceitfulness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "EGGS",
+      "clue": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oval reproductive body of a fowl (especially a hen) used as food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FARMS",
+      "clue": "Cultivates by growing, often involving improvements by means",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cultivates by growing, often involving improvements by means",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "AGGER",
+      "clue": "Earthwork",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earthwork",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SYN",
+      "clue": "Thesaurus abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "INGEST",
+      "clue": "Take up mentally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take up mentally",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "INT",
+      "clue": "Gram. case for objects, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "HINTS",
+      "clue": "Indications of potential opportunity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indications of potential opportunity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "HADJ",
+      "clue": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fifth pillar of Islam is a pilgrimage to Mecca during the month of Dhu...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "ILEUM",
+      "clue": "Last, and usually the longest, division of the small intestine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Last, and usually the longest, division of the small intestine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "DESALT",
+      "clue": "Remove salt from",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove salt from",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DECCA",
+      "clue": "Old record label",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ELOPE",
+      "clue": "Run away, or escape privately, from the place or station to which one is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run away, or escape privately, from the place or station to which one is...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SINUS",
+      "clue": "An opening or cavity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Opening or cavity",
+        "Wide channel containing blood",
+        "Opening"
+      ],
+      "definition": "An opening or cavity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "RSV",
+      "clue": "Bible version: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "RAISE",
+      "clue": "Cause to become alive again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to become alive again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "SNOTS",
+      "clue": "Nasal mucus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nasal mucus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "VANS",
+      "clue": "Trucks with an enclosed cargo space",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trucks with an enclosed cargo space",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ELIDE",
+      "clue": "Leave or strike out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leave or strike out",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ASANA",
+      "clue": "Posture or manner of sitting (as in the practice of yoga)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Posture or manner of sitting (as in the practice of yoga)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ACLU",
+      "clue": "Civil rights org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Stair unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CONJUNCTION",
+      "clue": "The state of being joined together, or the things so joined",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "State of being joined together, or the things so joined",
+        "Something that joins or connects",
+        "Act of conjoining, or the state of being conjoined, united, or..."
+      ],
+      "definition": "The state of being joined together, or the things so joined.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NOD",
+      "clue": "Be almost asleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be almost asleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "CPU",
+      "clue": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a computer (a microprocessor chip) that does most of the data...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "MOLESTS",
+      "clue": "Annoys continually or chronically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annoys continually or chronically",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "AES",
+      "clue": "Cryptography std.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "DUPES",
+      "clue": "People who are tricked or swindled",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are tricked or swindled",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SINGE",
+      "clue": "To burn slightly or superficially",
+      "definition": "To burn slightly or superficially.",
+      "id": "6D"
+    },
+    {
+      "word": "FRAUDULENCE",
+      "clue": "Deceitfulness",
+      "definition": "Deceitfulness.",
+      "id": "12A"
+    },
+    {
+      "word": "SINUS",
+      "clue": "An opening or cavity",
+      "definition": "An opening or cavity.",
+      "id": "22D"
+    },
+    {
+      "word": "CONJUNCTION",
+      "clue": "The state of being joined together, or the things so joined",
+      "definition": "The state of being joined together, or the things so joined.",
+      "id": "29A"
+    }
+  ]
+}

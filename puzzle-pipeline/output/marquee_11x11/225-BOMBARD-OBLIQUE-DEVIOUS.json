@@ -1,0 +1,941 @@
+{
+  "date": "2028-02-10",
+  "number": 225,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "V",
+      "E",
+      "R",
+      "B",
+      "S",
+      "#",
+      "G",
+      "N",
+      "U",
+      "S"
+    ],
+    [
+      "N",
+      "A",
+      "M",
+      "E",
+      "L",
+      "Y",
+      "#",
+      "L",
+      "A",
+      "S",
+      "H"
+    ],
+    [
+      "A",
+      "L",
+      "B",
+      "I",
+      "O",
+      "N",
+      "#",
+      "O",
+      "S",
+      "S",
+      "A"
+    ],
+    [
+      "W",
+      "O",
+      "O",
+      "#",
+      "B",
+      "O",
+      "M",
+      "B",
+      "A",
+      "R",
+      "D"
+    ],
+    [
+      "A",
+      "U",
+      "L",
+      "D",
+      "#",
+      "D",
+      "A",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "R",
+      "I",
+      "E",
+      "F",
+      "#",
+      "P",
+      "S",
+      "E",
+      "U",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "V",
+      "A",
+      "V",
+      "#",
+      "E",
+      "L",
+      "L",
+      "E"
+    ],
+    [
+      "O",
+      "B",
+      "L",
+      "I",
+      "Q",
+      "U",
+      "E",
+      "#",
+      "U",
+      "C",
+      "A"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "O",
+      "#",
+      "L",
+      "E",
+      "A",
+      "D",
+      "E",
+      "N"
+    ],
+    [
+      "H",
+      "U",
+      "T",
+      "U",
+      "#",
+      "V",
+      "O",
+      "T",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "T",
+      "S",
+      "#",
+      "A",
+      "C",
+      "I",
+      "D",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "VERBS",
+      "clue": "Word classes that serve as the predicate of a sentence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word classes that serve as the predicate of a sentence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "VALOUR",
+      "clue": "Qualities of a hero or heroine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Qualities of a hero or heroine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "EMBOLI",
+      "clue": "Blood clots, plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "REI",
+      "clue": "Portuguese money of account, in value about one tenth of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portuguese money of account, in value about one tenth of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "BLOB",
+      "clue": "Make a spot or mark onto",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a spot or mark onto",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SYNOD",
+      "clue": "An ecclesiastical council",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ecclesiastical council",
+        "Council convened to discuss ecclesiastical business",
+        "Ecclesiastic council or meeting to consult on church matters...."
+      ],
+      "definition": "An ecclesiastical council.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "GNUS",
+      "clue": "Large African antelope having a head with horns like an ox and a long",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large African antelope having a head with horns like an ox and a long",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "GLOBOSE",
+      "clue": "Spherical",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having the shape of a sphere or ball",
+        "Having a rounded form resembling that of a globe"
+      ],
+      "definition": "Spherical.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "NASA",
+      "clue": "Independent agency of the United States government responsible for aviation...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent agency of the United States government responsible for aviation...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "USSR",
+      "clue": "Former communist country in eastern Europe and northern Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former communist country in eastern Europe and northern Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SHAD",
+      "clue": "Herring-like food fishes that migrate from the sea to fresh water to spawn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Herring-like food fishes that migrate from the sea to fresh water to spawn",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "NAMELY",
+      "clue": "As follows",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "As follows",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "NAWAB",
+      "clue": "Governor in India during the Mogul empire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governor in India during the Mogul empire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "LASH",
+      "clue": "Thong or braided cord of a whip, with which the blow is given. I observed...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thong or braided cord of a whip, with which the blow is given. I observed...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ALBION",
+      "clue": "Archaic name for England or Great Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Archaic name for England or Great Britain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "OSSA",
+      "clue": "Bones, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "WOO",
+      "clue": "Make amorous advances towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make amorous advances towards",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "BOMBARD",
+      "clue": "To assail with any missile or with abusive speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assail with any missile or with abusive speech",
+        "Large shawm",
+        "Piece of heavy ordnance formerly used for throwing stones and other..."
+      ],
+      "definition": "To assail with any missile or with abusive speech.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "MAP",
+      "clue": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "AULD",
+      "clue": "Scottish word",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scottish word",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "DEVIOUS",
+      "clue": "Out of the common or regular track",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deviating from a straight course",
+        "Out of a straight line"
+      ],
+      "definition": "Out of the common or regular track.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DAO",
+      "clue": "Way, in Chinese philosophy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "BRIEF",
+      "clue": "Terse?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "TERSE",
+        "EPHEMERAL"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of terse",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "FAQ",
+      "clue": "List of questions that are frequently asked (about a given topic) along with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "List of questions that are frequently asked (about a given topic) along with...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "PSEUD",
+      "clue": "Person who makes deceitful pretenses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who makes deceitful pretenses",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ELUDED",
+      "clue": "Avoided or tried to avoid fulfilling, answering, or performing (duties",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Avoided or tried to avoid fulfilling, answering, or performing (duties",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ULCERS",
+      "clue": "Circumscribed inflammatories and often suppurating lesion on the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Circumscribed inflammatories and often suppurating lesion on the skin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "DEANS",
+      "clue": "Administrators in charge of a division of a university or college",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Administrators in charge of a division of a university or college",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "VAV",
+      "clue": "Sixth Hebrew letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "VULVA",
+      "clue": "External parts of the female genital organs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "External parts of the female genital organs",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ELLE",
+      "clue": "Magazine for women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "OBLIQUE",
+      "clue": "Slanting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slanting; said of lines",
+        "Indirect in departing from the accepted or proper way",
+        "Not erect or perpendicular"
+      ],
+      "definition": "Slanting; said of lines.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "OOHS",
+      "clue": "Reacts to fireworks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "BLUE",
+      "clue": "Having the color of the clear sky, or a hue resembling it, whether lighter or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the color of the clear sky, or a hue resembling it, whether lighter or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "LETT",
+      "clue": "Baltic native, old-style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "EEOC",
+      "clue": "Workplace bias watchdog: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "UCA",
+      "clue": "Fiddler crabs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fiddler crabs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "OLEO",
+      "clue": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LEADEN",
+      "clue": "Made of lead",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made of lead",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ATI",
+      "clue": "Bygone graphics card brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "HUTU",
+      "clue": "Member of a Bantu people living in Rwanda and Burundi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a Bantu people living in Rwanda and Burundi",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "VOTERS",
+      "clue": "Citizens who have a legal right to vote",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Citizens who have a legal right to vote",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SETS",
+      "clue": "Tennis match units",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ACIDS",
+      "clue": "Sour substances",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sour substances",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "GLOBOSE",
+      "clue": "Spherical",
+      "definition": "Spherical.",
+      "id": "6D"
+    },
+    {
+      "word": "BOMBARD",
+      "clue": "To assail with any missile or with abusive speech",
+      "definition": "To assail with any missile or with abusive speech.",
+      "id": "15A"
+    },
+    {
+      "word": "DEVIOUS",
+      "clue": "Out of the common or regular track",
+      "definition": "Out of the common or regular track.",
+      "id": "18D"
+    },
+    {
+      "word": "OBLIQUE",
+      "clue": "Slanting",
+      "definition": "Slanting; said of lines.",
+      "id": "29A"
+    }
+  ]
+}

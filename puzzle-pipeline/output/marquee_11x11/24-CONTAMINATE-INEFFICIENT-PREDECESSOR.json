@@ -1,0 +1,904 @@
+{
+  "date": "2027-07-24",
+  "number": 24,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "I",
+      "O",
+      "N",
+      "#",
+      "L",
+      "A",
+      "P",
+      "P",
+      "#"
+    ],
+    [
+      "P",
+      "O",
+      "N",
+      "C",
+      "E",
+      "#",
+      "A",
+      "C",
+      "R",
+      "E",
+      "#"
+    ],
+    [
+      "I",
+      "N",
+      "E",
+      "R",
+      "T",
+      "#",
+      "D",
+      "E",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "C",
+      "T",
+      "F",
+      "#",
+      "S",
+      "A",
+      "D",
+      "#",
+      "D",
+      "M",
+      "D"
+    ],
+    [
+      "#",
+      "A",
+      "F",
+      "T",
+      "#",
+      "C",
+      "E",
+      "R",
+      "E",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "M",
+      "I",
+      "S",
+      "D",
+      "I",
+      "R",
+      "E",
+      "C",
+      "T",
+      "#"
+    ],
+    [
+      "P",
+      "I",
+      "C",
+      "A",
+      "R",
+      "D",
+      "#",
+      "L",
+      "E",
+      "A",
+      "#"
+    ],
+    [
+      "U",
+      "N",
+      "I",
+      "#",
+      "U",
+      "S",
+      "E",
+      "#",
+      "S",
+      "T",
+      "D"
+    ],
+    [
+      "P",
+      "A",
+      "E",
+      "A",
+      "N",
+      "#",
+      "R",
+      "O",
+      "S",
+      "I",
+      "E"
+    ],
+    [
+      "#",
+      "T",
+      "N",
+      "P",
+      "K",
+      "#",
+      "S",
+      "W",
+      "O",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "E",
+      "T",
+      "A",
+      "S",
+      "#",
+      "T",
+      "E",
+      "R",
+      "N",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,6": {
+      "number": 13
+    },
+    "2,10": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,5": {
+      "number": 17
+    },
+    "3,8": {
+      "number": 18
+    },
+    "4,1": {
+      "number": 19
+    },
+    "4,3": {
+      "number": 20
+    },
+    "4,5": {
+      "number": 21
+    },
+    "4,7": {
+      "number": 22
+    },
+    "5,1": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,7": {
+      "number": 26
+    },
+    "7,0": {
+      "number": 27
+    },
+    "7,4": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "7,8": {
+      "number": 30
+    },
+    "7,10": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,6": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,1": {
+      "number": 36
+    },
+    "9,6": {
+      "number": 37
+    },
+    "10,1": {
+      "number": 38
+    },
+    "10,6": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SCION",
+      "clue": "(a) A shoot or sprout of a plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "(a) A shoot or sprout of a plant",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SPIC",
+      "clue": "Offensive term for persons of Latin American descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for persons of Latin American descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 11,
+      "answer": "CONTAMINATE",
+      "clue": "To pollute",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pollute",
+        "Make impure",
+        "Soil, stain, or corrupt by contact"
+      ],
+      "definition": "To pollute.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "INEFFICIENT",
+      "clue": "Not accomplishing an intended purpose",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking the ability or skill to perform effectively",
+        "Not efficient"
+      ],
+      "definition": "Not accomplishing an intended purpose.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "OCR",
+      "clue": "Scanning tech, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "NETS",
+      "clue": "Computer networks consisting of a worldwide network of computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer networks consisting of a worldwide network of computer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "LAPP",
+      "clue": "Same as Laplander. Cf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Laplander. Cf",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 6,
+      "answer": "LADDER",
+      "clue": "Steps consisting of two parallel members connected by rungs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Steps consisting of two parallel members connected by rungs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PREDECESSOR",
+      "clue": "An incumbent of a given office previous to another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Incumbent of a given office previous to another",
+        "Something that precedes and indicates the approach of something or someone",
+        "One who precedes"
+      ],
+      "definition": "An incumbent of a given office previous to another.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 11,
+      "answer": "PERMUTATION",
+      "clue": "Reciprocal change, different ordering of same items",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of changing the lineal order of objects in a group"
+      ],
+      "definition": "Reciprocal change, different ordering of same items.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "PONCE",
+      "clue": "Spanish explorer ___ de Leon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 6,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Farm unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 5,
+      "answer": "INERT",
+      "clue": "Inanimate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slow and apathetic",
+        "Destitute of the power of moving itself, or of active resistance to..."
+      ],
+      "definition": "Inanimate.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 6,
+      "length": 5,
+      "answer": "DEERE",
+      "clue": "United States industrialist who manufactured plows suitable for working the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States industrialist who manufactured plows suitable for working the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 10,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "CTF",
+      "clue": "Hacker contest, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SAD",
+      "clue": "Sated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sated",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 3,
+      "col": 5,
+      "length": 5,
+      "answer": "ACIDS",
+      "clue": "Sour substances",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sour substances",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "DMD",
+      "clue": "Doctor's degree in dental medicine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctor's degree in dental medicine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 1,
+      "length": 3,
+      "answer": "AFT",
+      "clue": "Near or towards the stern of a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near or towards the stern of a vessel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Airport screening org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "CEREUS",
+      "clue": "Genus of plants of the Cactus family. They are natives of America, from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of plants of the Cactus family. They are natives of America, from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 4,
+      "col": 7,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 5,
+      "col": 1,
+      "length": 9,
+      "answer": "MISDIRECT",
+      "clue": "Give a wrong direction to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give a wrong direction to",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 6,
+      "answer": "DRUNKS",
+      "clue": "People who are intoxicated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are intoxicated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "PICARD",
+      "clue": "One of a sect of Adamites in the fifteenth century",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of a sect of Adamites in the fifteenth century",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "PUP",
+      "clue": "Young dog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young dog",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "A field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
+      "definition": "A field.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "UNI",
+      "clue": "College, in Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "First",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "STD",
+      "clue": "Common, as a feature: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DENS",
+      "clue": "Rooms that are comfortable and secluded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rooms that are comfortable and secluded",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 5,
+      "answer": "PAEAN",
+      "clue": "Formal expression of praise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formal expression of praise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "APA",
+      "clue": "Psychologists' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 6,
+      "length": 5,
+      "answer": "ROSIE",
+      "clue": "Riveter of WWII posters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "OWE",
+      "clue": "Be in debt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be in debt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 1,
+      "length": 4,
+      "answer": "TNPK",
+      "clue": "Toll road, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 6,
+      "length": 5,
+      "answer": "SWOON",
+      "clue": "Pass out from weakness, physical or emotional distress due to a loss of blood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pass out from weakness, physical or emotional distress due to a loss of blood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 1,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "7th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 6,
+      "length": 5,
+      "answer": "TERNS",
+      "clue": "Small slender gulls having narrow wings and a forked tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small slender gulls having narrow wings and a forked tail",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CONTAMINATE",
+      "clue": "To pollute",
+      "definition": "To pollute.",
+      "id": "2D"
+    },
+    {
+      "word": "INEFFICIENT",
+      "clue": "Not accomplishing an intended purpose",
+      "definition": "Not accomplishing an intended purpose.",
+      "id": "3D"
+    },
+    {
+      "word": "PREDECESSOR",
+      "clue": "An incumbent of a given office previous to another",
+      "definition": "An incumbent of a given office previous to another.",
+      "id": "8D"
+    },
+    {
+      "word": "PERMUTATION",
+      "clue": "Reciprocal change, different ordering of same items",
+      "definition": "Reciprocal change, different ordering of same items.",
+      "id": "9D"
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "date": "2028-01-24",
+  "number": 208,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "O",
+      "P",
+      "U",
+      "L",
+      "A",
+      "#",
+      "#",
+      "I",
+      "M",
+      "P"
+    ],
+    [
+      "O",
+      "U",
+      "T",
+      "R",
+      "A",
+      "G",
+      "E",
+      "#",
+      "N",
+      "E",
+      "A"
+    ],
+    [
+      "B",
+      "R",
+      "A",
+      "I",
+      "N",
+      "L",
+      "E",
+      "S",
+      "S",
+      "L",
+      "Y"
+    ],
+    [
+      "S",
+      "S",
+      "H",
+      "#",
+      "C",
+      "O",
+      "N",
+      "N",
+      "O",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "E",
+      "W",
+      "#",
+      "A",
+      "L",
+      "O",
+      "E"
+    ],
+    [
+      "E",
+      "C",
+      "L",
+      "A",
+      "T",
+      "#",
+      "O",
+      "P",
+      "E",
+      "N",
+      "S"
+    ],
+    [
+      "S",
+      "L",
+      "I",
+      "P",
+      "#",
+      "A",
+      "C",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "P",
+      "O",
+      "R",
+      "T",
+      "#",
+      "T",
+      "R",
+      "A"
+    ],
+    [
+      "H",
+      "A",
+      "B",
+      "E",
+      "R",
+      "D",
+      "A",
+      "S",
+      "H",
+      "E",
+      "R"
+    ],
+    [
+      "E",
+      "C",
+      "U",
+      "#",
+      "C",
+      "O",
+      "N",
+      "D",
+      "U",
+      "I",
+      "T"
+    ],
+    [
+      "W",
+      "A",
+      "S",
+      "#",
+      "#",
+      "R",
+      "E",
+      "I",
+      "G",
+      "N",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "COPULA",
+      "clue": "Equating verb (such as `be' or `become') that links the subject with the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Equating verb (such as `be' or `become') that links the subject with the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "COBS",
+      "clue": "Adult male swans",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult male swans",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "OURS",
+      "clue": "Belonging to us",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PTAH",
+      "clue": "Major Egyptian god",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major Egyptian god",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "URI",
+      "clue": "Spoonbender Geller",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "LANCET",
+      "clue": "Surgical instrument of various forms, commonly sharp-pointed and two-edged,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surgical instrument of various forms, commonly sharp-pointed and two-edged,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "AGLOW",
+      "clue": "In a glow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a glow",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IMP",
+      "clue": "Shoot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shoot",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "INSOLE",
+      "clue": "Inside sole of a boot or shoe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inside sole of a boot or shoe",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "MELTON",
+      "clue": "Kind of stout woolen cloth with unfinished face and without raised nap. A...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of stout woolen cloth with unfinished face and without raised nap. A...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "PAYEES",
+      "clue": "British systems of withholding tax",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British systems of withholding tax",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "OUTRAGE",
+      "clue": "A gross infringement of morality or decency",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Gross infringement of morality or decency",
+        "Wantonly cruel act",
+        "Rage in excess of"
+      ],
+      "definition": "A gross infringement of morality or decency.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "EEN",
+      "clue": "Evenings, poetically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "BRAINLESSLY",
+      "clue": "In a not using intelligence manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a not using intelligence manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "SNAPE",
+      "clue": "Bevel the end of a timber to fit against an inclined surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bevel the end of a timber to fit against an inclined surface",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SSH",
+      "clue": "Hushing sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "CONNOTE",
+      "clue": "To mean",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mean",
+        "Mean; signify",
+        "Express or state indirectly",
+        "Mark along with"
+      ],
+      "definition": "To mean; signify.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "NEW",
+      "clue": "Having existed, or having been made, but a short time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having existed, or having been made, but a short time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "NAPPE",
+      "clue": "Sheet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sheet",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ECLAT",
+      "clue": "Brilliant or conspicuous success or effect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brilliant or conspicuous success or effect",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "ESCHEW",
+      "clue": "To keep clear of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Keep clear of",
+        "Avoid and stay away from deliberately",
+        "Shun"
+      ],
+      "definition": "To keep clear of.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "CLOACA",
+      "clue": "Waste pipe that carries away sewage or surface water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Waste pipe that carries away sewage or surface water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "LIMBUS",
+      "clue": "Border or edge of any of various body parts distinguished by color or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Border or edge of any of various body parts distinguished by color or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OPENS",
+      "clue": "Informations that have become public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informations that have become public",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "OCTANE",
+      "clue": "Any isomeric saturated hydrocarbon found in petroleum and used as a fuel and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any isomeric saturated hydrocarbon found in petroleum and used as a fuel and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "SLIP",
+      "clue": "Move along the surface of a thing without bounding, rolling, or stepping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move along the surface of a thing without bounding, rolling, or stepping",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ARDOR",
+      "clue": "Intensity of passion or affection",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feelings of great warmth and intensity",
+        "Heat, in a literal sense"
+      ],
+      "definition": "Intensity of passion or affection.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "COMPORT",
+      "clue": "To conduct or behave (oneself)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Conduct or behave (oneself)",
+        "Behave in a certain manner",
+        "Bear or endure"
+      ],
+      "definition": "To conduct or behave (oneself).",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ORC",
+      "clue": "Grampus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grampus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "TRA",
+      "clue": "\"___-la-la\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "THUG",
+      "clue": "Aggressive and violent young criminal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aggressive and violent young criminal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "REIN",
+      "clue": "A step attached to the bit for controlling a horse or other draft-animal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Step attached to the bit for controlling a horse or other draft-animal",
+        "One of a pair of long straps (usually connected to the bit or the headpiece)...",
+        "Strap of a bridle, fastened to the curb or snaffle on each side,..."
+      ],
+      "definition": "A step attached to the bit for controlling a horse or other draft-animal.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Humanities, informally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "HABERDASHER",
+      "clue": "Merchant who sells men's clothing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Merchant who sells men's clothing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ECU",
+      "clue": "Old French coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CONDUIT",
+      "clue": "A means for conducting something, particularly a tube, pipe, or passageway",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Means for conducting something, particularly a tube, pipe, or passageway",
+        "Means for conducting something, particularly a tube, pipe, or passageway for",
+        "Passage (a pipe or tunnel) through which water or electric wires can pass",
+        "Pipe, canal, channel, or passage for conveying water or fluid. All..."
+      ],
+      "definition": "A means for conducting something, particularly a tube, pipe, or passageway for",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "WAS",
+      "clue": "Existed once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "REIGNS",
+      "clue": "Has sovereign power",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Has sovereign power",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "OUTRAGE",
+      "clue": "A gross infringement of morality or decency",
+      "definition": "A gross infringement of morality or decency.",
+      "id": "10A"
+    },
+    {
+      "word": "CONNOTE",
+      "clue": "To mean",
+      "definition": "To mean; signify.",
+      "id": "16A"
+    },
+    {
+      "word": "COMPORT",
+      "clue": "To conduct or behave (oneself)",
+      "definition": "To conduct or behave (oneself).",
+      "id": "25A"
+    },
+    {
+      "word": "CONDUIT",
+      "clue": "A means for conducting something, particularly a tube, pipe, or passageway",
+      "definition": "A means for conducting something, particularly a tube, pipe, or passageway for",
+      "id": "33A"
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "date": "2027-10-26",
+  "number": 118,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "M",
+      "I",
+      "S",
+      "#",
+      "G",
+      "O",
+      "D",
+      "A",
+      "R",
+      "D"
+    ],
+    [
+      "R",
+      "O",
+      "S",
+      "Y",
+      "#",
+      "A",
+      "V",
+      "E",
+      "N",
+      "U",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "M",
+      "#",
+      "P",
+      "A",
+      "T",
+      "I",
+      "N",
+      "A"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "P",
+      "T",
+      "#",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "E",
+      "S",
+      "C",
+      "H",
+      "E",
+      "W",
+      "#",
+      "R",
+      "I",
+      "C",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "D",
+      "I",
+      "U",
+      "M",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "A",
+      "N",
+      "#",
+      "S",
+      "L",
+      "I",
+      "G",
+      "H",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "#",
+      "#",
+      "A",
+      "N",
+      "N",
+      "I",
+      "E"
+    ],
+    [
+      "R",
+      "U",
+      "M",
+      "O",
+      "U",
+      "R",
+      "#",
+      "A",
+      "A",
+      "R",
+      "P"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "U",
+      "M",
+      "A",
+      "#",
+      "T",
+      "W",
+      "E",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "N",
+      "S",
+      "E",
+      "D",
+      "#",
+      "E",
+      "S",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AMIS",
+      "clue": "Novelist Kingsley",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ARTIE",
+      "clue": "Bandleader Shaw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MORNS",
+      "clue": "Time periods between dawn and noon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time periods between dawn and noon",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ISAAC",
+      "clue": "Second patriarch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second patriarch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "SYMPHONIOUS",
+      "clue": "Marked by a harmonious or agreeable mingling of sounds",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harmonious in sound",
+        "Agreeing in sound"
+      ],
+      "definition": "Marked by a harmonious or agreeable mingling of sounds.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "GODARD",
+      "clue": "French film maker influenced by surrealism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French film maker influenced by surrealism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "GAP",
+      "clue": "Opening in anything made by breaking or parting",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Opening in anything made by breaking or parting",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "OVA",
+      "clue": "Eggs, biologically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "DETERMINATE",
+      "clue": "Definitely limited or fixed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Supplying or being a final or conclusive settlement",
+        "Having defined limits"
+      ],
+      "definition": "Definitely limited or fixed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ANIMI",
+      "clue": "Souls, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RUNIC",
+      "clue": "Relating to or consisting of runes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to or consisting of runes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "DEATH",
+      "clue": "Act of killing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of killing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ROSY",
+      "clue": "Resembling a rose in color, form, or qualities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resembling a rose in color, form, or qualities",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "AVENUE",
+      "clue": "Line of approach",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Line of approach",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "TRAM",
+      "clue": "Four-wheeled truck running on rails, and used in a mine, as for carrying coal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Four-wheeled truck running on rails, and used in a mine, as for carrying coal...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "PATINA",
+      "clue": "Fine coating of oxide on the surface of a metal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fine coating of oxide on the surface of a metal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "INAPT",
+      "clue": "Awkward or slow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not elegant or graceful in expression",
+        "Unapt"
+      ],
+      "definition": "Awkward or slow.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "TED",
+      "clue": "___ Talk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "ESCHEW",
+      "clue": "To keep clear of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Keep clear of",
+        "Avoid and stay away from deliberately",
+        "Shun"
+      ],
+      "definition": "To keep clear of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "WIS",
+      "clue": "Certainly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Certainly",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "RICH",
+      "clue": "Opulent?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "OPULENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of opulent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ODIUM",
+      "clue": "A feeling of extreme repugnance, or of dislike and disgust",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feeling of extreme repugnance, or of dislike and disgust",
+        "Hate coupled with disgust",
+        "Hatred"
+      ],
+      "definition": "A feeling of extreme repugnance, or of dislike and disgust.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "ULA",
+      "clue": "Tassel of cloth, in old usage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "DIAN",
+      "clue": ", Diana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": ", Diana",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DARTS",
+      "clue": "Game in which small pointed missiles are thrown at a dartboard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game in which small pointed missiles are thrown at a dartboard",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "INURE",
+      "clue": "To harden or toughen by use, exercise, or exposure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harden or toughen by use, exercise, or exposure",
+        "Cause to accept or become hardened to",
+        "Apply in use"
+      ],
+      "definition": "To harden or toughen by use, exercise, or exposure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ATMAN",
+      "clue": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "SLIGHT",
+      "clue": "Of a small importance or significance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Being of delicate or slender build",
+        "Sleight"
+      ],
+      "definition": "Of a small importance or significance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "GNAWS",
+      "clue": "Becomes ground down or deteriorate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes ground down or deteriorate",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "HIRES",
+      "clue": "Hers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hers",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "TEPEE",
+      "clue": "Native American tent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native American tent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ANNIE",
+      "clue": "Orphan of Broadway",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "RUMOUR",
+      "clue": "Gossip (usually a mixture of truth and untruth) passed around by word of mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gossip (usually a mixture of truth and untruth) passed around by word of mouth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "UME",
+      "clue": "Japanese plum used for sweet wine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "RAD",
+      "clue": "Unit of plane angle adopted under the Systeme International d'Unites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of plane angle adopted under the Systeme International d'Unites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "AARP",
+      "clue": "Association of people to promote the welfare of senior citizens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Association of people to promote the welfare of senior citizens",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "TRAUMA",
+      "clue": "Emotional wound or shock often having long-lasting effects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Emotional wound or shock often having long-lasting effects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TWEE",
+      "clue": "Affectedly dainty or refined",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affectedly dainty or refined",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SENSED",
+      "clue": "Detected by instinct or inference rather than by recognized perceptual cues",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Detected by instinct or inference rather than by recognized perceptual cues",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SYMPHONIOUS",
+      "clue": "Marked by a harmonious or agreeable mingling of sounds",
+      "definition": "Marked by a harmonious or agreeable mingling of sounds.",
+      "id": "4D"
+    },
+    {
+      "word": "DETERMINATE",
+      "clue": "Definitely limited or fixed",
+      "definition": "Definitely limited or fixed.",
+      "id": "7D"
+    },
+    {
+      "word": "ESCHEW",
+      "clue": "To keep clear of",
+      "definition": "To keep clear of.",
+      "id": "18A"
+    },
+    {
+      "word": "SLIGHT",
+      "clue": "Of a small importance or significance",
+      "definition": "Of a small importance or significance.",
+      "id": "26A"
+    }
+  ]
+}

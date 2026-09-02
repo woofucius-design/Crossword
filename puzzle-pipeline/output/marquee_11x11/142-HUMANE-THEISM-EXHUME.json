@@ -1,0 +1,934 @@
+{
+  "date": "2027-11-19",
+  "number": 142,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "E",
+      "A",
+      "M",
+      "#",
+      "B",
+      "A",
+      "S",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "N",
+      "A",
+      "#",
+      "A",
+      "M",
+      "Y",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "L",
+      "O",
+      "N",
+      "G",
+      "#",
+      "H",
+      "U",
+      "M",
+      "A",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "N",
+      "I",
+      "#",
+      "#",
+      "P",
+      "L",
+      "O",
+      "D"
+    ],
+    [
+      "T",
+      "H",
+      "E",
+      "I",
+      "S",
+      "M",
+      "#",
+      "A",
+      "Y",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "F",
+      "L",
+      "E",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "C",
+      "L",
+      "I",
+      "#",
+      "E",
+      "X",
+      "H",
+      "U",
+      "M",
+      "E"
+    ],
+    [
+      "C",
+      "H",
+      "I",
+      "C",
+      "#",
+      "#",
+      "P",
+      "E",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "E",
+      "L",
+      "Y",
+      "#",
+      "T",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "C",
+      "R",
+      "A",
+      "N",
+      "I",
+      "A",
+      "#",
+      "I",
+      "R",
+      "I",
+      "S"
+    ],
+    [
+      "V",
+      "E",
+      "N",
+      "T",
+      "E",
+      "R",
+      "#",
+      "C",
+      "I",
+      "T",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SEAM",
+      "clue": "Joint consisting of a line formed by joining two pieces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Joint consisting of a line formed by joining two pieces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SALAT",
+      "clue": "Second pillar of Islam is prayer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second pillar of Islam is prayer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ENOCH",
+      "clue": "Biblical patriarch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ANNIE",
+      "clue": "Orphan of Broadway",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MAGNIFICENT",
+      "clue": "Grand or majestic in appearance, quality, or action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by grandeur",
+        "Doing grand things"
+      ],
+      "definition": "Grand or majestic in appearance, quality, or action.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "BASICS",
+      "clue": "Principles from which other truths can be derived",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principles from which other truths can be derived",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "BAH",
+      "clue": "Exclamation expressive of extreme contempt. Twenty-five years ago the vile...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressive of extreme contempt. Twenty-five years ago the vile...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AMU",
+      "clue": "Atomic mass unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SYMPATHETIC",
+      "clue": "Having a fellow-feeling for or like feelings with another or others",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Relating to vibrations that occur as a result of vibrations in a nearby body",
+        "Inclined to sympathy"
+      ],
+      "definition": "Having a fellow-feeling for or like feelings with another or others.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ITALY",
+      "clue": "Republic in southern Europe on the Italian Peninsula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in southern Europe on the Italian Peninsula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "CANOE",
+      "clue": "Small and light boat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small and light boat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SLEDS",
+      "clue": "Vehicles mounted on runners and pulled by horses or dogs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicles mounted on runners and pulled by horses or dogs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ANNA",
+      "clue": "East Indian money of account, the sixteenth of a rupee, or about 2",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "East Indian money of account, the sixteenth of a rupee, or about 2",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "AMYTAL",
+      "clue": "Sodium salt of amobarbital that is used as a barbiturate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sodium salt of amobarbital that is used as a barbiturate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "LONG",
+      "clue": "Verbose?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VERBOSE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of verbose",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "HUMANE",
+      "clue": "Compassionate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Showing evidence of moral and intellectual advancement",
+        "Pertaining to man"
+      ],
+      "definition": "Compassionate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "Grape-cluster-shaped gland sacs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "ISL",
+      "clue": "Atoll: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "PLOD",
+      "clue": "Travel slowly but steadily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel slowly but steadily",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "THEISM",
+      "clue": "Belief in God",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Doctrine or belief in the existence of a God or gods",
+        "Belief or acknowledgment of the existence of a God, as opposed to..."
+      ],
+      "definition": "Belief in God.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "MEE",
+      "clue": "Asian noodle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "AYES",
+      "clue": "Yes votes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "FLEET",
+      "clue": "Moving very fast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moving very fast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "EXP",
+      "clue": "Math power: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "DCLI",
+      "clue": "Roman numeral for 651",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 651",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "DCCCV",
+      "clue": "Roman numeral for 805",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 805",
+      "clueSource": "roman"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "CHORE",
+      "clue": "Small job",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small job",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LIMAN",
+      "clue": "Long narrow lagoon near the mouth of a river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long narrow lagoon near the mouth of a river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "EXHUME",
+      "clue": "To dig out of the earth (what has been buried)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dig out of the earth (what has been buried)",
+        "Dig up for reburial or for medical investigation",
+        "Dig out of the ground"
+      ],
+      "definition": "To dig out of the earth (what has been buried).",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "UTERI",
+      "clue": "Wombs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "MERIT",
+      "clue": "Quality or state of deserving well or ill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality or state of deserving well or ill",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CHIC",
+      "clue": "Good form",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Good form",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "PETER",
+      "clue": "To fail or lose power, efficiency, or value",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fail or lose power, efficiency, or value",
+        "Obscene terms for penis",
+        "Common baptismal name for a man. The name of one of the apostles,..."
+      ],
+      "definition": "To fail or lose power, efficiency, or value.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "COMELY",
+      "clue": "Handsome",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very pleasing to the eye",
+        "Pleasing or agreeable to the sight"
+      ],
+      "definition": "Handsome.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "LIE",
+      "clue": "Fib",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "YAR",
+      "clue": "Nimble, as a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "TERA",
+      "clue": "Three-tone Chadic language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Three-tone Chadic language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "CRANIA",
+      "clue": "Genus of living Brachiopoda",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of living Brachiopoda",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "IRIS",
+      "clue": "Diaphragm consisting of thin overlapping plates that can be adjusted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diaphragm consisting of thin overlapping plates that can be adjusted to change...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "VENTER",
+      "clue": "Bulging body part (as the belly of a muscle)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bulging body part (as the belly of a muscle)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "To refer to specifically",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Refer to specifically",
+        "Short note recognizing a source of information or of a quoted passage",
+        "Call upon officially or authoritatively to appear, as before a..."
+      ],
+      "definition": "To refer to specifically.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MAGNIFICENT",
+      "clue": "Grand or majestic in appearance, quality, or action",
+      "definition": "Grand or majestic in appearance, quality, or action.",
+      "id": "4D"
+    },
+    {
+      "word": "SYMPATHETIC",
+      "clue": "Having a fellow-feeling for or like feelings with another or others",
+      "definition": "Having a fellow-feeling for or like feelings with another or others.",
+      "id": "7D"
+    },
+    {
+      "word": "HUMANE",
+      "clue": "Compassionate",
+      "definition": "Compassionate.",
+      "id": "14A"
+    },
+    {
+      "word": "THEISM",
+      "clue": "Belief in God",
+      "definition": "Belief in God.",
+      "id": "18A"
+    },
+    {
+      "word": "EXHUME",
+      "clue": "To dig out of the earth (what has been buried)",
+      "definition": "To dig out of the earth (what has been buried).",
+      "id": "26A"
+    },
+    {
+      "word": "COMELY",
+      "clue": "Handsome",
+      "definition": "Handsome.",
+      "id": "32A"
+    }
+  ]
+}

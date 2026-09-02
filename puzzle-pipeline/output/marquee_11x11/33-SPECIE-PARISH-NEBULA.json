@@ -1,0 +1,932 @@
+{
+  "date": "2027-08-02",
+  "number": 33,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "T",
+      "A",
+      "R",
+      "#",
+      "D",
+      "E",
+      "W",
+      "L",
+      "A",
+      "P"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "E",
+      "#",
+      "E",
+      "X",
+      "H",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "N",
+      "#",
+      "S",
+      "P",
+      "E",
+      "C",
+      "I",
+      "E"
+    ],
+    [
+      "R",
+      "H",
+      "E",
+      "A",
+      "S",
+      "#",
+      "#",
+      "R",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "I",
+      "S",
+      "H",
+      "#",
+      "E",
+      "S",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "H",
+      "O",
+      "N",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "D",
+      "S",
+      "#",
+      "N",
+      "E",
+      "B",
+      "U",
+      "L",
+      "A"
+    ],
+    [
+      "A",
+      "P",
+      "I",
+      "A",
+      "#",
+      "#",
+      "T",
+      "O",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "G",
+      "N",
+      "E",
+      "T",
+      "#",
+      "U",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "I",
+      "C",
+      "I",
+      "C",
+      "L",
+      "E",
+      "#",
+      "T",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "E",
+      "L",
+      "L",
+      "#",
+      "S",
+      "Y",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "STAR",
+      "clue": "A point of light in the night sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SCARP",
+      "clue": "Band in the same position as the bend sinister, but only half as broad as the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Band in the same position as the bend sinister, but only half as broad as the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TASHA",
+      "clue": "Yar of Star Trek: TNG",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ANSER",
+      "clue": "Typical geese",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Typical geese",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "RENAISSANCE",
+      "clue": "The revival of letters, and then of art, which marks the transition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Revival of letters, and then of art, which marks the transition",
+        "Revival of letters, and then of art, which marks the transition from",
+        "Revival of learning and culture",
+        "New birth, or revival. Specifically: (a) The transitional movement..."
+      ],
+      "definition": "The revival of letters, and then of art, which marks the transition from",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "DEWLAP",
+      "clue": "Hanging fold of loose skin on an elderly person's neck",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hanging fold of loose skin on an elderly person's neck",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "EXP",
+      "clue": "Math power: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "WHEREABOUTS",
+      "clue": "The place in or near which a person or thing is",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Place in or near which a person or thing is",
+        "General location where something is",
+        "About where"
+      ],
+      "definition": "The place in or near which a person or thing is.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "LACES",
+      "clue": "Resinlike substances secreted by certain lac insects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resinlike substances secreted by certain lac insects",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ALIAS",
+      "clue": "An assumed name",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assumed name",
+        "Name that has been assumed temporarily",
+        "Otherwise"
+      ],
+      "definition": "An assumed name.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "PEELE",
+      "clue": "Jordan of horror films",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "CANE",
+      "clue": "Stiff switch used to hit students as punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stiff switch used to hit students as punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "EXHALE",
+      "clue": "To breathe forth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Breathe forth",
+        "Expel air",
+        "Breathe out. Hence: To emit, as vapor"
+      ],
+      "definition": "To breathe forth.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "Org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "SPECIE",
+      "clue": "A coin or coins of gold, silver, copper, or other metal",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Coin or coins of gold, silver, copper, or other metal",
+        "Coins collectively"
+      ],
+      "definition": "A coin or coins of gold, silver, copper, or other metal.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RHEAS",
+      "clue": "Largers of two tall fast-running flightless birds similar to ostriches",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largers of two tall fast-running flightless birds similar to ostriches",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SSH",
+      "clue": "Hushing sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "REAL",
+      "clue": "Capable of being treated as fact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of being treated as fact",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "PARISH",
+      "clue": "The ecclesiastical district in charge of a pastor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ecclesiastical district in charge of a pastor",
+        "Local church community",
+        "(a) That circuit of ground committed to the charge of one parson or..."
+      ],
+      "definition": "The ecclesiastical district in charge of a pastor.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HON",
+      "clue": "Term of endearment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "SHONA",
+      "clue": "Bantu language spoken in Zimbabwe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bantu language spoken in Zimbabwe",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "NET",
+      "clue": "Tennis-court divider",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "PADS",
+      "clue": "Fleshy cushion-like undersides of an animal's foot or of a human's",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy cushion-like undersides of an animal's foot or of a human's",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "PAMIR",
+      "clue": "Central Asian mountain range",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "APACE",
+      "clue": "With rapid movements",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "With rapid movements",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "DIGIT",
+      "clue": "Finger or toe in human beings or corresponding body part in other vertebrates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Finger or toe in human beings or corresponding body part in other vertebrates",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "NEBULA",
+      "clue": "A gaseous body of unorganized stellar substance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Gaseous body of unorganized stellar substance",
+        "Faint cloudy spot on the cornea",
+        "Faint, cloudlike, self-luminous mass of matter situated beyond the..."
+      ],
+      "definition": "A gaseous body of unorganized stellar substance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "UNSAY",
+      "clue": "Take back what one has said",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take back what one has said",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "LEERS",
+      "clue": "Suggestives or sneering look or grin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Suggestives or sneering look or grin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ASSET",
+      "clue": "Useful or valuable quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Useful or valuable quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "APIA",
+      "clue": "Capital of Western Samoa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Western Samoa",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "TONES",
+      "clue": "British units of weight equivalent to pounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British units of weight equivalent to pounds",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "MAGNET",
+      "clue": "A body possessing that peculiar form of polarity found in nature",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Body possessing that peculiar form of polarity found in nature",
+        "Body possessing that peculiar form of polarity found in nature in the",
+        "Loadstone"
+      ],
+      "definition": "A body possessing that peculiar form of polarity found in nature in the",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "ELL",
+      "clue": "Building wing shape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "TEL",
+      "clue": "Phone no. label",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "USES",
+      "clue": "Puts to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ICICLE",
+      "clue": "Ice resembling a pendent spear, formed by the freezing of dripping water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ice resembling a pendent spear, formed by the freezing of dripping water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TARE",
+      "clue": "Counterweight used in chemical analysis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Counterweight used in chemical analysis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "RETELL",
+      "clue": "Say, state, or perform again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Say, state, or perform again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SYST",
+      "clue": "System: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "RENAISSANCE",
+      "clue": "The revival of letters, and then of art, which marks the transition",
+      "definition": "The revival of letters, and then of art, which marks the transition from",
+      "id": "4D"
+    },
+    {
+      "word": "WHEREABOUTS",
+      "clue": "The place in or near which a person or thing is",
+      "definition": "The place in or near which a person or thing is.",
+      "id": "7D"
+    },
+    {
+      "word": "SPECIE",
+      "clue": "A coin or coins of gold, silver, copper, or other metal",
+      "definition": "A coin or coins of gold, silver, copper, or other metal.",
+      "id": "14A"
+    },
+    {
+      "word": "PARISH",
+      "clue": "The ecclesiastical district in charge of a pastor",
+      "definition": "The ecclesiastical district in charge of a pastor.",
+      "id": "18A"
+    },
+    {
+      "word": "NEBULA",
+      "clue": "A gaseous body of unorganized stellar substance",
+      "definition": "A gaseous body of unorganized stellar substance.",
+      "id": "26A"
+    },
+    {
+      "word": "MAGNET",
+      "clue": "A body possessing that peculiar form of polarity found in nature",
+      "definition": "A body possessing that peculiar form of polarity found in nature in the",
+      "id": "32A"
+    }
+  ]
+}

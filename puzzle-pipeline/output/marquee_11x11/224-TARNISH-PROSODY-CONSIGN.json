@@ -1,0 +1,944 @@
+{
+  "date": "2028-02-09",
+  "number": 224,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "D",
+      "U",
+      "L",
+      "T",
+      "#",
+      "B",
+      "A",
+      "A",
+      "S"
+    ],
+    [
+      "C",
+      "L",
+      "E",
+      "V",
+      "E",
+      "R",
+      "#",
+      "U",
+      "L",
+      "N",
+      "A"
+    ],
+    [
+      "A",
+      "E",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#",
+      "R",
+      "A",
+      "T",
+      "S"
+    ],
+    [
+      "L",
+      "P",
+      "M",
+      "#",
+      "T",
+      "A",
+      "R",
+      "N",
+      "I",
+      "S",
+      "H"
+    ],
+    [
+      "E",
+      "P",
+      "I",
+      "C",
+      "#",
+      "T",
+      "A",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "S",
+      "O",
+      "M",
+      "#",
+      "P",
+      "S",
+      "A",
+      "L",
+      "M"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "A",
+      "M",
+      "#",
+      "H",
+      "U",
+      "E",
+      "Y"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "S",
+      "O",
+      "D",
+      "Y",
+      "#",
+      "S",
+      "A",
+      "N"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "I",
+      "#",
+      "C",
+      "O",
+      "N",
+      "T",
+      "R",
+      "A"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "G",
+      "#",
+      "L",
+      "U",
+      "P",
+      "I",
+      "N",
+      "S"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "N",
+      "#",
+      "I",
+      "R",
+      "O",
+      "N",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ADULT",
+      "clue": "Fully developed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fully developed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ALEPPO",
+      "clue": "City in northwestern Syria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northwestern Syria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "DERMIS",
+      "clue": "Deep vascular inner layer of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deep vascular inner layer of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "UVA",
+      "clue": "Small pulpy or juicy fruit containing several seeds and having a thin skin,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small pulpy or juicy fruit containing several seeds and having a thin skin,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "LETT",
+      "clue": "Baltic native, old-style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "TREAT",
+      "clue": "Provide treatment for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provide treatment for",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "BAAS",
+      "clue": "South African term for `boss'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South African term for `boss'",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "BURNISH",
+      "clue": "To make brilliant or shining",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make brilliant or shining",
+        "Property of being smooth and shiny",
+        "Cause to shine"
+      ],
+      "definition": "To make brilliant or shining.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTS",
+      "clue": "Social insects living in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insects living in organized colonies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SASH",
+      "clue": "Scarf or band worn about the waist, over the shoulder, or otherwise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scarf or band worn about the waist, over the shoulder, or otherwise",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "CLEVER",
+      "clue": "Showing inventiveness and skill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Showing inventiveness and skill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "CALEB",
+      "clue": "Biblical spy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "AERATE",
+      "clue": "Combine or charge with gas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Combine or charge with gas",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RATS",
+      "clue": "Gives away information about somebody",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gives away information about somebody",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "LPM",
+      "clue": "Pump output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "TARNISH",
+      "clue": "To lessen or destroy the luster of in any way",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lessen or destroy the luster of in any way",
+        "Discoloration of metal surface caused by oxidation",
+        "Soil, or change the appearance of, especially by an alternation..."
+      ],
+      "definition": "To lessen or destroy the luster of in any way.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "RAP",
+      "clue": "Act of hitting vigorously",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of hitting vigorously",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "A poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Poem celebrating in formal verse the mythical achievements of great personages",
+        "Very imposing or impressive",
+        "Narrated in a grand style"
+      ],
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CONSIGN",
+      "clue": "To entrust",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Entrust",
+        "Give over to another for care or safekeeping",
+        "Give, transfer, or deliver, in a formal manner, as if by signing..."
+      ],
+      "definition": "To entrust.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TAI",
+      "clue": "Most widespread and best known of the Kadai family of languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most widespread and best known of the Kadai family of languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "BOSOM",
+      "clue": "The breast or the upper front of the thorax of a human being, especially",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Breast or the upper front of the thorax of a human being, especially",
+        "Breast or the upper front of the thorax of a human being, especially of a",
+        "Close affectionate and protective acceptance",
+        "Breast of a human being"
+      ],
+      "definition": "The breast or the upper front of the thorax of a human being, especially of a",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "MAO",
+      "clue": "Chairman of old China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "PSALM",
+      "clue": "Sacred song",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sacred song",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "AUSTIN",
+      "clue": "State capital of Texas on the Colorado River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State capital of Texas on the Colorado River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "LEARNS",
+      "clue": "Gains knowledge or skills",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gains knowledge or skills",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "MYNAS",
+      "clue": "Tropical Asian starlings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tropical Asian starlings",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "NAM",
+      "clue": "Am not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Am not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MDCLI",
+      "clue": "Roman numeral for 1651",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1651",
+      "clueSource": "roman"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "HUEY",
+      "clue": "Helicopter type",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PROSODY",
+      "clue": "The science of poetical forms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Science of poetical forms",
+        "Study of poetic meter and the art of versification",
+        "That part of grammar which treats of the quantity of syllables, of..."
+      ],
+      "definition": "The science of poetical forms.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PSST",
+      "clue": "\"Hey, you!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RETE",
+      "clue": "Net or network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Net or network",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OMAR",
+      "clue": "Actor Sharif",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SEMI",
+      "clue": "Big rig",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "CONTRA",
+      "clue": "Member of the guerrilla force that opposed a left-wing government in Nicaragua",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the guerrilla force that opposed a left-wing government in Nicaragua",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "NPO",
+      "clue": "Charity type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Charity type, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "STAG",
+      "clue": "Adult male deer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adult male deer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "LUPINS",
+      "clue": "Any plants of the genus Lupinus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any plants of the genus Lupinus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "TERN",
+      "clue": "Small slender gull having narrow wings and a forked tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small slender gull having narrow wings and a forked tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "IRONS",
+      "clue": "Metal shackles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metal shackles",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "BURNISH",
+      "clue": "To make brilliant or shining",
+      "definition": "To make brilliant or shining.",
+      "id": "6D"
+    },
+    {
+      "word": "TARNISH",
+      "clue": "To lessen or destroy the luster of in any way",
+      "definition": "To lessen or destroy the luster of in any way.",
+      "id": "15A"
+    },
+    {
+      "word": "CONSIGN",
+      "clue": "To entrust",
+      "definition": "To entrust.",
+      "id": "18D"
+    },
+    {
+      "word": "PROSODY",
+      "clue": "The science of poetical forms",
+      "definition": "The science of poetical forms.",
+      "id": "29A"
+    }
+  ]
+}

@@ -1,0 +1,867 @@
+{
+  "date": "2027-09-24",
+  "number": 86,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "D",
+      "D",
+      "#",
+      "A",
+      "L",
+      "M",
+      "O",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "R",
+      "E",
+      "I",
+      "#",
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "R"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "S",
+      "T",
+      "R",
+      "O",
+      "S",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "A",
+      "M",
+      "I",
+      "S",
+      "H",
+      "#",
+      "#",
+      "B",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "C",
+      "A",
+      "M",
+      "E",
+      "R",
+      "A",
+      "#",
+      "E",
+      "R",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "O",
+      "R",
+      "T",
+      "H",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "L",
+      "U",
+      "T",
+      "#",
+      "C",
+      "H",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "K",
+      "E",
+      "P",
+      "I",
+      "#",
+      "#",
+      "A",
+      "V",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "I",
+      "M",
+      "P",
+      "E",
+      "C",
+      "U",
+      "N",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "E",
+      "M",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "O",
+      "B",
+      "S",
+      "#"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "T",
+      "R",
+      "E",
+      "#",
+      "R",
+      "E",
+      "A",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ADD",
+      "clue": "Sum up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AROMA",
+      "clue": "An agreeable odor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Agreeable odor",
+        "Any property detected by the olfactory system",
+        "Quality or principle of plants or other substances which..."
+      ],
+      "definition": "An agreeable odor.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "DENIM",
+      "clue": "Coarse cotton drilling used for overalls, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse cotton drilling used for overalls, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "DISSENTIENT",
+      "clue": "One who disagrees",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Disagreeing, especially with a majority",
+        "Disagreeing"
+      ],
+      "definition": "One who disagrees.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ALMOST",
+      "clue": "Slightly short of or not quite accomplished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly short of or not quite accomplished",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ARR",
+      "clue": "Train sched. listing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "LAO",
+      "clue": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "MISBEHAVIOR",
+      "clue": "Ill or improper behavior",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Improper or wicked or immoral behavior",
+        "Improper, rude, or uncivil behavior"
+      ],
+      "definition": "Ill or improper behavior.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "OSIER",
+      "clue": "Any of various willows having pliable twigs used in basketry and furniture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various willows having pliable twigs used in basketry and furniture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SETTS",
+      "clue": "Rectangulars paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangulars paving stone with curved top",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TRYST",
+      "clue": "Trust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trust",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "REI",
+      "clue": "Portuguese money of account, in value about one tenth of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portuguese money of account, in value about one tenth of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "RAISER",
+      "clue": "Someone concerned with the science or art or business of cultivating the soil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone concerned with the science or art or business of cultivating the soil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MONSTROSITY",
+      "clue": "Anything unnaturally huge or distorted",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Something hideous or frightful",
+        "State of being monstrous, or out of the common order of nature"
+      ],
+      "definition": "Anything unnaturally huge or distorted.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Apple computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "THRO",
+      "clue": "Through, poetically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "AMISH",
+      "clue": "American follower of the Mennonite religion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American follower of the Mennonite religion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "BETS",
+      "clue": "Has faith or confidence in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Has faith or confidence in",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "CAMERA",
+      "clue": "Equipment for taking photographs (usually consisting of a lightproof box",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Equipment for taking photographs (usually consisting of a lightproof box with a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ARC",
+      "clue": "Rainbow shape",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "First",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "NORTH",
+      "clue": "Location in the northern part of a country, region, or city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Location in the northern part of a country, region, or city",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "THAN",
+      "clue": "Particle expressing comparison, used after certain adjectives and adverbs...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particle expressing comparison, used after certain adjectives and adverbs...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "SLUT",
+      "clue": "Untidy woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Untidy woman",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SKIES",
+      "clue": "Atmosphere and outer spaces as viewed from the earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Atmosphere and outer spaces as viewed from the earth",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "LEMMA",
+      "clue": "Heading that indicates the subject of an annotation or a literary...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heading that indicates the subject of an annotation or a literary...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "UPPER",
+      "clue": "Higher in place or position",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Higher in place or position",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "CHANCE",
+      "clue": "Come upon, as if by accident",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Come upon, as if by accident",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "NIOBE",
+      "clue": "Daughter of Tantalus whose boasting about her children provoked Apollo and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Daughter of Tantalus whose boasting about her children provoked Apollo and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CAUSA",
+      "clue": "Comprehensive term for any proceeding in a court of law whereby an individual...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Comprehensive term for any proceeding in a court of law whereby an individual...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ENS",
+      "clue": "Printer's spaces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "KEPI",
+      "clue": "Military cap having a close-fitting band, a round flat top sloping toward the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Military cap having a close-fitting band, a round flat top sloping toward the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "AVIAN",
+      "clue": "Of or instrument to birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or instrument to birds",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "IMPECUNIOUS",
+      "clue": "Having no money",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not having enough money to pay for necessities",
+        "Not having money"
+      ],
+      "definition": "Having no money.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "CDR",
+      "clue": "Navy rank: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "USE",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "EMENDS",
+      "clue": "Makes improvements or corrections to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes improvements or corrections to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "OBS",
+      "clue": "Branches of medicine dealing with childbirth and care of the mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of medicine dealing with childbirth and care of the mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SARTRE",
+      "clue": "French writer and existentialist philosopher (1905-1980)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French writer and existentialist philosopher (1905-1980)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "REA",
+      "clue": "Singer-guitarist Chris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DISSENTIENT",
+      "clue": "One who disagrees",
+      "definition": "One who disagrees.",
+      "id": "3D"
+    },
+    {
+      "word": "MISBEHAVIOR",
+      "clue": "Ill or improper behavior",
+      "definition": "Ill or improper behavior.",
+      "id": "6D"
+    },
+    {
+      "word": "MONSTROSITY",
+      "clue": "Anything unnaturally huge or distorted",
+      "definition": "Anything unnaturally huge or distorted.",
+      "id": "12A"
+    },
+    {
+      "word": "IMPECUNIOUS",
+      "clue": "Having no money",
+      "definition": "Having no money.",
+      "id": "30A"
+    }
+  ]
+}

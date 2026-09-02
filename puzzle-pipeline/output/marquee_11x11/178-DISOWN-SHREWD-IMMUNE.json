@@ -1,0 +1,910 @@
+{
+  "date": "2027-12-25",
+  "number": 178,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "B",
+      "S",
+      "P",
+      "#",
+      "C",
+      "A",
+      "R",
+      "P",
+      "E",
+      "L"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "R",
+      "#",
+      "O",
+      "L",
+      "E",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "E",
+      "A",
+      "V",
+      "E",
+      "#",
+      "D",
+      "I",
+      "S",
+      "O",
+      "W",
+      "N"
+    ],
+    [
+      "A",
+      "C",
+      "O",
+      "M",
+      "A",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "N"
+    ],
+    [
+      "S",
+      "H",
+      "R",
+      "E",
+      "W",
+      "D",
+      "#",
+      "N",
+      "O",
+      "S",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "E",
+      "P",
+      "O",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "G",
+      "N",
+      "I",
+      "#",
+      "I",
+      "M",
+      "M",
+      "U",
+      "N",
+      "E"
+    ],
+    [
+      "B",
+      "L",
+      "O",
+      "T",
+      "#",
+      "#",
+      "S",
+      "E",
+      "T",
+      "O",
+      "N"
+    ],
+    [
+      "H",
+      "O",
+      "M",
+      "A",
+      "G",
+      "E",
+      "#",
+      "N",
+      "E",
+      "V",
+      "E"
+    ],
+    [
+      "O",
+      "B",
+      "I",
+      "T",
+      "E",
+      "R",
+      "#",
+      "T",
+      "R",
+      "A",
+      "M"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "E",
+      "D",
+      "E",
+      "#",
+      "S",
+      "O",
+      "S",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TBSP",
+      "clue": "Cooking meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "TREAS",
+      "clue": "Cabinet dept., briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BEACH",
+      "clue": "Area of sand sloping down to the water of a sea or lake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area of sand sloping down to the water of a sea or lake",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SAVOR",
+      "clue": "To perceive by taste or smell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Perceive by taste or smell",
+        "Taste experience when a savoury condiment is taken into the mouth",
+        "That property of a thing which affects the organs of taste or smell"
+      ],
+      "definition": "To perceive by taste or smell.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PREMEDITATE",
+      "clue": "Think or reflect beforehand or in advance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Think or reflect beforehand or in advance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "CARPEL",
+      "clue": "Simple pistil or single-celled ovary or seed vessel, or one of the parts of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Simple pistil or single-celled ovary or seed vessel, or one of the parts of a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "COD",
+      "clue": "Collecting the charges upon delivery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collecting the charges upon delivery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Boxing legend Muhammad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "RESENTMENTS",
+      "clue": "Feelings of deep and bitter anger and ill-will",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feelings of deep and bitter anger and ill-will",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "PAOLO",
+      "clue": "Old Italian silver coin, worth about ten cents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old Italian silver coin, worth about ten cents",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ETWAS",
+      "clue": "Something, in German",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "LENNY",
+      "clue": "Bruce of comedy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "REAR",
+      "clue": "Early",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Early",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "Acid salt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "EAVE",
+      "clue": "Roof overhang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "DISOWN",
+      "clue": "To refuse to acknowledge as one's own or as connected with oneself",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Refuse to acknowledge as one's own or as connected with oneself",
+        "Cast off",
+        "Refuse to own or acknowledge as belonging to one's self"
+      ],
+      "definition": "To refuse to acknowledge as one's own or as connected with oneself.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ACOMA",
+      "clue": "New Mexico pueblo (Sky City)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "AWE",
+      "clue": "Overwhelming feeling of wonder or admiration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overwhelming feeling of wonder or admiration",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ELAN",
+      "clue": "Stylish flair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "SHREWD",
+      "clue": "Characterized by skill at understanding and profiting by circumstances",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Marked by practical hardheaded intelligence",
+        "Inclining to shrew"
+      ],
+      "definition": "Characterized by skill at understanding and profiting by circumstances.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DPI",
+      "clue": "Print resolution unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Print resolution unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "NOSY",
+      "clue": "Offensively curious or inquisitive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensively curious or inquisitive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DEPOT",
+      "clue": "Place of deposit storing of goods",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place of deposit storing of goods",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Meditation mantras",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AGNI",
+      "clue": "Hindu god of fire in ancient and traditional India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu god of fire in ancient and traditional India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ABHOR",
+      "clue": "Find repugnant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Find repugnant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "GLOBE",
+      "clue": "Sphere on which a map (especially of the earth) is represented",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sphere on which a map (especially of the earth) is represented",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "NOMIC",
+      "clue": "Usual or customary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Customary"
+      ],
+      "definition": "Usual or customary.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "IMMUNE",
+      "clue": "Exempt, as from disease",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not affected by a given influence",
+        "Exempt"
+      ],
+      "definition": "Exempt, as from disease.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "UTERO",
+      "clue": "- (connection with, or relation to, the uterus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "- (connection with, or relation to, the uterus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "NOVAS",
+      "clue": "Stars that eject some of its material in the form of a cloud",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stars that eject some of its material in the form of a cloud",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "ENEMA",
+      "clue": "Injection of a liquid through the anus to stimulate evacuation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Injection of a liquid through the anus to stimulate evacuation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BLOT",
+      "clue": "Act that brings discredit to the person who does it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act that brings discredit to the person who does it",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "SETON",
+      "clue": "United States religious leader who was the first person born in the United...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States religious leader who was the first person born in the United...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "HOMAGE",
+      "clue": "Reverential regard or worship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Respectful deference",
+        "Symbolical acknowledgment made by a feudal tenant to, and in the..."
+      ],
+      "definition": "Reverential regard or worship.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "GED",
+      "clue": "European pike",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "European pike",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "NEVE",
+      "clue": "Upper part of a glacier (beyond the limit of perpetual snow) where the snow...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Upper part of a glacier (beyond the limit of perpetual snow) where the snow...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "OBITER",
+      "clue": "In passing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In passing",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TRAM",
+      "clue": "Four-wheeled truck running on rails, and used in a mine, as for carrying coal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Four-wheeled truck running on rails, and used in a mine, as for carrying coal...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "RECEDE",
+      "clue": "To move back or away",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Move back or away",
+        "Become faint or more distant",
+        "Move back"
+      ],
+      "definition": "To move back or away.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SOSA",
+      "clue": "Slugger Sammy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DISOWN",
+      "clue": "To refuse to acknowledge as one's own or as connected with oneself",
+      "definition": "To refuse to acknowledge as one's own or as connected with oneself.",
+      "id": "14A"
+    },
+    {
+      "word": "SHREWD",
+      "clue": "Characterized by skill at understanding and profiting by circumstances",
+      "definition": "Characterized by skill at understanding and profiting by circumstances.",
+      "id": "18A"
+    },
+    {
+      "word": "IMMUNE",
+      "clue": "Exempt, as from disease",
+      "definition": "Exempt, as from disease.",
+      "id": "26A"
+    },
+    {
+      "word": "HOMAGE",
+      "clue": "Reverential regard or worship",
+      "definition": "Reverential regard or worship.",
+      "id": "32A"
+    }
+  ]
+}

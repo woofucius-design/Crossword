@@ -1,0 +1,906 @@
+{
+  "date": "2027-10-29",
+  "number": 121,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "E",
+      "A",
+      "T",
+      "U",
+      "S",
+      "#",
+      "#",
+      "A",
+      "B",
+      "M"
+    ],
+    [
+      "U",
+      "R",
+      "G",
+      "E",
+      "N",
+      "C",
+      "Y",
+      "#",
+      "M",
+      "R",
+      "I"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "A",
+      "C",
+      "H",
+      "E",
+      "R",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "#",
+      "I",
+      "M",
+      "P",
+      "E",
+      "R",
+      "I",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "O",
+      "#",
+      "B",
+      "E",
+      "T",
+      "A"
+    ],
+    [
+      "C",
+      "O",
+      "B",
+      "O",
+      "L",
+      "#",
+      "M",
+      "I",
+      "S",
+      "S",
+      "Y"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "O",
+      "#",
+      "A",
+      "U",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "#",
+      "G",
+      "M",
+      "O"
+    ],
+    [
+      "V",
+      "A",
+      "L",
+      "E",
+      "D",
+      "I",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "U",
+      "T",
+      "A",
+      "#",
+      "S",
+      "A",
+      "L",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "#",
+      "#",
+      "N",
+      "E",
+      "W",
+      "E",
+      "L",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "MEATUS",
+      "clue": "Natural passage or canal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Natural passage or canal",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "MUTE",
+      "clue": "Cast off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cast off",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ERRS",
+      "clue": "Makes a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes a mistake or be incorrect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AGES",
+      "clue": "Long spans of time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Afternoon cuppa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "UNCIAL",
+      "clue": "Of, pertaining to, or designating, a certain style of letters used in ancient...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of, pertaining to, or designating, a certain style of letters used in ancient...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SCHMO",
+      "clue": "Jerk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Jerk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ABM",
+      "clue": "Cold War defense abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "AMORES",
+      "clue": "Gods of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gods of love",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "BRUITS",
+      "clue": "Tells or spreads rumors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tells or spreads rumors",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "MISLAY",
+      "clue": "To misplace",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Misplace",
+        "Place (something) where one cannot find it again",
+        "Lay in a wrong place"
+      ],
+      "definition": "To misplace.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "URGENCY",
+      "clue": "The pressure of necessity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pressure of necessity",
+        "Pressing importance requiring speedy action",
+        "Quality or condition of being urgent"
+      ],
+      "definition": "The pressure of necessity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "YEP",
+      "clue": "\"Sure thing\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "MRI",
+      "clue": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TREACHEROUS",
+      "clue": "Perfidious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Tending to betray",
+        "Like a traitor"
+      ],
+      "definition": "Perfidious.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "REBID",
+      "clue": "Bridge auction move",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Curvy letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "IMPERIL",
+      "clue": "To endanger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Endanger",
+        "Pose a threat to",
+        "Bring into peril"
+      ],
+      "definition": "To endanger.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "MAO",
+      "clue": "Chairman of old China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "MOORE",
+      "clue": "British sculptor whose works are monumental organic forms (1898-1986)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British sculptor whose works are monumental organic forms (1898-1986)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "BETA",
+      "clue": "Preliminary or testing stage of a software or hardware product",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preliminary or testing stage of a software or hardware product",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "COBOL",
+      "clue": "Common business-oriented language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common business-oriented language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "CORVUS",
+      "clue": "Type genus of the Corvidae: crows and ravens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Corvidae: crows and ravens",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "Acid salt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "BEDLAM",
+      "clue": "Madhouse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pejorative terms for an insane asylum",
+        "Place appropriated to the confinement and care of the insane"
+      ],
+      "definition": "Madhouse.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "MISSY",
+      "clue": "Young woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "MUSCLE",
+      "clue": "Make one's way by force",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make one's way by force",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "OLEO",
+      "clue": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "AUD",
+      "clue": "Theater seating area: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ASIAN",
+      "clue": "Of or relating to or characteristic of Asia or the peoples of Asia or their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or characteristic of Asia or the peoples of Asia or their...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "REDRESS",
+      "clue": "To set right, as a wrong by compensation or the punishment of the wrong-doer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Set right, as a wrong by compensation or the punishment of the wrong-doer",
+        "Act of correcting an error or a fault or an evil",
+        "Dress again"
+      ],
+      "definition": "To set right, as a wrong by compensation or the punishment of the wrong-doer.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "GMO",
+      "clue": "Engineered food, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engineered food, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "GIBE",
+      "clue": "To utter taunts or reproaches",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Utter taunts or reproaches",
+        "Aggressive remark directed at a person like a missile and intended to have a...",
+        "Cast reproaches and sneering expressions"
+      ],
+      "definition": "To utter taunts or reproaches.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "MOLL",
+      "clue": "Minor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Minor",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Singles in a wallet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "VALEDICTION",
+      "clue": "A bidding farewell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Bidding farewell",
+        "Act of saying farewell",
+        "Farewell"
+      ],
+      "definition": "A bidding farewell.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TAW",
+      "clue": "Large marble used for shooting in the game of marbles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large marble used for shooting in the game of marbles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "UTA",
+      "clue": "Reptile genus of Iguanidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reptile genus of Iguanidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SALABLE",
+      "clue": "Capable of being sold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of being sold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SEM",
+      "clue": "Half-yr. at school",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "NEWELS",
+      "clue": "Central pillars of a circular staircase",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central pillars of a circular staircase",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "TREACHEROUS",
+      "clue": "Perfidious",
+      "definition": "Perfidious.",
+      "id": "13A"
+    },
+    {
+      "word": "IMPERIL",
+      "clue": "To endanger",
+      "definition": "To endanger.",
+      "id": "16A"
+    },
+    {
+      "word": "REDRESS",
+      "clue": "To set right, as a wrong by compensation or the punishment of the wrong-doer",
+      "definition": "To set right, as a wrong by compensation or the punishment of the wrong-doer.",
+      "id": "25A"
+    },
+    {
+      "word": "VALEDICTION",
+      "clue": "A bidding farewell",
+      "definition": "A bidding farewell.",
+      "id": "30A"
+    }
+  ]
+}

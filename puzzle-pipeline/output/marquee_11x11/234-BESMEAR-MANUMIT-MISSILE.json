@@ -1,0 +1,897 @@
+{
+  "date": "2028-02-19",
+  "number": 234,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "T",
+      "R",
+      "A",
+      "I",
+      "L",
+      "S",
+      "#",
+      "#",
+      "S",
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "E",
+      "S",
+      "M",
+      "E",
+      "A",
+      "R",
+      "#",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "A",
+      "M",
+      "R",
+      "O",
+      "L",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "P",
+      "E",
+      "A",
+      "#",
+      "M",
+      "A",
+      "N",
+      "U",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "A",
+      "N",
+      "#",
+      "N",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "Y",
+      "A",
+      "W",
+      "L",
+      "S",
+      "#",
+      "F",
+      "A",
+      "N",
+      "G",
+      "S"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "A",
+      "#",
+      "F",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "I",
+      "S",
+      "S",
+      "I",
+      "L",
+      "E",
+      "#",
+      "P",
+      "A",
+      "L"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "P",
+      "R",
+      "A",
+      "C",
+      "T",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "E",
+      "#",
+      "S",
+      "W",
+      "A",
+      "R",
+      "T",
+      "H",
+      "Y"
+    ],
+    [
+      "R",
+      "A",
+      "Y",
+      "#",
+      "#",
+      "S",
+      "L",
+      "A",
+      "T",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "TRAILS",
+      "clue": "Drags loosely along a surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Drags loosely along a surface",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "TBSP",
+      "clue": "Cooking meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "RETE",
+      "clue": "Net or network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Net or network",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ASEA",
+      "clue": "On the ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "IMA",
+      "clue": "Bandleader Sumac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "LEMMAS",
+      "clue": "Headings that indicate the subject of an annotation or a literary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Headings that indicate the subject of an annotation or a literary",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SARAN",
+      "clue": "Any of various thermoplastic resins used to make things",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various thermoplastic resins used to make things",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SAC",
+      "clue": "Structure resembling a bag in an animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structure resembling a bag in an animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "SALMON",
+      "clue": "Any of various large food and game fishes of northern waters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various large food and game fishes of northern waters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "AGEING",
+      "clue": "Growing old",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Growing old",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "CERTES",
+      "clue": "Certainly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Certainly",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "BESMEAR",
+      "clue": "To smear over, as with any oily or sticky substance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Smear over, as with any oily or sticky substance",
+        "Spread or daub (a surface)",
+        "Smear with any viscous, glutinous matter"
+      ],
+      "definition": "To smear over, as with any oily or sticky substance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "RON",
+      "clue": "Chadic language spoken in northern Nigeria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chadic language spoken in northern Nigeria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AGE",
+      "clue": "Number of candles on the cake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "STEAMROLLER",
+      "clue": "Vehicle equipped with heavy wide smooth rollers for compacting roads and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle equipped with heavy wide smooth rollers for compacting roads and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "LUNAR",
+      "clue": "Pertaining to the moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to or associated with the moon",
+        "Of or pertaining to the moon"
+      ],
+      "definition": "Pertaining to the moon.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "PEA",
+      "clue": "Sliding weight on a steelyard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sliding weight on a steelyard",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "MANUMIT",
+      "clue": "To set free from bondage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Set free from bondage",
+        "Free from slavery or servitude",
+        "Release from slavery"
+      ],
+      "definition": "To set free from bondage.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "CAN",
+      "clue": "Soup container",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "CLASP",
+      "clue": "Act of grasping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of grasping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "NONE",
+      "clue": "Not at all or in no way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not at all or in no way",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "YAWLS",
+      "clue": "Emits long loud cries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Emits long loud cries",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "YAMMER",
+      "clue": "Complain whiningly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Complain whiningly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ARIANA",
+      "clue": "City in Tunisia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Tunisia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "WESLEY",
+      "clue": "English clergyman and founder of Methodism (1703-1791)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English clergyman and founder of Methodism (1703-1791)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FANGS",
+      "clue": "Hollows or grooved tooth of a venomous snake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hollows or grooved tooth of a venomous snake",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "FAECAL",
+      "clue": "Of or relating to feces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to feces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Length times width",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "FAR",
+      "clue": "Located at a great distance in time or space or degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Located at a great distance in time or space or degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "FLAWS",
+      "clue": "Imperfections in a plan or theory or legal document that causes it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperfections in a plan or theory or legal document that causes it",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "MISSILE",
+      "clue": "Any object, especially a weapon, thrown or intended to be thrown",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rocket carrying a warhead of conventional or nuclear explosives",
+        "Capable of being thrown"
+      ],
+      "definition": "Any object, especially a weapon, thrown or intended to be thrown.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "IRS",
+      "clue": "Taxing org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "PAL",
+      "clue": "Buddy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "PITT",
+      "clue": "English statesman who brought the Seven Years' War to an end (1708-1778)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English statesman who brought the Seven Years' War to an end (1708-1778)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "To be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LEYS",
+      "clue": "Fields covered with grass or herbage and suitable for grazing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fields covered with grass or herbage and suitable for grazing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MALPRACTICE",
+      "clue": "Evil practice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evil practice",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TRA",
+      "clue": "\"___-la-la\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point toward sunrise-ish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SWARTHY",
+      "clue": "Having a dark hue, especially a dark or sunburned complexion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Naturally having skin of a dark color",
+        "Being of a dark hue or dusky complexion"
+      ],
+      "definition": "Having a dark hue, especially a dark or sunburned complexion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "RAY",
+      "clue": "Array",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Array",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SLATES",
+      "clue": "Thin strip (woods or metals)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin strip (woods or metals)",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "BESMEAR",
+      "clue": "To smear over, as with any oily or sticky substance",
+      "definition": "To smear over, as with any oily or sticky substance.",
+      "id": "10A"
+    },
+    {
+      "word": "MANUMIT",
+      "clue": "To set free from bondage",
+      "definition": "To set free from bondage.",
+      "id": "16A"
+    },
+    {
+      "word": "MISSILE",
+      "clue": "Any object, especially a weapon, thrown or intended to be thrown",
+      "definition": "Any object, especially a weapon, thrown or intended to be thrown.",
+      "id": "25A"
+    },
+    {
+      "word": "SWARTHY",
+      "clue": "Having a dark hue, especially a dark or sunburned complexion",
+      "definition": "Having a dark hue, especially a dark or sunburned complexion.",
+      "id": "33A"
+    }
+  ]
+}

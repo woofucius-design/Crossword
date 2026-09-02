@@ -1,0 +1,948 @@
+{
+  "date": "2028-02-01",
+  "number": 216,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "P",
+      "O",
+      "I",
+      "L",
+      "#",
+      "R",
+      "O",
+      "W",
+      "S"
+    ],
+    [
+      "B",
+      "O",
+      "L",
+      "E",
+      "R",
+      "O",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "A",
+      "R",
+      "A",
+      "R",
+      "A",
+      "T",
+      "#",
+      "T",
+      "I",
+      "N",
+      "A"
+    ],
+    [
+      "I",
+      "R",
+      "S",
+      "#",
+      "Q",
+      "U",
+      "A",
+      "R",
+      "T",
+      "E",
+      "T"
+    ],
+    [
+      "R",
+      "O",
+      "M",
+      "P",
+      "#",
+      "S",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "W",
+      "A",
+      "R",
+      "F",
+      "#",
+      "D",
+      "C",
+      "C",
+      "C",
+      "I"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "Y",
+      "E",
+      "#",
+      "E",
+      "A",
+      "R",
+      "L"
+    ],
+    [
+      "W",
+      "I",
+      "T",
+      "L",
+      "I",
+      "N",
+      "G",
+      "#",
+      "R",
+      "O",
+      "I"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "A",
+      "#",
+      "A",
+      "R",
+      "J",
+      "U",
+      "N",
+      "A"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "#",
+      "C",
+      "E",
+      "A",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "A",
+      "S",
+      "Y",
+      "#",
+      "T",
+      "Y",
+      "P",
+      "O",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SPOIL",
+      "clue": "Act of stripping and taking by force",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of stripping and taking by force",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SORROW",
+      "clue": "Uneasiness or pain of mind which is produced by the loss of any good, real...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uneasiness or pain of mind which is produced by the loss of any good, real...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "PLASMA",
+      "clue": "The fourth state of matter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "OER",
+      "clue": "Above, to a poet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "IRAQ",
+      "clue": "Republic in the Middle East in western Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in the Middle East in western Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "LOTUS",
+      "clue": "(a) A name of several kinds of water lilies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "(a) A name of several kinds of water lilies",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ROWS",
+      "clue": "Propels with oars",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Propels with oars",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "RETRACE",
+      "clue": "To follow backward or toward the place of beginning, as a track or marking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Follow backward or toward the place of beginning, as a track or marking",
+        "Reassemble mentally"
+      ],
+      "definition": "To follow backward or toward the place of beginning, as a track or marking.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "OMIT",
+      "clue": "Let go",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Let go",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "WINE",
+      "clue": "Expressed juice of grapes, esp. when fermented",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Expressed juice of grapes, esp. when fermented",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "STAT",
+      "clue": "ASAP, in medicine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BOLERO",
+      "clue": "A Spanish dance, illustrative of the passion of love, accompanied by caste nets",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Spanish dance, illustrative of the passion of love, accompanied by caste nets",
+        "Spanish dance in triple time accompanied by guitar and castanets",
+        "Spanish dance, or the lively music which accompanies it"
+      ],
+      "definition": "A Spanish dance, illustrative of the passion of love, accompanied by caste nets",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BAIRD",
+      "clue": "TV pioneer John Logie",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ARARAT",
+      "clue": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TINA",
+      "clue": "Singer Turner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "IRS",
+      "clue": "Taxing org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "QUARTET",
+      "clue": "A composition for four voices or four instruments",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Composition for four voices or four instruments",
+        "Musical composition for four performers",
+        "(a) A composition in four parts, each performed by a single voice or..."
+      ],
+      "definition": "A composition for four voices or four instruments.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ROMP",
+      "clue": "Win easily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Win easily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "PRELACY",
+      "clue": "A system of church government",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "System of church government",
+        "Office or station of a prelate",
+        "Office or dignity of a prelate"
+      ],
+      "definition": "A system of church government.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SEA",
+      "clue": "Sailor's expanse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "DWARF",
+      "clue": "Animal or plant which is much below the ordinary size of its species or kind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animal or plant which is much below the ordinary size of its species or kind",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "FYI",
+      "clue": "For your info, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "For your info, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "DCCCI",
+      "clue": "Roman numeral for 801",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 801",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "CARUSO",
+      "clue": "Outstanding Italian operatic tenor (1873-1921)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outstanding Italian operatic tenor (1873-1921)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "CRONES",
+      "clue": "Ugly evil-looking old women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ugly evil-looking old women",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "ILIAD",
+      "clue": "A Greek epic poem describing scenes from the siege of Troy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Greek epic poem describing scenes from the siege of Troy",
+        "Greek epic poem (attributed to Homer) describing the siege of Troy",
+        "Celebrated Greek epic poem, in twenty-four books, on the..."
+      ],
+      "definition": "A Greek epic poem describing scenes from the siege of Troy.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "EYE",
+      "clue": "Needle's hole",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ENACT",
+      "clue": "To make into law, as by legislative act",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make into law, as by legislative act",
+        "Act out",
+        "Decree"
+      ],
+      "definition": "To make into law, as by legislative act.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "EARL",
+      "clue": "British peer ranking below a marquess and above a viscount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British peer ranking below a marquess and above a viscount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "WITLING",
+      "clue": "A person who has little understanding",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Person who has little understanding",
+        "Person who has little wit or understanding"
+      ],
+      "definition": "A person who has little understanding.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "WIDE",
+      "clue": "Or over a great extent or range",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Or over a great extent or range",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "TESS",
+      "clue": "Hardy's d'Urberville heroine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "GREY",
+      "clue": "Horse of a light gray or whitish color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horse of a light gray or whitish color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ROI",
+      "clue": "Investor's concern, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ARJUNA",
+      "clue": "Warrior prince in the Bhagavad-Gita to whom Krishna explains the nature of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Warrior prince in the Bhagavad-Gita to whom Krishna explains the nature of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "JAP",
+      "clue": "Offensive term for a person of Japanese descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for a person of Japanese descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DISC",
+      "clue": "Flat round plate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat round plate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "CEASED",
+      "clue": "Had an end, in a temporal, spatial, or quantitative sense",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Had an end, in a temporal, spatial, or quantitative sense",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "EASY",
+      "clue": "Like pie, in a saying",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TYPOS",
+      "clue": "Mistakes in printed matter resulting from mechanical failures of some",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mistakes in printed matter resulting from mechanical failures of some",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "RETRACE",
+      "clue": "To follow backward or toward the place of beginning, as a track or marking",
+      "definition": "To follow backward or toward the place of beginning, as a track or marking.",
+      "id": "6D"
+    },
+    {
+      "word": "QUARTET",
+      "clue": "A composition for four voices or four instruments",
+      "definition": "A composition for four voices or four instruments.",
+      "id": "15A"
+    },
+    {
+      "word": "PRELACY",
+      "clue": "A system of church government",
+      "definition": "A system of church government.",
+      "id": "18D"
+    },
+    {
+      "word": "WITLING",
+      "clue": "A person who has little understanding",
+      "definition": "A person who has little understanding.",
+      "id": "29A"
+    }
+  ]
+}

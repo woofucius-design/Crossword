@@ -1,0 +1,899 @@
+{
+  "date": "2027-10-10",
+  "number": 102,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "P",
+      "A",
+      "R",
+      "S",
+      "E",
+      "#",
+      "#",
+      "B",
+      "B",
+      "S"
+    ],
+    [
+      "N",
+      "A",
+      "U",
+      "T",
+      "I",
+      "L",
+      "I",
+      "#",
+      "R",
+      "E",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "E",
+      "M",
+      "U",
+      "N",
+      "D",
+      "A",
+      "N",
+      "E"
+    ],
+    [
+      "P",
+      "T",
+      "O",
+      "#",
+      "I",
+      "D",
+      "O",
+      "L",
+      "I",
+      "Z",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "E",
+      "#",
+      "I",
+      "D",
+      "Y",
+      "L"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "E",
+      "N",
+      "#",
+      "L",
+      "I",
+      "S",
+      "L",
+      "E"
+    ],
+    [
+      "L",
+      "E",
+      "N",
+      "T",
+      "#",
+      "C",
+      "A",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "C",
+      "T",
+      "A",
+      "G",
+      "O",
+      "N",
+      "#",
+      "D",
+      "A",
+      "L"
+    ],
+    [
+      "B",
+      "U",
+      "R",
+      "E",
+      "A",
+      "U",
+      "C",
+      "R",
+      "A",
+      "C",
+      "Y"
+    ],
+    [
+      "A",
+      "S",
+      "E",
+      "#",
+      "S",
+      "P",
+      "E",
+      "E",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "L",
+      "E",
+      "E",
+      "#",
+      "#",
+      "E",
+      "S",
+      "P",
+      "A",
+      "D",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SPARSE",
+      "clue": "Thinly diffused",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not dense",
+        "Thinly scattered"
+      ],
+      "definition": "Thinly diffused.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SNAP",
+      "clue": "Break at once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Break at once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "PANT",
+      "clue": "Short labored intake of breath with the mouth open",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short labored intake of breath with the mouth open",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AUTO",
+      "clue": "Motor vehicle with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicle with four wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SIMIAN",
+      "clue": "Of or pertaining to the family Simiad\u00e6, which, in its widest sense, includes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to the family Simiad\u00e6, which, in its widest sense, includes...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ELUDE",
+      "clue": "To evade the search or pursuit of by dexterity or artifice",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Evade the search or pursuit of by dexterity or artifice",
+        "Avoid or try to avoid fulfilling, answering, or performing (duties, questions,...",
+        "Avoid slyly, by artifice, stratagem, or dexterity"
+      ],
+      "definition": "To evade the search or pursuit of by dexterity or artifice.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "BBS",
+      "clue": "Computer that is running software that allows users to leave messages and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer that is running software that allows users to leave messages and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "BRAIDS",
+      "clue": "Trimmings used to decorate clothes or curtains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trimmings used to decorate clothes or curtains",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "BENZYL",
+      "clue": "Compound radical, C6H5.CH2, related to toluene and benzoic acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compound radical, C6H5.CH2, related to toluene and benzoic acid",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "STEELE",
+      "clue": "English writer (1672-1729)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English writer (1672-1729)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "NAUTILI",
+      "clue": "Sea snails, plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "INO",
+      "clue": "Sea goddess of Greek myth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RET",
+      "clue": "Place (flax, hemp, or jute) in liquid so as to promote loosening",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place (flax, hemp, or jute) in liquid so as to promote loosening of the fibers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ANTEMUNDANE",
+      "clue": "Pertaining to time before the world's creation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Being or occurring before the creation of the world"
+      ],
+      "definition": "Pertaining to time before the world's creation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "DLIII",
+      "clue": "Roman numeral for 553",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 553",
+      "clueSource": "roman"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "PTO",
+      "clue": "Device that transfers power from an engine (as in a tractor or other motor...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Device that transfers power from an engine (as in a tractor or other motor...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "IDOLIZE",
+      "clue": "To regard with inordinate love or admiration",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Regard with inordinate love or admiration",
+        "Love unquestioningly and uncritically or to excess"
+      ],
+      "definition": "To regard with inordinate love or admiration.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "SAE",
+      "clue": "Frat letters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "SETAE",
+      "clue": "Bristles, in biology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "IDYL",
+      "clue": "Short poem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short poem",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "GREEN",
+      "clue": "Of the color between blue and yellow in the color spectrum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of the color between blue and yellow in the color spectrum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "GLOBAL",
+      "clue": "Involving the entire earth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Involving the entire earth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "RECUSE",
+      "clue": "Refuse or reject, as a judge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Refuse or reject, as a judge",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "ENTREE",
+      "clue": "The act of entering",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of entering",
+        "Coming in, or entrance"
+      ],
+      "definition": "The act of entering.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "LISLE",
+      "clue": "Strong tightly twisted cotton thread (usually made of long-staple cotton)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong tightly twisted cotton thread (usually made of long-staple cotton)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "LANCES",
+      "clue": "Surgical knives with a pointed double-edged blade",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surgical knives with a pointed double-edged blade",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "LENT",
+      "clue": "Period of 40 weekdays from Ash Wednesday to Holy Saturday",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Period of 40 weekdays from Ash Wednesday to Holy Saturday",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "CAI",
+      "clue": "Pinyin surname meaning vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "COUPE",
+      "clue": "Car with two doors and front seats and a luggage compartment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Car with two doors and front seats and a luggage compartment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "OCTAGON",
+      "clue": "A figure with eight sides and eight angles",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Figure with eight sides and eight angles",
+        "Eight-sided polygon",
+        "Plane figure of eight sides and eight angles"
+      ],
+      "definition": "A figure with eight sides and eight angles.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "GAS",
+      "clue": "Show off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Show off",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "DAL",
+      "clue": "Metric unit of volume or capacity equal to 10 liters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metric unit of volume or capacity equal to 10 liters",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "DADA",
+      "clue": "Nihilistic art movement (especially in painting) that flourished in Europe...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nihilistic art movement (especially in painting) that flourished in Europe...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ACED",
+      "clue": "Got 100 on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LYRA",
+      "clue": "Northern constellation, the Harp, containing a white star of the first...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Northern constellation, the Harp, containing a white star of the first...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "BUREAUCRACY",
+      "clue": "Government by departments of men transacting particular branches of public",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Any organization in which action is obstructed by insistence on unnecessary...",
+        "System of carrying on the business of government by means of..."
+      ],
+      "definition": "Government by departments of men transacting particular branches of public",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "REP",
+      "clue": "Fabric made of silk or wool, or of silk and wool, and having a transversely...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fabric made of silk or wool, or of silk and wool, and having a transversely...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ASE",
+      "clue": "Enzyme suffix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SPEEDER",
+      "clue": "One who moves faster",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who moves faster",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Sheltered side, at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ESPADA",
+      "clue": "Spanish swordsman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ANTEMUNDANE",
+      "clue": "Pertaining to time before the world's creation",
+      "definition": "Pertaining to time before the world's creation.",
+      "id": "13A"
+    },
+    {
+      "word": "IDOLIZE",
+      "clue": "To regard with inordinate love or admiration",
+      "definition": "To regard with inordinate love or admiration.",
+      "id": "16A"
+    },
+    {
+      "word": "OCTAGON",
+      "clue": "A figure with eight sides and eight angles",
+      "definition": "A figure with eight sides and eight angles.",
+      "id": "25A"
+    },
+    {
+      "word": "BUREAUCRACY",
+      "clue": "Government by departments of men transacting particular branches of public",
+      "definition": "Government by departments of men transacting particular branches of public",
+      "id": "30A"
+    }
+  ]
+}

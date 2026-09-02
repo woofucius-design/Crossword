@@ -1,0 +1,904 @@
+{
+  "date": "2027-11-18",
+  "number": 141,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "T",
+      "R",
+      "#",
+      "I",
+      "C",
+      "E",
+      "C",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "E",
+      "W",
+      "E",
+      "#",
+      "N",
+      "U",
+      "R",
+      "T",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "F",
+      "#",
+      "G",
+      "R",
+      "A",
+      "N",
+      "G",
+      "E",
+      "R"
+    ],
+    [
+      "V",
+      "E",
+      "L",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#",
+      "U",
+      "S",
+      "A"
+    ],
+    [
+      "E",
+      "D",
+      "E",
+      "M",
+      "A",
+      "T",
+      "A",
+      "#",
+      "S",
+      "S",
+      "I"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "A",
+      "F",
+      "#",
+      "L",
+      "E",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "U",
+      "T",
+      "#",
+      "T",
+      "R",
+      "I",
+      "V",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "O",
+      "S",
+      "I",
+      "#",
+      "#",
+      "A",
+      "M",
+      "A",
+      "N",
+      "T",
+      "E"
+    ],
+    [
+      "S",
+      "U",
+      "B",
+      "L",
+      "I",
+      "M",
+      "E",
+      "#",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "A",
+      "L",
+      "O",
+      "M",
+      "O",
+      "N",
+      "#",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "E",
+      "L",
+      "E",
+      "G",
+      "A",
+      "N",
+      "T",
+      "#",
+      "N",
+      "E",
+      "O"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "STR",
+      "clue": "Road: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SERVE",
+      "clue": "Work for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Work for",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TWEED",
+      "clue": "Soft and flexible fabric for men's wear, made wholly of wool except in some...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft and flexible fabric for men's wear, made wholly of wool except in some...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "REFLECTIBLE",
+      "clue": "Capable of being turned back",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Capable of being turned back.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "ICECAPS",
+      "clue": "Masses of ice and snow that permanently covers a large area of land (e",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Masses of ice and snow that permanently covers a large area of land (e",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "INGRAFT",
+      "clue": "To set or implant deeply and firmly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Set or implant deeply and firmly",
+        "Cause to grow together parts from different plants",
+        "Insert, as a scion of one tree, shrub, or plant in another for..."
+      ],
+      "definition": "To set or implant deeply and firmly.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "CURST",
+      "clue": "Deserving a curse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deserving a curse",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "CTN",
+      "clue": "Shipping box: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "AUGUSTINIAN",
+      "clue": "Pertaining to St",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pertaining to st. augustine, his doctrines, or the religious orders",
+        "Member of one of the religious orders called after St"
+      ],
+      "definition": "Pertaining to St. Augustine, his doctrines, or the religious orders",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "PRESS",
+      "clue": "Ask for or request earnestly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ask for or request earnestly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SERAI",
+      "clue": "Palace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Palace",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "EWE",
+      "clue": "Female sheep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female sheep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "NURTURE",
+      "clue": "The process of fostering or promoting growth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Process of fostering or promoting growth",
+        "Helping someone grow up to be an accepted member of the community",
+        "Act of nourishing or nursing"
+      ],
+      "definition": "The process of fostering or promoting growth.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "REF",
+      "clue": "Whistle blower on the court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "GRANGER",
+      "clue": "Person who operates a farm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who operates a farm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "VELARS",
+      "clue": "Consonants produced with the back of the tongue touching",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Consonants produced with the back of the tongue touching",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "Doctors' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Home of the brave, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "EDEMATA",
+      "clue": "Fluid swellings, medically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "ALIMENT",
+      "clue": "That which nourishes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Source of materials to nourish the body"
+      ],
+      "definition": "That which nourishes.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "SSI",
+      "clue": "Disability program: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "CAF",
+      "clue": "Casual eatery, in slang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Allow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "EVA",
+      "clue": "Actress Mendes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "PUT",
+      "clue": "Option to sell a given stock (or stock index or commodity future) at a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Option to sell a given stock (or stock index or commodity future) at a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "POSSE",
+      "clue": "A force of men",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Force of men",
+        "Temporary police force"
+      ],
+      "definition": "A force of men.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "USUAL",
+      "clue": "Such as is in common use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Such as is in common use",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "TRIVIAL",
+      "clue": "Of little importance or value",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small and of little importance",
+        "Found anywhere"
+      ],
+      "definition": "Of little importance or value.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "RAMON",
+      "clue": "Spanish form of Raymond",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ATONE",
+      "clue": "To make amends for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make amends for",
+        "Turn away from sin or do penitence",
+        "Set at one"
+      ],
+      "definition": "To make amends for.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "LENTO",
+      "clue": "In music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In music",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "Networking model, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "AMANTE",
+      "clue": "Lover, in Madrid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "SUBLIME",
+      "clue": "Lifted up or set high",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lifted up or set high",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "LOG",
+      "clue": "Measuring instrument that consists of a float that trails from a ship by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instrument that consists of a float that trails from a ship by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "IMA",
+      "clue": "Bandleader Sumac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ION",
+      "clue": "Charged particle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "SALOMON",
+      "clue": "American financier and American Revolutionary War patriot who helped fund the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American financier and American Revolutionary War patriot who helped fund the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "ANT",
+      "clue": "Picnic invader",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "ELEGANT",
+      "clue": "Very choice, and hence, pleasing to good taste",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very choice, and hence, pleasing to good taste",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "NEO",
+      "clue": "Prefix meaning new",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "REFLECTIBLE",
+      "clue": "Capable of being turned back",
+      "definition": "Capable of being turned back.",
+      "id": "3D"
+    },
+    {
+      "word": "INGRAFT",
+      "clue": "To set or implant deeply and firmly",
+      "definition": "To set or implant deeply and firmly.",
+      "id": "4D"
+    },
+    {
+      "word": "AUGUSTINIAN",
+      "clue": "Pertaining to St",
+      "definition": "Pertaining to St. Augustine, his doctrines, or the religious orders",
+      "id": "8D"
+    },
+    {
+      "word": "ALIMENT",
+      "clue": "That which nourishes",
+      "definition": "That which nourishes.",
+      "id": "19D"
+    }
+  ]
+}

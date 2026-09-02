@@ -1,0 +1,907 @@
+{
+  "date": "2027-11-21",
+  "number": 144,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "P",
+      "S",
+      "#",
+      "A",
+      "C",
+      "C",
+      "O",
+      "S",
+      "T"
+    ],
+    [
+      "G",
+      "U",
+      "R",
+      "U",
+      "#",
+      "F",
+      "I",
+      "A",
+      "S",
+      "C",
+      "O"
+    ],
+    [
+      "O",
+      "L",
+      "O",
+      "F",
+      "#",
+      "T",
+      "I",
+      "T",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "R",
+      "U",
+      "F",
+      "F",
+      "S",
+      "#",
+      "#",
+      "H",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "I",
+      "S",
+      "I",
+      "#",
+      "O",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "A",
+      "B",
+      "A",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "D",
+      "L",
+      "I",
+      "#",
+      "M",
+      "A",
+      "I",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "I",
+      "E",
+      "E",
+      "E",
+      "#",
+      "#",
+      "M",
+      "C",
+      "X",
+      "L",
+      "I"
+    ],
+    [
+      "F",
+      "L",
+      "A",
+      "N",
+      "G",
+      "E",
+      "#",
+      "I",
+      "V",
+      "A",
+      "N"
+    ],
+    [
+      "F",
+      "I",
+      "S",
+      "C",
+      "A",
+      "L",
+      "#",
+      "T",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "S",
+      "A",
+      "T",
+      "Y",
+      "R",
+      "S",
+      "#",
+      "Y",
+      "I",
+      "D",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALPS",
+      "clue": "Swiss peaks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "AGORA",
+      "clue": "Ancient Greek marketplace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LULUS",
+      "clue": "Very attractives or seductives looking woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very attractives or seductives looking woman",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "PROFS",
+      "clue": "People who are a member of the faculty at a college or university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are a member of the faculty at a college or university",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "SUFFICIENCY",
+      "clue": "An ample or adequate supply",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ample or adequate supply"
+      ],
+      "definition": "An ample or adequate supply.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ACCOST",
+      "clue": "To speak to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Speak to",
+        "Approach with an offer of sexual favors",
+        "Join side to side"
+      ],
+      "definition": "To speak to.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "AFT",
+      "clue": "Near or towards the stern of a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near or towards the stern of a vessel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "CII",
+      "clue": "Roman numeral for 102",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 102",
+      "clueSource": "roman"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CATHOLICITY",
+      "clue": "Universal prevalence or acceptance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quality of being universal"
+      ],
+      "definition": "Universal prevalence or acceptance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "OSIER",
+      "clue": "Any of various willows having pliable twigs used in basketry and furniture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various willows having pliable twigs used in basketry and furniture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SCARE",
+      "clue": "Cause fear in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause fear in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TONES",
+      "clue": "British units of weight equivalent to pounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British units of weight equivalent to pounds",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "GURU",
+      "clue": "Hindu or Buddhist religious leader and spiritual teacher",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu or Buddhist religious leader and spiritual teacher",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "FIASCO",
+      "clue": "A complete or humiliating failure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Complete or humiliating failure",
+        "Sudden and violent collapse",
+        "Complete or ridiculous failure, esp. of a musical performance, or..."
+      ],
+      "definition": "A complete or humiliating failure.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "OLOF",
+      "clue": "Slain Swedish PM Palme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "TITIAN",
+      "clue": "Old master of the Venetian school (1490-1576)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old master of the Venetian school (1490-1576)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RUFFS",
+      "clue": "Acts of taking a trick with a trump when unable to follow suit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of taking a trick with a trump when unable to follow suit",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SSA",
+      "clue": "Independent government agency responsible for the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent government agency responsible for the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "HERE",
+      "clue": "In or at this place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In or at this place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "ASSISI",
+      "clue": "St. Francis's town",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "IBM",
+      "clue": "Big Blue, on the NYSE",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ORES",
+      "clue": "Rooms in a hospital equipped for the performance of surgical operations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rooms in a hospital equipped for the performance of surgical operations",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CABAL",
+      "clue": "A number of persons secretly united for effecting by intrigue some private",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Number of persons secretly united for effecting by intrigue some private",
+        "Plot to carry out some harmful or illegal act (especially a political plot)",
+        "Tradition"
+      ],
+      "definition": "A number of persons secretly united for effecting by intrigue some private",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "AAM",
+      "clue": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch and German measure of liquids, varying in different cities, being at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "MDLI",
+      "clue": "Roman numeral for 1551",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1551",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MIFFS",
+      "clue": "Causes to be annoyed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causes to be annoyed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "DELIA",
+      "clue": "Cookbook author Smith",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LEAST",
+      "clue": "Something that is of no importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that is of no importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "MAILED",
+      "clue": "Protected by an external coat, or covering, of scales or plates",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Protected by an external coat, or covering, of scales or plates",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "LXVII",
+      "clue": "Being seven more than sixty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being seven more than sixty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ELAND",
+      "clue": "Either of two large African antelopes of the genus Taurotragus having short...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two large African antelopes of the genus Taurotragus having short...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "DINES",
+      "clue": "Acts of making a noisy disturbance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of making a noisy disturbance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "IEEE",
+      "clue": "Engineering pros' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "MCXLI",
+      "clue": "Roman numeral for 1141",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1141",
+      "clueSource": "roman"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "FLANGE",
+      "clue": "Projection used for strength or for attaching to another object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Projection used for strength or for attaching to another object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "GAR",
+      "clue": "Elongate European surface-dwelling predacious fishes with long toothed jaws",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elongate European surface-dwelling predacious fishes with long toothed jaws",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ELS",
+      "clue": "Chicago trains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "IVAN",
+      "clue": "Russian tsar called \"the Terrible\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "FISCAL",
+      "clue": "Pertaining to the treasury or public finances of a government",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Involving financial matters"
+      ],
+      "definition": "Pertaining to the treasury or public finances of a government.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TINE",
+      "clue": "Trouble",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trouble",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SATYRS",
+      "clue": "Very lascivious people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very lascivious people",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "YIDS",
+      "clue": "Offensive terms for a Jew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive terms for a Jew",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SUFFICIENCY",
+      "clue": "An ample or adequate supply",
+      "definition": "An ample or adequate supply.",
+      "id": "4D"
+    },
+    {
+      "word": "CATHOLICITY",
+      "clue": "Universal prevalence or acceptance",
+      "definition": "Universal prevalence or acceptance.",
+      "id": "7D"
+    },
+    {
+      "word": "FIASCO",
+      "clue": "A complete or humiliating failure",
+      "definition": "A complete or humiliating failure.",
+      "id": "12A"
+    },
+    {
+      "word": "FISCAL",
+      "clue": "Pertaining to the treasury or public finances of a government",
+      "definition": "Pertaining to the treasury or public finances of a government.",
+      "id": "36A"
+    }
+  ]
+}

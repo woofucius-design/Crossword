@@ -1,0 +1,926 @@
+{
+  "date": "2027-07-25",
+  "number": 25,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "A",
+      "T",
+      "#",
+      "M",
+      "A",
+      "S",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "R",
+      "#",
+      "C",
+      "H",
+      "A",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "I",
+      "D",
+      "E",
+      "O",
+      "#",
+      "C",
+      "A",
+      "N",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "F",
+      "E",
+      "T",
+      "U",
+      "S",
+      "#",
+      "#",
+      "G",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "B",
+      "L",
+      "E",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "T",
+      "H",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "U",
+      "C",
+      "E",
+      "#",
+      "C",
+      "E",
+      "N",
+      "S",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "V",
+      "I",
+      "S",
+      "#",
+      "#",
+      "R",
+      "E",
+      "C",
+      "C",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "V",
+      "O",
+      "K",
+      "E",
+      "#",
+      "O",
+      "A",
+      "T",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "I",
+      "M",
+      "E",
+      "D",
+      "#",
+      "U",
+      "R",
+      "E",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "L",
+      "E",
+      "Y",
+      "S",
+      "#",
+      "S",
+      "E",
+      "T",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCAT",
+      "clue": "Go away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Go away",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "SHIFT",
+      "clue": "Act of changing one thing or position for another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing one thing or position for another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CEDER",
+      "clue": "One who relinquishes possession or controls over",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who relinquishes possession or controls over",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ARETE",
+      "clue": "Sharp narrow ridge found in rugged mountains",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp narrow ridge found in rugged mountains",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "TROUBLESOME",
+      "clue": "Burdensome",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Difficult to deal with",
+        "Giving trouble or anxiety"
+      ],
+      "definition": "Burdensome.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "MASERS",
+      "clue": "Acronyms for microwave amplification by stimulated emission",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acronyms for microwave amplification by stimulated emission",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "MCC",
+      "clue": "Roman numeral for 1200",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1200",
+      "clueSource": "roman"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Cry of discovery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SANGUINEOUS",
+      "clue": "Consisting of blood",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Accompanied by bloodshed",
+        "Abounding with blood"
+      ],
+      "definition": "Consisting of blood.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ELIAS",
+      "clue": "Inventor Howe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RENTE",
+      "clue": "Income from capital investment paid in a series of regular payments",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Income from capital investment paid in a series of regular payments",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "STEED",
+      "clue": "Spirited horse for state or war",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited horse for state or war",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "HERR",
+      "clue": "German courtesy title or form of address for a man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German courtesy title or form of address for a man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "CHALET",
+      "clue": "Swiss house with a sloping roof and wide eaves or a house built in this style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swiss house with a sloping roof and wide eaves or a house built in this style",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "IDEO",
+      "clue": "Famed design firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "CANINE",
+      "clue": "Characteristic of a dog",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to or characteristic of members of the family Canidae",
+        "Of or pertaining to the family Canid\u00e6, or dogs and wolves"
+      ],
+      "definition": "Characteristic of a dog.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FETUS",
+      "clue": "The young in the womb or in the egg",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Young in the womb or in the egg",
+        "Unborn or unhatched vertebrate in the later stages of development showing...",
+        "Young or embryo of an animal in the womb, or in the egg"
+      ],
+      "definition": "The young in the womb or in the egg.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "1970s radical group, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "GATE",
+      "clue": "Large door or passageway in the wall of a city, of an inclosed field or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large door or passageway in the wall of a city, of an inclosed field or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "TREBLE",
+      "clue": "Multiplied by three",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or denoting a high range",
+        "Threefold"
+      ],
+      "definition": "Multiplied by three.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ETC",
+      "clue": "List-ending abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "LATHI",
+      "clue": "Club consisting of a heavy stick (often bamboo) bound with iron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Club consisting of a heavy stick (often bamboo) bound with iron",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "HER",
+      "clue": "That woman's",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "PUCE",
+      "clue": "Color varying from dark purplish brown to dark red",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Color varying from dark purplish brown to dark red",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "PARMA",
+      "clue": "Italian ham city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "UVEAL",
+      "clue": "Of or relating to the uvea of the eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the uvea of the eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CIVIL",
+      "clue": "Of or in a condition of social order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or in a condition of social order",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "CENSOR",
+      "clue": "An official examiner of manuscripts empowered to prohibit their publication",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Official examiner of manuscripts empowered to prohibit their publication",
+        "Person who is authorized to read publications or correspondence or to watch...",
+        "One of two magistrates of Rome who took a register of the number and..."
+      ],
+      "definition": "An official examiner of manuscripts empowered to prohibit their publication.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "SCARE",
+      "clue": "Cause fear in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause fear in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "OCTET",
+      "clue": "Composition for eight parts, usually for eight solo instruments or voices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Composition for eight parts, usually for eight solo instruments or voices",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "RESAT",
+      "clue": "Took the test again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AVIS",
+      "clue": "Advice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Advice",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RECCE",
+      "clue": "Reconnaissance (by shortening)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reconnaissance (by shortening)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "REVOKE",
+      "clue": "To rescind",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rescind",
+        "Mistake of not following suit when able to do so",
+        "Call or bring back"
+      ],
+      "definition": "To rescind.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "KEY",
+      "clue": "Piano part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "OATS",
+      "clue": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "MAIMED",
+      "clue": "People who are wounded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are wounded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "UREA",
+      "clue": "Chief solid component of mammalian urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief solid component of mammalian urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ALLEYS",
+      "clue": "Narrow streets with walls on both sides",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow streets with walls on both sides",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SETT",
+      "clue": "Rectangular paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangular paving stone with curved top",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "TROUBLESOME",
+      "clue": "Burdensome",
+      "definition": "Burdensome.",
+      "id": "4D"
+    },
+    {
+      "word": "SANGUINEOUS",
+      "clue": "Consisting of blood",
+      "definition": "Consisting of blood.",
+      "id": "7D"
+    },
+    {
+      "word": "CANINE",
+      "clue": "Characteristic of a dog",
+      "definition": "Characteristic of a dog.",
+      "id": "14A"
+    },
+    {
+      "word": "TREBLE",
+      "clue": "Multiplied by three",
+      "definition": "Multiplied by three.",
+      "id": "18A"
+    },
+    {
+      "word": "CENSOR",
+      "clue": "An official examiner of manuscripts empowered to prohibit their publication",
+      "definition": "An official examiner of manuscripts empowered to prohibit their publication.",
+      "id": "26A"
+    },
+    {
+      "word": "REVOKE",
+      "clue": "To rescind",
+      "definition": "To rescind.",
+      "id": "32A"
+    }
+  ]
+}

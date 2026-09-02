@@ -1,0 +1,878 @@
+{
+  "date": "2027-07-10",
+  "number": 10,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "M",
+      "O",
+      "O",
+      "S",
+      "E",
+      "#",
+      "#",
+      "S",
+      "L",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "R",
+      "O",
+      "U",
+      "S",
+      "E",
+      "#",
+      "T",
+      "A",
+      "X"
+    ],
+    [
+      "A",
+      "R",
+      "C",
+      "H",
+      "I",
+      "P",
+      "E",
+      "L",
+      "A",
+      "G",
+      "O"
+    ],
+    [
+      "F",
+      "E",
+      "A",
+      "S",
+      "T",
+      "#",
+      "R",
+      "A",
+      "V",
+      "E",
+      "N"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "#",
+      "#",
+      "R",
+      "I",
+      "S",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "S",
+      "T",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "N",
+      "C",
+      "E",
+      "#",
+      "#",
+      "B",
+      "D",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "R",
+      "O",
+      "R",
+      "#",
+      "C",
+      "U",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "C",
+      "L",
+      "A",
+      "R",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "G",
+      "N",
+      "U",
+      "#",
+      "G",
+      "E",
+      "N",
+      "I",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "E",
+      "D",
+      "S",
+      "#",
+      "#",
+      "C",
+      "E",
+      "L",
+      "T",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MOOSE",
+      "clue": "Large northern deer with enormous flattened antlers in the male",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large northern deer with enormous flattened antlers in the male",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MARES",
+      "clue": "Marks or flaws that spoil the appearance of something (especially on a",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marks or flaws that spoil the appearance of something (especially on a",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ORCAS",
+      "clue": "Predatory black-and-white toothed whale with large dorsal fin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Predatory black-and-white toothed whale with large dorsal fin",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "OOHS",
+      "clue": "Reacts to fireworks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "SUIT",
+      "clue": "Act of following or pursuing, as game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of following or pursuing, as game",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ESP",
+      "clue": "Mind reader's gift, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "1970s radical group, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "STAVE",
+      "clue": "Burst or force (a hole) into something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Burst or force (a hole) into something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "LAGER",
+      "clue": "Camp defended by a circular formation of wagons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Camp defended by a circular formation of wagons",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "AXONS",
+      "clue": "Long nerve fibers that conduct away from the cell body of the neuron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long nerve fibers that conduct away from the cell body of the neuron",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "CAROUSE",
+      "clue": "To drink deeply and in boisterous or jovial manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Drink deeply and in boisterous or jovial manner",
+        "Revelry in drinking",
+        "Large draught of liguor"
+      ],
+      "definition": "To drink deeply and in boisterous or jovial manner.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "CAFE",
+      "clue": "Small restaurant where drinks and snacks are sold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small restaurant where drinks and snacks are sold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EERIE",
+      "clue": "Inspiring a feeling of fear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inspiring a feeling of fear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TAX",
+      "clue": "April burden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ARCHIPELAGO",
+      "clue": "Any large body of water studded with islands, or the islands collectively",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Group of many islands in a large body of water"
+      ],
+      "definition": "Any large body of water studded with islands, or the islands collectively",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "LASS",
+      "clue": "Youth woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Youth woman",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FEAST",
+      "clue": "Something experienced with great delight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something experienced with great delight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "RAVEN",
+      "clue": "Large black bird with a straight bill and long wedge-shaped tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large black bird with a straight bill and long wedge-shaped tail",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Curvy letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "RISERS",
+      "clue": "Structural members consisting of the vertical part of a stair or step",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structural members consisting of the vertical part of a stair or step",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ESTES",
+      "clue": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "SCRAG",
+      "clue": "Something thin, lean, or rough",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something thin, lean, or rough",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "STANCE",
+      "clue": "Standing posture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standing posture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SEDGE",
+      "clue": "Grasslike or rushlike plant growing in wet places having solid stems, narrow...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grasslike or rushlike plant growing in wet places having solid stems, narrow...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "TREND",
+      "clue": "Popular taste at a given time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Popular taste at a given time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ARCUS",
+      "clue": "Whitish deposit in the shape of an arc that is sometimes seen in the cornea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whitish deposit in the shape of an arc that is sometimes seen in the cornea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "BDS",
+      "clue": "Bachelor's degrees in religion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bachelor's degrees in religion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "BRITT",
+      "clue": "Young of the common herring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young of the common herring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DIVAS",
+      "clue": "Distinguished female operatic singers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinguished female operatic singers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "SEEL",
+      "clue": "Close the eyes of (a hawk or other bird) by drawing through the lids threads...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Close the eyes of (a hawk or other bird) by drawing through the lids threads...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ERROR",
+      "clue": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CURIE",
+      "clue": "French chemist (born in Poland) who won two Nobel prizes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French chemist (born in Poland) who won two Nobel prizes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "CANE",
+      "clue": "Stiff switch used to hit students as punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stiff switch used to hit students as punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "UTIL",
+      "clue": "Power co. service: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DECLARATIVE",
+      "clue": "Containing a formal, positive, or explicit statement or affirmation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Containing a formal, positive, or explicit statement or affirmation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "REC",
+      "clue": "Park-and-___ dept.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "GNU",
+      "clue": "Bearded antelope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "GENITAL",
+      "clue": "Of or pertaining to the animal reproductive organs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to the external sex organs"
+      ],
+      "definition": "Of or pertaining to the animal reproductive organs.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "CELTS",
+      "clue": "Members of a European people who once occupied Britain and Spain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Members of a European people who once occupied Britain and Spain",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CAROUSE",
+      "clue": "To drink deeply and in boisterous or jovial manner",
+      "definition": "To drink deeply and in boisterous or jovial manner.",
+      "id": "9A"
+    },
+    {
+      "word": "ARCHIPELAGO",
+      "clue": "Any large body of water studded with islands, or the islands collectively",
+      "definition": "Any large body of water studded with islands, or the islands collectively",
+      "id": "12A"
+    },
+    {
+      "word": "DECLARATIVE",
+      "clue": "Containing a formal, positive, or explicit statement or affirmation",
+      "definition": "Containing a formal, positive, or explicit statement or affirmation.",
+      "id": "29A"
+    },
+    {
+      "word": "GENITAL",
+      "clue": "Of or pertaining to the animal reproductive organs",
+      "definition": "Of or pertaining to the animal reproductive organs.",
+      "id": "32A"
+    }
+  ]
+}

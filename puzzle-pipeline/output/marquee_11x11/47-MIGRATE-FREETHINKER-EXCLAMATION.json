@@ -1,0 +1,888 @@
+{
+  "date": "2027-08-16",
+  "number": 47,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "M",
+      "A",
+      "C",
+      "O",
+      "N",
+      "#",
+      "#",
+      "S",
+      "C",
+      "H"
+    ],
+    [
+      "M",
+      "I",
+      "G",
+      "R",
+      "A",
+      "T",
+      "E",
+      "#",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "F",
+      "R",
+      "E",
+      "E",
+      "T",
+      "H",
+      "I",
+      "N",
+      "K",
+      "E",
+      "R"
+    ],
+    [
+      "R",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "G",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "S",
+      "T",
+      "#",
+      "#",
+      "S",
+      "H",
+      "T",
+      "I",
+      "K",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "U",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "P",
+      "I",
+      "N",
+      "A",
+      "E",
+      "#",
+      "#",
+      "C",
+      "C",
+      "L"
+    ],
+    [
+      "L",
+      "I",
+      "N",
+      "A",
+      "C",
+      "#",
+      "D",
+      "C",
+      "C",
+      "L",
+      "I"
+    ],
+    [
+      "E",
+      "X",
+      "C",
+      "L",
+      "A",
+      "M",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "I",
+      "U",
+      "#",
+      "O",
+      "U",
+      "T",
+      "R",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "#",
+      "#",
+      "D",
+      "E",
+      "L",
+      "I",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MACON",
+      "clue": "Fine Burgundy wine usually white and dry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fine Burgundy wine usually white and dry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MIRES",
+      "clue": "Soft wet areas of low-lying land that sinks underfoot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft wet areas of low-lying land that sinks underfoot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AGENT",
+      "clue": "Semantic role of the animate entity that instigates or causes the happening...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Semantic role of the animate entity that instigates or causes the happening...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "CRED",
+      "clue": "Credibility among young fashionable urban individuals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Credibility among young fashionable urban individuals",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "OATS",
+      "clue": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "NTH",
+      "clue": "To the ___ degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SCH",
+      "clue": "Where students go: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SAKTI",
+      "clue": "Female or generative principle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female or generative principle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "CREEK",
+      "clue": "Natural stream of water smaller than a river (and often a tributary of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Natural stream of water smaller than a river (and often a tributary of a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "HERDS",
+      "clue": "Groups of cattle or sheep or other domestic mammals all of the same",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Groups of cattle or sheep or other domestic mammals all of the same",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "MIGRATE",
+      "clue": "To remove or pass from one country, region, or habitat to another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Remove or pass from one country, region, or habitat to another",
+        "Move from one country or region to another and settle there",
+        "Remove from one country or region to another, with a view to..."
+      ],
+      "definition": "To remove or pass from one country, region, or habitat to another.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MFRS",
+      "clue": "Producers: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EIGHT",
+      "clue": "Island in a river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Island in a river",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "FREETHINKER",
+      "clue": "One who rejects authority or inspiration in religion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Person who believes that God created the universe and then abandoned it",
+        "One who speculates or forms opinions independently of the authority..."
+      ],
+      "definition": "One who rejects authority or inspiration in religion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NATE",
+      "clue": "Berkus of TV",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RENDS",
+      "clue": "Tears or be torn violently",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tears or be torn violently",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "GATED",
+      "clue": "Restricted (school boys') movement to the dormitory or campus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Restricted (school boys') movement to the dormitory or campus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SST",
+      "clue": "Bygone fast flier",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "SHTIKS",
+      "clue": "Devious tricks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Devious tricks",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SUE",
+      "clue": "Institute legal proceedings against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Institute legal proceedings against",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ACUTE",
+      "clue": "Having fine and penetrating discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or experiencing a rapid onset and short but severe course",
+        "Sharp at the end"
+      ],
+      "definition": "Having fine and penetrating discernment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ANAL",
+      "clue": "Stage in psychosexual development when the child's interest is concentrated...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stage in psychosexual development when the child's interest is concentrated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "CACAO",
+      "clue": "Chocolate source",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "SPINAE",
+      "clue": "Backbones, in anatomy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SLEPT",
+      "clue": "Caught some Zs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "PIXIE",
+      "clue": "Old English name for a fairy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old English name for a fairy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "INCUR",
+      "clue": "Receive a specified treatment (abstract)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Receive a specified treatment (abstract)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "CCL",
+      "clue": "Roman numeral for 250",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 250",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "CCIII",
+      "clue": "Roman numeral for 203",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 203",
+      "clueSource": "roman"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CLODS",
+      "clue": "Compact masses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compact masses",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "LINE",
+      "clue": "Principal activity in your life that you do to earn money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal activity in your life that you do to earn money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "LINAC",
+      "clue": "Ions are accelerated along a linear path by voltage differences on electrodes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ions are accelerated along a linear path by voltage differences on electrodes...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "DCCLI",
+      "clue": "Roman numeral for 751",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 751",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "DATE",
+      "clue": "Calendar entry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CTRL",
+      "clue": "Keyboard key",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EXCLAMATION",
+      "clue": "An abrupt or emphatic expression of thought or of feeling",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Abrupt or emphatic expression of thought or of feeling",
+        "Exclamatory rhetorical device",
+        "Loud calling or crying out"
+      ],
+      "definition": "An abrupt or emphatic expression of thought or of feeling.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MUD",
+      "clue": "Slanderous remarks or charges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slanderous remarks or charges",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "PIU",
+      "clue": "Little more",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little more",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "OUTRIDE",
+      "clue": "To ride faster than",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ride faster than",
+        "Ride better, faster, or further than",
+        "Surpass in speed of riding"
+      ],
+      "definition": "To ride faster than.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "TER",
+      "clue": "Three: Prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "DELIS",
+      "clue": "Shops selling ready-to-eat food products",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shops selling ready-to-eat food products",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MIGRATE",
+      "clue": "To remove or pass from one country, region, or habitat to another",
+      "definition": "To remove or pass from one country, region, or habitat to another.",
+      "id": "9A"
+    },
+    {
+      "word": "FREETHINKER",
+      "clue": "One who rejects authority or inspiration in religion",
+      "definition": "One who rejects authority or inspiration in religion.",
+      "id": "12A"
+    },
+    {
+      "word": "EXCLAMATION",
+      "clue": "An abrupt or emphatic expression of thought or of feeling",
+      "definition": "An abrupt or emphatic expression of thought or of feeling.",
+      "id": "29A"
+    },
+    {
+      "word": "OUTRIDE",
+      "clue": "To ride faster than",
+      "definition": "To ride faster than.",
+      "id": "32A"
+    }
+  ]
+}

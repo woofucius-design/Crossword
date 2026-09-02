@@ -1,0 +1,916 @@
+{
+  "date": "2027-07-31",
+  "number": 31,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "G",
+      "A",
+      "S",
+      "S",
+      "I",
+      "#",
+      "#",
+      "R",
+      "P",
+      "S"
+    ],
+    [
+      "L",
+      "E",
+      "N",
+      "I",
+      "E",
+      "N",
+      "T",
+      "#",
+      "H",
+      "A",
+      "M"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "N",
+      "Q",
+      "U",
+      "I",
+      "L",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "O",
+      "M",
+      "S",
+      "#",
+      "U",
+      "R",
+      "B",
+      "A",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "F",
+      "E",
+      "E",
+      "#",
+      "B",
+      "O",
+      "N",
+      "N"
+    ],
+    [
+      "A",
+      "P",
+      "R",
+      "I",
+      "L",
+      "#",
+      "P",
+      "A",
+      "S",
+      "T",
+      "A"
+    ],
+    [
+      "B",
+      "R",
+      "A",
+      "E",
+      "#",
+      "T",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "F",
+      "R",
+      "A",
+      "I",
+      "N",
+      "#",
+      "P",
+      "A",
+      "H"
+    ],
+    [
+      "A",
+      "F",
+      "F",
+      "I",
+      "R",
+      "M",
+      "A",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "#",
+      "T",
+      "E",
+      "M",
+      "P",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "E",
+      "R",
+      "E",
+      "#",
+      "#",
+      "R",
+      "A",
+      "D",
+      "A",
+      "R",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "AGASSI",
+      "clue": "Tennis great Andre",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "The lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "GERM",
+      "clue": "That which is to develop a new individual",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That which is to develop a new individual",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ANAS",
+      "clue": "Genus of water fowls, of the order Anseres, including certain species of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of water fowls, of the order Anseres, including certain species of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SIN",
+      "clue": "Old form of Since",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old form of Since",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SEQUEL",
+      "clue": "That which follows in consequence of what has previously happened",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Part added to a book or play that continues and extends it",
+        "That which follows"
+      ],
+      "definition": "That which follows in consequence of what has previously happened.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "INURE",
+      "clue": "To harden or toughen by use, exercise, or exposure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harden or toughen by use, exercise, or exposure",
+        "Cause to accept or become hardened to",
+        "Apply in use"
+      ],
+      "definition": "To harden or toughen by use, exercise, or exposure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "RPS",
+      "clue": "Turntable speeds: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "RHINOS",
+      "clue": "Massive powerful herbivorous odd-toed ungulates of southeast Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Massive powerful herbivorous odd-toed ungulates of southeast Asia",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "PATENT",
+      "clue": "Make open to sight or notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make open to sight or notice",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "SMYRNA",
+      "clue": "Port city in western Turkey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city in western Turkey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "LENIENT",
+      "clue": "Not harsh",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by tolerance and mercy",
+        "Relaxing"
+      ],
+      "definition": "Not harsh.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TIB",
+      "clue": "Unit of information equal to 1024 gibibytes or 2^40 (1,099,511,627,776) bytes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of information equal to 1024 gibibytes or 2^40 (1,099,511,627,776) bytes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "HAM",
+      "clue": "Home",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Home",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TRANQUILITY",
+      "clue": "Calmness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Disposition free from stress or emotion"
+      ],
+      "definition": "Calmness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "LABAN",
+      "clue": "Hungarian choreographer who developed Labanotation (1879-1958)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hungarian choreographer who developed Labanotation (1879-1958)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Meditation mantras",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "URBANER",
+      "clue": "More located in or characteristic of a city or city life",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More located in or characteristic of a city or city life",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "FEE",
+      "clue": "Property",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "FIERI",
+      "clue": "TV chef Guy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "BONN",
+      "clue": "City in western Germany on the Rhine River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany on the Rhine River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "APRIL",
+      "clue": "Fourth month of the year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fourth month of the year",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "ABRADE",
+      "clue": "To wear away the surface or some part of by friction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wear away the surface or some part of by friction",
+        "Rub hard or scrub",
+        "Rub or wear off"
+      ],
+      "definition": "To wear away the surface or some part of by friction.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "PREFER",
+      "clue": "To hold in higher estimation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hold in higher estimation",
+        "Select as an alternative over another",
+        "Carry or bring (something) forward, or before one"
+      ],
+      "definition": "To hold in higher estimation.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "RAFFLE",
+      "clue": "Kind of lottery, in which several persons pay, in shares, the value of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of lottery, in which several persons pay, in shares, the value of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "PASTA",
+      "clue": "Shaped and dried dough made from flour and water and sometimes egg",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shaped and dried dough made from flour and water and sometimes egg",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "PANAMA",
+      "clue": "Stiff hat made of straw with a flat crown",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stiff hat made of straw with a flat crown",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "BRAE",
+      "clue": "Hillside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slope or hillside"
+      ],
+      "definition": "Hillside.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "TAN",
+      "clue": "Of a light yellowish-brown color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of a light yellowish-brown color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "TIMER",
+      "clue": "Timekeeper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Timekeeper",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "REFRAIN",
+      "clue": "Hold back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hold back",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ART",
+      "clue": "Museum display",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "PAH",
+      "clue": "Bah!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "PITA",
+      "clue": "Usually small round bread that can open into a pocket for filling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Usually small round bread that can open into a pocket for filling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "To assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
+      "definition": "To assert as a fact.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "HERS",
+      "clue": "Possessive pronoun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "AFFIRMATIVE",
+      "clue": "Answering yes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Answering yes; to a question at issue",
+        "Confirmative"
+      ],
+      "definition": "Answering yes; to a question at issue.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TPD",
+      "clue": "Daily output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Key near Backspace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "TEMPTER",
+      "clue": "An allurer or enticer to evil",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Allurer or enticer to evil"
+      ],
+      "definition": "An allurer or enticer to evil.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "RADARS",
+      "clue": "Measuring instruments in which the echo of a pulse of microwave",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instruments in which the echo of a pulse of microwave",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "LENIENT",
+      "clue": "Not harsh",
+      "definition": "Not harsh.",
+      "id": "10A"
+    },
+    {
+      "word": "TRANQUILITY",
+      "clue": "Calmness",
+      "definition": "Calmness.",
+      "id": "13A"
+    },
+    {
+      "word": "AFFIRMATIVE",
+      "clue": "Answering yes",
+      "definition": "Answering yes; to a question at issue.",
+      "id": "30A"
+    },
+    {
+      "word": "TEMPTER",
+      "clue": "An allurer or enticer to evil",
+      "definition": "An allurer or enticer to evil.",
+      "id": "33A"
+    }
+  ]
+}

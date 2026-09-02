@@ -1,0 +1,904 @@
+{
+  "date": "2027-11-12",
+  "number": 135,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "O",
+      "L",
+      "O",
+      "S",
+      "#",
+      "#",
+      "B",
+      "B",
+      "B"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "A",
+      "T",
+      "U",
+      "M",
+      "#",
+      "L",
+      "O",
+      "A"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "B",
+      "I",
+      "V",
+      "O",
+      "R",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "A",
+      "M",
+      "I",
+      "S",
+      "S",
+      "#",
+      "L",
+      "E",
+      "A",
+      "S",
+      "E"
+    ],
+    [
+      "M",
+      "S",
+      "S",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "L",
+      "D",
+      "E",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "N",
+      "I",
+      "S",
+      "#",
+      "#",
+      "A",
+      "V",
+      "G"
+    ],
+    [
+      "L",
+      "Y",
+      "R",
+      "I",
+      "C",
+      "#",
+      "S",
+      "O",
+      "N",
+      "I",
+      "A"
+    ],
+    [
+      "B",
+      "I",
+      "B",
+      "L",
+      "I",
+      "O",
+      "P",
+      "H",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "U",
+      "N",
+      "I",
+      "#",
+      "T",
+      "R",
+      "A",
+      "M",
+      "M",
+      "E",
+      "L"
+    ],
+    [
+      "M",
+      "G",
+      "T",
+      "#",
+      "#",
+      "A",
+      "N",
+      "S",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SOLOS",
+      "clue": "Performs a piece written for a single instrument",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Performs a piece written for a single instrument",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "STEMS",
+      "clue": "Turns made in skiing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turns made in skiing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ORRIS",
+      "clue": "Fragrant rootstock of various irises especially Florentine iris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fragrant rootstock of various irises especially Florentine iris",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "LABS",
+      "clue": "Workplaces for the conduct of scientific research",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Workplaces for the conduct of scientific research",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "OTIS",
+      "clue": "Genus of birds including the bustards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of birds including the bustards",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SUV",
+      "clue": "High-performance four-wheel drive car built on a truck chassis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "High-performance four-wheel drive car built on a truck chassis",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "BBB",
+      "clue": "Consumer watchdog, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "BLOAT",
+      "clue": "Make turgid, as with water or air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make turgid, as with water or air",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "BOUSE",
+      "clue": "Haul with a tackle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Haul with a tackle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "BASED",
+      "clue": "Used as a basis for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used as a basis for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "STRATUM",
+      "clue": "A natural or artificial layer, bed, or thickness of any substance or material",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Natural or artificial layer, bed, or thickness of any substance or material",
+        "Abstract place usually conceived as having depth",
+        "Bed of earth or rock of one kind, formed by natural causes, and..."
+      ],
+      "definition": "A natural or artificial layer, bed, or thickness of any substance or material.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SHAM",
+      "clue": "Make believe with the intent to deceive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make believe with the intent to deceive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "MOLLE",
+      "clue": "Small Peruvian evergreen with broad rounded head and slender pendant branches...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small Peruvian evergreen with broad rounded head and slender pendant branches...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LOA",
+      "clue": "Hawaii's Mauna ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "HERBIVOROUS",
+      "clue": "Feeding on herbs or other vegetable matter, as animals",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feeding only on plants",
+        "Eating plants"
+      ],
+      "definition": "Feeding on herbs or other vegetable matter, as animals.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "REAR",
+      "clue": "Early",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Early",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "AMISS",
+      "clue": "In an imperfect or faulty way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an imperfect or faulty way",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LEASE",
+      "clue": "Engage for service under a term of contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engage for service under a term of contract",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "MSS",
+      "clue": "Forms of address for a woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forms of address for a woman",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "ELATED",
+      "clue": "Exultantly proud and joyful",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exultantly proud and joyful",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ALDER",
+      "clue": "Any shrub or small tree of the genus Alumnus, of the oak family",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "North temperate shrubs or trees having toothed leaves and conelike fruit",
+        "Tree, usually growing in moist land, and belonging to the genus..."
+      ],
+      "definition": "Any shrub or small tree of the genus Alumnus, of the oak family.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ANIL",
+      "clue": "Shrub of West Indies and South America that is a source of indigo dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrub of West Indies and South America that is a source of indigo dye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "LICIT",
+      "clue": "Lawful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Authorized, sanctioned by, or in accordance with law"
+      ],
+      "definition": "Lawful.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "ADONIS",
+      "clue": "Youth beloved by Venus for his beauty. He was killed in the chase by a wild...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Youth beloved by Venus for his beauty. He was killed in the chase by a wild...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "A book whose leaves are so made to form paper frames for holding photographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book whose leaves are so made to form paper frames for holding photographs",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "DYING",
+      "clue": "Time when something ends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time when something ends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ORBIT",
+      "clue": "Area in which something acts or operates or has power or control: \"the range...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area in which something acts or operates or has power or control: \"the range...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "AVG",
+      "clue": "Stat for a slugger, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ANIME",
+      "clue": "Any of various resins or oleoresins",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various resins or oleoresins",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "VILER",
+      "clue": "More morally reprehensible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More morally reprehensible",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "LYRIC",
+      "clue": "Fitted for expression in song",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Expressing deep emotion",
+        "Of or pertaining to a lyre or harp"
+      ],
+      "definition": "Fitted for expression in song.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "SONIA",
+      "clue": "Sotomayor of SCOTUS",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "SPAN",
+      "clue": "Cover or extend over an area or time period",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cover or extend over an area or time period",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OHMS",
+      "clue": "Resistance units",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "BIBLIOPHILE",
+      "clue": "One who loves books",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Someone who loves (and usually collects) books",
+        "Lover of books"
+      ],
+      "definition": "One who loves books.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "UNI",
+      "clue": "College, in Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "TRAMMEL",
+      "clue": "An impediment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Impediment",
+        "Restraint that confines or restricts freedom (especially something used to...",
+        "Kind of net for catching birds, fishes, or other prey"
+      ],
+      "definition": "An impediment.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "MGT",
+      "clue": "Company brass: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ANSER",
+      "clue": "Typical geese",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Typical geese",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "STRATUM",
+      "clue": "A natural or artificial layer, bed, or thickness of any substance or material",
+      "definition": "A natural or artificial layer, bed, or thickness of any substance or material.",
+      "id": "9A"
+    },
+    {
+      "word": "HERBIVOROUS",
+      "clue": "Feeding on herbs or other vegetable matter, as animals",
+      "definition": "Feeding on herbs or other vegetable matter, as animals.",
+      "id": "12A"
+    },
+    {
+      "word": "BIBLIOPHILE",
+      "clue": "One who loves books",
+      "definition": "One who loves books.",
+      "id": "29A"
+    },
+    {
+      "word": "TRAMMEL",
+      "clue": "An impediment",
+      "definition": "An impediment.",
+      "id": "32A"
+    }
+  ]
+}

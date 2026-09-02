@@ -1,0 +1,895 @@
+{
+  "date": "2028-02-02",
+  "number": 217,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "A",
+      "L",
+      "P",
+      "S",
+      "#",
+      "#",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "C",
+      "O",
+      "P",
+      "I",
+      "O",
+      "U",
+      "S",
+      "#",
+      "S",
+      "E",
+      "I"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "P",
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "W",
+      "E",
+      "S",
+      "#",
+      "L",
+      "A",
+      "N",
+      "G",
+      "U",
+      "I",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "A",
+      "H",
+      "#",
+      "L",
+      "E",
+      "N",
+      "A"
+    ],
+    [
+      "E",
+      "D",
+      "G",
+      "E",
+      "R",
+      "#",
+      "P",
+      "O",
+      "D",
+      "G",
+      "Y"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "B",
+      "#",
+      "G",
+      "A",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "A",
+      "S",
+      "E",
+      "O",
+      "U",
+      "S",
+      "#",
+      "C",
+      "A",
+      "L"
+    ],
+    [
+      "E",
+      "M",
+      "P",
+      "I",
+      "R",
+      "I",
+      "C",
+      "A",
+      "L",
+      "L",
+      "Y"
+    ],
+    [
+      "R",
+      "A",
+      "E",
+      "#",
+      "G",
+      "L",
+      "A",
+      "Z",
+      "I",
+      "E",
+      "R"
+    ],
+    [
+      "S",
+      "S",
+      "D",
+      "#",
+      "#",
+      "E",
+      "L",
+      "O",
+      "I",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SCALPS",
+      "clue": "Skins that cover the top of the head",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Skins that cover the top of the head",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCOW",
+      "clue": "Barge carrying bulk materials in an open hold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Barge carrying bulk materials in an open hold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "COVE",
+      "clue": "Small inlet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small inlet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "APES",
+      "clue": "Represents in or produce a caricature of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Represents in or produce a caricature of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "LIR",
+      "clue": "Sea personified",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sea personified",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "POPLAR",
+      "clue": "Any of numerous trees of north temperate regions having light soft wood and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of numerous trees of north temperate regions having light soft wood and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SURAH",
+      "clue": "Soft twilled silk fabric much used for women's dresses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soft twilled silk fabric much used for women's dresses",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ISM",
+      "clue": "Doctrine or theory",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Doctrine or theory",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ISSUED",
+      "clue": "Came out of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Came out of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "SEEING",
+      "clue": ". In view of the fact (that)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": ". In view of the fact (that)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "MIDDAY",
+      "clue": "Middle part of the day",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Middle part of the day",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "COPIOUS",
+      "clue": "Plenteous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Affording an abundant supply",
+        "Large in quantity or amount"
+      ],
+      "definition": "Plenteous.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SEI",
+      "clue": "Baleen whale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "OVERPRAISED",
+      "clue": "Praised excessively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Praised excessively",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "IGLOO",
+      "clue": "Eskimo snow house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eskimo snow house",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "WES",
+      "clue": "Filmmaker Anderson",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "LANGUID",
+      "clue": "Relaxed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking spirit or liveliness",
+        "Drooping or flagging from exhaustion"
+      ],
+      "definition": "Relaxed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "HAH",
+      "clue": "Same as Ha",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Ha",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "HEBEI",
+      "clue": "Populous province in northeastern China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Populous province in northeastern China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "LENA",
+      "clue": "Russian river in Siberia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian river in Siberia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "EDGER",
+      "clue": "Lawn-tidying tool",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "EGGERS",
+      "clue": "Moths having nonfunctional mouthparts as adults",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moths having nonfunctional mouthparts as adults",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "DRAMAS",
+      "clue": "Qualities of being arresting or highly emotional",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Qualities of being arresting or highly emotional",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "GASPED",
+      "clue": "Breathed noisily, as when one is exhausted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Breathed noisily, as when one is exhausted",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "PODGY",
+      "clue": "Fat and short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fat and short",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "PASCAL",
+      "clue": "Programing language designed to teach programming through a top-down modular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Programing language designed to teach programming through a top-down modular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "GRAB",
+      "clue": "Act of catching an object with the hands",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of catching an object with the hands",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "GAO",
+      "clue": "Independent nonpartisan federal agency that acts as the investigative arm of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent nonpartisan federal agency that acts as the investigative arm of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "GUILE",
+      "clue": "Duplicity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of tricks to deceive someone (usually to extract money from them)",
+        "Craft"
+      ],
+      "definition": "Duplicity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "GASEOUS",
+      "clue": "Light and unsubstantial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Existing as or having characteristics of a gas",
+        "In the form, or of the nature, of gas, or of an a\u00ebriform fluid"
+      ],
+      "definition": "Light and unsubstantial.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ORG",
+      "clue": "Web address ender for nonprofits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "CAL",
+      "clue": "Wolfram, an ore of tungsten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wolfram, an ore of tungsten",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "CLII",
+      "clue": "Roman numeral for 152",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 152",
+      "clueSource": "roman"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ALES",
+      "clue": "General names for beer made with a top fermenting yeast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General names for beer made with a top fermenting yeast",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LYRE",
+      "clue": "One of the most ancient of stringed instruments of the harp class",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harp used by ancient Greeks for accompaniment",
+        "Stringed instrument of music"
+      ],
+      "definition": "One of the most ancient of stringed instruments of the harp class.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EMPIRICALLY",
+      "clue": "By experiment or experience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "By experiment or experience",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "AZO",
+      "clue": "Kind of nitrogen-containing dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "RAE",
+      "clue": "Issa of \"Insecure\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "GLAZIER",
+      "clue": "One who cuts and fits panes of glass, as for windows",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Someone who cuts flat glass to size"
+      ],
+      "definition": "One who cuts and fits panes of glass, as for windows.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ELOISE",
+      "clue": "Plaza Hotel girl of fiction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "COPIOUS",
+      "clue": "Plenteous",
+      "definition": "Plenteous.",
+      "id": "10A"
+    },
+    {
+      "word": "LANGUID",
+      "clue": "Relaxed",
+      "definition": "Relaxed.",
+      "id": "16A"
+    },
+    {
+      "word": "GASEOUS",
+      "clue": "Light and unsubstantial",
+      "definition": "Light and unsubstantial.",
+      "id": "25A"
+    },
+    {
+      "word": "GLAZIER",
+      "clue": "One who cuts and fits panes of glass, as for windows",
+      "definition": "One who cuts and fits panes of glass, as for windows.",
+      "id": "33A"
+    }
+  ]
+}

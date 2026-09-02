@@ -1,0 +1,971 @@
+{
+  "date": "2028-02-29",
+  "number": 244,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "A",
+      "M",
+      "P",
+      "S",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "H",
+      "O",
+      "B",
+      "A",
+      "R",
+      "T",
+      "#",
+      "P",
+      "I",
+      "P",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "S",
+      "W",
+      "E",
+      "R",
+      "#",
+      "H",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "U",
+      "S",
+      "O",
+      "#",
+      "P",
+      "O",
+      "T",
+      "E",
+      "N",
+      "C",
+      "Y"
+    ],
+    [
+      "S",
+      "U",
+      "R",
+      "F",
+      "#",
+      "P",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "B",
+      "U",
+      "M",
+      "#",
+      "A",
+      "V",
+      "E",
+      "R",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "P",
+      "M",
+      "#",
+      "E",
+      "V",
+      "E",
+      "R"
+    ],
+    [
+      "P",
+      "S",
+      "Y",
+      "C",
+      "H",
+      "I",
+      "C",
+      "#",
+      "I",
+      "M",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "R",
+      "#",
+      "M",
+      "O",
+      "A",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "L",
+      "U",
+      "L",
+      "U",
+      "#",
+      "I",
+      "C",
+      "I",
+      "C",
+      "L",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "M",
+      "#",
+      "C",
+      "A",
+      "R",
+      "E",
+      "T",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CAMPS",
+      "clue": "Temporaries living quarters specially built by the army for soldiers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Temporaries living quarters specially built by the army for soldiers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "CONSUL",
+      "clue": "An officer appointed to reside in a foreign city, chiefly to represent his",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Officer appointed to reside in a foreign city, chiefly to represent his",
+        "Diplomat appointed by a government to protect its commercial interests and...",
+        "One of the two chief magistrates of the republic. Note: They were..."
+      ],
+      "definition": "An officer appointed to reside in a foreign city, chiefly to represent his",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ABSORB",
+      "clue": "Cause to become one with",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Swallow up"
+      ],
+      "definition": "To drink in or suck up, as a sponge absorbs water.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "MAW",
+      "clue": "Informal terms for the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for the mouth",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "PREP",
+      "clue": "Preparatory school work done outside school (especially at home)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preparatory school work done outside school (especially at home)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "STROP",
+      "clue": "Strap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strap",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "UPHEAVE",
+      "clue": "To raise or lift with effort",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Raise or lift with effort",
+        "Lift forcefully from beneath",
+        "Heave or lift up from beneath"
+      ],
+      "definition": "To raise or lift with effort.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "SIAN",
+      "clue": "City of central China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City of central China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "A poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Poem celebrating in formal verse the mythical achievements of great personages",
+        "Very imposing or impressive",
+        "Narrated in a grand style"
+      ],
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DENY",
+      "clue": "Declare not to be true",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declare not to be true",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "HOBART",
+      "clue": "Port and state capital of Tasmania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port and state capital of Tasmania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "HAUSA",
+      "clue": "Chief member of the Chadic family of Afroasiatic languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief member of the Chadic family of Afroasiatic languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "PIPE",
+      "clue": "A tube that carries water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ANSWER",
+      "clue": "Speak in defense against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Speak in defense against",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "HAIN",
+      "clue": "Inclose for mowing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inclose for mowing",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "USO",
+      "clue": "Troop-entertaining org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "POTENCY",
+      "clue": "Power",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Capacity to produce strong physiological or chemical effects",
+        "Quality or state of being potent"
+      ],
+      "definition": "Power.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Afternoon cuppa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "SURF",
+      "clue": "Swell of the sea which breaks upon the shore, esp. upon a sloping beach....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swell of the sea which breaks upon the shore, esp. upon a sloping beach....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "FULCRUM",
+      "clue": "The support on or against which a lever rests, or the point about which it",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Support on or against which a lever rests, or the point about which it",
+        "Pivot about which a lever turns",
+        "Prop or support"
+      ],
+      "definition": "The support on or against which a lever rests, or the point about which it",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PEA",
+      "clue": "Sliding weight on a steelyard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sliding weight on a steelyard",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "A book whose leaves are so made to form paper frames for holding photographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book whose leaves are so made to form paper frames for holding photographs",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "MPH",
+      "clue": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ratio of the distance traveled (in miles) to the time spent traveling (in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "To turn away or aside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Turn away or aside",
+        "Turn aside, or away"
+      ],
+      "definition": "To turn away or aside.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "EVINCE",
+      "clue": "To make manifest or evident",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make manifest or evident",
+        "Give expression to",
+        "Conquer"
+      ],
+      "definition": "To make manifest or evident.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "REMELT",
+      "clue": "Melt again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Melt again",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "TRADE",
+      "clue": "Do business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Do business",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "LPM",
+      "clue": "Pump output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "MIMIC",
+      "clue": "To imitate the speech or actions of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Imitate the speech or actions of",
+        "Constituting an imitation",
+        "Imitative"
+      ],
+      "definition": "To imitate the speech or actions of.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "EVER",
+      "clue": "At any time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At any time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PSYCHIC",
+      "clue": "Pertaining to the mind or soul",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Outside the sphere of physical science",
+        "Of or pertaining to the human soul, or to the living principle in..."
+      ],
+      "definition": "Pertaining to the mind or soul.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PALS",
+      "clue": "Becomes friends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes friends",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "SLUE",
+      "clue": "Move obliquely or sideways, usually in an uncontrolled manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move obliquely or sideways, usually in an uncontrolled manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "YALE",
+      "clue": "University in Connecticut",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "University in Connecticut",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "COCA",
+      "clue": "Cola-leaf source",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "IMA",
+      "clue": "Bandleader Sumac",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAR",
+      "clue": "Wing-shaped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "MOANED",
+      "clue": "Indicated pain, discomfort, or displeasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indicated pain, discomfort, or displeasure",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "What we breathe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "LULU",
+      "clue": "Very attractive or seductive looking woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very attractive or seductive looking woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ICICLE",
+      "clue": "Ice resembling a pendent spear, formed by the freezing of dripping water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ice resembling a pendent spear, formed by the freezing of dripping water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SEEM",
+      "clue": "Appear, or to appear to be",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Appear, or to appear to be",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "CARET",
+      "clue": "A sign (^) placed below a line, indicating where omitted words, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sign (^) placed below a line, indicating where omitted words, etc",
+        "Sign (^) placed below a line, indicating where omitted words, etc., should be",
+        "Mark used by an author or editor to indicate where something is to be...",
+        "Mark"
+      ],
+      "definition": "A sign (^) placed below a line, indicating where omitted words, etc., should be",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "UPHEAVE",
+      "clue": "To raise or lift with effort",
+      "definition": "To raise or lift with effort.",
+      "id": "6D"
+    },
+    {
+      "word": "POTENCY",
+      "clue": "Power",
+      "definition": "Power.",
+      "id": "15A"
+    },
+    {
+      "word": "FULCRUM",
+      "clue": "The support on or against which a lever rests, or the point about which it",
+      "definition": "The support on or against which a lever rests, or the point about which it",
+      "id": "18D"
+    },
+    {
+      "word": "PSYCHIC",
+      "clue": "Pertaining to the mind or soul",
+      "definition": "Pertaining to the mind or soul.",
+      "id": "29A"
+    }
+  ]
+}

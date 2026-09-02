@@ -1,0 +1,978 @@
+{
+  "date": "2027-09-30",
+  "number": 92,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "I",
+      "A",
+      "N",
+      "A",
+      "#",
+      "O",
+      "M",
+      "N",
+      "I"
+    ],
+    [
+      "R",
+      "O",
+      "L",
+      "L",
+      "E",
+      "D",
+      "#",
+      "S",
+      "E",
+      "E",
+      "N"
+    ],
+    [
+      "A",
+      "M",
+      "E",
+      "B",
+      "I",
+      "C",
+      "#",
+      "H",
+      "D",
+      "T",
+      "V"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "U",
+      "#",
+      "#",
+      "M",
+      "A",
+      "L",
+      "T",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "H",
+      "A",
+      "#",
+      "E",
+      "L",
+      "D"
+    ],
+    [
+      "S",
+      "S",
+      "D",
+      "#",
+      "K",
+      "E",
+      "Y",
+      "#",
+      "Y",
+      "E",
+      "E"
+    ],
+    [
+      "M",
+      "A",
+      "O",
+      "#",
+      "I",
+      "R",
+      "A",
+      "Q",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "T",
+      "M",
+      "A",
+      "N",
+      "#",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "R",
+      "I",
+      "A",
+      "L",
+      "#",
+      "M",
+      "E",
+      "A",
+      "N",
+      "L",
+      "Y"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "P",
+      "#",
+      "V",
+      "A",
+      "L",
+      "I",
+      "S",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "N",
+      "S",
+      "#",
+      "P",
+      "U",
+      "M",
+      "P",
+      "E",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ARIANA",
+      "clue": "City in Tunisia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Tunisia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ARAB",
+      "clue": "Gulf resident",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ROME",
+      "clue": "Leadership of the Roman Catholic Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leadership of the Roman Catholic Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "A book whose leaves are so made to form paper frames for holding photographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book whose leaves are so made to form paper frames for holding photographs",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "NEI",
+      "clue": "'Of the,' in Italian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ADC",
+      "clue": "Military aide, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "OMNI",
+      "clue": "All-encompassing prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "OSHA",
+      "clue": "Government agency in the Department of Labor to maintain a safe and healthy...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Government agency in the Department of Labor to maintain a safe and healthy...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "MEDLEY",
+      "clue": "A composition of different songs or parts of songs arranged to run as",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Composition of different songs or parts of songs arranged to run as",
+        "Composition of different songs or parts of songs arranged to run as a",
+        "Musical composition consisting of a series of songs or other musical pieces...",
+        "Mixture"
+      ],
+      "definition": "A composition of different songs or parts of songs arranged to run as a",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "NETTLE",
+      "clue": "To excite sensations of uneasiness or displeasure in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excite sensations of uneasiness or displeasure in",
+        "Any of numerous plants having stinging hairs that cause skin irritation on...",
+        "Plant of the genus Urtica, covered with minute sharp hairs..."
+      ],
+      "definition": "To excite sensations of uneasiness or displeasure in.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "INVADE",
+      "clue": "Go into or upon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Go into or upon",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ROLLED",
+      "clue": "Went head over heels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "SEEN",
+      "clue": "Witnessed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "AMEBIC",
+      "clue": "Pertaining to or resembling amoebae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to or resembling amoebae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "HDTV",
+      "clue": "Television system that has more than the usual number of lines per frame so...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Television system that has more than the usual number of lines per frame so...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "An escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Escort or lover",
+        "Man who is the lover of a girl or young woman",
+        "Man who takes great care to dress in the latest fashion"
+      ],
+      "definition": "An escort or lover.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "MALTA",
+      "clue": "Strategically located island to the south of Sicily in the Mediterranean Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strategically located island to the south of Sicily in the Mediterranean Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "MAYA",
+      "clue": "Name for the doctrine of the unreality of matter, called, in English,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name for the doctrine of the unreality of matter, called, in English,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "MAHA",
+      "clue": "Kind of baboon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of baboon",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "AKIN",
+      "clue": "Of similar nature or qualities",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of the same kin"
+      ],
+      "definition": "Of similar nature or qualities.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HER",
+      "clue": "That woman's",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ELD",
+      "clue": "Time of life (usually defined in years) at which some particular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time of life (usually defined in years) at which some particular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "SMARTS",
+      "clue": "Kinds of pain such as that caused by a wound or a burn or a sore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kinds of pain such as that caused by a wound or a burn or a sore",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "SATIRE",
+      "clue": "The employment of sarcasm, irony, or keenness of wit in ridiculing vices",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Employment of sarcasm, irony, or keenness of wit in ridiculing vices",
+        "Witty language used to convey insults or scorn",
+        "Composition, generally poetical, holding up vice or folly to..."
+      ],
+      "definition": "The employment of sarcasm, irony, or keenness of wit in ridiculing vices.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DOMAIN",
+      "clue": "A sphere or field of action or interest",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sphere or field of action or interest",
+        "Content of a particular field of knowledge",
+        "Dominion"
+      ],
+      "definition": "A sphere or field of action or interest.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "KEY",
+      "clue": "Piano part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "YEE",
+      "clue": "___-haw!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "MAO",
+      "clue": "Chairman of old China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "IRAQ",
+      "clue": "Republic in the Middle East in western Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in the Middle East in western Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "QUALM",
+      "clue": "A fit of nausea",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fit of nausea",
+        "Uneasiness about the fitness of an action",
+        "Sickness"
+      ],
+      "definition": "A fit of nausea.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ATMAN",
+      "clue": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ALPS",
+      "clue": "Swiss peaks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SNIP",
+      "clue": "Quick cut",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "If not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DYED",
+      "clue": "Artificially produced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artificially produced",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "RIAL",
+      "clue": "Basic unit of money in Iran",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Iran",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "MEANLY",
+      "clue": "In a miserly manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a miserly manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MVP",
+      "clue": "Player judged to be the most important to the sport",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Player judged to be the most important to the sport",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "EAU",
+      "clue": "Water, in Paris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "TRIP",
+      "clue": "Move with light, quick steps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move with light, quick steps",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "VALISE",
+      "clue": "Small sack or case, usually of leather, but sometimes of other material, for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small sack or case, usually of leather, but sometimes of other material, for...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SENS",
+      "clue": "Since",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Since",
+      "clueSource": "webster"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "PUMPED",
+      "clue": "Questioned persistently",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Questioned persistently",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MEDLEY",
+      "clue": "A composition of different songs or parts of songs arranged to run as",
+      "definition": "A composition of different songs or parts of songs arranged to run as a",
+      "id": "8D"
+    },
+    {
+      "word": "NETTLE",
+      "clue": "To excite sensations of uneasiness or displeasure in",
+      "definition": "To excite sensations of uneasiness or displeasure in.",
+      "id": "9D"
+    },
+    {
+      "word": "SATIRE",
+      "clue": "The employment of sarcasm, irony, or keenness of wit in ridiculing vices",
+      "definition": "The employment of sarcasm, irony, or keenness of wit in ridiculing vices.",
+      "id": "22D"
+    },
+    {
+      "word": "DOMAIN",
+      "clue": "A sphere or field of action or interest",
+      "definition": "A sphere or field of action or interest.",
+      "id": "23D"
+    }
+  ]
+}

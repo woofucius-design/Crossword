@@ -1,0 +1,913 @@
+{
+  "date": "2027-09-17",
+  "number": 79,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "N",
+      "A",
+      "P",
+      "A",
+      "#",
+      "C",
+      "H",
+      "A",
+      "P",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "A",
+      "R",
+      "L",
+      "#",
+      "T",
+      "E",
+      "R",
+      "R",
+      "A",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "T",
+      "E",
+      "N",
+      "T",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "A",
+      "P",
+      "S",
+      "E",
+      "S",
+      "#",
+      "H",
+      "A",
+      "F",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "U",
+      "R",
+      "S",
+      "A",
+      "#",
+      "#",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "I",
+      "B",
+      "M",
+      "#",
+      "E",
+      "L",
+      "D",
+      "#",
+      "C",
+      "E",
+      "N"
+    ],
+    [
+      "M",
+      "A",
+      "P",
+      "#",
+      "#",
+      "L",
+      "O",
+      "C",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "E",
+      "S",
+      "#",
+      "W",
+      "R",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "M",
+      "A",
+      "I",
+      "N",
+      "T",
+      "E",
+      "N",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "K",
+      "E",
+      "D",
+      "#",
+      "S",
+      "C",
+      "A",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "N",
+      "I",
+      "P",
+      "S",
+      "#",
+      "S",
+      "Y",
+      "N",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "NAPA",
+      "clue": "Plant with an elongated head of broad stalked leaves resembling celery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plant with an elongated head of broad stalked leaves resembling celery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "NEPA",
+      "clue": "Genus of aquatic hemipterus insects. The species feed upon other insects and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of aquatic hemipterus insects. The species feed upon other insects and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AARP",
+      "clue": "Association of people to promote the welfare of senior citizens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Association of people to promote the welfare of senior citizens",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "PRESUMPTION",
+      "clue": "That which may be logically assumed to be true until disproved",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Kind of discourtesy in the form of an act of presuming",
+        "Act of presuming, or believing upon probable evidence"
+      ],
+      "definition": "That which may be logically assumed to be true until disproved.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ALTER",
+      "clue": "To make change in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make change in",
+        "Remove the ovaries of",
+        "Make otherwise"
+      ],
+      "definition": "To make change in.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "CHAP",
+      "clue": "Leather leggings without a seat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leather leggings without a seat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "CTN",
+      "clue": "Shipping box: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "HETH",
+      "clue": "8th letter of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "8th letter of the Hebrew alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ARIA",
+      "clue": "Air or song",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air or song",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PROFICIENCY",
+      "clue": "An advanced state of acquirement, as in some knowledge, art, or science",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Advanced state of acquirement, as in some knowledge, art, or science",
+        "Quality of having great facility and competence"
+      ],
+      "definition": "An advanced state of acquirement, as in some knowledge, art, or science.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "EARL",
+      "clue": "British peer ranking below a marquess and above a viscount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British peer ranking below a marquess and above a viscount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "TERRAE",
+      "clue": "Lunar highlands, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "AUTRE",
+      "clue": "Other, in French",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSEN",
+      "clue": "City in western Germany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PRETENTIOUS",
+      "clue": "Marked by pretense, conceit, or display",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Intended to attract notice and impress others",
+        "Full of pretension"
+      ],
+      "definition": "Marked by pretense, conceit, or display.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "APSES",
+      "clue": "Church recesses",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "HAFTS",
+      "clue": "Handles of a weapon or tool",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Handles of a weapon or tool",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "URSA",
+      "clue": "___ Major",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ALL",
+      "clue": "Every last one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "IBM",
+      "clue": "Big Blue, on the NYSE",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "IMAMS",
+      "clue": "Men who lead prayers in a mosque",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Men who lead prayers in a mosque",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "BANAT",
+      "clue": "Territory governed by a ban",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Territory governed by a ban",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ELD",
+      "clue": "Time of life (usually defined in years) at which some particular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time of life (usually defined in years) at which some particular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "DOWN",
+      "clue": "Complete play to advance the football",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Complete play to advance the football",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "CEN",
+      "clue": "100 yrs.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "MAP",
+      "clue": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "LOCI",
+      "clue": "Geometric point sets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "CRASS",
+      "clue": "Coarse or thick in nature or structure, as opposed to thin or fine",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "So unrefined as to be lacking in discrimination and sensibility",
+        "Cross"
+      ],
+      "definition": "Coarse or thick in nature or structure, as opposed to thin or fine.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ANTES",
+      "clue": "Social insects living in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insects living in organized colonies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ENKI",
+      "clue": "Water god and god of wisdom",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Water god and god of wisdom",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Stair unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "WREST",
+      "clue": "To pull or force away by or as by violent twisting or wringing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pull or force away by or as by violent twisting or wringing",
+        "Obtain by seizing forcibly or violently, also metaphorically",
+        "Turn"
+      ],
+      "definition": "To pull or force away by or as by violent twisting or wringing.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SCAN",
+      "clue": "Obtain data from magnetic tapes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Obtain data from magnetic tapes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TETE",
+      "clue": "Head, in Paris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MAINTENANCE",
+      "clue": "That which supports or sustains",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Activity involved in maintaining something in good working order",
+        "Act of maintaining"
+      ],
+      "definition": "That which supports or sustains.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "STOKED",
+      "clue": "Stirred up or tended",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stirred up or tended",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "SCAT",
+      "clue": "Go away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Go away",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "NIPS",
+      "clue": "Gives a small sharp bite to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gives a small sharp bite to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SYNE",
+      "clue": "Afterwards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Afterwards",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PRESUMPTION",
+      "clue": "That which may be logically assumed to be true until disproved",
+      "definition": "That which may be logically assumed to be true until disproved.",
+      "id": "3D"
+    },
+    {
+      "word": "ALTER",
+      "clue": "To make change in",
+      "definition": "To make change in.",
+      "id": "4D"
+    },
+    {
+      "word": "PROFICIENCY",
+      "clue": "An advanced state of acquirement, as in some knowledge, art, or science",
+      "definition": "An advanced state of acquirement, as in some knowledge, art, or science.",
+      "id": "8D"
+    },
+    {
+      "word": "CRASS",
+      "clue": "Coarse or thick in nature or structure, as opposed to thin or fine",
+      "definition": "Coarse or thick in nature or structure, as opposed to thin or fine.",
+      "id": "27D"
+    }
+  ]
+}

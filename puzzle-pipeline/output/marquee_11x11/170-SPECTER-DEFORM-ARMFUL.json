@@ -1,0 +1,886 @@
+{
+  "date": "2027-12-17",
+  "number": 170,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "M",
+      "A",
+      "S",
+      "H",
+      "#",
+      "#",
+      "P",
+      "P",
+      "S"
+    ],
+    [
+      "S",
+      "P",
+      "E",
+      "C",
+      "T",
+      "E",
+      "R",
+      "#",
+      "L",
+      "A",
+      "P"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "R",
+      "O",
+      "B",
+      "O",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "E",
+      "L",
+      "#",
+      "D",
+      "A",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "T",
+      "E",
+      "T",
+      "#",
+      "#",
+      "D",
+      "E",
+      "F",
+      "O",
+      "R",
+      "M"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "S",
+      "C",
+      "O",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "M",
+      "F",
+      "U",
+      "L",
+      "#",
+      "#",
+      "O",
+      "W",
+      "L"
+    ],
+    [
+      "P",
+      "E",
+      "C",
+      "A",
+      "N",
+      "#",
+      "P",
+      "A",
+      "S",
+      "E",
+      "O"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "R",
+      "U",
+      "D",
+      "E",
+      "S",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "O",
+      "S",
+      "I",
+      "#",
+      "P",
+      "E",
+      "R",
+      "H",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "N",
+      "E",
+      "I",
+      "#",
+      "#",
+      "W",
+      "E",
+      "A",
+      "R",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SMASH",
+      "clue": "Break violently to pieces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SPORE",
+      "clue": "Small usually single-celled asexual reproductive body produced by many...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small usually single-celled asexual reproductive body produced by many...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MERIT",
+      "clue": "Quality or state of deserving well or ill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality or state of deserving well or ill",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Farm unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "STOL",
+      "clue": "Short-runway aircraft, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "HEB",
+      "clue": "Biblical book, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PPS",
+      "clue": "After-PS afterthought",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "PLATO",
+      "clue": "Ancient Athenian philosopher",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient Athenian philosopher",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "PATER",
+      "clue": "Informal use of the Latin word for father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal use of the Latin word for father",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SPERM",
+      "clue": "Male reproductive cell",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male reproductive cell",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "SPECTER",
+      "clue": "Apparition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mental representation of some haunting experience",
+        "Something preternaturally visible"
+      ],
+      "definition": "Apparition.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SCOT",
+      "clue": "Name for a horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name for a horse",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RODEO",
+      "clue": "Exhibition of cowboy skills",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exhibition of cowboy skills",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LAP",
+      "clue": "Wash or flow against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wash or flow against",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CORROBORATE",
+      "clue": "To strengthen, as proof or conviction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Strengthen, as proof or conviction",
+        "Establish or strengthen as with new evidence or facts",
+        "Make strong, or to give additional strength to"
+      ],
+      "definition": "To strengthen, as proof or conviction.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RAFT",
+      "clue": "Flat float (usually made of logs or planks) that can be used for transport or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat float (usually made of logs or planks) that can be used for transport or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ORIEL",
+      "clue": "Projecting bay window corbeled or cantilevered out from a wall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Projecting bay window corbeled or cantilevered out from a wall",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "DATER",
+      "clue": "One seeking romance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TET",
+      "clue": "New Year in Vietnam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "New Year in Vietnam",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "DEFORM",
+      "clue": "To disfigure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Disfigure",
+        "Assume a different shape or form",
+        "Spoil the form of"
+      ],
+      "definition": "To disfigure.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DCL",
+      "clue": "Roman numeral for 650",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 650",
+      "clueSource": "roman"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ASCOT",
+      "clue": "Cravat with wide square ends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cravat with wide square ends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "AFAR",
+      "clue": "From a distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "SUNUP",
+      "clue": "First light of day",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First light of day",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "ARMFUL",
+      "clue": "As much as can be held in the arm or arms",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quantity that can be contained in the arms",
+        "As much as the arm can hold"
+      ],
+      "definition": "As much as can be held in the arm or arms.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "APRON",
+      "clue": "Article of dress, of cloth, leather, or other stuff, worn on the fore part...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Article of dress, of cloth, leather, or other stuff, worn on the fore part...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "REESE",
+      "clue": "Actress Witherspoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MCCII",
+      "clue": "Roman numeral for 1202",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1202",
+      "clueSource": "roman"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "OWL",
+      "clue": "Hooting bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OSCAR",
+      "clue": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "WEEPY",
+      "clue": "Liable to weep easily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liable to weep easily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "LOSS",
+      "clue": "Act of losing someone or something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of losing someone or something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "PECAN",
+      "clue": "Smooth brown oval nut of south central United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smooth brown oval nut of south central United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "PASEO",
+      "clue": "Path set aside for walking",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Path set aside for walking",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "PERE",
+      "clue": "Peer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Peer",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ASHA",
+      "clue": "Bollywood singer Bhosle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RECRUDESCES",
+      "clue": "Becomes raw or opens",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes raw or opens",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DEW",
+      "clue": "Water that has condensed on a cool surface overnight from water vapor in the air",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Water that has condensed on a cool surface overnight from water vapor in the air",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "Networking model, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "PERHAPS",
+      "clue": "Possibly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "By chance"
+      ],
+      "definition": "Possibly.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "NEI",
+      "clue": "'Of the,' in Italian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "WEARY",
+      "clue": "Exhaust or get tired through overuse or great strain or stress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exhaust or get tired through overuse or great strain or stress",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SPECTER",
+      "clue": "Apparition",
+      "definition": "Apparition.",
+      "id": "9A"
+    },
+    {
+      "word": "DEFORM",
+      "clue": "To disfigure",
+      "definition": "To disfigure.",
+      "id": "17A"
+    },
+    {
+      "word": "ARMFUL",
+      "clue": "As much as can be held in the arm or arms",
+      "definition": "As much as can be held in the arm or arms.",
+      "id": "20A"
+    },
+    {
+      "word": "PERHAPS",
+      "clue": "Possibly",
+      "definition": "Possibly.",
+      "id": "32A"
+    }
+  ]
+}

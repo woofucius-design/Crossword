@@ -1,0 +1,895 @@
+{
+  "date": "2027-07-27",
+  "number": 27,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "O",
+      "C",
+      "H",
+      "#",
+      "A",
+      "N",
+      "A",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "O",
+      "E",
+      "#",
+      "C",
+      "O",
+      "E",
+      "R",
+      "C",
+      "E"
+    ],
+    [
+      "N",
+      "O",
+      "N",
+      "L",
+      "I",
+      "T",
+      "E",
+      "R",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "E",
+      "F",
+      "F",
+      "E",
+      "D",
+      "#",
+      "L",
+      "O",
+      "N",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "O",
+      "N",
+      "E",
+      "S",
+      "#",
+      "#",
+      "S",
+      "D",
+      "I"
+    ],
+    [
+      "A",
+      "G",
+      "R",
+      "#",
+      "A",
+      "Y",
+      "S",
+      "#",
+      "F",
+      "O",
+      "E"
+    ],
+    [
+      "B",
+      "O",
+      "M",
+      "#",
+      "#",
+      "R",
+      "E",
+      "M",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "W",
+      "A",
+      "C",
+      "S",
+      "#",
+      "R",
+      "A",
+      "G",
+      "E",
+      "S"
+    ],
+    [
+      "C",
+      "A",
+      "N",
+      "D",
+      "I",
+      "D",
+      "A",
+      "T",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "C",
+      "I",
+      "T",
+      "E",
+      "#",
+      "T",
+      "R",
+      "A",
+      "P"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "V",
+      "A",
+      "L",
+      "#",
+      "S",
+      "E",
+      "T",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LOCH",
+      "clue": "A lake",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lake",
+        "Scottish word for a lake"
+      ],
+      "definition": "A lake.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LANE",
+      "clue": "Narrow way or road",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow way or road",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "OLOF",
+      "clue": "Slain Swedish PM Palme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "CONFORMANCE",
+      "clue": "Correspondence in form or appearance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "The act or state or conforming.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "HELEN",
+      "clue": "Beautiful daughter of Zeus and Leda who was abducted by Paris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Beautiful daughter of Zeus and Leda who was abducted by Paris",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "ANAT",
+      "clue": "Body-structure sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Part of a play",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "NOEL",
+      "clue": "Period extending from Dec. 24 to Jan. 6",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Period extending from Dec. 24 to Jan. 6",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AERO",
+      "clue": "Flight-related prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "TRANSFIGURE",
+      "clue": "To give an exalted meaning or glorified appearance to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Give an exalted meaning or glorified appearance to",
+        "Change completely the nature or appearance of",
+        "Change the outward form or appearance of"
+      ],
+      "definition": "To give an exalted meaning or glorified appearance to.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "COERCE",
+      "clue": "To force",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Force",
+        "Cause to do through pressure or necessity, by physical, moral or...",
+        "Restrain by force, especially by law or authority"
+      ],
+      "definition": "To force.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "CREDO",
+      "clue": "Any system of principles or beliefs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any system of principles or beliefs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "EYRIE",
+      "clue": "Nest of a bird of prey or other large bird that builds in a lofty place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nest of a bird of prey or other large bird that builds in a lofty place",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "NONLITERARY",
+      "clue": "Marked by lack of affectation or pedantry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by lack of affectation or pedantry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Light-bulb moment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "EFFED",
+      "clue": "Had sexual intercourse with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Had sexual intercourse with",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LONER",
+      "clue": "Person who avoids the company or assistance of others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who avoids the company or assistance of others",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Singles in a wallet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "AGR",
+      "clue": "Farming: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ABACI",
+      "clue": "Counting frames",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "GOWAN",
+      "clue": "Daisy, or mountain daisy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Daisy, or mountain daisy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "AYS",
+      "clue": "Affirmative votes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "SERA",
+      "clue": "Antibody-rich fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "FOE",
+      "clue": "Armed adversary (especially a member of an opposing military force)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Armed adversary (especially a member of an opposing military force)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "BOM",
+      "clue": "Large American serpent, so called from the sound it makes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large American serpent, so called from the sound it makes",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "REMI",
+      "clue": "Animated rat chef",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "MATTS",
+      "clue": "Properties of having little or no contrast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Properties of having little or no contrast",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "AWACS",
+      "clue": "Radar plane, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "CDIV",
+      "clue": "Roman numeral for 404",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 404",
+      "clueSource": "roman"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "SITA",
+      "clue": "Wife of the Hindu god Rama",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wife of the Hindu god Rama",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RAGES",
+      "clue": "Boisterous practical jokes (especially by college students)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boisterous practical jokes (especially by college students)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ERAT",
+      "clue": "Quod ___ demonstrandum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SEPT",
+      "clue": "People descended from a common ancestor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People descended from a common ancestor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CANDIDATURE",
+      "clue": "Campaign of a candidate to be elected",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Campaign of a candidate to be elected",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Key near Backspace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "INCITE",
+      "clue": "To rouse to a particular action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rouse to a particular action",
+        "Provoke or stir up",
+        "Move to action"
+      ],
+      "definition": "To rouse to a particular action.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TRAP",
+      "clue": "Hold fast or prevent from moving",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hold fast or prevent from moving",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "EVAL",
+      "clue": "Relating to time or duration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to time or duration",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SETT",
+      "clue": "Rectangular paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangular paving stone with curved top",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CONFORMANCE",
+      "clue": "Correspondence in form or appearance",
+      "definition": "The act or state or conforming.",
+      "id": "3D"
+    },
+    {
+      "word": "TRANSFIGURE",
+      "clue": "To give an exalted meaning or glorified appearance to",
+      "definition": "To give an exalted meaning or glorified appearance to.",
+      "id": "8D"
+    },
+    {
+      "word": "COERCE",
+      "clue": "To force",
+      "definition": "To force.",
+      "id": "10A"
+    },
+    {
+      "word": "INCITE",
+      "clue": "To rouse to a particular action",
+      "definition": "To rouse to a particular action.",
+      "id": "36A"
+    }
+  ]
+}

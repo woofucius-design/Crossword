@@ -1,0 +1,961 @@
+{
+  "date": "2028-01-08",
+  "number": 192,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "F",
+      "A",
+      "C",
+      "E",
+      "D",
+      "#",
+      "D",
+      "O",
+      "R",
+      "K"
+    ],
+    [
+      "T",
+      "A",
+      "T",
+      "A",
+      "M",
+      "I",
+      "#",
+      "I",
+      "R",
+      "O",
+      "N"
+    ],
+    [
+      "A",
+      "T",
+      "R",
+      "I",
+      "U",
+      "M",
+      "#",
+      "V",
+      "E",
+      "T",
+      "O"
+    ],
+    [
+      "C",
+      "I",
+      "I",
+      "#",
+      "S",
+      "L",
+      "E",
+      "I",
+      "G",
+      "H",
+      "T"
+    ],
+    [
+      "I",
+      "M",
+      "A",
+      "N",
+      "#",
+      "Y",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "A",
+      "L",
+      "U",
+      "K",
+      "#",
+      "L",
+      "O",
+      "L",
+      "L",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "A",
+      "D",
+      "#",
+      "R",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "U",
+      "N",
+      "C",
+      "T",
+      "I",
+      "O",
+      "N",
+      "#",
+      "A",
+      "B",
+      "U"
+    ],
+    [
+      "S",
+      "O",
+      "L",
+      "I",
+      "#",
+      "W",
+      "I",
+      "S",
+      "D",
+      "O",
+      "M"
+    ],
+    [
+      "E",
+      "L",
+      "I",
+      "A",
+      "#",
+      "R",
+      "U",
+      "L",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "D",
+      "A",
+      "I",
+      "L",
+      "#",
+      "Y",
+      "E",
+      "A",
+      "R",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "FACED",
+      "clue": "Dealt with (something unpleasant) head on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dealt with (something unpleasant) head on",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "FATIMA",
+      "clue": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ATRIAL",
+      "clue": "Of or relating to a cavity or chamber in the body (especially one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to a cavity or chamber in the body (especially one of the upper...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "CAI",
+      "clue": "Pinyin surname meaning vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "EMUS",
+      "clue": "Large Australian flightless birds similar to the ostrich but smaller",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Australian flightless birds similar to the ostrich but smaller",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "DIMLY",
+      "clue": "Obscurely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In a dim indistinct manner",
+        "In a dim or obscure manner"
+      ],
+      "definition": "Obscurely.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "DORK",
+      "clue": "Dull stupid fatuous person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dull stupid fatuous person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "DIVISOR",
+      "clue": "That by which a number or quantity is divided",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Number by which a dividend is divided"
+      ],
+      "definition": "That by which a number or quantity is divided.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "OREG",
+      "clue": "Beaver State, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ROTH",
+      "clue": "United States writer whose novels portray middle-class Jewish life (born in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer whose novels portray middle-class Jewish life (born in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "KNOT",
+      "clue": "Fastening together of the pars or ends of one or more threads, cords, ropes,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fastening together of the pars or ends of one or more threads, cords, ropes,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "TATAMI",
+      "clue": "Floor mat in Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "TACIT",
+      "clue": "Understood",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Implied by or inferred from actions or statements",
+        "Done or made in silence"
+      ],
+      "definition": "Understood.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "IRON",
+      "clue": "Most common and most useful metallic element, being of almost universal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most common and most useful metallic element, being of almost universal...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ATRIUM",
+      "clue": "Central area in a building",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Central area in a building",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "VETO",
+      "clue": "The constitutional right in a chief executive of refusing to approve an enactment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Constitutional right in a chief executive of refusing to approve an enactment",
+        "Vote that blocks a decision",
+        "Authoritative prohibition or negative"
+      ],
+      "definition": "The constitutional right in a chief executive of refusing to approve an enactment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "CII",
+      "clue": "Roman numeral for 102",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 102",
+      "clueSource": "roman"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "SLEIGHT",
+      "clue": "A trick or feat so deftly done that the manner of performance escapes",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Trick or feat so deftly done that the manner of performance escapes",
+        "Adroitness in using the hands",
+        "Cunning"
+      ],
+      "definition": "A trick or feat so deftly done that the manner of performance escapes",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "EEL",
+      "clue": "Slippery swimmer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "IMAN",
+      "clue": "Among the Mohammedans, a minister or priest who performs the regular service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Among the Mohammedans, a minister or priest who performs the regular service of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "NUPTIAL",
+      "clue": "Of or pertaining to marriage, especially to the marriage ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to a wedding",
+        "Of or pertaining to marriage"
+      ],
+      "definition": "Of or pertaining to marriage, especially to the marriage ceremony.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "TALUK",
+      "clue": "Large estate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large estate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "KAI",
+      "clue": "Surfer's greeting in Hawaii",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "LOLLS",
+      "clue": "Be lazy or idles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be lazy or idles",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "LEADER",
+      "clue": "Featured article of merchandise sold at a loss in order to draw customers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Featured article of merchandise sold at a loss in order to draw customers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "LABORS",
+      "clue": "Productive works (especially physical work done for wages)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Productive works (especially physical work done for wages)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SLUMS",
+      "clue": "Spends time at a lower socio-economic level than one's own, motivated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spends time at a lower socio-economic level than one's own, motivated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "PAD",
+      "clue": "Fleshy cushion-like underside of an animal's foot or of a human's finger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fleshy cushion-like underside of an animal's foot or of a human's finger",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "DOWRY",
+      "clue": "The property which a wife brings to her husband in marriage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Property which a wife brings to her husband in marriage",
+        "Money or property brought by a woman to her husband at marriage",
+        "Gift"
+      ],
+      "definition": "The property which a wife brings to her husband in marriage.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "REAL",
+      "clue": "Capable of being treated as fact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capable of being treated as fact",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "UNCTION",
+      "clue": "The art of anointing as with oil",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Art of anointing as with oil",
+        "Anointing as part of a religious ceremony or healing ritual",
+        "Act of anointing, smearing, or rubbing with an unguent, oil, or..."
+      ],
+      "definition": "The art of anointing as with oil.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "NOLA",
+      "clue": "The Big Easy, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "CLII",
+      "clue": "Roman numeral for 152",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 152",
+      "clueSource": "roman"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "NIUE",
+      "clue": "Pacific island nation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ABU",
+      "clue": "___ Dhabi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SOLI",
+      "clue": "Music for one, plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "WISDOM",
+      "clue": "Trait of utilizing knowledge and experience with common sense and insight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trait of utilizing knowledge and experience with common sense and insight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "1970s radical group, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ELIA",
+      "clue": "English essayist (1775-1834)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English essayist (1775-1834)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "RULERS",
+      "clue": "Measuring sticks consisting of a strip of wood or metal or plastic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring sticks consisting of a strip of wood or metal or plastic",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "DAIL",
+      "clue": "Lower house of the parliament of the Irish Republic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lower house of the parliament of the Irish Republic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "YEARS",
+      "clue": "Time during which someone's life continues",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time during which someone's life continues",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DIMLY",
+      "clue": "Obscurely",
+      "definition": "Obscurely.",
+      "id": "5D"
+    },
+    {
+      "word": "DIVISOR",
+      "clue": "That by which a number or quantity is divided",
+      "definition": "That by which a number or quantity is divided.",
+      "id": "6D"
+    },
+    {
+      "word": "SLEIGHT",
+      "clue": "A trick or feat so deftly done that the manner of performance escapes",
+      "definition": "A trick or feat so deftly done that the manner of performance escapes",
+      "id": "15A"
+    },
+    {
+      "word": "NUPTIAL",
+      "clue": "Of or pertaining to marriage, especially to the marriage ceremony",
+      "definition": "Of or pertaining to marriage, especially to the marriage ceremony.",
+      "id": "18D"
+    },
+    {
+      "word": "DOWRY",
+      "clue": "The property which a wife brings to her husband in marriage",
+      "definition": "The property which a wife brings to her husband in marriage.",
+      "id": "27D"
+    },
+    {
+      "word": "UNCTION",
+      "clue": "The art of anointing as with oil",
+      "definition": "The art of anointing as with oil.",
+      "id": "29A"
+    }
+  ]
+}

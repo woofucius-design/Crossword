@@ -1,0 +1,994 @@
+{
+  "date": "2027-10-14",
+  "number": 106,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "H",
+      "A",
+      "R",
+      "I",
+      "N",
+      "G",
+      "#",
+      "A",
+      "C",
+      "C",
+      "T"
+    ],
+    [
+      "A",
+      "M",
+      "A",
+      "D",
+      "O",
+      "U",
+      "#",
+      "F",
+      "A",
+      "R",
+      "O"
+    ],
+    [
+      "L",
+      "E",
+      "V",
+      "I",
+      "T",
+      "Y",
+      "#",
+      "A",
+      "J",
+      "A",
+      "R"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "O",
+      "#",
+      "#",
+      "P",
+      "R",
+      "O",
+      "V",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "L",
+      "I",
+      "I",
+      "#",
+      "L",
+      "E",
+      "I"
+    ],
+    [
+      "A",
+      "D",
+      "O",
+      "#",
+      "O",
+      "N",
+      "O",
+      "#",
+      "E",
+      "N",
+      "D"
+    ],
+    [
+      "W",
+      "E",
+      "B",
+      "#",
+      "A",
+      "N",
+      "N",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "I",
+      "L",
+      "U",
+      "M",
+      "#",
+      "#",
+      "S",
+      "A",
+      "S",
+      "H"
+    ],
+    [
+      "I",
+      "C",
+      "O",
+      "N",
+      "#",
+      "I",
+      "M",
+      "P",
+      "U",
+      "T",
+      "E"
+    ],
+    [
+      "L",
+      "E",
+      "N",
+      "D",
+      "#",
+      "R",
+      "A",
+      "I",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "G",
+      "O",
+      "#",
+      "E",
+      "X",
+      "C",
+      "E",
+      "P",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "HARING",
+      "clue": "Pop artist Keith",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "HALT",
+      "clue": "Stop the flow of a liquid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stop the flow of a liquid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AMER",
+      "clue": "U.S. modifier, in dictionaries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "RAVI",
+      "clue": "Sitarist Shankar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "IDIOM",
+      "clue": "A use of words peculiar to a particular language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of words peculiar to a particular language",
+        "Style of a particular artist or school or movement",
+        "Syntactical or structural form peculiar to any language"
+      ],
+      "definition": "A use of words peculiar to a particular language.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "NOT",
+      "clue": "Negation of a word or group of words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negation of a word or group of words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cable, wire, or rope that is used to brace something (especially a tent)",
+        "Rope, chain, or rod attached to anything to steady it"
+      ],
+      "definition": "Stay-rope.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ACCT",
+      "clue": "Bank record: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AFAR",
+      "clue": "From a distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "CAJOLE",
+      "clue": "To impose on or dupe by flattering speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Impose on or dupe by flattering speech",
+        "Influence or urge by gentle urging, caressing, or flattering",
+        "Deceive with flattery or fair words"
+      ],
+      "definition": "To impose on or dupe by flattering speech.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "CRAVEN",
+      "clue": "Lacking even the rudiments of courage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lacking even the rudiments of courage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "TOROID",
+      "clue": "Ring-shaped surface generated by rotating a circle around an axis that does...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ring-shaped surface generated by rotating a circle around an axis that does...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "AMADOU",
+      "clue": "Spongy, combustible substance, prepared from fungus (Boletus and Polyporus)...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spongy, combustible substance, prepared from fungus (Boletus and Polyporus)...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "FARO",
+      "clue": "Card game in which players bet against the dealer on the cards he will draw...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Card game in which players bet against the dealer on the cards he will draw...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "LEVITY",
+      "clue": "Frivolity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Manner lacking seriousness",
+        "Quality of weighing less than something else of equal bulk"
+      ],
+      "definition": "Frivolity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "AJAR",
+      "clue": "Slightly turned or opened",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly turned or opened",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "TRIO",
+      "clue": "Three things grouped or associated together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Musical composition for three performers",
+        "Three, considered collectively"
+      ],
+      "definition": "Three things grouped or associated together.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "PROVO",
+      "clue": "City in north central Utah settled by Mormons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in north central Utah settled by Mormons",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "PION",
+      "clue": "Meson involved in holding the nucleus together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Meson involved in holding the nucleus together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "MLII",
+      "clue": "Roman numeral for 1052",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1052",
+      "clueSource": "roman"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "LOAM",
+      "clue": "A non-coherent mixture of sand and clay",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Non-coherent mixture of sand and clay",
+        "Rich soil consisting of a mixture of sand and clay and decaying organic...",
+        "Kind of soil"
+      ],
+      "definition": "A non-coherent mixture of sand and clay.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "INN",
+      "clue": "Roadside lodging",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Luau garland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "ADO",
+      "clue": "Unnecessary activity or ceremony",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rapid active commotion",
+        "Do"
+      ],
+      "definition": "unnecessary activity or ceremony.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "AWHILE",
+      "clue": "For a while",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "For a while",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "DEICER",
+      "clue": "Heater that removes ice or frost (as from a windshield or a refrigerator",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heater that removes ice or frost (as from a windshield or a refrigerator or the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "OBLONG",
+      "clue": "Longer than broad: applied most commonly to rectangular objects considerably",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deviating from a square or circle or sphere by being elongated in one direction",
+        "Having greater length than breadth, esp. when rectangular. A..."
+      ],
+      "definition": "Longer than broad: applied most commonly to rectangular objects considerably",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "ONO",
+      "clue": "United States musician (born in Japan) who married John Lennon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States musician (born in Japan) who married John Lennon and collaborated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "END",
+      "clue": "Finish line",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "WEB",
+      "clue": "Flattened weblike part of a feather consisting of a series of barbs on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flattened weblike part of a feather consisting of a series of barbs on...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "ANNA",
+      "clue": "East Indian money of account, the sixteenth of a rupee, or about 2",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "East Indian money of account, the sixteenth of a rupee, or about 2",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "ASPIC",
+      "clue": "Savory jelly based on fish or meat stock used as a mold for meats or vegetables",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Savory jelly based on fish or meat stock used as a mold for meats or vegetables",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "HILUM",
+      "clue": "Eye of a bean or other seed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eye of a bean or other seed",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "UNDO",
+      "clue": "Reverse, as what has been done",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reverse, as what has been done",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SASH",
+      "clue": "Scarf or band worn about the waist, over the shoulder, or otherwise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scarf or band worn about the waist, over the shoulder, or otherwise",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AUNE",
+      "clue": "French cloth measure, of different parts of the country (at Paris, 0.95 of an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French cloth measure, of different parts of the country (at Paris, 0.95 of an...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STEP",
+      "clue": "Stair unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "HEST",
+      "clue": "Command",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Command",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "An image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
+      "definition": "An image or likeness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "IMPUTE",
+      "clue": "To attribute",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Attribute",
+        "Attribute or credit to",
+        "Charge"
+      ],
+      "definition": "To attribute.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "MAX",
+      "clue": "Street names for gamma hydroxybutyrate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for gamma hydroxybutyrate",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "LEND",
+      "clue": "Allow the custody and use of, on condition of the return of the same",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Allow the custody and use of, on condition of the return of the same",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "RAINES",
+      "clue": "Anything happenings rapidly or in quick successive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anything happenings rapidly or in quick successive",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "ERGO",
+      "clue": "Therefore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Therefore",
+      "clueSource": "webster"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "EXCEPT",
+      "clue": "Take or leave out (anything) from a number or a whole as not belonging to it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take or leave out (anything) from a number or a whole as not belonging to it",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CAJOLE",
+      "clue": "To impose on or dupe by flattering speech",
+      "definition": "To impose on or dupe by flattering speech.",
+      "id": "8D"
+    },
+    {
+      "word": "LEVITY",
+      "clue": "Frivolity",
+      "definition": "Frivolity.",
+      "id": "13A"
+    },
+    {
+      "word": "OBLONG",
+      "clue": "Longer than broad: applied most commonly to rectangular objects considerably",
+      "definition": "Longer than broad: applied most commonly to rectangular objects considerably",
+      "id": "23D"
+    },
+    {
+      "word": "IMPUTE",
+      "clue": "To attribute",
+      "definition": "To attribute.",
+      "id": "36A"
+    }
+  ]
+}

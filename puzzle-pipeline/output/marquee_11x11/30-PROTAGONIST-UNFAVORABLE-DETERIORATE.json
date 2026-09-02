@@ -1,0 +1,881 @@
+{
+  "date": "2027-07-30",
+  "number": 30,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "P",
+      "D",
+      "#",
+      "L",
+      "O",
+      "C",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "E",
+      "R",
+      "E",
+      "#",
+      "A",
+      "N",
+      "O",
+      "X",
+      "I",
+      "A"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "T",
+      "A",
+      "G",
+      "O",
+      "N",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "C",
+      "A",
+      "L",
+      "E",
+      "B",
+      "#",
+      "#",
+      "T",
+      "O",
+      "L",
+      "E"
+    ],
+    [
+      "T",
+      "I",
+      "E",
+      "R",
+      "E",
+      "D",
+      "#",
+      "E",
+      "M",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "D",
+      "I",
+      "O",
+      "M",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "A",
+      "R",
+      "O",
+      "#",
+      "I",
+      "M",
+      "P",
+      "E",
+      "D",
+      "E"
+    ],
+    [
+      "A",
+      "G",
+      "A",
+      "R",
+      "#",
+      "#",
+      "A",
+      "L",
+      "B",
+      "A",
+      "N"
+    ],
+    [
+      "U",
+      "N",
+      "F",
+      "A",
+      "V",
+      "O",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "N",
+      "E",
+      "T",
+      "T",
+      "E",
+      "R",
+      "#",
+      "T",
+      "E",
+      "E",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "S",
+      "E",
+      "T",
+      "S",
+      "#",
+      "E",
+      "D",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "TPD",
+      "clue": "Daily output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TERAI",
+      "clue": "Foothill region of Nepal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "PROLE",
+      "clue": "Member of the working class (not necessarily employed)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of the working class (not necessarily employed)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "DETERIORATE",
+      "clue": "To grow worse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Grow worse",
+        "Make worse"
+      ],
+      "definition": "To grow worse.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "LOCALE",
+      "clue": "Scene of any event or action (especially the place of a meeting)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scene of any event or action (especially the place of a meeting)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "LAG",
+      "clue": "Act of slowing down or falling behind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of slowing down or falling behind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ONO",
+      "clue": "United States musician (born in Japan) who married John Lennon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States musician (born in Japan) who married John Lennon and collaborated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CONTEMPLATE",
+      "clue": "To consider thoughtfully",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Consider thoughtfully",
+        "Reflect deeply on a subject",
+        "Look at on all sides or in all its bearings"
+      ],
+      "definition": "To consider thoughtfully.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AXIOM",
+      "clue": "Self-evident and necessary truth, or a proposition whose truth is so evident...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-evident and necessary truth, or a proposition whose truth is so evident...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "LISLE",
+      "clue": "Strong tightly twisted cotton thread (usually made of long-staple cotton)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strong tightly twisted cotton thread (usually made of long-staple cotton)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "EATER",
+      "clue": "One who causes to deteriorate due to the action of water, air, or an acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who causes to deteriorate due to the action of water, air, or an acid",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ANOXIA",
+      "clue": "Severe hypoxia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Severe hypoxia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PROTAGONIST",
+      "clue": "A leader in any enterprise or contest",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Leader in any enterprise or contest",
+        "Principal character in a work of fiction",
+        "One who takes the leading part in a drama"
+      ],
+      "definition": "A leader in any enterprise or contest.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "PCT",
+      "clue": "Proportion in relation to a whole (which is usually the amount per hundred)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Proportion in relation to a whole (which is usually the amount per hundred)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In bed; on a bed"
+      ],
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "CALEB",
+      "clue": "Biblical spy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "TOLE",
+      "clue": "Draw, or cause to follow, by displaying something pleasing or desirable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Draw, or cause to follow, by displaying something pleasing or desirable",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "TIERED",
+      "clue": "Layered like a cake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DII",
+      "clue": "Roman numeral for 502",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 502",
+      "clueSource": "roman"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "EMER",
+      "clue": "Critical: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "IDIOM",
+      "clue": "A use of words peculiar to a particular language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of words peculiar to a particular language",
+        "Style of a particular artist or school or movement",
+        "Syntactical or structural form peculiar to any language"
+      ],
+      "definition": "A use of words peculiar to a particular language.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "OMAR",
+      "clue": "Actor Sharif",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "FARO",
+      "clue": "Card game in which players bet against the dealer on the cards he will draw...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Card game in which players bet against the dealer on the cards he will draw...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "FAUNA",
+      "clue": "Animals of any given area or epoch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animals of any given area or epoch",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AGNES",
+      "clue": "Hurricane of 1972",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "RAFTS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "IMPEDE",
+      "clue": "To be an obstacle or to place obstacles in the way of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be an obstacle or to place obstacles in the way of",
+        "Block passage through",
+        "Hinder"
+      ],
+      "definition": "To be an obstacle or to place obstacles in the way of.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "EBBED",
+      "clue": "Fell away or declined",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fell away or declined",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DALES",
+      "clue": "Metric units of volume or capacity equal to liters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metric units of volume or capacity equal to liters",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point toward sunrise-ish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AGAR",
+      "clue": "Colloidal extract of algae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colloidal extract of algae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ALBAN",
+      "clue": "White crystalline resinous substance extracted from gutta- percha by the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White crystalline resinous substance extracted from gutta- percha by the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "UNFAVORABLE",
+      "clue": "Adverse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Tending to hinder or oppose",
+        "Not favorable"
+      ],
+      "definition": "Adverse.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "VET",
+      "clue": "Person who has served in the armed forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has served in the armed forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ORS",
+      "clue": "Rooms in a hospital equipped for the performance of surgical operations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rooms in a hospital equipped for the performance of surgical operations",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "NETTER",
+      "clue": "More remaining after all deductions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More remaining after all deductions",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "TEE",
+      "clue": "Short peg put into the ground to hold a golf ball off the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short peg put into the ground to hold a golf ball off the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ASSETS",
+      "clue": "Property available to pay debts",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Property in general, regarded as applicable to the payment of debts",
+        "Anything of material value or usefulness that is owned by a person or company",
+        "(a) Property of a deceased person, subject by law to the payment of..."
+      ],
+      "definition": "Property in general, regarded as applicable to the payment of debts.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DETERIORATE",
+      "clue": "To grow worse",
+      "definition": "To grow worse.",
+      "id": "3D"
+    },
+    {
+      "word": "CONTEMPLATE",
+      "clue": "To consider thoughtfully",
+      "definition": "To consider thoughtfully.",
+      "id": "6D"
+    },
+    {
+      "word": "PROTAGONIST",
+      "clue": "A leader in any enterprise or contest",
+      "definition": "A leader in any enterprise or contest.",
+      "id": "12A"
+    },
+    {
+      "word": "UNFAVORABLE",
+      "clue": "Adverse",
+      "definition": "Adverse.",
+      "id": "30A"
+    }
+  ]
+}

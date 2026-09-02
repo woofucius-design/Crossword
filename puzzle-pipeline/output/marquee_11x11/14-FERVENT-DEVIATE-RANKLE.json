@@ -1,0 +1,982 @@
+{
+  "date": "2027-07-14",
+  "number": 14,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "R",
+      "U",
+      "B",
+      "A",
+      "#",
+      "P",
+      "A",
+      "S",
+      "S"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "S",
+      "E",
+      "D",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "N",
+      "E",
+      "D",
+      "#",
+      "R",
+      "I",
+      "G",
+      "A"
+    ],
+    [
+      "I",
+      "R",
+      "K",
+      "#",
+      "F",
+      "E",
+      "R",
+      "V",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "T",
+      "A",
+      "L",
+      "I",
+      "#",
+      "D",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "N",
+      "T",
+      "#",
+      "E",
+      "R",
+      "R",
+      "O",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "S",
+      "S",
+      "#",
+      "T",
+      "E",
+      "L",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "V",
+      "I",
+      "A",
+      "T",
+      "E",
+      "#",
+      "G",
+      "E",
+      "E"
+    ],
+    [
+      "E",
+      "R",
+      "A",
+      "S",
+      "#",
+      "O",
+      "R",
+      "D",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "I",
+      "L",
+      "O",
+      "#",
+      "A",
+      "G",
+      "E",
+      "N",
+      "T",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "R",
+      "#",
+      "T",
+      "O",
+      "R",
+      "T",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ARUBA",
+      "clue": "Popular island resort in the Netherlands Antilles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Popular island resort in the Netherlands Antilles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ARARAT",
+      "clue": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain peak that Noah's ark landed on as the waters of the great flood...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "RANKLE",
+      "clue": "To produce irritation or festering",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Produce irritation or festering",
+        "Gnaw into",
+        "Become, or be, rank"
+      ],
+      "definition": "To produce irritation or festering.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "USN",
+      "clue": "Navy of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navy of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "BEEF",
+      "clue": "Animal of the genus Bos, especially the common species, B. taurus, including...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animal of the genus Bos, especially the common species, B. taurus, including...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ADDED",
+      "clue": "Made an addition (to)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made an addition (to)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PASS",
+      "clue": "Eliminate from the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eliminate from the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PERVERT",
+      "clue": "One who has forsaken a doctrine regarded as true for one esteemed false",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Person whose behavior deviates from what is acceptable especially in sexual...",
+        "Turnanother way"
+      ],
+      "definition": "One who has forsaken a doctrine regarded as true for one esteemed false.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AMIE",
+      "clue": "French girlfriend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "SIGN",
+      "clue": "That by which anything is made known or represented",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That by which anything is made known or represented",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "STAT",
+      "clue": "ASAP, in medicine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ERASED",
+      "clue": "Rubbed or scraped out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rubbed or scraped out",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "EMITS",
+      "clue": "Sends or gives out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sends or gives out",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "MANNED",
+      "clue": "Having a crew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having a crew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RIGA",
+      "clue": "Latvia's capital",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "To afflict with pain, vexation, or fatigue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Afflict with pain, vexation, or fatigue",
+        "Irritate or vex",
+        "Weary"
+      ],
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "FERVENT",
+      "clue": "Ardent in feeling",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Extremely hot",
+        "Hot"
+      ],
+      "definition": "Ardent in feeling.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "To regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Regret extremely",
+        "Street or road in France",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
+      "definition": "To regret extremely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "TALI",
+      "clue": "Anklebones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "INCISOR",
+      "clue": "A front or cutting tooth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Front or cutting tooth",
+        "Tooth for cutting or gnawing",
+        "One of the teeth in front of the canines in either jaw"
+      ],
+      "definition": "A front or cutting tooth.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DUE",
+      "clue": "Directly or exactly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Directly or exactly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "STENT",
+      "clue": "Keep within limits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Keep within limits",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Airport screening org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ERROR",
+      "clue": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "REGENT",
+      "clue": "One who is lawfully deputized to administer the government for the time being",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One who is lawfully deputized to administer the government for the time being in",
+        "Someone who rules during the absence or incapacity or minority of the country's...",
+        "Ruling"
+      ],
+      "definition": "One who is lawfully deputized to administer the government for the time being in",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "OLEATE",
+      "clue": "Acid salt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "REELS",
+      "clue": "American country dances which start with the couples facing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American country dances which start with the couples facing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Web stylist's language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "STOAT",
+      "clue": "Ermine in its summer pelage, when it is reddish brown, but with a black tip...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ermine in its summer pelage, when it is reddish brown, but with a black tip...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "TELE",
+      "clue": "Distant: Prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "DEVIATE",
+      "clue": "To take a different course",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Take a different course",
+        "Markedly different from an accepted norm",
+        "Go out of the way"
+      ],
+      "definition": "To take a different course.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DESS",
+      "clue": "Dais",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dais",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Pennsylvania Great Lake port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "VALE",
+      "clue": "Level or low land between hills",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Long depression in the surface of the land that usually contains a river",
+        "Tract of low ground, or of land between hills"
+      ],
+      "definition": "Level or low land between hills.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ERGO",
+      "clue": "Therefore",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Therefore",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "GEE",
+      "clue": "Give a command to a horse to turn to the right side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give a command to a horse to turn to the right side",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "History chapters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ORDEAL",
+      "clue": "Anything that severely tests courage, strength, patience, conscience, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Primitive method of determining a person's guilt or innocence by subjecting...",
+        "Ancient form of test to determine guilt or innocence, by appealing..."
+      ],
+      "definition": "Anything that severely tests courage, strength, patience, conscience, etc.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "DER",
+      "clue": "Masculine 'the,' in Berlin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SILO",
+      "clue": "Pit or vat for packing away green fodder for winter use so as to exclude air...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pit or vat for packing away green fodder for winter use so as to exclude air...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "AGENTS",
+      "clue": "Semantic roles of the animate entity that instigates or causes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Semantic roles of the animate entity that instigates or causes",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SEER",
+      "clue": "A prophet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Prophet",
+        "Authoritative person who divines the future",
+        "Sore"
+      ],
+      "definition": "A prophet.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TORTE",
+      "clue": "Rich cake usually covered with cream and fruit or nuts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rich cake usually covered with cream and fruit or nuts",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "RANKLE",
+      "clue": "To produce irritation or festering",
+      "definition": "To produce irritation or festering.",
+      "id": "2D"
+    },
+    {
+      "word": "PERVERT",
+      "clue": "One who has forsaken a doctrine regarded as true for one esteemed false",
+      "definition": "One who has forsaken a doctrine regarded as true for one esteemed false.",
+      "id": "6D"
+    },
+    {
+      "word": "FERVENT",
+      "clue": "Ardent in feeling",
+      "definition": "Ardent in feeling.",
+      "id": "15A"
+    },
+    {
+      "word": "INCISOR",
+      "clue": "A front or cutting tooth",
+      "definition": "A front or cutting tooth.",
+      "id": "18D"
+    },
+    {
+      "word": "REGENT",
+      "clue": "One who is lawfully deputized to administer the government for the time being",
+      "definition": "One who is lawfully deputized to administer the government for the time being in",
+      "id": "23D"
+    },
+    {
+      "word": "DEVIATE",
+      "clue": "To take a different course",
+      "definition": "To take a different course.",
+      "id": "29A"
+    }
+  ]
+}

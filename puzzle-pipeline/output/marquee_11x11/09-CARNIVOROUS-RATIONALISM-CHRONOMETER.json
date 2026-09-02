@@ -1,0 +1,930 @@
+{
+  "date": "2027-07-09",
+  "number": 9,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "A",
+      "C",
+      "S",
+      "#",
+      "R",
+      "E",
+      "S",
+      "P",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "G",
+      "H",
+      "A",
+      "#",
+      "E",
+      "M",
+      "E",
+      "R",
+      "G",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "R",
+      "N",
+      "I",
+      "V",
+      "O",
+      "R",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "T",
+      "R",
+      "O",
+      "T",
+      "S",
+      "#",
+      "S",
+      "A",
+      "V",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "N",
+      "A",
+      "B",
+      "S",
+      "#",
+      "#",
+      "O",
+      "S",
+      "I"
+    ],
+    [
+      "A",
+      "P",
+      "O",
+      "#",
+      "N",
+      "R",
+      "C",
+      "#",
+      "C",
+      "T",
+      "E"
+    ],
+    [
+      "L",
+      "I",
+      "M",
+      "#",
+      "#",
+      "I",
+      "O",
+      "T",
+      "A",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "R",
+      "T",
+      "#",
+      "C",
+      "U",
+      "T",
+      "I",
+      "E"
+    ],
+    [
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "A",
+      "L",
+      "I",
+      "S",
+      "M"
+    ],
+    [
+      "M",
+      "U",
+      "E",
+      "S",
+      "L",
+      "I",
+      "#",
+      "S",
+      "O",
+      "L",
+      "I"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "E",
+      "E",
+      "L",
+      "#",
+      "A",
+      "N",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "PACS",
+      "clue": "Committees formed by a special-interest group to raise money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Committees formed by a special-interest group to raise money",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "PACT",
+      "clue": "A covenant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Covenant",
+        "Written agreement between two states or sovereigns",
+        "Agreement"
+      ],
+      "definition": "A covenant.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AGAR",
+      "clue": "Colloidal extract of algae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colloidal extract of algae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "CHRONOMETER",
+      "clue": "A portable timekeeper of the highest attainable precision",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Portable timekeeper of the highest attainable precision",
+        "Accurate clock (especially used in navigation)",
+        "Instrument for measuring time"
+      ],
+      "definition": "A portable timekeeper of the highest attainable precision.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "SANTA",
+      "clue": "Legendary patron saint of children",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Legendary patron saint of children",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "RESP",
+      "clue": "Breathing: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "REV",
+      "clue": "Increase the number of rotations per minute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increase the number of rotations per minute",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "EMOS",
+      "clue": "Goth's cousins",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "SERA",
+      "clue": "Antibody-rich fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PROVOCATION",
+      "clue": "An action or mode of conduct that excites resentment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Action or mode of conduct that excites resentment",
+        "Unfriendly behavior that causes anger or resentment",
+        "Act of provoking, or causing vexation or, anger"
+      ],
+      "definition": "An action or mode of conduct that excites resentment.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "AGHA",
+      "clue": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "EMERGE",
+      "clue": "To come into view or into existence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Come into view or into existence",
+        "Come out into view, as from concealment",
+        "Rise out of a fluid"
+      ],
+      "definition": "To come into view or into existence.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "GUEST",
+      "clue": "Any computer that is hooked up to a computer network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any computer that is hooked up to a computer network",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSIE",
+      "clue": "Nail polish brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CARNIVOROUS",
+      "clue": "Eating or living on flesh",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feeding on animals",
+        "Eating or feeding on flesh. The term is applied: (a) to animals which..."
+      ],
+      "definition": "Eating or living on flesh.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "ISBN",
+      "clue": "Book ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TROTS",
+      "clue": "Runs at a moderately swift pace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Runs at a moderately swift pace",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SAVES",
+      "clue": "Makes unnecessary an expenditure or effort",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes unnecessary an expenditure or effort",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "NABS",
+      "clue": "Seizes suddenly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seizes suddenly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "OSI",
+      "clue": "Networking model, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "APO",
+      "clue": "Prefix from a Greek preposition. It usually signifies from, away from, off,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prefix from a Greek preposition. It usually signifies from, away from, off,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ALARM",
+      "clue": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "PILAU",
+      "clue": "Rice cooked in well-seasoned broth with onions or celery and usually poultry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rice cooked in well-seasoned broth with onions or celery and usually poultry or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NRC",
+      "clue": "Independent federal agency created in 1974 to license and regulate nuclear...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent federal agency created in 1974 to license and regulate nuclear...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "COCA",
+      "clue": "Cola-leaf source",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "CTE",
+      "clue": "Brain trauma condition, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "LIM",
+      "clue": "Limb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Limb",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "A small or insignificant mark or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "TULSA",
+      "clue": "Major city of northeastern Oklahoma on the Arkansas river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major city of northeastern Oklahoma on the Arkansas river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ALERT",
+      "clue": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "RISE",
+      "clue": "Get up and out of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get up and out of bed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "TOLE",
+      "clue": "Draw, or cause to follow, by displaying something pleasing or desirable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Draw, or cause to follow, by displaying something pleasing or desirable",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CUTIE",
+      "clue": "Adorable one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "An island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RATIONALISM",
+      "clue": "The formation of opinions by relying upon reason alone, independently",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Formation of opinions by relying upon reason alone, independently",
+        "Formation of opinions by relying upon reason alone, independently of",
+        "Doctrine that reason is the right basis for regulating conduct",
+        "Doctrine or system of those who deduce their religious opinions..."
+      ],
+      "definition": "The formation of opinions by relying upon reason alone, independently of",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
+      "definition": "Nothing",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "MUESLI",
+      "clue": "Mixture of untoasted dry cereals and fruits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mixture of untoasted dry cereals and fruits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "SOLI",
+      "clue": "Music for one, plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "REEL",
+      "clue": "American country dance which starts with the couples facing each other in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American country dance which starts with the couples facing each other in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ANET",
+      "clue": "Herb dill, or dillseed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Herb dill, or dillseed",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CHRONOMETER",
+      "clue": "A portable timekeeper of the highest attainable precision",
+      "definition": "A portable timekeeper of the highest attainable precision.",
+      "id": "3D"
+    },
+    {
+      "word": "PROVOCATION",
+      "clue": "An action or mode of conduct that excites resentment",
+      "definition": "An action or mode of conduct that excites resentment.",
+      "id": "8D"
+    },
+    {
+      "word": "CARNIVOROUS",
+      "clue": "Eating or living on flesh",
+      "definition": "Eating or living on flesh.",
+      "id": "13A"
+    },
+    {
+      "word": "RATIONALISM",
+      "clue": "The formation of opinions by relying upon reason alone, independently",
+      "definition": "The formation of opinions by relying upon reason alone, independently of",
+      "id": "34A"
+    }
+  ]
+}

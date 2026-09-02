@@ -1,0 +1,905 @@
+{
+  "date": "2027-08-15",
+  "number": 46,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "R",
+      "I",
+      "F",
+      "E",
+      "#",
+      "T",
+      "I",
+      "P",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "U",
+      "M",
+      "#",
+      "O",
+      "R",
+      "E",
+      "G",
+      "O",
+      "N"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "C",
+      "I",
+      "P",
+      "I",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "T",
+      "A",
+      "T",
+      "E",
+      "R",
+      "#",
+      "S",
+      "P",
+      "O",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "H",
+      "E",
+      "A",
+      "D",
+      "#",
+      "#",
+      "M",
+      "E",
+      "T"
+    ],
+    [
+      "S",
+      "H",
+      "E",
+      "#",
+      "N",
+      "A",
+      "P",
+      "#",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "#",
+      "#",
+      "O",
+      "L",
+      "I",
+      "N",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "C",
+      "K",
+      "#",
+      "E",
+      "N",
+      "I",
+      "A",
+      "C"
+    ],
+    [
+      "V",
+      "I",
+      "N",
+      "D",
+      "I",
+      "C",
+      "A",
+      "T",
+      "O",
+      "R",
+      "Y"
+    ],
+    [
+      "E",
+      "X",
+      "C",
+      "I",
+      "T",
+      "E",
+      "#",
+      "R",
+      "U",
+      "T",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "V",
+      "E",
+      "N",
+      "#",
+      "A",
+      "S",
+      "S",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RIFE",
+      "clue": "Abundant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excessively abundant",
+        "Prevailing"
+      ],
+      "definition": "Abundant.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RAPT",
+      "clue": "Enraptured",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feeling great rapture or delight",
+        "Imp. & p. p. of Rap, to snatch away"
+      ],
+      "definition": "Enraptured.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "FURTHERANCE",
+      "clue": "Advancement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Advancement of some enterprise"
+      ],
+      "definition": "Advancement.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "EMCEE",
+      "clue": "Act as a master of ceremonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act as a master of ceremonies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "TIPI",
+      "clue": "Native American tent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native American tent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "TOP",
+      "clue": "Spinning toy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "IRIS",
+      "clue": "Diaphragm consisting of thin overlapping plates that can be adjusted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diaphragm consisting of thin overlapping plates that can be adjusted to change...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PEEP",
+      "clue": "Secret look",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secret look",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "IGNOMINIOUS",
+      "clue": "Shameful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deserving or bringing disgrace or shame"
+      ],
+      "definition": "Shameful.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ALUM",
+      "clue": "Double sulphate formed of aluminium and some other element (esp. an alkali...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Double sulphate formed of aluminium and some other element (esp. an alkali...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OREGON",
+      "clue": "State in northwestern United States on the Pacific",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in northwestern United States on the Pacific",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "OCTET",
+      "clue": "Composition for eight parts, usually for eight solo instruments or voices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Composition for eight parts, usually for eight solo instruments or voices",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "NESTS",
+      "clue": "Kinds of gun emplacement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kinds of gun emplacement",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PERCIPIENCE",
+      "clue": "The act of perceiving",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of perceiving",
+        "Faculty, act or power of perceiving"
+      ],
+      "definition": "The act of perceiving.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "IRAN",
+      "clue": "Native name of Persia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native name of Persia",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TATER",
+      "clue": "Edible tuber native to South America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edible tuber native to South America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SPOTS",
+      "clue": "Acts that bring discredit to the person who does it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts that bring discredit to the person who does it",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "HEAD",
+      "clue": "Anterior or superior part of an animal, containing the brain, or chief...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Anterior or superior part of an animal, containing the brain, or chief...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DAO",
+      "clue": "Way, in Chinese philosophy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "MET",
+      "clue": "NYC opera house, with \"the\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "SHE",
+      "clue": "Woman's pronoun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SHAVE",
+      "clue": "Remove body hair with a razor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove body hair with a razor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "HELIX",
+      "clue": "Nonplane curve whose tangents are all equally inclined to a given plane. The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nonplane curve whose tangents are all equally inclined to a given plane. The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NAP",
+      "clue": "Have a short sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have a short sleep",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "PLEA",
+      "clue": "An argument to obtain some desired action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Argument to obtain some desired action",
+        "Answer indicating why a suit should be dismissed",
+        "That which is alleged by a party in support of his cause"
+      ],
+      "definition": "An argument to obtain some desired action.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Grammatical possessive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "HER",
+      "clue": "That woman's",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "OLIN",
+      "clue": "Actress Lena",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "INTRA",
+      "clue": "Within, in compounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ALACK",
+      "clue": "Exclamation expressive of sorrow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exclamation expressive of sorrow",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "CDIV",
+      "clue": "Roman numeral for 404",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 404",
+      "clueSource": "roman"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "KITE",
+      "clue": "Any of several small graceful hawks of the family Accipitridae having long...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of several small graceful hawks of the family Accipitridae having long...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ENIAC",
+      "clue": "Early computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Humanities, informally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "CYAN",
+      "clue": "Primary subtractive color for light",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Primary subtractive color for light",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "VINDICATORY",
+      "clue": "Punitive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Providing justification",
+        "Tending or serving to vindicate or justify"
+      ],
+      "definition": "Punitive.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "CEN",
+      "clue": "100 yrs.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "EXCITE",
+      "clue": "Call to activity in any way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Call to activity in any way",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "RUTA",
+      "clue": "Type genus of the Rutaceae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Rutaceae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "EVEN",
+      "clue": "Tied, as a score",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ASSN",
+      "clue": "Org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "FURTHERANCE",
+      "clue": "Advancement",
+      "definition": "Advancement.",
+      "id": "3D"
+    },
+    {
+      "word": "IGNOMINIOUS",
+      "clue": "Shameful",
+      "definition": "Shameful.",
+      "id": "8D"
+    },
+    {
+      "word": "PERCIPIENCE",
+      "clue": "The act of perceiving",
+      "definition": "The act of perceiving.",
+      "id": "13A"
+    },
+    {
+      "word": "VINDICATORY",
+      "clue": "Punitive",
+      "definition": "Punitive.",
+      "id": "34A"
+    }
+  ]
+}

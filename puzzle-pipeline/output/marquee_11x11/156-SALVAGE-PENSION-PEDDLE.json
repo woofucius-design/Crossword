@@ -1,0 +1,992 @@
+{
+  "date": "2027-12-03",
+  "number": 156,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "P",
+      "O",
+      "R",
+      "T",
+      "#",
+      "S",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "F",
+      "E",
+      "E",
+      "D",
+      "E",
+      "R",
+      "#",
+      "E",
+      "G",
+      "O",
+      "S"
+    ],
+    [
+      "L",
+      "A",
+      "D",
+      "D",
+      "I",
+      "E",
+      "#",
+      "R",
+      "U",
+      "N",
+      "S"
+    ],
+    [
+      "A",
+      "M",
+      "D",
+      "#",
+      "S",
+      "A",
+      "L",
+      "V",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "L",
+      "M",
+      "#",
+      "D",
+      "E",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "K",
+      "N",
+      "E",
+      "A",
+      "D",
+      "#",
+      "I",
+      "C",
+      "B",
+      "M",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "P",
+      "Y",
+      "#",
+      "E",
+      "R",
+      "I",
+      "C"
+    ],
+    [
+      "P",
+      "E",
+      "N",
+      "S",
+      "I",
+      "O",
+      "N",
+      "#",
+      "O",
+      "N",
+      "O"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "I",
+      "#",
+      "D",
+      "E",
+      "V",
+      "O",
+      "U",
+      "T"
+    ],
+    [
+      "C",
+      "L",
+      "I",
+      "V",
+      "#",
+      "E",
+      "R",
+      "E",
+      "C",
+      "T",
+      "S"
+    ],
+    [
+      "T",
+      "A",
+      "L",
+      "E",
+      "#",
+      "L",
+      "I",
+      "T",
+      "H",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SPORT",
+      "clue": "Occupation of athletes who compete for pay",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Occupation of athletes who compete for pay",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SEAMAN",
+      "clue": "Man who serves as a sailor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Man who serves as a sailor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "PEDDLE",
+      "clue": "To go about with a small stock of goods to sell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Go about with a small stock of goods to sell",
+        "Sell or offer for sale from place to place",
+        "Travel about with wares for sale"
+      ],
+      "definition": "To go about with a small stock of goods to sell.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ODD",
+      "clue": "Not paired with another, or remaining over after a pairing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not paired with another, or remaining over after a pairing",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "REIS",
+      "clue": "Word is used as a Portuguese designation of money of account, one hundred...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word is used as a Portuguese designation of money of account, one hundred...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "TREAD",
+      "clue": "Set the foot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set the foot",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "SALE",
+      "clue": "Bargain hunter's event",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "SERVICE",
+      "clue": "Any work done for the benefit of another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Performance of duties by a waiter or servant",
+        "Name given to several trees and shrubs of the genus Pyrus, as Pyrus..."
+      ],
+      "definition": "Any work done for the benefit of another.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AGUA",
+      "clue": "Largest known toad species",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest known toad species",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LONG",
+      "clue": "Verbose?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VERBOSE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of verbose",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "FEEDER",
+      "clue": "One who, or that which, gives food or supplies nourishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who, or that which, gives food or supplies nourishment",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "FLACK",
+      "clue": "Artillery designed to shoot upward at airplanes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artillery designed to shoot upward at airplanes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EGOS",
+      "clue": "Inflated senses of self",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "LADDIE",
+      "clue": "A lad",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lad",
+        "Male child (a familiar term of address to a boy)"
+      ],
+      "definition": "A lad.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RUNS",
+      "clue": "Becomes undone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes undone",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "AMD",
+      "clue": "Macular degeneration that is age-related",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macular degeneration that is age-related",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "SALVAGE",
+      "clue": "Any act of saving property",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of rescuing a ship or its crew or its cargo from a shipwreck or a fire",
+        "Act of saving a vessel, goods, or life, goods, or life, from..."
+      ],
+      "definition": "Any act of saving property.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Luau garland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "CALM",
+      "clue": "Stoic?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "PLACID",
+        "SERENE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "MASSIVE",
+      "clue": "Of considerable bulk and weight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Consisting of great mass",
+        "Forming, or consisting of, a large mass"
+      ],
+      "definition": "Of considerable bulk and weight.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DEI",
+      "clue": "Agnus ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "KNEAD",
+      "clue": "To mix and work into a homogeneous mass, especially with the hands",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mix and work into a homogeneous mass, especially with the hands",
+        "Manually manipulate (someone's body), usually for medicinal or relaxation...",
+        "Work and press into a mass, usually with the hands"
+      ],
+      "definition": "To mix and work into a homogeneous mass, especially with the hands.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "DPI",
+      "clue": "Print resolution unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Print resolution unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ICBMS",
+      "clue": "Ballistic missiles that are capable of traveling from one continent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ballistic missiles that are capable of traveling from one continent",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "BROOCH",
+      "clue": "An article of jewelry fastened by a hinged pin and hook on the underside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Article of jewelry fastened by a hinged pin and hook on the underside",
+        "Decorative pin worn by women",
+        "Ornament, in various forms, with a tongue, pin, or loop for..."
+      ],
+      "definition": "An article of jewelry fastened by a hinged pin and hook on the underside.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "MINUTE",
+      "clue": "Exceedingly small in extent or quantity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by painstaking care and detailed examination",
+        "Sixtieth part of an hour"
+      ],
+      "definition": "Exceedingly small in extent or quantity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "SCOTS",
+      "clue": "Of or relating to or characteristic of Scotland or its people or culture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or characteristic of Scotland or its people or culture or its...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "SPY",
+      "clue": "Secret agent hired by a state to obtain information about its enemies or by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secret agent hired by a state to obtain information about its enemies or by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "YODEL",
+      "clue": "Songlike cry in which the voice fluctuates rapidly between the normal voice...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Songlike cry in which the voice fluctuates rapidly between the normal voice...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PENSION",
+      "clue": "A periodical allowance to an individual on account of past service done",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Periodical allowance to an individual on account of past service done",
+        "Periodical allowance to an individual on account of past service done by",
+        "Regular payment to a person that is intended to allow them to subsist without...",
+        "Payment"
+      ],
+      "definition": "A periodical allowance to an individual on account of past service done by",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PACT",
+      "clue": "A covenant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Covenant",
+        "Written agreement between two states or sovereigns",
+        "Agreement"
+      ],
+      "definition": "A covenant.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ELLA",
+      "clue": "Singer Fitzgerald",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "NAIL",
+      "clue": "Complete a pass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Complete a pass",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "NERI",
+      "clue": "Composer of opera 'L'avola'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ONO",
+      "clue": "United States musician (born in Japan) who married John Lennon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States musician (born in Japan) who married John Lennon and collaborated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "DEVOUT",
+      "clue": "Religious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deeply religious",
+        "Devoted to religion or to religious feelings and duties"
+      ],
+      "definition": "Religious.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "VET",
+      "clue": "Person who has served in the armed forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has served in the armed forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "CLIV",
+      "clue": "Roman numeral for 154",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 154",
+      "clueSource": "roman"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ERECTS",
+      "clue": "Builds upright",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "TALE",
+      "clue": "Trivial lie",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trivial lie",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "LITHE",
+      "clue": "Supple",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moving and bending with ease",
+        "Listen or listen to"
+      ],
+      "definition": "Supple.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PEDDLE",
+      "clue": "To go about with a small stock of goods to sell",
+      "definition": "To go about with a small stock of goods to sell.",
+      "id": "2D"
+    },
+    {
+      "word": "SERVICE",
+      "clue": "Any work done for the benefit of another",
+      "definition": "Any work done for the benefit of another.",
+      "id": "6D"
+    },
+    {
+      "word": "SALVAGE",
+      "clue": "Any act of saving property",
+      "definition": "Any act of saving property.",
+      "id": "15A"
+    },
+    {
+      "word": "MASSIVE",
+      "clue": "Of considerable bulk and weight",
+      "definition": "Of considerable bulk and weight.",
+      "id": "18D"
+    },
+    {
+      "word": "BROOCH",
+      "clue": "An article of jewelry fastened by a hinged pin and hook on the underside",
+      "definition": "An article of jewelry fastened by a hinged pin and hook on the underside.",
+      "id": "23D"
+    },
+    {
+      "word": "PENSION",
+      "clue": "A periodical allowance to an individual on account of past service done",
+      "definition": "A periodical allowance to an individual on account of past service done by",
+      "id": "29A"
+    }
+  ]
+}

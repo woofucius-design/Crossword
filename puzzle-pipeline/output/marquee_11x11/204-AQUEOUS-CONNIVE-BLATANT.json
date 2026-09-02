@@ -1,0 +1,895 @@
+{
+  "date": "2028-01-20",
+  "number": 204,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "A",
+      "I",
+      "S",
+      "S",
+      "E",
+      "#",
+      "#",
+      "M",
+      "C",
+      "D"
+    ],
+    [
+      "A",
+      "Q",
+      "U",
+      "E",
+      "O",
+      "U",
+      "S",
+      "#",
+      "U",
+      "D",
+      "O"
+    ],
+    [
+      "L",
+      "U",
+      "D",
+      "I",
+      "C",
+      "R",
+      "O",
+      "U",
+      "S",
+      "L",
+      "Y"
+    ],
+    [
+      "M",
+      "A",
+      "S",
+      "#",
+      "C",
+      "O",
+      "N",
+      "N",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "E",
+      "S",
+      "#",
+      "W",
+      "A",
+      "I",
+      "N"
+    ],
+    [
+      "R",
+      "A",
+      "D",
+      "A",
+      "R",
+      "#",
+      "F",
+      "E",
+      "L",
+      "I",
+      "S"
+    ],
+    [
+      "O",
+      "L",
+      "E",
+      "S",
+      "#",
+      "A",
+      "E",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "L",
+      "A",
+      "T",
+      "A",
+      "N",
+      "T",
+      "#",
+      "U",
+      "S",
+      "A"
+    ],
+    [
+      "L",
+      "I",
+      "C",
+      "E",
+      "N",
+      "T",
+      "I",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "E",
+      "O",
+      "#",
+      "D",
+      "I",
+      "S",
+      "S",
+      "E",
+      "C",
+      "T"
+    ],
+    [
+      "S",
+      "S",
+      "N",
+      "#",
+      "#",
+      "S",
+      "H",
+      "A",
+      "S",
+      "T",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "CAISSE",
+      "clue": "Fund, in French",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CALM",
+      "clue": "Stoic?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC",
+        "PLACID",
+        "SERENE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "AQUA",
+      "clue": "Water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Water",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "IUDS",
+      "clue": "Contraceptive devices consisting of a piece of bent plastic or metal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contraceptive devices consisting of a piece of bent plastic or metal",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SEI",
+      "clue": "Baleen whale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SOCCER",
+      "clue": "Football game in which two teams of 11 players try to kick or head a ball...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Football game in which two teams of 11 players try to kick or head a ball...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "EUROS",
+      "clue": "Basic monetary units of most members of the European Union (introduced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic monetary units of most members of the European Union (introduced",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "MCD",
+      "clue": "Roman numeral for 1400",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1400",
+      "clueSource": "roman"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "MUSIAL",
+      "clue": "United States baseball player (born in 1920)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States baseball player (born in 1920)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "CDLVII",
+      "clue": "Roman numeral for 457",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 457",
+      "clueSource": "roman"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "DOYENS",
+      "clue": "Men who are the senior member of a group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Men who are the senior member of a group",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "AQUEOUS",
+      "clue": "Of, pertaining to, or containing water",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Produced by the action of water",
+        "Partaking of the nature of water, or abounding with it"
+      ],
+      "definition": "Of, pertaining to, or containing water.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "SON",
+      "clue": "Male child",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male child",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "UDO",
+      "clue": "Japanese salad vegetable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "LUDICROUSLY",
+      "clue": "So as to arouse or deserve laughter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "So as to arouse or deserve laughter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "UNWED",
+      "clue": "Of someone who has not been married",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of someone who has not been married",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "MAS",
+      "clue": "Master's degrees in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degrees in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "CONNIVE",
+      "clue": "To be in collusion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be in collusion",
+        "Form intrigues (for) in an underhand manner",
+        "Open and close the eyes rapidly"
+      ],
+      "definition": "To be in collusion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "HES",
+      "clue": "5th letters of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "5th letters of the Hebrew alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "HASTE",
+      "clue": "Act of moving hurriedly and in a careless manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of moving hurriedly and in a careless manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "WAIN",
+      "clue": "Large open farm wagon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large open farm wagon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "RADAR",
+      "clue": "Measuring instrument in which the echo of a pulse of microwave radiation is...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instrument in which the echo of a pulse of microwave radiation is...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "ROBLES",
+      "clue": "Tall graceful deciduous California oaks having leathery leaves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tall graceful deciduous California oaks having leathery leaves",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ALLIES",
+      "clue": "Alliance of nations joining together to fight a common enemy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Alliance of nations joining together to fight a common enemy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DEACON",
+      "clue": "Officer in Christian churches appointed to perform certain subordinate...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Officer in Christian churches appointed to perform certain subordinate...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FELIS",
+      "clue": "Genus of carnivorous mammals, including the domestic cat, the lion, tiger,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of carnivorous mammals, including the domestic cat, the lion, tiger,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "FETISH",
+      "clue": "Material object supposed among certain African tribes to represent in such a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material object supposed among certain African tribes to represent in such a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "OLES",
+      "clue": "Bullring cheers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANTIS",
+      "clue": "People who are opposed (to an action or policy or practice etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are opposed (to an action or policy or practice etc",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BLATANT",
+      "clue": "Noisily or offensively loud or clamorous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Conspicuously and offensively loud",
+        "Bellowing, as a calf"
+      ],
+      "definition": "Noisily or offensively loud or clamorous.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Plus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Home of the brave, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "UTES",
+      "clue": "Extensive tribe of North American Indians of the Shoshone stock, inhabiting...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extensive tribe of North American Indians of the Shoshone stock, inhabiting...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "SECT",
+      "clue": "Subdivision of a larger religious group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subdivision of a larger religious group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ASTA",
+      "clue": "\"The Thin Man\" dog",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "LICENTIATES",
+      "clue": "Holds a license (degrees) from a (European) university",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Holds a license (degrees) from a (European) university",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ASA",
+      "clue": "Botanist Gray",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "EEO",
+      "clue": "Workplace fairness, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "DISSECT",
+      "clue": "To cut apart or to pieces",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cut apart or to pieces",
+        "Make a mathematical, chemical, or grammatical analysis of",
+        "Divide into separate parts"
+      ],
+      "definition": "To cut apart or to pieces.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SHASTA",
+      "clue": "Mountain peak, etc., in California",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mountain peak, etc., in California",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "AQUEOUS",
+      "clue": "Of, pertaining to, or containing water",
+      "definition": "Of, pertaining to, or containing water.",
+      "id": "10A"
+    },
+    {
+      "word": "CONNIVE",
+      "clue": "To be in collusion",
+      "definition": "To be in collusion.",
+      "id": "16A"
+    },
+    {
+      "word": "BLATANT",
+      "clue": "Noisily or offensively loud or clamorous",
+      "definition": "Noisily or offensively loud or clamorous.",
+      "id": "25A"
+    },
+    {
+      "word": "DISSECT",
+      "clue": "To cut apart or to pieces",
+      "definition": "To cut apart or to pieces.",
+      "id": "33A"
+    }
+  ]
+}

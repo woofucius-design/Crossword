@@ -1,0 +1,962 @@
+{
+  "date": "2027-10-31",
+  "number": 123,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "H",
+      "E",
+      "A",
+      "P",
+      "#",
+      "O",
+      "A",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "L",
+      "U",
+      "M",
+      "N",
+      "I",
+      "#",
+      "U",
+      "L",
+      "N",
+      "A"
+    ],
+    [
+      "R",
+      "O",
+      "M",
+      "M",
+      "E",
+      "L",
+      "#",
+      "T",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "R",
+      "U",
+      "E",
+      "#",
+      "W",
+      "A",
+      "R",
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    [
+      "A",
+      "G",
+      "R",
+      "A",
+      "#",
+      "U",
+      "N",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "H",
+      "I",
+      "F",
+      "T",
+      "#",
+      "A",
+      "V",
+      "E",
+      "R",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "F",
+      "A",
+      "G",
+      "#",
+      "E",
+      "V",
+      "E",
+      "R"
+    ],
+    [
+      "B",
+      "A",
+      "R",
+      "R",
+      "I",
+      "N",
+      "G",
+      "#",
+      "O",
+      "D",
+      "E"
+    ],
+    [
+      "E",
+      "C",
+      "H",
+      "O",
+      "#",
+      "A",
+      "I",
+      "S",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "T",
+      "H",
+      "E",
+      "N",
+      "#",
+      "S",
+      "L",
+      "A",
+      "V",
+      "E",
+      "S"
+    ],
+    [
+      "H",
+      "E",
+      "A",
+      "T",
+      "#",
+      "H",
+      "A",
+      "R",
+      "E",
+      "M",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CHEAP",
+      "clue": "Relatively low in price or charging low prices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relatively low in price or charging low prices",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "CLOUGH",
+      "clue": "Cleft in a hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cleft in a hill",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "HUMERI",
+      "clue": "Upper arm bones, Latin plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EMM",
+      "clue": "Mid-alphabet trio's middle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Once more",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Over again"
+      ],
+      "definition": "Once more.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "PILAU",
+      "clue": "Rice cooked in well-seasoned broth with onions or celery and usually poultry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rice cooked in well-seasoned broth with onions or celery and usually poultry or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "OATS",
+      "clue": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seeds of the annual grass Avena sativa (spoken of primarily",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "OUTLIVE",
+      "clue": "To continue to exist after",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Continue to exist after",
+        "Live longer than",
+        "Live beyond, or longer than"
+      ],
+      "definition": "To continue to exist after.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "TNPK",
+      "clue": "Toll road, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SASE",
+      "clue": "Mail-in inclusion, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ALUMNI",
+      "clue": "School grads",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "ARRAS",
+      "clue": "Wall hanging of heavy handwoven fabric with pictorial designs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wall hanging of heavy handwoven fabric with pictorial designs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ROMMEL",
+      "clue": "German field marshal noted for brilliant generalship in North Africa during...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German field marshal noted for brilliant generalship in North Africa during...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TAPS",
+      "clue": "Signal to turn the lights out",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Signal to turn the lights out",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "To regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Regret extremely",
+        "Street or road in France",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
+      "definition": "To regret extremely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "WARLIKE",
+      "clue": "Belligerent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Suggesting war or military life",
+        "Fit for war"
+      ],
+      "definition": "Belligerent.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "RNA",
+      "clue": "DNA's messenger cousin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "AGRA",
+      "clue": "City in northern India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northern India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "AFFRONT",
+      "clue": "An open insult or indignity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Open insult or indignity",
+        "Deliberately offensive act or something producing the effect of deliberate...",
+        "Front"
+      ],
+      "definition": "An open insult or indignity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "UNI",
+      "clue": "College, in Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SHIFT",
+      "clue": "Act of changing one thing or position for another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing one thing or position for another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TAI",
+      "clue": "Most widespread and best known of the Kadai family of languages",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most widespread and best known of the Kadai family of languages",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AVERT",
+      "clue": "To turn away or aside",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Turn away or aside",
+        "Turn aside, or away"
+      ],
+      "definition": "To turn away or aside.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "EVOLVE",
+      "clue": "To unfold or expand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unfold or expand",
+        "Undergo development or evolution",
+        "Unfold or unroll"
+      ],
+      "definition": "To unfold or expand.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "REDEEM",
+      "clue": "Purchase back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Purchase back",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "TRESS",
+      "clue": "Braid, knot, or curl, of hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Braid, knot, or curl, of hair",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "FAG",
+      "clue": "Exhaust or get tired through overuse or great strain or stress",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exhaust or get tired through overuse or great strain or stress",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "GNASH",
+      "clue": "To grind or strike the teeth together, as from rage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Grind or strike the teeth together, as from rage",
+        "Grind together, of teeth",
+        "Strike together, as in anger or pain"
+      ],
+      "definition": "To grind or strike the teeth together, as from rage.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "EVER",
+      "clue": "At any time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At any time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BARRING",
+      "clue": "Apart from",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of excluding someone by a negative vote or veto"
+      ],
+      "definition": "Apart from.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BETH",
+      "clue": "2nd letter of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "2nd letter of the Hebrew alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ACHE",
+      "clue": "To be in pain or distress",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be in pain or distress",
+        "Dull persistent (usually moderately intense) pain",
+        "Name given to several species of plants"
+      ],
+      "definition": "To be in pain or distress.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "RHEA",
+      "clue": "Ostrich cousin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "GILA",
+      "clue": "River that rises in western New Mexico and flows westward through southern...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River that rises in western New Mexico and flows westward through southern...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "The form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Form of lyric poetry anciently intended to be sung",
+        "Lyric poem with complex stanza forms",
+        "Short poetical composition proper to be set to music or sung"
+      ],
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ECHO",
+      "clue": "Sound reflected back to you",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "AISLES",
+      "clue": "Passageways between seating areas as in an auditorium or passenger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passageways between seating areas as in an auditorium or passenger",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "SAR",
+      "clue": "Search-and-rescue, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "THEN",
+      "clue": "That time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SLAVES",
+      "clue": "Any members of the people of eastern Europe or Asian Russia who speak",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any members of the people of eastern Europe or Asian Russia who speak",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "HEAT",
+      "clue": "Force in nature which is recognized in various effects, but especially in the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Force in nature which is recognized in various effects, but especially in the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "HAREM",
+      "clue": "Living quarters reserved for wives and concubines and female relatives in a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Living quarters reserved for wives and concubines and female relatives in a...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "OUTLIVE",
+      "clue": "To continue to exist after",
+      "definition": "To continue to exist after.",
+      "id": "6D"
+    },
+    {
+      "word": "WARLIKE",
+      "clue": "Belligerent",
+      "definition": "Belligerent.",
+      "id": "15A"
+    },
+    {
+      "word": "AFFRONT",
+      "clue": "An open insult or indignity",
+      "definition": "An open insult or indignity.",
+      "id": "18D"
+    },
+    {
+      "word": "BARRING",
+      "clue": "Apart from",
+      "definition": "Apart from.",
+      "id": "29A"
+    }
+  ]
+}

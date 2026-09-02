@@ -1,0 +1,911 @@
+{
+  "date": "2027-08-11",
+  "number": 42,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "A",
+      "M",
+      "P",
+      "A",
+      "#",
+      "#",
+      "S",
+      "T",
+      "A"
+    ],
+    [
+      "E",
+      "R",
+      "U",
+      "D",
+      "I",
+      "T",
+      "E",
+      "#",
+      "A",
+      "I",
+      "M"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "C",
+      "E",
+      "P",
+      "T",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "O",
+      "P",
+      "A",
+      "L",
+      "S",
+      "#",
+      "H",
+      "O",
+      "R",
+      "D",
+      "E"
+    ],
+    [
+      "S",
+      "S",
+      "S",
+      "#",
+      "#",
+      "V",
+      "E",
+      "N",
+      "E",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "M",
+      "I",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "G",
+      "P",
+      "I",
+      "E",
+      "#",
+      "#",
+      "A",
+      "D",
+      "A"
+    ],
+    [
+      "D",
+      "R",
+      "A",
+      "I",
+      "N",
+      "#",
+      "E",
+      "M",
+      "M",
+      "E",
+      "T"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "U",
+      "R",
+      "R",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "C",
+      "S",
+      "S",
+      "#",
+      "S",
+      "U",
+      "A",
+      "S",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "L",
+      "E",
+      "U",
+      "#",
+      "#",
+      "E",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PAMPA",
+      "clue": "Argentine plain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PREPS",
+      "clue": "Preparatory school work done outside schools (especially at home)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Preparatory school work done outside schools (especially at home)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AURAS",
+      "clue": "Distinctive but intangible qualities surrounding a person or thing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinctive but intangible qualities surrounding a person or thing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "MDCL",
+      "clue": "Roman numeral for 1650",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1650",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "PIES",
+      "clue": "Antiviral drugs used against HIV",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Antiviral drugs used against HIV",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Cell's energy currency, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "STA",
+      "clue": "Train stop: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SABRE",
+      "clue": "Sword with a broad and heavy blade, thick at the back, and usually more or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sword with a broad and heavy blade, thick at the back, and usually more or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TILDE",
+      "clue": "Accentual mark placed over n, and sometimes over l, in Spanish words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accentual mark placed over n, and sometimes over l, in Spanish words",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "AMEER",
+      "clue": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent ruler or chieftain (especially in Africa or Arabia)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ERUDITE",
+      "clue": "Very-learned",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or showing profound knowledge",
+        "Characterized by extensive reading or knowledge"
+      ],
+      "definition": "Very-learned.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "EPOS",
+      "clue": "Long narrative poem telling of a hero's deeds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long narrative poem telling of a hero's deeds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ETHER",
+      "clue": "Medium of great elasticity and extreme tenuity, supposed to pervade all...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Medium of great elasticity and extreme tenuity, supposed to pervade all...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "AIM",
+      "clue": "Point at a target",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PERCEPTIBLE",
+      "clue": "Cognizable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Easily seen or detected",
+        "Capable of being perceived"
+      ],
+      "definition": "Cognizable.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "IONS",
+      "clue": "Particles that are electrically charged (positive or negative)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Particles that are electrically charged (positive or negative)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OPALS",
+      "clue": "Translucent minerals consisting of hydrated silica of variable color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Translucent minerals consisting of hydrated silica of variable color",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "HORDE",
+      "clue": "A gathered multitude of human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Gathered multitude of human beings",
+        "Vast multitude",
+        "Wandering troop or gang"
+      ],
+      "definition": "A gathered multitude of human beings.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Draft-registration org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "VENEER",
+      "clue": "Outside show or elegance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ornamental coating to a building",
+        "Overlay or plate with a thin layer of wood or other material for..."
+      ],
+      "definition": "Outside show or elegance.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "VIE",
+      "clue": "To contend",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Contend",
+        "Compete for something",
+        "Stake a sum upon a hand of cards, as in the old game of gleek. See..."
+      ],
+      "definition": "To contend.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "EMIRS",
+      "clue": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent rulers or chieftains (especially in Africa or Arabia)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "EPIC",
+      "clue": "A poem celebrating in formal verse the mythical achievements of great personages",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Poem celebrating in formal verse the mythical achievements of great personages",
+        "Very imposing or impressive",
+        "Narrated in a grand style"
+      ],
+      "definition": "A poem celebrating in formal verse the mythical achievements of great personages...",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "MINUS",
+      "clue": "Less",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Less",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "MAGPIE",
+      "clue": "Long-tailed black-and-white crow that utters a raucous chattering call",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long-tailed black-and-white crow that utters a raucous chattering call",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MDCCL",
+      "clue": "Roman numeral for 1750",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1750",
+      "clueSource": "roman"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AROSE",
+      "clue": "Got up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "GANSU",
+      "clue": "Province in north-central China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Province in north-central China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "ADA",
+      "clue": "Programming language named for Lovelace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "AMNIA",
+      "clue": "Fetal membranes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DECOY",
+      "clue": "Anything that allures, or is intended to allures into danger or temptation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Something used to lure fish or other animals into danger so they can be trapped...",
+        "Lead into danger by artifice"
+      ],
+      "definition": "Anything that allures, or is intended to allures into danger or temptation.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "ATEN",
+      "clue": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sun (or solar disc) which was the deity of a monotheistic cult under the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DRAIN",
+      "clue": "Make weak",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make weak",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "EMMET",
+      "clue": "Social insect living in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insect living in organized colonies",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "History chapters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "MESS",
+      "clue": "Mass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mass",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CONCURRENCE",
+      "clue": "Agreement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Acting together, as agents or circumstances or events",
+        "Act of concurring"
+      ],
+      "definition": "Agreement.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "To regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Regret extremely",
+        "Street or road in France",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
+      "definition": "To regret extremely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Web stylist's language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SUASION",
+      "clue": "The act of persuading",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of persuading",
+        "Act of persuading (or attempting to persuade)"
+      ],
+      "definition": "The act of persuading.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "LEU",
+      "clue": "Basic unit of money in Romania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Romania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ESSAY",
+      "clue": "Make an effort or attempt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make an effort or attempt",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ERUDITE",
+      "clue": "Very-learned",
+      "definition": "Very-learned.",
+      "id": "9A"
+    },
+    {
+      "word": "PERCEPTIBLE",
+      "clue": "Cognizable",
+      "definition": "Cognizable.",
+      "id": "12A"
+    },
+    {
+      "word": "CONCURRENCE",
+      "clue": "Agreement",
+      "definition": "Agreement.",
+      "id": "29A"
+    },
+    {
+      "word": "SUASION",
+      "clue": "The act of persuading",
+      "definition": "The act of persuading.",
+      "id": "32A"
+    }
+  ]
+}

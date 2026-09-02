@@ -1,0 +1,895 @@
+{
+  "date": "2027-07-23",
+  "number": 23,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "B",
+      "O",
+      "G",
+      "O",
+      "T",
+      "A",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "O",
+      "N",
+      "E",
+      "N",
+      "E",
+      "S",
+      "S",
+      "#",
+      "R",
+      "U",
+      "N"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "O",
+      "N",
+      "S",
+      "T",
+      "R",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "#",
+      "P",
+      "A",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "I",
+      "I",
+      "#",
+      "T",
+      "I",
+      "E",
+      "R"
+    ],
+    [
+      "M",
+      "A",
+      "T",
+      "I",
+      "N",
+      "#",
+      "S",
+      "E",
+      "A",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "M",
+      "O",
+      "R",
+      "#",
+      "P",
+      "C",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "U",
+      "R",
+      "S",
+      "E",
+      "R",
+      "#",
+      "S",
+      "A",
+      "C"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "I",
+      "P",
+      "R",
+      "O",
+      "C",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "O",
+      "B",
+      "A",
+      "#",
+      "Y",
+      "O",
+      "D",
+      "E",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "S",
+      "A",
+      "N",
+      "#",
+      "#",
+      "T",
+      "S",
+      "E",
+      "T",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "BOGOTA",
+      "clue": "Capital and largest city of Colombia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Colombia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "BORE",
+      "clue": "To weary by tediousness or dullness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Weary by tediousness or dullness",
+        "Hole or passage made by a drill",
+        "Perforate or penetrate, as a solid body, by turning an auger,..."
+      ],
+      "definition": "To weary by tediousness or dullness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Singles in a wallet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "GEMS",
+      "clue": "Chamois",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chamois",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ONO",
+      "clue": "United States musician (born in Japan) who married John Lennon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States musician (born in Japan) who married John Lennon and collaborated...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "TENPIN",
+      "clue": "One of the bottle-shaped pins used in bowling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the bottle-shaped pins used in bowling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ASSAI",
+      "clue": "Direction equivalent to very",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Direction equivalent to very",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ARABIA",
+      "clue": "Peninsula between the Red Sea and the Persian Gulf",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Peninsula between the Red Sea and the Persian Gulf",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "RUNLET",
+      "clue": "Little run or stream",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little run or stream",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "ENTERS",
+      "clue": "Sets out on (an enterprise or subject of study)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sets out on (an enterprise or subject of study)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ONENESS",
+      "clue": "State of being one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of being one",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "STR",
+      "clue": "Road: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RUN",
+      "clue": "Become undone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become undone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REMONSTRANT",
+      "clue": "Having the character of a reproof",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Having the character of a reproof.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "RATES",
+      "clue": "Local tax on property (usually used in the plural)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local tax on property (usually used in the plural)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Curvy letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "PARABLE",
+      "clue": "A brief narrative founded on real scenes or events usually with a moral",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Brief narrative founded on real scenes or events usually with a moral",
+        "Short moral story (often with animal characters)",
+        "Procurable"
+      ],
+      "definition": "A brief narrative founded on real scenes or events usually with a moral.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "CII",
+      "clue": "Roman numeral for 102",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 102",
+      "clueSource": "roman"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "CIRRI",
+      "clue": "Wispy high clouds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "TIER",
+      "clue": "One of two or more layers one atop another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of two or more layers one atop another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "MATIN",
+      "clue": "French mastiff",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French mastiff",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "MACROS",
+      "clue": "Single computer instructions that result in a series of instructions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single computer instructions that result in a series of instructions",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "AMOEBA",
+      "clue": "Rhizopod. common in fresh water, capable of undergoing many changes of form...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rhizopod. common in fresh water, capable of undergoing many changes of form...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "TOUCAN",
+      "clue": "Any one of numerous species of fruit-eating birds of tropical America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any one of numerous species of fruit-eating birds of tropical America belonging...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "SEATS",
+      "clue": "Area that includes places where several people can sit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area that includes places where several people can sit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "SCRODS",
+      "clue": "Young Atlantic cods or haddocks especially one split and boned",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young Atlantic cods or haddocks especially one split and boned",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AMOR",
+      "clue": "God of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "PCS",
+      "clue": "Small digital computers based on a microprocessor and designed to be",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small digital computers based on a microprocessor and designed to be",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "PEROT",
+      "clue": "1992 candidate Ross",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "COURSER",
+      "clue": "A fleet and spirited horse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fleet and spirited horse",
+        "Swift-footed terrestrial plover-like bird of southern Asia and Africa"
+      ],
+      "definition": "A fleet and spirited horse.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "SPY",
+      "clue": "Secret agent hired by a state to obtain information about its enemies or by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secret agent hired by a state to obtain information about its enemies or by a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SAC",
+      "clue": "Structure resembling a bag in an animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structure resembling a bag in an animal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SALT",
+      "clue": "Chloride of sodium, a substance used for seasoning food, for the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chloride of sodium, a substance used for seasoning food, for the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ATES",
+      "clue": "Goddesses of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddesses of criminal rashness and its punishment",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "CEDE",
+      "clue": "To pass title to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pass title to",
+        "Relinquish possession or control over",
+        "Yield or surrender"
+      ],
+      "definition": "To pass title to.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RECIPROCATE",
+      "clue": "To give and take mutually",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Give and take mutually",
+        "Alternate the direction of motion of",
+        "Move forward and backward alternately"
+      ],
+      "definition": "To give and take mutually.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "CEE",
+      "clue": "Middling grade",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "OBA",
+      "clue": "African royal title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "YODELED",
+      "clue": "Sang by changing register",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sang by changing register",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "TSETSE",
+      "clue": "Bloodsucking African fly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African fly",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "REMONSTRANT",
+      "clue": "Having the character of a reproof",
+      "definition": "Having the character of a reproof.",
+      "id": "13A"
+    },
+    {
+      "word": "PARABLE",
+      "clue": "A brief narrative founded on real scenes or events usually with a moral",
+      "definition": "A brief narrative founded on real scenes or events usually with a moral.",
+      "id": "16A"
+    },
+    {
+      "word": "COURSER",
+      "clue": "A fleet and spirited horse",
+      "definition": "A fleet and spirited horse.",
+      "id": "25A"
+    },
+    {
+      "word": "RECIPROCATE",
+      "clue": "To give and take mutually",
+      "definition": "To give and take mutually.",
+      "id": "30A"
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "date": "2027-08-06",
+  "number": 37,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "O",
+      "Z",
+      "E",
+      "N",
+      "S",
+      "#",
+      "#",
+      "A",
+      "F",
+      "T"
+    ],
+    [
+      "E",
+      "D",
+      "E",
+      "M",
+      "A",
+      "T",
+      "A",
+      "#",
+      "L",
+      "A",
+      "W"
+    ],
+    [
+      "V",
+      "I",
+      "T",
+      "U",
+      "P",
+      "E",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "#",
+      "L",
+      "A",
+      "T",
+      "T",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "M",
+      "#",
+      "M",
+      "O",
+      "O",
+      "D"
+    ],
+    [
+      "C",
+      "O",
+      "T",
+      "E",
+      "S",
+      "#",
+      "F",
+      "A",
+      "N",
+      "N",
+      "Y"
+    ],
+    [
+      "O",
+      "P",
+      "A",
+      "L",
+      "#",
+      "I",
+      "A",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "L",
+      "I",
+      "A",
+      "N",
+      "T",
+      "#",
+      "C",
+      "S",
+      "S"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "C",
+      "I",
+      "P",
+      "I",
+      "T",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "S",
+      "A",
+      "N",
+      "#",
+      "R",
+      "U",
+      "M",
+      "A",
+      "N",
+      "I",
+      "A"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "T",
+      "A",
+      "P",
+      "E",
+      "R",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "DOZENS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEVI",
+      "clue": "Hindu mother goddess",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu mother goddess",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ODIN",
+      "clue": "Supreme deity of the Scandinavians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Supreme deity of the Scandinavians",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ZETA",
+      "clue": "Greek letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek letter",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EMU",
+      "clue": "Flightless Aussie bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "NAPLES",
+      "clue": "Port and tourist center in southwestern Italy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port and tourist center in southwestern Italy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "STEAM",
+      "clue": "Water at boiling temperature diffused in the atmosphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Water at boiling temperature diffused in the atmosphere",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AFT",
+      "clue": "Near or towards the stern of a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near or towards the stern of a vessel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ALBION",
+      "clue": "Archaic name for England or Great Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Archaic name for England or Great Britain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "FALCON",
+      "clue": "Diurnal birds of prey having long pointed powerful wings adapted for swift...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diurnal birds of prey having long pointed powerful wings adapted for swift...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "TWEEDY",
+      "clue": "Informal, clannish and outdoorsy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal, clannish and outdoorsy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "EDEMATA",
+      "clue": "Fluid swellings, medically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "ART",
+      "clue": "Museum display",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LAW",
+      "clue": "In general, a rule of being or of conduct",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In general, a rule of being or of conduct, established by an authority able to...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "VITUPERABLE",
+      "clue": "Deserving of censure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Deserving of censure.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "ATMAN",
+      "clue": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Life principle, soul, or individual essence. (b) The universal ego from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "INA",
+      "clue": "Actress Garten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "LATTICE",
+      "clue": "Openwork of metal or wood, formed by crossing or interlacing strips or bars",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Framework consisting of an ornamental design made of strips of wood or metal",
+        "Any work of wood or metal, made by crossing laths, or thin strips,..."
+      ],
+      "definition": "Openwork of metal or wood, formed by crossing or interlacing strips or bars.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "REM",
+      "clue": "Dosage of ionizing radiation that will cause the same amount of injury to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dosage of ionizing radiation that will cause the same amount of injury to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "RELIC",
+      "clue": "Something of sentimental value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of sentimental value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "MOOD",
+      "clue": "Manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Manner",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "COTES",
+      "clue": "Small beds that fold up for storage or transport",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small beds that fold up for storage or transport",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "CORPSE",
+      "clue": "A dead body",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dead body",
+        "Dead body of a human being",
+        "Human body in general, whether living or dead"
+      ],
+      "definition": "A dead body.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "OPERAS",
+      "clue": "Met productions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "TALENT",
+      "clue": "Natural abilities or qualities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Natural abilities or qualities",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FANNY",
+      "clue": "External female sex organs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "External female sex organs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "FATIMA",
+      "clue": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "OPAL",
+      "clue": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "IAN",
+      "clue": "Actor McKellen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "INPUT",
+      "clue": "Enter (data or a program) into a computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enter (data or a program) into a computer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "RELIANT",
+      "clue": "Having confidence",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Relying on another for support",
+        "Having, or characterized by, reliance"
+      ],
+      "definition": "Having confidence.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "AIR",
+      "clue": "What we breathe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Web stylist's language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "CANE",
+      "clue": "Stiff switch used to hit students as punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stiff switch used to hit students as punishment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STIR",
+      "clue": "Mix with a spoon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SEAS",
+      "clue": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divisions of an ocean or a large body of salt water partially enclosed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PRECIPITATE",
+      "clue": "To force forward prematurely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Force forward prematurely",
+        "Done with very great haste and without due deliberation",
+        "Overhasty"
+      ],
+      "definition": "To force forward prematurely.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TAP",
+      "clue": "Faucet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "RUMANIA",
+      "clue": "Republic in southeastern Europe with a short coastline on the Black Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in southeastern Europe with a short coastline on the Black Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EST",
+      "clue": "NYC clock setting, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "TAPERS",
+      "clue": "Sticks of wax with a wick in the middle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sticks of wax with a wick in the middle",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "VITUPERABLE",
+      "clue": "Deserving of censure",
+      "definition": "Deserving of censure.",
+      "id": "13A"
+    },
+    {
+      "word": "LATTICE",
+      "clue": "Openwork of metal or wood, formed by crossing or interlacing strips or bars",
+      "definition": "Openwork of metal or wood, formed by crossing or interlacing strips or bars.",
+      "id": "16A"
+    },
+    {
+      "word": "RELIANT",
+      "clue": "Having confidence",
+      "definition": "Having confidence.",
+      "id": "25A"
+    },
+    {
+      "word": "PRECIPITATE",
+      "clue": "To force forward prematurely",
+      "definition": "To force forward prematurely.",
+      "id": "30A"
+    }
+  ]
+}

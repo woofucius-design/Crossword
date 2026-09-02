@@ -1,0 +1,968 @@
+{
+  "date": "2028-02-18",
+  "number": 233,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "M",
+      "O",
+      "I",
+      "R",
+      "A",
+      "#",
+      "P",
+      "L",
+      "O",
+      "D"
+    ],
+    [
+      "H",
+      "U",
+      "B",
+      "B",
+      "U",
+      "B",
+      "#",
+      "E",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "T",
+      "O",
+      "M",
+      "B",
+      "#",
+      "R",
+      "E",
+      "E",
+      "F"
+    ],
+    [
+      "E",
+      "C",
+      "U",
+      "#",
+      "P",
+      "E",
+      "R",
+      "J",
+      "U",
+      "R",
+      "Y"
+    ],
+    [
+      "L",
+      "I",
+      "S",
+      "P",
+      "#",
+      "Y",
+      "O",
+      "U",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "R",
+      "S",
+      "#",
+      "W",
+      "R",
+      "E",
+      "A",
+      "K"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "K",
+      "A",
+      "#",
+      "E",
+      "S",
+      "P",
+      "N"
+    ],
+    [
+      "G",
+      "O",
+      "S",
+      "L",
+      "I",
+      "N",
+      "G",
+      "#",
+      "T",
+      "I",
+      "E"
+    ],
+    [
+      "A",
+      "L",
+      "T",
+      "O",
+      "#",
+      "O",
+      "A",
+      "X",
+      "A",
+      "C",
+      "A"
+    ],
+    [
+      "L",
+      "E",
+      "A",
+      "N",
+      "#",
+      "D",
+      "U",
+      "C",
+      "T",
+      "E",
+      "D"
+    ],
+    [
+      "L",
+      "O",
+      "N",
+      "G",
+      "#",
+      "E",
+      "L",
+      "V",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "MOIRA",
+      "clue": "Deity who assigns to every man his lot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deity who assigns to every man his lot",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "MUNCIE",
+      "clue": "Town in east central Indiana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town in east central Indiana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "OBTUSE",
+      "clue": "Slow to learn or understand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slow to learn or understand",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "IBO",
+      "clue": "Nigerian people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "RUMP",
+      "clue": "Part of an animal that corresponds to the human buttocks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of an animal that corresponds to the human buttocks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ABBEY",
+      "clue": "The group of buildings which collectively form the dwelling-place of a society",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Group of buildings which collectively form the dwelling-place of a society",
+        "Group of buildings which collectively form the dwelling-place of a society of",
+        "Monastery ruled by an abbot",
+        "Monastery or society of persons of either sex, secluded from the..."
+      ],
+      "definition": "The group of buildings which collectively form the dwelling-place of a society of",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PLOD",
+      "clue": "Travel slowly but steadily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Travel slowly but steadily",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PERJURE",
+      "clue": "To swear falsely to",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Swear falsely to",
+        "Knowingly tell an untruth in a legal court and render oneself guilty of perjury",
+        "Cause to violate an oath or a vow"
+      ],
+      "definition": "To swear falsely to.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "LIEU",
+      "clue": "Stead",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Post or function properly or customarily occupied or served by another",
+        "Place"
+      ],
+      "definition": "Stead.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ODER",
+      "clue": "European river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "European river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DEFY",
+      "clue": "Challenge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Challenge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "HUBBUB",
+      "clue": "Loud confused noise from many sources",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loud confused noise from many sources",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "HEELS",
+      "clue": "Bottoms of a shoe or boot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bottoms of a shoe or boot",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EIDE",
+      "clue": "Norwegian foreign minister Espen Barth ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ENTOMB",
+      "clue": "Place in a grave or tomb",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place in a grave or tomb",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "REEF",
+      "clue": "One of several strips across a sail that can be taken in or rolled up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of several strips across a sail that can be taken in or rolled up to lessen...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ECU",
+      "clue": "Old French coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "PERJURY",
+      "clue": "A solemn assertion of a falsity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Solemn assertion of a falsity",
+        "Criminal offense of making false statements under oath",
+        "False swearing"
+      ],
+      "definition": "A solemn assertion of a falsity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "ROW",
+      "clue": "Rough",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rough",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "LISP",
+      "clue": "Flexible procedure-oriented programing language that manipulates symbols in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flexible procedure-oriented programing language that manipulates symbols in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "PROLONG",
+      "clue": "To extend in time or duration",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Extend in time or duration",
+        "Lengthen in time",
+        "Extend in space or length"
+      ],
+      "definition": "To extend in time or duration.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Second-person pronoun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SEERS",
+      "clue": "Authoritative people who divine the future",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Authoritative people who divine the future",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "SKI",
+      "clue": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "WREAK",
+      "clue": "To inflict, as a revenge or punishment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Inflict, as a revenge or punishment",
+        "Cause to happen or to occur as a consequence",
+        "Reck"
+      ],
+      "definition": "To inflict, as a revenge or punishment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "ESTATE",
+      "clue": "Manor grounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "APICES",
+      "clue": "Peaks, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "KNEAD",
+      "clue": "To mix and work into a homogeneous mass, especially with the hands",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mix and work into a homogeneous mass, especially with the hands",
+        "Manually manipulate (someone's body), usually for medicinal or relaxation...",
+        "Work and press into a mass, usually with the hands"
+      ],
+      "definition": "To mix and work into a homogeneous mass, especially with the hands.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "OKA",
+      "clue": "South American wood sorrel cultivated for its edible tubers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "South American wood sorrel cultivated for its edible tubers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANODE",
+      "clue": "The point where or path by which a voltaic current enters an electrolyte",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Point where or path by which a voltaic current enters an electrolyte",
+        "Point where or path by which a voltaic current enters an electrolyte or the",
+        "Positively charged electrode by which electrons leave an electrical device",
+        "Positive pole of an electric battery, or more strictly the..."
+      ],
+      "definition": "The point where or path by which a voltaic current enters an electrolyte or the",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "ESPN",
+      "clue": "Sports network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "GOSLING",
+      "clue": "A young goose",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Young goose",
+        "Young or unfledged goose"
+      ],
+      "definition": "A young goose.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "GALL",
+      "clue": "Trait of being rude and impertinent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trait of being rude and impertinent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OLEO",
+      "clue": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spread made chiefly from vegetable oils and used as a substitute for butter",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "STAN",
+      "clue": "Devoted fan, in slang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "GAUL",
+      "clue": "Ancient region of western Europe that included what is now northern Italy...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient region of western Europe that included what is now northern Italy...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "TIE",
+      "clue": "Form a knot or bow in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form a knot or bow in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "The lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "OAXACA",
+      "clue": "City of southeastern Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City of southeastern Mexico",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "XCV",
+      "clue": "Being five more than ninety",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being five more than ninety",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "LEAN",
+      "clue": "Rely on for support",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rely on for support",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "DUCTED",
+      "clue": "Channeled through pipes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "LONG",
+      "clue": "Verbose?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "VERBOSE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of verbose",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ELVES",
+      "clue": "Acronym for emissions of light and very low frequency perturbations due to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acronym for emissions of light and very low frequency perturbations due to...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PERJURE",
+      "clue": "To swear falsely to",
+      "definition": "To swear falsely to.",
+      "id": "6D"
+    },
+    {
+      "word": "PERJURY",
+      "clue": "A solemn assertion of a falsity",
+      "definition": "A solemn assertion of a falsity.",
+      "id": "15A"
+    },
+    {
+      "word": "PROLONG",
+      "clue": "To extend in time or duration",
+      "definition": "To extend in time or duration.",
+      "id": "18D"
+    },
+    {
+      "word": "GOSLING",
+      "clue": "A young goose",
+      "definition": "A young goose.",
+      "id": "29A"
+    }
+  ]
+}

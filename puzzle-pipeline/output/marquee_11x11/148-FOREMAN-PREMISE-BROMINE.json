@@ -1,0 +1,967 @@
+{
+  "date": "2027-11-25",
+  "number": 148,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "E",
+      "E",
+      "F",
+      "S",
+      "#",
+      "P",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "B",
+      "A",
+      "N",
+      "D",
+      "I",
+      "T",
+      "#",
+      "I",
+      "O",
+      "T",
+      "A"
+    ],
+    [
+      "O",
+      "B",
+      "I",
+      "T",
+      "E",
+      "R",
+      "#",
+      "T",
+      "O",
+      "N",
+      "I"
+    ],
+    [
+      "M",
+      "O",
+      "G",
+      "#",
+      "F",
+      "O",
+      "R",
+      "E",
+      "M",
+      "A",
+      "N"
+    ],
+    [
+      "B",
+      "O",
+      "M",
+      "B",
+      "#",
+      "P",
+      "O",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "N",
+      "A",
+      "R",
+      "L",
+      "#",
+      "W",
+      "U",
+      "H",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "V",
+      "A",
+      "#",
+      "S",
+      "U",
+      "L",
+      "A"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "M",
+      "I",
+      "S",
+      "E",
+      "#",
+      "S",
+      "L",
+      "A"
+    ],
+    [
+      "R",
+      "A",
+      "M",
+      "I",
+      "#",
+      "H",
+      "A",
+      "U",
+      "S",
+      "E",
+      "N"
+    ],
+    [
+      "O",
+      "L",
+      "I",
+      "N",
+      "#",
+      "E",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "S"
+    ],
+    [
+      "P",
+      "E",
+      "T",
+      "E",
+      "#",
+      "N",
+      "E",
+      "A",
+      "R",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BEEFS",
+      "clue": "Cattle that are reared for their meat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cattle that are reared for their meat",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "BABOON",
+      "clue": "Large terrestrial monkeys having doglike muzzles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large terrestrial monkeys having doglike muzzles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ENIGMA",
+      "clue": "A riddle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Riddle",
+        "Something that baffles understanding and cannot be explained",
+        "Dark, obscure, or inexplicable saying"
+      ],
+      "definition": "A riddle.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EDT",
+      "clue": "Eastern daylight time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eastern daylight time",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "FIEF",
+      "clue": "A landed estate held under feudal tenure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Landed estate held under feudal tenure",
+        "Piece of land held under the feudal system",
+        "Estate held of a superior on condition of military service"
+      ],
+      "definition": "A landed estate held under feudal tenure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "STROP",
+      "clue": "Strap",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Strap",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PRES",
+      "clue": "Promotions intended to create goodwill for a person or institution",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Promotions intended to create goodwill for a person or institution",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PITEOUS",
+      "clue": "Compassionate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deserving or inciting pity",
+        "Pious"
+      ],
+      "definition": "Compassionate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ROOM",
+      "clue": "Live and take one's meals at or in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Live and take one's meals at or in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ETNA",
+      "clue": "Kind of small, portable, cooking apparatus for which heat is furnished by a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of small, portable, cooking apparatus for which heat is furnished by a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SAIN",
+      "clue": "Said. Shak. To sanctify",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Said. Shak. To sanctify",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BANDIT",
+      "clue": "Armed thief who is (usually) a member of a band",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Armed thief who is (usually) a member of a band",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BOMBS",
+      "clue": "Explosive devices fused to explode under specific conditions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Explosive devices fused to explode under specific conditions",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "A small or insignificant mark or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "OBITER",
+      "clue": "In passing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In passing",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "TONI",
+      "clue": "Author Morrison",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "MOG",
+      "clue": "Move away",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Move away",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "FOREMAN",
+      "clue": "The head man",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Head man",
+        "Person who exercises control over workers",
+        "First or chief man"
+      ],
+      "definition": "The head man.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "ROW",
+      "clue": "Rough",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rough",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "BOMB",
+      "clue": "A hollow projectile containing an explosive material",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hollow projectile containing an explosive material",
+        "Explosive device fused to explode under specific conditions",
+        "Great noise"
+      ],
+      "definition": "A hollow projectile containing an explosive material.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "BROMINE",
+      "clue": "A dark reddish-brown, non-metallic liquid element with a suffocating odor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dark reddish-brown, non-metallic liquid element with a suffocating odor",
+        "Nonmetallic heavy volatile corrosive dark brown liquid element belonging to...",
+        "One of the elements, related in its chemical qualities to chlorine..."
+      ],
+      "definition": "A dark reddish-brown, non-metallic liquid element with a suffocating odor.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "POO",
+      "clue": "Childish word for excrement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SNARL",
+      "clue": "Form raised work upon the outer surface of (thin metal ware) by the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form raised work upon the outer surface of (thin metal ware) by the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "LVI",
+      "clue": "Being six more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being six more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "WUHAN",
+      "clue": "City of central China on the Chang Jiang",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City of central China on the Chang Jiang",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "HUSSAR",
+      "clue": "A light-horse trooper armed with saber and carbine",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Light-horse trooper armed with saber and carbine",
+        "Member of a European light cavalry unit",
+        "Originally, one of the national cavalry of Hungary and Croatia"
+      ],
+      "definition": "A light-horse trooper armed with saber and carbine.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "ALLEYS",
+      "clue": "Narrow streets with walls on both sides",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow streets with walls on both sides",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "NAANS",
+      "clue": "Leavened breads baked in a clay oven in India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leavened breads baked in a clay oven in India",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "OVA",
+      "clue": "Eggs, biologically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Pale",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Anemic looking from illness or emotion"
+      ],
+      "definition": "Pale.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "SULA",
+      "clue": "Genus of sea birds including the booby and the common gannet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of sea birds including the booby and the common gannet",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PREMISE",
+      "clue": "A judgment as a conclusion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Judgment as a conclusion",
+        "Statement that is assumed to be true and from which a conclusion can be drawn",
+        "Proposition antecedently supposed or proved"
+      ],
+      "definition": "A judgment as a conclusion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PROP",
+      "clue": "Support by placing against something solid or rigid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Support by placing against something solid or rigid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RALE",
+      "clue": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid series of short loud sounds (as might be heard with a stethoscope in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "EASE",
+      "clue": "Freedom from activity (work or strain or responsibility)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freedom from activity (work or strain or responsibility)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SLA",
+      "clue": "1970s radical group, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "RAMI",
+      "clue": "Actor Malek",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "HAUSEN",
+      "clue": "Valuable source of caviar and isinglass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Valuable source of caviar and isinglass",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Home of the brave, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "OLIN",
+      "clue": "Actress Lena",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ESSAYS",
+      "clue": "Makes an effort or attempts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes an effort or attempts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "PETE",
+      "clue": "Sampras of tennis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "NEARS",
+      "clue": "Moves towards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moves towards",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PITEOUS",
+      "clue": "Compassionate",
+      "definition": "Compassionate.",
+      "id": "6D"
+    },
+    {
+      "word": "FOREMAN",
+      "clue": "The head man",
+      "definition": "The head man.",
+      "id": "15A"
+    },
+    {
+      "word": "BROMINE",
+      "clue": "A dark reddish-brown, non-metallic liquid element with a suffocating odor",
+      "definition": "A dark reddish-brown, non-metallic liquid element with a suffocating odor.",
+      "id": "18D"
+    },
+    {
+      "word": "PREMISE",
+      "clue": "A judgment as a conclusion",
+      "definition": "A judgment as a conclusion.",
+      "id": "29A"
+    }
+  ]
+}

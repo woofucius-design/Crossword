@@ -1,0 +1,916 @@
+{
+  "date": "2027-09-27",
+  "number": 89,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "O",
+      "R",
+      "B",
+      "S",
+      "#",
+      "C",
+      "R",
+      "E",
+      "D",
+      "I",
+      "T"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "A",
+      "#",
+      "H",
+      "E",
+      "X",
+      "A",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "V",
+      "A",
+      "R",
+      "#",
+      "S",
+      "L",
+      "O",
+      "V",
+      "E",
+      "N"
+    ],
+    [
+      "H",
+      "E",
+      "N",
+      "C",
+      "E",
+      "#",
+      "#",
+      "R",
+      "A",
+      "P",
+      "T"
+    ],
+    [
+      "A",
+      "L",
+      "C",
+      "O",
+      "V",
+      "E",
+      "#",
+      "B",
+      "O",
+      "T",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "A",
+      "R",
+      "S",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "O",
+      "C",
+      "H",
+      "#",
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "E",
+      "L",
+      "L",
+      "A",
+      "#",
+      "#",
+      "T",
+      "A",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "A",
+      "D",
+      "A",
+      "G",
+      "E",
+      "S",
+      "#",
+      "N",
+      "U",
+      "T",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "R",
+      "U",
+      "M",
+      "S",
+      "#",
+      "C",
+      "R",
+      "E",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "Y",
+      "S",
+      "T",
+      "S",
+      "#",
+      "E",
+      "E",
+      "R",
+      "Y"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ORBS",
+      "clue": "Moves in an orbit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moves in an orbit",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "OMAHA",
+      "clue": "Thoroughbred that won the triple crown in 1935",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thoroughbred that won the triple crown in 1935",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "RAVEL",
+      "clue": "Separate or undo the texture of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Separate or undo the texture of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "BLANC",
+      "clue": "White cosmetic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "White cosmetic",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "SARCOPHAGUS",
+      "clue": "A stone coffin or a chest-like tomb",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stone coffin or a chest-like tomb",
+        "Stone coffin (usually bearing sculpture or inscriptions)",
+        "Species of limestone used among the Greeks for making coffins,..."
+      ],
+      "definition": "A stone coffin or a chest-like tomb.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "CREDIT",
+      "clue": "Reliance on the truth of something said or done",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reliance on the truth of something said or done",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "CHS",
+      "clue": "Bk. divisions: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "EXORBITANCE",
+      "clue": "Extravagance or enormity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excessive excess",
+        "Going out of or beyond the usual or due limit"
+      ],
+      "definition": "Extravagance or enormity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "DAVAO",
+      "clue": "Philippine city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "INEPT",
+      "clue": "Not fit or suitable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Revealing lack of perceptiveness or judgment or finesse",
+        "Not apt or fit"
+      ],
+      "definition": "Not fit or suitable.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TENTH",
+      "clue": "Next in order after the ninth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Next in order after the ninth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "MALA",
+      "clue": "Evils",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Evils",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "HEXANE",
+      "clue": "Any one of five hydrocarbons, C6H14, of the paraffin series. They are...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any one of five hydrocarbons, C6H14, of the paraffin series. They are...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "AVAR",
+      "clue": "Caucasian language speaker",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "SLOVEN",
+      "clue": "Coarse obnoxious person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse obnoxious person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "HENCE",
+      "clue": "From this place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "From this place",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "EVA",
+      "clue": "Actress Mendes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "RAPT",
+      "clue": "Enraptured",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feeling great rapture or delight",
+        "Imp. & p. p. of Rap, to snatch away"
+      ],
+      "definition": "Enraptured.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "ALCOVE",
+      "clue": "A covered recess connected with or at the side of a larger room",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Covered recess connected with or at the side of a larger room",
+        "Small recess opening off a larger room",
+        "Recessed portion of a room, or a small room opening into a larger..."
+      ],
+      "definition": "A covered recess connected with or at the side of a larger room.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ERR",
+      "clue": "Slip up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "BOTH",
+      "clue": "One and the other",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One and the other",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "PARSI",
+      "clue": "Member of a monotheistic sect of Zoroastrian origin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Member of a monotheistic sect of Zoroastrian origin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "SAT",
+      "clue": "Took a chair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "LOCH",
+      "clue": "A lake",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lake",
+        "Scottish word for a lake"
+      ],
+      "definition": "A lake.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "LEAST",
+      "clue": "Something that is of no importance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that is of no importance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "OLDER",
+      "clue": "Skilled through long experience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Skilled through long experience",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "CLARY",
+      "clue": "Make a loud or shrill noise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a loud or shrill noise",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "RATION",
+      "clue": "To provide with a fixed allowance or portion, especially of food",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Provide with a fixed allowance or portion, especially of food",
+        "Food allowance for one day (especially for service personnel)",
+        "Fixed daily allowance of provisions assigned to a soldier in the..."
+      ],
+      "definition": "To provide with a fixed allowance or portion, especially of food.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "INURE",
+      "clue": "To harden or toughen by use, exercise, or exposure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harden or toughen by use, exercise, or exposure",
+        "Cause to accept or become hardened to",
+        "Apply in use"
+      ],
+      "definition": "To harden or toughen by use, exercise, or exposure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "OTTER",
+      "clue": "Freshwater carnivorous mammal having webbed and clawed feet and dark brown fur",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Freshwater carnivorous mammal having webbed and clawed feet and dark brown fur",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "NOSEY",
+      "clue": "Offensively curious or inquisitive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensively curious or inquisitive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ELLA",
+      "clue": "Singer Fitzgerald",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "TANTO",
+      "clue": "Italian for 'so much'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "ADAGES",
+      "clue": "Condensed but memorable sayings embodying some important fact",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condensed but memorable sayings embodying some important fact",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "EMT",
+      "clue": "First responder, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First responder, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Draft-registration org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "NUTS",
+      "clue": "Informal or slang terms for mentally irregular",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal or slang terms for mentally irregular",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "SERUMS",
+      "clue": "Ambers, watery fluid, rich in proteins, that separates out when blood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ambers, watery fluid, rich in proteins, that separates out when blood",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "CREE",
+      "clue": "Indigenous Canadian people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "TRYSTS",
+      "clue": "Secret rendezvous (especially between lovers)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Secret rendezvous (especially between lovers)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "EERY",
+      "clue": "Spooky, var.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SARCOPHAGUS",
+      "clue": "A stone coffin or a chest-like tomb",
+      "definition": "A stone coffin or a chest-like tomb.",
+      "id": "4D"
+    },
+    {
+      "word": "EXORBITANCE",
+      "clue": "Extravagance or enormity",
+      "definition": "Extravagance or enormity.",
+      "id": "7D"
+    },
+    {
+      "word": "ALCOVE",
+      "clue": "A covered recess connected with or at the side of a larger room",
+      "definition": "A covered recess connected with or at the side of a larger room.",
+      "id": "18A"
+    },
+    {
+      "word": "RATION",
+      "clue": "To provide with a fixed allowance or portion, especially of food",
+      "definition": "To provide with a fixed allowance or portion, especially of food.",
+      "id": "26A"
+    }
+  ]
+}

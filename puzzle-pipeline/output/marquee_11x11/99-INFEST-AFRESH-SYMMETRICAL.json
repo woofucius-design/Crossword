@@ -1,0 +1,903 @@
+{
+  "date": "2027-10-07",
+  "number": 99,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "O",
+      "W",
+      "S",
+      "#",
+      "I",
+      "M",
+      "P",
+      "A",
+      "C",
+      "T"
+    ],
+    [
+      "A",
+      "C",
+      "H",
+      "Y",
+      "#",
+      "P",
+      "A",
+      "L",
+      "L",
+      "O",
+      "R"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "M",
+      "#",
+      "O",
+      "N",
+      "E",
+      "I",
+      "D",
+      "A"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "M",
+      "A",
+      "#",
+      "#",
+      "A",
+      "B",
+      "E",
+      "D"
+    ],
+    [
+      "I",
+      "N",
+      "F",
+      "E",
+      "S",
+      "T",
+      "#",
+      "S",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "H",
+      "I",
+      "E",
+      "U",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "V",
+      "E",
+      "R",
+      "#",
+      "A",
+      "F",
+      "R",
+      "E",
+      "S",
+      "H"
+    ],
+    [
+      "N",
+      "E",
+      "R",
+      "I",
+      "#",
+      "#",
+      "F",
+      "A",
+      "N",
+      "C",
+      "Y"
+    ],
+    [
+      "G",
+      "R",
+      "A",
+      "C",
+      "E",
+      "S",
+      "#",
+      "B",
+      "D",
+      "R",
+      "M"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "S",
+      "#",
+      "L",
+      "E",
+      "A",
+      "N"
+    ],
+    [
+      "R",
+      "E",
+      "E",
+      "L",
+      "E",
+      "D",
+      "#",
+      "E",
+      "R",
+      "G",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "COWS",
+      "clue": "Domesticated bovine animals as a group regardless of sex or age",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Domesticated bovine animals as a group regardless of sex or age",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "CARPI",
+      "clue": "Wrist bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Whole body of salt water which covers more than three fifths of the surface...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole body of salt water which covers more than three fifths of the surface...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "WHARF",
+      "clue": "Platform built out from the shore into the water and supported by piles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platform built out from the shore into the water and supported by piles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "SYMMETRICAL",
+      "clue": "Well-balanced",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Exhibiting equivalence or correspondence among constituents of an entity or...",
+        "Involving or exhibiting symmetry"
+      ],
+      "definition": "Well-balanced.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "IMPACT",
+      "clue": "Have an effect upon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have an effect upon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "IPO",
+      "clue": "Corporation's first offer to sell stock to the public",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporation's first offer to sell stock to the public",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "MAN",
+      "clue": "Chess piece",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "PLEASURABLE",
+      "clue": "Affording gratification",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Affording gratification.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ALIBI",
+      "clue": "Defense by an accused person purporting to show that he or she could not have...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Defense by an accused person purporting to show that he or she could not have...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "CODED",
+      "clue": "Harassed with persistent criticism or carping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Harassed with persistent criticism or carping",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TRADE",
+      "clue": "Do business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Do business",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ACHY",
+      "clue": "Causing a dull and steady pain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causing a dull and steady pain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "PALLOR",
+      "clue": "Unnatural lack of color in the skin (as from bruising or sickness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unnatural lack of color in the skin (as from bruising or sickness or emotional...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "REAM",
+      "clue": "Quantity of paper",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quantity of paper",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "ONEIDA",
+      "clue": "Iroquois Confederacy nation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PARMA",
+      "clue": "Italian ham city",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Fireplace residue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In bed; on a bed"
+      ],
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "INFEST",
+      "clue": "To be present in such numbers as to be a source of annoyance, trouble,",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be present in such numbers as to be a source of annoyance, trouble,",
+        "Be present in such numbers as to be a source of annoyance, trouble, or",
+        "Invade in great numbers",
+        "Mischievous"
+      ],
+      "definition": "To be present in such numbers as to be a source of annoyance, trouble, or",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TIA",
+      "clue": "Aunt, in Spanish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "SIDE",
+      "clue": "Extended outer surface of an object",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extended outer surface of an object",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "THIEU",
+      "clue": "South Vietnam's last president",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "EFF",
+      "clue": "Have sexual intercourse with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have sexual intercourse with",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "To assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
+      "definition": "To assert as a fact.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ANGER",
+      "clue": "Make angry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make angry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "VERSE",
+      "clue": "Familiarize through thorough study or experience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Familiarize through thorough study or experience",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "AFRESH",
+      "clue": "Once more, after rest or interval",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Anew"
+      ],
+      "definition": "Once more, after rest or interval.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ENDER",
+      "clue": "One who, or that which, makes an end of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who, or that which, makes an end of something",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "SCRAG",
+      "clue": "Something thin, lean, or rough",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something thin, lean, or rough",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "HYMNS",
+      "clue": "Songs of praise (to God or to a saint or to a nation)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Songs of praise (to God or to a saint or to a nation)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "NERI",
+      "clue": "Composer of opera 'L'avola'",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "FANCY",
+      "clue": "Faculty by which the mind forms an image or a representation of anything...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Faculty by which the mind forms an image or a representation of anything...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "GRACES",
+      "clue": "Makes more attractive by adding ornament, colour, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes more attractive by adding ornament, colour, etc",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "EYE",
+      "clue": "Needle's hole",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "BDRM",
+      "clue": "Apartment-listing abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ESSAYS",
+      "clue": "Makes an effort or attempts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes an effort or attempts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "LEAN",
+      "clue": "Rely on for support",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rely on for support",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "REELED",
+      "clue": "Staggered dizzily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ERGS",
+      "clue": "Cgs units of work or energy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cgs units of work or energy",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SYMMETRICAL",
+      "clue": "Well-balanced",
+      "definition": "Well-balanced.",
+      "id": "4D"
+    },
+    {
+      "word": "PLEASURABLE",
+      "clue": "Affording gratification",
+      "definition": "Affording gratification.",
+      "id": "7D"
+    },
+    {
+      "word": "INFEST",
+      "clue": "To be present in such numbers as to be a source of annoyance, trouble,",
+      "definition": "To be present in such numbers as to be a source of annoyance, trouble, or",
+      "id": "18A"
+    },
+    {
+      "word": "AFRESH",
+      "clue": "Once more, after rest or interval",
+      "definition": "Once more, after rest or interval.",
+      "id": "26A"
+    }
+  ]
+}

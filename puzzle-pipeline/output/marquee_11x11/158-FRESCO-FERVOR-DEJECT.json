@@ -1,0 +1,992 @@
+{
+  "date": "2027-12-05",
+  "number": 158,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "D",
+      "E",
+      "P",
+      "O",
+      "S",
+      "E",
+      "#",
+      "A",
+      "J",
+      "A",
+      "R"
+    ],
+    [
+      "E",
+      "Y",
+      "E",
+      "L",
+      "I",
+      "D",
+      "#",
+      "L",
+      "U",
+      "G",
+      "E"
+    ],
+    [
+      "F",
+      "R",
+      "E",
+      "S",
+      "C",
+      "O",
+      "#",
+      "O",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "T",
+      "E",
+      "L",
+      "E",
+      "#",
+      "#",
+      "N",
+      "E",
+      "G",
+      "E",
+      "V"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "U",
+      "D",
+      "E",
+      "#",
+      "L",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "S",
+      "U",
+      "E",
+      "#",
+      "E",
+      "D",
+      "S"
+    ],
+    [
+      "Y",
+      "E",
+      "E",
+      "#",
+      "E",
+      "N",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "J",
+      "O",
+      "R",
+      "#",
+      "#",
+      "P",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "A",
+      "#",
+      "F",
+      "E",
+      "R",
+      "V",
+      "O",
+      "R"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "K",
+      "#",
+      "O",
+      "R",
+      "I",
+      "E",
+      "L",
+      "S"
+    ],
+    [
+      "A",
+      "R",
+      "T",
+      "S",
+      "#",
+      "R",
+      "E",
+      "G",
+      "R",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "DEPOSE",
+      "clue": "Lay down",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lay down",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "DEFT",
+      "clue": "Quick and neatly skillful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Neatly skillful and quick in movement",
+        "Skillful in physical movements",
+        "Apt"
+      ],
+      "definition": "neatly skillful and quick in movement",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "EYRE",
+      "clue": "Shallow salt lake in south central Australia about 35 feet below sea level",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shallow salt lake in south central Australia about 35 feet below sea level",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PEEL",
+      "clue": "Small tower, fort, or castle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small tower, fort, or castle",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "OLSEN",
+      "clue": "Twin actress Mary-Kate or Ashley",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "SIC",
+      "clue": "Intentionally so written (used after a printed word or phrase)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intentionally so written (used after a printed word or phrase)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "EDO",
+      "clue": "Tokyo, long ago",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AJAR",
+      "clue": "Slightly turned or opened",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly turned or opened",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "JUGGLE",
+      "clue": "To play tricks of sleight of hand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Play tricks of sleight of hand",
+        "Throwing and catching several objects simultaneously",
+        "Play tricks by sleight of hand"
+      ],
+      "definition": "To play tricks of sleight of hand.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "AGREED",
+      "clue": "United by being of the same opinion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United by being of the same opinion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "REEVES",
+      "clue": "Fastens by passing through a hole or around something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fastens by passing through a hole or around something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "EYELID",
+      "clue": "Either of two folds of skin that can be moved to cover or open the eye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two folds of skin that can be moved to cover or open the eye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "LUGE",
+      "clue": "Racing sled for one or two people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Racing sled for one or two people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "FRESCO",
+      "clue": "The art of painting on a surface of plaster, particularly on walls and ceilings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Art of painting on a surface of plaster, particularly on walls and ceilings",
+        "Durable method of painting on a wall by using watercolors on wet plaster",
+        "Cool, refreshing state of the air"
+      ],
+      "definition": "The art of painting on a surface of plaster, particularly on walls and ceilings.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "A demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "TELE",
+      "clue": "Distant: Prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NEGEV",
+      "clue": "Desert in southern Israel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desert in southern Israel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "NEED",
+      "clue": "Must have",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "NUDE",
+      "clue": "Naked",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Completely unclothed",
+        "Bare"
+      ],
+      "definition": "Naked.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "USER",
+      "clue": "Person who takes drugs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who takes drugs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DUN",
+      "clue": "To make a demand or repeated demands on for payment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make a demand or repeated demands on for payment",
+        "Of a dull greyish brown to brownish grey color",
+        "Mound or small hill. To cure, as codfish, in a particular manner,..."
+      ],
+      "definition": "To make a demand or repeated demands on for payment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Sheltered side, at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Plus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "AYMARA",
+      "clue": "Bolivian indigenous language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "NEARER",
+      "clue": "Within a shorter distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Within a shorter distance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DEJECT",
+      "clue": "To dishearten",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Dishearten",
+        "Lower someone's spirits",
+        "Cast down"
+      ],
+      "definition": "To dishearten.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "SUE",
+      "clue": "Institute legal proceedings against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Institute legal proceedings against",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "YEE",
+      "clue": "___-haw!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "ENDS",
+      "clue": "Wraps up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "SPRIG",
+      "clue": "Small shoot or twig of a tree or other plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small shoot or twig of a tree or other plant",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "MAJOR",
+      "clue": "Greater in number or size or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greater in number or size or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "OAKS",
+      "clue": "Deciduous trees of the genus Quercus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deciduous trees of the genus Quercus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "PARE",
+      "clue": "To cut, shave, or remove (the outside) from anything",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cut, shave, or remove (the outside) from anything",
+        "Decrease gradually or bit by bit",
+        "Cut off, or shave off, the superficial substance or extremities of"
+      ],
+      "definition": "To cut, shave, or remove (the outside) from anything.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "To assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
+      "definition": "To assert as a fact.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ROLE",
+      "clue": "Actions and activities assigned to or required or expected of a person or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Actions and activities assigned to or required or expected of a person or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ERST",
+      "clue": "First",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Length times width",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "FERVOR",
+      "clue": "Ardor or intensity of feeling",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feelings of great warmth and intensity",
+        "Heat"
+      ],
+      "definition": "Ardor or intensity of feeling.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "FOR",
+      "clue": "In favor of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "RECK",
+      "clue": "To have a care or thought for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Have a care or thought for",
+        "Make account of"
+      ],
+      "definition": "To have a care or thought for.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ORIELS",
+      "clue": "Projecting bay window corbeleds or cantilevered out from a wall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Projecting bay window corbeleds or cantilevered out from a wall",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "ARTS",
+      "clue": "Humanities, informally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "REGRET",
+      "clue": "Pain of mind on account of something done or experienced in the past, with a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pain of mind on account of something done or experienced in the past, with a...",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "JUGGLE",
+      "clue": "To play tricks of sleight of hand",
+      "definition": "To play tricks of sleight of hand.",
+      "id": "8D"
+    },
+    {
+      "word": "FRESCO",
+      "clue": "The art of painting on a surface of plaster, particularly on walls and ceilings",
+      "definition": "The art of painting on a surface of plaster, particularly on walls and ceilings.",
+      "id": "13A"
+    },
+    {
+      "word": "DEJECT",
+      "clue": "To dishearten",
+      "definition": "To dishearten.",
+      "id": "23D"
+    },
+    {
+      "word": "FERVOR",
+      "clue": "Ardor or intensity of feeling",
+      "definition": "Ardor or intensity of feeling.",
+      "id": "36A"
+    }
+  ]
+}

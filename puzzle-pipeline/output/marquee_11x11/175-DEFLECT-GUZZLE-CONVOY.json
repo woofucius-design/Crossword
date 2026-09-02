@@ -1,0 +1,895 @@
+{
+  "date": "2027-12-22",
+  "number": 175,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "A",
+      "F",
+      "E",
+      "S",
+      "#",
+      "#",
+      "G",
+      "P",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "F",
+      "L",
+      "E",
+      "C",
+      "T",
+      "#",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "E",
+      "X",
+      "T",
+      "E",
+      "R",
+      "I",
+      "O",
+      "R",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "E",
+      "E",
+      "D",
+      "Y",
+      "#",
+      "N",
+      "A",
+      "T",
+      "A",
+      "L"
+    ],
+    [
+      "C",
+      "D",
+      "R",
+      "#",
+      "#",
+      "G",
+      "U",
+      "Z",
+      "Z",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "D",
+      "R",
+      "U",
+      "S",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "V",
+      "O",
+      "Y",
+      "#",
+      "#",
+      "E",
+      "M",
+      "M"
+    ],
+    [
+      "L",
+      "V",
+      "I",
+      "I",
+      "I",
+      "#",
+      "M",
+      "I",
+      "M",
+      "E",
+      "O"
+    ],
+    [
+      "A",
+      "U",
+      "X",
+      "I",
+      "L",
+      "I",
+      "A",
+      "R",
+      "I",
+      "E",
+      "S"
+    ],
+    [
+      "P",
+      "L",
+      "O",
+      "#",
+      "S",
+      "T",
+      "E",
+      "A",
+      "L",
+      "T",
+      "H"
+    ],
+    [
+      "S",
+      "E",
+      "N",
+      "#",
+      "#",
+      "A",
+      "S",
+      "S",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SAFES",
+      "clue": "Contraceptive devices consisting of a sheath of thin rubber or latex",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contraceptive devices consisting of a sheath of thin rubber or latex",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SEXED",
+      "clue": "Characterized by sexuality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Characterized by sexuality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AFTER",
+      "clue": "Next",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Next",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "FLED",
+      "clue": "Ran away from danger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "EERY",
+      "clue": "Spooky, var.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SCI",
+      "clue": "Lab class, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "GPS",
+      "clue": "Navigational system involving satellites and computers that can determine the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navigational system involving satellites and computers that can determine the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "GLITZ",
+      "clue": "Tasteless showiness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tasteless showiness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "PETAL",
+      "clue": "One of the leaves of the corolla, or the colored leaves of a flower. See...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the leaves of the corolla, or the colored leaves of a flower. See...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "STYLE",
+      "clue": "Manner of expression",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "DEFLECT",
+      "clue": "To cause to turn aside or downward",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cause to turn aside or downward",
+        "Impede the movement of (an opponent or a ball)",
+        "Cause to turn aside"
+      ],
+      "definition": "To cause to turn aside or downward.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "DESC",
+      "clue": "Inheriting: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "TONUS",
+      "clue": "Elastic tension of living muscles, arteries, etc. that facilitate response...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elastic tension of living muscles, arteries, etc. that facilitate response...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Allow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EXTERIORITY",
+      "clue": "Surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surface",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RAZE",
+      "clue": "Tear down so as to make flat with the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tear down so as to make flat with the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SEEDY",
+      "clue": "Morally degraded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Morally degraded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NATAL",
+      "clue": "Pertaining to one's birth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Relating to or accompanying birth",
+        "Of or pertaining to one's birth"
+      ],
+      "definition": "Pertaining to one's birth.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "CDR",
+      "clue": "Navy rank: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "GUZZLE",
+      "clue": "To swallow greedily or hastily",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Swallow greedily or hastily",
+        "Swallow greedily or hastily; gulp",
+        "Drink greedily or as if with great thirst",
+        "Swallow liquor greedily"
+      ],
+      "definition": "To swallow greedily or hastily; gulp.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cable, wire, or rope that is used to brace something (especially a tent)",
+        "Rope, chain, or rod attached to anything to steady it"
+      ],
+      "definition": "Stay-rope.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "DRUSE",
+      "clue": "Cavity in a rock, having its interior surface studded with crystals and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cavity in a rock, having its interior surface studded with crystals and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "DVII",
+      "clue": "Roman numeral for 507",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 507",
+      "clueSource": "roman"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "ROILS",
+      "clue": "Makes turbid by stirring up the sediments of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes turbid by stirring up the sediments of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "CONVOY",
+      "clue": "A protecting force accompanying property in course of transportation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Protecting force accompanying property in course of transportation",
+        "Act of escorting while in transit",
+        "Accompany for protection, either by sea or land"
+      ],
+      "definition": "A protecting force accompanying property in course of transportation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "CLAPS",
+      "clue": "Variant of Clasp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Variant of Clasp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "OVULE",
+      "clue": "Small or immature ovum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small or immature ovum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "NIXON",
+      "clue": "Vice president under Eisenhower and 37th President of the United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vice president under Eisenhower and 37th President of the United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "EMM",
+      "clue": "Mid-alphabet trio's middle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "EMILE",
+      "clue": "Boy whose upbringing was described by Jean-Jacques Rousseau",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Boy whose upbringing was described by Jean-Jacques Rousseau",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "MEETS",
+      "clue": "Contends against an opponent in a sport, game, or battle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contends against an opponent in a sport, game, or battle",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "MOSH",
+      "clue": "Dance the slam dance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dance the slam dance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "LVIII",
+      "clue": "Being eight more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being eight more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "MIMEO",
+      "clue": "Print copies from (a prepared stencil) using a mimeograph",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Print copies from (a prepared stencil) using a mimeograph",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "MAES",
+      "clue": "Master's degrees in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degrees in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "IRAS",
+      "clue": "Nest eggs, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "AUXILIARIES",
+      "clue": "People who act as assistant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who act as assistant",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ITA",
+      "clue": "Italian-typeface abbreviation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "PLO",
+      "clue": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "STEALTH",
+      "clue": "A concealed manner of acting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Concealed manner of acting",
+        "Avoiding detection by moving carefully",
+        "Act of stealing"
+      ],
+      "definition": "A concealed manner of acting.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SEN",
+      "clue": "Japanese coin, worth about one half of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Japanese coin, worth about one half of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ASSES",
+      "clue": "Pack animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DEFLECT",
+      "clue": "To cause to turn aside or downward",
+      "definition": "To cause to turn aside or downward.",
+      "id": "9A"
+    },
+    {
+      "word": "GUZZLE",
+      "clue": "To swallow greedily or hastily",
+      "definition": "To swallow greedily or hastily; gulp.",
+      "id": "17A"
+    },
+    {
+      "word": "CONVOY",
+      "clue": "A protecting force accompanying property in course of transportation",
+      "definition": "A protecting force accompanying property in course of transportation.",
+      "id": "20A"
+    },
+    {
+      "word": "STEALTH",
+      "clue": "A concealed manner of acting",
+      "definition": "A concealed manner of acting.",
+      "id": "32A"
+    }
+  ]
+}

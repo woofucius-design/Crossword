@@ -1,0 +1,964 @@
+{
+  "date": "2027-10-22",
+  "number": 114,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "D",
+      "A",
+      "M",
+      "S",
+      "#",
+      "B",
+      "R",
+      "O",
+      "S"
+    ],
+    [
+      "S",
+      "P",
+      "O",
+      "U",
+      "S",
+      "E",
+      "#",
+      "R",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "P",
+      "O",
+      "C",
+      "K",
+      "E",
+      "T",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N"
+    ],
+    [
+      "E",
+      "L",
+      "K",
+      "#",
+      "C",
+      "O",
+      "N",
+      "S",
+      "O",
+      "R",
+      "T"
+    ],
+    [
+      "A",
+      "L",
+      "E",
+      "C",
+      "#",
+      "N",
+      "E",
+      "T",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "O",
+      "T",
+      "A",
+      "S",
+      "#",
+      "A",
+      "L",
+      "C",
+      "O",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "R",
+      "O",
+      "#",
+      "E",
+      "A",
+      "S",
+      "Y"
+    ],
+    [
+      "E",
+      "G",
+      "O",
+      "T",
+      "I",
+      "S",
+      "T",
+      "#",
+      "U",
+      "C",
+      "A"
+    ],
+    [
+      "Y",
+      "O",
+      "G",
+      "I",
+      "#",
+      "M",
+      "I",
+      "S",
+      "S",
+      "A",
+      "L"
+    ],
+    [
+      "E",
+      "U",
+      "R",
+      "O",
+      "#",
+      "A",
+      "N",
+      "K",
+      "A",
+      "R",
+      "A"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "N",
+      "#",
+      "N",
+      "A",
+      "I",
+      "L",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ADAMS",
+      "clue": "President John Quincy ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "APOLLO",
+      "clue": "Greek god of light",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek god of light",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "DOCKET",
+      "clue": "The registry of judgments of a court",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Registry of judgments of a court",
+        "Temporally organized plan for matters to be attended to",
+        "Small piece of paper or parchment, containing the heads of a writing"
+      ],
+      "definition": "The registry of judgments of a court.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AUK",
+      "clue": "Name given to various species of arctic sea birds of the family Alcid\u00e6. The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name given to various species of arctic sea birds of the family Alcid\u00e6. The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "MSEC",
+      "clue": "One thousandth (10^-3) of a second",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One thousandth (10^-3) of a second",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SETON",
+      "clue": "United States religious leader who was the first person born in the United...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States religious leader who was the first person born in the United...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "BROS",
+      "clue": "Buddies, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "BRISTLE",
+      "clue": "One of the coarse, stiff hairs of swine: used in brush-making, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stiff hair",
+        "Short, stiff, coarse hair, as on the back of swine"
+      ],
+      "definition": "One of the coarse, stiff hairs of swine: used in brush-making, etc.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "RICO",
+      "clue": "Law intended to eradicate organized crime by establishing strong sanctions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Law intended to eradicate organized crime by establishing strong sanctions and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ODOR",
+      "clue": "Nose's notice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "SENT",
+      "clue": "Caused or enabled to go or be conveyed or transmitted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Caused or enabled to go or be conveyed or transmitted",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "SPOUSE",
+      "clue": "Person's partner in marriage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person's partner in marriage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "SPEAR",
+      "clue": "Long pointed rod used as a tool or weapon",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long pointed rod used as a tool or weapon",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "RIDE",
+      "clue": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "POCKET",
+      "clue": "Small pouch inside a garment for carrying small articles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small pouch inside a garment for carrying small articles",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "An image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
+      "definition": "An image or likeness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ELK",
+      "clue": "Common deer of temperate Europe and Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common deer of temperate Europe and Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "CONSORT",
+      "clue": "A companion or associate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Companion or associate",
+        "Family of similar musical instrument playing together",
+        "One who shares the lot of another"
+      ],
+      "definition": "A companion or associate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ALEC",
+      "clue": "Actor Baldwin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CAPTION",
+      "clue": "A heading, as of a chapter, section, document, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Heading, as of a chapter, section, document, etc",
+        "Brief description accompanying an illustration",
+        "Caviling"
+      ],
+      "definition": "A heading, as of a chapter, section, document, etc.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NET",
+      "clue": "Tennis-court divider",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ROTAS",
+      "clue": "Rosters of names showing the order in which people should perform",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rosters of names showing the order in which people should perform",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "SRI",
+      "clue": "Lanka lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ALCOA",
+      "clue": "Aluminum giant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "CAUSAL",
+      "clue": "Indicating or expressing a cause",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Involving or constituting a cause",
+        "Relating to a cause or causes"
+      ],
+      "definition": "Indicating or expressing a cause.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "OSCARS",
+      "clue": "Annual awards by the Academy of Motion Picture Arts and Sciences for",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual awards by the Academy of Motion Picture Arts and Sciences for",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "AYALA",
+      "clue": "Mexican folk hero",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "PRO",
+      "clue": "Expert",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "OSMAN",
+      "clue": "Ottoman dynasty founder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "EASY",
+      "clue": "Like pie, in a saying",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "EGOTIST",
+      "clue": "One given to self-mention or who is constantly telling of his own views",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "One given to self-mention or who is constantly telling of his own views and",
+        "Conceited and self-centered person",
+        "One addicted to egotism"
+      ],
+      "definition": "One given to self-mention or who is constantly telling of his own views and",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "EYES",
+      "clue": "Portrait focal points",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "GOUT",
+      "clue": "Drop",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Drop",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "A demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "TINA",
+      "clue": "Singer Turner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "UCA",
+      "clue": "Fiddler crabs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fiddler crabs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "YOGI",
+      "clue": "One who practices yoga and has achieved a high level of spiritual insight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who practices yoga and has achieved a high level of spiritual insight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "MISSAL",
+      "clue": "The book containing the service for the celebration of mass",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book containing the service for the celebration of mass",
+        "Book containing all the prayers and responses needed to celebrate Mass...",
+        "Book containing the service of the Mass for the entire year"
+      ],
+      "definition": "The book containing the service for the celebration of mass.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "SKI",
+      "clue": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Continental currency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ANKARA",
+      "clue": "Capital of Turkey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Turkey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "STEN",
+      "clue": "British submachine gun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "NAILS",
+      "clue": "Completes a pass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Completes a pass",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DOCKET",
+      "clue": "The registry of judgments of a court",
+      "definition": "The registry of judgments of a court.",
+      "id": "2D"
+    },
+    {
+      "word": "BRISTLE",
+      "clue": "One of the coarse, stiff hairs of swine: used in brush-making, etc",
+      "definition": "One of the coarse, stiff hairs of swine: used in brush-making, etc.",
+      "id": "6D"
+    },
+    {
+      "word": "CONSORT",
+      "clue": "A companion or associate",
+      "definition": "A companion or associate.",
+      "id": "15A"
+    },
+    {
+      "word": "CAPTION",
+      "clue": "A heading, as of a chapter, section, document, etc",
+      "definition": "A heading, as of a chapter, section, document, etc.",
+      "id": "18D"
+    },
+    {
+      "word": "CAUSAL",
+      "clue": "Indicating or expressing a cause",
+      "definition": "Indicating or expressing a cause.",
+      "id": "23D"
+    },
+    {
+      "word": "EGOTIST",
+      "clue": "One given to self-mention or who is constantly telling of his own views",
+      "definition": "One given to self-mention or who is constantly telling of his own views and",
+      "id": "29A"
+    }
+  ]
+}

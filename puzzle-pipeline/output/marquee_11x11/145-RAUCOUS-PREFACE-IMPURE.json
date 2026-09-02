@@ -1,0 +1,969 @@
+{
+  "date": "2027-11-22",
+  "number": 145,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "I",
+      "K",
+      "E",
+      "R",
+      "#",
+      "P",
+      "A",
+      "L",
+      "P"
+    ],
+    [
+      "H",
+      "O",
+      "M",
+      "A",
+      "G",
+      "E",
+      "#",
+      "E",
+      "M",
+      "U",
+      "S"
+    ],
+    [
+      "E",
+      "S",
+      "P",
+      "I",
+      "E",
+      "S",
+      "#",
+      "C",
+      "M",
+      "L",
+      "I"
+    ],
+    [
+      "B",
+      "T",
+      "U",
+      "#",
+      "R",
+      "A",
+      "U",
+      "C",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "E",
+      "A",
+      "R",
+      "S",
+      "#",
+      "T",
+      "S",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "I",
+      "L",
+      "E",
+      "U",
+      "M",
+      "#",
+      "U",
+      "N",
+      "W",
+      "E",
+      "D"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "B",
+      "I",
+      "#",
+      "T",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "F",
+      "A",
+      "C",
+      "E",
+      "#",
+      "N",
+      "I",
+      "M"
+    ],
+    [
+      "L",
+      "I",
+      "M",
+      "E",
+      "#",
+      "B",
+      "L",
+      "O",
+      "T",
+      "T",
+      "O"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "I",
+      "#",
+      "M",
+      "I",
+      "C",
+      "R",
+      "O",
+      "N"
+    ],
+    [
+      "N",
+      "E",
+      "T",
+      "T",
+      "#",
+      "S",
+      "A",
+      "T",
+      "Y",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PIKER",
+      "clue": "Cheapskate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "POSTAL",
+      "clue": "Belonging to the post office or mail service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belonging to the post office or mail service",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "IMPURE",
+      "clue": "Tainted",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not pure"
+      ],
+      "definition": "Tainted.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "KAI",
+      "clue": "Surfer's greeting in Hawaii",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "EGER",
+      "clue": "Sharp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sharp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "RESAT",
+      "clue": "Took the test again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PALP",
+      "clue": "Same as Palpus. To have a distinct touch or feeling of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Palpus. To have a distinct touch or feeling of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PECCANT",
+      "clue": "Guilty",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Liable to sin",
+        "Sinning"
+      ],
+      "definition": "Guilty.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AMMO",
+      "clue": "Projectiles to be fired from a gun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Projectiles to be fired from a gun",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "LULU",
+      "clue": "Very attractive or seductive looking woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very attractive or seductive looking woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "PSIS",
+      "clue": "23rd letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "HOMAGE",
+      "clue": "Reverential regard or worship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Respectful deference",
+        "Symbolical acknowledgment made by a feudal tenant to, and in the..."
+      ],
+      "definition": "Reverential regard or worship.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "HEBEI",
+      "clue": "Populous province in northeastern China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Populous province in northeastern China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EMUS",
+      "clue": "Large Australian flightless birds similar to the ostrich but smaller",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large Australian flightless birds similar to the ostrich but smaller",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ESPIES",
+      "clue": "Keeps close watch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Keeps close watch",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "CMLI",
+      "clue": "Roman numeral for 951",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 951",
+      "clueSource": "roman"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "BTU",
+      "clue": "Unit of heat equal to the amount of heat required to raise one pound of water...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of heat equal to the amount of heat required to raise one pound of water...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "RAUCOUS",
+      "clue": "Harsh",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unpleasantly loud and harsh",
+        "Hoarse"
+      ],
+      "definition": "Harsh.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "USU",
+      "clue": "Most often: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "EARS",
+      "clue": "Sense organs for hearing and equilibrium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sense organs for hearing and equilibrium",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "SURFEIT",
+      "clue": "To feed to fullness or to satiety",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Feed to fullness or to satiety",
+        "Eating until excessively full"
+      ],
+      "definition": "To feed to fullness or to satiety.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Airport screening org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ILEUM",
+      "clue": "Last, and usually the longest, division of the small intestine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Last, and usually the longest, division of the small intestine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "MBA",
+      "clue": "Master's degree in business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in business",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "UNWED",
+      "clue": "Of someone who has not been married",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of someone who has not been married",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "WINTRY",
+      "clue": "Lacking warmth of manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characteristic of or occurring in winter",
+        "Suitable to winter"
+      ],
+      "definition": "Lacking warmth of manner.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "EDITOR",
+      "clue": "Program designed to perform such editorial functions as rearrangement or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program designed to perform such editorial functions as rearrangement or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "DEMON",
+      "clue": "Spirit, or immaterial being, holding a middle place between men and deities...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirit, or immaterial being, holding a middle place between men and deities...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "RBI",
+      "clue": "Run that is the result of the batter's performance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run that is the result of the batter's performance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ICBMS",
+      "clue": "Ballistic missiles that are capable of traveling from one continent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ballistic missiles that are capable of traveling from one continent",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "TIDE",
+      "clue": "Time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PREFACE",
+      "clue": "A brief explanation or address to the reader, at the beginning of a book",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Brief explanation or address to the reader, at the beginning of a book",
+        "Short introductory essay preceding the text of a book",
+        "Something spoken as introductory to a discourse, or written as..."
+      ],
+      "definition": "A brief explanation or address to the reader, at the beginning of a book.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PLAN",
+      "clue": "Scale drawing of a structure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scale drawing of a structure",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RILE",
+      "clue": "Make turbid by stirring up the sediments of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make turbid by stirring up the sediments of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ELIA",
+      "clue": "English essayist (1775-1834)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English essayist (1775-1834)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "NIM",
+      "clue": "Take",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "LIME",
+      "clue": "Thong by which a dog is led",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thong by which a dog is led",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "BLOTTO",
+      "clue": "Very drunk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very drunk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "OCT",
+      "clue": "Month following September and preceding November",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Month following September and preceding November",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ALII",
+      "clue": "Et ___ (and others)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "MICRON",
+      "clue": "Measure of length",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measure of length",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "NETT",
+      "clue": "Remaining after all deductions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remaining after all deductions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SATYR",
+      "clue": "A very lascivious person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very lascivious person",
+        "One of a class of woodland deities",
+        "Sylvan deity or demigod, represented as part man and part goat, and..."
+      ],
+      "definition": "A very lascivious person.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "IMPURE",
+      "clue": "Tainted",
+      "definition": "Tainted.",
+      "id": "2D"
+    },
+    {
+      "word": "PECCANT",
+      "clue": "Guilty",
+      "definition": "Guilty.",
+      "id": "6D"
+    },
+    {
+      "word": "RAUCOUS",
+      "clue": "Harsh",
+      "definition": "Harsh.",
+      "id": "15A"
+    },
+    {
+      "word": "SURFEIT",
+      "clue": "To feed to fullness or to satiety",
+      "definition": "To feed to fullness or to satiety.",
+      "id": "18D"
+    },
+    {
+      "word": "WINTRY",
+      "clue": "Lacking warmth of manner",
+      "definition": "Lacking warmth of manner.",
+      "id": "23D"
+    },
+    {
+      "word": "PREFACE",
+      "clue": "A brief explanation or address to the reader, at the beginning of a book",
+      "definition": "A brief explanation or address to the reader, at the beginning of a book.",
+      "id": "29A"
+    }
+  ]
+}

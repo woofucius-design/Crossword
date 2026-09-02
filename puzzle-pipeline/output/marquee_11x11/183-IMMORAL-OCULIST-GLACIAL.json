@@ -1,0 +1,887 @@
+{
+  "date": "2027-12-30",
+  "number": 183,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "N",
+      "I",
+      "S",
+      "S",
+      "A",
+      "N",
+      "#",
+      "#",
+      "U",
+      "S",
+      "B"
+    ],
+    [
+      "I",
+      "M",
+      "M",
+      "O",
+      "R",
+      "A",
+      "L",
+      "#",
+      "R",
+      "I",
+      "O"
+    ],
+    [
+      "L",
+      "A",
+      "U",
+      "N",
+      "D",
+      "R",
+      "E",
+      "S",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "N",
+      "G",
+      "#",
+      "O",
+      "C",
+      "U",
+      "L",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "R",
+      "S",
+      "#",
+      "I",
+      "N",
+      "T",
+      "O"
+    ],
+    [
+      "R",
+      "A",
+      "P",
+      "E",
+      "S",
+      "#",
+      "O",
+      "C",
+      "E",
+      "A",
+      "N"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "A",
+      "#",
+      "P",
+      "I",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "G",
+      "L",
+      "A",
+      "C",
+      "I",
+      "A",
+      "L",
+      "#",
+      "S",
+      "A",
+      "M"
+    ],
+    [
+      "T",
+      "E",
+      "C",
+      "H",
+      "N",
+      "I",
+      "C",
+      "I",
+      "A",
+      "N",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "E",
+      "#",
+      "C",
+      "R",
+      "A",
+      "V",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "G",
+      "E",
+      "S",
+      "#",
+      "#",
+      "S",
+      "N",
+      "Y",
+      "D",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "NISSAN",
+      "clue": "Seventh month of the civil year",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seventh month of the civil year",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "NILE",
+      "clue": "World's longest river (4150 miles)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "World's longest river (4150 miles)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "IMAN",
+      "clue": "Among the Mohammedans, a minister or priest who performs the regular service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Among the Mohammedans, a minister or priest who performs the regular service of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SMUG",
+      "clue": "Marked by excessive complacency or self-satisfaction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by excessive complacency or self-satisfaction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SON",
+      "clue": "Male child",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male child",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "ARDORS",
+      "clue": "Feelings of great warmth and intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feelings of great warmth and intensity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "NARCS",
+      "clue": "Lawmans concerned with narcotics violations",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lawmans concerned with narcotics violations",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "USB",
+      "clue": "Common port type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common port type, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "URSINE",
+      "clue": "Of or relating to or similar to bears",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or similar to bears",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "SIESTA",
+      "clue": "Short sleep taken about the middle of the day, or after dinner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short sleep taken about the middle of the day, or after dinner",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "BOSTON",
+      "clue": "State capital and largest city of Massachusetts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State capital and largest city of Massachusetts",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "IMMORAL",
+      "clue": "Habitually engaged in licentious or lewd practices",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Deliberately violating accepted principles of right and wrong",
+        "Not moral"
+      ],
+      "definition": "Habitually engaged in licentious or lewd practices.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "LEU",
+      "clue": "Basic unit of money in Romania",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Romania",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RIO",
+      "clue": "Former capital and 2nd largest city of Brazil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former capital and 2nd largest city of Brazil",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "LAUNDRESSES",
+      "clue": "Working women who take in washing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Working women who take in washing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "SLICE",
+      "clue": "Thin, broad piece cut off",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin, broad piece cut off",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ENG",
+      "clue": "Maker of bridges, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "OCULIST",
+      "clue": "One versed or skilled in treating diseases of the eye",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Medical doctor specializing in the diagnosis and treatment of diseases of the...",
+        "One skilled in treating diseases of the eye"
+      ],
+      "definition": "One versed or skilled in treating diseases of the eye.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "PRS",
+      "clue": "Promotions intended to create goodwill for a person or institution",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Promotions intended to create goodwill for a person or institution",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "PEACH",
+      "clue": "Divulge confidential information or secrets",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Divulge confidential information or secrets",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "INTO",
+      "clue": "Fascinated by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "RAPES",
+      "clue": "Acts of hitting vigorously",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of hitting vigorously",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "RAGTAG",
+      "clue": "Disparaging terms for the common people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disparaging terms for the common people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ARLENE",
+      "clue": "Actress Dahl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "PEACES",
+      "clue": "Treaties to cease hostilities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Treaties to cease hostilities",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Whole body of salt water which covers more than three fifths of the surface...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole body of salt water which covers more than three fifths of the surface...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "OILCAN",
+      "clue": "Can with a long nozzle to apply oil to machinery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Can with a long nozzle to apply oil to machinery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AREA",
+      "clue": "Length times width",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "PIE",
+      "clue": "Dessert with a crust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "PAIRS",
+      "clue": "Brings two objects, ideas, or peoples together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brings two objects, ideas, or peoples together",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "GLACIAL",
+      "clue": "Icy, or icily cold",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Extremely cold",
+        "Pertaining to ice or to its action"
+      ],
+      "definition": "Icy, or icily cold.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "INC",
+      "clue": "Japanese measure of length equal to about two and one twelfth yards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Japanese measure of length equal to about two and one twelfth yards",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SAM",
+      "clue": "Together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Together",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SAID",
+      "clue": "Uttered",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANNE",
+      "clue": "Green Gables girl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "MSGR",
+      "clue": "Catholic title, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "TECHNICIANS",
+      "clue": "People whose occupation involves training in a specific technical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People whose occupation involves training in a specific technical",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IVY",
+      "clue": "Old World vine with lobed evergreen leaves and black berrylike fruits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old World vine with lobed evergreen leaves and black berrylike fruits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ANE",
+      "clue": "Chemical suffix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CRAVING",
+      "clue": "A vehement desire",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Vehement desire",
+        "Intense desire for some particular thing",
+        "Vehement or urgent desire"
+      ],
+      "definition": "A vehement desire.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "GES",
+      "clue": "Goddesses of the earth and mother of Cronus and the Titans in ancient",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddesses of the earth and mother of Cronus and the Titans in ancient",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SNYDER",
+      "clue": "Filmmaker Zack",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "IMMORAL",
+      "clue": "Habitually engaged in licentious or lewd practices",
+      "definition": "Habitually engaged in licentious or lewd practices.",
+      "id": "10A"
+    },
+    {
+      "word": "OCULIST",
+      "clue": "One versed or skilled in treating diseases of the eye",
+      "definition": "One versed or skilled in treating diseases of the eye.",
+      "id": "16A"
+    },
+    {
+      "word": "GLACIAL",
+      "clue": "Icy, or icily cold",
+      "definition": "Icy, or icily cold.",
+      "id": "25A"
+    },
+    {
+      "word": "CRAVING",
+      "clue": "A vehement desire",
+      "definition": "A vehement desire.",
+      "id": "33A"
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "date": "2027-12-04",
+  "number": 157,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "O",
+      "S",
+      "S",
+      "E",
+      "#",
+      "#",
+      "C",
+      "P",
+      "A"
+    ],
+    [
+      "F",
+      "I",
+      "X",
+      "T",
+      "U",
+      "R",
+      "E",
+      "#",
+      "H",
+      "E",
+      "N"
+    ],
+    [
+      "U",
+      "N",
+      "B",
+      "A",
+      "L",
+      "A",
+      "N",
+      "C",
+      "I",
+      "N",
+      "G"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "R",
+      "K",
+      "#",
+      "D",
+      "U",
+      "R",
+      "A",
+      "L"
+    ],
+    [
+      "S",
+      "O",
+      "W",
+      "#",
+      "#",
+      "S",
+      "U",
+      "P",
+      "P",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "R",
+      "I",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "U",
+      "S",
+      "T",
+      "E",
+      "R",
+      "#",
+      "#",
+      "M",
+      "B",
+      "D"
+    ],
+    [
+      "U",
+      "S",
+      "U",
+      "A",
+      "L",
+      "#",
+      "C",
+      "C",
+      "C",
+      "L",
+      "I"
+    ],
+    [
+      "M",
+      "A",
+      "C",
+      "H",
+      "I",
+      "N",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "M",
+      "G",
+      "R",
+      "#",
+      "C",
+      "A",
+      "P",
+      "R",
+      "I",
+      "C",
+      "E"
+    ],
+    [
+      "Y",
+      "E",
+      "E",
+      "#",
+      "#",
+      "M",
+      "A",
+      "L",
+      "I",
+      "K",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "POSSE",
+      "clue": "A force of men",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Force of men",
+        "Temporary police force"
+      ],
+      "definition": "A force of men.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PINTO",
+      "clue": "Lit., painted",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lit., painted",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "OXBOW",
+      "clue": "Frame of wood, bent into the shape of the letter U, and embracing an ox's...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Frame of wood, bent into the shape of the letter U, and embracing an ox's...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "STAR",
+      "clue": "A point of light in the night sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "SULK",
+      "clue": "Mood or display of sullen aloofness or withdrawal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mood or display of sullen aloofness or withdrawal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "CPA",
+      "clue": "Accountant who has passed certain examinations and met all other statutory...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Accountant who has passed certain examinations and met all other statutory...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "CHIRP",
+      "clue": "Make high-pitched sounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make high-pitched sounds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "PENAL",
+      "clue": "Subject to punishment by law",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject to punishment by law",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "ANGLE",
+      "clue": "Present with a bias",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Present with a bias",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "FIXTURE",
+      "clue": "One who or that which is expected to remain permanently in its position",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of putting something in working order again",
+        "That which is fixed or attached to something as a permanent appendage"
+      ],
+      "definition": "One who or that which is expected to remain permanently in its position.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "FUSS",
+      "clue": "Rapid active commotion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rapid active commotion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ENDUE",
+      "clue": "To endow with some quality, gift, or grace, usually spiritual",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Endow with some quality, gift, or grace, usually spiritual",
+        "Give qualities or abilities to",
+        "Invest. Latham. Tarry ye in the city of Jerusalem, until ye be..."
+      ],
+      "definition": "To endow with some quality, gift, or grace, usually spiritual.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "HEN",
+      "clue": "Female of the domestic fowl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female of the domestic fowl",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "UNBALANCING",
+      "clue": "Deranging mentally, throwing out of mental balance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deranging mentally, throwing out of mental balance",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "CUPS",
+      "clue": "Small open containers usually used for drinking",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small open containers usually used for drinking",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STORK",
+      "clue": "Large mostly Old World wading birds typically having white-and-black plumage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large mostly Old World wading birds typically having white-and-black plumage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "DURAL",
+      "clue": "Of or relating to the dura mater",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the dura mater",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SOW",
+      "clue": "Introduce into an environment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Introduce into an environment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "SUPPLE",
+      "clue": "Easily bent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Capable of moving or bending freely",
+        "Pliant"
+      ],
+      "definition": "Easily bent.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SIR",
+      "clue": "Knight's title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "PRIES",
+      "clue": "Heavy iron levers with one end forged into a wedge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavy iron levers with one end forged into a wedge",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "PTAH",
+      "clue": "Major Egyptian god",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major Egyptian god",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "RELIC",
+      "clue": "Something of sentimental value",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something of sentimental value",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "MUSTER",
+      "clue": "An assemblage or review of troops for parade or inspection, or for numbering",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assemblage or review of troops for parade or inspection, or for numbering",
+        "Compulsory military service",
+        "Something shown for imitation"
+      ],
+      "definition": "An assemblage or review of troops for parade or inspection, or for numbering",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MUMMY",
+      "clue": "Dead body embalmed and dried after the manner of the ancient Egyptians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dead body embalmed and dried after the manner of the ancient Egyptians",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "USAGE",
+      "clue": "Treatment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Accepted or habitual practice",
+        "Act of using"
+      ],
+      "definition": "Treatment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SUCRE",
+      "clue": "Judicial capital and seat of the judiciary in Bolivia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Judicial capital and seat of the judiciary in Bolivia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "MBD",
+      "clue": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Condition (mostly in boys) characterized by behavioral and learning disorders",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "MCIII",
+      "clue": "Roman numeral for 1103",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1103",
+      "clueSource": "roman"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "BLOCK",
+      "clue": "Piece of wood more or less bulky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Piece of wood more or less bulky",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "DINE",
+      "clue": "Give dinner to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give dinner to",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "USUAL",
+      "clue": "Such as is in common use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Such as is in common use",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CCCLI",
+      "clue": "Roman numeral for 351",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 351",
+      "clueSource": "roman"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "CAPA",
+      "clue": "Photographer Robert ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CTRL",
+      "clue": "Keyboard key",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MACHINATION",
+      "clue": "Crafty and involved plot to achieve your (usually sinister) ends",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Crafty and involved plot to achieve your (usually sinister) ends",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "NAM",
+      "clue": "Am not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Am not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "MGR",
+      "clue": "Team boss: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CAPRICE",
+      "clue": "A whim",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Whim",
+        "Sudden desire",
+        "Abrupt change in feeling, opinion, or action, proceeding from some..."
+      ],
+      "definition": "A whim.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "YEE",
+      "clue": "___-haw!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "MALIK",
+      "clue": "Leader of a town or community in some parts of Asia Minor and the Indian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leader of a town or community in some parts of Asia Minor and the Indian...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "FIXTURE",
+      "clue": "One who or that which is expected to remain permanently in its position",
+      "definition": "One who or that which is expected to remain permanently in its position.",
+      "id": "9A"
+    },
+    {
+      "word": "SUPPLE",
+      "clue": "Easily bent",
+      "definition": "Easily bent.",
+      "id": "17A"
+    },
+    {
+      "word": "MUSTER",
+      "clue": "An assemblage or review of troops for parade or inspection, or for numbering",
+      "definition": "An assemblage or review of troops for parade or inspection, or for numbering",
+      "id": "20A"
+    },
+    {
+      "word": "CAPRICE",
+      "clue": "A whim",
+      "definition": "A whim.",
+      "id": "32A"
+    }
+  ]
+}

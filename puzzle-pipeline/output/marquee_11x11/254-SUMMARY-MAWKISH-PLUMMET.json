@@ -1,0 +1,906 @@
+{
+  "date": "2028-03-10",
+  "number": 254,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "A",
+      "S",
+      "K",
+      "A",
+      "#",
+      "#",
+      "A",
+      "M",
+      "D"
+    ],
+    [
+      "S",
+      "U",
+      "M",
+      "M",
+      "A",
+      "R",
+      "Y",
+      "#",
+      "S",
+      "U",
+      "I"
+    ],
+    [
+      "E",
+      "M",
+      "B",
+      "A",
+      "R",
+      "R",
+      "A",
+      "S",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "P",
+      "O",
+      "#",
+      "M",
+      "A",
+      "W",
+      "K",
+      "I",
+      "S",
+      "H"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "A",
+      "Y",
+      "#",
+      "I",
+      "S",
+      "L",
+      "E"
+    ],
+    [
+      "C",
+      "A",
+      "S",
+      "T",
+      "S",
+      "#",
+      "F",
+      "E",
+      "T",
+      "I",
+      "D"
+    ],
+    [
+      "A",
+      "L",
+      "T",
+      "O",
+      "#",
+      "B",
+      "A",
+      "D",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "L",
+      "U",
+      "M",
+      "M",
+      "E",
+      "T",
+      "#",
+      "F",
+      "L",
+      "A"
+    ],
+    [
+      "S",
+      "U",
+      "P",
+      "P",
+      "O",
+      "S",
+      "I",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "I",
+      "R",
+      "A",
+      "#",
+      "B",
+      "O",
+      "M",
+      "B",
+      "A",
+      "S",
+      "T"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "#",
+      "#",
+      "T",
+      "A",
+      "S",
+      "T",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ALASKA",
+      "clue": "State in northwestern North America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in northwestern North America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ASEA",
+      "clue": "On the ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LUMP",
+      "clue": "Group or chunk together in a certain order or place side by side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group or chunk together in a certain order or place side by side",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "AMBO",
+      "clue": "Platform raised above the surrounding level to give prominence to the person...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Platform raised above the surrounding level to give prominence to the person...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "SMA",
+      "clue": "Wee, in Dundee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "KARMAS",
+      "clue": "Effects of a person's actions that determine his destiny in his next",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Effects of a person's actions that determine his destiny in his next",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ARRAY",
+      "clue": "Order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Order",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AMD",
+      "clue": "Macular degeneration that is age-related",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macular degeneration that is age-related",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ASSIST",
+      "clue": "Act of enabling another player to make a good play",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of enabling another player to make a good play",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "MUESLI",
+      "clue": "Mixture of untoasted dry cereals and fruits",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mixture of untoasted dry cereals and fruits",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "DISHED",
+      "clue": "Made concave",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made concave",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "SUMMARY",
+      "clue": "An abstract",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Abstract",
+        "Briefly giving the gist of something",
+        "Formed into a sum"
+      ],
+      "definition": "An abstract.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "YAW",
+      "clue": "Swerve off course momentarily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swerve off course momentarily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "SUI",
+      "clue": "___ generis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EMBARRASSES",
+      "clue": "Renders flustered or agitated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Renders flustered or agitated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "SKIED",
+      "clue": "Threw or tossed with a light motion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Threw or tossed with a light motion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "APO",
+      "clue": "Prefix from a Greek preposition. It usually signifies from, away from, off,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prefix from a Greek preposition. It usually signifies from, away from, off,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "MAWKISH",
+      "clue": "Sickening or insipid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Effusively or insincerely emotional",
+        "Apt to cause satiety or loathing"
+      ],
+      "definition": "Sickening or insipid.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "SAY",
+      "clue": "Give instructions to or direct somebody to do something with authority",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Give instructions to or direct somebody to do something with authority",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "STOMP",
+      "clue": "Walk heavily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Walk heavily",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "An island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "CASTS",
+      "clue": "Ejects the contents of the stomach through the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ejects the contents of the stomach through the mouth",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "CAPSID",
+      "clue": "Outer covering of protein surrounding the nucleic acid of a virus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Outer covering of protein surrounding the nucleic acid of a virus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ALLURE",
+      "clue": "Attempt to draw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Attempt to draw",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "STUPAS",
+      "clue": "Dome-shaped shrines erected by Buddhists",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dome-shaped shrines erected by Buddhists",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FETID",
+      "clue": "Having an offensive smell",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having an offensive smell",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "FATIMA",
+      "clue": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Youngest daughter of the prophet Mohammed and wife of the fourth calif Ali",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "The lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "BAD",
+      "clue": "Very much",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very much",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "BESOT",
+      "clue": "Make dull or stupid or muddle with drunkenness or infatuation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make dull or stupid or muddle with drunkenness or infatuation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PLUMMET",
+      "clue": "A piece of lead for making soundings, adjusting walls to the vertical",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Piece of lead for making soundings, adjusting walls to the vertical",
+        "Metal bob of a plumb line",
+        "Piece of lead attached to a line, used in sounding the depth of..."
+      ],
+      "definition": "A piece of lead for making soundings, adjusting walls to the vertical.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "MOB",
+      "clue": "Disorderly crowd of people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disorderly crowd of people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "FLA",
+      "clue": "Sunshine St.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "FIAT",
+      "clue": "Authoritative command or order to do something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Authoritative command or order to do something",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "LOSE",
+      "clue": "Be set at a disadvantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be set at a disadvantage",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ANTS",
+      "clue": "Social insects living in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insects living in organized colonies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SUPPOSITION",
+      "clue": "Conjecture",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cognitive process of supposing",
+        "Act of supposing, laying down, imagining, or considering as true..."
+      ],
+      "definition": "Conjecture.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Recipe amts.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "IRA",
+      "clue": "Retirement acct.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "BOMBAST",
+      "clue": "Inflated or extravagant language, especially on unimportant subjects",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pompous or pretentious talk or writing",
+        "Originally, cotton, or cotton wool"
+      ],
+      "definition": "Inflated or extravagant language, especially on unimportant subjects.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "TASTES",
+      "clue": "Experiences briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Experiences briefly",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SUMMARY",
+      "clue": "An abstract",
+      "definition": "An abstract.",
+      "id": "10A"
+    },
+    {
+      "word": "MAWKISH",
+      "clue": "Sickening or insipid",
+      "definition": "Sickening or insipid.",
+      "id": "16A"
+    },
+    {
+      "word": "PLUMMET",
+      "clue": "A piece of lead for making soundings, adjusting walls to the vertical",
+      "definition": "A piece of lead for making soundings, adjusting walls to the vertical.",
+      "id": "25A"
+    },
+    {
+      "word": "BOMBAST",
+      "clue": "Inflated or extravagant language, especially on unimportant subjects",
+      "definition": "Inflated or extravagant language, especially on unimportant subjects.",
+      "id": "33A"
+    }
+  ]
+}

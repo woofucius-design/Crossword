@@ -1,0 +1,931 @@
+{
+  "date": "2028-03-09",
+  "number": 253,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "R",
+      "A",
+      "N",
+      "K",
+      "S",
+      "#",
+      "L",
+      "U",
+      "B",
+      "E"
+    ],
+    [
+      "R",
+      "A",
+      "C",
+      "I",
+      "N",
+      "E",
+      "#",
+      "E",
+      "T",
+      "O",
+      "N"
+    ],
+    [
+      "E",
+      "D",
+      "I",
+      "T",
+      "O",
+      "R",
+      "#",
+      "G",
+      "A",
+      "N",
+      "G"
+    ],
+    [
+      "B",
+      "I",
+      "N",
+      "#",
+      "B",
+      "U",
+      "R",
+      "G",
+      "H",
+      "E",
+      "R"
+    ],
+    [
+      "U",
+      "S",
+      "A",
+      "F",
+      "#",
+      "M",
+      "O",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "H",
+      "R",
+      "U",
+      "G",
+      "#",
+      "I",
+      "N",
+      "D",
+      "U",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "E",
+      "P",
+      "#",
+      "G",
+      "O",
+      "S",
+      "S"
+    ],
+    [
+      "D",
+      "E",
+      "V",
+      "I",
+      "L",
+      "R",
+      "Y",
+      "#",
+      "G",
+      "U",
+      "T"
+    ],
+    [
+      "B",
+      "L",
+      "O",
+      "B",
+      "#",
+      "E",
+      "M",
+      "I",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "M",
+      "I",
+      "L",
+      "L",
+      "#",
+      "S",
+      "C",
+      "R",
+      "I",
+      "P",
+      "S"
+    ],
+    [
+      "S",
+      "A",
+      "S",
+      "E",
+      "#",
+      "S",
+      "A",
+      "K",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "RANKS",
+      "clue": "Ordinary members of an organization (such as the enlisted soldiers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ordinary members of an organization (such as the enlisted soldiers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "RADISH",
+      "clue": "Pungent fleshy edible root",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pungent fleshy edible root",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ACINAR",
+      "clue": "Pertaining to the individual parts making up an aggregate fruit like a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to the individual parts making up an aggregate fruit like a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "NIT",
+      "clue": "The egg of a louse or some other insect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Egg of a louse or some other insect",
+        "Egg or young of an insect parasitic on mammals especially a sucking louse"
+      ],
+      "definition": "The egg of a louse or some other insect.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "KNOB",
+      "clue": "Round handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Round handle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SERUM",
+      "clue": "Watery portion of certain animal fluids, as blood, milk, etc. (b) A thin...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Watery portion of certain animal fluids, as blood, milk, etc. (b) A thin...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "LUBE",
+      "clue": "Substance capable of reducing friction by making surfaces smooth or slippery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Substance capable of reducing friction by making surfaces smooth or slippery",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "LEGGING",
+      "clue": "A covering for the leg",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A covering for the leg.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "UTAH",
+      "clue": "State in the western United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the western United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "BONE",
+      "clue": "Hard, calcified tissue of the skeleton of vertebrate animals, consisting...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hard, calcified tissue of the skeleton of vertebrate animals, consisting...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ENGR",
+      "clue": "Bridge designer, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "RACINE",
+      "clue": "City in southeastern Wisconsin on Lake Michigan to the south of Milwaukee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in southeastern Wisconsin on Lake Michigan to the south of Milwaukee",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "REBUS",
+      "clue": "Mode of expressing words and phrases by pictures of objects whose names...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mode of expressing words and phrases by pictures of objects whose names...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ETON",
+      "clue": "Posh British school",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "EDITOR",
+      "clue": "Program designed to perform such editorial functions as rearrangement or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Program designed to perform such editorial functions as rearrangement or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "GANG",
+      "clue": "Act as an organized group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act as an organized group",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "BIN",
+      "clue": "Box, frame, crib, or inclosed place, used as a receptacle for any commodity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Box, frame, crib, or inclosed place, used as a receptacle for any commodity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "BURGHER",
+      "clue": "Member of the middle class",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "An inhabitant, citizen or freeman of a borough burgh, or corporate town.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "ROI",
+      "clue": "Investor's concern, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "USAF",
+      "clue": "Airforce of the United States of America",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Airforce of the United States of America",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "FUSIBLE",
+      "clue": "Capable of being melted by heat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Capable of being melted and fused"
+      ],
+      "definition": "Capable of being melted by heat.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "MOI",
+      "clue": "\"Who, ___?\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SHRUG",
+      "clue": "Draw up or contract (the shoulders), especially by way of expressing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Draw up or contract (the shoulders), especially by way of expressing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "GEL",
+      "clue": "Thin translucent membrane used over stage lights for color effects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin translucent membrane used over stage lights for color effects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "INDUE",
+      "clue": "Put on, as clothes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Put on, as clothes",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "DOGGIE",
+      "clue": "Informal terms for dogs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for dogs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "USURPS",
+      "clue": "Takes possession of by force",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Takes possession of by force",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "ESTES",
+      "clue": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard times in the 5th time zone west of Greenwich, reckoned",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "SEP",
+      "clue": "Fall mo.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "PRESS",
+      "clue": "Ask for or request earnestly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ask for or request earnestly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "GOSS",
+      "clue": "Gorse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gorse",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "DEVILRY",
+      "clue": "Malicious mischief",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Reckless or malicious behavior that causes discomfort or annoyance in others",
+        "Conduct suitable to the devil"
+      ],
+      "definition": "Malicious mischief.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DBMS",
+      "clue": "Software system that facilitates the creation and maintenance and use of an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Software system that facilitates the creation and maintenance and use of an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ELIA",
+      "clue": "English essayist (1775-1834)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English essayist (1775-1834)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "VOLS",
+      "clue": "Library set, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "YMCA",
+      "clue": "Village People hit with letters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "GUT",
+      "clue": "Narrow passage of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow passage of water",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "BLOB",
+      "clue": "Make a spot or mark onto",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a spot or mark onto",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "EMIGRE",
+      "clue": "Someone who leaves one country to settle in another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who leaves one country to settle in another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "To afflict with pain, vexation, or fatigue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Afflict with pain, vexation, or fatigue",
+        "Irritate or vex",
+        "Weary"
+      ],
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "MILL",
+      "clue": "Money of account of the United States, having the value of the tenth of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account of the United States, having the value of the tenth of a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SCRIPS",
+      "clue": "Certificates whose value is recognized by the payer and payee",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Certificates whose value is recognized by the payer and payee",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SASE",
+      "clue": "Mail-in inclusion, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SAKES",
+      "clue": "Reasons for wanting something done",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reasons for wanting something done",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "LEGGING",
+      "clue": "A covering for the leg",
+      "definition": "A covering for the leg.",
+      "id": "6D"
+    },
+    {
+      "word": "BURGHER",
+      "clue": "Member of the middle class",
+      "definition": "An inhabitant, citizen or freeman of a borough burgh, or corporate town.",
+      "id": "15A"
+    },
+    {
+      "word": "FUSIBLE",
+      "clue": "Capable of being melted by heat",
+      "definition": "Capable of being melted by heat.",
+      "id": "18D"
+    },
+    {
+      "word": "DEVILRY",
+      "clue": "Malicious mischief",
+      "definition": "Malicious mischief.",
+      "id": "29A"
+    }
+  ]
+}

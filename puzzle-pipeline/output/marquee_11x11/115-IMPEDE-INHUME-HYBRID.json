@@ -1,0 +1,986 @@
+{
+  "date": "2027-10-23",
+  "number": 115,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "E",
+      "E",
+      "S",
+      "A",
+      "W",
+      "#",
+      "A",
+      "J",
+      "A",
+      "R"
+    ],
+    [
+      "U",
+      "R",
+      "S",
+      "I",
+      "N",
+      "E",
+      "#",
+      "L",
+      "O",
+      "G",
+      "E"
+    ],
+    [
+      "I",
+      "M",
+      "P",
+      "E",
+      "D",
+      "E",
+      "#",
+      "O",
+      "G",
+      "R",
+      "E"
+    ],
+    [
+      "T",
+      "A",
+      "N",
+      "G",
+      "#",
+      "#",
+      "N",
+      "E",
+      "G",
+      "E",
+      "V"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "C",
+      "H",
+      "O",
+      "#",
+      "L",
+      "E",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "#",
+      "H",
+      "E",
+      "R",
+      "#",
+      "E",
+      "D",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "Y",
+      "#",
+      "A",
+      "L",
+      "M",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "U",
+      "M",
+      "B",
+      "E",
+      "R",
+      "#",
+      "#",
+      "S",
+      "L",
+      "A",
+      "B"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "K",
+      "#",
+      "I",
+      "N",
+      "H",
+      "U",
+      "M",
+      "E"
+    ],
+    [
+      "E",
+      "R",
+      "I",
+      "E",
+      "#",
+      "R",
+      "E",
+      "E",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "D",
+      "A",
+      "D",
+      "S",
+      "#",
+      "K",
+      "I",
+      "N",
+      "A",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SEESAW",
+      "clue": "Play among children in which they are seated upon the opposite ends of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Play among children in which they are seated upon the opposite ends of a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SUIT",
+      "clue": "Act of following or pursuing, as game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of following or pursuing, as game",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ERMA",
+      "clue": "Humor columnist Bombeck",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ESPN",
+      "clue": "Sports network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "SIEGE",
+      "clue": "A beleaguerment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Beleaguerment",
+        "Action of an armed force that surrounds a fortified place and isolates it...",
+        "Seat"
+      ],
+      "definition": "A beleaguerment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Plus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "WEE",
+      "clue": "Very small",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very early",
+        "Little"
+      ],
+      "definition": "Very small.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AJAR",
+      "clue": "Slightly turned or opened",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slightly turned or opened",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "JOGGLE",
+      "clue": "A sudden irregular shake or a push causing such a shake",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sudden irregular shake or a push causing such a shake",
+        "Slight irregular shaking motion",
+        "Shake slightly"
+      ],
+      "definition": "A sudden irregular shake or a push causing such a shake.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "AGREED",
+      "clue": "United by being of the same opinion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United by being of the same opinion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "REEVES",
+      "clue": "Fastens by passing through a hole or around something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fastens by passing through a hole or around something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "URSINE",
+      "clue": "Of or relating to or similar to bears",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or similar to bears",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "LOGE",
+      "clue": "Private area in a theater or grandstand where a small group can watch the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Private area in a theater or grandstand where a small group can watch the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "IMPEDE",
+      "clue": "To be an obstacle or to place obstacles in the way of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be an obstacle or to place obstacles in the way of",
+        "Block passage through",
+        "Hinder"
+      ],
+      "definition": "To be an obstacle or to place obstacles in the way of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "A demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "TANG",
+      "clue": "Any of various kelps especially of the genus Laminaria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various kelps especially of the genus Laminaria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "NEGEV",
+      "clue": "Desert in southern Israel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desert in southern Israel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "NORM",
+      "clue": "A model",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Model",
+        "Statistic describing the location of a distribution",
+        "Rule or authoritative standard"
+      ],
+      "definition": "A model.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "ECHO",
+      "clue": "Sound reflected back to you",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "CHAR",
+      "clue": "Burn slightly and superficially so as to affect color",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Burn slightly and superficially so as to affect color",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "HEL",
+      "clue": "Goddess of the dead and queen of the underworld",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddess of the dead and queen of the underworld",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Sheltered side, at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Fireplace residue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "AMUSED",
+      "clue": "Pleasantly occupied",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pleasantly occupied",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "SAMARA",
+      "clue": "Dry, indehiscent, usually one-seeded, winged fruit, as that of the ash,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dry, indehiscent, usually one-seeded, winged fruit, as that of the ash,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "HYBRID",
+      "clue": "Cross-bred",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Produced by crossbreeding",
+        "Offspring of the union of two distinct species"
+      ],
+      "definition": "Cross-bred.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "HER",
+      "clue": "That woman's",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "MAY",
+      "clue": "Auxiliary verb qualifyng the meaning of another verb, by expressing: (a)...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Auxiliary verb qualifyng the meaning of another verb, by expressing: (a)...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "ALMA",
+      "clue": "Same as Alme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Alme",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "ASHEN",
+      "clue": "Pale",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Anemic looking from illness or emotion"
+      ],
+      "definition": "Pale.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "UMBER",
+      "clue": "Of the color of any of various natural brown earth pigments",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of the color of any of various natural brown earth pigments",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "EKES",
+      "clue": "Squeezes (out)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "SLAB",
+      "clue": "Thick slice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "LULA",
+      "clue": "Former Brazil president da Silva",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AMES",
+      "clue": "Modulations of the amplitude of the (radio) carrier wave",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Modulations of the amplitude of the (radio) carrier wave",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "BEDE",
+      "clue": "English monk and scholar (672-735)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English monk and scholar (672-735)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "SARK",
+      "clue": "Shirt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shirt",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "INHUME",
+      "clue": "To place in the earth, as a dead body",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Place in the earth, as a dead body",
+        "Place in a grave or tomb",
+        "Deposit, as a dead body, in the earth"
+      ],
+      "definition": "To place in the earth, as a dead body.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IRK",
+      "clue": "To afflict with pain, vexation, or fatigue",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Afflict with pain, vexation, or fatigue",
+        "Irritate or vex",
+        "Weary"
+      ],
+      "definition": "To afflict with pain, vexation, or fatigue.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "NEI",
+      "clue": "'Of the,' in Italian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Pennsylvania Great Lake port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "REELED",
+      "clue": "Staggered dizzily",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "DADS",
+      "clue": "Informal terms for a father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for a father",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "KINASE",
+      "clue": "Enzyme that catalyzes the conversion of a proenzyme to an active enzyme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Enzyme that catalyzes the conversion of a proenzyme to an active enzyme",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "JOGGLE",
+      "clue": "A sudden irregular shake or a push causing such a shake",
+      "definition": "A sudden irregular shake or a push causing such a shake.",
+      "id": "8D"
+    },
+    {
+      "word": "IMPEDE",
+      "clue": "To be an obstacle or to place obstacles in the way of",
+      "definition": "To be an obstacle or to place obstacles in the way of.",
+      "id": "13A"
+    },
+    {
+      "word": "HYBRID",
+      "clue": "Cross-bred",
+      "definition": "Cross-bred.",
+      "id": "23D"
+    },
+    {
+      "word": "INHUME",
+      "clue": "To place in the earth, as a dead body",
+      "definition": "To place in the earth, as a dead body.",
+      "id": "36A"
+    }
+  ]
+}

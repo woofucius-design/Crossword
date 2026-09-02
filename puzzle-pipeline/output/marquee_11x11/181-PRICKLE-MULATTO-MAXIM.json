@@ -1,0 +1,909 @@
+{
+  "date": "2027-12-28",
+  "number": 181,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "R",
+      "A",
+      "E",
+      "S",
+      "#",
+      "#",
+      "A",
+      "F",
+      "T"
+    ],
+    [
+      "P",
+      "R",
+      "I",
+      "C",
+      "K",
+      "L",
+      "E",
+      "#",
+      "D",
+      "U",
+      "E"
+    ],
+    [
+      "E",
+      "A",
+      "S",
+      "T",
+      "E",
+      "R",
+      "N",
+      "M",
+      "O",
+      "S",
+      "T"
+    ],
+    [
+      "K",
+      "N",
+      "E",
+      "A",
+      "D",
+      "#",
+      "D",
+      "A",
+      "R",
+      "E",
+      "R"
+    ],
+    [
+      "E",
+      "D",
+      "S",
+      "#",
+      "#",
+      "G",
+      "U",
+      "I",
+      "N",
+      "E",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "M",
+      "P",
+      "E",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "R",
+      "A",
+      "C",
+      "A",
+      "S",
+      "#",
+      "#",
+      "C",
+      "W",
+      "M"
+    ],
+    [
+      "R",
+      "E",
+      "D",
+      "O",
+      "X",
+      "#",
+      "B",
+      "E",
+      "R",
+      "I",
+      "A"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "N",
+      "I",
+      "M",
+      "A",
+      "T",
+      "E",
+      "L",
+      "Y"
+    ],
+    [
+      "T",
+      "E",
+      "M",
+      "#",
+      "M",
+      "U",
+      "L",
+      "A",
+      "T",
+      "T",
+      "O"
+    ],
+    [
+      "H",
+      "E",
+      "S",
+      "#",
+      "#",
+      "S",
+      "I",
+      "S",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BRAES",
+      "clue": "Undergarments worn by women to support their breasts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undergarments worn by women to support their breasts",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BRAND",
+      "clue": "Burning piece of wood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Burning piece of wood",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "RISES",
+      "clue": "Gets up and out of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gets up and out of bed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ACTA",
+      "clue": "Official records, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "EKED",
+      "clue": "Barely got, with \"out\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SLR",
+      "clue": "Camera type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AFT",
+      "clue": "Near or towards the stern of a vessel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Near or towards the stern of a vessel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ADORN",
+      "clue": "Make more attractive by adding ornament, colour, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make more attractive by adding ornament, colour, etc",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "FUSEE",
+      "clue": "Flintlock gun. See 2d Fusil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flintlock gun. See 2d Fusil",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TETRA",
+      "clue": "Aquarium fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "PRICKLE",
+      "clue": "To puncture slightly with fine, sharp points",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Puncture slightly with fine, sharp points",
+        "Small sharp-pointed tip resembling a spike on a stem or leaf",
+        "Little prick"
+      ],
+      "definition": "To puncture slightly with fine, sharp points.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "PEKE",
+      "clue": "Chinese breed of small short-legged dogs with a long silky coat and broad...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chinese breed of small short-legged dogs with a long silky coat and broad...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ENDUE",
+      "clue": "To endow with some quality, gift, or grace, usually spiritual",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Endow with some quality, gift, or grace, usually spiritual",
+        "Give qualities or abilities to",
+        "Invest. Latham. Tarry ye in the city of Jerusalem, until ye be..."
+      ],
+      "definition": "To endow with some quality, gift, or grace, usually spiritual.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DUE",
+      "clue": "Directly or exactly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Directly or exactly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "EASTERNMOST",
+      "clue": "Most eastern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most eastern",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "MAIL",
+      "clue": "Cause to be directed or transmitted to another place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cause to be directed or transmitted to another place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "KNEAD",
+      "clue": "To mix and work into a homogeneous mass, especially with the hands",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mix and work into a homogeneous mass, especially with the hands",
+        "Manually manipulate (someone's body), usually for medicinal or relaxation...",
+        "Work and press into a mass, usually with the hands"
+      ],
+      "definition": "To mix and work into a homogeneous mass, especially with the hands.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "DARER",
+      "clue": "One who challenges",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who challenges",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "GUINEA",
+      "clue": "An English monetary unit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "English monetary unit",
+        "West African bird having dark plumage mottled with white",
+        "District on the west coast of Africa (formerly noted for its export..."
+      ],
+      "definition": "An English monetary unit.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "GPS",
+      "clue": "Navigational system involving satellites and computers that can determine the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Navigational system involving satellites and computers that can determine the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "IMPEL",
+      "clue": "To drive or urge forward",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Drive or urge forward",
+        "Cause to move forward with force",
+        "Drive or urge forward or on"
+      ],
+      "definition": "To drive or urge forward.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "An image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
+      "definition": "An image or likeness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "MAXIM",
+      "clue": "A principle accepted as true and acted on as a rule or guide",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Principle accepted as true and acted on as a rule or guide",
+        "Saying that is widely accepted on its own merits",
+        "Established principle or proposition"
+      ],
+      "definition": "A principle accepted as true and acted on as a rule or guide.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "FRACAS",
+      "clue": "Noisy quarrel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Noisy quarrel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "FRITH",
+      "clue": "Narrow arm of the sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow arm of the sea",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "RENEE",
+      "clue": "Actress Zellweger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ADAMS",
+      "clue": "President John Quincy ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "CWM",
+      "clue": "Steep-walled semicircular basin in a mountain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Steep-walled semicircular basin in a mountain",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "CRETE",
+      "clue": "Largest Greek island in the Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest Greek island in the Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "WILTS",
+      "clue": "Becomes limp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Becomes limp",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "MAYO",
+      "clue": "Egg yolks and oil and vinegar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Egg yolks and oil and vinegar",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "REDOX",
+      "clue": "Reversible chemical reaction in which one reaction is an oxidation and the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reversible chemical reaction in which one reaction is an oxidation and the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "BERIA",
+      "clue": "Soviet chief of secret police under Joseph Stalin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Soviet chief of secret police under Joseph Stalin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "BALI",
+      "clue": "Island in Indonesia to the east of Java",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Island in Indonesia to the east of Java",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "7th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INANIMATELY",
+      "clue": "In a destitute of animal life manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a destitute of animal life manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MUS",
+      "clue": "Genus of small rodents, including the common mouse and rat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of small rodents, including the common mouse and rat",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "TEM",
+      "clue": "Hawk-headed Egyptian deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "MULATTO",
+      "clue": "The offspring of a white person and a black person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Offspring of a white person and a black person",
+        "Offspring of a black and a white parent",
+        "Offspring of a negress by a white man, or of a white woman by a..."
+      ],
+      "definition": "The offspring of a white person and a black person.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "HES",
+      "clue": "5th letters of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "5th letters of the Hebrew alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SISES",
+      "clue": "Female people who have the same parents as another person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female people who have the same parents as another person",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PRICKLE",
+      "clue": "To puncture slightly with fine, sharp points",
+      "definition": "To puncture slightly with fine, sharp points.",
+      "id": "9A"
+    },
+    {
+      "word": "ENDUE",
+      "clue": "To endow with some quality, gift, or grace, usually spiritual",
+      "definition": "To endow with some quality, gift, or grace, usually spiritual.",
+      "id": "10D"
+    },
+    {
+      "word": "MAXIM",
+      "clue": "A principle accepted as true and acted on as a rule or guide",
+      "definition": "A principle accepted as true and acted on as a rule or guide.",
+      "id": "19D"
+    },
+    {
+      "word": "MULATTO",
+      "clue": "The offspring of a white person and a black person",
+      "definition": "The offspring of a white person and a black person.",
+      "id": "32A"
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+{
+  "date": "2027-07-13",
+  "number": 13,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "O",
+      "E",
+      "T",
+      "U",
+      "S",
+      "#",
+      "#",
+      "B",
+      "A",
+      "S"
+    ],
+    [
+      "A",
+      "M",
+      "M",
+      "O",
+      "N",
+      "I",
+      "A",
+      "#",
+      "A",
+      "C",
+      "T"
+    ],
+    [
+      "R",
+      "E",
+      "F",
+      "R",
+      "I",
+      "N",
+      "G",
+      "E",
+      "N",
+      "C",
+      "Y"
+    ],
+    [
+      "E",
+      "N",
+      "S",
+      "#",
+      "Q",
+      "U",
+      "A",
+      "R",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "U",
+      "S",
+      "#",
+      "R",
+      "E",
+      "D",
+      "O"
+    ],
+    [
+      "S",
+      "E",
+      "G",
+      "U",
+      "E",
+      "#",
+      "G",
+      "O",
+      "R",
+      "E",
+      "N"
+    ],
+    [
+      "A",
+      "G",
+      "O",
+      "G",
+      "#",
+      "W",
+      "A",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "R",
+      "E",
+      "A",
+      "K",
+      "E",
+      "R",
+      "#",
+      "V",
+      "E",
+      "T"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "R",
+      "O",
+      "A",
+      "C",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "A",
+      "S",
+      "H",
+      "#",
+      "P",
+      "R",
+      "I",
+      "N",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "S",
+      "E",
+      "#",
+      "#",
+      "S",
+      "A",
+      "G",
+      "E",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "FOETUS",
+      "clue": "Same as Fetus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Fetus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FARE",
+      "clue": "Eat well",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eat well",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "OMEN",
+      "clue": "Sign of something about to happen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sign of something about to happen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "EMFS",
+      "clue": "Rates at which energy is drawn from a source that produces a flow of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rates at which energy is drawn from a source that produces a flow of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "TOR",
+      "clue": "High rocky hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "High rocky hill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "UNIQUE",
+      "clue": "Being the only one of its kind",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Highly unusual or rare but not the single instance",
+        "Being without a like or equal"
+      ],
+      "definition": "Being the only one of its kind.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SINUS",
+      "clue": "An opening or cavity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Opening or cavity",
+        "Wide channel containing blood",
+        "Opening"
+      ],
+      "definition": "An opening or cavity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "BAS",
+      "clue": "Bachelor's degrees in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bachelor's degrees in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "BANTER",
+      "clue": "Be silly or tease one another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be silly or tease one another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "ACCEDE",
+      "clue": "To agree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Agree",
+        "Agree or express agreement",
+        "Approach"
+      ],
+      "definition": "To agree.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "STYRON",
+      "clue": "United States writer best known for his novels (born in 1925)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer best known for his novels (born in 1925)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "AMMONIA",
+      "clue": "Pungent gas compounded of nitrogen and hydrogen (NH3)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pungent gas compounded of nitrogen and hydrogen (NH3)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "AGA",
+      "clue": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ACT",
+      "clue": "Part of a play",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "REFRINGENCY",
+      "clue": "Power to refract",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Power possessed by a substance to refract a ray"
+      ],
+      "definition": "Power to refract.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "ERROR",
+      "clue": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wrong action attributable to bad judgment or ignorance or inattention",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ENS",
+      "clue": "Printer's spaces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "QUARTER",
+      "clue": "One of four equal parts into which anything is or may be divided",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Clemency or mercy shown to a defeated opponent",
+        "One of four equal parts into which anything is divided, or is..."
+      ],
+      "definition": "One of four equal parts into which anything is or may be divided.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "SUS",
+      "clue": "Type genus of the Suidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Suidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "SUGAR",
+      "clue": "Sweet white (or brownish yellow) crystalline substance, of a sandy or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweet white (or brownish yellow) crystalline substance, of a sandy or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "REDO",
+      "clue": "Do over, as of (part of) a house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Do over, as of (part of) a house",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SEGUE",
+      "clue": "Act of changing smoothly from one state or situation to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of changing smoothly from one state or situation to another",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "SABRAS",
+      "clue": "Native-born Israelis",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native-born Israelis",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "EGRESS",
+      "clue": "Any place of exit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of coming (or going) out",
+        "Act of going out or leaving, or the power to leave"
+      ],
+      "definition": "Any place of exit.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "GOETHE",
+      "clue": "German poet and novelist and dramatist who lived in Weimar (1749-1832)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German poet and novelist and dramatist who lived in Weimar (1749-1832)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "GOREN",
+      "clue": "Bridge expert Charles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "GARCIA",
+      "clue": "Late Grateful Dead frontman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "AGOG",
+      "clue": "Highly excited",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highly excited",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "WAR",
+      "clue": "Concerted campaign to end something that is injurious",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Concerted campaign to end something that is injurious",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "WEARS",
+      "clue": "Acts of having on your person as a covering or adornment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of having on your person as a covering or adornment",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BREAKER",
+      "clue": "One who trains horses, dogs, etc",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Device that trips like a switch and opens the circuit when overloaded"
+      ],
+      "definition": "One who trains horses, dogs, etc.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "KOP",
+      "clue": "Hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hill",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "VET",
+      "clue": "Person who has served in the armed forces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who has served in the armed forces",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "VICE",
+      "clue": "Specific form of evildoing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Specific form of evildoing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "EVES",
+      "clue": "Units of energy equal to the work done by an electron accelerated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of energy equal to the work done by an electron accelerated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TEST",
+      "clue": "Pop quiz, e.g.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "RETROACTIVE",
+      "clue": "Operative on, affecting, or having reference to past events",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Affecting things past"
+      ],
+      "definition": "Operative on, affecting, or having reference to past events...",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "TNG",
+      "clue": "Picard-era sci-fi series, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ASH",
+      "clue": "Fireplace residue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "PRINCES",
+      "clue": "Male members of a royal family other than the sovereign (especially",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male members of a royal family other than the sovereign (especially",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass heading, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "SAGEST",
+      "clue": "Wisest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "REFRINGENCY",
+      "clue": "Power to refract",
+      "definition": "Power to refract.",
+      "id": "13A"
+    },
+    {
+      "word": "QUARTER",
+      "clue": "One of four equal parts into which anything is or may be divided",
+      "definition": "One of four equal parts into which anything is or may be divided.",
+      "id": "16A"
+    },
+    {
+      "word": "BREAKER",
+      "clue": "One who trains horses, dogs, etc",
+      "definition": "One who trains horses, dogs, etc.",
+      "id": "25A"
+    },
+    {
+      "word": "RETROACTIVE",
+      "clue": "Operative on, affecting, or having reference to past events",
+      "definition": "Operative on, affecting, or having reference to past events...",
+      "id": "30A"
+    }
+  ]
+}

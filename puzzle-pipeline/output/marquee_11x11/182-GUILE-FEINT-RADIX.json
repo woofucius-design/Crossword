@@ -1,0 +1,993 @@
+{
+  "date": "2027-12-29",
+  "number": 182,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "C",
+      "O",
+      "R",
+      "E",
+      "S",
+      "#",
+      "B",
+      "I",
+      "W",
+      "A"
+    ],
+    [
+      "A",
+      "L",
+      "B",
+      "A",
+      "N",
+      "Y",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "R",
+      "A",
+      "I",
+      "D",
+      "E",
+      "R",
+      "#",
+      "A",
+      "B",
+      "E",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "#",
+      "#",
+      "G",
+      "U",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "X",
+      "C",
+      "V",
+      "I",
+      "#",
+      "B",
+      "D",
+      "S"
+    ],
+    [
+      "S",
+      "U",
+      "S",
+      "#",
+      "H",
+      "A",
+      "L",
+      "#",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "A",
+      "S",
+      "P",
+      "#",
+      "I",
+      "R",
+      "A",
+      "Q",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "F",
+      "E",
+      "I",
+      "N",
+      "T",
+      "#",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "N",
+      "N",
+      "O",
+      "#",
+      "S",
+      "L",
+      "E",
+      "E",
+      "V",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "R",
+      "#",
+      "R",
+      "O",
+      "U",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "I",
+      "T",
+      "E",
+      "M",
+      "#",
+      "O",
+      "C",
+      "E",
+      "A",
+      "N",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "SCORES",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SARA",
+      "clue": "Singer Bareilles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "CLAN",
+      "clue": "A tribe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Tribe",
+        "Group of people related by blood or marriage",
+        "Tribe or collection of families, united under a chieftain, regarded..."
+      ],
+      "definition": "A tribe.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "OBIT",
+      "clue": "Death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Death",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "RADIX",
+      "clue": "That from or on which something is developed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Positive integer that is equivalent to one in the next higher counting place",
+        "Primitive, from which spring other words"
+      ],
+      "definition": "That from or on which something is developed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point toward sunrise-ish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "BIWA",
+      "clue": "Japan's largest freshwater lake",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "An escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Escort or lover",
+        "Man who is the lover of a girl or young woman",
+        "Man who takes great care to dress in the latest fashion"
+      ],
+      "definition": "An escort or lover.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "IMBIBE",
+      "clue": "To drink or take in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Drink or take in",
+        "Receive into the mind and retain",
+        "Drink in"
+      ],
+      "definition": "To drink or take in.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "WIELDS",
+      "clue": "Uses, controls, or manages, as a weapon, or instrument, especially",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses, controls, or manages, as a weapon, or instrument, especially",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "ATTEST",
+      "clue": "To certify as accurate, genuine, or true",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Certify as accurate, genuine, or true",
+        "Authenticate, affirm to be true, genuine, or correct, as in an official capacity",
+        "Bear witness to"
+      ],
+      "definition": "To certify as accurate, genuine, or true.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ALBANY",
+      "clue": "Town in southwest Georgia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Town in southwest Georgia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "RAIDER",
+      "clue": "Corporate investor who intends to take over a company by buying a controlling...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Corporate investor who intends to take over a company by buying a controlling...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ABET",
+      "clue": "To aid, promote, or encourage the commission of (an offense)",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Aid, promote, or encourage the commission of (an offense)",
+        "Assist or encourage, usually in some wrongdoing",
+        "Instigate or encourage by aid or countenance"
+      ],
+      "definition": "To aid, promote, or encourage the commission of (an offense).",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "GUILE",
+      "clue": "Duplicity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of tricks to deceive someone (usually to extract money from them)",
+        "Craft"
+      ],
+      "definition": "Duplicity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "GILA",
+      "clue": "River that rises in western New Mexico and flows westward through southern...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River that rises in western New Mexico and flows westward through southern...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "XCVI",
+      "clue": "Being six more than ninety",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being six more than ninety",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "CHIT",
+      "clue": "Bill in a restaurant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bill in a restaurant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "VAR",
+      "clue": "Unit of electrical power in an AC circuit equal to the power dissipated when...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of electrical power in an AC circuit equal to the power dissipated when...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "BDS",
+      "clue": "Bachelor's degrees in religion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bachelor's degrees in religion",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "SUS",
+      "clue": "Type genus of the Suidae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Suidae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "SAFARI",
+      "clue": "Overland journey by hunters (especially in Africa)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overland journey by hunters (especially in Africa)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "USENET",
+      "clue": "Old discussion network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SPINAE",
+      "clue": "Backbones, in anatomy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "HAL",
+      "clue": "\"2001\" computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "EST",
+      "clue": "NYC clock setting, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "ASP",
+      "clue": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cobra used by the Pharaohs as a symbol of their power over life and death",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "IRAQ",
+      "clue": "Republic in the Middle East in western Asia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Republic in the Middle East in western Asia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "QUEUE",
+      "clue": "A file of persons waiting in order of their arrival, as for admittance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "File of persons waiting in order of their arrival, as for admittance",
+        "Braid of hair at the back of the head",
+        "Tail-like appendage of hair"
+      ],
+      "definition": "A file of persons waiting in order of their arrival, as for admittance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "FEINT",
+      "clue": "Any sham, pretense, or deceptive movement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Any distracting or deceptive maneuver (as a mock attack)",
+        "Feigned"
+      ],
+      "definition": "Any sham, pretense, or deceptive movement.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "NORM",
+      "clue": "A model",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Model",
+        "Statistic describing the location of a distribution",
+        "Rule or authoritative standard"
+      ],
+      "definition": "A model.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SETA",
+      "clue": "Any slender, more or less rigid, bristlelike organ or part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any slender, more or less rigid, bristlelike organ or part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "EVEN",
+      "clue": "Tied, as a score",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "DESS",
+      "clue": "Dais",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dais",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ANNO",
+      "clue": "___ Domini",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "SLEEVE",
+      "clue": "Part of a garment that is attached at the armhole and that provides a cloth...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a garment that is attached at the armhole and that provides a cloth...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SRO",
+      "clue": "Sold-out sign, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "LOC",
+      "clue": "Whereabouts, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "REAR",
+      "clue": "Early",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Early",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "ROUTES",
+      "clue": "Overwhelming defeats",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overwhelming defeats",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "ITEM",
+      "clue": "Also",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "OCEANS",
+      "clue": "Large bodies of water constituting a principal part of the hydrosphere",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large bodies of water constituting a principal part of the hydrosphere",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "RADIX",
+      "clue": "That from or on which something is developed",
+      "definition": "That from or on which something is developed.",
+      "id": "4D"
+    },
+    {
+      "word": "GUILE",
+      "clue": "Duplicity",
+      "definition": "Duplicity.",
+      "id": "16A"
+    },
+    {
+      "word": "QUEUE",
+      "clue": "A file of persons waiting in order of their arrival, as for admittance",
+      "definition": "A file of persons waiting in order of their arrival, as for admittance.",
+      "id": "28D"
+    },
+    {
+      "word": "FEINT",
+      "clue": "Any sham, pretense, or deceptive movement",
+      "definition": "Any sham, pretense, or deceptive movement.",
+      "id": "29A"
+    }
+  ]
+}

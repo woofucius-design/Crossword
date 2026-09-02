@@ -1,0 +1,912 @@
+{
+  "date": "2027-10-18",
+  "number": 110,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "E",
+      "M",
+      "I",
+      "T",
+      "#",
+      "C",
+      "L",
+      "O",
+      "P",
+      "#",
+      "#"
+    ],
+    [
+      "V",
+      "I",
+      "N",
+      "O",
+      "#",
+      "R",
+      "E",
+      "P",
+      "A",
+      "S",
+      "T"
+    ],
+    [
+      "A",
+      "C",
+      "Q",
+      "U",
+      "I",
+      "T",
+      "T",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "L",
+      "A",
+      "U",
+      "R",
+      "A",
+      "#",
+      "O",
+      "L",
+      "D",
+      "E",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "I",
+      "S",
+      "M",
+      "S",
+      "#",
+      "#",
+      "E",
+      "N",
+      "D"
+    ],
+    [
+      "C",
+      "H",
+      "S",
+      "#",
+      "B",
+      "E",
+      "G",
+      "#",
+      "M",
+      "T",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "I",
+      "#",
+      "#",
+      "C",
+      "O",
+      "H",
+      "O",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "C",
+      "T",
+      "A",
+      "L",
+      "#",
+      "R",
+      "A",
+      "N",
+      "I",
+      "S"
+    ],
+    [
+      "P",
+      "H",
+      "I",
+      "L",
+      "O",
+      "G",
+      "Y",
+      "N",
+      "I",
+      "S",
+      "T"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "O",
+      "G",
+      "E",
+      "#",
+      "S",
+      "U",
+      "L",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "N",
+      "E",
+      "S",
+      "T",
+      "#",
+      "A",
+      "M",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "EVAL",
+      "clue": "Relating to time or duration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relating to time or duration",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "MICA",
+      "clue": "Name of a group of minerals characterized by highly perfect cleavage, so...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name of a group of minerals characterized by highly perfect cleavage, so...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "INQUISITION",
+      "clue": "A court or tribunal for examination and punishment of heretics",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Court or tribunal for examination and punishment of heretics",
+        "Severe interrogation (often violating the rights or privacy of individuals)",
+        "Act of inquiring"
+      ],
+      "definition": "A court or tribunal for examination and punishment of heretics.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "TOURS",
+      "clue": "Industrial city in western France on the Loire River",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Industrial city in western France on the Loire River",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "CLOP",
+      "clue": "Make or move along with a sound as of a horse's hooves striking the ground",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make or move along with a sound as of a horse's hooves striking the ground",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "CRT",
+      "clue": "Old monitor type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "LETO",
+      "clue": "Wife or mistress of Zeus and mother of Apollo and Artemis in ancient mythology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wife or mistress of Zeus and mother of Apollo and Artemis in ancient mythology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "OPAL",
+      "clue": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "PANDEMONIUM",
+      "clue": "A fiendish or riotous uproar",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fiendish or riotous uproar",
+        "State of extreme confusion and disorder",
+        "Great hall or council chamber of demons or evil spirits"
+      ],
+      "definition": "A fiendish or riotous uproar.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "VINO",
+      "clue": "Fermented juice (of grapes especially)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fermented juice (of grapes especially)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "REPAST",
+      "clue": "Food served and eaten at one time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Food served and eaten at one time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "SCENT",
+      "clue": "Any property detected by the olfactory system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any property detected by the olfactory system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "TENDS",
+      "clue": "Manages or runs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Manages or runs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ACQUITTANCE",
+      "clue": "Release or discharge from indebtedness, obligation, or responsibility",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Legal document evidencing the discharge of a debt or obligation",
+        "Clearing off of debt or obligation"
+      ],
+      "definition": "Release or discharge from indebtedness, obligation, or responsibility.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "IAMB",
+      "clue": "Metrical unit with unstressed-stressed syllables",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Metrical unit with unstressed-stressed syllables",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "LAURA",
+      "clue": "Number of hermitages or cells in the same neighborhood occupied by anchorites...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Number of hermitages or cells in the same neighborhood occupied by anchorites...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "OLDEN",
+      "clue": "Long past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "ISMS",
+      "clue": "Belief (or systems of beliefs) accepted as authoritative by some group",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Belief (or systems of beliefs) accepted as authoritative by some group",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Wait a moment!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "END",
+      "clue": "Finish line",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "CHS",
+      "clue": "Bk. divisions: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "CROPS",
+      "clue": "Cultivates, tends, and cuts back the growth of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cultivates, tends, and cuts back the growth of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "HECHT",
+      "clue": "United States writer of stories and plays (1894-1946)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer of stories and plays (1894-1946)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "BEG",
+      "clue": "Call upon in supplication",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Call upon in supplication",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "GORY",
+      "clue": "Covered with blood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covered with blood",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "MTS",
+      "clue": "Uses of computers to translate from one language to another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Uses of computers to translate from one language to another",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "REI",
+      "clue": "Portuguese money of account, in value about one tenth of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portuguese money of account, in value about one tenth of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "COHO",
+      "clue": "Small salmon of northern Pacific coasts and the Great Lakes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small salmon of northern Pacific coasts and the Great Lakes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "HANSA",
+      "clue": "See 2d Hanse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "See 2d Hanse",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "OCTAL",
+      "clue": "Of or pertaining to a number system having 8 as its base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a number system having 8 as its base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "LOGS",
+      "clue": "Measuring instruments that consist of a float that trails from a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Measuring instruments that consist of a float that trails from a ship",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RANIS",
+      "clue": "Hindu princess or the wives of a raja",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu princess or the wives of a raja",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "An island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STAR",
+      "clue": "A point of light in the night sky",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PHILOGYNIST",
+      "clue": "One who is fond of women",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lover or friend of women"
+      ],
+      "definition": "One who is fond of women.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "GET",
+      "clue": "Come to understand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "STOOGE",
+      "clue": "Victim of ridicule or pranks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Victim of ridicule or pranks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "SULA",
+      "clue": "Genus of sea birds including the booby and the common gannet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of sea birds including the booby and the common gannet",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "NEST",
+      "clue": "Kind of gun emplacement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of gun emplacement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "AMER",
+      "clue": "U.S. modifier, in dictionaries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "INQUISITION",
+      "clue": "A court or tribunal for examination and punishment of heretics",
+      "definition": "A court or tribunal for examination and punishment of heretics.",
+      "id": "3D"
+    },
+    {
+      "word": "PANDEMONIUM",
+      "clue": "A fiendish or riotous uproar",
+      "definition": "A fiendish or riotous uproar.",
+      "id": "8D"
+    },
+    {
+      "word": "ACQUITTANCE",
+      "clue": "Release or discharge from indebtedness, obligation, or responsibility",
+      "definition": "Release or discharge from indebtedness, obligation, or responsibility.",
+      "id": "13A"
+    },
+    {
+      "word": "PHILOGYNIST",
+      "clue": "One who is fond of women",
+      "definition": "One who is fond of women.",
+      "id": "34A"
+    }
+  ]
+}

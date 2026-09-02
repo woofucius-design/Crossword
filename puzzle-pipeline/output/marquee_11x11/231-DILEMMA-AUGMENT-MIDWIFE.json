@@ -1,0 +1,915 @@
+{
+  "date": "2028-02-16",
+  "number": 231,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "N",
+      "E",
+      "F",
+      "#",
+      "M",
+      "A",
+      "D",
+      "C",
+      "A",
+      "P",
+      "S"
+    ],
+    [
+      "A",
+      "V",
+      "O",
+      "#",
+      "I",
+      "S",
+      "C",
+      "H",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "B",
+      "I",
+      "O",
+      "#",
+      "D",
+      "I",
+      "L",
+      "E",
+      "M",
+      "M",
+      "A"
+    ],
+    [
+      "O",
+      "T",
+      "T",
+      "A",
+      "W",
+      "A",
+      "#",
+      "#",
+      "L",
+      "I",
+      "V"
+    ],
+    [
+      "B",
+      "A",
+      "B",
+      "Y",
+      "I",
+      "N",
+      "G",
+      "#",
+      "E",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "R",
+      "E",
+      "F",
+      "#",
+      "H",
+      "A",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "P",
+      "I",
+      "#",
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "L",
+      "L",
+      "D",
+      "#",
+      "#",
+      "U",
+      "S",
+      "E",
+      "N",
+      "E",
+      "T"
+    ],
+    [
+      "A",
+      "U",
+      "G",
+      "M",
+      "E",
+      "N",
+      "T",
+      "#",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "R",
+      "N",
+      "A",
+      "L",
+      "#",
+      "S",
+      "I",
+      "R"
+    ],
+    [
+      "H",
+      "O",
+      "S",
+      "I",
+      "E",
+      "R",
+      "Y",
+      "#",
+      "S",
+      "E",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "NEF",
+      "clue": "Nave of a church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nave of a church",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "NABOB",
+      "clue": "Wealthy man (especially one who made his fortune in the Orient)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wealthy man (especially one who made his fortune in the Orient)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "EVITA",
+      "clue": "Andrew Lloyd Webber musical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "FOOTBRIDGES",
+      "clue": "Bridges designed for pedestrians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bridges designed for pedestrians",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "MADCAPS",
+      "clue": "Reckless impetuous irresponsible people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reckless impetuous irresponsible people",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "MIDWIFE",
+      "clue": "A woman who makes a business of assisting at childbirth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Woman who makes a business of assisting at childbirth",
+        "Woman skilled in aiding the delivery of babies",
+        "Woman who assists other women in childbirth"
+      ],
+      "definition": "A woman who makes a business of assisting at childbirth.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ASIAN",
+      "clue": "Of or relating to or characteristic of Asia or the peoples of Asia or their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or characteristic of Asia or the peoples of Asia or their...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "DCL",
+      "clue": "Roman numeral for 650",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 650",
+      "clueSource": "roman"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "CHE",
+      "clue": "Revolutionary Guevara",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "AIMLESSNESS",
+      "clue": "Quality of lacking any definite purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of lacking any definite purpose",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "PAMIR",
+      "clue": "Central Asian mountain range",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SLAVE",
+      "clue": "Person who is owned by someone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is owned by someone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "AVO",
+      "clue": "Macanese coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "ISCHIAL",
+      "clue": "Of or pertaining to the ischium or hip",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to the ischium or hip",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "BIO",
+      "clue": "Life story, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "DILEMMA",
+      "clue": "A situation in which a choice between opposing modes of conduct is necessary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Situation in which a choice between opposing modes of conduct is necessary",
+        "State of uncertainty or perplexity especially as requiring a choice between...",
+        "Argument which presents an antagonist with two or more..."
+      ],
+      "definition": "A situation in which a choice between opposing modes of conduct is necessary.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "OTTAWA",
+      "clue": "Canada's capital",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "AYE",
+      "clue": "An expression of assent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Expression of assent",
+        "Yes"
+      ],
+      "definition": "An expression of assent.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "LIV",
+      "clue": "Being four more than fifty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being four more than fifty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "BABYING",
+      "clue": "Treating with excessive indulgence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Treating with excessive indulgence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "GHASTLY",
+      "clue": "Hideous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Shockingly repellent",
+        "Like a ghost in appearance"
+      ],
+      "definition": "Hideous.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "REF",
+      "clue": "Whistle blower on the court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "HAS",
+      "clue": "Angular distances of a celestial point measured westward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular distances of a celestial point measured westward",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "APE",
+      "clue": "Gorilla or chimp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "CPI",
+      "clue": "Self-report personality inventory originally derived from the MMPI",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-report personality inventory originally derived from the MMPI",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "CLASH",
+      "clue": "Make a noise by striking against something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a noise by striking against something",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "PLUTO",
+      "clue": "Small planet and the farthest known planet from the sun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small planet and the farthest known planet from the sun",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "ELAPSES",
+      "clue": "Passes by",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Passes by",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LUNAR",
+      "clue": "Pertaining to the moon",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to or associated with the moon",
+        "Of or pertaining to the moon"
+      ],
+      "definition": "Pertaining to the moon.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "EERIE",
+      "clue": "Inspiring a feeling of fear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inspiring a feeling of fear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "START",
+      "clue": "Take the first step or steps in carrying out an action",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take the first step or steps in carrying out an action",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "LLD",
+      "clue": "Honorary law degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Honorary law degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "USENET",
+      "clue": "Old discussion network",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "AUGMENT",
+      "clue": "To make bigger",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make bigger",
+        "Enlarge or increase",
+        "Enlarge or increase in size, amount, or degree"
+      ],
+      "definition": "To make bigger.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "MRI",
+      "clue": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Use of nuclear magnetic resonance of protons to produce proton density...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point toward sunrise-ish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "STERNAL",
+      "clue": "Of or relating to or near the sternum",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or near the sternum",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "SIR",
+      "clue": "Knight's title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "HOSIERY",
+      "clue": "A stocking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stocking",
+        "Socks and stockings and tights collectively (the British include underwear)",
+        "Business of a hosier"
+      ],
+      "definition": "A stocking.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MIDWIFE",
+      "clue": "A woman who makes a business of assisting at childbirth",
+      "definition": "A woman who makes a business of assisting at childbirth.",
+      "id": "4D"
+    },
+    {
+      "word": "DILEMMA",
+      "clue": "A situation in which a choice between opposing modes of conduct is necessary",
+      "definition": "A situation in which a choice between opposing modes of conduct is necessary.",
+      "id": "14A"
+    },
+    {
+      "word": "GHASTLY",
+      "clue": "Hideous",
+      "definition": "Hideous.",
+      "id": "19D"
+    },
+    {
+      "word": "AUGMENT",
+      "clue": "To make bigger",
+      "definition": "To make bigger.",
+      "id": "32A"
+    }
+  ]
+}

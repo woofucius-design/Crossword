@@ -1,0 +1,879 @@
+{
+  "date": "2027-07-12",
+  "number": 12,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "P",
+      "S",
+      "I",
+      "#",
+      "C",
+      "H",
+      "I",
+      "A",
+      "S",
+      "M"
+    ],
+    [
+      "#",
+      "H",
+      "E",
+      "N",
+      "#",
+      "C",
+      "O",
+      "M",
+      "M",
+      "I",
+      "E"
+    ],
+    [
+      "P",
+      "A",
+      "R",
+      "T",
+      "I",
+      "C",
+      "I",
+      "P",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "O",
+      "G",
+      "R",
+      "E",
+      "S",
+      "#",
+      "#",
+      "E",
+      "D",
+      "G",
+      "E"
+    ],
+    [
+      "P",
+      "E",
+      "A",
+      "R",
+      "L",
+      "S",
+      "#",
+      "R",
+      "O",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "E",
+      "A",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "O",
+      "L",
+      "O",
+      "#",
+      "G",
+      "E",
+      "O",
+      "R",
+      "G",
+      "E"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "G",
+      "#",
+      "#",
+      "A",
+      "N",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "T",
+      "R",
+      "E",
+      "A",
+      "S",
+      "O",
+      "N",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "T",
+      "I",
+      "N",
+      "T",
+      "E",
+      "D",
+      "#",
+      "T",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "E",
+      "N",
+      "E",
+      "#",
+      "E",
+      "S",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "PSI",
+      "clue": "23rd letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "PHAGE",
+      "clue": "Virus that is parasitic (reproduces itself) in bacteria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Virus that is parasitic (reproduces itself) in bacteria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "SERRA",
+      "clue": "Spanish missionary who founded Franciscan missions in California (1713-1784)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish missionary who founded Franciscan missions in California (1713-1784)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "INTERROGATE",
+      "clue": "To examine formally by questioning",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Examine formally by questioning",
+        "Pose a series of questions to",
+        "Question formally"
+      ],
+      "definition": "To examine formally by questioning.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "CHIASM",
+      "clue": "Intersection or crossing of two tracts in the form of the letter X",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intersection or crossing of two tracts in the form of the letter X",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "CCC",
+      "clue": "Being one hundred more than two hundred",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one hundred more than two hundred",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "HOI",
+      "clue": "___ polloi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "IMPERSONATE",
+      "clue": "To appear or act in the character of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Appear or act in the character of",
+        "Pretend to be someone you are not",
+        "Invest with personality"
+      ],
+      "definition": "To appear or act in the character of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AMADO",
+      "clue": "Brazilian novelist Jorge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SINGE",
+      "clue": "To burn slightly or superficially",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Burn slightly or superficially",
+        "Surface burn"
+      ],
+      "definition": "To burn slightly or superficially.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "METES",
+      "clue": "Lines that indicate a boundary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lines that indicate a boundary",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "HEN",
+      "clue": "Female of the domestic fowl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Female of the domestic fowl",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "COMMIE",
+      "clue": "Socialist who advocates communism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Socialist who advocates communism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PARTICIPANT",
+      "clue": "One having a share or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Someone who takes part in an activity",
+        "Sharing"
+      ],
+      "definition": "One having a share or part.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "POP",
+      "clue": "New and of general appeal (especially among young people)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "New and of general appeal (especially among young people)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "ISLE",
+      "clue": "An island",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Island",
+        "Small island",
+        "See Aisle"
+      ],
+      "definition": "An island.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OGRES",
+      "clue": "Giants who like to eat human beings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Giants who like to eat human beings",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "EDGE",
+      "clue": "Slight advantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "PEARLS",
+      "clue": "Shades of white the color of bleached bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shades of white the color of bleached bones",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SAG",
+      "clue": "Sink, in the middle, by its weight or under applied pressure, below a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sink, in the middle, by its weight or under applied pressure, below a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ROES",
+      "clue": "Artificial languages for international use that rejects all existing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artificial languages for international use that rejects all existing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "READS",
+      "clue": "Makes sense of a language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes sense of a language",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "DEAN",
+      "clue": "Administrator in charge of a division of a university or college",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Administrator in charge of a division of a university or college",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "LOLO",
+      "clue": "Loloish language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loloish language",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "LOTTE",
+      "clue": "Fishes having large mouths with a wormlike filament attached for luring prey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fishes having large mouths with a wormlike filament attached for luring prey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ORRIS",
+      "clue": "Fragrant rootstock of various irises especially Florentine iris",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fragrant rootstock of various irises especially Florentine iris",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LIENS",
+      "clue": "Large dark-red oval organs on the left side of the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large dark-red oval organs on the left side of the body",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "GEORGE",
+      "clue": "Elector of Hanover and the first Hanoverian King of Great Britain and Ireland...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elector of Hanover and the first Hanoverian King of Great Britain and Ireland...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "RIBES",
+      "clue": "Genus of shrubs including gooseberries and currants of many kinds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of shrubs including gooseberries and currants of many kinds",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "GOLDS",
+      "clue": "Deep yellow colors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deep yellow colors",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "ENE",
+      "clue": "Compass point toward sunrise-ish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ORIG",
+      "clue": "Authentic, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ANION",
+      "clue": "Electro-negative element, or the element which, in electro- chemical...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electro-negative element, or the element which, in electro- chemical...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "TREASONABLE",
+      "clue": "Of the nature of betrayal, treachery, or breech of allegiance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having the character of, or characteristic of, a traitor"
+      ],
+      "definition": "Of the nature of betrayal, treachery, or breech of allegiance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "SEN",
+      "clue": "Japanese coin, worth about one half of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Japanese coin, worth about one half of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ODE",
+      "clue": "The form of lyric poetry anciently intended to be sung",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Form of lyric poetry anciently intended to be sung",
+        "Lyric poem with complex stanza forms",
+        "Short poetical composition proper to be set to music or sung"
+      ],
+      "definition": "The form of lyric poetry anciently intended to be sung.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "TINTED",
+      "clue": "Colored lightly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Colored lightly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "TED",
+      "clue": "___ Talk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ESSENE",
+      "clue": "One of a sect among the Jews in the time of our Savior, remarkable for their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of a sect among the Jews in the time of our Savior, remarkable for their...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Curvy letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "INTERROGATE",
+      "clue": "To examine formally by questioning",
+      "definition": "To examine formally by questioning.",
+      "id": "3D"
+    },
+    {
+      "word": "IMPERSONATE",
+      "clue": "To appear or act in the character of",
+      "definition": "To appear or act in the character of.",
+      "id": "6D"
+    },
+    {
+      "word": "PARTICIPANT",
+      "clue": "One having a share or part",
+      "definition": "One having a share or part.",
+      "id": "12A"
+    },
+    {
+      "word": "TREASONABLE",
+      "clue": "Of the nature of betrayal, treachery, or breech of allegiance",
+      "definition": "Of the nature of betrayal, treachery, or breech of allegiance.",
+      "id": "30A"
+    }
+  ]
+}

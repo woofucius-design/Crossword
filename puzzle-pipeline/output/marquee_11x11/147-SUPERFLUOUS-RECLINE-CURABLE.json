@@ -1,0 +1,896 @@
+{
+  "date": "2027-11-24",
+  "number": 147,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "S",
+      "P",
+      "I",
+      "C",
+      "S",
+      "#",
+      "#",
+      "E",
+      "S",
+      "L"
+    ],
+    [
+      "S",
+      "P",
+      "E",
+      "C",
+      "I",
+      "A",
+      "L",
+      "#",
+      "L",
+      "A",
+      "O"
+    ],
+    [
+      "S",
+      "U",
+      "P",
+      "E",
+      "R",
+      "F",
+      "L",
+      "U",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "T",
+      "R",
+      "S",
+      "#",
+      "R",
+      "E",
+      "C",
+      "L",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "U",
+      "R",
+      "#",
+      "T",
+      "S",
+      "A",
+      "R"
+    ],
+    [
+      "F",
+      "A",
+      "C",
+      "E",
+      "S",
+      "#",
+      "C",
+      "R",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "A",
+      "C",
+      "A",
+      "D",
+      "#",
+      "A",
+      "H",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "U",
+      "R",
+      "A",
+      "B",
+      "L",
+      "E",
+      "#",
+      "M",
+      "S",
+      "S"
+    ],
+    [
+      "I",
+      "M",
+      "P",
+      "R",
+      "O",
+      "P",
+      "R",
+      "I",
+      "E",
+      "T",
+      "Y"
+    ],
+    [
+      "L",
+      "E",
+      "E",
+      "#",
+      "S",
+      "H",
+      "U",
+      "T",
+      "E",
+      "Y",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "A",
+      "B",
+      "A",
+      "T",
+      "E",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ASPICS",
+      "clue": "Savories jelly based on fish or meat stock used as a mold for meats",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Savories jelly based on fish or meat stock used as a mold for meats",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ASST",
+      "clue": "Helper: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "SPUR",
+      "clue": "Railway line connected to a trunk line",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Railway line connected to a trunk line",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PEPS",
+      "clue": "Liveliness and energies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liveliness and energies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Rink surface",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "CIRRUS",
+      "clue": "Slender flexible animal appendage as on barnacles or crinoids or many insects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Slender flexible animal appendage as on barnacles or crinoids or many insects",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SAFER",
+      "clue": "More secure from risk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More secure from risk",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ESL",
+      "clue": "Language class, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Language class, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ELOISE",
+      "clue": "Plaza Hotel girl of fiction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "SAUNAS",
+      "clue": "Finnish steam baths",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Finnish steam baths",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "LOSERS",
+      "clue": "Gamblers who lose a bet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gamblers who lose a bet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "SPECIAL",
+      "clue": "Television production that features a particular person or work or topic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Television production that features a particular person or work or topic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "LLC",
+      "clue": "Business entity, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Business entity, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LAO",
+      "clue": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tai language of a Buddhist people living in the area of the Mekong River in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SUPERFLUOUS",
+      "clue": "Being more than is needed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "More than is needed, desired, or required",
+        "More than is wanted or is sufficient"
+      ],
+      "definition": "Being more than is needed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "ULTRA",
+      "clue": "Going beyond others, or beyond due limit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Going beyond others, or beyond due limit",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "TRS",
+      "clue": "Pants: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "RECLINE",
+      "clue": "To cause to assume a leaning or recumbent attitude or position",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cause to assume a leaning or recumbent attitude or position",
+        "Lean in a comfortable resting position",
+        "Cause or permit to lean, incline, rest, etc., to place in a..."
+      ],
+      "definition": "To cause to assume a leaning or recumbent attitude or position.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "CUR",
+      "clue": "Inferior dog or one of mixed breed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inferior dog or one of mixed breed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "CEDAR",
+      "clue": "Name of several evergreen trees. The wood is remarkable for its durability...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name of several evergreen trees. The wood is remarkable for its durability...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Old Russian ruler",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "FACES",
+      "clue": "Deals with (something unpleasant) head on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deals with (something unpleasant) head on",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "FACILE",
+      "clue": "Not difficult to do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Expressing yourself readily, clearly, effectively",
+        "Easy to be done or performed: not difficult"
+      ],
+      "definition": "Not difficult to do.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ACUMEN",
+      "clue": "Quickness of intellectual insight, or discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quickness of intellectual insight, or discernment; keenness of discrimination",
+        "Shrewdness shown by keen insight",
+        "Quickness of perception or discernment"
+      ],
+      "definition": "Quickness of intellectual insight, or discernment; keenness of discrimination.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "CARPET",
+      "clue": "Heavy woven or felted fabric, usually of wool, but also of cotton, hemp,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heavy woven or felted fabric, usually of wool, but also of cotton, hemp,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "CRESS",
+      "clue": "Plant of various species, chiefly cruciferous. The leaves have a moderately...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plant of various species, chiefly cruciferous. The leaves have a moderately...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "CHERUB",
+      "clue": "Angel of the second order whose gift is knowledge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angel of the second order whose gift is knowledge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "AHA",
+      "clue": "Cry of discovery",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ALPHA",
+      "clue": "Early testing stage of a software or hardware product",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Early testing stage of a software or hardware product",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "CURABLE",
+      "clue": "Capable of being remedied or corrected",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Curing or healing is possible",
+        "Capable of being cured"
+      ],
+      "definition": "Capable of being remedied or corrected.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "BOS",
+      "clue": "Wild and domestic cattle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild and domestic cattle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "MSS",
+      "clue": "Forms of address for a woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forms of address for a woman",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "MEET",
+      "clue": "Join, or come in contact with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Join, or come in contact with",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Eyelid bump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "SYED",
+      "clue": "Pakistani Islamic title",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "IMPROPRIETY",
+      "clue": "The state or quality of being unfit, unseemly, or inappropriate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "State or quality of being unfit, unseemly, or inappropriate",
+        "Act of undue intimacy",
+        "Quality of being improper"
+      ],
+      "definition": "The state or quality of being unfit, unseemly, or inappropriate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ITA",
+      "clue": "Italian-typeface abbreviation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Sheltered side, at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "SHUTEYE",
+      "clue": "Informal term for sleep",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal term for sleep",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ENT",
+      "clue": "Throat doc, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Throat doc, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ABATED",
+      "clue": "Became less in amount or intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Became less in amount or intensity",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SUPERFLUOUS",
+      "clue": "Being more than is needed",
+      "definition": "Being more than is needed.",
+      "id": "13A"
+    },
+    {
+      "word": "RECLINE",
+      "clue": "To cause to assume a leaning or recumbent attitude or position",
+      "definition": "To cause to assume a leaning or recumbent attitude or position.",
+      "id": "16A"
+    },
+    {
+      "word": "CURABLE",
+      "clue": "Capable of being remedied or corrected",
+      "definition": "Capable of being remedied or corrected.",
+      "id": "25A"
+    },
+    {
+      "word": "IMPROPRIETY",
+      "clue": "The state or quality of being unfit, unseemly, or inappropriate",
+      "definition": "The state or quality of being unfit, unseemly, or inappropriate.",
+      "id": "30A"
+    }
+  ]
+}

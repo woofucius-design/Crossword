@@ -1,0 +1,917 @@
+{
+  "date": "2028-01-25",
+  "number": 209,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "N",
+      "D",
+      "#",
+      "S",
+      "C",
+      "I",
+      "S",
+      "S",
+      "O",
+      "R"
+    ],
+    [
+      "D",
+      "E",
+      "I",
+      "#",
+      "P",
+      "A",
+      "N",
+      "D",
+      "O",
+      "R",
+      "A"
+    ],
+    [
+      "I",
+      "H",
+      "S",
+      "#",
+      "I",
+      "N",
+      "S",
+      "I",
+      "P",
+      "I",
+      "D"
+    ],
+    [
+      "O",
+      "R",
+      "I",
+      "E",
+      "N",
+      "T",
+      "#",
+      "#",
+      "H",
+      "O",
+      "I"
+    ],
+    [
+      "S",
+      "U",
+      "N",
+      "R",
+      "O",
+      "O",
+      "F",
+      "#",
+      "I",
+      "N",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "C",
+      "R",
+      "U",
+      "#",
+      "O",
+      "B",
+      "S",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "I",
+      "L",
+      "#",
+      "S",
+      "H",
+      "O",
+      "R",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "O",
+      "N",
+      "I",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "M",
+      "U",
+      "N",
+      "D",
+      "A",
+      "N",
+      "E",
+      "#",
+      "C",
+      "A",
+      "W"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "O",
+      "L",
+      "A",
+      "R",
+      "#",
+      "A",
+      "C",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "T",
+      "I",
+      "N",
+      "Y",
+      "#",
+      "L",
+      "T",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "AND",
+      "clue": "Plus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "ADIOS",
+      "clue": "Farewell remark",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farewell remark",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "NEHRU",
+      "clue": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indian statesman and leader with Gandhi in the struggle for home rule",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "DISINCLINES",
+      "clue": "Makes unwilling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes unwilling",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SCISSOR",
+      "clue": "Cut with shears",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "SPINOUS",
+      "clue": "Having spines",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Shaped like a spine or thorn",
+        "Spinose"
+      ],
+      "definition": "Having spines.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "CANTO",
+      "clue": "One of the divisions of an extended poem",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Major division of a long poem",
+        "One of the chief divisions of a long poem"
+      ],
+      "definition": "One of the divisions of an extended poem.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "INS",
+      "clue": "Officeholders, collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "SOPHISTICAL",
+      "clue": "Fallacious",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Plausible but misleading"
+      ],
+      "definition": "Fallacious.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ORION",
+      "clue": "Large and bright constellation on the equator, between the stars Aldebaran...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large and bright constellation on the equator, between the stars Aldebaran...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "RADIO",
+      "clue": "Communication system based on broadcasting electromagnetic waves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Communication system based on broadcasting electromagnetic waves",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "DEI",
+      "clue": "Agnus ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "PANDORA",
+      "clue": "First woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "First woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "IHS",
+      "clue": "Christogram",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "INSIPID",
+      "clue": "Tasteless",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking interest or significance or impact",
+        "Wanting in the qualities which affect the organs of taste"
+      ],
+      "definition": "Tasteless.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "ORIENT",
+      "clue": "Adjust to a specific need or market",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Adjust to a specific need or market",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "ERR",
+      "clue": "Slip up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "HOI",
+      "clue": "___ polloi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "SUNROOF",
+      "clue": "Automobile roof having a sliding or raisable panel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Automobile roof having a sliding or raisable panel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "FOOLERY",
+      "clue": "Folly",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Foolish or senseless behavior",
+        "Practice of folly"
+      ],
+      "definition": "Folly.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "INO",
+      "clue": "Sea goddess of Greek myth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "CRU",
+      "clue": "French vineyard classification",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "OBS",
+      "clue": "Branches of medicine dealing with childbirth and care of the mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of medicine dealing with childbirth and care of the mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "BRA",
+      "clue": "Lingerie item",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
+      "definition": "Nothing",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "NOMAD",
+      "clue": "Having no fixed abode",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Member of a people who have no permanent home but move about according to the...",
+        "One of a race or tribe that has no fixed location, but wanders from..."
+      ],
+      "definition": "Having no fixed abode.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "INURE",
+      "clue": "To harden or toughen by use, exercise, or exposure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Harden or toughen by use, exercise, or exposure",
+        "Cause to accept or become hardened to",
+        "Apply in use"
+      ],
+      "definition": "To harden or toughen by use, exercise, or exposure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "SHORTER",
+      "clue": "More tending to crumble or break into flakes due to a large amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More tending to crumble or break into flakes due to a large amount",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "HENAN",
+      "clue": "Chinese province",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ENACT",
+      "clue": "To make into law, as by legislative act",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make into law, as by legislative act",
+        "Act out",
+        "Decree"
+      ],
+      "definition": "To make into law, as by legislative act.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "REWED",
+      "clue": "Married a second time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ONI",
+      "clue": "Military intelligence agency that provides for the intelligence and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Military intelligence agency that provides for the intelligence and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "ELAINE",
+      "clue": "Same as Olein",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Olein",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "MUNDANE",
+      "clue": "Worldly, as opposed to spiritual or celestial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belonging to this earth or world",
+        "Of or pertaining to the world"
+      ],
+      "definition": "Worldly, as opposed to spiritual or celestial.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "DOT",
+      "clue": "Marriage portion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marriage portion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Boxing legend Muhammad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "CAW",
+      "clue": "Sound made by corvine birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sound made by corvine birds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "AREOLAR",
+      "clue": "Pertaining to, or like, an areola",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to, or like, an areola",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "DESTINY",
+      "clue": "Event (or a course of events) that will inevitably happen in the future",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Event (or a course of events) that will inevitably happen in the future",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "LTD",
+      "clue": "Co. with limited liability",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SPINOUS",
+      "clue": "Having spines",
+      "definition": "Having spines.",
+      "id": "4D"
+    },
+    {
+      "word": "INSIPID",
+      "clue": "Tasteless",
+      "definition": "Tasteless.",
+      "id": "14A"
+    },
+    {
+      "word": "FOOLERY",
+      "clue": "Folly",
+      "definition": "Folly.",
+      "id": "19D"
+    },
+    {
+      "word": "MUNDANE",
+      "clue": "Worldly, as opposed to spiritual or celestial",
+      "definition": "Worldly, as opposed to spiritual or celestial.",
+      "id": "32A"
+    }
+  ]
+}

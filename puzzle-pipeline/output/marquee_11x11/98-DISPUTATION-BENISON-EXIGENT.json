@@ -1,0 +1,899 @@
+{
+  "date": "2027-10-06",
+  "number": 98,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "L",
+      "U",
+      "D",
+      "E",
+      "#",
+      "#",
+      "P",
+      "S",
+      "T"
+    ],
+    [
+      "D",
+      "A",
+      "E",
+      "M",
+      "O",
+      "N",
+      "S",
+      "#",
+      "R",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "P",
+      "U",
+      "T",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "R",
+      "D",
+      "S",
+      "#",
+      "B",
+      "E",
+      "N",
+      "I",
+      "S",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "L",
+      "R",
+      "#",
+      "L",
+      "E",
+      "G",
+      "E"
+    ],
+    [
+      "E",
+      "L",
+      "R",
+      "O",
+      "Y",
+      "#",
+      "O",
+      "L",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "D",
+      "U",
+      "E",
+      "R",
+      "#",
+      "A",
+      "U",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "X",
+      "I",
+      "G",
+      "E",
+      "N",
+      "T",
+      "#",
+      "S",
+      "A",
+      "M"
+    ],
+    [
+      "M",
+      "U",
+      "N",
+      "I",
+      "F",
+      "I",
+      "C",
+      "E",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "#",
+      "F",
+      "O",
+      "R",
+      "M",
+      "A",
+      "T",
+      "S"
+    ],
+    [
+      "S",
+      "Y",
+      "R",
+      "#",
+      "#",
+      "N",
+      "Y",
+      "M",
+      "P",
+      "H",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ALLUDE",
+      "clue": "To refer incidentally, or by suggestion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Refer incidentally, or by suggestion",
+        "Make a more or less disguised reference to",
+        "Refer to something indirectly or by suggestion"
+      ],
+      "definition": "To refer incidentally, or by suggestion.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ADDR",
+      "clue": "Mailing info, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LAID",
+      "clue": "Set down",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "LESS",
+      "clue": "Unless",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unless",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "UMP",
+      "clue": "Official at a baseball game",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Official at a baseball game",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "DOUBLY",
+      "clue": "In twofold degree or extent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Double the degree",
+        "In twice the quantity"
+      ],
+      "definition": "In twofold degree or extent.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ENTER",
+      "clue": "Come or go into",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Come or go into",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PST",
+      "clue": "Standard time in the 8th time zone west of Greenwich, reckoned at the 120th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 8th time zone west of Greenwich, reckoned at the 120th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "PRISED",
+      "clue": "Regarded highly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regarded highly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "STOOGE",
+      "clue": "Victim of ridicule or pranks",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Victim of ridicule or pranks",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "TENNER",
+      "clue": "United States bill worth 10 dollars",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States bill worth 10 dollars",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "DAEMONS",
+      "clue": "People who are part mortal and part god",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are part mortal and part god",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DISPUTATION",
+      "clue": "Verbal controversy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Contentious speech act"
+      ],
+      "definition": "Verbal controversy.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "TILLS",
+      "clue": "Works land as by ploughing, harrowing, and manuring, in order to make",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Works land as by ploughing, harrowing, and manuring, in order to make",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "RDS",
+      "clue": "Highways: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "BENISON",
+      "clue": "Blessing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Spoken blessing"
+      ],
+      "definition": "Blessing.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "CLR",
+      "clue": "Reset, on a calculator",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "CORGI",
+      "clue": "Either of two Welsh breeds of long-bodied short-legged dogs with erect ears",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Either of two Welsh breeds of long-bodied short-legged dogs with erect ears and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "LEGE",
+      "clue": "Allege",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Allege",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ELROY",
+      "clue": "Jetson boy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "EDEMAS",
+      "clue": "Swellings from excessive accumulation of watery fluid in cells",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swellings from excessive accumulation of watery fluid in cells",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "LUXURY",
+      "clue": "Something that is an indulgence rather than a necessity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that is an indulgence rather than a necessity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "REINER",
+      "clue": "One who keeps in check",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who keeps in check",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "OLDER",
+      "clue": "Skilled through long experience",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Skilled through long experience",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "OUTCRY",
+      "clue": "A vehement or loud cry or clamor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Vehement or loud cry or clamor",
+        "Loud utterance",
+        "Vehement or loud cry"
+      ],
+      "definition": "A vehement or loud cry or clamor.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "DUER",
+      "clue": "More owed and payable immediately or on demand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More owed and payable immediately or on demand",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "AUS",
+      "clue": "Units of length used for distances within the solar system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Units of length used for distances within the solar system",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANION",
+      "clue": "Electro-negative element, or the element which, in electro- chemical...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electro-negative element, or the element which, in electro- chemical...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "EXIGENT",
+      "clue": "Urgent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Requiring precise accuracy",
+        "Exacting or requiring immediate aid or action"
+      ],
+      "definition": "Urgent.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "EFF",
+      "clue": "Have sexual intercourse with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have sexual intercourse with",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "SAM",
+      "clue": "Together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Together",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "SNAP",
+      "clue": "Break at once",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Break at once",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ACTH",
+      "clue": "Hormone produced by the anterior pituitary gland that stimulates the adrenal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hormone produced by the anterior pituitary gland that stimulates the adrenal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "MESS",
+      "clue": "Mass",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mass",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "MUNIFICENCE",
+      "clue": "A giving characterized by generous motives and extraordinary liberality",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Giving characterized by generous motives and extraordinary liberality",
+        "Liberality in bestowing gifts",
+        "Means of defense"
+      ],
+      "definition": "A giving characterized by generous motives and extraordinary liberality.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "EMM",
+      "clue": "Mid-alphabet trio's middle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "FORMATS",
+      "clue": "General appearances of a publication",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "General appearances of a publication",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SYR",
+      "clue": "Mideast land: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "NYMPHS",
+      "clue": "Larvae of an insect with incomplete metamorphosis (as the dragonfly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Larvae of an insect with incomplete metamorphosis (as the dragonfly",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DISPUTATION",
+      "clue": "Verbal controversy",
+      "definition": "Verbal controversy.",
+      "id": "13A"
+    },
+    {
+      "word": "BENISON",
+      "clue": "Blessing",
+      "definition": "Blessing.",
+      "id": "16A"
+    },
+    {
+      "word": "EXIGENT",
+      "clue": "Urgent",
+      "definition": "Urgent.",
+      "id": "25A"
+    },
+    {
+      "word": "MUNIFICENCE",
+      "clue": "A giving characterized by generous motives and extraordinary liberality",
+      "definition": "A giving characterized by generous motives and extraordinary liberality.",
+      "id": "30A"
+    }
+  ]
+}

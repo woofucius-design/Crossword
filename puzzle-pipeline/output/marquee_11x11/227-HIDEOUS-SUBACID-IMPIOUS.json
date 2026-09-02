@@ -1,0 +1,898 @@
+{
+  "date": "2028-02-12",
+  "number": 227,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "C",
+      "B",
+      "#",
+      "I",
+      "C",
+      "E",
+      "B",
+      "O",
+      "A",
+      "T"
+    ],
+    [
+      "L",
+      "A",
+      "R",
+      "#",
+      "M",
+      "O",
+      "V",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "#",
+      "P",
+      "R",
+      "E",
+      "S",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "L",
+      "I",
+      "N",
+      "#",
+      "#",
+      "T",
+      "U",
+      "T"
+    ],
+    [
+      "H",
+      "I",
+      "D",
+      "E",
+      "O",
+      "U",
+      "S",
+      "#",
+      "R",
+      "T",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "B",
+      "T",
+      "U",
+      "#",
+      "U",
+      "S",
+      "U",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "P",
+      "O",
+      "#",
+      "S",
+      "U",
+      "B",
+      "A",
+      "C",
+      "I",
+      "D"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "#",
+      "#",
+      "T",
+      "S",
+      "E",
+      "T",
+      "S",
+      "E"
+    ],
+    [
+      "L",
+      "O",
+      "R",
+      "E",
+      "L",
+      "E",
+      "I",
+      "#",
+      "I",
+      "S",
+      "L"
+    ],
+    [
+      "I",
+      "N",
+      "D",
+      "O",
+      "O",
+      "R",
+      "S",
+      "#",
+      "O",
+      "U",
+      "T"
+    ],
+    [
+      "C",
+      "E",
+      "S",
+      "S",
+      "P",
+      "I",
+      "T",
+      "#",
+      "N",
+      "E",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,4": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,3": {
+      "number": 16
+    },
+    "3,8": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,6": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,7": {
+      "number": 23
+    },
+    "6,0": {
+      "number": 24
+    },
+    "6,1": {
+      "number": 25
+    },
+    "6,4": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,5": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,3": {
+      "number": 33
+    },
+    "8,4": {
+      "number": 34
+    },
+    "8,8": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,8": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,8": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 3,
+      "answer": "PCB",
+      "clue": "Banned industrial pollutant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "PLASH",
+      "clue": "Small pool of standing water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small pool of standing water",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CACTI",
+      "clue": "Desert succulents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "BREADBOARDS",
+      "clue": "Wooden or plastic boards on which dough is kneaded or bread is sliced",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wooden or plastic boards on which dough is kneaded or bread is sliced",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "ICEBOAT",
+      "clue": "Sailing vessel with runners and a cross-shaped frame",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sailing vessel with runners and a cross-shaped frame",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 7,
+      "answer": "IMPIOUS",
+      "clue": "Characterized by irreverence or irreligion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking piety or reverence for a god",
+        "Not pious"
+      ],
+      "definition": "Characterized by irreverence or irreligion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "CORNU",
+      "clue": "Horn, or anything shaped like or resembling a horn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Horn, or anything shaped like or resembling a horn",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "EVE",
+      "clue": "Night before a holiday",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 3,
+      "answer": "BAS",
+      "clue": "Bachelor's degrees in arts and sciences",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bachelor's degrees in arts and sciences",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "OBSTRUCTION",
+      "clue": "Hindrance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Getting in someone's way"
+      ],
+      "definition": "Hindrance.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ALEUT",
+      "clue": "Aleutian Islander",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TESTE",
+      "clue": "Witness. (b) The witnessing or concluding clause, duty attached",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Witness. (b) The witnessing or concluding clause, duty attached",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 3,
+      "answer": "LAR",
+      "clue": "Tutelary deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tutelary deity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 4,
+      "length": 7,
+      "answer": "MOVABLE",
+      "clue": "Personal as opposed to real property",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Personal as opposed to real property",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 4,
+      "length": 7,
+      "answer": "PRESSES",
+      "clue": "Asks for or request earnestly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Asks for or request earnestly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 6,
+      "answer": "STALIN",
+      "clue": "Russian leader who succeeded Lenin as head of the Communist Party and created",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian leader who succeeded Lenin as head of the Communist Party and created a...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 3,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Allow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 8,
+      "length": 3,
+      "answer": "TUT",
+      "clue": "Be still",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be still",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 7,
+      "answer": "HIDEOUS",
+      "clue": "Appalling",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "So extremely ugly as to be terrifying",
+        "Frightful, shocking, or offensive to the eyes"
+      ],
+      "definition": "Appalling.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 6,
+      "length": 7,
+      "answer": "SUBSIST",
+      "clue": "To be maintained or sustained",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be maintained or sustained",
+        "Support oneself",
+        "Be"
+      ],
+      "definition": "To be maintained or sustained.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 2,
+      "length": 3,
+      "answer": "BTU",
+      "clue": "Unit of heat equal to the amount of heat required to raise one pound of water...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of heat equal to the amount of heat required to raise one pound of water...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "USU",
+      "clue": "Most often: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 7,
+      "length": 3,
+      "answer": "SAE",
+      "clue": "Frat letters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "CPO",
+      "clue": "Navy E-7, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "COLIC",
+      "clue": "Acute abdominal pain (especially in infants)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acute abdominal pain (especially in infants)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "PRONE",
+      "clue": "Lying face downward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lying face downward",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 7,
+      "answer": "SUBACID",
+      "clue": "Somewhat sharp or biting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Slightly sour to the taste",
+        "Moderately acid or sour"
+      ],
+      "definition": "Somewhat sharp or biting.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "UTERI",
+      "clue": "Wombs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ISSUE",
+      "clue": "Come out of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Come out of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "DELTA",
+      "clue": "4th letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "4th letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 5,
+      "length": 6,
+      "answer": "TSETSE",
+      "clue": "Bloodsucking African fly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bloodsucking African fly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 7,
+      "answer": "LORELEI",
+      "clue": "Siren of German legend who lured boatmen in the Rhine to destruction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Siren of German legend who lured boatmen in the Rhine to destruction",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 3,
+      "length": 3,
+      "answer": "EOS",
+      "clue": "Winged goddess of the dawn in ancient mythology",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Winged goddess of the dawn in ancient mythology",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "LOP",
+      "clue": "Cultivate, tend, and cut back the growth of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cultivate, tend, and cut back the growth of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 8,
+      "length": 3,
+      "answer": "ISL",
+      "clue": "Atoll: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 7,
+      "answer": "INDOORS",
+      "clue": "Within the house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Within the house",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 8,
+      "length": 3,
+      "answer": "OUT",
+      "clue": "Not at home",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 7,
+      "answer": "CESSPIT",
+      "clue": "Covered cistern",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Covered cistern",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 8,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "IMPIOUS",
+      "clue": "Characterized by irreverence or irreligion",
+      "definition": "Characterized by irreverence or irreligion.",
+      "id": "4D"
+    },
+    {
+      "word": "HIDEOUS",
+      "clue": "Appalling",
+      "definition": "Appalling.",
+      "id": "18A"
+    },
+    {
+      "word": "SUBSIST",
+      "clue": "To be maintained or sustained",
+      "definition": "To be maintained or sustained.",
+      "id": "19D"
+    },
+    {
+      "word": "SUBACID",
+      "clue": "Somewhat sharp or biting",
+      "definition": "Somewhat sharp or biting.",
+      "id": "26A"
+    }
+  ]
+}

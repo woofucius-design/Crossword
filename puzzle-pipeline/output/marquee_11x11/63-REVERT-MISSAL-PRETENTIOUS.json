@@ -1,0 +1,919 @@
+{
+  "date": "2027-09-01",
+  "number": 63,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "L",
+      "A",
+      "M",
+      "P",
+      "#",
+      "A",
+      "D",
+      "R",
+      "I",
+      "F",
+      "T"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "R",
+      "#",
+      "L",
+      "I",
+      "E",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "B",
+      "O",
+      "L",
+      "E",
+      "#",
+      "E",
+      "X",
+      "P",
+      "I",
+      "R",
+      "Y"
+    ],
+    [
+      "O",
+      "B",
+      "I",
+      "T",
+      "S",
+      "#",
+      "#",
+      "R",
+      "O",
+      "M",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "V",
+      "E",
+      "R",
+      "T",
+      "#",
+      "E",
+      "M",
+      "I",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "N",
+      "O",
+      "O",
+      "K",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "E",
+      "S",
+      "T",
+      "#",
+      "M",
+      "I",
+      "S",
+      "S",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "#",
+      "#",
+      "D",
+      "I",
+      "M",
+      "L",
+      "Y"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "O",
+      "U",
+      "D",
+      "#",
+      "B",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "U",
+      "N",
+      "E",
+      "#",
+      "L",
+      "A",
+      "M",
+      "E"
+    ],
+    [
+      "S",
+      "E",
+      "P",
+      "S",
+      "I",
+      "S",
+      "#",
+      "E",
+      "R",
+      "O",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "LAMP",
+      "clue": "Artificial source of visible illumination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Artificial source of visible illumination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "LABOR",
+      "clue": "Productive work (especially physical work done for wages)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Productive work (especially physical work done for wages)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ADOBE",
+      "clue": "Sun-dried brick",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sun-dried brick",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MDLIV",
+      "clue": "Roman numeral for 1554",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1554",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PRETENTIOUS",
+      "clue": "Marked by pretense, conceit, or display",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Intended to attract notice and impress others",
+        "Full of pretension"
+      ],
+      "definition": "Marked by pretense, conceit, or display.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "ADRIFT",
+      "clue": "Off course, wandering aimlessly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Off course, wandering aimlessly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ALE",
+      "clue": "Pub pint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "DIX",
+      "clue": "United States social reformer who pioneered in the reform of prisons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States social reformer who pioneered in the reform of prisons and in the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "REPRESSIBLE",
+      "clue": "Able to be kept under restraint or control",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Able to be kept under restraint or control.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "IDIOM",
+      "clue": "A use of words peculiar to a particular language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of words peculiar to a particular language",
+        "Style of a particular artist or school or movement",
+        "Syntactical or structural form peculiar to any language"
+      ],
+      "definition": "A use of words peculiar to a particular language.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "FERMI",
+      "clue": "Italian nuclear physicist (in the United States after 1939) who worked on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian nuclear physicist (in the United States after 1939) who worked on...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TRYST",
+      "clue": "Trust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trust",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ADDR",
+      "clue": "Mailing info, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "LIEDER",
+      "clue": "German art songs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "BOLE",
+      "clue": "The trunk or body of a tree",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Trunk or body of a tree",
+        "Chadic language spoken in northern Nigeria and closely related to Hausa",
+        "Trunk or stem of a tree, or that which is like it. Enormous..."
+      ],
+      "definition": "The trunk or body of a tree.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "EXPIRY",
+      "clue": "Event of dying or departure from life",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Event of dying or departure from life",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OBITS",
+      "clue": "Notices of someone's death",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Notices of someone's death",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SRO",
+      "clue": "Sold-out sign, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ROMS",
+      "clue": "Memories whose contents can be accessed and read but cannot be changed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Memories whose contents can be accessed and read but cannot be changed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "REVERT",
+      "clue": "To return, or turn or look back, as toward a former position or the like",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Return, or turn or look back, as toward a former position or the like",
+        "Undergo reversion, as in a mutation",
+        "Turn back, or to the contrary"
+      ],
+      "definition": "To return, or turn or look back, as toward a former position or the like.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TOM",
+      "clue": "Male turkey",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male turkey",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "EMIT",
+      "clue": "To send or give out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Send or give out",
+        "Expel (gases or odors)",
+        "Send forth"
+      ],
+      "definition": "To send or give out.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "NOOKS",
+      "clue": "Interior angles formed by two meeting walls",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interior angles formed by two meeting walls",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "KID",
+      "clue": "Tell false information to for fun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tell false information to for fun",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "LEST",
+      "clue": "Listen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Listen",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "LASTS",
+      "clue": "Person's dying act",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person's dying act",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ENTRE",
+      "clue": "Between, in Madrid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "STRIP",
+      "clue": "Get undressed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get undressed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "MISSAL",
+      "clue": "The book containing the service for the celebration of mass",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book containing the service for the celebration of mass",
+        "Book containing all the prayers and responses needed to celebrate Mass...",
+        "Book containing the service of the Mass for the entire year"
+      ],
+      "definition": "The book containing the service for the celebration of mass.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "SMEAR",
+      "clue": "Act that brings discredit to the person who does it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act that brings discredit to the person who does it",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ALAMO",
+      "clue": "Siege and massacre at a mission in San Antonio in 1836",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Siege and massacre at a mission in San Antonio in 1836",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "LYRES",
+      "clue": "Ones of the most ancient of stringed instruments of the harp class",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ones of the most ancient of stringed instruments of the harp class",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "DIMLY",
+      "clue": "Obscurely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In a dim indistinct manner",
+        "In a dim or obscure manner"
+      ],
+      "definition": "Obscurely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "STROUD",
+      "clue": "Kind of coarse blanket or garment used by the North American Indians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of coarse blanket or garment used by the North American Indians",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "UNI",
+      "clue": "College, in Britain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "BEAR",
+      "clue": "Have on one's person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have on one's person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "TRIUNE",
+      "clue": "Being three in one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being three in one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "LAME",
+      "clue": "Deprive of the use of a limb, especially a leg",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Deprive of the use of a limb, especially a leg",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SEPSIS",
+      "clue": "Poisoning of the system by the introduction of putrescent material into the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Poisoning of the system by the introduction of putrescent material into the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "EROS",
+      "clue": "Love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Love",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PRETENTIOUS",
+      "clue": "Marked by pretense, conceit, or display",
+      "definition": "Marked by pretense, conceit, or display.",
+      "id": "4D"
+    },
+    {
+      "word": "REPRESSIBLE",
+      "clue": "Able to be kept under restraint or control",
+      "definition": "Able to be kept under restraint or control.",
+      "id": "7D"
+    },
+    {
+      "word": "REVERT",
+      "clue": "To return, or turn or look back, as toward a former position or the like",
+      "definition": "To return, or turn or look back, as toward a former position or the like.",
+      "id": "18A"
+    },
+    {
+      "word": "MISSAL",
+      "clue": "The book containing the service for the celebration of mass",
+      "definition": "The book containing the service for the celebration of mass.",
+      "id": "26A"
+    }
+  ]
+}

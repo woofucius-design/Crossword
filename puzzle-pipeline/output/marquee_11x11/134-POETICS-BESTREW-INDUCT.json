@@ -1,0 +1,955 @@
+{
+  "date": "2027-11-11",
+  "number": 134,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "I",
+      "L",
+      "V",
+      "A",
+      "#",
+      "V",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "D",
+      "E",
+      "N",
+      "I",
+      "E",
+      "D",
+      "#",
+      "I",
+      "L",
+      "I",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "D",
+      "R",
+      "E",
+      "I",
+      "#",
+      "R",
+      "A",
+      "S",
+      "P"
+    ],
+    [
+      "Y",
+      "O",
+      "U",
+      "#",
+      "P",
+      "O",
+      "E",
+      "T",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "A",
+      "R",
+      "C",
+      "S",
+      "#",
+      "S",
+      "O",
+      "U",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "N",
+      "A",
+      "T",
+      "T",
+      "Y",
+      "#",
+      "F",
+      "A",
+      "G",
+      "O",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "A",
+      "H",
+      "#",
+      "L",
+      "A",
+      "V",
+      "E"
+    ],
+    [
+      "B",
+      "E",
+      "S",
+      "T",
+      "R",
+      "E",
+      "W",
+      "#",
+      "M",
+      "O",
+      "N"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "I",
+      "#",
+      "R",
+      "A",
+      "B",
+      "B",
+      "I",
+      "T"
+    ],
+    [
+      "B",
+      "L",
+      "O",
+      "C",
+      "#",
+      "B",
+      "R",
+      "O",
+      "O",
+      "D",
+      "S"
+    ],
+    [
+      "Y",
+      "E",
+      "N",
+      "S",
+      "#",
+      "S",
+      "E",
+      "L",
+      "L",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SILVA",
+      "clue": "Forest trees growing in a country or region",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forest trees growing in a country or region",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SENORA",
+      "clue": "Spanish title or form of address for a married woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish title or form of address for a married woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "INDUCT",
+      "clue": "To bring in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Bring in",
+        "Introduce or initiate"
+      ],
+      "definition": "To bring in.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "LIR",
+      "clue": "Sea personified",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sea personified",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "VEEP",
+      "clue": "Second-in-command, informally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ADIOS",
+      "clue": "Farewell remark",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Farewell remark",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "VARY",
+      "clue": "Become different in some particular way, without permanently losing one's or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become different in some particular way, without permanently losing one's or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "VIRTUAL",
+      "clue": "Being in essence or effect, but not in form or appearance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having the power of acting or of invisible efficacy without the..."
+      ],
+      "definition": "Being in essence or effect, but not in form or appearance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "RISC",
+      "clue": "Kind of computer architecture that has a relatively small set of computer...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of computer architecture that has a relatively small set of computer...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "YAPS",
+      "clue": "Informal terms for the mouth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for the mouth",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "DENIED",
+      "clue": "Declared untrue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declared untrue",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "DAYAN",
+      "clue": "Israeli general and statesman (1915-1981)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Israeli general and statesman (1915-1981)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ANDREI",
+      "clue": "Russian author Bely",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RASP",
+      "clue": "Coarse file with sharp pointed projections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse file with sharp pointed projections",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "YOU",
+      "clue": "Second-person pronoun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "POETICS",
+      "clue": "The rules and principles of poetry",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rules and principles of poetry",
+        "Principles and rules of the art of poetry. J"
+      ],
+      "definition": "The rules and principles of poetry.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "EOF",
+      "clue": "End-of-file marker, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ARCS",
+      "clue": "Electrical conduction through a gas in an applied electric field",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electrical conduction through a gas in an applied electric field",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "STATICS",
+      "clue": "The branch of mechanics that treats of the relations that subsist among forces",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Branch of mechanics that treats of the relations that subsist among forces",
+        "Branch of mechanics concerned with forces in equilibrium",
+        "That branch of mechanics which treats of the equilibrium of forces,..."
+      ],
+      "definition": "The branch of mechanics that treats of the relations that subsist among forces",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "SOU",
+      "clue": "Old French copper coin, equivalent in value to, and now displaced by, the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old French copper coin, equivalent in value to, and now displaced by, the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "NATTY",
+      "clue": "Neat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Neat",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "YAR",
+      "clue": "Nimble, as a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "FAGOT",
+      "clue": "Bundle of sticks and branches bound together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bundle of sticks and branches bound together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "GAMBOL",
+      "clue": "Playful leaping or frisking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Gay or light-hearted recreational activity for diversion or amusement",
+        "Skipping or leaping about in frolic"
+      ],
+      "definition": "Playful leaping or frisking.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "OVOIDS",
+      "clue": "Egg-shaped objects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Egg-shaped objects",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "TENTS",
+      "clue": "Portable shelters (usually of canvas stretched over supporting poles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portable shelters (usually of canvas stretched over supporting poles",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "AAH",
+      "clue": "\"Now I get it!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "HERBS",
+      "clue": "Aromatic potherbs used in cookery for its savory qualities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Aromatic potherbs used in cookery for its savory qualities",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "LAVE",
+      "clue": "To wash or bathe",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wash or bathe",
+        "Wash one's face and hands",
+        "Wash"
+      ],
+      "definition": "To wash or bathe.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BESTREW",
+      "clue": "To sprinkle or cover with things strewn",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sprinkle or cover with things strewn",
+        "Cover by strewing",
+        "Strew or scatter over"
+      ],
+      "definition": "To sprinkle or cover with things strewn.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BABY",
+      "clue": "Infant or young child of either sex",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Infant or young child of either sex",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ELLE",
+      "clue": "Magazine for women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "SION",
+      "clue": "Imaginary place considered to be perfect or ideal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imaginary place considered to be perfect or ideal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "WARE",
+      "clue": "Commodities offered for sale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commodities offered for sale",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "MON",
+      "clue": "Day after Sun.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "ALII",
+      "clue": "Et ___ (and others)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "RABBIT",
+      "clue": "Any of various burrowing animals of the family Leporidae having long ears and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various burrowing animals of the family Leporidae having long ears and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "BOL",
+      "clue": "Bygone N.B.A. center Manute",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "BLOC",
+      "clue": "Group of countries in special alliance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of countries in special alliance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "BROODS",
+      "clue": "Young of an animal cared for at one time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young of an animal cared for at one time",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "YENS",
+      "clue": "Has a desire for something or someone who is not present",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Has a desire for something or someone who is not present",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "SELLS",
+      "clue": "Persuades somebody to accept something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Persuades somebody to accept something",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "INDUCT",
+      "clue": "To bring in",
+      "definition": "To bring in.",
+      "id": "2D"
+    },
+    {
+      "word": "VIRTUAL",
+      "clue": "Being in essence or effect, but not in form or appearance",
+      "definition": "Being in essence or effect, but not in form or appearance.",
+      "id": "6D"
+    },
+    {
+      "word": "POETICS",
+      "clue": "The rules and principles of poetry",
+      "definition": "The rules and principles of poetry.",
+      "id": "15A"
+    },
+    {
+      "word": "STATICS",
+      "clue": "The branch of mechanics that treats of the relations that subsist among forces",
+      "definition": "The branch of mechanics that treats of the relations that subsist among forces",
+      "id": "18D"
+    },
+    {
+      "word": "GAMBOL",
+      "clue": "Playful leaping or frisking",
+      "definition": "Playful leaping or frisking.",
+      "id": "23D"
+    },
+    {
+      "word": "BESTREW",
+      "clue": "To sprinkle or cover with things strewn",
+      "definition": "To sprinkle or cover with things strewn.",
+      "id": "29A"
+    }
+  ]
+}

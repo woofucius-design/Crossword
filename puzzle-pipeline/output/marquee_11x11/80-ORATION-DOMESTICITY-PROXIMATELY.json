@@ -1,0 +1,881 @@
+{
+  "date": "2027-09-18",
+  "number": 80,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "H",
+      "I",
+      "L",
+      "D",
+      "#",
+      "#",
+      "O",
+      "M",
+      "S"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N",
+      "#",
+      "L",
+      "E",
+      "T"
+    ],
+    [
+      "D",
+      "O",
+      "M",
+      "E",
+      "S",
+      "T",
+      "I",
+      "C",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "D",
+      "R",
+      "A",
+      "M",
+      "A",
+      "#",
+      "G",
+      "A",
+      "V",
+      "E",
+      "L"
+    ],
+    [
+      "S",
+      "E",
+      "N",
+      "#",
+      "#",
+      "P",
+      "H",
+      "R",
+      "A",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "U",
+      "T",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "A",
+      "L",
+      "M",
+      "S",
+      "#",
+      "#",
+      "O",
+      "B",
+      "S"
+    ],
+    [
+      "A",
+      "N",
+      "G",
+      "E",
+      "L",
+      "#",
+      "R",
+      "E",
+      "L",
+      "I",
+      "T"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "X",
+      "I",
+      "M",
+      "A",
+      "T",
+      "E",
+      "L",
+      "Y"
+    ],
+    [
+      "E",
+      "O",
+      "N",
+      "#",
+      "V",
+      "E",
+      "S",
+      "T",
+      "I",
+      "G",
+      "E"
+    ],
+    [
+      "S",
+      "L",
+      "Y",
+      "#",
+      "#",
+      "A",
+      "P",
+      "A",
+      "C",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CHILD",
+      "clue": "Young person of either sex",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young person of either sex",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CRORE",
+      "clue": "Number that is represented as a one followed by 7 zeros",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Number that is represented as a one followed by 7 zeros",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "HAMAN",
+      "clue": "Minister of the Persian emperor who hated the Jews and was hanged for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Minister of the Persian emperor who hated the Jews and was hanged for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ITEM",
+      "clue": "Also",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "LISA",
+      "clue": "Mona ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "DOT",
+      "clue": "Marriage portion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marriage portion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "OMS",
+      "clue": "Meditation mantras",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "OLIVA",
+      "clue": "Genus of polished marine gastropod shells, chiefly tropical, and often...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of polished marine gastropod shells, chiefly tropical, and often...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "METES",
+      "clue": "Lines that indicate a boundary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lines that indicate a boundary",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "STYLE",
+      "clue": "Manner of expression",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ORATION",
+      "clue": "An elaborate or formal public speech",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Elaborate or formal public speech",
+        "Instance of oratory",
+        "Elaborate discourse, delivered in public, treating an important..."
+      ],
+      "definition": "An elaborate or formal public speech.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ODDS",
+      "clue": "Difference in favor of one and against another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Difference in favor of one and against another",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "NIGHT",
+      "clue": "That part of the natural day when the sun is beneath the horizon, or the time...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That part of the natural day when the sun is beneath the horizon, or the time...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LET",
+      "clue": "Allow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "DOMESTICITY",
+      "clue": "Life in or fondness for one's home and family",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Life in or fondness for one's home and family.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "CARE",
+      "clue": "Activity involved in maintaining something in good working order",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity involved in maintaining something in good working order",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "DRAMA",
+      "clue": "Quality of being arresting or highly emotional",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being arresting or highly emotional",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "GAVEL",
+      "clue": "Small mallet used by a presiding officer or a judge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small mallet used by a presiding officer or a judge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SEN",
+      "clue": "Japanese coin, worth about one half of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Japanese coin, worth about one half of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "PHRASE",
+      "clue": "Brief expression, sometimes a single word, but usually two or more words...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brief expression, sometimes a single word, but usually two or more words...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PUS",
+      "clue": "Yellowish white opaque creamy matter produced by the process of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yellowish white opaque creamy matter produced by the process of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ACUTE",
+      "clue": "Having fine and penetrating discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or experiencing a rapid onset and short but severe course",
+        "Sharp at the end"
+      ],
+      "definition": "Having fine and penetrating discernment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ALEX",
+      "clue": "Trebek of Jeopardy!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "CMLIV",
+      "clue": "Roman numeral for 954",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 954",
+      "clueSource": "roman"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "REALMS",
+      "clue": "Knowledge domains that you are interested in or are communicating about",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Knowledge domains that you are interested in or are communicating about",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "RAPES",
+      "clue": "Acts of hitting vigorously",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of hitting vigorously",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ENROL",
+      "clue": "Register formally as a participant or member",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Register formally as a participant or member",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AGONY",
+      "clue": "Intense feelings of suffering",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Intense feelings of suffering",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "OBS",
+      "clue": "Branches of medicine dealing with childbirth and care of the mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of medicine dealing with childbirth and care of the mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OLEIC",
+      "clue": "Pertaining to, derived from, or contained in, oil",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to, derived from, or contained in, oil",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "BILGE",
+      "clue": "Where the sides of the vessel curve in to form the bottom",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Where the sides of the vessel curve in to form the bottom",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Eyelid bump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ANGEL",
+      "clue": "Highest waterfall",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Highest waterfall",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RELIT",
+      "clue": "Sparked again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "RASP",
+      "clue": "Coarse file with sharp pointed projections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Coarse file with sharp pointed projections",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ETTA",
+      "clue": "Singer James",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PROXIMATELY",
+      "clue": "Immediately",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Immediately.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "MEA",
+      "clue": "___ culpa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "EON",
+      "clue": "Immeasurable or infinite space of time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Immeasurable or infinite space of time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "VESTIGE",
+      "clue": "A visible trace, mark, or impression, of something absent, lost, or gone",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Visible trace, mark, or impression, of something absent, lost, or gone",
+        "Indication that something has been present",
+        "Mark of the foot left on the earth"
+      ],
+      "definition": "A visible trace, mark, or impression, of something absent, lost, or gone.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SLY",
+      "clue": "Fox-like",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "APACE",
+      "clue": "With rapid movements",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "With rapid movements",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ORATION",
+      "clue": "An elaborate or formal public speech",
+      "definition": "An elaborate or formal public speech.",
+      "id": "9A"
+    },
+    {
+      "word": "DOMESTICITY",
+      "clue": "Life in or fondness for one's home and family",
+      "definition": "Life in or fondness for one's home and family.",
+      "id": "12A"
+    },
+    {
+      "word": "PROXIMATELY",
+      "clue": "Immediately",
+      "definition": "Immediately.",
+      "id": "29A"
+    },
+    {
+      "word": "VESTIGE",
+      "clue": "A visible trace, mark, or impression, of something absent, lost, or gone",
+      "definition": "A visible trace, mark, or impression, of something absent, lost, or gone.",
+      "id": "32A"
+    }
+  ]
+}

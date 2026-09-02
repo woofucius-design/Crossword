@@ -73,10 +73,12 @@ def main() -> None:
     )
     args = ap.parse_args()
 
-    # Marquee sets lead: their SAT words are deliberately placed in the long
-    # symmetric slots, so they read as constructed rather than incidental.
-    small = collect("marquee_11x11") + collect("factory")
-    large = collect("marquee_15x15") + collect("factory_15x15")
+    # Marquee only. The old factory sets were retired when cluability became
+    # a hard constraint on the fill pool: every puzzle is now generated with
+    # its SAT words deliberately placed in the long symmetric slots, so they
+    # read as constructed rather than incidental.
+    small = collect("marquee_11x11")
+    large = collect("marquee_15x15")
 
     anchor = date.today() - timedelta(days=args.anchor_back)
     by_date: dict[str, dict] = {}

@@ -1,0 +1,983 @@
+{
+  "date": "2028-01-05",
+  "number": 189,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "S",
+      "T",
+      "O",
+      "P",
+      "E",
+      "S",
+      "#",
+      "K",
+      "E",
+      "L",
+      "P"
+    ],
+    [
+      "C",
+      "O",
+      "L",
+      "I",
+      "M",
+      "A",
+      "#",
+      "E",
+      "N",
+      "O",
+      "L"
+    ],
+    [
+      "O",
+      "P",
+      "A",
+      "Q",
+      "U",
+      "E",
+      "#",
+      "N",
+      "I",
+      "N",
+      "A"
+    ],
+    [
+      "T",
+      "O",
+      "F",
+      "U",
+      "#",
+      "#",
+      "F",
+      "O",
+      "G",
+      "G",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "V",
+      "E",
+      "R",
+      "#",
+      "M",
+      "E",
+      "E"
+    ],
+    [
+      "S",
+      "S",
+      "S",
+      "#",
+      "A",
+      "G",
+      "A",
+      "#",
+      "A",
+      "D",
+      "D"
+    ],
+    [
+      "T",
+      "E",
+      "A",
+      "#",
+      "S",
+      "O",
+      "U",
+      "L",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "U",
+      "G",
+      "H",
+      "T",
+      "#",
+      "#",
+      "O",
+      "P",
+      "A",
+      "L"
+    ],
+    [
+      "U",
+      "R",
+      "E",
+      "A",
+      "#",
+      "D",
+      "H",
+      "A",
+      "R",
+      "M",
+      "A"
+    ],
+    [
+      "P",
+      "A",
+      "L",
+      "L",
+      "#",
+      "N",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "T",
+      "Y",
+      "E",
+      "#",
+      "A",
+      "D",
+      "H",
+      "E",
+      "R",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "STOPES",
+      "clue": "Birth-control campaigner who in 1921 opened the first birth control clinic in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Birth-control campaigner who in 1921 opened the first birth control clinic in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "SCOT",
+      "clue": "Name for a horse",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name for a horse",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "TOPO",
+      "clue": "Map type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "OLAF",
+      "clue": "Frozen snowman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "PIQUE",
+      "clue": "To excite a slight degree of anger in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excite a slight degree of anger in",
+        "Tightly woven fabric with raised cords",
+        "Cotton fabric, figured in the loom,"
+      ],
+      "definition": "To excite a slight degree of anger in.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "EMU",
+      "clue": "Flightless Aussie bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SAE",
+      "clue": "Frat letters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "KELP",
+      "clue": "Large brown seaweeds having fluted leathery fronds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large brown seaweeds having fluted leathery fronds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "KENO",
+      "clue": "Game in which numbered balls are drawn at random and players cover the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Game in which numbered balls are drawn at random and players cover the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "ENIGMA",
+      "clue": "A riddle",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Riddle",
+        "Something that baffles understanding and cannot be explained",
+        "Dark, obscure, or inexplicable saying"
+      ],
+      "definition": "A riddle.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "LONGED",
+      "clue": "Desired strongly or persistently",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Desired strongly or persistently",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "PLAYED",
+      "clue": "Engaged in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engaged in",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "COLIMA",
+      "clue": "Active volcano in southwestern Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Active volcano in southwestern Mexico",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "OPAQUE",
+      "clue": "Impervious to light",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not transmitting or reflecting light or radiant energy",
+        "Impervious to the rays of light"
+      ],
+      "definition": "Impervious to light.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NINA",
+      "clue": "Babylonian goddess of the watery deep and daughter of Ea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Babylonian goddess of the watery deep and daughter of Ea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "TOFU",
+      "clue": "Cheeselike food made of curdled soybean milk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cheeselike food made of curdled soybean milk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "FOGGY",
+      "clue": "Obscure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Obscured by fog",
+        "Filled or abounding with fog, or watery exhalations"
+      ],
+      "definition": "Obscure.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "FRAU",
+      "clue": "German courtesy title or form of address for an adult woman",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German courtesy title or form of address for an adult woman",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "EVER",
+      "clue": "At any time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At any time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "VAST",
+      "clue": "Unusually great in size or amount or degree or especially extent or scope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unusually great in size or amount or degree or especially extent or scope",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EGO",
+      "clue": "Conscious mind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Conscious mind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "MEE",
+      "clue": "Asian noodle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Draft-registration org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "STOUPS",
+      "clue": "Basins for holy water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basins for holy water",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "SEURAT",
+      "clue": "French painter who developed pointillism (1859-1891)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French painter who developed pointillism (1859-1891)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SAGELY",
+      "clue": "In a wise manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a wise manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "AGA",
+      "clue": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In Turkey, a commander or chief officer. It is used also as a title of respect",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "ADD",
+      "clue": "Sum up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Afternoon cuppa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "SOUL",
+      "clue": "Human being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Human being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "LOATH",
+      "clue": "Averse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unwillingness to do something contrary to your custom",
+        "Hateful"
+      ],
+      "definition": "Averse.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "OUGHT",
+      "clue": "To be under moral obligation to be or do",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be under moral obligation to be or do",
+        "See Aught"
+      ],
+      "definition": "To be under moral obligation to be or do.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "HALE",
+      "clue": "Of sound and vigorous health",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Exhibiting or restored to vigorous good health",
+        "Sound"
+      ],
+      "definition": "Of sound and vigorous health.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "OPAL",
+      "clue": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mineral consisting, like quartz, of silica, but inferior to quartz in...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "PRIE",
+      "clue": "Plant privet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plant privet",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "AMOR",
+      "clue": "God of love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of love",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LANE",
+      "clue": "Narrow way or road",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrow way or road",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "UREA",
+      "clue": "Chief solid component of mammalian urine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Chief solid component of mammalian urine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "DHARMA",
+      "clue": "Basic principles of the cosmos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic principles of the cosmos",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Genetic blueprint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "HAD",
+      "clue": "Possessed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "PALL",
+      "clue": "To make dull by satiety",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make dull by satiety",
+        "Hanging cloth used as a blind (especially for a window)",
+        "Same as Pawl"
+      ],
+      "definition": "To make dull by satiety.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "NATION",
+      "clue": "Part, or division, of the people of the earth, distinguished from the rest by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part, or division, of the people of the earth, distinguished from the rest by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Eyelid bump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ADHERE",
+      "clue": "To stick fast or together",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stick fast or together",
+        "Follow through or carry out a plan without deviation",
+        "Stick fast or cleave, as a glutinous substance does"
+      ],
+      "definition": "To stick fast or together.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PIQUE",
+      "clue": "To excite a slight degree of anger in",
+      "definition": "To excite a slight degree of anger in.",
+      "id": "4D"
+    },
+    {
+      "word": "FOGGY",
+      "clue": "Obscure",
+      "definition": "Obscure.",
+      "id": "16A"
+    },
+    {
+      "word": "LOATH",
+      "clue": "Averse",
+      "definition": "Averse.",
+      "id": "28D"
+    },
+    {
+      "word": "OUGHT",
+      "clue": "To be under moral obligation to be or do",
+      "definition": "To be under moral obligation to be or do.",
+      "id": "29A"
+    }
+  ]
+}

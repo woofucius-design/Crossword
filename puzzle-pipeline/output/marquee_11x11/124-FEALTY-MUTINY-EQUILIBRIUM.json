@@ -1,0 +1,863 @@
+{
+  "date": "2027-11-01",
+  "number": 124,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "C",
+      "E",
+      "#",
+      "D",
+      "A",
+      "P",
+      "P",
+      "E",
+      "R"
+    ],
+    [
+      "#",
+      "G",
+      "H",
+      "Q",
+      "#",
+      "C",
+      "H",
+      "E",
+      "E",
+      "S",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "U",
+      "M",
+      "V",
+      "I",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "R",
+      "E",
+      "T",
+      "I",
+      "E",
+      "#",
+      "#",
+      "F",
+      "L",
+      "E",
+      "D"
+    ],
+    [
+      "F",
+      "E",
+      "A",
+      "L",
+      "T",
+      "Y",
+      "#",
+      "E",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "I",
+      "S",
+      "A",
+      "A",
+      "C",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "B",
+      "#",
+      "M",
+      "U",
+      "T",
+      "I",
+      "N",
+      "Y"
+    ],
+    [
+      "O",
+      "D",
+      "E",
+      "R",
+      "#",
+      "#",
+      "R",
+      "I",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "I",
+      "S",
+      "H",
+      "A",
+      "B",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "O",
+      "L",
+      "U",
+      "T",
+      "E",
+      "#",
+      "L",
+      "E",
+      "D",
+      "#"
+    ],
+    [
+      "E",
+      "N",
+      "E",
+      "M",
+      "A",
+      "S",
+      "#",
+      "E",
+      "R",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AGREE",
+      "clue": "In good part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In good part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "CHITA",
+      "clue": "Performer Rivera",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "EQUILIBRIUM",
+      "clue": "A state of balance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "State of balance",
+        "Sensory system located in structures of the inner ear that registers the...",
+        "Equality of weight or force"
+      ],
+      "definition": "A state of balance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "DAPPER",
+      "clue": "Little and active",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Little and active",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "DCV",
+      "clue": "Roman numeral for 605",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 605",
+      "clueSource": "roman"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AHI",
+      "clue": "Tuna at a poke bar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "PERFECTIBLE",
+      "clue": "Capable of being made perfect",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Capable of being made perfect.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "PEALE",
+      "clue": "Portraitist Charles Willson",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ESTER",
+      "clue": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Formed by reaction between an acid and an alcohol with elimination of water",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "REEDY",
+      "clue": "Resembling a reed in being upright and slender",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Resembling a reed in being upright and slender",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "GHQ",
+      "clue": "Military headquarters from which a military commander controls and organizes...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Military headquarters from which a military commander controls and organizes...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "CHEESE",
+      "clue": "Solid food prepared from the pressed curd of milk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Solid food prepared from the pressed curd of milk",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TRIUMVIRATE",
+      "clue": "Group of three men responsible for public administration or civil authority",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of three men responsible for public administration or civil authority",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "TRF",
+      "clue": "Hormone released by the hypothalamus that controls the release of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hormone released by the hypothalamus that controls the release of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "METS",
+      "clue": "NL East team",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "RETIE",
+      "clue": "Tie again or anew",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tie again or anew",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "FLED",
+      "clue": "Ran away from danger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "FEALTY",
+      "clue": "Loyalty",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Loyalty that citizens owe to their country (or subjects to their sovereign)",
+        "Fidelity to one's lord"
+      ],
+      "definition": "Loyalty.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "YAM",
+      "clue": "Large, esculent, farinaceous tuber of various climbing plants of the genus...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large, esculent, farinaceous tuber of various climbing plants of the genus...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "EERY",
+      "clue": "Spooky, var.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ISAAC",
+      "clue": "Second patriarch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second patriarch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "AURA",
+      "clue": "Pervasive psychic influence supposed to emanate from persons",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Distinctive but intangible quality surrounding a person or thing",
+        "Any subtile, invisible emanation, effluvium, or exhalation from a..."
+      ],
+      "definition": "Pervasive psychic influence supposed to emanate from persons",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "COMB",
+      "clue": "Instrument with teeth, for straightening, cleansing, and adjusting the hair,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instrument with teeth, for straightening, cleansing, and adjusting the hair,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "COPSE",
+      "clue": "Wood of small growth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wood of small growth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ODEON",
+      "clue": "Kind of theater in ancient Greece, smaller than the dramatic theater and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Kind of theater in ancient Greece, smaller than the dramatic theater and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MERLE",
+      "clue": "Common black European thrush",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common black European thrush",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "MUTINY",
+      "clue": "Rebellion against lawful or constituted authority",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Open rebellion against constituted authority (especially by seamen or soldiers...",
+        "Insurrection against constituted authority, particularly military or..."
+      ],
+      "definition": "Rebellion against lawful or constituted authority.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "IDLER",
+      "clue": "Person who does no work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who does no work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "NEEDS",
+      "clue": "In such a manner as could not be otherwise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In such a manner as could not be otherwise",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "YRS",
+      "clue": "Long times, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ODER",
+      "clue": "European river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "European river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "RIDER",
+      "clue": "Clause that is appended to a legislative bill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clause that is appended to a legislative bill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "PERISHABLES",
+      "clue": "Foods that will decay rapidly if not refrigerated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Foods that will decay rapidly if not refrigerated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "STA",
+      "clue": "Train stop: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "HES",
+      "clue": "5th letters of the Hebrew alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "5th letters of the Hebrew alphabet",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "SOLUTE",
+      "clue": "Loose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Loose",
+      "clueSource": "webster"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "LED",
+      "clue": "Diode such that light emitted at a p-n junction is proportional to the bias...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diode such that light emitted at a p-n junction is proportional to the bias...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ENEMAS",
+      "clue": "Injections of a liquid through the anus to stimulate evacuation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Injections of a liquid through the anus to stimulate evacuation",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "ERS",
+      "clue": "Bitter vetch (Ervum Ervilia)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bitter vetch (Ervum Ervilia)",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "EQUILIBRIUM",
+      "clue": "A state of balance",
+      "definition": "A state of balance.",
+      "id": "3D"
+    },
+    {
+      "word": "PERFECTIBLE",
+      "clue": "Capable of being made perfect",
+      "definition": "Capable of being made perfect.",
+      "id": "6D"
+    },
+    {
+      "word": "FEALTY",
+      "clue": "Loyalty",
+      "definition": "Loyalty.",
+      "id": "16A"
+    },
+    {
+      "word": "MUTINY",
+      "clue": "Rebellion against lawful or constituted authority",
+      "definition": "Rebellion against lawful or constituted authority.",
+      "id": "24A"
+    }
+  ]
+}

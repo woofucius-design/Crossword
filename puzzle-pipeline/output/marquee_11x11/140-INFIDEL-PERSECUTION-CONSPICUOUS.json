@@ -1,0 +1,902 @@
+{
+  "date": "2027-11-17",
+  "number": 140,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "A",
+      "R",
+      "I",
+      "S",
+      "#",
+      "#",
+      "S",
+      "S",
+      "A"
+    ],
+    [
+      "I",
+      "N",
+      "F",
+      "I",
+      "D",
+      "E",
+      "L",
+      "#",
+      "T",
+      "N",
+      "G"
+    ],
+    [
+      "P",
+      "E",
+      "R",
+      "S",
+      "E",
+      "C",
+      "U",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "E",
+      "I",
+      "K",
+      "O",
+      "#",
+      "C",
+      "H",
+      "L",
+      "O",
+      "E"
+    ],
+    [
+      "O",
+      "R",
+      "C",
+      "#",
+      "#",
+      "F",
+      "I",
+      "E",
+      "L",
+      "D",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "A",
+      "R",
+      "D",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "A",
+      "D",
+      "Y",
+      "#",
+      "#",
+      "C",
+      "S",
+      "C"
+    ],
+    [
+      "U",
+      "R",
+      "I",
+      "N",
+      "E",
+      "#",
+      "A",
+      "L",
+      "O",
+      "H",
+      "A"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "S",
+      "P",
+      "I",
+      "C",
+      "U",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "U",
+      "M",
+      "E",
+      "#",
+      "T",
+      "A",
+      "N",
+      "G",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "S",
+      "A",
+      "R",
+      "#",
+      "#",
+      "N",
+      "E",
+      "E",
+      "D",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SARIS",
+      "clue": "Dresses worn primarily by Hindu women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dresses worn primarily by Hindu women",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SNEER",
+      "clue": "Show contempt by turning up the nose, or by a particular facial expression",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Show contempt by turning up the nose, or by a particular facial expression",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AFRIC",
+      "clue": "African",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "African",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "RISK",
+      "clue": "Venture undertaken without regard to possible loss or injury",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Venture undertaken without regard to possible loss or injury",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "IDEO",
+      "clue": "Famed design firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SEC",
+      "clue": "Wait a moment!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SSA",
+      "clue": "Independent government agency responsible for the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent government agency responsible for the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "STILL",
+      "clue": "Placid?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLACID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of placid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SNOOD",
+      "clue": "Ornamental net in the shape of a bag that confines a woman's hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ornamental net in the shape of a bag that confines a woman's hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "AGNES",
+      "clue": "Hurricane of 1972",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "INFIDEL",
+      "clue": "One who denies the existence of God",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Person who does not acknowledge your god",
+        "Not holding the faith"
+      ],
+      "definition": "One who denies the existence of God.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "IPSO",
+      "clue": "___ facto",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LUCID",
+      "clue": "Clearly expressed; easy to follow",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Clear, coherent; easy to understand",
+        "Transparently clear",
+        "Shining"
+      ],
+      "definition": "clear, coherent; easy to understand",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TNG",
+      "clue": "Picard-era sci-fi series, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PERSECUTION",
+      "clue": "Harsh or malignant oppression",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Harsh or malignant oppression.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "THEY",
+      "clue": "Third-person plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SEIKO",
+      "clue": "Watch brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "CHLOE",
+      "clue": "Designer's first name in fashion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ORC",
+      "clue": "Grampus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grampus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "FIELDS",
+      "clue": "United States comedian and film actor (1880-1946)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States comedian and film actor (1880-1946)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "FRY",
+      "clue": "Young person of either sex",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young person of either sex",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "HARDY",
+      "clue": "Robust?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ROBUST"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of robust",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "HANS",
+      "clue": "Imperial dynasties that ruled China (most of the time from BC to AD and",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imperial dynasties that ruled China (most of the time from BC to AD and",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "ADEPT",
+      "clue": "Highly skilled",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Very skilled or proficient at something",
+        "Having or showing knowledge and skill and aptitude",
+        "One fully skilled or well versed in anything"
+      ],
+      "definition": "very skilled or proficient at something",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "MALADY",
+      "clue": "Any physical disease or disorder, especially a chronic or deep-seated one",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Impairment of normal physiological function affecting part or all of an organism",
+        "Any disease of the human body"
+      ],
+      "definition": "Any physical disease or disorder, especially a chronic or deep-seated one.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MUCUS",
+      "clue": "Viscid fluid secreted by mucous membranes, which it serves to moisten and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Viscid fluid secreted by mucous membranes, which it serves to moisten and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AROMA",
+      "clue": "An agreeable odor",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Agreeable odor",
+        "Any property detected by the olfactory system",
+        "Quality or principle of plants or other substances which..."
+      ],
+      "definition": "An agreeable odor.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LINER",
+      "clue": "Hit that flies straight out from the batter",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A vessel belonging to a steamship-line.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "CSC",
+      "clue": "Trig ratio, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "COOED",
+      "clue": "Cried softly, as of pigeons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cried softly, as of pigeons",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "SHUNS",
+      "clue": "Avoids and stays away from deliberately",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Avoids and stays away from deliberately",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "CAST",
+      "clue": "Send or drive by force",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Send or drive by force",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "URINE",
+      "clue": "Liquid excretory product",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liquid excretory product",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ALOHA",
+      "clue": "Hawaiian hello",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ACNE",
+      "clue": "Inflammatory disease involving the sebaceous glands of the skin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inflammatory disease involving the sebaceous glands of the skin",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LUGE",
+      "clue": "Racing sled for one or two people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Racing sled for one or two people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CONSPICUOUS",
+      "clue": "Clearly visible",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Obvious to the eye or mind",
+        "Open to the view"
+      ],
+      "definition": "Clearly visible.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IAN",
+      "clue": "Actor McKellen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "UME",
+      "clue": "Japanese plum used for sweet wine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "TANGENT",
+      "clue": "Touching",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ratio of the opposite to the adjacent side of a right-angled triangle"
+      ],
+      "definition": "Touching.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SAR",
+      "clue": "Search-and-rescue, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "NEEDS",
+      "clue": "In such a manner as could not be otherwise",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In such a manner as could not be otherwise",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "INFIDEL",
+      "clue": "One who denies the existence of God",
+      "definition": "One who denies the existence of God.",
+      "id": "9A"
+    },
+    {
+      "word": "PERSECUTION",
+      "clue": "Harsh or malignant oppression",
+      "definition": "Harsh or malignant oppression.",
+      "id": "12A"
+    },
+    {
+      "word": "CONSPICUOUS",
+      "clue": "Clearly visible",
+      "definition": "Clearly visible.",
+      "id": "29A"
+    },
+    {
+      "word": "TANGENT",
+      "clue": "Touching",
+      "definition": "Touching.",
+      "id": "32A"
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "date": "2028-02-14",
+  "number": 229,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "O",
+      "B",
+      "S",
+      "E",
+      "S",
+      "S",
+      "#",
+      "#",
+      "S",
+      "U",
+      "P"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "E",
+      "M",
+      "P",
+      "T",
+      "#",
+      "E",
+      "P",
+      "I"
+    ],
+    [
+      "T",
+      "U",
+      "R",
+      "N",
+      "A",
+      "R",
+      "O",
+      "U",
+      "N",
+      "D",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "#",
+      "C",
+      "A",
+      "R",
+      "D",
+      "I",
+      "A",
+      "C"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "K",
+      "T",
+      "#",
+      "D",
+      "O",
+      "T",
+      "E"
+    ],
+    [
+      "L",
+      "A",
+      "D",
+      "E",
+      "S",
+      "#",
+      "C",
+      "E",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "N",
+      "#",
+      "S",
+      "U",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "O",
+      "Y",
+      "C",
+      "O",
+      "T",
+      "T",
+      "#",
+      "R",
+      "E",
+      "L"
+    ],
+    [
+      "I",
+      "N",
+      "T",
+      "E",
+      "R",
+      "R",
+      "E",
+      "L",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "U",
+      "S",
+      "O",
+      "#",
+      "D",
+      "I",
+      "S",
+      "A",
+      "V",
+      "O",
+      "W"
+    ],
+    [
+      "M",
+      "O",
+      "N",
+      "#",
+      "#",
+      "A",
+      "T",
+      "T",
+      "E",
+      "N",
+      "D"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "OBSESS",
+      "clue": "Haunt like a ghost",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Haunt like a ghost",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "OPTS",
+      "clue": "Selects as an alternative over another",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Selects as an alternative over another",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "BRUT",
+      "clue": "Extremely dry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extremely dry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "SERA",
+      "clue": "Antibody-rich fluids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EEN",
+      "clue": "Evenings, poetically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SMACKS",
+      "clue": "Presses (the lips) together and opens (the lips) noisily, as in eating",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Presses (the lips) together and opens (the lips) noisily, as in eating",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SPRAT",
+      "clue": "Small herring processed like a sardine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small herring processed like a sardine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SUP",
+      "clue": "Small amount of liquid food",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small amount of liquid food",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "SENIOR",
+      "clue": "Person who is older than you are",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is older than you are",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "UPDATE",
+      "clue": "Modernize or bring up to date",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Modernize or bring up to date",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "PISCES",
+      "clue": "Group of vertebrates comprising both cartilaginous and bony fishes and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Group of vertebrates comprising both cartilaginous and bony fishes and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "PREEMPT",
+      "clue": "To secure the right of preference in the purchase of public land",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Secure the right of preference in the purchase of public land",
+        "High bid that is intended to prevent the opposing players from bidding",
+        "Settle upon (public land) with a right of preemption, as under the..."
+      ],
+      "definition": "To secure the right of preference in the purchase of public land.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TOR",
+      "clue": "High rocky hill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "High rocky hill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "EPI",
+      "clue": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Self-report personality inventory based on Hans Eysenck's factor analysis of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "TURNAROUNDS",
+      "clue": "Turnings in the opposite direction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Turnings in the opposite direction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "UDDER",
+      "clue": "Glandular organ in which milk is secreted and stored",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Glandular organ in which milk is secreted and stored",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "STA",
+      "clue": "Train stop: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "CARDIAC",
+      "clue": "Pertaining to the heart",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to the heart",
+        "Pertaining to, resembling, or hear the heart"
+      ],
+      "definition": "Pertaining to the heart.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "PKT",
+      "clue": "Small pouch: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "PENCE",
+      "clue": "Former VP Mike",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "DOTE",
+      "clue": "Marriage portion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marriage portion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "LADES",
+      "clue": "Male child (a familiar terms of address to a boy)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Male child (a familiar terms of address to a boy)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "LABIUM",
+      "clue": "Liplike structure that bounds a bodily orifice (especially any of the four...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liplike structure that bounds a bodily orifice (especially any of the four...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ALONSO",
+      "clue": "Cuban dancer and choreographer (born in 1921)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cuban dancer and choreographer (born in 1921)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "DAYTON",
+      "clue": "City in southwest Ohio",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in southwest Ohio",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "CERES",
+      "clue": "Largest asteroid and the first discovered",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest asteroid and the first discovered",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "CUTEST",
+      "clue": "Most with parts removed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most with parts removed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAN",
+      "clue": "Wolfhound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wolfhound",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "SUR",
+      "clue": "Port in southern Lebanon on the Mediterranean Sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port in southern Lebanon on the Mediterranean Sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "STRIA",
+      "clue": "Minute groove, or channel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Minute groove, or channel",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "BOYCOTT",
+      "clue": "To place the products or merchandise of under a ban",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Place the products or merchandise of under a ban",
+        "Group's refusal to have commercial dealings with some organization in protest...",
+        "Combine against (a landlord, tradesman, employer, or other..."
+      ],
+      "definition": "To place the products or merchandise of under a ban.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ORD",
+      "clue": "Edge or point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Edge or point",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "REL",
+      "clue": "Kin, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "RAVE",
+      "clue": "One of the upper side pieces of the frame of a wagon body or a sleigh",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the upper side pieces of the frame of a wagon body or a sleigh",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ETON",
+      "clue": "Posh British school",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "LEWD",
+      "clue": "Characterized by lust or lasciviousness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Suggestive of or tending to moral looseness",
+        "Not clerical"
+      ],
+      "definition": "Characterized by lust or lasciviousness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INTERRELATE",
+      "clue": "Place into a mutual relationship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place into a mutual relationship",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "LAT",
+      "clue": "Broad flat muscle on either side of the back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Broad flat muscle on either side of the back",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "USO",
+      "clue": "Troop-entertaining org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "DISAVOW",
+      "clue": "To disclaim responsibility for",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Disclaim responsibility for",
+        "Refuse to acknowledge",
+        "Refuse strongly and solemnly to own or acknowledge"
+      ],
+      "definition": "To disclaim responsibility for.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "MON",
+      "clue": "Day after Sun.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ATTEND",
+      "clue": "Direct the attention to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Direct the attention to",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PREEMPT",
+      "clue": "To secure the right of preference in the purchase of public land",
+      "definition": "To secure the right of preference in the purchase of public land.",
+      "id": "10A"
+    },
+    {
+      "word": "CARDIAC",
+      "clue": "Pertaining to the heart",
+      "definition": "Pertaining to the heart.",
+      "id": "16A"
+    },
+    {
+      "word": "BOYCOTT",
+      "clue": "To place the products or merchandise of under a ban",
+      "definition": "To place the products or merchandise of under a ban.",
+      "id": "25A"
+    },
+    {
+      "word": "DISAVOW",
+      "clue": "To disclaim responsibility for",
+      "definition": "To disclaim responsibility for.",
+      "id": "33A"
+    }
+  ]
+}

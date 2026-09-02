@@ -1,0 +1,906 @@
+{
+  "date": "2027-07-04",
+  "number": 4,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "T",
+      "A",
+      "T",
+      "U",
+      "M",
+      "#",
+      "#",
+      "A",
+      "S",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "I",
+      "N",
+      "A",
+      "R",
+      "#",
+      "H",
+      "E",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "D",
+      "I",
+      "C",
+      "A",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "A",
+      "N",
+      "N",
+      "E",
+      "X",
+      "#",
+      "T",
+      "O",
+      "A",
+      "S",
+      "T"
+    ],
+    [
+      "S",
+      "S",
+      "D",
+      "#",
+      "#",
+      "D",
+      "I",
+      "O",
+      "D",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "N",
+      "O",
+      "R",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "A",
+      "G",
+      "A",
+      "#",
+      "#",
+      "S",
+      "D",
+      "I"
+    ],
+    [
+      "A",
+      "C",
+      "I",
+      "N",
+      "I",
+      "#",
+      "S",
+      "A",
+      "T",
+      "A",
+      "N"
+    ],
+    [
+      "T",
+      "R",
+      "A",
+      "N",
+      "S",
+      "P",
+      "A",
+      "R",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "T",
+      "E",
+      "R",
+      "#",
+      "M",
+      "A",
+      "R",
+      "T",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "E",
+      "S",
+      "S",
+      "#",
+      "#",
+      "W",
+      "A",
+      "Y",
+      "N",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TATUM",
+      "clue": "United States jazz pianist who was almost completely blind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States jazz pianist who was almost completely blind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "TERNS",
+      "clue": "Small slender gulls having narrow wings and a forked tail",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small slender gulls having narrow wings and a forked tail",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AMEND",
+      "clue": "Set straight or right",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set straight or right",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "TIDE",
+      "clue": "Time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "UNIX",
+      "clue": "Trademark for a powerful operating system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trademark for a powerful operating system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "MAC",
+      "clue": "Apple computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "ASS",
+      "clue": "Stubborn pack animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "AHEAD",
+      "clue": "At or in the front",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or in the front",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SENSE",
+      "clue": "The signification conveyed by some word, phrase, or action",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Signification conveyed by some word, phrase, or action",
+        "Sound practical judgment",
+        "Faculty, possessed by animals, of perceiving external objects by..."
+      ],
+      "definition": "The signification conveyed by some word, phrase, or action.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SETTS",
+      "clue": "Rectangulars paving stone with curved top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rectangulars paving stone with curved top",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "SEMINAR",
+      "clue": "Any assemblage of pupils for real research in some specific study under",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Any assemblage of pupils for real research in some specific study under a",
+        "Course offered for a small group of advanced students",
+        "Group of students engaged, under the guidance of an instructor, in..."
+      ],
+      "definition": "Any assemblage of pupils for real research in some specific study under a",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "SPAS",
+      "clue": "Places of business with equipment and facilities for exercising",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Places of business with equipment and facilities for exercising",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RATIO",
+      "clue": "Relation between things (or parts of things) with respect to their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relation between things (or parts of things) with respect to their...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "HEE",
+      "clue": "___-Haw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PREDICAMENT",
+      "clue": "A difficult, trying situation or plight",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Difficult, trying situation or plight",
+        "Situation from which extrication is difficult especially an unpleasant or...",
+        "Class or kind described by any definite marks"
+      ],
+      "definition": "A difficult, trying situation or plight.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "MOOR",
+      "clue": "Open land usually with peaty soil covered with heather and bracken and moss",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open land usually with peaty soil covered with heather and bracken and moss",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "ANNEX",
+      "clue": "To add or affix at the end",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Add or affix at the end",
+        "Addition that extends a main building",
+        "Join or attach"
+      ],
+      "definition": "To add or affix at the end.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "TOAST",
+      "clue": "Dry and brown by the heat of a fire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dry and brown by the heat of a fire",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "DIODES",
+      "clue": "Semiconductors that consist of a p-n junction",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Semiconductors that consist of a p-n junction",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Genetic blueprint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "MANOR",
+      "clue": "The landed estate of a lord or nobleman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Landed estate of a lord or nobleman",
+        "Mansion of a lord or wealthy person",
+        "Land belonging to a lord or nobleman, or so much land as a lord..."
+      ],
+      "definition": "The landed estate of a lord or nobleman.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "MANN",
+      "clue": "German writer concerned about the role of the artist in bourgeois society...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "German writer concerned about the role of the artist in bourgeois society...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "AGISM",
+      "clue": "Discrimination against middle-aged and elderly people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Discrimination against middle-aged and elderly people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "MALAGA",
+      "clue": "Port city and resort in Andalusia in southern Spain on the Mediterranean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city and resort in Andalusia in southern Spain on the Mediterranean",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "MATTE",
+      "clue": "Property of having little or no contrast",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property of having little or no contrast",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ACRES",
+      "clue": "Extensive landed property (especially in the country) retained by the owner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extensive landed property (especially in the country) retained by the owner for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LIARS",
+      "clue": "People who have lied or who lies repeatedly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who have lied or who lies repeatedly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "STEIN",
+      "clue": "Mug intended for serving beer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mug intended for serving beer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DANAE",
+      "clue": "Greek myth princess",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "INTL",
+      "clue": "Global, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "Grape-cluster-shaped gland sacs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "SATAN",
+      "clue": "Grand adversary of man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grand adversary of man",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "SARA",
+      "clue": "Singer Bareilles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ARTY",
+      "clue": "Showily imitative of art or artists",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Showily imitative of art or artists",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "TRANSPARENT",
+      "clue": "Easy to see through or understand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Transmitting light",
+        "Having the property of transmitting rays of light, so that bodies can..."
+      ],
+      "definition": "Easy to see through or understand.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "PAW",
+      "clue": "Foot of a quadruped having claws, as the lion, dog, cat, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Foot of a quadruped having claws, as the lion, dog, cat, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "TER",
+      "clue": "Three: Prefix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "MARTIAL",
+      "clue": "Pertaining to war or military operations",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Befitting a warrior",
+        "Of, pertaining to, or suited for, war"
+      ],
+      "definition": "Pertaining to war or military operations.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ESS",
+      "clue": "Curvy letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "WAYNE",
+      "clue": "American general during the American Revolution (1745-1796)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American general during the American Revolution (1745-1796)",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "SEMINAR",
+      "clue": "Any assemblage of pupils for real research in some specific study under",
+      "definition": "Any assemblage of pupils for real research in some specific study under a",
+      "id": "9A"
+    },
+    {
+      "word": "PREDICAMENT",
+      "clue": "A difficult, trying situation or plight",
+      "definition": "A difficult, trying situation or plight.",
+      "id": "12A"
+    },
+    {
+      "word": "MANOR",
+      "clue": "The landed estate of a lord or nobleman",
+      "definition": "The landed estate of a lord or nobleman.",
+      "id": "18A"
+    },
+    {
+      "word": "TRANSPARENT",
+      "clue": "Easy to see through or understand",
+      "definition": "Easy to see through or understand.",
+      "id": "29A"
+    },
+    {
+      "word": "MARTIAL",
+      "clue": "Pertaining to war or military operations",
+      "definition": "Pertaining to war or military operations.",
+      "id": "32A"
+    }
+  ]
+}

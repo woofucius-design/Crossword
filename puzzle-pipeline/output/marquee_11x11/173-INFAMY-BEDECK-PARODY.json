@@ -1,0 +1,919 @@
+{
+  "date": "2027-12-20",
+  "number": 173,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "R",
+      "A",
+      "M",
+      "#",
+      "S",
+      "T",
+      "U",
+      "A",
+      "R",
+      "T"
+    ],
+    [
+      "L",
+      "O",
+      "M",
+      "A",
+      "#",
+      "D",
+      "E",
+      "N",
+      "S",
+      "E",
+      "R"
+    ],
+    [
+      "U",
+      "S",
+      "E",
+      "S",
+      "#",
+      "I",
+      "N",
+      "F",
+      "A",
+      "M",
+      "Y"
+    ],
+    [
+      "M",
+      "I",
+      "N",
+      "T",
+      "S",
+      "#",
+      "#",
+      "A",
+      "N",
+      "U",
+      "S"
+    ],
+    [
+      "B",
+      "E",
+      "D",
+      "E",
+      "C",
+      "K",
+      "#",
+      "V",
+      "A",
+      "S",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "H",
+      "I",
+      "N",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "T",
+      "B",
+      "S",
+      "P",
+      "#",
+      "P",
+      "A",
+      "R",
+      "O",
+      "D",
+      "Y"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "I",
+      "#",
+      "#",
+      "M",
+      "A",
+      "C",
+      "R",
+      "O"
+    ],
+    [
+      "M",
+      "A",
+      "K",
+      "E",
+      "U",
+      "P",
+      "#",
+      "B",
+      "E",
+      "A",
+      "L"
+    ],
+    [
+      "E",
+      "R",
+      "E",
+      "C",
+      "T",
+      "S",
+      "#",
+      "L",
+      "A",
+      "C",
+      "K"
+    ],
+    [
+      "R",
+      "E",
+      "S",
+      "E",
+      "C",
+      "T",
+      "#",
+      "E",
+      "N",
+      "O",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "PRAM",
+      "clue": "Small vehicle with four wheels in which a baby or child is pushed around",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small vehicle with four wheels in which a baby or child is pushed around",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "PLUMB",
+      "clue": "A weight suspended by a line to test the verticality of something",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Weight suspended by a line to test the verticality of something",
+        "Exactly vertical",
+        "Little mass or weight of lead, or the like, attached to a line, and..."
+      ],
+      "definition": "A weight suspended by a line to test the verticality of something.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ROSIE",
+      "clue": "Riveter of WWII posters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AMEND",
+      "clue": "Set straight or right",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set straight or right",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MASTERPIECE",
+      "clue": "A superior production",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Superior production",
+        "Outstanding achievement",
+        "Anything done or made with extraordinary skill"
+      ],
+      "definition": "A superior production.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "STUART",
+      "clue": "Royal family that ruled Scotland from 1371-1714 and ruled England from 1603...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Royal family that ruled Scotland from 1371-1714 and ruled England from 1603...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SDI",
+      "clue": "Reagan-era 'Star Wars' defense plan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "TEN",
+      "clue": "Perfect gymnastics score",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "UNFAVORABLE",
+      "clue": "Adverse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Tending to hinder or oppose",
+        "Not favorable"
+      ],
+      "definition": "Adverse.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ASANA",
+      "clue": "Posture or manner of sitting (as in the practice of yoga)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Posture or manner of sitting (as in the practice of yoga)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "REMUS",
+      "clue": "Twin brother of Romulus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Twin brother of Romulus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "TRYST",
+      "clue": "Trust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Trust",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LOMA",
+      "clue": "Lobe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lobe",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "DENSER",
+      "clue": "More slow to learn or understand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More slow to learn or understand",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "USES",
+      "clue": "Puts to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "INFAMY",
+      "clue": "Total loss or destitution of honor or reputation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Evil fame or public reputation",
+        "Total loss of reputation"
+      ],
+      "definition": "Total loss or destitution of honor or reputation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "MINTS",
+      "clue": "Plants where money is coined by authority of the government",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plants where money is coined by authority of the government",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SCH",
+      "clue": "Where students go: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "ANUS",
+      "clue": "Excretory opening at the end of the alimentary canal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Excretory opening at the end of the alimentary canal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "BEDECK",
+      "clue": "To cover with ornament",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cover with ornament",
+        "Decorate",
+        "Deck, ornament, or adorn"
+      ],
+      "definition": "To cover with ornament.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "KIP",
+      "clue": "Hide of a young or small beef creature, or leather made from it",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hide of a young or small beef creature, or leather made from it",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "VAST",
+      "clue": "Unusually great in size or amount or degree or especially extent or scope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unusually great in size or amount or degree or especially extent or scope",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "RHINO",
+      "clue": "Gold and silver, or money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gold and silver, or money",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "NAM",
+      "clue": "Am not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Am not",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "TBSP",
+      "clue": "Cooking meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "TAMER",
+      "clue": "One who corrects by punishment or discipline",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who corrects by punishment or discipline",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BLARE",
+      "clue": "Cacophony?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "CACOPHONY"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of cacophony",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SAKES",
+      "clue": "Reasons for wanting something done",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reasons for wanting something done",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "PARODY",
+      "clue": "To render ludicrous by imitating the language of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Render ludicrous by imitating the language of",
+        "Humorous or satirical mimicry",
+        "Writing in which the language or sentiment of an author is mimicked"
+      ],
+      "definition": "To render ludicrous by imitating the language of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Whole body of salt water which covers more than three fifths of the surface...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Whole body of salt water which covers more than three fifths of the surface...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "DRACO",
+      "clue": "Dragon, a northern constellation within which is the north pole of the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dragon, a northern constellation within which is the north pole of the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "YOLKS",
+      "clue": "Nutritive materials of an ovum stored for the nutrition of an embryo",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nutritive materials of an ovum stored for the nutrition of an embryo",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "MACRO",
+      "clue": "Single computer instruction that results in a series of instructions in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Single computer instruction that results in a series of instructions in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "MAKEUP",
+      "clue": "The arrangements or combination of the parts of which anything is composed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Arrangements or combination of the parts of which anything is composed",
+        "Cosmetics applied to the face to improve or change your appearance"
+      ],
+      "definition": "The arrangements or combination of the parts of which anything is composed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "UTC",
+      "clue": "Greenwich Mean Time updated with leap seconds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greenwich Mean Time updated with leap seconds",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "PST",
+      "clue": "Standard time in the 8th time zone west of Greenwich, reckoned at the 120th...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Standard time in the 8th time zone west of Greenwich, reckoned at the 120th...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "BEAL",
+      "clue": "Small inflammatory tumor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small inflammatory tumor",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ERECTS",
+      "clue": "Builds upright",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "LACK",
+      "clue": "Be without",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be without",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "RESECT",
+      "clue": "Surgically remove a part of a structure or an organ",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Surgically remove a part of a structure or an organ",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ENOS",
+      "clue": "Grandson of Adam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "INFAMY",
+      "clue": "Total loss or destitution of honor or reputation",
+      "definition": "Total loss or destitution of honor or reputation.",
+      "id": "14A"
+    },
+    {
+      "word": "BEDECK",
+      "clue": "To cover with ornament",
+      "definition": "To cover with ornament.",
+      "id": "18A"
+    },
+    {
+      "word": "PARODY",
+      "clue": "To render ludicrous by imitating the language of",
+      "definition": "To render ludicrous by imitating the language of.",
+      "id": "26A"
+    },
+    {
+      "word": "MAKEUP",
+      "clue": "The arrangements or combination of the parts of which anything is composed",
+      "definition": "The arrangements or combination of the parts of which anything is composed.",
+      "id": "32A"
+    }
+  ]
+}

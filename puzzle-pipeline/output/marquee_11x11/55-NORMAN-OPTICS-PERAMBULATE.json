@@ -1,0 +1,914 @@
+{
+  "date": "2027-08-24",
+  "number": 55,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "F",
+      "L",
+      "O",
+      "P",
+      "#",
+      "B",
+      "E",
+      "S",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "R",
+      "I",
+      "S",
+      "E",
+      "#",
+      "B",
+      "R",
+      "U",
+      "N",
+      "E",
+      "T"
+    ],
+    [
+      "E",
+      "M",
+      "I",
+      "R",
+      "#",
+      "S",
+      "A",
+      "B",
+      "I",
+      "N",
+      "E"
+    ],
+    [
+      "O",
+      "B",
+      "E",
+      "A",
+      "H",
+      "#",
+      "#",
+      "S",
+      "A",
+      "N",
+      "E"
+    ],
+    [
+      "N",
+      "O",
+      "R",
+      "M",
+      "A",
+      "N",
+      "#",
+      "I",
+      "C",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "L",
+      "E",
+      "S",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "U",
+      "#",
+      "O",
+      "P",
+      "T",
+      "I",
+      "C",
+      "S"
+    ],
+    [
+      "A",
+      "X",
+      "E",
+      "L",
+      "#",
+      "#",
+      "A",
+      "E",
+      "S",
+      "O",
+      "P"
+    ],
+    [
+      "H",
+      "E",
+      "R",
+      "A",
+      "L",
+      "D",
+      "#",
+      "N",
+      "A",
+      "N",
+      "A"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "T",
+      "O",
+      "N",
+      "#",
+      "C",
+      "A",
+      "D",
+      "I"
+    ],
+    [
+      "S",
+      "T",
+      "E",
+      "E",
+      "R",
+      "S",
+      "#",
+      "E",
+      "C",
+      "O",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "FLOP",
+      "clue": "Act of throwing yourself down",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of throwing yourself down",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "FREON",
+      "clue": "Any one or more chlorofluorocarbons (or related compounds)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any one or more chlorofluorocarbons (or related compounds) that are used as an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LIMBO",
+      "clue": "Extramundane region where certain classes of souls were supposed to await...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extramundane region where certain classes of souls were supposed to await...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "OSIER",
+      "clue": "Any of various willows having pliable twigs used in basketry and furniture",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various willows having pliable twigs used in basketry and furniture",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PERAMBULATE",
+      "clue": "To walk about",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Walk about",
+        "Walk with no particular goal",
+        "Walk through or over"
+      ],
+      "definition": "To walk about.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "BESETS",
+      "clue": "Attacks on all sides",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Attacks on all sides",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "BBS",
+      "clue": "Computer that is running software that allows users to leave messages and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Computer that is running software that allows users to leave messages and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SUBSISTENCE",
+      "clue": "Sustenance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Real being"
+      ],
+      "definition": "Sustenance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ENIAC",
+      "clue": "Early computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TENNO",
+      "clue": "Emperor of Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Emperor of Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "STEEN",
+      "clue": "Dutch genre painter (1626-1679)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch genre painter (1626-1679)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "RISE",
+      "clue": "Get up and out of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get up and out of bed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "BRUNET",
+      "clue": "Person with dark (brown) hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person with dark (brown) hair",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "EMIR",
+      "clue": "Arabian military commander, independent chieftain, or ruler of a province",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arabian military commander, independent chieftain, or ruler of a province",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "SABINE",
+      "clue": "River in eastern Texas that flows south into the Gulf of Mexico",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River in eastern Texas that flows south into the Gulf of Mexico",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "OBEAH",
+      "clue": "Same as Obi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Obi",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "HAL",
+      "clue": "\"2001\" computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "SANE",
+      "clue": "Marked by sound judgment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by sound judgment",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "NORMAN",
+      "clue": "Of or peculiar to Normandy, in northern France",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Wooden bar, or iron pin. W. C. Russell. Of or pertaining to..."
+      ],
+      "definition": "Of or peculiar to Normandy, in northern France.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NEO",
+      "clue": "Prefix meaning new",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ICON",
+      "clue": "An image or likeness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Image or likeness",
+        "Conventional religious painting in oil on a small wooden panel",
+        "Image or representation"
+      ],
+      "definition": "An image or likeness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BLESS",
+      "clue": "Make or pronounce holy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make or pronounce holy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "SPA",
+      "clue": "Massage venue",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "An escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Escort or lover",
+        "Man who is the lover of a girl or young woman",
+        "Man who takes great care to dress in the latest fashion"
+      ],
+      "definition": "An escort or lover.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "BAHTS",
+      "clue": "Basic units of money in Thailand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic units of money in Thailand",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "EXERT",
+      "clue": "To make an effort",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make an effort",
+        "Put to use",
+        "Thrust forth"
+      ],
+      "definition": "To make an effort.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AERIE",
+      "clue": "Any habitation at a high altitude",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any habitation at a high altitude",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "OPTICS",
+      "clue": "The science that treats of light and vision, and all that is connected",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Science that treats of light and vision, and all that is connected",
+        "Science that treats of light and vision, and all that is connected with",
+        "That branch of physical science which treats of the nature and..."
+      ],
+      "definition": "The science that treats of light and vision, and all that is connected with",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ISAAC",
+      "clue": "Second patriarch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Second patriarch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "CONDO",
+      "clue": "One of the dwelling units in a condominium",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the dwelling units in a condominium",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "SPAIN",
+      "clue": "Parliamentary monarchy in southwestern Europe on the Iberian Peninsula",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Parliamentary monarchy in southwestern Europe on the Iberian Peninsula",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "AXEL",
+      "clue": "Figure-skating jump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "AESOP",
+      "clue": "Greek author of fables (circa 620-560 BC)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greek author of fables (circa 620-560 BC)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "HERALD",
+      "clue": "Something that precedes and indicates the approach of something or someone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something that precedes and indicates the approach of something or someone",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "LOR",
+      "clue": "Mild British exclamation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "DNS",
+      "clue": "Internet directory, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internet directory, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "NANA",
+      "clue": "Grandma, affectionately",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "TRITON",
+      "clue": "Small usually bright-colored semiaquatic salamanders of North America and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small usually bright-colored semiaquatic salamanders of North America and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "CADI",
+      "clue": "Inferior magistrate or judge among the Mohammedans, usually the judge of a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inferior magistrate or judge among the Mohammedans, usually the judge of a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "STEERS",
+      "clue": "Directs the course",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Directs the course",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ECON",
+      "clue": "Dismal sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PERAMBULATE",
+      "clue": "To walk about",
+      "definition": "To walk about.",
+      "id": "4D"
+    },
+    {
+      "word": "SUBSISTENCE",
+      "clue": "Sustenance",
+      "definition": "Sustenance.",
+      "id": "7D"
+    },
+    {
+      "word": "NORMAN",
+      "clue": "Of or peculiar to Normandy, in northern France",
+      "definition": "Of or peculiar to Normandy, in northern France.",
+      "id": "18A"
+    },
+    {
+      "word": "OPTICS",
+      "clue": "The science that treats of light and vision, and all that is connected",
+      "definition": "The science that treats of light and vision, and all that is connected with",
+      "id": "26A"
+    }
+  ]
+}

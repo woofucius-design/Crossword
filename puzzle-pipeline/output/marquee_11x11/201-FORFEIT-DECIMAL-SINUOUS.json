@@ -1,0 +1,902 @@
+{
+  "date": "2028-01-17",
+  "number": 201,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "O",
+      "D",
+      "D",
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "M",
+      "E",
+      "T"
+    ],
+    [
+      "F",
+      "O",
+      "R",
+      "F",
+      "E",
+      "I",
+      "T",
+      "#",
+      "A",
+      "S",
+      "A"
+    ],
+    [
+      "F",
+      "E",
+      "A",
+      "S",
+      "I",
+      "B",
+      "I",
+      "L",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "S",
+      "W",
+      "#",
+      "D",
+      "E",
+      "C",
+      "I",
+      "M",
+      "A",
+      "L"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "K",
+      "E",
+      "T",
+      "#",
+      "V",
+      "E",
+      "T",
+      "O"
+    ],
+    [
+      "O",
+      "C",
+      "T",
+      "A",
+      "L",
+      "#",
+      "R",
+      "I",
+      "D",
+      "E",
+      "R"
+    ],
+    [
+      "B",
+      "L",
+      "E",
+      "B",
+      "#",
+      "L",
+      "E",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "I",
+      "N",
+      "U",
+      "O",
+      "U",
+      "S",
+      "#",
+      "H",
+      "A",
+      "S"
+    ],
+    [
+      "E",
+      "M",
+      "P",
+      "L",
+      "A",
+      "C",
+      "E",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "S",
+      "E",
+      "I",
+      "#",
+      "F",
+      "R",
+      "A",
+      "I",
+      "L",
+      "T",
+      "Y"
+    ],
+    [
+      "S",
+      "S",
+      "N",
+      "#",
+      "#",
+      "E",
+      "L",
+      "A",
+      "P",
+      "S",
+      "E"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ODDEST",
+      "clue": "Most not easily explained",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most not easily explained",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "OFFS",
+      "clue": "Play-___ (postseason games)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "DOES",
+      "clue": "Behaves in a certain manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Behaves in a certain manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "DRAW",
+      "clue": "Sketch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "EFS",
+      "clue": "Grades below dees",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "SEIDEL",
+      "clue": "Glass for beer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Glass for beer",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "TIBET",
+      "clue": "Autonomous region of the Peoples Republic of China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Autonomous region of the Peoples Republic of China",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "MET",
+      "clue": "NYC opera house, with \"the\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "MAIMED",
+      "clue": "People who are wounded",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who are wounded",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "ESTATE",
+      "clue": "Manor grounds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "TAYLOR",
+      "clue": "12th President of the United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "12th President of the United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "FORFEIT",
+      "clue": "To lose possession of through failure to fulfill some obligation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lose possession of through failure to fulfill some obligation",
+        "Surrendered as a penalty",
+        "Injury"
+      ],
+      "definition": "To lose possession of through failure to fulfill some obligation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TIC",
+      "clue": "Local and habitual twitching especially in the face",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Local and habitual twitching especially in the face",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ASA",
+      "clue": "Botanist Gray",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "FEASIBILITY",
+      "clue": "Quality of being doable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quality of being doable",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "LIVIA",
+      "clue": "Empress of Rome",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SSW",
+      "clue": "Compass point midway between south and southwest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midway between south and southwest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "DECIMAL",
+      "clue": "Founded on the number 10",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Numbered or proceeding by tens"
+      ],
+      "definition": "Founded on the number 10.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "KET",
+      "clue": "Carrion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Carrion",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "KABUL",
+      "clue": "Capital and largest city of Afghanistan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Afghanistan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "VETO",
+      "clue": "The constitutional right in a chief executive of refusing to approve an enactment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Constitutional right in a chief executive of refusing to approve an enactment",
+        "Vote that blocks a decision",
+        "Authoritative prohibition or negative"
+      ],
+      "definition": "The constitutional right in a chief executive of refusing to approve an enactment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "OCTAL",
+      "clue": "Of or pertaining to a number system having 8 as its base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a number system having 8 as its base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "OBSESS",
+      "clue": "Haunt like a ghost",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Haunt like a ghost",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "CLIMES",
+      "clue": "Weather in some location averaged over some long period of time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Weather in some location averaged over some long period of time",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "TENPIN",
+      "clue": "One of the bottle-shaped pins used in bowling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the bottle-shaped pins used in bowling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "RIDER",
+      "clue": "Clause that is appended to a legislative bill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clause that is appended to a legislative bill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "RESEAL",
+      "clue": "Seal again",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Seal again",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "BLEB",
+      "clue": "Elevation of the skin filled with serous fluid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elevation of the skin filled with serous fluid",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "A field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
+      "definition": "A field.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LUCRE",
+      "clue": "Excess of revenues over outlays in a given period of time (including...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Excess of revenues over outlays in a given period of time (including...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "SINUOUS",
+      "clue": "Curving in and out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Curved or curving in and out",
+        "Bending in and out"
+      ],
+      "definition": "Curving in and out.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "OAF",
+      "clue": "Awkward stupid person",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Awkward stupid person",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "HAS",
+      "clue": "Angular distances of a celestial point measured westward",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Angular distances of a celestial point measured westward",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "HELP",
+      "clue": "Furnish with strength or means for the successful performance of any action...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Furnish with strength or means for the successful performance of any action...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTS",
+      "clue": "Social insects living in organized colonies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social insects living in organized colonies",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STYE",
+      "clue": "Eyelid bump",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EMPLACEMENT",
+      "clue": "Act of putting something in a certain place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of putting something in a certain place",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "MIA",
+      "clue": "Lost soldier, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lost soldier, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "SEI",
+      "clue": "Baleen whale",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "FRAILTY",
+      "clue": "Liability to be broken or destroyed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moral weakness",
+        "Condition quality of being frail, physically, mentally, or..."
+      ],
+      "definition": "Liability to be broken or destroyed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ELAPSE",
+      "clue": "To quietly terminate: said of time",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quietly terminate: said of time",
+        "Pass by",
+        "Slip or glide away"
+      ],
+      "definition": "To quietly terminate: said of time.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "FORFEIT",
+      "clue": "To lose possession of through failure to fulfill some obligation",
+      "definition": "To lose possession of through failure to fulfill some obligation.",
+      "id": "10A"
+    },
+    {
+      "word": "DECIMAL",
+      "clue": "Founded on the number 10",
+      "definition": "Founded on the number 10.",
+      "id": "16A"
+    },
+    {
+      "word": "SINUOUS",
+      "clue": "Curving in and out",
+      "definition": "Curving in and out.",
+      "id": "25A"
+    },
+    {
+      "word": "FRAILTY",
+      "clue": "Liability to be broken or destroyed",
+      "definition": "Liability to be broken or destroyed.",
+      "id": "33A"
+    }
+  ]
+}

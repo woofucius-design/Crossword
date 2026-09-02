@@ -1,0 +1,910 @@
+{
+  "date": "2027-12-12",
+  "number": 165,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "I",
+      "A",
+      "O",
+      "S",
+      "#",
+      "#",
+      "L",
+      "A",
+      "R"
+    ],
+    [
+      "L",
+      "A",
+      "N",
+      "G",
+      "U",
+      "O",
+      "R",
+      "#",
+      "A",
+      "C",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "D",
+      "O",
+      "T",
+      "H",
+      "E",
+      "R",
+      "M",
+      "I",
+      "C"
+    ],
+    [
+      "S",
+      "T",
+      "U",
+      "N",
+      "S",
+      "#",
+      "J",
+      "O",
+      "I",
+      "N",
+      "T"
+    ],
+    [
+      "S",
+      "O",
+      "S",
+      "#",
+      "#",
+      "V",
+      "I",
+      "R",
+      "A",
+      "G",
+      "O"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "T",
+      "A",
+      "G",
+      "Y",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "C",
+      "O",
+      "V",
+      "E",
+      "R",
+      "T",
+      "#",
+      "#",
+      "P",
+      "E",
+      "N"
+    ],
+    [
+      "A",
+      "D",
+      "I",
+      "E",
+      "U",
+      "#",
+      "A",
+      "L",
+      "A",
+      "M",
+      "O"
+    ],
+    [
+      "T",
+      "E",
+      "S",
+      "S",
+      "E",
+      "L",
+      "L",
+      "A",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "T",
+      "A",
+      "#",
+      "R",
+      "O",
+      "O",
+      "K",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "S",
+      "S",
+      "S",
+      "#",
+      "#",
+      "T",
+      "E",
+      "E",
+      "N",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CIAOS",
+      "clue": "Acknowledgments that can be used to say hello or goodbye (aloha",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acknowledgments that can be used to say hello or goodbye (aloha",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CANTO",
+      "clue": "One of the divisions of an extended poem",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Major division of a long poem",
+        "One of the chief divisions of a long poem"
+      ],
+      "definition": "One of the divisions of an extended poem.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "INDUS",
+      "clue": "Asian river that rises in Tibet and flows through northern India and then...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Asian river that rises in Tibet and flows through northern India and then...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "AGON",
+      "clue": "Contest for a prize at the public games",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Contest for a prize at the public games",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "OUTS",
+      "clue": "Failures by a batter or runner to reach a base safely in baseball",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Failures by a batter or runner to reach a base safely in baseball",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SOH",
+      "clue": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Syllable naming the fifth (dominant) note of any musical scale in...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "LAR",
+      "clue": "Tutelary deity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tutelary deity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "LAMIA",
+      "clue": "Monster capable of assuming a woman's form, who was said to devour human...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Monster capable of assuming a woman's form, who was said to devour human...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ACING",
+      "clue": "Doing perfectly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "RECTO",
+      "clue": "Right-hand page",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Right-hand page",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "LANGUOR",
+      "clue": "Lassitude of body or depression",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Inactivity",
+        "State of the body or mind which is caused by exhaustion of strength..."
+      ],
+      "definition": "Lassitude of body or depression.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LESS",
+      "clue": "Unless",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unless",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "REJIG",
+      "clue": "Re-equip a factory or plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Re-equip a factory or plant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ENDOTHERMIC",
+      "clue": "Occurring or formed with absorption of heat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Occurring or formed with absorption of heat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RORY",
+      "clue": "Dewy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dewy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STUNS",
+      "clue": "Makes senseless or dizzy by or as if by a blow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Makes senseless or dizzy by or as if by a blow",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "JOINT",
+      "clue": "Place or part where two things or parts are joined or united",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place or part where two things or parts are joined or united",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SOS",
+      "clue": "Internationally recognized distress signal in radio code",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Internationally recognized distress signal in radio code",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "VIRAGO",
+      "clue": "A bold, impudent, turbulent woman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Bold, impudent, turbulent woman",
+        "Large strong and aggressive woman",
+        "Woman of extraordinary stature, strength, and courage"
+      ],
+      "definition": "A bold, impudent, turbulent woman.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "VAT",
+      "clue": "Large open vessel for holding or storing liquids",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large open vessel for holding or storing liquids",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "STAGY",
+      "clue": "Having a theatrical manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having characteristics of the stage especially an artificial and mannered...",
+        "Having an air or manner characteristic of the stage"
+      ],
+      "definition": "Having a theatrical manner.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "SEES",
+      "clue": "Compass point midways between south and east",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compass point midways between south and east",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "TRUER",
+      "clue": "One who makes level, squares, balanced, or concentric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes level, squares, balanced, or concentric",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "COVERT",
+      "clue": "Concealed, especially for an evil purpose",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Secret or hidden",
+        "Covered over"
+      ],
+      "definition": "Concealed, especially for an evil purpose.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "CATES",
+      "clue": "Provisions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provisions",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ODETS",
+      "clue": "United States playwright (1906-1963)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States playwright (1906-1963)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "VISAS",
+      "clue": "Endorsements made in a passport that allows the bearer to enter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Endorsements made in a passport that allows the bearer to enter",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "PEN",
+      "clue": "Produce a literary work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Produce a literary work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "PATEN",
+      "clue": "Plate",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plate",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "EMERY",
+      "clue": "Hard grey-black mineral consisting of corundum and either hematite or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hard grey-black mineral consisting of corundum and either hematite or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "NOSY",
+      "clue": "Offensively curious or inquisitive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensively curious or inquisitive",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Good-by; farewell",
+        "Farewell remark"
+      ],
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ALAMO",
+      "clue": "Siege and massacre at a mission in San Antonio in 1836",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Siege and massacre at a mission in San Antonio in 1836",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ALOE",
+      "clue": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Succulent plants having rosettes of leaves usually with fiber like hemp and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "LAKE",
+      "clue": "Body of (usually fresh) water surrounded by land",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of (usually fresh) water surrounded by land",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "TESSELLATES",
+      "clue": "Tiles with tesserae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tiles with tesserae",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "LOT",
+      "clue": "That which happens without human design or forethought",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That which happens without human design or forethought",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ETA",
+      "clue": "Arrival guess, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "ROOKERY",
+      "clue": "A place where crows congregate to breed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Place where crows congregate to breed",
+        "Breeding ground for gregarious birds (such as rooks)",
+        "Breeding place of a colony of rooks"
+      ],
+      "definition": "A place where crows congregate to breed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Draft-registration org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TEENY",
+      "clue": "Very small",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very small",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "LANGUOR",
+      "clue": "Lassitude of body or depression",
+      "definition": "Lassitude of body or depression.",
+      "id": "9A"
+    },
+    {
+      "word": "VIRAGO",
+      "clue": "A bold, impudent, turbulent woman",
+      "definition": "A bold, impudent, turbulent woman.",
+      "id": "17A"
+    },
+    {
+      "word": "STAGY",
+      "clue": "Having a theatrical manner",
+      "definition": "Having a theatrical manner.",
+      "id": "18A"
+    },
+    {
+      "word": "COVERT",
+      "clue": "Concealed, especially for an evil purpose",
+      "definition": "Concealed, especially for an evil purpose.",
+      "id": "20A"
+    },
+    {
+      "word": "ROOKERY",
+      "clue": "A place where crows congregate to breed",
+      "definition": "A place where crows congregate to breed.",
+      "id": "32A"
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+  "date": "2028-03-08",
+  "number": 252,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "S",
+      "P",
+      "I",
+      "C",
+      "#",
+      "A",
+      "C",
+      "A",
+      "D"
+    ],
+    [
+      "B",
+      "R",
+      "E",
+      "A",
+      "T",
+      "H",
+      "#",
+      "C",
+      "O",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "L",
+      "E",
+      "E",
+      "#",
+      "I",
+      "O",
+      "T",
+      "A"
+    ],
+    [
+      "L",
+      "I",
+      "T",
+      "#",
+      "M",
+      "A",
+      "U",
+      "D",
+      "L",
+      "I",
+      "N"
+    ],
+    [
+      "M",
+      "S",
+      "E",
+      "C",
+      "#",
+      "P",
+      "S",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "R",
+      "U",
+      "T",
+      "#",
+      "A",
+      "F",
+      "I",
+      "R",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "L",
+      "A",
+      "S",
+      "#",
+      "Y",
+      "O",
+      "U",
+      "R"
+    ],
+    [
+      "C",
+      "O",
+      "M",
+      "P",
+      "U",
+      "T",
+      "E",
+      "#",
+      "D",
+      "N",
+      "A"
+    ],
+    [
+      "A",
+      "V",
+      "E",
+      "R",
+      "#",
+      "A",
+      "R",
+      "Y",
+      "A",
+      "N",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "I",
+      "#",
+      "G",
+      "O",
+      "A",
+      "T",
+      "E",
+      "E"
+    ],
+    [
+      "T",
+      "R",
+      "O",
+      "T",
+      "#",
+      "E",
+      "S",
+      "K",
+      "E",
+      "R",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ASPIC",
+      "clue": "Savory jelly based on fish or meat stock used as a mold for meats or vegetables",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Savory jelly based on fish or meat stock used as a mold for meats or vegetables",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "ARTIST",
+      "clue": "Person whose creative work shows sensitivity and imagination",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person whose creative work shows sensitivity and imagination",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "SETTER",
+      "clue": "Long-haired dog formerly trained to crouch on finding game but now to point",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long-haired dog formerly trained to crouch on finding game but now to point",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "PAL",
+      "clue": "Buddy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ITEM",
+      "clue": "Also",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Also",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "CHEAP",
+      "clue": "Relatively low in price or charging low prices",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relatively low in price or charging low prices",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ACAD",
+      "clue": "School: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "ACIDIFY",
+      "clue": "To change into acid",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Change into acid",
+        "Turn acidic",
+        "Make acid"
+      ],
+      "definition": "To change into acid.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "COOL",
+      "clue": "Stoic?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "STOIC"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of stoic",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANTI",
+      "clue": "Person who is opposed (to an action or policy or practice etc.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is opposed (to an action or policy or practice etc.)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "DEAN",
+      "clue": "Administrator in charge of a division of a university or college",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Administrator in charge of a division of a university or college",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BREATH",
+      "clue": "Air inhaled and exhaled in respiration, air which, in the process of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air inhaled and exhaled in respiration, air which, in the process of...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BALMS",
+      "clue": "Semisolid preparations (usually containing a medicine) applied",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Semisolid preparations (usually containing a medicine) applied",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "CONE",
+      "clue": "Solid of the form described by the revolution of a right- angled triangle...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Solid of the form described by the revolution of a right- angled triangle...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ATTLEE",
+      "clue": "British statesman and leader of the Labour Party who instituted the welfare...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British statesman and leader of the Labour Party who instituted the welfare...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "A small or insignificant mark or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "LIT",
+      "clue": "Turned on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "MAUDLIN",
+      "clue": "Foolishly and tearfully affectionate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Effusively or insincerely emotional",
+        "Tearful"
+      ],
+      "definition": "Foolishly and tearfully affectionate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "USA",
+      "clue": "Home of the brave, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "MSEC",
+      "clue": "One thousandth (10^-3) of a second",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One thousandth (10^-3) of a second",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "CULPRIT",
+      "clue": "A guilty person",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Guilty person",
+        "Someone who perpetrates wrongdoing"
+      ],
+      "definition": "A guilty person.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PSI",
+      "clue": "23rd letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "STRUT",
+      "clue": "Walk with a lofty proud gait, often in an attempt to impress others",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Walk with a lofty proud gait, often in an attempt to impress others",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "TAU",
+      "clue": "Greek letter after sigma",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AFIRE",
+      "clue": "& adj",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "& adj. on fire, literally or figuratively",
+        "On fire"
+      ],
+      "definition": "& adj. On fire, literally or figuratively.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "IODATE",
+      "clue": "Salt of iodic acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Salt of iodic acid",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "RUNNER",
+      "clue": "One who, or that which, runs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who, or that which, runs",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "ERASE",
+      "clue": "Remove from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remove from memory or existence",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "LAS",
+      "clue": "Vegas lead-in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "STAGE",
+      "clue": "Floor or story of a house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Floor or story of a house",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "COMPUTE",
+      "clue": "To ascertain by mathematical calculation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ascertain by mathematical calculation",
+        "Determine calculation"
+      ],
+      "definition": "To ascertain by mathematical calculation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "CAST",
+      "clue": "Send or drive by force",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Send or drive by force",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "OVER",
+      "clue": "Finished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "MEMO",
+      "clue": "Written proposal or reminder",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Written proposal or reminder",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "EROS",
+      "clue": "Love",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Love",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "DNA",
+      "clue": "Genetic blueprint",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "To assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
+      "definition": "To assert as a fact.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "ARYANS",
+      "clue": "Members of the prehistoric people who spoke Proto-Indo European",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Members of the prehistoric people who spoke Proto-Indo European",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "YAK",
+      "clue": "Large long-haired wild ox of Tibet often domesticated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large long-haired wild ox of Tibet often domesticated",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "SEMI",
+      "clue": "Big rig",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "GOATEE",
+      "clue": "Part of a man's beard on the chin or lower lip which is allowed to grow, and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Part of a man's beard on the chin or lower lip which is allowed to grow, and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "TROT",
+      "clue": "Run at a moderately swift pace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Run at a moderately swift pace",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ESKER",
+      "clue": "Long winding ridge of post glacial gravel and other sediment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long winding ridge of post glacial gravel and other sediment",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ACIDIFY",
+      "clue": "To change into acid",
+      "definition": "To change into acid.",
+      "id": "6D"
+    },
+    {
+      "word": "MAUDLIN",
+      "clue": "Foolishly and tearfully affectionate",
+      "definition": "Foolishly and tearfully affectionate.",
+      "id": "15A"
+    },
+    {
+      "word": "CULPRIT",
+      "clue": "A guilty person",
+      "definition": "A guilty person.",
+      "id": "18D"
+    },
+    {
+      "word": "COMPUTE",
+      "clue": "To ascertain by mathematical calculation",
+      "definition": "To ascertain by mathematical calculation.",
+      "id": "29A"
+    }
+  ]
+}

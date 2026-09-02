@@ -1,0 +1,884 @@
+{
+  "date": "2027-09-14",
+  "number": 76,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "T",
+      "P",
+      "#",
+      "F",
+      "A",
+      "C",
+      "E",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "C",
+      "U",
+      "R",
+      "#",
+      "A",
+      "N",
+      "O",
+      "M",
+      "I",
+      "C"
+    ],
+    [
+      "S",
+      "U",
+      "B",
+      "O",
+      "R",
+      "D",
+      "I",
+      "N",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "T",
+      "E",
+      "#",
+      "#",
+      "D",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "D",
+      "E",
+      "L",
+      "U",
+      "D",
+      "E",
+      "#",
+      "U",
+      "L",
+      "N",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "B",
+      "O",
+      "R",
+      "I",
+      "C",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "P",
+      "S",
+      "E",
+      "#",
+      "R",
+      "O",
+      "T",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "M",
+      "A",
+      "A",
+      "R",
+      "#",
+      "#",
+      "T",
+      "I",
+      "T",
+      "H",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "V",
+      "A",
+      "R",
+      "I",
+      "A",
+      "B",
+      "L",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "N",
+      "E",
+      "R",
+      "#",
+      "L",
+      "E",
+      "I",
+      "#"
+    ],
+    [
+      "S",
+      "O",
+      "R",
+      "T",
+      "I",
+      "E",
+      "#",
+      "E",
+      "E",
+      "N",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "ATP",
+      "clue": "Cell's energy currency, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ACUTE",
+      "clue": "Having fine and penetrating discernment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Having or experiencing a rapid onset and short but severe course",
+        "Sharp at the end"
+      ],
+      "definition": "Having fine and penetrating discernment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "TUBAL",
+      "clue": "Of or pertaining to a tube",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or pertaining to a tube",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PROTUBERANT",
+      "clue": "Bulging",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Curving outward",
+        "Prominent, or excessively prominent"
+      ],
+      "definition": "Bulging.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "FACETS",
+      "clue": "Distinct features or elements in a problem",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Distinct features or elements in a problem",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "FAD",
+      "clue": "Interest followed with exaggerated zeal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Interest followed with exaggerated zeal",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Tropical blackbird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "CONDUCTIBLE",
+      "clue": "Capable of being conducted or transmitted",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Capable of being conducted or transmitted.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "EMAIL",
+      "clue": "System of world-wide electronic communication in which a computer user can...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "System of world-wide electronic communication in which a computer user can...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TITAN",
+      "clue": "Largest of the satellites of Saturn",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Largest of the satellites of Saturn",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SCENA",
+      "clue": "Scene in an opera. (b) An accompanied dramatic recitative, interspersed with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scene in an opera. (b) An accompanied dramatic recitative, interspersed with...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "CUR",
+      "clue": "Inferior dog or one of mixed breed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inferior dog or one of mixed breed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "ANOMIC",
+      "clue": "Socially disoriented",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Socially disoriented",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "SUBORDINATE",
+      "clue": "Belonging to an inferior order in a classification",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unable to stand alone syntactically as a complete sentence",
+        "Placed in a lower order, class, or rank"
+      ],
+      "definition": "Belonging to an inferior order in a classification.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "SSD",
+      "clue": "Fast storage, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fast storage, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "REDO",
+      "clue": "Do over, as of (part of) a house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Do over, as of (part of) a house",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "STATE",
+      "clue": "Put before",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Put before",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "DIAN",
+      "clue": ", Diana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": ", Diana",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "DELUDE",
+      "clue": "To mislead the mind or judgment of",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Mislead the mind or judgment of",
+        "Be false to",
+        "Lead from truth or into error"
+      ],
+      "definition": "To mislead the mind or judgment of.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ERR",
+      "clue": "Slip up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ULNA",
+      "clue": "Inner and longer of the two bones of the human forearm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inner and longer of the two bones of the human forearm",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "BORIC",
+      "clue": "Of or relating to or derived from or containing boron",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or derived from or containing boron",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "IOTA",
+      "clue": "A small or insignificant mark or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small or insignificant mark or part",
+        "9th letter of the Greek alphabet",
+        "Ninth letter of the Greek alphabet (i) corresponding with the..."
+      ],
+      "definition": "A small or insignificant mark or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "(a) A projecting part of a building, esp. of a church, having in the plan a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "(a) A projecting part of a building, esp. of a church, having in the plan a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "AMISS",
+      "clue": "In an imperfect or faulty way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an imperfect or faulty way",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "PANTO",
+      "clue": "Abbreviation of pantomime",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Abbreviation of pantomime",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "SAVOR",
+      "clue": "To perceive by taste or smell",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Perceive by taste or smell",
+        "Taste experience when a savoury condiment is taken into the mouth",
+        "That property of a thing which affects the organs of taste or smell"
+      ],
+      "definition": "To perceive by taste or smell.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "ROTARY",
+      "clue": "Turning around its axis, like a wheel, or so constructed as to turn thus",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Describing a circle",
+        "Turning, as a wheel on its axis"
+      ],
+      "definition": "Turning around its axis, like a wheel, or so constructed as to turn thus.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ATLEE",
+      "clue": "Postwar U.K. PM Clement (var. sp.)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "RHEIN",
+      "clue": "Major European river carrying more traffic than any other river in the world",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Major European river carrying more traffic than any other river in the world",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "MAAR",
+      "clue": "Flat-bottomed volcanic crater that was formed by an explosion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flat-bottomed volcanic crater that was formed by an explosion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "TITHE",
+      "clue": "Pay a tenth of one's income, especially to the church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pay a tenth of one's income, especially to the church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INVARIABLES",
+      "clue": "Quantities that do not vary",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quantities that do not vary",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "REI",
+      "clue": "Portuguese money of account, in value about one tenth of a cent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portuguese money of account, in value about one tenth of a cent",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "STONER",
+      "clue": "One who removes the pits from",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who removes the pits from",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "LEI",
+      "clue": "Luau garland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "SORTIE",
+      "clue": "Sudden issuing of a body of troops, usually small, from a besieged place to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sudden issuing of a body of troops, usually small, from a besieged place to...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "EEN",
+      "clue": "Evenings, poetically",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PROTUBERANT",
+      "clue": "Bulging",
+      "definition": "Bulging.",
+      "id": "3D"
+    },
+    {
+      "word": "CONDUCTIBLE",
+      "clue": "Capable of being conducted or transmitted",
+      "definition": "Capable of being conducted or transmitted.",
+      "id": "6D"
+    },
+    {
+      "word": "DELUDE",
+      "clue": "To mislead the mind or judgment of",
+      "definition": "To mislead the mind or judgment of.",
+      "id": "16A"
+    },
+    {
+      "word": "ROTARY",
+      "clue": "Turning around its axis, like a wheel, or so constructed as to turn thus",
+      "definition": "Turning around its axis, like a wheel, or so constructed as to turn thus.",
+      "id": "24A"
+    }
+  ]
+}

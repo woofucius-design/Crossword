@@ -1,0 +1,869 @@
+{
+  "date": "2027-11-06",
+  "number": 129,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "P",
+      "C",
+      "#",
+      "S",
+      "A",
+      "N",
+      "C",
+      "T",
+      "A"
+    ],
+    [
+      "#",
+      "M",
+      "A",
+      "O",
+      "#",
+      "C",
+      "H",
+      "O",
+      "R",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "O",
+      "O",
+      "N",
+      "S",
+      "H",
+      "I",
+      "N",
+      "E",
+      "R",
+      "S"
+    ],
+    [
+      "P",
+      "U",
+      "L",
+      "S",
+      "E",
+      "#",
+      "#",
+      "D",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "G",
+      "R",
+      "O",
+      "U",
+      "N",
+      "D",
+      "#",
+      "E",
+      "K",
+      "E",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "I",
+      "D",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "T",
+      "O",
+      "P",
+      "#",
+      "D",
+      "I",
+      "C",
+      "T",
+      "U",
+      "M"
+    ],
+    [
+      "D",
+      "O",
+      "L",
+      "T",
+      "#",
+      "#",
+      "A",
+      "R",
+      "O",
+      "S",
+      "E"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "I",
+      "N",
+      "C",
+      "L",
+      "I",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "E",
+      "L",
+      "E",
+      "V",
+      "E",
+      "N",
+      "#",
+      "P",
+      "E",
+      "R",
+      "#"
+    ],
+    [
+      "R",
+      "E",
+      "N",
+      "E",
+      "W",
+      "S",
+      "#",
+      "T",
+      "R",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,5": {
+      "number": 4
+    },
+    "0,6": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,1": {
+      "number": 10
+    },
+    "1,5": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,4": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,7": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,3": {
+      "number": 19
+    },
+    "5,6": {
+      "number": 20
+    },
+    "6,0": {
+      "number": 21
+    },
+    "6,1": {
+      "number": 22
+    },
+    "6,2": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "6,8": {
+      "number": 25
+    },
+    "6,9": {
+      "number": 26
+    },
+    "6,10": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,6": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,4": {
+      "number": 31
+    },
+    "8,5": {
+      "number": 32
+    },
+    "9,0": {
+      "number": 33
+    },
+    "9,7": {
+      "number": 34
+    },
+    "10,0": {
+      "number": 35
+    },
+    "10,7": {
+      "number": 36
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 3,
+      "answer": "APC",
+      "clue": "Drug combination found in some over-the-counter headache remedies (aspirin...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Drug combination found in some over-the-counter headache remedies (aspirin...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "AMOUR",
+      "clue": "A love-affair, especially one of an illicit nature",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Love-affair, especially one of an illicit nature",
+        "Usually secretive or illicit sexual relationship",
+        "Love"
+      ],
+      "definition": "A love-affair, especially one of an illicit nature.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "PAOLO",
+      "clue": "Old Italian silver coin, worth about ten cents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old Italian silver coin, worth about ten cents",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "CONSUMPTIVE",
+      "clue": "Designed for gradual destruction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Tending to consume or use often wastefully"
+      ],
+      "definition": "Designed for gradual destruction.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4A",
+      "number": 4,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "SANCTA",
+      "clue": "Holy places",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SCH",
+      "clue": "Where students go: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AHI",
+      "clue": "Tuna at a poke bar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "NONDESCRIPT",
+      "clue": "Indescribable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lacking distinct or individual characteristics",
+        "Not hitherto described"
+      ],
+      "definition": "Indescribable.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "CREAK",
+      "clue": "A sharp, harsh, squeaking sound",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sharp, harsh, squeaking sound",
+        "Squeaking sound",
+        "Make a prolonged sharp grating or ssqueaking sound, as by the..."
+      ],
+      "definition": "A sharp, harsh, squeaking sound.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "TERRE",
+      "clue": "Earth, to Pierre",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "ASSES",
+      "clue": "Pack animals",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 1,
+      "length": 3,
+      "answer": "MAO",
+      "clue": "Chairman of old China",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "CHORES",
+      "clue": "Specific pieces of work required to be done as a duty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Specific pieces of work required to be done as a duty",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MOONSHINERS",
+      "clue": "People who make or sell illegal liquor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who make or sell illegal liquor",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 2,
+      "col": 0,
+      "length": 3,
+      "answer": "MPG",
+      "clue": "Fuel efficiency unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fuel efficiency unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "SENA",
+      "clue": "Italian river that gives Siena its name",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PULSE",
+      "clue": "Produce or modulate (as electromagnetic waves) in the form of short bursts or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Produce or modulate (as electromagnetic waves) in the form of short bursts or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "DARE",
+      "clue": "Have adequate or sufficient courage for any purpose",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have adequate or sufficient courage for any purpose",
+      "clueSource": "webster"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "GROUND",
+      "clue": "A pavement or floor or any supporting surface on which one may walk",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pavement or floor or any supporting surface on which one may walk",
+        "First or preliminary coat of paint or size applied to a surface",
+        "Surface of the earth"
+      ],
+      "definition": "A pavement or floor or any supporting surface on which one may walk.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DID",
+      "clue": "Accomplished",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "EKES",
+      "clue": "Squeezes (out)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "MAIDS",
+      "clue": "Unmarried girls (especially a virgin)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unmarried girls (especially a virgin)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "DIAL",
+      "clue": "Instrument, formerly much used for showing the time of day from the shadow...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Instrument, formerly much used for showing the time of day from the shadow...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ATOP",
+      "clue": "On, to, or at the top",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On, to, or at the top",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ADDER",
+      "clue": "Small terrestrial viper common in northern Eurasia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small terrestrial viper common in northern Eurasia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "TOILE",
+      "clue": "Patterned French fabric",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "OLSEN",
+      "clue": "Twin actress Mary-Kate or Ashley",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "DICTUM",
+      "clue": "A positive utterance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Positive utterance",
+        "Authoritative declaration",
+        "Authoritative statement"
+      ],
+      "definition": "A positive utterance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "TONER",
+      "clue": "Lotion for cleansing the skin and contracting the pores",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lotion for cleansing the skin and contracting the pores",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "USERS",
+      "clue": "People who take drugs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "People who take drugs",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 3,
+      "answer": "MED",
+      "clue": "Master's degree in education",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Master's degree in education",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "DOLT",
+      "clue": "Person who is not very bright",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is not very bright",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "AROSE",
+      "clue": "Got up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DISINCLINED",
+      "clue": "Unwilling because of mild dislike or disapproval",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unwilling because of mild dislike or disapproval",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "NEW",
+      "clue": "Having existed, or having been made, but a short time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having existed, or having been made, but a short time",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "CNS",
+      "clue": "Portion of the vertebrate nervous system consisting of the brain and spinal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Portion of the vertebrate nervous system consisting of the brain and spinal...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ELEVEN",
+      "clue": "Being one more than ten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being one more than ten",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 3,
+      "answer": "PER",
+      "clue": "Through",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Through",
+      "clueSource": "webster"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "RENEWS",
+      "clue": "Causes to appear in a new form",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Causes to appear in a new form",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 3,
+      "answer": "TRS",
+      "clue": "Pants: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CONSUMPTIVE",
+      "clue": "Designed for gradual destruction",
+      "definition": "Designed for gradual destruction.",
+      "id": "3D"
+    },
+    {
+      "word": "NONDESCRIPT",
+      "clue": "Indescribable",
+      "definition": "Indescribable.",
+      "id": "6D"
+    },
+    {
+      "word": "GROUND",
+      "clue": "A pavement or floor or any supporting surface on which one may walk",
+      "definition": "A pavement or floor or any supporting surface on which one may walk.",
+      "id": "16A"
+    },
+    {
+      "word": "DICTUM",
+      "clue": "A positive utterance",
+      "definition": "A positive utterance.",
+      "id": "24A"
+    }
+  ]
+}

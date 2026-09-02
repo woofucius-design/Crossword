@@ -1,0 +1,889 @@
+{
+  "date": "2027-11-26",
+  "number": 149,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "E",
+      "O",
+      "N",
+      "A",
+      "#",
+      "#",
+      "R",
+      "C",
+      "A"
+    ],
+    [
+      "C",
+      "O",
+      "R",
+      "R",
+      "O",
+      "D",
+      "E",
+      "#",
+      "E",
+      "C",
+      "U"
+    ],
+    [
+      "C",
+      "I",
+      "R",
+      "C",
+      "U",
+      "M",
+      "S",
+      "P",
+      "E",
+      "C",
+      "T"
+    ],
+    [
+      "C",
+      "R",
+      "E",
+      "S",
+      "S",
+      "#",
+      "S",
+      "A",
+      "L",
+      "V",
+      "O"
+    ],
+    [
+      "L",
+      "E",
+      "D",
+      "#",
+      "#",
+      "C",
+      "A",
+      "S",
+      "S",
+      "I",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "O",
+      "B",
+      "E",
+      "Y",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "H",
+      "E",
+      "M",
+      "P",
+      "E",
+      "N",
+      "#",
+      "#",
+      "P",
+      "P",
+      "M"
+    ],
+    [
+      "A",
+      "R",
+      "C",
+      "E",
+      "D",
+      "#",
+      "V",
+      "A",
+      "L",
+      "U",
+      "E"
+    ],
+    [
+      "S",
+      "I",
+      "G",
+      "N",
+      "I",
+      "F",
+      "I",
+      "C",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "A",
+      "C",
+      "E",
+      "#",
+      "M",
+      "A",
+      "N",
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    [
+      "N",
+      "A",
+      "E",
+      "#",
+      "#",
+      "R",
+      "O",
+      "U",
+      "T",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LEONA",
+      "clue": "Hotel heiress Helmsley",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LOIRE",
+      "clue": "Longest French river",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Longest French river",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ERRED",
+      "clue": "Made a mistake or be incorrect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made a mistake or be incorrect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ORCS",
+      "clue": "Tolkien baddies",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "NOUS",
+      "clue": "That which is responsible for one's thoughts and feelings",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That which is responsible for one's thoughts and feelings",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ADM",
+      "clue": "Navy V.I.P.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "RCA",
+      "clue": "Old electronics brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "REELS",
+      "clue": "American country dances which start with the couples facing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "American country dances which start with the couples facing",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "CCCVI",
+      "clue": "Roman numeral for 306",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 306",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "AUTOS",
+      "clue": "Motor vehicles with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicles with four wheels",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "CORRODE",
+      "clue": "To ruin or destroy little by little",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ruin or destroy little by little",
+        "Become destroyed by water, air, or a corrosive such as an acid",
+        "Eat away by degrees"
+      ],
+      "definition": "To ruin or destroy little by little.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "CCCL",
+      "clue": "Roman numeral for 350",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 350",
+      "clueSource": "roman"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "ESSAY",
+      "clue": "Make an effort or attempt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make an effort or attempt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ECU",
+      "clue": "Old French coin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "CIRCUMSPECT",
+      "clue": "Showing watchfulness, caution, or careful consideration",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Heedful of potential consequences",
+        "Attentive to all the circustances of a case or the probable..."
+      ],
+      "definition": "Showing watchfulness, caution, or careful consideration.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "PASS",
+      "clue": "Eliminate from the body",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eliminate from the body",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "CRESS",
+      "clue": "Plant of various species, chiefly cruciferous. The leaves have a moderately...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Plant of various species, chiefly cruciferous. The leaves have a moderately...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "SALVO",
+      "clue": "A salute given by firing all the guns, as at the funeral of an officer",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Salute given by firing all the guns, as at the funeral of an officer",
+        "Rapid simultaneous discharge of firearms",
+        "Exception"
+      ],
+      "definition": "A salute given by firing all the guns, as at the funeral of an officer.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "LED",
+      "clue": "Diode such that light emitted at a p-n junction is proportional to the bias...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diode such that light emitted at a p-n junction is proportional to the bias...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "CASSIS",
+      "clue": "Blackcurrant liqueur",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "CEN",
+      "clue": "100 yrs.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "OBEYS",
+      "clue": "Follows orders",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "OPEN",
+      "clue": "Ready for business",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "BEDIM",
+      "clue": "Make dim",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make dim",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "HEMPEN",
+      "clue": "Made of hemp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made of hemp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "HASAN",
+      "clue": "Comedian Minhaj",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "ERICA",
+      "clue": "Genus of shrubby plants, including the heaths, many of them producing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of shrubby plants, including the heaths, many of them producing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "MCGEE",
+      "clue": "Travis ___ of Crockett",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "PPM",
+      "clue": "Pollution unit, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "PLAIT",
+      "clue": "Any of various types of fold formed by doubling fabric back upon itself and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various types of fold formed by doubling fabric back upon itself and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "PUNKS",
+      "clue": "Rock music with deliberately offensive lyrics expressing anger",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rock music with deliberately offensive lyrics expressing anger",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "METE",
+      "clue": "To apportion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Apportion",
+        "Line that indicates a boundary",
+        "Meat"
+      ],
+      "definition": "To apportion.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ARCED",
+      "clue": "Forming or resembling an arch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Forming or resembling an arch",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "VALUE",
+      "clue": "Property or aggregate properties of a thing by which it is rendered useful...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Property or aggregate properties of a thing by which it is rendered useful...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "VINO",
+      "clue": "Fermented juice (of grapes especially)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fermented juice (of grapes especially)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ACLU",
+      "clue": "Civil rights org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "SIGNIFICANT",
+      "clue": "Important, especially as pointing something out",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fairly large",
+        "Fitted or designed to signify or make known somethingl having a..."
+      ],
+      "definition": "Important, especially as pointing something out.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "FAR",
+      "clue": "Located at a great distance in time or space or degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Located at a great distance in time or space or degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ACE",
+      "clue": "Unreturnable serve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "MANLIKE",
+      "clue": "Like a man",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Resembling human beings",
+        "Like man, or like a man, in form or nature"
+      ],
+      "definition": "Like a man.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "NAE",
+      "clue": "No, to a Scot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "ROUTS",
+      "clue": "Overwhelming defeats",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Overwhelming defeats",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "CORRODE",
+      "clue": "To ruin or destroy little by little",
+      "definition": "To ruin or destroy little by little.",
+      "id": "9A"
+    },
+    {
+      "word": "CIRCUMSPECT",
+      "clue": "Showing watchfulness, caution, or careful consideration",
+      "definition": "Showing watchfulness, caution, or careful consideration.",
+      "id": "12A"
+    },
+    {
+      "word": "SIGNIFICANT",
+      "clue": "Important, especially as pointing something out",
+      "definition": "Important, especially as pointing something out.",
+      "id": "29A"
+    },
+    {
+      "word": "MANLIKE",
+      "clue": "Like a man",
+      "definition": "Like a man.",
+      "id": "32A"
+    }
+  ]
+}

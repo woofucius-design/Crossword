@@ -1,0 +1,953 @@
+{
+  "date": "2028-02-27",
+  "number": 242,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "B",
+      "E",
+      "F",
+      "O",
+      "G",
+      "#",
+      "P",
+      "E",
+      "A",
+      "R"
+    ],
+    [
+      "A",
+      "R",
+      "M",
+      "O",
+      "U",
+      "R",
+      "#",
+      "A",
+      "L",
+      "T",
+      "O"
+    ],
+    [
+      "G",
+      "A",
+      "B",
+      "B",
+      "R",
+      "O",
+      "#",
+      "U",
+      "S",
+      "E",
+      "D"
+    ],
+    [
+      "A",
+      "Z",
+      "O",
+      "#",
+      "S",
+      "U",
+      "C",
+      "C",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "M",
+      "I",
+      "L",
+      "D",
+      "#",
+      "P",
+      "S",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "E",
+      "N",
+      "#",
+      "S",
+      "T",
+      "I",
+      "F",
+      "F"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "I",
+      "T",
+      "#",
+      "Y",
+      "O",
+      "U",
+      "R"
+    ],
+    [
+      "S",
+      "Q",
+      "U",
+      "A",
+      "L",
+      "I",
+      "D",
+      "#",
+      "D",
+      "E",
+      "E"
+    ],
+    [
+      "W",
+      "A",
+      "S",
+      "P",
+      "#",
+      "L",
+      "O",
+      "C",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "I",
+      "D",
+      "E",
+      "O",
+      "#",
+      "T",
+      "R",
+      "I",
+      "T",
+      "E",
+      "R"
+    ],
+    [
+      "G",
+      "I",
+      "R",
+      "D",
+      "#",
+      "H",
+      "I",
+      "R",
+      "E",
+      "D",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "BEFOG",
+      "clue": "To confuse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Confuse",
+        "Make less visible or unclear",
+        "Involve in a fog"
+      ],
+      "definition": "To confuse.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "BRAZIL",
+      "clue": "Three-sided tropical American nut with white oily meat and hard brown shell",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Three-sided tropical American nut with white oily meat and hard brown shell",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "EMBOLI",
+      "clue": "Blood clots, plural",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "FOB",
+      "clue": "Short chain or ribbon attaching a pocket watch to a man's vest",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Short chain or ribbon attaching a pocket watch to a man's vest",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "OURS",
+      "clue": "Belonging to us",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "GROUP",
+      "clue": "Any number of entities (members) considered as a unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any number of entities (members) considered as a unit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PEAR",
+      "clue": "Sweet juicy gritty-textured fruit available in many varieties",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweet juicy gritty-textured fruit available in many varieties",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PAUCITY",
+      "clue": "Fewness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Insufficient quantity or number"
+      ],
+      "definition": "Fewness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "ELSE",
+      "clue": "If not",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ATES",
+      "clue": "Goddesses of criminal rashness and its punishment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Goddesses of criminal rashness and its punishment",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "RODS",
+      "clue": "Fishing gear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ARMOUR",
+      "clue": "Tough more-or-less rigid protective covering of an animal or plant",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tough more-or-less rigid protective covering of an animal or plant",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "AGAMA",
+      "clue": "Genus of lizards, one of the few which feed upon vegetable substances",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of lizards, one of the few which feed upon vegetable substances",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "ALTO",
+      "clue": "The lowest or deepest female voice or part",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lowest or deepest female voice or part",
+        "Second highest member of a group",
+        "Formerly the part sung by the highest male, or counter-tenor, voices"
+      ],
+      "definition": "The lowest or deepest female voice or part.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "GABBRO",
+      "clue": "Name originally given by the Italians to a kind of serpentine, later to the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name originally given by the Italians to a kind of serpentine, later to the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "USED",
+      "clue": "Put to work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "AZO",
+      "clue": "Kind of nitrogen-containing dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "SUCCESS",
+      "clue": "A favorable or prosperous course or termination of anything attempted",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Favorable or prosperous course or termination of anything attempted",
+        "Act of succeeding"
+      ],
+      "definition": "A favorable or prosperous course or termination of anything attempted.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "CSS",
+      "clue": "Web stylist's language",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "MILD",
+      "clue": "Placid?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PLACID"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of placid",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "DECAPOD",
+      "clue": "Ten-footed or ten-armed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cephalopods having eight short tentacles plus two long ones",
+        "Crustacean with ten feet or legs, as a crab"
+      ],
+      "definition": "Ten-footed or ten-armed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PSI",
+      "clue": "23rd letter of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "23rd letter of the Greek alphabet",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ALIEN",
+      "clue": "One who owes allegiance to a foreign government",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Being or from or characteristic of another place or part of the world",
+        "Not belonging to the same country, land, or government, or to the..."
+      ],
+      "definition": "One who owes allegiance to a foreign government.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
+      "definition": "Nothing",
+      "clueSource": "sat"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "STIFF",
+      "clue": "Dead body of a human being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dead body of a human being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "IODATE",
+      "clue": "Salt of iodic acid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Salt of iodic acid",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "FUELED",
+      "clue": "Stimulated",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stimulated",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "FREER",
+      "clue": "One who makes (assets) available",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who makes (assets) available",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "CIT",
+      "clue": "Citizen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Citizen",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "TILTH",
+      "clue": "Cultivation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Arable land that is worked by plowing and sowing and raising crops",
+        "State of being tilled, or prepared for a crop"
+      ],
+      "definition": "Cultivation.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "SQUALID",
+      "clue": "Having a dirty, mean, poverty-stricken appearance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Foul and run-down and repulsive",
+        "Dirty through neglect"
+      ],
+      "definition": "Having a dirty, mean, poverty-stricken appearance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "SWIG",
+      "clue": "Drink in long draughts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Drink in long draughts",
+      "clueSource": "webster"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "QADI",
+      "clue": "Islamic judge",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Islamic judge",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "USER",
+      "clue": "Person who takes drugs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who takes drugs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "DORI",
+      "clue": "Finding Nemo's friend",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "DEE",
+      "clue": "River through Aberdeen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "WASP",
+      "clue": "Social or solitary hymenopterans typically having a slender body with the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Social or solitary hymenopterans typically having a slender body with the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "LOCALE",
+      "clue": "Scene of any event or action (especially the place of a meeting)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Scene of any event or action (especially the place of a meeting)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "CIR",
+      "clue": "Geometry meas.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "IDEO",
+      "clue": "Famed design firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "TRITER",
+      "clue": "More repeated too often",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "More repeated too often",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "GIRD",
+      "clue": "Prepare oneself for a military confrontation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Prepare oneself for a military confrontation",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "HIRED",
+      "clue": "Engaged for service under a term of contract",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Engaged for service under a term of contract",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PAUCITY",
+      "clue": "Fewness",
+      "definition": "Fewness.",
+      "id": "6D"
+    },
+    {
+      "word": "SUCCESS",
+      "clue": "A favorable or prosperous course or termination of anything attempted",
+      "definition": "A favorable or prosperous course or termination of anything attempted.",
+      "id": "15A"
+    },
+    {
+      "word": "DECAPOD",
+      "clue": "Ten-footed or ten-armed",
+      "definition": "Ten-footed or ten-armed.",
+      "id": "18D"
+    },
+    {
+      "word": "SQUALID",
+      "clue": "Having a dirty, mean, poverty-stricken appearance",
+      "definition": "Having a dirty, mean, poverty-stricken appearance.",
+      "id": "29A"
+    }
+  ]
+}

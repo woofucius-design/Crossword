@@ -1,0 +1,898 @@
+{
+  "date": "2028-01-29",
+  "number": 213,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "M",
+      "E",
+      "N",
+      "A",
+      "C",
+      "E",
+      "#",
+      "#",
+      "P",
+      "L",
+      "O"
+    ],
+    [
+      "B",
+      "R",
+      "I",
+      "G",
+      "A",
+      "N",
+      "D",
+      "#",
+      "L",
+      "I",
+      "D"
+    ],
+    [
+      "P",
+      "A",
+      "S",
+      "T",
+      "U",
+      "R",
+      "E",
+      "L",
+      "A",
+      "N",
+      "D"
+    ],
+    [
+      "S",
+      "S",
+      "I",
+      "#",
+      "C",
+      "O",
+      "L",
+      "L",
+      "I",
+      "D",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "P",
+      "U",
+      "N",
+      "#",
+      "A",
+      "C",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "A",
+      "K",
+      "E",
+      "S",
+      "#",
+      "A",
+      "N",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "A",
+      "R",
+      "I",
+      "A",
+      "#",
+      "C",
+      "R",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "O",
+      "R",
+      "D",
+      "#",
+      "N",
+      "G",
+      "O"
+    ],
+    [
+      "C",
+      "A",
+      "M",
+      "E",
+      "R",
+      "O",
+      "O",
+      "N",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "A",
+      "N",
+      "E",
+      "#",
+      "C",
+      "R",
+      "U",
+      "S",
+      "A",
+      "D",
+      "E"
+    ],
+    [
+      "P",
+      "A",
+      "T",
+      "#",
+      "#",
+      "E",
+      "R",
+      "A",
+      "S",
+      "E",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "MENACE",
+      "clue": "A threat",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Threat",
+        "Threat or the act of threatening",
+        "Show of an intention to inflict evil"
+      ],
+      "definition": "A threat.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "MBPS",
+      "clue": "Net speed, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ERAS",
+      "clue": "History chapters",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "NISI",
+      "clue": "Unless",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unless",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "AGT",
+      "clue": "Hollywood rep, for short",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "CAUCUS",
+      "clue": "A private meeting of members of a political party to select candidates",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Private meeting of members of a political party to select candidates",
+        "Closed political meeting",
+        "Meeting, especially a preliminary meeting, of persons belonging to..."
+      ],
+      "definition": "A private meeting of members of a political party to select candidates.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ENRON",
+      "clue": "Infamous energy firm",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "PLO",
+      "clue": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Political movement uniting Palestinian Arabs in an effort to create an...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "PLAICE",
+      "clue": "Large European food fish",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large European food fish",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "LINDEN",
+      "clue": "Any of various deciduous trees of the genus Tilia with heart-shaped leaves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various deciduous trees of the genus Tilia with heart-shaped leaves and...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "ODDEST",
+      "clue": "Most not easily explained",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most not easily explained",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "BRIGAND",
+      "clue": "One who lives by robbery and plunder",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Armed thief who is (usually) a member of a band",
+        "Light-armed, irregular foot soldier"
+      ],
+      "definition": "One who lives by robbery and plunder.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "DEL",
+      "clue": "Key near Backspace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "LID",
+      "clue": "That which covers the opening of a vessel or box, etc",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "That which covers the opening of a vessel or box, etc",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PASTURELAND",
+      "clue": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Field covered with grass or herbage and suitable for grazing by livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "LLANO",
+      "clue": "Extensive plain with or without vegetation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extensive plain with or without vegetation",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SSI",
+      "clue": "Disability program: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "COLLIDE",
+      "clue": "To meet and strike violently",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Meet and strike violently",
+        "Crash together with violent impact",
+        "Strike or dash against each other"
+      ],
+      "definition": "To meet and strike violently.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "PUN",
+      "clue": "Make a play on words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make a play on words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "PEACE",
+      "clue": "State of quiet or tranquillity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State of quiet or tranquillity",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ACES",
+      "clue": "Electric currents that reverse direction sinusoidally",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electric currents that reverse direction sinusoidally",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "MAKES",
+      "clue": "Terrorist organizations founded by Osama bin Laden in the 1980s",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Terrorist organizations founded by Osama bin Laden in the 1980s",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "MADCAP",
+      "clue": "Inclined to wild sports",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Inclined to wild sports",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "ARIANA",
+      "clue": "City in Tunisia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Tunisia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "KISMET",
+      "clue": "Will of Allah",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Will of Allah",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ANENT",
+      "clue": "Over against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Over against",
+      "clueSource": "webster"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "ARDOUR",
+      "clue": "Feelings of great warmth and intensity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Feelings of great warmth and intensity",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ARIA",
+      "clue": "Air or song",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air or song",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "CRO",
+      "clue": "Electronic equipment that provides visual images of varying electrical...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Electronic equipment that provides visual images of varying electrical...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "CRORE",
+      "clue": "Number that is represented as a one followed by 7 zeros",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Number that is represented as a one followed by 7 zeros",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "DISCORD",
+      "clue": "Absence of harmoniousness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Strife resulting from a lack of agreement",
+        "Want of concord or agreement"
+      ],
+      "definition": "Absence of harmoniousness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ORC",
+      "clue": "Grampus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grampus",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "NGO",
+      "clue": "Organization that is not part of the local or state or federal government",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organization that is not part of the local or state or federal government",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "NIAS",
+      "clue": "Young hawk",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young hawk",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "GADE",
+      "clue": "Small British fish (Motella argenteola) of the Cod family. (b) A pike, so...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small British fish (Motella argenteola) of the Cod family. (b) A pike, so...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ONES",
+      "clue": "Singles in a wallet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CAMEROONIAN",
+      "clue": "Of or relating to or characteristic of Cameroon or its people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or characteristic of Cameroon or its people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "NSA",
+      "clue": "Codebreaking govt. org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ANE",
+      "clue": "Chemical suffix",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CRUSADE",
+      "clue": "Any concerted movement, vigorously prosecuted, in behalf of an idea or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Series of actions advancing a principle or tending toward a particular end",
+        "Any one of the military expeditions undertaken by Christian powers,..."
+      ],
+      "definition": "Any concerted movement, vigorously prosecuted, in behalf of an idea or",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "PAT",
+      "clue": "Light touch or stroke",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Light touch or stroke",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ERASES",
+      "clue": "Removes from memory or existence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Removes from memory or existence",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "BRIGAND",
+      "clue": "One who lives by robbery and plunder",
+      "definition": "One who lives by robbery and plunder.",
+      "id": "10A"
+    },
+    {
+      "word": "COLLIDE",
+      "clue": "To meet and strike violently",
+      "definition": "To meet and strike violently.",
+      "id": "16A"
+    },
+    {
+      "word": "DISCORD",
+      "clue": "Absence of harmoniousness",
+      "definition": "Absence of harmoniousness.",
+      "id": "25A"
+    },
+    {
+      "word": "CRUSADE",
+      "clue": "Any concerted movement, vigorously prosecuted, in behalf of an idea or",
+      "definition": "Any concerted movement, vigorously prosecuted, in behalf of an idea or",
+      "id": "33A"
+    }
+  ]
+}

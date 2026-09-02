@@ -1,0 +1,902 @@
+{
+  "date": "2028-01-14",
+  "number": 198,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "F",
+      "A",
+      "R",
+      "#",
+      "S",
+      "L",
+      "A",
+      "T",
+      "#",
+      "#"
+    ],
+    [
+      "L",
+      "I",
+      "N",
+      "E",
+      "#",
+      "T",
+      "E",
+      "R",
+      "E",
+      "S",
+      "A"
+    ],
+    [
+      "A",
+      "N",
+      "T",
+      "I",
+      "R",
+      "R",
+      "H",
+      "I",
+      "N",
+      "U",
+      "M"
+    ],
+    [
+      "I",
+      "N",
+      "I",
+      "G",
+      "O",
+      "#",
+      "R",
+      "A",
+      "T",
+      "A",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "S",
+      "N",
+      "O",
+      "W",
+      "#",
+      "#",
+      "A",
+      "V",
+      "I"
+    ],
+    [
+      "S",
+      "P",
+      "L",
+      "#",
+      "D",
+      "P",
+      "T",
+      "#",
+      "T",
+      "E",
+      "A"
+    ],
+    [
+      "O",
+      "R",
+      "A",
+      "#",
+      "#",
+      "M",
+      "I",
+      "N",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "D",
+      "I",
+      "V",
+      "E",
+      "S",
+      "#",
+      "N",
+      "O",
+      "V",
+      "A",
+      "S"
+    ],
+    [
+      "O",
+      "V",
+      "E",
+      "R",
+      "P",
+      "A",
+      "Y",
+      "M",
+      "E",
+      "N",
+      "T"
+    ],
+    [
+      "M",
+      "Y",
+      "R",
+      "I",
+      "A",
+      "D",
+      "#",
+      "I",
+      "L",
+      "I",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "Y",
+      "E",
+      "N",
+      "S",
+      "#",
+      "C",
+      "Y",
+      "S",
+      "T"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "AFAR",
+      "clue": "From a distance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "FINN",
+      "clue": "Native of Finland",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native of Finland",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "ANTISLAVERY",
+      "clue": "Opposed to human slavery",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Opposed to slavery"
+      ],
+      "definition": "Opposed to human slavery.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "REIGN",
+      "clue": "To hold and exercise sovereign power",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hold and exercise sovereign power",
+        "Royal authority"
+      ],
+      "definition": "To hold and exercise sovereign power.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "SLAT",
+      "clue": "Thin, narrow strip or bar of wood or metal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Thin, narrow strip or bar of wood or metal",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "STR",
+      "clue": "Road: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "LEHR",
+      "clue": "Glass-annealing kiln",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ARIA",
+      "clue": "Air or song",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Air or song",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "TENTATIVELY",
+      "clue": "In a under terms not final or fully worked out or agreed upon manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In a under terms not final or fully worked out or agreed upon manner",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "LINE",
+      "clue": "Principal activity in your life that you do to earn money",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Principal activity in your life that you do to earn money",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "TERESA",
+      "clue": "Indian nun and missionary in the Roman Catholic Church (born of Albanian...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Indian nun and missionary in the Roman Catholic Church (born of Albanian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "SUAVE",
+      "clue": "Smooth and pleasant in manner",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Smoothly agreeable and courteous with a degree of sophistication",
+        "Sweet"
+      ],
+      "definition": "Smooth and pleasant in manner.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "AMNIA",
+      "clue": "Fetal membranes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ANTIRRHINUM",
+      "clue": "Genus of herbs of the family Scrophulariaceae with brightly colored irregular...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of herbs of the family Scrophulariaceae with brightly colored irregular...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "ROOD",
+      "clue": "Representation of the cross on which Jesus died",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of the cross on which Jesus died",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "INIGO",
+      "clue": "Architect ___ Jones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "RATAN",
+      "clue": "Switch made from the stems of the rattan palms",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Switch made from the stems of the rattan palms",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "SNOW",
+      "clue": "Street names for cocaine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Street names for cocaine",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "WPM",
+      "clue": "Rate at which words are produced (as in speaking or typing)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rate at which words are produced (as in speaking or typing)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "AVI",
+      "clue": "Filmmaker's file format",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "SPL",
+      "clue": "Special: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "SODOM",
+      "clue": "Ancient city near the Dead Sea that (along with Gomorrah) was destroyed by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ancient city near the Dead Sea that (along with Gomorrah) was destroyed by...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "PRIVY",
+      "clue": "Participating with another or others in the knowledge of a secret transaction",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Hidden from general view or use",
+        "Of or pertaining to some person exclusively"
+      ],
+      "definition": "Participating with another or others in the knowledge of a secret transaction.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "DPT",
+      "clue": "Govt. branch: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "TINY",
+      "clue": "Very small",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Very small",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Afternoon cuppa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "ORA",
+      "clue": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Money of account among the Anglo-Saxons, valued, in the Domesday Book, at...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "MINI",
+      "clue": "Used of women's clothing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Used of women's clothing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "NOMIC",
+      "clue": "Usual or customary",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Customary"
+      ],
+      "definition": "Usual or customary.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DIVES",
+      "clue": "Name popularly given to the rich man in our Lord's parable of the \"Rich Man...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name popularly given to the rich man in our Lord's parable of the \"Rich Man...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "ERIE",
+      "clue": "Pennsylvania Great Lake port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "SPAN",
+      "clue": "Cover or extend over an area or time period",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cover or extend over an area or time period",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "NOVAS",
+      "clue": "Stars that eject some of its material in the form of a cloud",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Stars that eject some of its material in the form of a cloud",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "ANIS",
+      "clue": "Black tropical American cuckoos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Black tropical American cuckoos",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "STAT",
+      "clue": "ASAP, in medicine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "OVERPAYMENT",
+      "clue": "Act of paying too much",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of paying too much",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ADS",
+      "clue": "Public promotions of some product or service",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Public promotions of some product or service",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "MYRIAD",
+      "clue": "A vast indefinite number",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Vast indefinite number",
+        "Too numerous to be counted",
+        "Number of ten thousand"
+      ],
+      "definition": "A vast indefinite number.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "ILIA",
+      "clue": "Hip bones",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "YENS",
+      "clue": "Has a desire for something or someone who is not present",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Has a desire for something or someone who is not present",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "CYST",
+      "clue": "Small anatomically normal sac or bladderlike structure (especially one...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small anatomically normal sac or bladderlike structure (especially one...",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "REIGN",
+      "clue": "To hold and exercise sovereign power",
+      "definition": "To hold and exercise sovereign power.",
+      "id": "4D"
+    },
+    {
+      "word": "SUAVE",
+      "clue": "Smooth and pleasant in manner",
+      "definition": "Smooth and pleasant in manner.",
+      "id": "11D"
+    },
+    {
+      "word": "PRIVY",
+      "clue": "Participating with another or others in the knowledge of a secret transaction",
+      "definition": "Participating with another or others in the knowledge of a secret transaction.",
+      "id": "21D"
+    },
+    {
+      "word": "NOMIC",
+      "clue": "Usual or customary",
+      "definition": "Usual or customary.",
+      "id": "27D"
+    }
+  ]
+}

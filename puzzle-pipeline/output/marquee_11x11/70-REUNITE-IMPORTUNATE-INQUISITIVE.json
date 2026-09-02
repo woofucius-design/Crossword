@@ -1,0 +1,905 @@
+{
+  "date": "2027-09-08",
+  "number": 70,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "L",
+      "L",
+      "A",
+      "M",
+      "A",
+      "#",
+      "#",
+      "K",
+      "R",
+      "S"
+    ],
+    [
+      "R",
+      "E",
+      "U",
+      "N",
+      "I",
+      "T",
+      "E",
+      "#",
+      "R",
+      "A",
+      "H"
+    ],
+    [
+      "I",
+      "M",
+      "P",
+      "O",
+      "R",
+      "T",
+      "U",
+      "N",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "F",
+      "A",
+      "U",
+      "N",
+      "A",
+      "#",
+      "L",
+      "O",
+      "U",
+      "I",
+      "E"
+    ],
+    [
+      "E",
+      "N",
+      "S",
+      "#",
+      "#",
+      "T",
+      "E",
+      "U",
+      "T",
+      "O",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "C",
+      "O",
+      "R",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "P",
+      "I",
+      "R",
+      "E",
+      "#",
+      "#",
+      "A",
+      "L",
+      "I"
+    ],
+    [
+      "R",
+      "E",
+      "I",
+      "N",
+      "A",
+      "#",
+      "M",
+      "A",
+      "R",
+      "I",
+      "E"
+    ],
+    [
+      "I",
+      "N",
+      "Q",
+      "U",
+      "I",
+      "S",
+      "I",
+      "T",
+      "I",
+      "V",
+      "E"
+    ],
+    [
+      "S",
+      "O",
+      "U",
+      "#",
+      "G",
+      "E",
+      "S",
+      "T",
+      "U",
+      "R",
+      "E"
+    ],
+    [
+      "E",
+      "R",
+      "E",
+      "#",
+      "#",
+      "T",
+      "E",
+      "N",
+      "S",
+      "E",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LLAMA",
+      "clue": "Wild or domesticated South American cud-chewing animal related to camels but...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wild or domesticated South American cud-chewing animal related to camels but...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LEMAN",
+      "clue": "Sweetheart, of either sex",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sweetheart, of either sex",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LUPUS",
+      "clue": "Constellation in the southern hemisphere near Centaurus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Constellation in the southern hemisphere near Centaurus",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ANON",
+      "clue": "Shortly, to Shakespeare",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "MIRA",
+      "clue": "Remarkable variable star in the constellation Cetus (o Ceti)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Remarkable variable star in the constellation Cetus (o Ceti)",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ATT",
+      "clue": "Lawyer: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "KRS",
+      "clue": "Communist organizations formed in Cambodia in",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Communist organizations formed in Cambodia in",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "KRAUT",
+      "clue": "Offensive term for a person of German descent",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Offensive term for a person of German descent",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "RATIO",
+      "clue": "Relation between things (or parts of things) with respect to their...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relation between things (or parts of things) with respect to their...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SHEEN",
+      "clue": "Visual property of something that shines with reflected light",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Visual property of something that shines with reflected light",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "REUNITE",
+      "clue": "To unite or join again, as after separation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unite or join again, as after separation",
+        "Unify again, as of a country",
+        "Unite again"
+      ],
+      "definition": "To unite or join again, as after separation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "RIFE",
+      "clue": "Abundant",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excessively abundant",
+        "Prevailing"
+      ],
+      "definition": "Abundant.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "EULER",
+      "clue": "Swiss mathematician (1707-1783)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Swiss mathematician (1707-1783)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "RAH",
+      "clue": "Cheerleader's cry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "IMPORTUNATE",
+      "clue": "Urgent in character, request, or demand",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Expressing earnest entreaty",
+        "Troublesomely urgent"
+      ],
+      "definition": "Urgent in character, request, or demand.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "NOUN",
+      "clue": "Word class that can serve as the subject or object of a verb, the object of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word class that can serve as the subject or object of a verb, the object of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FAUNA",
+      "clue": "Animals of any given area or epoch",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animals of any given area or epoch",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "LOUIE",
+      "clue": "Police's voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "ENS",
+      "clue": "Printer's spaces",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "TEUTON",
+      "clue": "One of an ancient German tribe",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of an ancient German tribe",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "TOE",
+      "clue": "One of the terminal members, or digits, of the foot of a man or an animal....",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of the terminal members, or digits, of the foot of a man or an animal....",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ACORN",
+      "clue": "Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "AINU",
+      "clue": "Indigenous Japanese people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "CRAIG",
+      "clue": "Bond actor Daniel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "ASPIRE",
+      "clue": "To have an earnest desire, wish, or longing, as for something high and good, not",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Have an earnest desire, wish, or longing, as for something high and good, not",
+        "Have an ambitious plan or a lofty goal",
+        "Desire with eagerness"
+      ],
+      "definition": "To have an earnest desire, wish, or longing, as for something high and good, not",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ARISE",
+      "clue": "Get up and out of bed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get up and out of bed",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "SENOR",
+      "clue": "Spanish title or form of address for a man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spanish title or form of address for a man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "PIQUE",
+      "clue": "To excite a slight degree of anger in",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Excite a slight degree of anger in",
+        "Tightly woven fabric with raised cords",
+        "Cotton fabric, figured in the loom,"
+      ],
+      "definition": "To excite a slight degree of anger in.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Boxing legend Muhammad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ARIUS",
+      "clue": "Type genus of the Ariidae: sea catfishes",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Type genus of the Ariidae: sea catfishes",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "LIVRE",
+      "clue": "French money of account, afterward a silver coin equal to 20 sous. It is not...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "French money of account, afterward a silver coin equal to 20 sous. It is not...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "IEEE",
+      "clue": "Engineering pros' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "REINA",
+      "clue": "Queen, in Madrid",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "MARIE",
+      "clue": "Marry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marry",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "MISE",
+      "clue": "Issue in a writ of right",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Issue in a writ of right",
+      "clueSource": "webster"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "ATTN",
+      "clue": "Memo header abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INQUISITIVE",
+      "clue": "Given to questioning, especially out of curiosity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Showing curiosity",
+        "Disposed to ask questions, especially in matters which do not concern..."
+      ],
+      "definition": "Given to questioning, especially out of curiosity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SET",
+      "clue": "Resolute?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "RESOLUTE"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of resolute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "SOU",
+      "clue": "Old French copper coin, equivalent in value to, and now displaced by, the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Old French copper coin, equivalent in value to, and now displaced by, the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "GESTURE",
+      "clue": "A movement or action of the hands or face, expressive of some idea or emotion",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Movement or action of the hands or face, expressive of some idea or emotion",
+        "Motion of hands or body to emphasize or help to express a thought or feeling",
+        "Manner of carrying the body"
+      ],
+      "definition": "A movement or action of the hands or face, expressive of some idea or emotion.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TENSE",
+      "clue": "Strained to stiffness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Taut or rigid",
+        "One of the forms which a verb takes by inflection or by adding..."
+      ],
+      "definition": "Strained to stiffness.",
+      "clueSource": "sat"
+    }
+  ],
+  "featured": [
+    {
+      "word": "REUNITE",
+      "clue": "To unite or join again, as after separation",
+      "definition": "To unite or join again, as after separation.",
+      "id": "9A"
+    },
+    {
+      "word": "IMPORTUNATE",
+      "clue": "Urgent in character, request, or demand",
+      "definition": "Urgent in character, request, or demand.",
+      "id": "12A"
+    },
+    {
+      "word": "INQUISITIVE",
+      "clue": "Given to questioning, especially out of curiosity",
+      "definition": "Given to questioning, especially out of curiosity.",
+      "id": "29A"
+    },
+    {
+      "word": "GESTURE",
+      "clue": "A movement or action of the hands or face, expressive of some idea or emotion",
+      "definition": "A movement or action of the hands or face, expressive of some idea or emotion.",
+      "id": "32A"
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "date": "2027-10-28",
+  "number": 120,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "E",
+      "A",
+      "T",
+      "S",
+      "#",
+      "#",
+      "S",
+      "S",
+      "H"
+    ],
+    [
+      "E",
+      "N",
+      "G",
+      "R",
+      "O",
+      "S",
+      "S",
+      "#",
+      "T",
+      "O",
+      "O"
+    ],
+    [
+      "M",
+      "A",
+      "G",
+      "N",
+      "A",
+      "N",
+      "I",
+      "M",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "F",
+      "R",
+      "E",
+      "E",
+      "D",
+      "#",
+      "E",
+      "A",
+      "R",
+      "L",
+      "E"
+    ],
+    [
+      "S",
+      "L",
+      "R",
+      "#",
+      "#",
+      "E",
+      "G",
+      "R",
+      "E",
+      "S",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "T",
+      "A",
+      "K",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "B",
+      "L",
+      "A",
+      "Z",
+      "E",
+      "#",
+      "#",
+      "D",
+      "P",
+      "I"
+    ],
+    [
+      "D",
+      "E",
+      "A",
+      "L",
+      "T",
+      "#",
+      "A",
+      "H",
+      "E",
+      "A",
+      "D"
+    ],
+    [
+      "D",
+      "I",
+      "S",
+      "C",
+      "E",
+      "R",
+      "N",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "E",
+      "R",
+      "E",
+      "#",
+      "C",
+      "O",
+      "N",
+      "T",
+      "U",
+      "S",
+      "E"
+    ],
+    [
+      "D",
+      "A",
+      "R",
+      "#",
+      "#",
+      "T",
+      "E",
+      "S",
+      "T",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SEATS",
+      "clue": "Area that includes places where several people can sit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Area that includes places where several people can sit",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SNARL",
+      "clue": "Form raised work upon the outer surface of (thin metal ware) by the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form raised work upon the outer surface of (thin metal ware) by the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "EGGER",
+      "clue": "Moth having nonfunctional mouthparts as adults",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Moth having nonfunctional mouthparts as adults",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ARNE",
+      "clue": "Composer of \"Rule, Britannia!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "TOAD",
+      "clue": "Any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various tailless stout-bodied amphibians with long hind limbs for leaping",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "SSH",
+      "clue": "Hushing sound",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "STORE",
+      "clue": "Keep or lay aside for future use",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Keep or lay aside for future use",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "SOULS",
+      "clue": "Humans being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Humans being",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "HOSES",
+      "clue": "Flexible pipes for conveying a liquid or gas",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Flexible pipes for conveying a liquid or gas",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "ENGROSS",
+      "clue": "To occupy completely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Occupy completely",
+        "Consume all of one's attention or time",
+        "Make gross, thick, or large"
+      ],
+      "definition": "To occupy completely.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "EMFS",
+      "clue": "Rates at which energy is drawn from a source that produces a flow of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rates at which energy is drawn from a source that produces a flow of",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "SIEGE",
+      "clue": "A beleaguerment",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Beleaguerment",
+        "Action of an armed force that surrounds a fortified place and isolates it...",
+        "Seat"
+      ],
+      "definition": "A beleaguerment.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "TOO",
+      "clue": "As well",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MAGNANIMOUS",
+      "clue": "Generous in treating or judging others",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Generous and understanding and tolerant",
+        "Great of mind"
+      ],
+      "definition": "Generous in treating or judging others.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "MARS",
+      "clue": "God of war and husbandry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "God of war and husbandry",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FREED",
+      "clue": "Made (assets) available",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made (assets) available",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "EARLE",
+      "clue": "Singer Steve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "SLR",
+      "clue": "Camera type, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "EGRESS",
+      "clue": "Any place of exit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act of coming (or going) out",
+        "Act of going out or leaving, or the power to leave"
+      ],
+      "definition": "Any place of exit.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EKE",
+      "clue": "Increase",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increase",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "TAKES",
+      "clue": "Acts of photographing a scene or part of a scene without interruption",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of photographing a scene or part of a scene without interruption",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "TALC",
+      "clue": "Apply talcum powder to (one's body)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Apply talcum powder to (one's body)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "AZTEC",
+      "clue": "Of or relating to one of the early races in Mexico that inhabited the great...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to one of the early races in Mexico that inhabited the great...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "ABLAZE",
+      "clue": "On fire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On fire",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ADDED",
+      "clue": "Made an addition (to)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made an addition (to)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "BEIRA",
+      "clue": "Port city in eastern Mozambique on the Mozambique Channel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Port city in eastern Mozambique on the Mozambique Channel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "LASER",
+      "clue": "Focused light beam",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "DPI",
+      "clue": "Print resolution unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Print resolution unit",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "DEBUT",
+      "clue": "A first appearance in society or on the stage",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "First appearance in society or on the stage",
+        "Act of beginning something new",
+        "Beginning or first attempt"
+      ],
+      "definition": "A first appearance in society or on the stage.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "PALSY",
+      "clue": "Paralysis",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Condition marked by uncontrollable tremor",
+        "Paralysis, complete or partial. See Paralysis. \"One sick of the..."
+      ],
+      "definition": "Paralysis.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "IDEE",
+      "clue": "French notion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "DEALT",
+      "clue": "Distributed cards",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "AHEAD",
+      "clue": "At or in the front",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "At or in the front",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ANNE",
+      "clue": "Green Gables girl",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HITS",
+      "clue": "Pays unsolicited and usually unwanted sexual attention to",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pays unsolicited and usually unwanted sexual attention to",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "DISCERNIBLE",
+      "clue": "Perceivable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Perceptible by the senses or intellect"
+      ],
+      "definition": "Perceivable.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "ROT",
+      "clue": "Undergo a process common to organic substances by which they lose the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Undergo a process common to organic substances by which they lose the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ERE",
+      "clue": "Before, in poems",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "CONTUSE",
+      "clue": "To bruise by a blow, either with or without the breaking of the skin",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Bruise by a blow, either with or without the breaking of the skin",
+        "Injure the underlying soft tissue or bone of"
+      ],
+      "definition": "To bruise by a blow, either with or without the breaking of the skin.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DAR",
+      "clue": "Patriotic women's org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "TESTY",
+      "clue": "Easily irritated or annoyed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Easily irritated or annoyed",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "ENGROSS",
+      "clue": "To occupy completely",
+      "definition": "To occupy completely.",
+      "id": "9A"
+    },
+    {
+      "word": "MAGNANIMOUS",
+      "clue": "Generous in treating or judging others",
+      "definition": "Generous in treating or judging others.",
+      "id": "12A"
+    },
+    {
+      "word": "DISCERNIBLE",
+      "clue": "Perceivable",
+      "definition": "Perceivable.",
+      "id": "29A"
+    },
+    {
+      "word": "CONTUSE",
+      "clue": "To bruise by a blow, either with or without the breaking of the skin",
+      "definition": "To bruise by a blow, either with or without the breaking of the skin.",
+      "id": "32A"
+    }
+  ]
+}

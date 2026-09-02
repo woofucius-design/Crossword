@@ -1,0 +1,969 @@
+{
+  "date": "2027-11-28",
+  "number": 151,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "S",
+      "M",
+      "I",
+      "R",
+      "K",
+      "#",
+      "D",
+      "R",
+      "A",
+      "T"
+    ],
+    [
+      "P",
+      "E",
+      "C",
+      "T",
+      "I",
+      "N",
+      "#",
+      "R",
+      "E",
+      "N",
+      "E"
+    ],
+    [
+      "A",
+      "R",
+      "M",
+      "A",
+      "D",
+      "A",
+      "#",
+      "A",
+      "P",
+      "S",
+      "E"
+    ],
+    [
+      "S",
+      "I",
+      "X",
+      "#",
+      "E",
+      "P",
+      "I",
+      "G",
+      "R",
+      "A",
+      "M"
+    ],
+    [
+      "H",
+      "A",
+      "I",
+      "R",
+      "#",
+      "P",
+      "R",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "E",
+      "N",
+      "#",
+      "E",
+      "O",
+      "S",
+      "I",
+      "N"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "S",
+      "O",
+      "L",
+      "#",
+      "N",
+      "U",
+      "D",
+      "E"
+    ],
+    [
+      "P",
+      "R",
+      "O",
+      "C",
+      "T",
+      "O",
+      "R",
+      "#",
+      "L",
+      "E",
+      "V"
+    ],
+    [
+      "Y",
+      "O",
+      "G",
+      "I",
+      "#",
+      "A",
+      "O",
+      "R",
+      "T",
+      "A",
+      "E"
+    ],
+    [
+      "L",
+      "O",
+      "R",
+      "N",
+      "#",
+      "T",
+      "R",
+      "I",
+      "A",
+      "L",
+      "S"
+    ],
+    [
+      "E",
+      "K",
+      "E",
+      "D",
+      "#",
+      "H",
+      "Y",
+      "M",
+      "N",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "SMIRK",
+      "clue": "Smile in an affected or conceited manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Smile in an affected or conceited manner",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "SERIAL",
+      "clue": "In regular succession without gaps",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In regular succession without gaps",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "MCMXII",
+      "clue": "Roman numeral for 1912",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1912",
+      "clueSource": "roman"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "ITA",
+      "clue": "Italian-typeface abbreviation",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "RIDE",
+      "clue": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "KNAPP",
+      "clue": "Ex-rep. George of Nevada",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "DRAT",
+      "clue": "\"Foiled again!\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "DRAGOON",
+      "clue": "In the British army, a cavalryman",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Member of a European military unit formerly composed of heavily armed...",
+        "Formerly, a soldier who was taught and armed to serve either on..."
+      ],
+      "definition": "In the British army, a cavalryman.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "REPR",
+      "clue": "Stands for: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ANSA",
+      "clue": "Name given to either of the projecting ends of Saturn's ring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Name given to either of the projecting ends of Saturn's ring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "TEEM",
+      "clue": "To be full to overflowing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be full to overflowing",
+        "Move in large numbers",
+        "Pour"
+      ],
+      "definition": "To be full to overflowing.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "PECTIN",
+      "clue": "One of a series of carbohydrates, commonly called vegetable jelly, found very...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One of a series of carbohydrates, commonly called vegetable jelly, found very...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "PASHA",
+      "clue": "Civil or military authority in Turkey or Egypt",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Civil or military authority in Turkey or Egypt",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "RENE",
+      "clue": "Director Clair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ARMADA",
+      "clue": "A fleet of war-vessels",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fleet of war-vessels",
+        "Large fleet",
+        "Fleet of armed ships"
+      ],
+      "definition": "A fleet of war-vessels.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "APSE",
+      "clue": "(a) A projecting part of a building, esp. of a church, having in the plan a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "(a) A projecting part of a building, esp. of a church, having in the plan a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SIX",
+      "clue": "One more than five",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One more than five",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "EPIGRAM",
+      "clue": "A pithy phrasing of a shrewd observation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pithy phrasing of a shrewd observation",
+        "Witty saying",
+        "Short poem treating concisely and pointedly of a single thought or..."
+      ],
+      "definition": "A pithy phrasing of a shrewd observation.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "IRE",
+      "clue": "Wrath",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Belligerence aroused by a real or supposed wrong (personified as one of the...",
+        "Anger"
+      ],
+      "definition": "Wrath.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "HAIR",
+      "clue": "Collection or mass of filaments growing from the skin of an animal, and...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Collection or mass of filaments growing from the skin of an animal, and...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "RESCIND",
+      "clue": "To make void, as an act, by the enacting authority or a superior authority",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make void, as an act, by the enacting authority or a superior authority",
+        "Cancel officially",
+        "Cut off"
+      ],
+      "definition": "To make void, as an act, by the enacting authority or a superior authority.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "PRO",
+      "clue": "Expert",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ALIEN",
+      "clue": "One who owes allegiance to a foreign government",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Being or from or characteristic of another place or part of the world",
+        "Not belonging to the same country, land, or government, or to the..."
+      ],
+      "definition": "One who owes allegiance to a foreign government.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "NOT",
+      "clue": "Negation of a word or group of words",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Negation of a word or group of words",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "EOSIN",
+      "clue": "Yellow or brownish red dyestuff obtained by the action of bromine on...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yellow or brownish red dyestuff obtained by the action of bromine on...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "SULTAN",
+      "clue": "Ruler, or sovereign, of a Mohammedan state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ruler, or sovereign, of a Mohammedan state",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "IDEALS",
+      "clue": "Ideas of something that is perfect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ideas of something that is perfect",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "NEVES",
+      "clue": "Upper parts of a glacier (beyond the limit of perpetual snow)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Upper parts of a glacier (beyond the limit of perpetual snow)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "SOL",
+      "clue": "The sun",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sun",
+        "Syllable naming the fifth (dominant) note of any musical scale in..."
+      ],
+      "definition": "The sun.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "LOATH",
+      "clue": "Averse",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unwillingness to do something contrary to your custom",
+        "Hateful"
+      ],
+      "definition": "Averse.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "NUDE",
+      "clue": "Naked",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Completely unclothed",
+        "Bare"
+      ],
+      "definition": "Naked.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "PROCTOR",
+      "clue": "An agent acting for another",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Agent acting for another",
+        "Someone who supervises (an examination)",
+        "One who is employed to manage to affairs of another. Specifically:..."
+      ],
+      "definition": "An agent acting for another.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "PYLE",
+      "clue": "United States writer and illustrator of children's books (1853-1911)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States writer and illustrator of children's books (1853-1911)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "ROOK",
+      "clue": "Common gregarious Old World bird about the size and color of the American crow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Common gregarious Old World bird about the size and color of the American crow",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "OGRE",
+      "clue": "A demon or monster that was supposed to devour human beings",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Demon or monster that was supposed to devour human beings",
+        "Giant who likes to eat human beings",
+        "Imaginary monster, or hideous giant of fairy tales, who lived on..."
+      ],
+      "definition": "A demon or monster that was supposed to devour human beings.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "RORY",
+      "clue": "Dewy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dewy",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "LEV",
+      "clue": "Basic unit of money in Bulgaria",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Bulgaria",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "YOGI",
+      "clue": "One who practices yoga and has achieved a high level of spiritual insight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who practices yoga and has achieved a high level of spiritual insight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "AORTAE",
+      "clue": "Major arteries",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "RIM",
+      "clue": "Border, edge, or margin of a thing, usually of something circular or curving",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Border, edge, or margin of a thing, usually of something circular or curving",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "LORN",
+      "clue": "Lost",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lost",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "TRIALS",
+      "clue": "Acts of testing something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Acts of testing something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "EKED",
+      "clue": "Barely got, with \"out\"",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "HYMNS",
+      "clue": "Songs of praise (to God or to a saint or to a nation)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Songs of praise (to God or to a saint or to a nation)",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DRAGOON",
+      "clue": "In the British army, a cavalryman",
+      "definition": "In the British army, a cavalryman.",
+      "id": "6D"
+    },
+    {
+      "word": "EPIGRAM",
+      "clue": "A pithy phrasing of a shrewd observation",
+      "definition": "A pithy phrasing of a shrewd observation.",
+      "id": "15A"
+    },
+    {
+      "word": "RESCIND",
+      "clue": "To make void, as an act, by the enacting authority or a superior authority",
+      "definition": "To make void, as an act, by the enacting authority or a superior authority.",
+      "id": "18D"
+    },
+    {
+      "word": "PROCTOR",
+      "clue": "An agent acting for another",
+      "definition": "An agent acting for another.",
+      "id": "29A"
+    }
+  ]
+}

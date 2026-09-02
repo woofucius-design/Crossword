@@ -1,0 +1,904 @@
+{
+  "date": "2027-10-25",
+  "number": 117,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "A",
+      "R",
+      "A",
+      "T",
+      "#",
+      "#",
+      "A",
+      "M",
+      "A"
+    ],
+    [
+      "N",
+      "O",
+      "M",
+      "I",
+      "N",
+      "A",
+      "L",
+      "#",
+      "C",
+      "O",
+      "B"
+    ],
+    [
+      "I",
+      "M",
+      "P",
+      "E",
+      "T",
+      "U",
+      "O",
+      "S",
+      "I",
+      "T",
+      "Y"
+    ],
+    [
+      "B",
+      "E",
+      "L",
+      "L",
+      "E",
+      "#",
+      "G",
+      "E",
+      "N",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "T",
+      "Y",
+      "#",
+      "#",
+      "L",
+      "I",
+      "M",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "C",
+      "C",
+      "X",
+      "C",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "P",
+      "A",
+      "V",
+      "L",
+      "O",
+      "V",
+      "#",
+      "#",
+      "G",
+      "P",
+      "O"
+    ],
+    [
+      "A",
+      "V",
+      "I",
+      "A",
+      "N",
+      "#",
+      "A",
+      "C",
+      "O",
+      "R",
+      "N"
+    ],
+    [
+      "P",
+      "O",
+      "L",
+      "Y",
+      "T",
+      "E",
+      "C",
+      "H",
+      "N",
+      "I",
+      "C"
+    ],
+    [
+      "A",
+      "W",
+      "L",
+      "#",
+      "D",
+      "U",
+      "R",
+      "A",
+      "N",
+      "C",
+      "E"
+    ],
+    [
+      "S",
+      "S",
+      "A",
+      "#",
+      "#",
+      "R",
+      "E",
+      "P",
+      "A",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CARAT",
+      "clue": "Unit of measurement for the proportion of gold in an alloy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of measurement for the proportion of gold in an alloy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "COMET",
+      "clue": "Relatively small extraterrestrial body consisting of a frozen mass that...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Relatively small extraterrestrial body consisting of a frozen mass that...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "AMPLY",
+      "clue": "Sufficiently",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In an ample manner"
+      ],
+      "definition": "Sufficiently.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "RIEL",
+      "clue": "Basic unit of money in Cambodia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Cambodia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ANTE",
+      "clue": "In the game of poker, to put up a stake before the cards are dealt",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Initial contribution that each player makes to the pot"
+      ],
+      "definition": "In the game of poker, to put up a stake before the cards are dealt.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "TAU",
+      "clue": "Greek letter after sigma",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "AMA",
+      "clue": "Doctors' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "ACINI",
+      "clue": "Grape-cluster-shaped gland sacs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "MOTET",
+      "clue": "Composition adapted to sacred words in the elaborate polyphonic church style",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Composition adapted to sacred words in the elaborate polyphonic church style",
+      "clueSource": "webster"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "ABYSS",
+      "clue": "Bottomless gulf",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Bottomless gulf or pit",
+        "Bottomless or unfathomed depth, gulf, or chasm"
+      ],
+      "definition": "Bottomless gulf.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "NOMINAL",
+      "clue": "Trivial",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Existing in name only",
+        "Of or pertaining to a name or names"
+      ],
+      "definition": "Trivial.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "NIBS",
+      "clue": "Hornies projecting mouth of a bird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hornies projecting mouth of a bird",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "LOGIC",
+      "clue": "The science of correct thinking",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Science of correct thinking",
+        "Reasoned and reasonable judgment",
+        "Science or art of exact reasoning, or of pure and formal thought,..."
+      ],
+      "definition": "The science of correct thinking.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "COB",
+      "clue": "Top or head of anything",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Top or head of anything",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "IMPETUOSITY",
+      "clue": "Rashness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Rash impulsiveness",
+        "Condition or quality of being impetuous"
+      ],
+      "definition": "Rashness.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "SEMI",
+      "clue": "Big rig",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "BELLE",
+      "clue": "A woman who is a center of attraction because of her beauty, accomplishments",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Woman who is a center of attraction because of her beauty, accomplishments",
+        "Young woman who is the most charming and beautiful of several rivals",
+        "Young lady of superior beauty and attractions"
+      ],
+      "definition": "A woman who is a center of attraction because of her beauty, accomplishments...",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "GENES",
+      "clue": "Informal terms for information",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for information",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "STY",
+      "clue": "Pig's pen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "LIMITS",
+      "clue": "Greatest possible degrees of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Greatest possible degrees of something",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "LXV",
+      "clue": "Being five more than sixty",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Being five more than sixty",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "CCXCI",
+      "clue": "Roman numeral for 291",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 291",
+      "clueSource": "roman"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "CLAY",
+      "clue": "Dead body of a human being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dead body of a human being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "CONTD",
+      "clue": "More on the next page, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "PAVLOV",
+      "clue": "Russian physiologist who observed conditioned salivary responses in dogs...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Russian physiologist who observed conditioned salivary responses in dogs...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "PAPAS",
+      "clue": "Informal terms for a father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal terms for a father",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "AVOWS",
+      "clue": "Declares openly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Declares openly",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "VILLA",
+      "clue": "Country seat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Country seat",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "GPO",
+      "clue": "Agency of the legislative branch that provides printing and binding services...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Agency of the legislative branch that provides printing and binding services...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "GONNA",
+      "clue": "Going to, casually",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "PRICY",
+      "clue": "Having a high price",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having a high price",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "ONCE",
+      "clue": "On one occasion",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "On one occasion",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "AVIAN",
+      "clue": "Of or instrument to birds",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or instrument to birds",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "ACORN",
+      "clue": "Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Farm unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "CHAP",
+      "clue": "Leather leggings without a seat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leather leggings without a seat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "POLYTECHNIC",
+      "clue": "Pertaining to, embracing, or practicing many arts",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Technical school offering instruction in many industrial arts and applied...",
+        "Comprehending, or relating to, many arts and sciences"
+      ],
+      "definition": "Pertaining to, embracing, or practicing many arts.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "EUR",
+      "clue": "Continent: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "AWL",
+      "clue": "Pointed instrument for piercing small holes, as in leather or wood",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pointed instrument for piercing small holes, as in leather or wood",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "DURANCE",
+      "clue": "Confinement",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Imprisonment (especially for a long time)",
+        "Continuance"
+      ],
+      "definition": "Confinement.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "SSA",
+      "clue": "Independent government agency responsible for the Social Security system",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Independent government agency responsible for the Social Security system",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "REPAY",
+      "clue": "Answer back",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Answer back",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "NOMINAL",
+      "clue": "Trivial",
+      "definition": "Trivial.",
+      "id": "9A"
+    },
+    {
+      "word": "IMPETUOSITY",
+      "clue": "Rashness",
+      "definition": "Rashness.",
+      "id": "12A"
+    },
+    {
+      "word": "POLYTECHNIC",
+      "clue": "Pertaining to, embracing, or practicing many arts",
+      "definition": "Pertaining to, embracing, or practicing many arts.",
+      "id": "29A"
+    },
+    {
+      "word": "DURANCE",
+      "clue": "Confinement",
+      "definition": "Confinement.",
+      "id": "32A"
+    }
+  ]
+}

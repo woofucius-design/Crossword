@@ -1,0 +1,967 @@
+{
+  "date": "2028-01-30",
+  "number": 214,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "U",
+      "F",
+      "F",
+      "S",
+      "#",
+      "P",
+      "A",
+      "P",
+      "A"
+    ],
+    [
+      "M",
+      "A",
+      "L",
+      "E",
+      "I",
+      "C",
+      "#",
+      "R",
+      "I",
+      "A",
+      "L"
+    ],
+    [
+      "A",
+      "N",
+      "S",
+      "W",
+      "E",
+      "R",
+      "#",
+      "O",
+      "R",
+      "A",
+      "L"
+    ],
+    [
+      "D",
+      "I",
+      "T",
+      "#",
+      "F",
+      "O",
+      "R",
+      "G",
+      "E",
+      "R",
+      "Y"
+    ],
+    [
+      "A",
+      "N",
+      "E",
+      "W",
+      "#",
+      "D",
+      "U",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "E",
+      "R",
+      "R",
+      "Y",
+      "#",
+      "E",
+      "N",
+      "A",
+      "C",
+      "T"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "E",
+      "D",
+      "#",
+      "Y",
+      "O",
+      "U",
+      "R"
+    ],
+    [
+      "O",
+      "M",
+      "I",
+      "N",
+      "O",
+      "U",
+      "S",
+      "#",
+      "R",
+      "T",
+      "E"
+    ],
+    [
+      "B",
+      "E",
+      "R",
+      "G",
+      "#",
+      "P",
+      "I",
+      "S",
+      "T",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "N",
+      "O",
+      "L",
+      "#",
+      "E",
+      "M",
+      "A",
+      "I",
+      "L",
+      "S"
+    ],
+    [
+      "S",
+      "O",
+      "N",
+      "E",
+      "#",
+      "D",
+      "A",
+      "N",
+      "C",
+      "Y",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CUFFS",
+      "clue": "Laps consisting of a turned-back hem encircling the end of the sleeve",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Laps consisting of a turned-back hem encircling the end of the sleeve",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "CANINE",
+      "clue": "Characteristic of a dog",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to or characteristic of members of the family Canidae",
+        "Of or pertaining to the family Canid\u00e6, or dogs and wolves"
+      ],
+      "definition": "Characteristic of a dog.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "ULSTER",
+      "clue": "Long, loose overcoat, worn by men and women, originally made of frieze from...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Long, loose overcoat, worn by men and women, originally made of frieze from...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "FEW",
+      "clue": "Not many",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not many",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "FIEF",
+      "clue": "A landed estate held under feudal tenure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Landed estate held under feudal tenure",
+        "Piece of land held under the feudal system",
+        "Estate held of a superior on condition of military service"
+      ],
+      "definition": "A landed estate held under feudal tenure.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "SCROD",
+      "clue": "Young codfish, especially when cut open on the back and dressed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Young codfish, especially when cut open on the back and dressed",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "PAPA",
+      "clue": "Child's word for father",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Child's word for father",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "PROGENY",
+      "clue": "Offspring",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Immediate descendants of a person",
+        "Descendants of the human kind, or offspring of other animals"
+      ],
+      "definition": "Offspring.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AIRE",
+      "clue": "River in northern England that flows southeast through West Yorkshire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "River in northern England that flows southeast through West Yorkshire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "PAAR",
+      "clue": "Carson's 'Tonight Show' predecessor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "ALLY",
+      "clue": "A person or thing connected with another, usually in some relation of helpfulness",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Person or thing connected with another, usually in some relation of helpfulness",
+        "Friendly nation",
+        "Unite, or form a connection between, as between families by..."
+      ],
+      "definition": "A person or thing connected with another, usually in some relation of helpfulness.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "MALEIC",
+      "clue": "Pertaining to, or designating, an acid of the ethylene series, metameric with...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to, or designating, an acid of the ethylene series, metameric with...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "MADAM",
+      "clue": "Woman of refinement",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Woman of refinement",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "RIAL",
+      "clue": "Basic unit of money in Iran",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Basic unit of money in Iran",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "ANSWER",
+      "clue": "Speak in defense against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Speak in defense against",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "ORAL",
+      "clue": "Uttered through the mouth",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Stage in psychosexual development when the child's interest is concentrated...",
+        "Uttered by the mouth, or in words"
+      ],
+      "definition": "Uttered through the mouth.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "DIT",
+      "clue": "Word",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Word",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "FORGERY",
+      "clue": "Counterfeiting",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Criminal falsification by making or altering an instrument with intent to...",
+        "Act of forging metal into shape"
+      ],
+      "definition": "Counterfeiting.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "RUE",
+      "clue": "To regret extremely",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Regret extremely",
+        "Street or road in France",
+        "Perennial suffrutescent plant (Ruta graveolens), having a strong,..."
+      ],
+      "definition": "To regret extremely.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "ANEW",
+      "clue": "Once more",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Again but in a new or different way",
+        "Over again"
+      ],
+      "definition": "Once more.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "WRANGLE",
+      "clue": "To maintain by noisy argument or dispute",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Maintain by noisy argument or dispute",
+        "Instance of intense argument (as in bargaining)",
+        "Argue"
+      ],
+      "definition": "To maintain by noisy argument or dispute.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "DUE",
+      "clue": "Directly or exactly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Directly or exactly",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "MERRY",
+      "clue": "Quick and energetic",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Quick and energetic",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "YEO",
+      "clue": "Old British militia member",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "ENACT",
+      "clue": "To make into law, as by legislative act",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make into law, as by legislative act",
+        "Act out",
+        "Decree"
+      ],
+      "definition": "To make into law, as by legislative act.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "AORTIC",
+      "clue": "Of or relating to the aorta",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the aorta",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "CUTELY",
+      "clue": "In an attractive manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an attractive manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "TRESS",
+      "clue": "Braid, knot, or curl, of hair",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Braid, knot, or curl, of hair",
+      "clueSource": "webster"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "AED",
+      "clue": "Heart-shock device",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Heart-shock device",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "DUPED",
+      "clue": "Fooled or hoaxed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Fooled or hoaxed",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "YOUR",
+      "clue": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Form of the possessive case of the personal pronoun you. Note: The...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "OMINOUS",
+      "clue": "Portentous",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Presaging ill fortune",
+        "Of or pertaining to an omen or to omens"
+      ],
+      "definition": "Portentous.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "OBES",
+      "clue": "Branches of medicine dealing with childbirth and care of the mother",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Branches of medicine dealing with childbirth and care of the mother",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "MENO",
+      "clue": "Less, in music",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "IRON",
+      "clue": "Most common and most useful metallic element, being of almost universal...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Most common and most useful metallic element, being of almost universal...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "SIMA",
+      "clue": "Rock that form the continuous lower layer of the earth's crust",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rock that form the continuous lower layer of the earth's crust",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "RTE",
+      "clue": "Hwy.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "BERG",
+      "clue": "Large mass of ice floating at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large mass of ice floating at sea",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "PISTES",
+      "clue": "Ski runs densely packed with snow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Ski runs densely packed with snow",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "SAN",
+      "clue": "___ Francisco",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ENOL",
+      "clue": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organic compound that contains a hydroxyl group bonded to a carbon atom...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EMAILS",
+      "clue": "Systems of world-wide electronic communication in which a computer",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Systems of world-wide electronic communication in which a computer",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SONE",
+      "clue": "Unit of perceived loudness equal to the loudness of a 1000-hertz tone at 40...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Unit of perceived loudness equal to the loudness of a 1000-hertz tone at 40...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "DANCY",
+      "clue": "Same as Dancett\u00e9",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Dancett\u00e9",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PROGENY",
+      "clue": "Offspring",
+      "definition": "Offspring.",
+      "id": "6D"
+    },
+    {
+      "word": "FORGERY",
+      "clue": "Counterfeiting",
+      "definition": "Counterfeiting.",
+      "id": "15A"
+    },
+    {
+      "word": "WRANGLE",
+      "clue": "To maintain by noisy argument or dispute",
+      "definition": "To maintain by noisy argument or dispute.",
+      "id": "18D"
+    },
+    {
+      "word": "OMINOUS",
+      "clue": "Portentous",
+      "definition": "Portentous.",
+      "id": "29A"
+    }
+  ]
+}

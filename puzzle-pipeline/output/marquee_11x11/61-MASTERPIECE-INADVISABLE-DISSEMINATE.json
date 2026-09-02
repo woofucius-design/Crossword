@@ -1,0 +1,929 @@
+{
+  "date": "2027-08-30",
+  "number": 61,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "R",
+      "E",
+      "D",
+      "D",
+      "#",
+      "M",
+      "C",
+      "C",
+      "I",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "S",
+      "I",
+      "A",
+      "#",
+      "G",
+      "A",
+      "I",
+      "N",
+      "E",
+      "D"
+    ],
+    [
+      "M",
+      "A",
+      "S",
+      "T",
+      "E",
+      "R",
+      "P",
+      "I",
+      "E",
+      "C",
+      "E"
+    ],
+    [
+      "P",
+      "U",
+      "S",
+      "E",
+      "Y",
+      "#",
+      "A",
+      "I",
+      "S",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "D",
+      "E",
+      "N",
+      "#",
+      "#",
+      "T",
+      "A",
+      "P"
+    ],
+    [
+      "R",
+      "E",
+      "M",
+      "#",
+      "D",
+      "I",
+      "G",
+      "#",
+      "I",
+      "T",
+      "S"
+    ],
+    [
+      "A",
+      "V",
+      "I",
+      "#",
+      "#",
+      "L",
+      "O",
+      "A",
+      "M",
+      "#",
+      "#"
+    ],
+    [
+      "M",
+      "A",
+      "N",
+      "I",
+      "A",
+      "#",
+      "D",
+      "R",
+      "A",
+      "F",
+      "T"
+    ],
+    [
+      "I",
+      "N",
+      "A",
+      "D",
+      "V",
+      "I",
+      "S",
+      "A",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "E",
+      "E",
+      "M",
+      "#",
+      "B",
+      "L",
+      "U",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "E",
+      "A",
+      "R",
+      "P",
+      "#",
+      "S",
+      "E",
+      "E",
+      "M"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,5": {
+      "number": 10
+    },
+    "1,9": {
+      "number": 11
+    },
+    "1,10": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,4": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,2": {
+      "number": 17
+    },
+    "4,5": {
+      "number": 18
+    },
+    "4,8": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,1": {
+      "number": 21
+    },
+    "5,4": {
+      "number": 22
+    },
+    "5,6": {
+      "number": 23
+    },
+    "5,8": {
+      "number": 24
+    },
+    "6,0": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,7": {
+      "number": 27
+    },
+    "7,0": {
+      "number": 28
+    },
+    "7,3": {
+      "number": 29
+    },
+    "7,4": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "7,9": {
+      "number": 32
+    },
+    "7,10": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,2": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "REDD",
+      "clue": "Foxx of comedy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "RAMP",
+      "clue": "Spring",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spring",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ESAU",
+      "clue": "Eldest son of Isaac who would have inherited the covenant that God made...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Eldest son of Isaac who would have inherited the covenant that God made...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 11,
+      "answer": "DISSEMINATE",
+      "clue": "To sow or scatter abroad, as seed is sown",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Sow or scatter abroad, as seed is sown",
+        "Cause to become widely known",
+        "Sow broadcast or as seed"
+      ],
+      "definition": "To sow or scatter abroad, as seed is sown.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "DATED",
+      "clue": "Marked by features of the immediate and usually discounted past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Marked by features of the immediate and usually discounted past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 4,
+      "answer": "MCCI",
+      "clue": "Roman numeral for 1201",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1201",
+      "clueSource": "roman"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "MGR",
+      "clue": "Team boss: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 4,
+      "answer": "CAPA",
+      "clue": "Photographer Robert ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "CIII",
+      "clue": "Roman numeral for 103",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 103",
+      "clueSource": "roman"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 11,
+      "answer": "INESTIMABLE",
+      "clue": "Above price",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Beyond calculation or measure",
+        "Incapable of being estimated or computed"
+      ],
+      "definition": "Above price.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "ASIA",
+      "clue": "Nations of the Asian continent collectively",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Nations of the Asian continent collectively",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "GAINED",
+      "clue": "Increased (one's body weight)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Increased (one's body weight)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 9,
+      "length": 5,
+      "answer": "ECLAT",
+      "clue": "Brilliant or conspicuous success or effect",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Brilliant or conspicuous success or effect",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "12D",
+      "number": 12,
+      "direction": "down",
+      "row": 1,
+      "col": 10,
+      "length": 5,
+      "answer": "DEEPS",
+      "clue": "Literary terms for an ocean",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Literary terms for an ocean",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "MASTERPIECE",
+      "clue": "A superior production",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Superior production",
+        "Outstanding achievement",
+        "Anything done or made with extraordinary skill"
+      ],
+      "definition": "A superior production.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 4,
+      "length": 4,
+      "answer": "EYED",
+      "clue": "Looked at",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Looked at",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "PUSEY",
+      "clue": "English theologian who (with John Henry Newman and John Keble) founded the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "English theologian who (with John Henry Newman and John Keble) founded the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "AISLE",
+      "clue": "Lateral division of a building, separated from the middle part, called the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lateral division of a building, separated from the middle part, called the...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 2,
+      "length": 4,
+      "answer": "EDEN",
+      "clue": "Original garden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NIL",
+      "clue": "Nothing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quantity of no importance",
+        "Will not"
+      ],
+      "definition": "Nothing",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "TAP",
+      "clue": "Faucet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "REM",
+      "clue": "Dosage of ionizing radiation that will cause the same amount of injury to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dosage of ionizing radiation that will cause the same amount of injury to...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "RAMIE",
+      "clue": "Tall perennial herb of tropical Asia with dark green leaves",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tall perennial herb of tropical Asia with dark green leaves",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 5,
+      "answer": "EVANS",
+      "clue": "British archaeologist who excavated the palace of Knossos in Crete to find",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "British archaeologist who excavated the palace of Knossos in Crete to find what...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "DIG",
+      "clue": "Get the meaning of something",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Get the meaning of something",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 4,
+      "answer": "GODS",
+      "clue": "Material effigies that are worshipped",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Material effigies that are worshipped",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "ITS",
+      "clue": "Grammatical possessive",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "AVI",
+      "clue": "Filmmaker's file format",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 4,
+      "answer": "LOAM",
+      "clue": "A non-coherent mixture of sand and clay",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Non-coherent mixture of sand and clay",
+        "Rich soil consisting of a mixture of sand and clay and decaying organic...",
+        "Kind of soil"
+      ],
+      "definition": "A non-coherent mixture of sand and clay.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "ARABS",
+      "clue": "Spirited gracefuls and intelligents riding horse native to Arabia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Spirited gracefuls and intelligents riding horse native to Arabia",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "MANIA",
+      "clue": "Insanity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Irrational but irresistible motive for a belief or action",
+        "Violent derangement of mind"
+      ],
+      "definition": "Insanity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "IDEA",
+      "clue": "Light-bulb moment",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 4,
+      "answer": "AVER",
+      "clue": "To assert as a fact",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assert as a fact",
+        "Declare or affirm solemnly and formally as true",
+        "Work horse, or working ox"
+      ],
+      "definition": "To assert as a fact.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "DRAFT",
+      "clue": "Act of moving a load by drawing or pulling",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of moving a load by drawing or pulling",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "FLUE",
+      "clue": "A smoke-duct in a chimney",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Smoke-duct in a chimney",
+        "Conduit to carry off smoke",
+        "Inclosed passage way for establishing and directing a current of..."
+      ],
+      "definition": "A smoke-duct in a chimney.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "TEEM",
+      "clue": "To be full to overflowing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Be full to overflowing",
+        "Move in large numbers",
+        "Pour"
+      ],
+      "definition": "To be full to overflowing.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "INADVISABLE",
+      "clue": "Unadvisable",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Not prudent or wise",
+        "Not advisable"
+      ],
+      "definition": "Unadvisable.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "35D",
+      "number": 35,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "IMP",
+      "clue": "Shoot",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shoot",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "ESTEEM",
+      "clue": "Set a value on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Set a value on",
+      "clueSource": "webster"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "BLUE",
+      "clue": "Having the color of the clear sky, or a hue resembling it, whether lighter or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the color of the clear sky, or a hue resembling it, whether lighter or...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 2,
+      "length": 4,
+      "answer": "EARP",
+      "clue": "Wyatt of Tombstone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SEEM",
+      "clue": "Appear, or to appear to be",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Appear, or to appear to be",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "DISSEMINATE",
+      "clue": "To sow or scatter abroad, as seed is sown",
+      "definition": "To sow or scatter abroad, as seed is sown.",
+      "id": "3D"
+    },
+    {
+      "word": "INESTIMABLE",
+      "clue": "Above price",
+      "definition": "Above price.",
+      "id": "8D"
+    },
+    {
+      "word": "MASTERPIECE",
+      "clue": "A superior production",
+      "definition": "A superior production.",
+      "id": "13A"
+    },
+    {
+      "word": "INADVISABLE",
+      "clue": "Unadvisable",
+      "definition": "Unadvisable.",
+      "id": "34A"
+    }
+  ]
+}

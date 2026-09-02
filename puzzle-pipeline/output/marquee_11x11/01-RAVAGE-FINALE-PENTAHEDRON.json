@@ -1,0 +1,908 @@
+{
+  "date": "2027-07-01",
+  "number": 1,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "P",
+      "O",
+      "M",
+      "P",
+      "#",
+      "B",
+      "A",
+      "S",
+      "S",
+      "O",
+      "S"
+    ],
+    [
+      "O",
+      "L",
+      "D",
+      "E",
+      "#",
+      "I",
+      "M",
+      "P",
+      "I",
+      "S",
+      "H"
+    ],
+    [
+      "K",
+      "I",
+      "L",
+      "N",
+      "#",
+      "A",
+      "D",
+      "O",
+      "N",
+      "A",
+      "I"
+    ],
+    [
+      "E",
+      "V",
+      "I",
+      "T",
+      "A",
+      "#",
+      "#",
+      "N",
+      "U",
+      "K",
+      "E"
+    ],
+    [
+      "R",
+      "A",
+      "V",
+      "A",
+      "G",
+      "E",
+      "#",
+      "T",
+      "S",
+      "A",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "H",
+      "O",
+      "F",
+      "F",
+      "A",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "L",
+      "A",
+      "E",
+      "#",
+      "F",
+      "I",
+      "N",
+      "A",
+      "L",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "D",
+      "#",
+      "#",
+      "X",
+      "E",
+      "R",
+      "O",
+      "X"
+    ],
+    [
+      "O",
+      "S",
+      "I",
+      "R",
+      "I",
+      "S",
+      "#",
+      "O",
+      "O",
+      "R",
+      "T"
+    ],
+    [
+      "M",
+      "E",
+      "S",
+      "O",
+      "N",
+      "S",
+      "#",
+      "U",
+      "S",
+      "E",
+      "R"
+    ],
+    [
+      "A",
+      "R",
+      "E",
+      "N",
+      "A",
+      "S",
+      "#",
+      "S",
+      "E",
+      "N",
+      "A"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "POMP",
+      "clue": "Procession distinguished by ostentation and splendor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Procession distinguished by ostentation and splendor",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "POKER",
+      "clue": "Any of various card games in which players bet that they hold the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any of various card games in which players bet that they hold the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "OLIVA",
+      "clue": "Genus of polished marine gastropod shells, chiefly tropical, and often...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Genus of polished marine gastropod shells, chiefly tropical, and often...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "MDLIV",
+      "clue": "Roman numeral for 1554",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 1554",
+      "clueSource": "roman"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "PENTAHEDRON",
+      "clue": "A solid bounded by five plane faces",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Solid bounded by five plane faces",
+        "Any polyhedron having five plane faces",
+        "Solid figure having five sides"
+      ],
+      "definition": "A solid bounded by five plane faces.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "BASSOS",
+      "clue": "Lowest adult males singing voice",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lowest adult males singing voice",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "BIA",
+      "clue": "Tribal-affairs agency: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "AMD",
+      "clue": "Macular degeneration that is age-related",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Macular degeneration that is age-related",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SPONTANEOUS",
+      "clue": "Arising from inherent qualities or tendencies without external efficient",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Said or done without having been planned or written in advance",
+        "Proceding from natural feeling, temperament, or disposition, or from..."
+      ],
+      "definition": "Arising from inherent qualities or tendencies without external efficient",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SINUS",
+      "clue": "An opening or cavity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Opening or cavity",
+        "Wide channel containing blood",
+        "Opening"
+      ],
+      "definition": "An opening or cavity.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "OSAKA",
+      "clue": "Tennis star Naomi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SHIER",
+      "clue": "More bashful",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "OLDE",
+      "clue": "Quaint shoppe word",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "IMPISH",
+      "clue": "Having the qualities, or showing the characteristics, of an imp",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Having the qualities, or showing the characteristics, of an imp",
+      "clueSource": "webster"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "KILN",
+      "clue": "An oven or furnace for baking, burning, or drying industrial products",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Oven or furnace for baking, burning, or drying industrial products",
+        "Furnace for firing or burning or drying such things as porcelain or bricks",
+        "Large stove or oven"
+      ],
+      "definition": "An oven or furnace for baking, burning, or drying industrial products.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "ADONAI",
+      "clue": "Hebrew name for God, usually translated in the Old Testament by the word...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hebrew name for God, usually translated in the Old Testament by the word...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "EVITA",
+      "clue": "Andrew Lloyd Webber musical",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "AGO",
+      "clue": "In the past",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In the past",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "NUKE",
+      "clue": "Cook or heat in a microwave oven",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cook or heat in a microwave oven",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "RAVAGE",
+      "clue": "To lay waste by pillage, rapine, devouring, or other destructive methods",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Lay waste by pillage, rapine, devouring, or other destructive methods",
+        "Destructive action",
+        "Desolation by violence"
+      ],
+      "definition": "To lay waste by pillage, rapine, devouring, or other destructive methods.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "EFF",
+      "clue": "Have sexual intercourse with",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Have sexual intercourse with",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Old Russian ruler",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "HOFFA",
+      "clue": "United States labor leader who was president of the Teamsters Union",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States labor leader who was president of the Teamsters Union",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "FIX",
+      "clue": "Determination of the place where something is",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Determination of the place where something is",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ALAE",
+      "clue": "Winglike parts",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ACOMA",
+      "clue": "New Mexico pueblo (Sky City)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "LOSER",
+      "clue": "One who be set at a disadvantage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who be set at a disadvantage",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ANISE",
+      "clue": "Liquorice-flavored seeds, used medicinally and in cooking and liquors",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Liquorice-flavored seeds, used medicinally and in cooking and liquors",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "FINALE",
+      "clue": "Concluding performance",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Concluding part of any performance",
+        "Close"
+      ],
+      "definition": "Concluding performance.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "AROSE",
+      "clue": "Got up",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "LOREN",
+      "clue": "Italian film actress (born in 1934)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Italian film actress (born in 1934)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "EXTRA",
+      "clue": "Something additional of the same kind",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Something additional of the same kind",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "COND",
+      "clue": "Con, as a ship",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Con, as a ship",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "XEROX",
+      "clue": "Reproduce by xerography",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reproduce by xerography",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "OSIRIS",
+      "clue": "Egyptian god of the underworld and judge of the dead",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Egyptian god of the underworld and judge of the dead",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "INA",
+      "clue": "Actress Garten",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SSS",
+      "clue": "Draft-registration org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "OORT",
+      "clue": "Dutch astronomer who proved that the galaxy is rotating and proposed the...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dutch astronomer who proved that the galaxy is rotating and proposed the...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "MESONS",
+      "clue": "Elementary particles responsible for the forces in the atomic nucleus",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elementary particles responsible for the forces in the atomic nucleus",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "USER",
+      "clue": "Person who takes drugs",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who takes drugs",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "ARENAS",
+      "clue": "Playing fields where sports events take place",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Playing fields where sports events take place",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "SENA",
+      "clue": "Italian river that gives Siena its name",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PENTAHEDRON",
+      "clue": "A solid bounded by five plane faces",
+      "definition": "A solid bounded by five plane faces.",
+      "id": "4D"
+    },
+    {
+      "word": "SPONTANEOUS",
+      "clue": "Arising from inherent qualities or tendencies without external efficient",
+      "definition": "Arising from inherent qualities or tendencies without external efficient",
+      "id": "7D"
+    },
+    {
+      "word": "RAVAGE",
+      "clue": "To lay waste by pillage, rapine, devouring, or other destructive methods",
+      "definition": "To lay waste by pillage, rapine, devouring, or other destructive methods.",
+      "id": "18A"
+    },
+    {
+      "word": "FINALE",
+      "clue": "Concluding performance",
+      "definition": "Concluding performance.",
+      "id": "26A"
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "date": "2027-09-29",
+  "number": 91,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "A",
+      "L",
+      "A",
+      "R",
+      "M",
+      "#",
+      "#",
+      "I",
+      "M",
+      "F"
+    ],
+    [
+      "O",
+      "P",
+      "I",
+      "N",
+      "I",
+      "O",
+      "N",
+      "#",
+      "D",
+      "O",
+      "O"
+    ],
+    [
+      "A",
+      "P",
+      "P",
+      "E",
+      "L",
+      "L",
+      "A",
+      "T",
+      "I",
+      "O",
+      "N"
+    ],
+    [
+      "T",
+      "R",
+      "I",
+      "T",
+      "E",
+      "#",
+      "C",
+      "H",
+      "O",
+      "R",
+      "D"
+    ],
+    [
+      "H",
+      "O",
+      "D",
+      "#",
+      "#",
+      "A",
+      "H",
+      "I",
+      "M",
+      "S",
+      "A"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "A",
+      "A",
+      "R",
+      "O",
+      "N",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "S",
+      "T",
+      "A",
+      "P",
+      "L",
+      "E",
+      "#",
+      "#",
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "C",
+      "A",
+      "R",
+      "I",
+      "B",
+      "#",
+      "C",
+      "R",
+      "A",
+      "T",
+      "E"
+    ],
+    [
+      "E",
+      "X",
+      "H",
+      "A",
+      "U",
+      "S",
+      "T",
+      "I",
+      "B",
+      "L",
+      "E"
+    ],
+    [
+      "N",
+      "E",
+      "A",
+      "#",
+      "M",
+      "A",
+      "R",
+      "T",
+      "I",
+      "A",
+      "N"
+    ],
+    [
+      "E",
+      "S",
+      "T",
+      "#",
+      "#",
+      "G",
+      "L",
+      "E",
+      "N",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "ALARM",
+      "clue": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Warn or arouse to a sense of danger or call to a state of preparedness",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "APPRO",
+      "clue": "Informal British abbreviation of approval",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Informal British abbreviation of approval",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "LIPID",
+      "clue": "Oily organic compound insoluble in water but soluble in organic solvents",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Oily organic compound insoluble in water but soluble in organic solvents",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "ANET",
+      "clue": "Herb dill, or dillseed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Herb dill, or dillseed",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "RILE",
+      "clue": "Make turbid by stirring up the sediments of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make turbid by stirring up the sediments of",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "MOL",
+      "clue": "Molecular weight of a substance expressed in grams",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Molecular weight of a substance expressed in grams",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "IMF",
+      "clue": "United Nations agency to promote trade by increasing the exchange stability...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United Nations agency to promote trade by increasing the exchange stability...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "IDIOM",
+      "clue": "A use of words peculiar to a particular language",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Use of words peculiar to a particular language",
+        "Style of a particular artist or school or movement",
+        "Syntactical or structural form peculiar to any language"
+      ],
+      "definition": "A use of words peculiar to a particular language.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "MOORS",
+      "clue": "Open lands usually with peaty soil covered with heather and bracken",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open lands usually with peaty soil covered with heather and bracken",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "FONDA",
+      "clue": "United States film actor (1905-1982)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States film actor (1905-1982)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "OPINION",
+      "clue": "A conclusion or judgment held with confidence, but falling short of positive",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Conclusion or judgment held with confidence, but falling short of positive",
+        "Reason for a court's judgment (as opposed to the decision itself)",
+        "That which is opined"
+      ],
+      "definition": "A conclusion or judgment held with confidence, but falling short of positive",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "OATH",
+      "clue": "Commitment to tell the truth (especially in a court of law)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Commitment to tell the truth (especially in a court of law)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "NACHO",
+      "clue": "Tortilla chip topped with cheese and chili-pepper and broiled",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Tortilla chip topped with cheese and chili-pepper and broiled",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "DOO",
+      "clue": "Dove",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Dove",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "APPELLATION",
+      "clue": "The name or title by which a particular person, class, or thing is called",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Name or title by which a particular person, class, or thing is called",
+        "Identifying word or words by which someone or something is called and...",
+        "Act of appealing"
+      ],
+      "definition": "The name or title by which a particular person, class, or thing is called.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "THIN",
+      "clue": "Take off weight",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Take off weight",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "TRITE",
+      "clue": "Made commonplace by frequent repetition",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Repeated too often",
+        "Worn out"
+      ],
+      "definition": "Made commonplace by frequent repetition.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "CHORD",
+      "clue": "Bring into consonance, harmony, or accord while making music or singing",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bring into consonance, harmony, or accord while making music or singing",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "HOD",
+      "clue": "Open box attached to a long pole handle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Open box attached to a long pole handle",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "AHIMSA",
+      "clue": "Buddhist and Hindu and especially Jainist doctrine holding that all forms of...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Buddhist and Hindu and especially Jainist doctrine holding that all forms of...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "AARON",
+      "clue": "Elder brother of Moses and first high priest of the Israelites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elder brother of Moses and first high priest of the Israelites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "APIA",
+      "clue": "Capital of Western Samoa",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital of Western Samoa",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "A book whose leaves are so made to form paper frames for holding photographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book whose leaves are so made to form paper frames for holding photographs",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "STAPLE",
+      "clue": "Necessary or important, especially regarding food or commodities",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Necessary or important, especially regarding food or commodities",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "SCENE",
+      "clue": "Structure on which a spectacle or play is exhibited",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Structure on which a spectacle or play is exhibited",
+      "clueSource": "webster"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "TAXES",
+      "clue": "Charges against a citizen's person or property or activity",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Charges against a citizen's person or property or activity",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "ARHAT",
+      "clue": "Buddhist who has attained nirvana",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Buddhist who has attained nirvana",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "CAB",
+      "clue": "Taxi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "CABIN",
+      "clue": "Cottage or small house",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cottage or small house",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ATLAS",
+      "clue": "Figure of a man used as a supporting column",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Figure of a man used as a supporting column",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "BEEN",
+      "clue": "Existed",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "CARIB",
+      "clue": "Native of the Caribbee islands or the coaste of the Caribbean sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Native of the Caribbee islands or the coaste of the Caribbean sea",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "CRATE",
+      "clue": "Rugged box (usually made of wood)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rugged box (usually made of wood)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "CTRL",
+      "clue": "Keyboard key",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "RITE",
+      "clue": "Act of performing divine or solemn service, as established by law, precept,...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Act of performing divine or solemn service, as established by law, precept,...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "EXHAUSTIBLE",
+      "clue": "Capable of being used up",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "Causing or tending to cause exhaustion.",
+      "clueSource": "sat:wordnet",
+      "isMarquee": true
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SAG",
+      "clue": "Sink, in the middle, by its weight or under applied pressure, below a...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Sink, in the middle, by its weight or under applied pressure, below a...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "NEA",
+      "clue": "Teachers' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "MARTIAN",
+      "clue": "Pertaining to Mars, either the Roman god of war or the planet",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Of or relating to the planet Mars (or its fictional inhabitants)",
+        "Of or pertaining to Mars, the Roman god of war, or to the planet..."
+      ],
+      "definition": "Pertaining to Mars, either the Roman god of war or the planet.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "EST",
+      "clue": "NYC clock setting, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "GLENS",
+      "clue": "Narrows secluded valley (in the mountains)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Narrows secluded valley (in the mountains)",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "OPINION",
+      "clue": "A conclusion or judgment held with confidence, but falling short of positive",
+      "definition": "A conclusion or judgment held with confidence, but falling short of positive",
+      "id": "9A"
+    },
+    {
+      "word": "APPELLATION",
+      "clue": "The name or title by which a particular person, class, or thing is called",
+      "definition": "The name or title by which a particular person, class, or thing is called.",
+      "id": "12A"
+    },
+    {
+      "word": "EXHAUSTIBLE",
+      "clue": "Capable of being used up",
+      "definition": "Causing or tending to cause exhaustion.",
+      "id": "29A"
+    },
+    {
+      "word": "MARTIAN",
+      "clue": "Pertaining to Mars, either the Roman god of war or the planet",
+      "definition": "Pertaining to Mars, either the Roman god of war or the planet.",
+      "id": "32A"
+    }
+  ]
+}

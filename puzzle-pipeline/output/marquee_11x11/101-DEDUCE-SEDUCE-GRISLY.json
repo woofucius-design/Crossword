@@ -1,0 +1,997 @@
+{
+  "date": "2027-10-09",
+  "number": 101,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "R",
+      "I",
+      "A",
+      "N",
+      "A",
+      "#",
+      "A",
+      "G",
+      "R",
+      "A"
+    ],
+    [
+      "R",
+      "O",
+      "L",
+      "L",
+      "E",
+      "D",
+      "#",
+      "C",
+      "R",
+      "E",
+      "W"
+    ],
+    [
+      "A",
+      "M",
+      "E",
+      "B",
+      "I",
+      "C",
+      "#",
+      "R",
+      "I",
+      "G",
+      "A"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "U",
+      "#",
+      "#",
+      "C",
+      "E",
+      "S",
+      "A",
+      "R"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "A",
+      "G",
+      "I",
+      "#",
+      "L",
+      "L",
+      "D"
+    ],
+    [
+      "E",
+      "D",
+      "S",
+      "#",
+      "B",
+      "U",
+      "T",
+      "#",
+      "Y",
+      "E",
+      "S"
+    ],
+    [
+      "L",
+      "E",
+      "E",
+      "#",
+      "E",
+      "Y",
+      "E",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "D",
+      "D",
+      "E",
+      "D",
+      "#",
+      "#",
+      "T",
+      "A",
+      "C",
+      "K"
+    ],
+    [
+      "T",
+      "U",
+      "U",
+      "M",
+      "#",
+      "B",
+      "R",
+      "O",
+      "G",
+      "U",
+      "E"
+    ],
+    [
+      "E",
+      "C",
+      "C",
+      "E",
+      "#",
+      "S",
+      "A",
+      "I",
+      "N",
+      "T",
+      "E"
+    ],
+    [
+      "D",
+      "E",
+      "E",
+      "R",
+      "#",
+      "A",
+      "N",
+      "C",
+      "I",
+      "E",
+      "N"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,7": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,4": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,8": {
+      "number": 20
+    },
+    "5,0": {
+      "number": 21
+    },
+    "5,1": {
+      "number": 22
+    },
+    "5,2": {
+      "number": 23
+    },
+    "5,4": {
+      "number": 24
+    },
+    "5,8": {
+      "number": 25
+    },
+    "6,0": {
+      "number": 26
+    },
+    "6,4": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,3": {
+      "number": 30
+    },
+    "7,7": {
+      "number": 31
+    },
+    "7,8": {
+      "number": 32
+    },
+    "7,9": {
+      "number": 33
+    },
+    "7,10": {
+      "number": 34
+    },
+    "8,0": {
+      "number": 35
+    },
+    "8,5": {
+      "number": 36
+    },
+    "8,6": {
+      "number": 37
+    },
+    "9,0": {
+      "number": 38
+    },
+    "9,5": {
+      "number": 39
+    },
+    "10,0": {
+      "number": 40
+    },
+    "10,5": {
+      "number": 41
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ARIANA",
+      "clue": "City in Tunisia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in Tunisia",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "ARAB",
+      "clue": "Gulf resident",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "ROME",
+      "clue": "Leadership of the Roman Catholic Church",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Leadership of the Roman Catholic Church",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "ILEA",
+      "clue": "Small-intestine sections",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 5,
+      "answer": "ALBUM",
+      "clue": "A book whose leaves are so made to form paper frames for holding photographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book whose leaves are so made to form paper frames for holding photographs",
+        "Book whose leaves are so made to form paper frames for holding photographs or",
+        "Book of blank pages with pockets or envelopes",
+        "White tablet on which anything was inscribed, as a list of names,..."
+      ],
+      "definition": "A book whose leaves are so made to form paper frames for holding photographs or",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 3,
+      "answer": "NEI",
+      "clue": "'Of the,' in Italian",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "ADC",
+      "clue": "Military aide, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "AGRA",
+      "clue": "City in northern India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in northern India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "ACRE",
+      "clue": "Farm unit",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "GRISLY",
+      "clue": "Fear-inspiring",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Shockingly repellent",
+        "Frightful"
+      ],
+      "definition": "Fear-inspiring.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "REGALE",
+      "clue": "To give unusual pleasure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Give unusual pleasure",
+        "Provide with choice or abundant food or drink",
+        "Prerogative of royalty"
+      ],
+      "definition": "To give unusual pleasure.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "AWARDS",
+      "clue": "Grants made by a law court",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Grants made by a law court",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "ROLLED",
+      "clue": "Went head over heels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "CREW",
+      "clue": "Organized group of workmen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Organized group of workmen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "AMEBIC",
+      "clue": "Pertaining to or resembling amoebae",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pertaining to or resembling amoebae",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "RIGA",
+      "clue": "Latvia's capital",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "An escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Escort or lover",
+        "Man who is the lover of a girl or young woman",
+        "Man who takes great care to dress in the latest fashion"
+      ],
+      "definition": "An escort or lover.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "CESAR",
+      "clue": "Actor Romero",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 4,
+      "answer": "CITE",
+      "clue": "To refer to specifically",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Refer to specifically",
+        "Short note recognizing a source of information or of a quoted passage",
+        "Call upon officially or authoritatively to appear, as before a..."
+      ],
+      "definition": "To refer to specifically.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 4,
+      "answer": "MAGI",
+      "clue": "Caste of priests, philosophers, and magicians, among the ancient Persians",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Caste of priests, philosophers, and magicians, among the ancient Persians",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 4,
+      "length": 4,
+      "answer": "ABED",
+      "clue": "In bed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "In bed; on a bed"
+      ],
+      "definition": "In bed; on a bed.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "GUY",
+      "clue": "Stay-rope",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Cable, wire, or rope that is used to brace something (especially a tent)",
+        "Rope, chain, or rod attached to anything to steady it"
+      ],
+      "definition": "Stay-rope.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 8,
+      "length": 3,
+      "answer": "LLD",
+      "clue": "Honorary law degree",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Honorary law degree",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 3,
+      "answer": "EDS",
+      "clue": "Magazine bosses, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "ELATED",
+      "clue": "Exultantly proud and joyful",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Exultantly proud and joyful",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "DEDUCE",
+      "clue": "To derive or draw as a conclusion by reasoning from given premises or",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Derive or draw as a conclusion by reasoning from given premises or",
+        "Reason by deduction",
+        "Lead forth"
+      ],
+      "definition": "To derive or draw as a conclusion by reasoning from given premises or",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "SEDUCE",
+      "clue": "To entice to surrender chastity",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Entice to surrender chastity",
+        "Lure or entice away from duty, principles, or proper conduct",
+        "Draw aside from the path of rectitude and duty in any manner"
+      ],
+      "definition": "To entice to surrender chastity.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "BUT",
+      "clue": "However",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 5,
+      "col": 8,
+      "length": 3,
+      "answer": "YES",
+      "clue": "Affirmative",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmative",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 3,
+      "answer": "LEE",
+      "clue": "Sheltered side, at sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 6,
+      "col": 4,
+      "length": 4,
+      "answer": "EYES",
+      "clue": "Portrait focal points",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 7,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Enduring hardship without showing feelings",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "ADDED",
+      "clue": "Made an addition (to)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Made an addition (to)",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 3,
+      "length": 4,
+      "answer": "EMER",
+      "clue": "Critical: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "TACK",
+      "clue": "A small sharp-pointed nail",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Small sharp-pointed nail",
+        "Sailing a zigzag course",
+        "Stain"
+      ],
+      "definition": "A small sharp-pointed nail.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "AGNI",
+      "clue": "Hindu god of fire in ancient and traditional India",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hindu god of fire in ancient and traditional India",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "CUTE",
+      "clue": "Adorable",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "KEEN",
+      "clue": "Astute?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "ASTUTE",
+        "ZEALOUS",
+        "ARDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of astute",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "TUUM",
+      "clue": "Lit., thine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Lit., thine",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "BROGUE",
+      "clue": "Any dialectic pronunciation of English, especially that of the Irish people",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Thick and heavy shoe",
+        "Stout, coarse shoe"
+      ],
+      "definition": "Any dialectic pronunciation of English, especially that of the Irish people.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "BSA",
+      "clue": "Scouting org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "37D",
+      "number": 37,
+      "direction": "down",
+      "row": 8,
+      "col": 6,
+      "length": 3,
+      "answer": "RAN",
+      "clue": "Was in charge of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "ECCE",
+      "clue": "Behold!, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "SAINTE",
+      "clue": "Holy, in French",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "DEER",
+      "clue": "Any animal",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any animal",
+      "clueSource": "webster"
+    },
+    {
+      "id": "41A",
+      "number": 41,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "ANCIEN",
+      "clue": "Old, in French",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    }
+  ],
+  "featured": [
+    {
+      "word": "GRISLY",
+      "clue": "Fear-inspiring",
+      "definition": "Fear-inspiring.",
+      "id": "8D"
+    },
+    {
+      "word": "REGALE",
+      "clue": "To give unusual pleasure",
+      "definition": "To give unusual pleasure.",
+      "id": "9D"
+    },
+    {
+      "word": "DEDUCE",
+      "clue": "To derive or draw as a conclusion by reasoning from given premises or",
+      "definition": "To derive or draw as a conclusion by reasoning from given premises or",
+      "id": "22D"
+    },
+    {
+      "word": "SEDUCE",
+      "clue": "To entice to surrender chastity",
+      "definition": "To entice to surrender chastity.",
+      "id": "23D"
+    }
+  ]
+}

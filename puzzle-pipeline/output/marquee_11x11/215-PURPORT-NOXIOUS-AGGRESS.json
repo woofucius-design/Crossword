@@ -1,0 +1,886 @@
+{
+  "date": "2028-01-31",
+  "number": 215,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "A",
+      "L",
+      "P",
+      "A",
+      "C",
+      "A",
+      "#",
+      "#",
+      "L",
+      "P",
+      "M"
+    ],
+    [
+      "P",
+      "U",
+      "R",
+      "P",
+      "O",
+      "R",
+      "T",
+      "#",
+      "A",
+      "N",
+      "I"
+    ],
+    [
+      "P",
+      "R",
+      "E",
+      "A",
+      "R",
+      "R",
+      "A",
+      "N",
+      "G",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "E",
+      "M",
+      "#",
+      "N",
+      "O",
+      "X",
+      "I",
+      "O",
+      "U",
+      "S"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "M",
+      "E",
+      "W",
+      "#",
+      "S",
+      "O",
+      "M",
+      "A"
+    ],
+    [
+      "I",
+      "D",
+      "L",
+      "E",
+      "R",
+      "#",
+      "R",
+      "E",
+      "N",
+      "A",
+      "L"
+    ],
+    [
+      "M",
+      "E",
+      "A",
+      "T",
+      "#",
+      "P",
+      "E",
+      "I",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "G",
+      "G",
+      "R",
+      "E",
+      "S",
+      "S",
+      "#",
+      "T",
+      "B",
+      "A"
+    ],
+    [
+      "G",
+      "R",
+      "E",
+      "E",
+      "N",
+      "H",
+      "O",
+      "U",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "E",
+      "E",
+      "R",
+      "#",
+      "G",
+      "A",
+      "L",
+      "L",
+      "A",
+      "N",
+      "T"
+    ],
+    [
+      "D",
+      "E",
+      "S",
+      "#",
+      "#",
+      "W",
+      "E",
+      "A",
+      "R",
+      "E",
+      "R"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,4": {
+      "number": 5
+    },
+    "0,5": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,6": {
+      "number": 11
+    },
+    "1,8": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,7": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "4,3": {
+      "number": 17
+    },
+    "4,7": {
+      "number": 18
+    },
+    "5,0": {
+      "number": 19
+    },
+    "5,1": {
+      "number": 20
+    },
+    "5,2": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,5": {
+      "number": 24
+    },
+    "7,0": {
+      "number": 25
+    },
+    "7,4": {
+      "number": 26
+    },
+    "7,8": {
+      "number": 27
+    },
+    "7,9": {
+      "number": 28
+    },
+    "7,10": {
+      "number": 29
+    },
+    "8,0": {
+      "number": 30
+    },
+    "8,7": {
+      "number": 31
+    },
+    "9,0": {
+      "number": 32
+    },
+    "9,4": {
+      "number": 33
+    },
+    "10,0": {
+      "number": 34
+    },
+    "10,5": {
+      "number": 35
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 6,
+      "answer": "ALPACA",
+      "clue": "Animal of Peru (Lama paco), having long, fine, wooly hair, supposed by some...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Animal of Peru (Lama paco), having long, fine, wooly hair, supposed by some...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "APPS",
+      "clue": "Phone downloads",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 4,
+      "answer": "LURE",
+      "clue": "Provoke someone to do something through (often false or exaggerated) promises...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Provoke someone to do something through (often false or exaggerated) promises...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 4,
+      "answer": "PREM",
+      "clue": "Insurance payment: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "APA",
+      "clue": "Psychologists' org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 6,
+      "answer": "CORNER",
+      "clue": "Point where two converging lines meet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Point where two converging lines meet",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "ARROW",
+      "clue": "It points the way",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7A",
+      "number": 7,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "LPM",
+      "clue": "Pump output: Abbr.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 6,
+      "answer": "LAGOON",
+      "clue": "Body of water cut off from a larger body by a reef of sand or coral",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Body of water cut off from a larger body by a reef of sand or coral",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 6,
+      "answer": "PNEUMA",
+      "clue": "Vital breath, in Greek philosophy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 6,
+      "answer": "MISSAL",
+      "clue": "The book containing the service for the celebration of mass",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book containing the service for the celebration of mass",
+        "Book containing all the prayers and responses needed to celebrate Mass...",
+        "Book containing the service of the Mass for the entire year"
+      ],
+      "definition": "The book containing the service for the celebration of mass.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "PURPORT",
+      "clue": "Intent",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pervading meaning or tenor",
+        "Design or tendency"
+      ],
+      "definition": "Intent.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11D",
+      "number": 11,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 3,
+      "answer": "TAX",
+      "clue": "April burden",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ANI",
+      "clue": "Tropical blackbird",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "PREARRANGES",
+      "clue": "Arranges beforehand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Arranges beforehand",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "14D",
+      "number": 14,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 5,
+      "answer": "NISEI",
+      "clue": "Person born in the United States of parents who emigrated from Japan",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person born in the United States of parents who emigrated from Japan",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "SEM",
+      "clue": "Half-yr. at school",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "NOXIOUS",
+      "clue": "Hurtful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Injurious to physical or mental health"
+      ],
+      "definition": "Hurtful.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 3,
+      "length": 3,
+      "answer": "MEW",
+      "clue": "Cry like a cat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cry like a cat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 5,
+      "answer": "METRE",
+      "clue": "Rhythm as given by division into parts of equal duration",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Rhythm as given by division into parts of equal duration",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "SOMA",
+      "clue": "Alternative names for the body of a human being",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Alternative names for the body of a human being",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "IDLER",
+      "clue": "Person who does no work",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who does no work",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 0,
+      "length": 6,
+      "answer": "IMAGED",
+      "clue": "Imagined",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Imagined",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 5,
+      "col": 1,
+      "length": 6,
+      "answer": "DEGREE",
+      "clue": "Position on a scale of intensity or amount or quality",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Position on a scale of intensity or amount or quality",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 2,
+      "length": 6,
+      "answer": "LAGERS",
+      "clue": "Camps defended by a circular formation of wagons",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Camps defended by a circular formation of wagons",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "RENAL",
+      "clue": "Of or relating to the kidneys",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to the kidneys",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 6,
+      "answer": "RESOLE",
+      "clue": "Put a new sole on",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Put a new sole on",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "MEAT",
+      "clue": "Food, in general",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Food, in general",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24A",
+      "number": 24,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 3,
+      "answer": "PEI",
+      "clue": "United States architect (born in China in 1917)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States architect (born in China in 1917)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "PSHAW",
+      "clue": "Pish! pooch!",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pish! pooch!",
+      "clueSource": "webster"
+    },
+    {
+      "id": "25A",
+      "number": 25,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "AGGRESS",
+      "clue": "To make the first attack",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Make the first attack",
+        "Take the initiative and go on the offensive",
+        "Commit the first act of hostility or offense"
+      ],
+      "definition": "To make the first attack.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "26D",
+      "number": 26,
+      "direction": "down",
+      "row": 7,
+      "col": 4,
+      "length": 3,
+      "answer": "ENG",
+      "clue": "Maker of bridges, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "TBA",
+      "clue": "Future announcement, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Future announcement, briefly",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 8,
+      "length": 4,
+      "answer": "TSAR",
+      "clue": "Old Russian ruler",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 9,
+      "length": 4,
+      "answer": "BENE",
+      "clue": "Well, in Latin",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 10,
+      "length": 4,
+      "answer": "ASTR",
+      "clue": "Star sci.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "GREENHOUSES",
+      "clue": "Buildings with glass walls and roof",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Buildings with glass walls and roof",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "ULA",
+      "clue": "Tassel of cloth, in old usage",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "EER",
+      "clue": "Always, to a bard",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "GALLANT",
+      "clue": "Possessing a brave or chivalrous spirit",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Unflinching in battle or action",
+        "Showy"
+      ],
+      "definition": "Possessing a brave or chivalrous spirit.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "DES",
+      "clue": "Synthetic nonsteroid with the properties of estrogen",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Synthetic nonsteroid with the properties of estrogen",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 6,
+      "answer": "WEARER",
+      "clue": "One who has or shows an appearance of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "One who has or shows an appearance of",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "PURPORT",
+      "clue": "Intent",
+      "definition": "Intent.",
+      "id": "10A"
+    },
+    {
+      "word": "NOXIOUS",
+      "clue": "Hurtful",
+      "definition": "Hurtful.",
+      "id": "16A"
+    },
+    {
+      "word": "AGGRESS",
+      "clue": "To make the first attack",
+      "definition": "To make the first attack.",
+      "id": "25A"
+    },
+    {
+      "word": "GALLANT",
+      "clue": "Possessing a brave or chivalrous spirit",
+      "definition": "Possessing a brave or chivalrous spirit.",
+      "id": "33A"
+    }
+  ]
+}

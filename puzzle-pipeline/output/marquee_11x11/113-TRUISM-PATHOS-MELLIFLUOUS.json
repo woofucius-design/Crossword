@@ -1,0 +1,936 @@
+{
+  "date": "2027-10-21",
+  "number": 113,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "C",
+      "L",
+      "A",
+      "M",
+      "#",
+      "M",
+      "I",
+      "S",
+      "S",
+      "A",
+      "L"
+    ],
+    [
+      "R",
+      "I",
+      "D",
+      "E",
+      "#",
+      "O",
+      "C",
+      "E",
+      "L",
+      "L",
+      "I"
+    ],
+    [
+      "A",
+      "N",
+      "I",
+      "L",
+      "#",
+      "A",
+      "C",
+      "Q",
+      "U",
+      "I",
+      "T"
+    ],
+    [
+      "F",
+      "E",
+      "E",
+      "L",
+      "S",
+      "#",
+      "#",
+      "U",
+      "T",
+      "A",
+      "H"
+    ],
+    [
+      "T",
+      "R",
+      "U",
+      "I",
+      "S",
+      "M",
+      "#",
+      "E",
+      "S",
+      "S",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "F",
+      "E",
+      "A",
+      "R",
+      "S",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "A",
+      "R",
+      "A",
+      "L",
+      "#",
+      "P",
+      "A",
+      "T",
+      "H",
+      "O",
+      "S"
+    ],
+    [
+      "B",
+      "E",
+      "A",
+      "U",
+      "#",
+      "#",
+      "W",
+      "R",
+      "E",
+      "S",
+      "T"
+    ],
+    [
+      "A",
+      "C",
+      "R",
+      "O",
+      "S",
+      "S",
+      "#",
+      "A",
+      "L",
+      "A",
+      "I"
+    ],
+    [
+      "S",
+      "C",
+      "O",
+      "U",
+      "R",
+      "S",
+      "#",
+      "T",
+      "O",
+      "K",
+      "E"
+    ],
+    [
+      "H",
+      "E",
+      "N",
+      "S",
+      "O",
+      "N",
+      "#",
+      "E",
+      "T",
+      "A",
+      "S"
+    ]
+  ],
+  "cells": {
+    "0,0": {
+      "number": 1
+    },
+    "0,1": {
+      "number": 2
+    },
+    "0,2": {
+      "number": 3
+    },
+    "0,3": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,6": {
+      "number": 6
+    },
+    "0,7": {
+      "number": 7
+    },
+    "0,8": {
+      "number": 8
+    },
+    "0,9": {
+      "number": 9
+    },
+    "0,10": {
+      "number": 10
+    },
+    "1,0": {
+      "number": 11
+    },
+    "1,5": {
+      "number": 12
+    },
+    "2,0": {
+      "number": 13
+    },
+    "2,5": {
+      "number": 14
+    },
+    "3,0": {
+      "number": 15
+    },
+    "3,4": {
+      "number": 16
+    },
+    "3,7": {
+      "number": 17
+    },
+    "4,0": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "4,7": {
+      "number": 20
+    },
+    "5,3": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "6,0": {
+      "number": 23
+    },
+    "6,1": {
+      "number": 24
+    },
+    "6,2": {
+      "number": 25
+    },
+    "6,5": {
+      "number": 26
+    },
+    "6,8": {
+      "number": 27
+    },
+    "6,9": {
+      "number": 28
+    },
+    "6,10": {
+      "number": 29
+    },
+    "7,0": {
+      "number": 30
+    },
+    "7,6": {
+      "number": 31
+    },
+    "8,0": {
+      "number": 32
+    },
+    "8,4": {
+      "number": 33
+    },
+    "8,5": {
+      "number": 34
+    },
+    "8,7": {
+      "number": 35
+    },
+    "9,0": {
+      "number": 36
+    },
+    "9,7": {
+      "number": 37
+    },
+    "10,0": {
+      "number": 38
+    },
+    "10,7": {
+      "number": 39
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 0,
+      "length": 4,
+      "answer": "CLAM",
+      "clue": "Bivalve mollusk of many kinds, especially those that are edible",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bivalve mollusk of many kinds, especially those that are edible",
+      "clueSource": "webster"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 0,
+      "length": 5,
+      "answer": "CRAFT",
+      "clue": "Make by hand and with much skill",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make by hand and with much skill",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "LINER",
+      "clue": "Hit that flies straight out from the batter",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "definition": "A vessel belonging to a steamship-line.",
+      "clueSource": "sat:wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ADIEU",
+      "clue": "Good-by",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Good-by; farewell",
+        "Farewell remark"
+      ],
+      "definition": "Good-by; farewell.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 11,
+      "answer": "MELLIFLUOUS",
+      "clue": "Sweetly or smoothly flowing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pleasing to the ear",
+        "Flowing as with honey"
+      ],
+      "definition": "Sweetly or smoothly flowing.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "5A",
+      "number": 5,
+      "direction": "across",
+      "row": 0,
+      "col": 5,
+      "length": 6,
+      "answer": "MISSAL",
+      "clue": "The book containing the service for the celebration of mass",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Book containing the service for the celebration of mass",
+        "Book containing all the prayers and responses needed to celebrate Mass...",
+        "Book containing the service of the Mass for the entire year"
+      ],
+      "definition": "The book containing the service for the celebration of mass.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "MOA",
+      "clue": "Any one of several very large extinct species of wingless birds belonging to...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any one of several very large extinct species of wingless birds belonging to...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 6,
+      "length": 3,
+      "answer": "ICC",
+      "clue": "Former independent federal agency that supervised and set rates for carriers...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Former independent federal agency that supervised and set rates for carriers...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 11,
+      "answer": "SEQUESTRATE",
+      "clue": "To confiscate",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Confiscate",
+        "Set apart from others",
+        "Sequester"
+      ],
+      "definition": "To confiscate.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "SLUTS",
+      "clue": "Woman adulterers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Woman adulterers",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "ALIAS",
+      "clue": "An assumed name",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Assumed name",
+        "Name that has been assumed temporarily",
+        "Otherwise"
+      ],
+      "definition": "An assumed name.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "LITHE",
+      "clue": "Supple",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moving and bending with ease",
+        "Listen or listen to"
+      ],
+      "definition": "Supple.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "RIDE",
+      "clue": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Be carried on the back of an animal, as a horse. To-morrow, when ye riden by...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 1,
+      "col": 5,
+      "length": 6,
+      "answer": "OCELLI",
+      "clue": "Simple eyes of insects",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 4,
+      "answer": "ANIL",
+      "clue": "Shrub of West Indies and South America that is a source of indigo dye",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Shrub of West Indies and South America that is a source of indigo dye",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 2,
+      "col": 5,
+      "length": 6,
+      "answer": "ACQUIT",
+      "clue": "To free or clear, as from accusation",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Free or clear, as from accusation",
+        "Pronounce not guilty of criminal charges"
+      ],
+      "definition": "To free or clear, as from accusation.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "FEELS",
+      "clue": "Manual stimulations of the genital area for sexual pleasure",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Manual stimulations of the genital area for sexual pleasure",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 4,
+      "length": 3,
+      "answer": "SSE",
+      "clue": "Compass heading, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 3,
+      "col": 7,
+      "length": 4,
+      "answer": "UTAH",
+      "clue": "State in the western United States",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "State in the western United States",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 6,
+      "answer": "TRUISM",
+      "clue": "A statement so plainly true as hardly to require statement or proof",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Statement so plainly true as hardly to require statement or proof",
+        "Obvious truth",
+        "Undoubted or self-evident truth"
+      ],
+      "definition": "A statement so plainly true as hardly to require statement or proof.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "MAP",
+      "clue": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Representation of the surface of the earth, or of some portion of it, showing...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 4,
+      "col": 7,
+      "length": 4,
+      "answer": "ESSE",
+      "clue": "Being, to Caesar",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21A",
+      "number": 21,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "FEARS",
+      "clue": "Regards with feelings of respect and reverence",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Regards with feelings of respect and reverence",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 5,
+      "col": 6,
+      "length": 3,
+      "answer": "RAW",
+      "clue": "Not altered from its natural state",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not altered from its natural state",
+      "clueSource": "webster"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 4,
+      "answer": "ARAL",
+      "clue": "Shrinking Asian sea",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "ABASH",
+      "clue": "Destroy the self-possession of",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Destroy the self-possession of",
+      "clueSource": "webster"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "RECCE",
+      "clue": "Reconnaissance (by shortening)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Reconnaissance (by shortening)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "AARON",
+      "clue": "Elder brother of Moses and first high priest of the Israelites",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Elder brother of Moses and first high priest of the Israelites",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 5,
+      "length": 6,
+      "answer": "PATHOS",
+      "clue": "The quality in any form of representation that rouses emotion or sympathy",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Quality in any form of representation that rouses emotion or sympathy",
+        "Quality that arouses emotions (especially pity or sorrow)",
+        "That quality or property of anything which touches the feelings or..."
+      ],
+      "definition": "The quality in any form of representation that rouses emotion or sympathy.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "HELOT",
+      "clue": "Person who is bound to the land and owned by the feudal lord",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Person who is bound to the land and owned by the feudal lord",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "OSAKA",
+      "clue": "Tennis star Naomi",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 5,
+      "answer": "STIES",
+      "clue": "Pens for swine",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Pens for swine",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "30A",
+      "number": 30,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "BEAU",
+      "clue": "An escort or lover",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Escort or lover",
+        "Man who is the lover of a girl or young woman",
+        "Man who takes great care to dress in the latest fashion"
+      ],
+      "definition": "An escort or lover.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "WREST",
+      "clue": "To pull or force away by or as by violent twisting or wringing",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Pull or force away by or as by violent twisting or wringing",
+        "Obtain by seizing forcibly or violently, also metaphorically",
+        "Turn"
+      ],
+      "definition": "To pull or force away by or as by violent twisting or wringing.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 6,
+      "answer": "ACROSS",
+      "clue": "From side to side",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "From side to side",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33D",
+      "number": 33,
+      "direction": "down",
+      "row": 8,
+      "col": 4,
+      "length": 3,
+      "answer": "SRO",
+      "clue": "Sold-out sign, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34D",
+      "number": 34,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "SSN",
+      "clue": "Govt. ID number",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Govt. ID number",
+      "clueSource": "abbrev_curated"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 7,
+      "length": 4,
+      "answer": "ALAI",
+      "clue": "Jai ___",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "36A",
+      "number": 36,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 6,
+      "answer": "SCOURS",
+      "clue": "Diarrhea in livestock",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Diarrhea in livestock",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 7,
+      "length": 4,
+      "answer": "TOKE",
+      "clue": "Puff of a marijuana or hashish cigarette",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Puff of a marijuana or hashish cigarette",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 6,
+      "answer": "HENSON",
+      "clue": "United States puppeteer who created a troupe of puppet characters (1936-1990)",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States puppeteer who created a troupe of puppet characters (1936-1990)",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 7,
+      "length": 4,
+      "answer": "ETAS",
+      "clue": "7th letters of the Greek alphabet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "7th letters of the Greek alphabet",
+      "clueSource": "inflection"
+    }
+  ],
+  "featured": [
+    {
+      "word": "MELLIFLUOUS",
+      "clue": "Sweetly or smoothly flowing",
+      "definition": "Sweetly or smoothly flowing.",
+      "id": "4D"
+    },
+    {
+      "word": "SEQUESTRATE",
+      "clue": "To confiscate",
+      "definition": "To confiscate.",
+      "id": "7D"
+    },
+    {
+      "word": "TRUISM",
+      "clue": "A statement so plainly true as hardly to require statement or proof",
+      "definition": "A statement so plainly true as hardly to require statement or proof.",
+      "id": "18A"
+    },
+    {
+      "word": "PATHOS",
+      "clue": "The quality in any form of representation that rouses emotion or sympathy",
+      "definition": "The quality in any form of representation that rouses emotion or sympathy.",
+      "id": "26A"
+    }
+  ]
+}

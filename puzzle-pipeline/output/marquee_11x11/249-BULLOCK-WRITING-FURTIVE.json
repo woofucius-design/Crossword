@@ -1,0 +1,939 @@
+{
+  "date": "2028-03-05",
+  "number": 249,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "N",
+      "A",
+      "W",
+      "A",
+      "B",
+      "#",
+      "G",
+      "A",
+      "E",
+      "L"
+    ],
+    [
+      "B",
+      "E",
+      "F",
+      "O",
+      "R",
+      "E",
+      "#",
+      "E",
+      "U",
+      "R",
+      "O"
+    ],
+    [
+      "R",
+      "A",
+      "G",
+      "T",
+      "A",
+      "G",
+      "#",
+      "O",
+      "T",
+      "I",
+      "C"
+    ],
+    [
+      "E",
+      "T",
+      "H",
+      "#",
+      "B",
+      "U",
+      "L",
+      "L",
+      "O",
+      "C",
+      "K"
+    ],
+    [
+      "D",
+      "E",
+      "A",
+      "F",
+      "#",
+      "N",
+      "E",
+      "O",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "E",
+      "N",
+      "N",
+      "U",
+      "I",
+      "#",
+      "A",
+      "G",
+      "I",
+      "L",
+      "E"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "R",
+      "I",
+      "A",
+      "#",
+      "Y",
+      "E",
+      "A",
+      "S"
+    ],
+    [
+      "W",
+      "R",
+      "I",
+      "T",
+      "I",
+      "N",
+      "G",
+      "#",
+      "Y",
+      "R",
+      "S"
+    ],
+    [
+      "A",
+      "U",
+      "D",
+      "I",
+      "#",
+      "G",
+      "A",
+      "R",
+      "A",
+      "G",
+      "E"
+    ],
+    [
+      "D",
+      "C",
+      "L",
+      "V",
+      "#",
+      "E",
+      "D",
+      "I",
+      "S",
+      "O",
+      "N"
+    ],
+    [
+      "S",
+      "K",
+      "Y",
+      "E",
+      "#",
+      "R",
+      "E",
+      "B",
+      "U",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,7": {
+      "number": 6
+    },
+    "0,8": {
+      "number": 7
+    },
+    "0,9": {
+      "number": 8
+    },
+    "0,10": {
+      "number": 9
+    },
+    "1,0": {
+      "number": 10
+    },
+    "1,7": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,4": {
+      "number": 15
+    },
+    "3,6": {
+      "number": 16
+    },
+    "4,0": {
+      "number": 17
+    },
+    "4,3": {
+      "number": 18
+    },
+    "4,5": {
+      "number": 19
+    },
+    "5,0": {
+      "number": 20
+    },
+    "5,4": {
+      "number": 21
+    },
+    "5,6": {
+      "number": 22
+    },
+    "5,8": {
+      "number": 23
+    },
+    "5,9": {
+      "number": 24
+    },
+    "5,10": {
+      "number": 25
+    },
+    "6,3": {
+      "number": 26
+    },
+    "6,5": {
+      "number": 27
+    },
+    "6,7": {
+      "number": 28
+    },
+    "7,0": {
+      "number": 29
+    },
+    "7,1": {
+      "number": 30
+    },
+    "7,2": {
+      "number": 31
+    },
+    "7,6": {
+      "number": 32
+    },
+    "7,8": {
+      "number": 33
+    },
+    "8,0": {
+      "number": 34
+    },
+    "8,5": {
+      "number": 35
+    },
+    "8,7": {
+      "number": 36
+    },
+    "9,0": {
+      "number": 37
+    },
+    "9,5": {
+      "number": 38
+    },
+    "10,0": {
+      "number": 39
+    },
+    "10,5": {
+      "number": 40
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "NAWAB",
+      "clue": "Governor in India during the Mogul empire",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Governor in India during the Mogul empire",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 6,
+      "answer": "NEATEN",
+      "clue": "Care for one's external appearance",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Care for one's external appearance",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 6,
+      "answer": "AFGHAN",
+      "clue": "Of or relating to or characteristic of Afghanistan or its people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to or characteristic of Afghanistan or its people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 3,
+      "answer": "WOT",
+      "clue": "1st & 3d pers. sing. pres. of Wit, to know. See the Note under Wit, v",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "1st & 3d pers. sing. pres. of Wit, to know. See the Note under Wit, v",
+      "clueSource": "webster"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ARAB",
+      "clue": "Gulf resident",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 5,
+      "answer": "BEGUN",
+      "clue": "Underway",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 7,
+      "length": 4,
+      "answer": "GAEL",
+      "clue": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Gaelic-speaking Celt in Ireland or Scotland or the Isle of Man",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 7,
+      "length": 7,
+      "answer": "GEOLOGY",
+      "clue": "The department of natural science that treats of the constitution and structure",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Department of natural science that treats of the constitution and structure",
+        "Science that deals with the history of the earth as recorded in rocks",
+        "Science which treats: (a) Of the structure and mineral..."
+      ],
+      "definition": "The department of natural science that treats of the constitution and structure",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 4,
+      "answer": "AUTO",
+      "clue": "Motor vehicle with four wheels",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Motor vehicle with four wheels",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 4,
+      "answer": "LOCK",
+      "clue": "Any wrestling hold in which some part of the opponent's body is twisted or...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Any wrestling hold in which some part of the opponent's body is twisted or...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10A",
+      "number": 10,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 6,
+      "answer": "BEFORE",
+      "clue": "Earlier in time",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Earlier in time",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 5,
+      "answer": "BREDE",
+      "clue": "Breadth",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Breadth",
+      "clueSource": "webster"
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 7,
+      "length": 4,
+      "answer": "EURO",
+      "clue": "Continental currency",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 6,
+      "answer": "RAGTAG",
+      "clue": "Disparaging terms for the common people",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Disparaging terms for the common people",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "13A",
+      "number": 13,
+      "direction": "across",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "OTIC",
+      "clue": "Of or relating to near the ear",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Of or relating to near the ear",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 3,
+      "answer": "ETH",
+      "clue": "Old English letter",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 4,
+      "length": 7,
+      "answer": "BULLOCK",
+      "clue": "An ox",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Ox",
+        "Castrated bull",
+        "Young bull, or any male of the ox kind. Take thy father's young..."
+      ],
+      "definition": "An ox.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "16D",
+      "number": 16,
+      "direction": "down",
+      "row": 3,
+      "col": 6,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "A field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
+      "definition": "A field.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 4,
+      "answer": "DEAF",
+      "clue": "Wanting the sense of hearing, either wholly or in part",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wanting the sense of hearing, either wholly or in part",
+      "clueSource": "webster"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 4,
+      "col": 3,
+      "length": 7,
+      "answer": "FURTIVE",
+      "clue": "Stealthy or sly, like the actions of a thief",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Secret and sly or sordid",
+        "Stolen"
+      ],
+      "definition": "Stealthy or sly, like the actions of a thief.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "19A",
+      "number": 19,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "NEO",
+      "clue": "Prefix meaning new",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 5,
+      "col": 0,
+      "length": 5,
+      "answer": "ENNUI",
+      "clue": "World-weary boredom",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 3,
+      "answer": "III",
+      "clue": "Cardinal number that is the sum of one and one and one",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cardinal number that is the sum of one and one and one",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22A",
+      "number": 22,
+      "direction": "across",
+      "row": 5,
+      "col": 6,
+      "length": 5,
+      "answer": "AGILE",
+      "clue": "Able to move or act quickly, physically, or mentally",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Moving quickly and lightly",
+        "Having the faculty of quick motion in the limbs"
+      ],
+      "definition": "Able to move or act quickly, physically, or mentally.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 5,
+      "col": 8,
+      "length": 6,
+      "answer": "IEYASU",
+      "clue": "Tokugawa shogun",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 5,
+      "col": 9,
+      "length": 6,
+      "answer": "LARGOS",
+      "clue": "Compositions or passages that are to be performed in a slow",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Compositions or passages that are to be performed in a slow",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 5,
+      "col": 10,
+      "length": 5,
+      "answer": "ESSEN",
+      "clue": "City in western Germany",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "City in western Germany",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 6,
+      "col": 3,
+      "length": 3,
+      "answer": "RIA",
+      "clue": "Narrow coastal inlet",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 6,
+      "col": 5,
+      "length": 5,
+      "answer": "ANGER",
+      "clue": "Make angry",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Make angry",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28A",
+      "number": 28,
+      "direction": "across",
+      "row": 6,
+      "col": 7,
+      "length": 4,
+      "answer": "YEAS",
+      "clue": "Affirmatives",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Affirmatives",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 7,
+      "answer": "WRITING",
+      "clue": "The act or art of tracing or inscribing on a surface letters or ideographs",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Act or art of tracing or inscribing on a surface letters or ideographs",
+        "Act or art of forming letters and characters on paper, wood,..."
+      ],
+      "definition": "The act or art of tracing or inscribing on a surface letters or ideographs.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "29D",
+      "number": 29,
+      "direction": "down",
+      "row": 7,
+      "col": 0,
+      "length": 4,
+      "answer": "WADS",
+      "clue": "Large number or amount",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Large number or amount",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 7,
+      "col": 1,
+      "length": 4,
+      "answer": "RUCK",
+      "clue": "Become wrinkled or drawn together",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Become wrinkled or drawn together",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "31D",
+      "number": 31,
+      "direction": "down",
+      "row": 7,
+      "col": 2,
+      "length": 4,
+      "answer": "IDLY",
+      "clue": "In an idle manner",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "In an idle manner",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "32D",
+      "number": 32,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "GADE",
+      "clue": "Small British fish (Motella argenteola) of the Cod family. (b) A pike, so...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Small British fish (Motella argenteola) of the Cod family. (b) A pike, so...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 7,
+      "col": 8,
+      "length": 3,
+      "answer": "YRS",
+      "clue": "Long times, briefly",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 4,
+      "answer": "AUDI",
+      "clue": "Luxury car brand",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "35A",
+      "number": 35,
+      "direction": "across",
+      "row": 8,
+      "col": 5,
+      "length": 6,
+      "answer": "GARAGE",
+      "clue": "Place for housing automobiles",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Place for housing automobiles",
+      "clueSource": "webster"
+    },
+    {
+      "id": "36D",
+      "number": 36,
+      "direction": "down",
+      "row": 8,
+      "col": 7,
+      "length": 3,
+      "answer": "RIB",
+      "clue": "Subject to laughter or ridicule",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Subject to laughter or ridicule",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "37A",
+      "number": 37,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 4,
+      "answer": "DCLV",
+      "clue": "Roman numeral for 655",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Roman numeral for 655",
+      "clueSource": "roman"
+    },
+    {
+      "id": "38A",
+      "number": 38,
+      "direction": "across",
+      "row": 9,
+      "col": 5,
+      "length": 6,
+      "answer": "EDISON",
+      "clue": "United States inventor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States inventor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "39A",
+      "number": 39,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 4,
+      "answer": "SKYE",
+      "clue": "Scottish isle",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "40A",
+      "number": 40,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "REBUS",
+      "clue": "Mode of expressing words and phrases by pictures of objects whose names...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Mode of expressing words and phrases by pictures of objects whose names...",
+      "clueSource": "webster"
+    }
+  ],
+  "featured": [
+    {
+      "word": "GEOLOGY",
+      "clue": "The department of natural science that treats of the constitution and structure",
+      "definition": "The department of natural science that treats of the constitution and structure",
+      "id": "6D"
+    },
+    {
+      "word": "BULLOCK",
+      "clue": "An ox",
+      "definition": "An ox.",
+      "id": "15A"
+    },
+    {
+      "word": "FURTIVE",
+      "clue": "Stealthy or sly, like the actions of a thief",
+      "definition": "Stealthy or sly, like the actions of a thief.",
+      "id": "18D"
+    },
+    {
+      "word": "WRITING",
+      "clue": "The act or art of tracing or inscribing on a surface letters or ideographs",
+      "definition": "The act or art of tracing or inscribing on a surface letters or ideographs.",
+      "id": "29A"
+    }
+  ]
+}

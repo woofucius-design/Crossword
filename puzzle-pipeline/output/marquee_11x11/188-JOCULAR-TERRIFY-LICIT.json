@@ -1,0 +1,914 @@
+{
+  "date": "2028-01-04",
+  "number": 188,
+  "size": {
+    "rows": 11,
+    "cols": 11
+  },
+  "solution": [
+    [
+      "#",
+      "C",
+      "A",
+      "B",
+      "A",
+      "L",
+      "#",
+      "#",
+      "T",
+      "B",
+      "S"
+    ],
+    [
+      "J",
+      "O",
+      "C",
+      "U",
+      "L",
+      "A",
+      "R",
+      "#",
+      "E",
+      "R",
+      "A"
+    ],
+    [
+      "E",
+      "N",
+      "C",
+      "O",
+      "M",
+      "P",
+      "A",
+      "S",
+      "S",
+      "E",
+      "S"
+    ],
+    [
+      "S",
+      "U",
+      "R",
+      "Y",
+      "A",
+      "#",
+      "P",
+      "A",
+      "L",
+      "A",
+      "S"
+    ],
+    [
+      "T",
+      "S",
+      "A",
+      "#",
+      "#",
+      "B",
+      "I",
+      "G",
+      "A",
+      "M",
+      "Y"
+    ],
+    [
+      "#",
+      "#",
+      "#",
+      "E",
+      "L",
+      "U",
+      "D",
+      "E",
+      "#",
+      "#",
+      "#"
+    ],
+    [
+      "O",
+      "S",
+      "I",
+      "R",
+      "I",
+      "S",
+      "#",
+      "#",
+      "A",
+      "R",
+      "E"
+    ],
+    [
+      "S",
+      "T",
+      "O",
+      "I",
+      "C",
+      "#",
+      "T",
+      "H",
+      "R",
+      "O",
+      "E"
+    ],
+    [
+      "C",
+      "O",
+      "N",
+      "C",
+      "I",
+      "L",
+      "I",
+      "A",
+      "T",
+      "O",
+      "R"
+    ],
+    [
+      "A",
+      "L",
+      "I",
+      "#",
+      "T",
+      "E",
+      "R",
+      "R",
+      "I",
+      "F",
+      "Y"
+    ],
+    [
+      "R",
+      "E",
+      "C",
+      "#",
+      "#",
+      "A",
+      "E",
+      "D",
+      "E",
+      "S",
+      "#"
+    ]
+  ],
+  "cells": {
+    "0,1": {
+      "number": 1
+    },
+    "0,2": {
+      "number": 2
+    },
+    "0,3": {
+      "number": 3
+    },
+    "0,4": {
+      "number": 4
+    },
+    "0,5": {
+      "number": 5
+    },
+    "0,8": {
+      "number": 6
+    },
+    "0,9": {
+      "number": 7
+    },
+    "0,10": {
+      "number": 8
+    },
+    "1,0": {
+      "number": 9
+    },
+    "1,6": {
+      "number": 10
+    },
+    "1,8": {
+      "number": 11
+    },
+    "2,0": {
+      "number": 12
+    },
+    "2,7": {
+      "number": 13
+    },
+    "3,0": {
+      "number": 14
+    },
+    "3,6": {
+      "number": 15
+    },
+    "4,0": {
+      "number": 16
+    },
+    "4,5": {
+      "number": 17
+    },
+    "5,3": {
+      "number": 18
+    },
+    "5,4": {
+      "number": 19
+    },
+    "6,0": {
+      "number": 20
+    },
+    "6,1": {
+      "number": 21
+    },
+    "6,2": {
+      "number": 22
+    },
+    "6,8": {
+      "number": 23
+    },
+    "6,9": {
+      "number": 24
+    },
+    "6,10": {
+      "number": 25
+    },
+    "7,0": {
+      "number": 26
+    },
+    "7,6": {
+      "number": 27
+    },
+    "7,7": {
+      "number": 28
+    },
+    "8,0": {
+      "number": 29
+    },
+    "8,5": {
+      "number": 30
+    },
+    "9,0": {
+      "number": 31
+    },
+    "9,4": {
+      "number": 32
+    },
+    "10,0": {
+      "number": 33
+    },
+    "10,5": {
+      "number": 34
+    }
+  },
+  "words": [
+    {
+      "id": "1A",
+      "number": 1,
+      "direction": "across",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CABAL",
+      "clue": "A number of persons secretly united for effecting by intrigue some private",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Number of persons secretly united for effecting by intrigue some private",
+        "Plot to carry out some harmful or illegal act (especially a political plot)",
+        "Tradition"
+      ],
+      "definition": "A number of persons secretly united for effecting by intrigue some private",
+      "clueSource": "sat"
+    },
+    {
+      "id": "1D",
+      "number": 1,
+      "direction": "down",
+      "row": 0,
+      "col": 1,
+      "length": 5,
+      "answer": "CONUS",
+      "clue": "Cone",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Cone",
+      "clueSource": "webster"
+    },
+    {
+      "id": "2D",
+      "number": 2,
+      "direction": "down",
+      "row": 0,
+      "col": 2,
+      "length": 5,
+      "answer": "ACCRA",
+      "clue": "Capital and largest city of Ghana with a deep-water port",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Capital and largest city of Ghana with a deep-water port",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "3D",
+      "number": 3,
+      "direction": "down",
+      "row": 0,
+      "col": 3,
+      "length": 4,
+      "answer": "BUOY",
+      "clue": "Bright-colored",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Bright-colored",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "4D",
+      "number": 4,
+      "direction": "down",
+      "row": 0,
+      "col": 4,
+      "length": 4,
+      "answer": "ALMA",
+      "clue": "Same as Alme",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Same as Alme",
+      "clueSource": "webster"
+    },
+    {
+      "id": "5D",
+      "number": 5,
+      "direction": "down",
+      "row": 0,
+      "col": 5,
+      "length": 3,
+      "answer": "LAP",
+      "clue": "Wash or flow against",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wash or flow against",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "6A",
+      "number": 6,
+      "direction": "across",
+      "row": 0,
+      "col": 8,
+      "length": 3,
+      "answer": "TBS",
+      "clue": "Recipe amts.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "6D",
+      "number": 6,
+      "direction": "down",
+      "row": 0,
+      "col": 8,
+      "length": 5,
+      "answer": "TESLA",
+      "clue": "United States electrical engineer and inventor (born in Croatia",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "United States electrical engineer and inventor (born in Croatia but of Serbian...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "7D",
+      "number": 7,
+      "direction": "down",
+      "row": 0,
+      "col": 9,
+      "length": 5,
+      "answer": "BREAM",
+      "clue": "Clean (a ship's bottom) with heat",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Clean (a ship's bottom) with heat",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "8D",
+      "number": 8,
+      "direction": "down",
+      "row": 0,
+      "col": 10,
+      "length": 5,
+      "answer": "SASSY",
+      "clue": "Improperly forward or bold",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Improperly forward or bold",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "9A",
+      "number": 9,
+      "direction": "across",
+      "row": 1,
+      "col": 0,
+      "length": 7,
+      "answer": "JOCULAR",
+      "clue": "Inclined to joke",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Characterized by jokes and good humor",
+        "Given to jesting"
+      ],
+      "definition": "Inclined to joke.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "9D",
+      "number": 9,
+      "direction": "down",
+      "row": 1,
+      "col": 0,
+      "length": 4,
+      "answer": "JEST",
+      "clue": "Activity characterized by good humor",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Activity characterized by good humor",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "10D",
+      "number": 10,
+      "direction": "down",
+      "row": 1,
+      "col": 6,
+      "length": 5,
+      "answer": "RAPID",
+      "clue": "Having great speed",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Done or occurring in a brief period of time",
+        "Very swift or quick"
+      ],
+      "definition": "Having great speed.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "11A",
+      "number": 11,
+      "direction": "across",
+      "row": 1,
+      "col": 8,
+      "length": 3,
+      "answer": "ERA",
+      "clue": "Notable period of history",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "12A",
+      "number": 12,
+      "direction": "across",
+      "row": 2,
+      "col": 0,
+      "length": 11,
+      "answer": "ENCOMPASSES",
+      "clue": "Includes in scope",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Includes in scope",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "13D",
+      "number": 13,
+      "direction": "down",
+      "row": 2,
+      "col": 7,
+      "length": 4,
+      "answer": "SAGE",
+      "clue": "Prudent?",
+      "isSATVocab": false,
+      "isSATSynonym": true,
+      "satSynonymOf": [
+        "PRUDENT"
+      ],
+      "satTeachingKind": "synonym",
+      "definition": "Synonym of prudent",
+      "clueSource": "sat_synonym"
+    },
+    {
+      "id": "14A",
+      "number": 14,
+      "direction": "across",
+      "row": 3,
+      "col": 0,
+      "length": 5,
+      "answer": "SURYA",
+      "clue": "Important god of later Hinduism",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Important god of later Hinduism",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "15A",
+      "number": 15,
+      "direction": "across",
+      "row": 3,
+      "col": 6,
+      "length": 5,
+      "answer": "PALAS",
+      "clue": "East Indian tree bearing a profusion of intense vermilion velvet-textured...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "East Indian tree bearing a profusion of intense vermilion velvet-textured...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "16A",
+      "number": 16,
+      "direction": "across",
+      "row": 4,
+      "col": 0,
+      "length": 3,
+      "answer": "TSA",
+      "clue": "Airport screening org.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "17A",
+      "number": 17,
+      "direction": "across",
+      "row": 4,
+      "col": 5,
+      "length": 6,
+      "answer": "BIGAMY",
+      "clue": "The crime of marrying any other person while having a legal spouse living",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Crime of marrying any other person while having a legal spouse living",
+        "Offense of marrying someone while you have a living spouse from whom no...",
+        "Offense of marrying one person when already legally married to..."
+      ],
+      "definition": "The crime of marrying any other person while having a legal spouse living.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "17D",
+      "number": 17,
+      "direction": "down",
+      "row": 4,
+      "col": 5,
+      "length": 3,
+      "answer": "BUS",
+      "clue": "Vehicle carrying many passengers",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Vehicle carrying many passengers",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "18A",
+      "number": 18,
+      "direction": "across",
+      "row": 5,
+      "col": 3,
+      "length": 5,
+      "answer": "ELUDE",
+      "clue": "To evade the search or pursuit of by dexterity or artifice",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Evade the search or pursuit of by dexterity or artifice",
+        "Avoid or try to avoid fulfilling, answering, or performing (duties, questions,...",
+        "Avoid slyly, by artifice, stratagem, or dexterity"
+      ],
+      "definition": "To evade the search or pursuit of by dexterity or artifice.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "18D",
+      "number": 18,
+      "direction": "down",
+      "row": 5,
+      "col": 3,
+      "length": 4,
+      "answer": "ERIC",
+      "clue": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Recompense formerly given by a murderer to the relatives of the murdered...",
+      "clueSource": "webster"
+    },
+    {
+      "id": "19D",
+      "number": 19,
+      "direction": "down",
+      "row": 5,
+      "col": 4,
+      "length": 5,
+      "answer": "LICIT",
+      "clue": "Lawful",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Authorized, sanctioned by, or in accordance with law"
+      ],
+      "definition": "Lawful.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "20A",
+      "number": 20,
+      "direction": "across",
+      "row": 6,
+      "col": 0,
+      "length": 6,
+      "answer": "OSIRIS",
+      "clue": "Egyptian god of the underworld and judge of the dead",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Egyptian god of the underworld and judge of the dead",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "20D",
+      "number": 20,
+      "direction": "down",
+      "row": 6,
+      "col": 0,
+      "length": 5,
+      "answer": "OSCAR",
+      "clue": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Annual award by the Academy of Motion Picture Arts and Sciences for...",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "21D",
+      "number": 21,
+      "direction": "down",
+      "row": 6,
+      "col": 1,
+      "length": 5,
+      "answer": "STOLE",
+      "clue": "Wide scarf worn about their shoulders by women",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Wide scarf worn about their shoulders by women",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "22D",
+      "number": 22,
+      "direction": "down",
+      "row": 6,
+      "col": 2,
+      "length": 5,
+      "answer": "IONIC",
+      "clue": "Containing or involving or occurring in the form of ions",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Containing or involving or occurring in the form of ions",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "23A",
+      "number": 23,
+      "direction": "across",
+      "row": 6,
+      "col": 8,
+      "length": 3,
+      "answer": "ARE",
+      "clue": "Exist",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "23D",
+      "number": 23,
+      "direction": "down",
+      "row": 6,
+      "col": 8,
+      "length": 5,
+      "answer": "ARTIE",
+      "clue": "Bandleader Shaw",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "24D",
+      "number": 24,
+      "direction": "down",
+      "row": 6,
+      "col": 9,
+      "length": 5,
+      "answer": "ROOFS",
+      "clue": "Protective coverings that cover or form the top of a building",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Protective coverings that cover or form the top of a building",
+      "clueSource": "inflection"
+    },
+    {
+      "id": "25D",
+      "number": 25,
+      "direction": "down",
+      "row": 6,
+      "col": 10,
+      "length": 4,
+      "answer": "EERY",
+      "clue": "Spooky, var.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "26A",
+      "number": 26,
+      "direction": "across",
+      "row": 7,
+      "col": 0,
+      "length": 5,
+      "answer": "STOIC",
+      "clue": "Unmoved by pain or hardship",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Enduring hardship without showing feelings",
+        "Seeming unaffected by pleasure or pain",
+        "Disciple of the philosopher Zeno"
+      ],
+      "definition": "enduring hardship without showing feelings",
+      "clueSource": "sat"
+    },
+    {
+      "id": "27A",
+      "number": 27,
+      "direction": "across",
+      "row": 7,
+      "col": 6,
+      "length": 5,
+      "answer": "THROE",
+      "clue": "Extreme pain",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Extreme pain",
+      "clueSource": "webster"
+    },
+    {
+      "id": "27D",
+      "number": 27,
+      "direction": "down",
+      "row": 7,
+      "col": 6,
+      "length": 4,
+      "answer": "TIRE",
+      "clue": "Hoop that covers a wheel",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Hoop that covers a wheel",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "28D",
+      "number": 28,
+      "direction": "down",
+      "row": 7,
+      "col": 7,
+      "length": 4,
+      "answer": "HARD",
+      "clue": "Not easy",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Not easy",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "29A",
+      "number": 29,
+      "direction": "across",
+      "row": 8,
+      "col": 0,
+      "length": 11,
+      "answer": "CONCILIATOR",
+      "clue": "Someone who tries to bring peace",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Someone who tries to bring peace",
+      "clueSource": "wordnet"
+    },
+    {
+      "id": "30D",
+      "number": 30,
+      "direction": "down",
+      "row": 8,
+      "col": 5,
+      "length": 3,
+      "answer": "LEA",
+      "clue": "A field",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Field",
+        "Field covered with grass or herbage and suitable for grazing by livestock",
+        "Measure of yarn"
+      ],
+      "definition": "A field.",
+      "clueSource": "sat"
+    },
+    {
+      "id": "31A",
+      "number": 31,
+      "direction": "across",
+      "row": 9,
+      "col": 0,
+      "length": 3,
+      "answer": "ALI",
+      "clue": "Boxing legend Muhammad",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "32A",
+      "number": 32,
+      "direction": "across",
+      "row": 9,
+      "col": 4,
+      "length": 7,
+      "answer": "TERRIFY",
+      "clue": "To fill with extreme fear",
+      "isSATVocab": true,
+      "isSATSynonym": false,
+      "altClues": [
+        "Fill with extreme fear",
+        "Fill with terror",
+        "Make terrible"
+      ],
+      "definition": "To fill with extreme fear.",
+      "clueSource": "sat",
+      "isMarquee": true
+    },
+    {
+      "id": "33A",
+      "number": 33,
+      "direction": "across",
+      "row": 10,
+      "col": 0,
+      "length": 3,
+      "answer": "REC",
+      "clue": "Park-and-___ dept.",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "clueSource": "hand"
+    },
+    {
+      "id": "34A",
+      "number": 34,
+      "direction": "across",
+      "row": 10,
+      "col": 5,
+      "length": 5,
+      "answer": "AEDES",
+      "clue": "Yellow-fever mosquitos",
+      "isSATVocab": false,
+      "isSATSynonym": false,
+      "definition": "Yellow-fever mosquitos",
+      "clueSource": "wordnet"
+    }
+  ],
+  "featured": [
+    {
+      "word": "JOCULAR",
+      "clue": "Inclined to joke",
+      "definition": "Inclined to joke.",
+      "id": "9A"
+    },
+    {
+      "word": "RAPID",
+      "clue": "Having great speed",
+      "definition": "Having great speed.",
+      "id": "10D"
+    },
+    {
+      "word": "LICIT",
+      "clue": "Lawful",
+      "definition": "Lawful.",
+      "id": "19D"
+    },
+    {
+      "word": "TERRIFY",
+      "clue": "To fill with extreme fear",
+      "definition": "To fill with extreme fear.",
+      "id": "32A"
+    }
+  ]
+}
