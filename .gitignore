@@ -26,3 +26,8 @@ __pycache__/
 *.pyc
 puzzle-pipeline/data/clean_fill.json
 puzzle-pipeline/data/xwordlist.dict
+
+# Staging dirs for a puzzle regeneration run. A run writes here first and is
+# promoted into puzzle-pipeline/output/ only once it completes and verifies —
+# committing a half-written set would ship a partial calendar.
+puzzle-pipeline/output/v2_*/
