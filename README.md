@@ -14,9 +14,14 @@ npm install
 npm start          # then press i / a, or scan with Expo Go
 ```
 
-The app runs fully offline out of the box: it ships with demo collection data
-and local fallbacks for every AI feature. To enable the real backend, copy
-`.env.example` to `.env` and fill in your Supabase credentials.
+The app runs fully offline out of the box. v1 has **no backend by design**:
+300 puzzles ship inside the binary, progress lives on the device, and there is
+no signup — so there is no server bill and nothing between opening the app and
+playing. The AI features fall back to local content. To enable the real
+backend, copy `.env.example` to `.env` and fill in your Supabase credentials.
+
+Puzzle content is generated offline and committed as `src/data/corpus.json` —
+see [`docs/MOBILE.md`](docs/MOBILE.md#puzzle-content) to regenerate it.
 
 For building and shipping on iOS and Android — EAS profiles, icon generation,
 and the Android-specific behaviour the code deliberately handles — see
