@@ -4,6 +4,7 @@ import {
   Modal,
   Pressable,
   ScrollView,
+  Share,
   StyleSheet,
   Text,
   View,
@@ -21,6 +22,8 @@ import { Button } from '@/components/Button';
 import { colors, maxContentWidth, radius, shadows } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { easing } from '@/theme/animations';
+import { buildShareText } from '@/data/share';
+import { select } from '@/theme/haptics';
 
 export interface RecapWord {
   word: string;
@@ -102,6 +105,17 @@ export function CompletionSheet({
 
   const newCount = words.filter((w) => w.isNew).length;
 
+  const onShare = async () => {
+    select();
+    try {
+      await Share.share({
+        message: buildShareText({ puzzleNumber, durationSeconds, words, streak }),
+      });
+    } catch {
+      // Dismissing the share sheet rejects on some platforms; not an error.
+    }
+  };
+
   return (
     <Modal
       visible={visible}
@@ -140,6 +154,15 @@ export function CompletionSheet({
             <Stat value={String(words.length)} label="SAT words" tint={colors.yellow} />
             <Stat value={`${streak}`} label="Day streak" tint={colors.orange} />
           </View>
+
+          <Pressable
+            style={styles.shareRow}
+            onPress={onShare}
+            accessibilityRole="button"
+            accessibilityLabel="Share your result"
+          >
+            <Text style={styles.shareText}>Share result</Text>
+          </Pressable>
 
           {words.length > 0 && (
             <>
@@ -277,6 +300,21 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
     letterSpacing: 0.4,
     marginTop: 3,
+  },
+  shareRow: {
+    alignSelf: 'center',
+    marginTop: 14,
+    paddingVertical: 7,
+    paddingHorizontal: 16,
+    borderRadius: radius.pill,
+    borderWidth: 1,
+    borderColor: colors.border,
+    backgroundColor: colors.surface,
+  },
+  shareText: {
+    fontFamily: fonts.bodyExtra,
+    fontSize: 12,
+    color: colors.textMuted,
   },
   recapHeader: {
     flexDirection: 'row',

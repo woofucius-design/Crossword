@@ -1,8 +1,29 @@
 import type { CollectedWord, UserProfile } from '@/types/models';
 
 /**
- * Seed data so the Collection / Review / Home screens are populated before a
- * Supabase backend is wired up. Replaced by real queries in production.
+ * The profile a player has before they tell us anything about themselves.
+ *
+ * Onboarding is optional and deferred — a first-time player goes straight to
+ * a puzzle — so every screen has to render against this. Streak 0 and an
+ * empty collection are the honest starting values; they fill in by playing.
+ */
+export function guestProfile(): UserProfile {
+  return {
+    id: 'local',
+    username: 'Player',
+    avatar: 'owl',
+    goal: '1400+',
+    testDate: 'unsure',
+    level: 'Beginner',
+    streak: 0,
+    classId: undefined,
+    createdAt: new Date().toISOString(),
+  };
+}
+
+/**
+ * Development seed for populated Collection / Review / Home screens. NOT the
+ * default state — see defaultState() in AppStore.
  */
 export const demoUser: UserProfile = {
   id: 'demo-user',

@@ -14,7 +14,7 @@ import type {
   UserProfile,
 } from '@/types/models';
 import type { PuzzleCompletion } from '@/types/models';
-import { demoCollectedWords, demoUser } from '@/data/demoData';
+import { guestProfile } from '@/data/demoData';
 import { nextTier } from '@/data/retention';
 
 const STORAGE_KEY = 'lexicon.appstate.v1';
@@ -41,13 +41,24 @@ interface AppStore extends PersistedState {
 
 const AppContext = createContext<AppStore | null>(null);
 
+/**
+ * A new install starts genuinely empty.
+ *
+ * It used to seed `demoUser` and 22 pre-collected words, which was fine while
+ * this was a design prototype and wrong for a real first run: the reward for
+ * collecting your first word evaporates when the app hands you a stranger's
+ * collection and a 7-day streak you didn't earn.
+ *
+ * Import the demo seed explicitly (see demoData.ts) when you want populated
+ * screens for development.
+ */
 function defaultState(): PersistedState {
   return {
-    profile: demoUser,
-    collectedWords: demoCollectedWords,
+    profile: guestProfile(),
+    collectedWords: [],
     submissions: [],
     completions: [],
-    onboarded: true,
+    onboarded: false,
   };
 }
 

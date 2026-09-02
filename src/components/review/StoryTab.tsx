@@ -37,6 +37,10 @@ export function StoryTab({ words }: StoryTabProps) {
   );
 
   const generate = useCallback(async () => {
+    if (words.length === 0) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     const targets = words.slice(0, 8).map((w) => w.word);
     const result = await generatePassage(targets, absurdity);
@@ -49,6 +53,15 @@ export function StoryTab({ words }: StoryTabProps) {
     generate();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [absurdity]);
+
+  if (words.length === 0) {
+    return (
+      <Text style={styles.empty}>
+        Solve a puzzle to collect words, then they'll show up here woven into
+        a story.
+      </Text>
+    );
+  }
 
   return (
     <View>
@@ -134,6 +147,14 @@ export function StoryTab({ words }: StoryTabProps) {
 }
 
 const styles = StyleSheet.create({
+  empty: {
+    fontFamily: fonts.body,
+    fontSize: 12.5,
+    color: colors.textMuted,
+    textAlign: 'center',
+    marginTop: 30,
+    lineHeight: 19,
+  },
   headerCard: {
     flexDirection: 'row',
     alignItems: 'center',

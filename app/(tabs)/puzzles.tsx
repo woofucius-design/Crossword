@@ -6,7 +6,7 @@ import { ScreenBackground } from '@/components/ScreenBackground';
 import { colors, radius, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { daysAgoISO } from '@/data/dates';
-import { samplePuzzle } from '@/data/samplePuzzle';
+import { currentPuzzleDate, getPuzzle, hasPuzzleFor } from '@/data/puzzles';
 import { useApp } from '@/stores/AppStore';
 
 interface ArchiveItem {
@@ -15,14 +15,7 @@ interface ArchiveItem {
   label: string;
   solved: boolean;
   satWords: number;
-}
-
-/** Deterministic per-date stand-in for the SAT count, until real puzzles
- *  land. Math.random() here re-rolled the archive on every remount. */
-function satWordCount(iso: string): number {
-  let h = 0;
-  for (let i = 0; i < iso.length; i++) h = (h * 31 + iso.charCodeAt(i)) | 0;
-  return 5 + (Math.abs(h) % 3);
+  size: number;
 }
 
 export default function PuzzlesScreen() {
@@ -31,21 +24,29 @@ export default function PuzzlesScreen() {
   const insets = useSafeAreaInsets();
 
   const archive = useMemo<ArchiveItem[]>(() => {
-    const today = new Date();
-    // Real completions, not a random flag: the archive used to invent solved
-    // states, which now openly contradicts Home and the recorded streak.
     const done = new Set(completions.map((c) => c.puzzleDate));
-    return Array.from({ length: 14 }, (_, i) => {
-      const iso = daysAgoISO(i, today);
-      const d = new Date(`${iso}T12:00:00`);
-      return {
+    // Anchored on the newest published puzzle rather than the wall clock, so
+    // the list never shows days the corpus has no puzzle for.
+    const newest = currentPuzzleDate();
+    const rows: ArchiveItem[] = [];
+    for (let i = 0; rows.length < 14; i++) {
+      const iso = daysAgoISO(i, new Date(`${newest}T12:00:00`));
+      if (!hasPuzzleFor(iso)) break;
+      const puzzle = getPuzzle(iso);
+      rows.push({
         date: iso,
-        number: samplePuzzle.number - i,
-        label: d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }),
+        number: puzzle.number,
+        label: new Date(`${iso}T12:00:00`).toLocaleDateString('en-US', {
+          weekday: 'short',
+          month: 'short',
+          day: 'numeric',
+        }),
         solved: done.has(iso),
-        satWords: satWordCount(iso),
-      };
-    });
+        satWords: puzzle.words.filter((w) => w.isSATVocab).length,
+        size: puzzle.size.cols,
+      });
+    }
+    return rows;
   }, [completions]);
 
   return (
@@ -94,7 +95,7 @@ export default function PuzzlesScreen() {
                   )}
                 </View>
                 <Text style={styles.cardMeta}>
-                  {item.label} · {item.satWords} SAT words
+                  {item.label} · {item.satWords} SAT words · {item.size}×{item.size}
                 </Text>
               </View>
               <Text

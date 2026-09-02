@@ -100,6 +100,50 @@ def load_tier3_force() -> set[str]:
     return out
 
 
+def load_clueable() -> set[str]:
+    """Every answer we can actually put a clue on.
+
+    Having a definition is not enough: the generator refuses any clue that
+    leaks its own answer, so an inflected form whose every gloss contains the
+    root (SEVENS -> "...seven...", OILED -> "...oil...") has a definition and
+    still ships blank. The predicate has to be "owns at least one
+    NON-LEAKING candidate", mirroring the selection in generator.py.
+    """
+    from morphology import clue_leaks
+
+    words: set[str] = set()
+
+    # Hand and AI fill clues are written not to leak, but verify anyway —
+    # cheap, and it keeps a bad hand clue from silently reaching a grid.
+    for name in ("fill_clues_ai.json", "fill_clues.json"):
+        path = HERE / "data" / name
+        if path.exists():
+            for w, clue in json.loads(path.read_text()).items():
+                if clue and not clue_leaks(w, clue):
+                    words.add(w)
+
+    sat_path = HERE / "data" / "sat_words.json"
+    if sat_path.exists():
+        for e in json.loads(sat_path.read_text()):
+            # SAT entries carry curated clues plus alternates; the bank is
+            # the whole point of the app, so keep them and let the generator
+            # pick among their candidates.
+            words.add(e["word"])
+
+    defs_path = HERE / "data" / "definitions.json"
+    if defs_path.exists():
+        for w, d in json.loads(defs_path.read_text()).items():
+            if w in words:
+                continue
+            for cand in [d] + d.get("alternates", []):
+                text = cand.get("definition", "")
+                if text and not clue_leaks(w, text):
+                    words.add(w)
+                    break
+
+    return words
+
+
 def main() -> None:
     scowl_all = load_alpha_upper(SCOWL_SRC)
     scowl_lower = load_alpha_lower_in_scowl()
@@ -207,6 +251,18 @@ def main() -> None:
         tier3 -= teaching
         print(f"teaching words boosted to tier-1 front: {len(teaching):,} "
               f"({len(new_phrases)} new phrase entries)")
+
+    # Cluability is a hard constraint, not a nice-to-have: an answer with no
+    # clue source cannot be presented to a solver. Without this the generator
+    # was free to place any of ~61k unclueable entries, and 6% of all placed
+    # words shipped with a blank clue — affecting 89% of generated puzzles.
+    clueable = load_clueable()
+    before = len(tier1) + len(tier2) + len(tier3)
+    tier1 &= clueable
+    tier2 &= clueable
+    tier3 &= clueable
+    dropped = before - (len(tier1) + len(tier2) + len(tier3))
+    print(f"dropped as unclueable:              {dropped:>7,}")
 
     no_rank = len(freq) + 1
     tier1_sorted = sorted(

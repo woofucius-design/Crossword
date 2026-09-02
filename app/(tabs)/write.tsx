@@ -49,6 +49,9 @@ export default function WriteScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { collectedWords, addSubmission, profile } = useApp();
+  // Same reasoning as Home: no roster, no classmates, no competition. A solo
+  // student shouldn't be told they're ranked against five invented names.
+  const inClass = !!profile?.classId;
 
   const targetWords = useMemo(() => {
     const fromCollection = collectedWords.slice(0, 5).map((w) => w.word);
@@ -169,11 +172,15 @@ export default function WriteScreen() {
           </Pressable>
           <View style={{ flex: 1 }}>
             <Text style={styles.title}>Passage Writing</Text>
-            <Text style={styles.subtitle}>Ms. Harmander's class</Text>
+            <Text style={styles.subtitle}>
+              {inClass ? "Ms. Harmander's class" : 'Use your words in context'}
+            </Text>
           </View>
-          <View style={styles.compBadge}>
-            <Text style={styles.compText}>Class Competition</Text>
-          </View>
+          {inClass && (
+            <View style={styles.compBadge}>
+              <Text style={styles.compText}>Class Competition</Text>
+            </View>
+          )}
         </View>
 
         {phase === 'form' && (
@@ -304,7 +311,9 @@ export default function WriteScreen() {
               </View>
             ))}
 
-            {/* Leaderboard */}
+            {inClass && (
+              <>
+{/* Leaderboard */}
             <Text style={styles.sectionLabel}>CLASS LEADERBOARD</Text>
             <View style={styles.leaderboard}>
               {LEADERBOARD.map((entry) => {
@@ -333,6 +342,8 @@ export default function WriteScreen() {
                   </View>
                 ))}
             </View>
+              </>
+            )}
 
             <Button label="Write Another" onPress={reset} style={{ marginTop: 18 }} />
           </>

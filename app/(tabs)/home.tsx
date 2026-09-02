@@ -17,7 +17,7 @@ import { colors, radius, shadows, spacing } from '@/theme/tokens';
 import { fonts } from '@/theme/typography';
 import { useApp } from '@/stores/AppStore';
 import { localISODate } from '@/data/dates';
-import { samplePuzzle } from '@/data/samplePuzzle';
+import { currentPuzzleDate, getPuzzle } from '@/data/puzzles';
 import { isSlipping, isDue } from '@/data/retention';
 
 const DATE_FMT = new Intl.DateTimeFormat('en-US', {
@@ -37,11 +37,14 @@ function fmtDuration(total: number): string {
 export default function HomeScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { profile, collectedWords, completionFor } = useApp();
+  const { profile, collectedWords, completions, onboarded, completionFor } = useApp();
   // Keyed on today's date rather than the bundled sample's baked-in date:
   // getPuzzle() currently serves that one sample for every date, so using it
   // would record a single completion for all time and pin Home to "Solved".
-  const today = localISODate();
+  // The corpus is finite, so "today's puzzle" holds at the newest published
+  // one once the calendar runs past the end.
+  const today = currentPuzzleDate();
+  const todayPuzzle = getPuzzle(today);
   const todayDone = completionFor(today);
 
   const [tickerIndex, setTickerIndex] = useState(0);
@@ -64,7 +67,14 @@ export default function HomeScreen() {
     [collectedWords],
   );
 
-  const featured = samplePuzzle.words.filter((w) => w.isSATVocab).slice(0, 4);
+  const featured = todayPuzzle.words.filter((w) => w.isSATVocab).slice(0, 4);
+
+  // Class features are real but unbuilt: no backend, no roster, no rank. Until
+  // a player actually belongs to a class, showing a rank, a named teacher's
+  // "LIVE" challenge and a ticker of classmate activity is just fiction on the
+  // home screen. Gated rather than deleted — the schema supports classes and
+  // the demo profile still exercises this path.
+  const inClass = !!profile?.classId;
 
   return (
     <ScreenBackground floatingOpacity={0.7}>
@@ -92,7 +102,16 @@ export default function HomeScreen() {
           <StatTile icon="🔥" value={String(profile?.streak ?? 0)} label="Streak" tint={colors.orange} />
           <StatTile icon="📚" value={String(stats.collected)} label="Collected" tint={colors.yellow} />
           <StatTile icon="◆" value={String(stats.mastered)} label="Mastered" tint={colors.masteryMastered} />
-          <StatTile icon="🏆" value="#3" label="Class Rank" tint={colors.mint} />
+          {inClass ? (
+            <StatTile icon="🏆" value="#3" label="Class Rank" tint={colors.mint} />
+          ) : (
+            <StatTile
+              icon="🏆"
+              value={String(completions.length)}
+              label="Solved"
+              tint={colors.mint}
+            />
+          )}
         </View>
 
         {/* Daily puzzle card */}
@@ -119,14 +138,14 @@ export default function HomeScreen() {
                     </View>
                   )}
                 </View>
-                <Text style={styles.puzzleTitle}>Puzzle #{samplePuzzle.number}</Text>
+                <Text style={styles.puzzleTitle}>Puzzle #{todayPuzzle.number}</Text>
                 <Text style={styles.puzzleMeta}>
                   {todayDone
                     ? `Solved in ${fmtDuration(todayDone.durationSeconds)}`
-                    : `${featured.length} SAT words · ~5 min`}
+                    : `${todayPuzzle.words.filter((w) => w.isSATVocab).length} SAT words · ${todayPuzzle.size.cols}×${todayPuzzle.size.rows}`}
                 </Text>
               </View>
-              <MiniGrid solution={samplePuzzle.solution} />
+              <MiniGrid solution={todayPuzzle.solution} />
             </View>
 
             <Text style={styles.sectionMicro}>TODAY'S FEATURED WORDS INCLUDE</Text>
@@ -148,6 +167,28 @@ export default function HomeScreen() {
             </LinearGradient>
           </LinearGradient>
         </Pressable>
+
+        {/* Offered only after a first solve: personalising is worth something
+            once you've seen what the app does, and is pure friction before. */}
+        {!onboarded && completions.length > 0 && (
+          <Pressable
+            style={styles.setupBanner}
+            onPress={() => router.push('/(auth)/onboarding')}
+            accessibilityRole="button"
+            accessibilityLabel="Personalize your prep"
+          >
+            <Text style={styles.aiIcon}>✨</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={styles.aiTitle}>Make it yours</Text>
+              <Text style={styles.aiBody}>
+                Set a score goal and test date to tune your review schedule.
+              </Text>
+            </View>
+            <View style={styles.aiCta}>
+              <Text style={styles.aiCtaText}>Set up →</Text>
+            </View>
+          </Pressable>
+        )}
 
         {/* AI notice banner */}
         {slipping.length > 0 && (
@@ -196,13 +237,14 @@ export default function HomeScreen() {
           <QuickAction
             icon="🏆"
             tint={colors.orange}
-            title="Rankings"
-            sub="You're #3"
+            title={inClass ? 'Rankings' : 'Progress'}
+            sub={inClass ? "You're #3" : `${stats.mastered} mastered`}
             onPress={() => router.push('/(tabs)/profile')}
           />
         </View>
 
         {/* Class challenge banner */}
+        {inClass && (
         <Pressable onPress={() => router.push('/write')}>
           <LinearGradient
             colors={['#4338CA', '#6366F1']}
@@ -227,15 +269,18 @@ export default function HomeScreen() {
             </View>
           </LinearGradient>
         </Pressable>
+        )}
 
         {/* Activity ticker */}
-        <View style={styles.ticker}>
-          <View style={styles.tickerDot} />
-          <Text style={styles.tickerText}>
-            Your class just collected{' '}
-            <Text style={styles.tickerWord}>{TICKER_WORDS[tickerIndex]}</Text>
-          </Text>
-        </View>
+        {inClass && (
+          <View style={styles.ticker}>
+            <View style={styles.tickerDot} />
+            <Text style={styles.tickerText}>
+              Your class just collected{' '}
+              <Text style={styles.tickerWord}>{TICKER_WORDS[tickerIndex]}</Text>
+            </Text>
+          </View>
+        )}
       </ScrollView>
     </ScreenBackground>
   );
@@ -451,6 +496,17 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: '#3A2A00',
     letterSpacing: 0.3,
+  },
+  setupBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: 'rgba(255,229,102,0.07)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,229,102,0.22)',
+    borderRadius: radius.card,
+    padding: 12,
+    marginTop: 12,
   },
   aiBanner: {
     flexDirection: 'row',
